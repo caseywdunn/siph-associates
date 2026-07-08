@@ -17,7 +17,7 @@ each study is a first-class covariate, not a hierarchy.
 ```
 README.md              this file
 PLAN.md                the analysis plan — symmetric pipeline (S0–S9) + locked parameters
-manifest.csv           unified specimen/library manifest (206 libraries; the S0 input)
+manifest.csv           unified specimen/library manifest (185 public libraries; the S0 input)
 scripts/
   build_manifest.py    reproducibly builds manifest.csv from data/sources/
 data/sources/          source supplements from the three studies (provenance)
@@ -30,9 +30,12 @@ data/results/          analysis outputs (not tracked)
 sequencing library** (the analysis unit), with `specimen_id` (YPM voucher)
 grouping libraries of the same animal and `also_in_studies` flagging specimens
 shared across studies. It carries identity/provenance, taxonomy, collection data,
-and sequencing/data columns (SRA run, BioProject, McCleary path). Cells still
-needing external gathering are marked `TODO:<what>` (SRA runs for Church/Ahuja
-2024, Church raw-read paths, congener CO1 species, lat/long normalization).
+and sequencing/data columns (SRA run, BioProject, McCleary path). **Public data
+only:** 185 libraries, each with an SRA accession (Church PRJNA1092115, Ahuja 2024
+PRJNA925656, Ahuja 2026 PRJNA1252167/PRJNA925656). A handful of Church specimens
+with technical issues were not published and are excluded. The only field not
+fully resolved is per-specimen *Nanomia* CO1 species for the 7 Rhode-Island /
+Hawai'i congeners (marked `Nanomia sp.`; needs Ahuja's CO1 calls).
 
 Rebuild it with:
 
