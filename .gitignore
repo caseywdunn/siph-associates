@@ -1,0 +1,14 @@
+# Only code, docs, and the manifest are tracked. Data/results live outside git.
+data/results/
+*.fastq
+*.fastq.gz
+*.bam
+*.fasta
+*.fna
+*.fa
+*.gz
+__pycache__/
+*.pyc
+
+# binary source supplements (cite by DOI; parsed tsv are tracked)
+data/sources/*.xlsx

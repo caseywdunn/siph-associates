@@ -1,0 +1,156 @@
+# samples_metadata.tsv
+# source: Table_S7.xlsx (Church et al. 2025 supplemental)
+# generated: 2026-05-13 by scripts/extract_metadata.py
+# cluster→species: A=Physalia physalis, B1=Physalia utriculus, B2=Physalia sp1, C1=Physalia megalista, C2=Physalia minuta
+sample	cluster	species	ocean_region	location	latitude	longitude
+FM-16644	A	Physalia physalis	NE Atlantic	Canary Islands	28.59194	-17.92091
+NIWA-173304	C2	Physalia minuta	SW Pacific	New Zealand	-36.89515	174.443889
+NIWA-173305	C2	Physalia minuta	SW Pacific	New Zealand	-36.89515	174.443889
+OA-190531-1	B1	Physalia utriculus	SW Pacific	New South Wales	-33.8915	151.2767
+OA-Bluebottle	B1	Physalia utriculus	SW Pacific	New South Wales	-33.9203	151.2581
+TMAG-K5632	C1	Physalia megalista	SW Pacific	Tasmania	-41.8639	148.2865
+TMAG-K5633	C2	Physalia minuta	SW Pacific	Tasmania	-41.8639	148.2865
+TMAG-K5634	C2	Physalia minuta	SW Pacific	Tasmania	-41.8639	148.2865
+TMAG-K5635	C2	Physalia minuta	SW Pacific	Tasmania	-41.8639	148.2865
+TMAG-K5636	C2	Physalia minuta	SW Pacific	Tasmania	-41.8639	148.2865
+WAM-Z88480	C1	Physalia megalista	E Indian	Western Australia	-31.908144	115.754811
+WAM-Z97900	C1	Physalia megalista	E Indian	Western Australia	-31.855786	115.751741
+WAM-Z97901	C1	Physalia megalista	E Indian	Western Australia	-31.855786	115.751741
+WAM-Z97902	B1	Physalia utriculus	E Indian	Western Australia	-31.855786	115.751741
+WAM-Z97903	C1	Physalia megalista	E Indian	Western Australia	-31.855786	115.751741
+WAM-Z97906	C1	Physalia megalista	E Indian	Western Australia	-31.855786	115.751741
+WAM-Z97907	B1	Physalia utriculus	E Indian	Western Australia	-31.855786	115.751741
+WAM-Z97908	B1	Physalia utriculus	E Indian	Western Australia	-31.855786	115.751741
+WAM-Z97910	B1	Physalia utriculus	E Indian	Western Australia	-31.855786	115.751741
+WAM-Z97911	B1	Physalia utriculus	E Indian	Western Australia	-31.855786	115.751741
+WAM-Z97914	B1	Physalia utriculus	E Indian	Western Australia	-31.855786	115.751741
+WAM-Z97916	B1	Physalia utriculus	E Indian	Western Australia	-31.855786	115.751741
+WAM-Z97917	B1	Physalia utriculus	SW Pacific	New South Wales	-33.787002	151.288609
+WAM-Z97920	C1	Physalia megalista	SW Pacific	New South Wales	-33.987424	151.231329
+WAM-Z97921	B1	Physalia utriculus	SW Pacific	Queensland	-26.784003	153.140596
+WAM-Z97923	B1	Physalia utriculus	SW Pacific	Queensland	-26.784003	153.140596
+YPM-IZ-104460	B1	Physalia utriculus	NW Pacific	Guam	13.427861	144.798518
+YPM-IZ-104461	B1	Physalia utriculus	NW Pacific	Guam	13.427861	144.798518
+YPM-IZ-104464	B1	Physalia utriculus	NW Pacific	Guam	13.427861	144.798518
+YPM-IZ-104465	B1	Physalia utriculus	NW Pacific	Guam	13.427861	144.798518
+YPM-IZ-106919	B1	Physalia utriculus	NW Pacific	Japan	35.30739	139.480651
+YPM-IZ-106920	B1	Physalia utriculus	NW Pacific	Japan	35.30739	139.480651
+YPM-IZ-106923	B1	Physalia utriculus	NW Pacific	Japan	35.30739	139.480651
+YPM-IZ-106935	A	Physalia physalis	Gulf of Mexico	Texas	29.19532	-94.8429383
+YPM-IZ-106936	A	Physalia physalis	Gulf of Mexico	Texas	29.19532	-94.8429383
+YPM-IZ-106937	A	Physalia physalis	Gulf of Mexico	Texas	29.19532	-94.8429383
+YPM-IZ-106941	A	Physalia physalis	NW Atlantic	Bermuda	32.323333	-64.6563
+YPM-IZ-106943	A	Physalia physalis	NW Atlantic	Bermuda	32.341117	-64.669133
+YPM-IZ-106954	A	Physalia physalis	NW Atlantic	Bermuda	32.367233	-64.71455
+YPM-IZ-106958	A	Physalia physalis	Gulf of Mexico	Texas	29.19532	-94.842938
+YPM-IZ-110251	A	Physalia physalis	NW Atlantic	Florida	25.73706	-80.15279
+YPM-IZ-110254	A	Physalia physalis	NW Atlantic	Florida	25.73647	-80.1535
+YPM-IZ-110264	B1	Physalia utriculus	Central Pacific	Hawai'i	22.069018	-159.316685
+YPM-IZ-110268	B1	Physalia utriculus	Central Pacific	Hawai'i	22.069018	-159.316685
+YPM-IZ-110269	B1	Physalia utriculus	Central Pacific	Hawai'i	22.069018	-159.316685
+YPM-IZ-110276	B1	Physalia utriculus	Central Pacific	Hawai'i	20.9225222	-156.4926917
+YPM-IZ-110277	B1	Physalia utriculus	Central Pacific	Hawai'i	20.9225222	-156.4926917
+YPM-IZ-110278	B1	Physalia utriculus	Central Pacific	Hawai'i	20.9225222	-156.4926917
+YPM-IZ-110433	A	Physalia physalis	NW Atlantic	Florida	25.74163	-80.175194
+YPM-IZ-110434	A	Physalia physalis	NW Atlantic	Florida	25.74163	-80.175194
+YPM-IZ-110436	A	Physalia physalis	NW Atlantic	Florida	25.70536	-80.15281
+YPM-IZ-110438	A	Physalia physalis	Gulf of Mexico	Texas	28.989194	-95.237778
+YPM-IZ-110443	A	Physalia physalis	Gulf of Mexico	Texas	28.951778	-95.283167
+YPM-IZ-110460	B1	Physalia utriculus	Central Pacific	Hawai'i	21.40079	-157.7345
+YPM-IZ-110467	C2	Physalia minuta	SW Pacific	New Zealand	-41.330278	174.831944
+YPM-IZ-110468	C2	Physalia minuta	SW Pacific	New Zealand	-41.33	174.833056
+YPM-IZ-110469	C2	Physalia minuta	SW Pacific	New Zealand	-41.33	174.833056
+YPM-IZ-110470	C2	Physalia minuta	SW Pacific	New Zealand	-41.33	174.833056
+YPM-IZ-110471	B1	Physalia utriculus	Central Pacific	Hawai'i	21.40079	-157.7345
+YPM-IZ-110473	B1	Physalia utriculus	Central Pacific	Hawai'i	21.40079	-157.7345
+YPM-IZ-110474	B1	Physalia utriculus	Central Pacific	Hawai'i	21.4546	-157.7485
+YPM-IZ-110480	B1	Physalia utriculus	Central Pacific	Hawai'i	21.4546	-157.7485
+YPM-IZ-110515	B1	Physalia utriculus	SW Pacific	New South Wales	-33.9475	151.257361
+YPM-IZ-110520	B1	Physalia utriculus	SW Pacific	New South Wales	-33.9475	151.257361
+YPM-IZ-110526	B1	Physalia utriculus	SW Pacific	New South Wales	-33.9475	151.257361
+YPM-IZ-110556	C2	Physalia minuta	SW Pacific	Tasmania	-41.996839	148.284729
+YPM-IZ-110557	C2	Physalia minuta	SW Pacific	Tasmania	-41.996839	148.284729
+YPM-IZ-110558	C2	Physalia minuta	SW Pacific	Tasmania	-41.996839	148.284729
+YPM-IZ-110566	B1	Physalia utriculus	NW Pacific	Guam	13.605463	144.907196
+YPM-IZ-110569	B1	Physalia utriculus	NW Pacific	Guam	13.427664	144.801336
+YPM-IZ-110600	B1	Physalia utriculus	NW Pacific	Guam	13.372435	144.773357
+YPM-IZ-110602	B1	Physalia utriculus	NW Pacific	Guam	13.372435	144.773357
+YPM-IZ-110605	B1	Physalia utriculus	SW Pacific	Queensland	-28.089089	153.453921
+YPM-IZ-110612	B1	Physalia utriculus	SW Pacific	New South Wales	-30.745087	152.995494
+YPM-IZ-110613	B1	Physalia utriculus	SW Pacific	New South Wales	-30.745087	152.995494
+YPM-IZ-110616	B1	Physalia utriculus	SW Pacific	New South Wales	-30.881192	153.035604
+YPM-IZ-110631	A	Physalia physalis	NW Atlantic	Northeast US	41.34625	-71.67831
+YPM-IZ-110633	A	Physalia physalis	NW Atlantic	Northeast US	41.37702	-71.52782
+YPM-IZ-110667	A	Physalia physalis	NW Atlantic	Northeast US	40.85742	-71.77992
+YPM-IZ-110694	A	Physalia physalis	NW Atlantic	Northeast US	41.34499	-70.836797
+YPM-IZ-110716	A	Physalia physalis	NE Atlantic	Spain	36.45809	-6.25268
+YPM-IZ-110726	A	Physalia physalis	NE Atlantic	Spain	36.45809	-6.25268
+YPM-IZ-110738	A	Physalia physalis	NE Atlantic	Spain	36.45809	-6.25268
+YPM-IZ-110777	B1	Physalia utriculus	Central Pacific	Hawai'i	21.40079	-157.7345
+YPM-IZ-110780	B1	Physalia utriculus	Central Pacific	Hawai'i	21.40079	-157.7345
+YPM-IZ-110785	B1	Physalia utriculus	Central Pacific	Hawai'i	21.40079	-157.7345
+YPM-IZ-110786	B1	Physalia utriculus	Central Pacific	Hawai'i	21.40079	-157.7345
+YPM-IZ-110828	C1	Physalia megalista	SE Pacific	Chile	-29.9727	-71.3609
+YPM-IZ-110829	C1	Physalia megalista	SE Pacific	Chile	-29.9727	-71.3609
+YPM-IZ-110830	B1	Physalia utriculus	SW Atlantic	Uruguay	-33.7516	-53.3801
+YPM-IZ-110842	A	Physalia physalis	NE Atlantic	Azores	38.524769	-28.625946
+YPM-IZ-110843	A	Physalia physalis	NE Atlantic	Azores	37.818604	-25.543635
+YPM-IZ-110844	A	Physalia physalis	NE Atlantic	Azores	38.524769	-28.625946
+YPM-IZ-110845	A	Physalia physalis	NE Atlantic	Azores	37.750488	-25.624447
+YPM-IZ-110846	A	Physalia physalis	NE Atlantic	Azores	38.523756	-28.623767
+YPM-IZ-110847	A	Physalia physalis	NE Atlantic	Azores	38.542865	-28.618676
+YPM-IZ-110876	A	Physalia physalis	Gulf of Mexico	Texas	29.26	-94.84
+YPM-IZ-110877	B2	Physalia sp1	Gulf of California	Mexico	27.245	-111.5
+YPM-IZ-110878	B2	Physalia sp1	Gulf of California	Mexico	27.326667	-111.48
+YPM-IZ-110880	A	Physalia physalis	NW Atlantic	Northeast US	41.14929	-71.48114
+YPM-IZ-110881	B1	Physalia utriculus	Central Pacific	Hawai'i	19.666667	-156.083333
+YPM-IZ-110882	B1	Physalia utriculus	Central Pacific	Hawai'i	19.666667	-156.083333
+YPM-IZ-110883	B1	Physalia utriculus	Central Pacific	Hawai'i	19.666667	-156.083333
+YPM-IZ-110906	B1	Physalia utriculus	Central Pacific	NW Hawaiian Islands	26.723056	-164.766667
+YPM-IZ-110907	B1	Physalia utriculus	Central Pacific	NW Hawaiian Islands	26.08	-176.47
+YPM-IZ-110925	B1	Physalia utriculus	NW Pacific	Japan	28.40478	129.454826
+YPM-IZ-110926	B1	Physalia utriculus	NW Pacific	Japan	35.309561	139.47882
+YPM-IZ-110930	B1	Physalia utriculus	NW Pacific	Japan	35.309561	139.47882
+YPM-IZ-110931	B2	Physalia sp1	NW Pacific	Japan	35.309561	139.47882
+YPM-IZ-110933	B1	Physalia utriculus	NW Pacific	Japan	35.309701	139.478831
+YPM-IZ-110937	B1	Physalia utriculus	NW Pacific	Japan	35.309561	139.47882
+YPM-IZ-110938	B1	Physalia utriculus	NW Pacific	Japan	35.309701	139.478831
+YPM-IZ-110943	B2	Physalia sp1	NW Pacific	Japan	35.134935	140.284606
+YPM-IZ-110972	A	Physalia physalis	NE Atlantic	Ireland	51.83707	-10.19556
+YPM-IZ-111006	B1	Physalia utriculus	W Indian	South Africa	-27.539919	32.67865
+YPM-IZ-111007	B1	Physalia utriculus	W Indian	South Africa	-27.539919	32.67865
+YPM-IZ-111008	B1	Physalia utriculus	W Indian	South Africa	-27.539919	32.67865
+YPM-IZ-111009	B1	Physalia utriculus	W Indian	South Africa	-27.539919	32.67865
+YPM-IZ-111010	C1	Physalia megalista	W Indian	South Africa	-27.539919	32.67865
+YPM-IZ-111012	A	Physalia physalis	NW Atlantic	Bermuda	32.3078	-64.7505
+YPM-IZ-111013	A	Physalia physalis	NW Atlantic	Bermuda	32.3078	-64.7505
+YPM-IZ-111014	A	Physalia physalis	NW Atlantic	Bermuda	32.3078	-64.7505
+YPM-IZ-111016	A	Physalia physalis	NW Atlantic	Bermuda	32.3078	-64.7505
+YPM-IZ-111017	A	Physalia physalis	NW Atlantic	Bermuda	32.3078	-64.7505
+YPM-IZ-111018	A	Physalia physalis	NW Atlantic	Bermuda	32.3078	-64.7505
+YPM-IZ-111156	C1	Physalia megalista	SW Pacific	Tasman Sea	-35.747	154.33
+YPM-IZ-111157	C1	Physalia megalista	SW Pacific	Tasman Sea	-35.747	154.33
+YPM-IZ-111158	C1	Physalia megalista	SW Pacific	Tasman Sea	-35.747	154.33
+YPM-IZ-111159	C1	Physalia megalista	SW Pacific	Tasman Sea	-35.747	154.33
+YPM-IZ-111160	C1	Physalia megalista	SW Pacific	Tasman Sea	-35.747	154.33
+YPM-IZ-111163	B1	Physalia utriculus	SW Pacific	New South Wales	-33.9475	151.257361
+YPM-IZ-111207	C2	Physalia minuta	SW Pacific	New Zealand	-36.89515	174.443889
+YPM-IZ-111208	C2	Physalia minuta	SW Pacific	New Zealand	-36.89515	174.443889
+YPM-IZ-111209	C2	Physalia minuta	SW Pacific	New Zealand	-36.89515	174.443889
+YPM-IZ-111210	C2	Physalia minuta	SW Pacific	New Zealand	-36.89515	174.443889
+YPM-IZ-111241	C2	Physalia minuta	SW Pacific	New Zealand	-36.89515	174.443889
+YPM-IZ-111243	C2	Physalia minuta	SW Pacific	New Zealand	-36.89515	174.443889
+YPM-IZ-111495	C1	Physalia megalista	SW Pacific	New Zealand	-35.954891	173.744757
+YPM-IZ-111513	C1	Physalia megalista	SW Pacific	New Zealand	-36.082526	173.856312
+YPM-IZ-111514	C1	Physalia megalista	SW Pacific	New Zealand	-36.082526	173.856312
+YPM-IZ-111517	C1	Physalia megalista	SW Pacific	New Zealand	-36.082526	173.856312
+YPM-IZ-111518	C1	Physalia megalista	SW Pacific	New Zealand	-36.082526	173.856312
+YPM-IZ-111519	C1	Physalia megalista	SW Pacific	New Zealand	-36.082526	173.856312
+YPM-IZ-111520	C1	Physalia megalista	SW Pacific	New Zealand	-36.082526	173.856312
+YPM-IZ-111521	C1	Physalia megalista	SW Pacific	New Zealand	-36.082526	173.856312
+YPM-IZ-111529	C1	Physalia megalista	SW Pacific	New Zealand	-35.954891	173.744757
+YPM-IZ-111530	C1	Physalia megalista	SW Pacific	New Zealand	-35.954891	173.744757
+YPM-IZ-111539	C1	Physalia megalista	SW Pacific	New Zealand	-35.954891	173.744757
+YPM-IZ-111547	B1	Physalia utriculus	Central Pacific	Hawai'i	21.40079	-157.7345
+YPM-IZ-111839	B2	Physalia sp1	Central Pacific	Central Pacific	8.355	-156.89
+YPM-IZ-111840	B1	Physalia utriculus	Central Pacific	Central Pacific	9.5217	-157.425
