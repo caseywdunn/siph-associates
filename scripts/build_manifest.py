@@ -15,7 +15,7 @@ Output: manifest.csv (repo root).
 
 usage: python3 scripts/build_manifest.py
 """
-import csv, os
+import csv, os, glob, re
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(REPO, "data", "sources")
@@ -72,12 +72,68 @@ church_paths = {r["sample"]: r for r in read_tsv(os.path.join(SRC, "church_fastq
 route = {r["sample_id"]: r["decision"] for r in read_tsv(os.path.join(SRC, "nanomia_routing.tsv"))} \
     if os.path.exists(os.path.join(SRC, "nanomia_routing.tsv")) else {}
 
+
+def _norm(s):
+    return re.sub(r"[^A-Za-z0-9]", "", (s or "")).upper()
+
+
+def load_sra(patterns):
+    """Header-less SRA runinfo CSVs -> {norm(sampleName): (';'.join(runs), bioproject)}.
+    Positional columns: 0=Run, 11=LibraryName, 21=BioProject, 29=SampleName."""
+    d = {}
+    for pat in patterns:
+        for path in glob.glob(os.path.join(SRC, pat)):
+            for row in csv.reader(open(path)):
+                if len(row) < 30 or not row[0].startswith(("SRR", "ERR", "DRR")):
+                    continue
+                for k in {_norm(row[29]), _norm(row[11])}:
+                    if not k:
+                        continue
+                    runs, proj = d.get(k, ("", row[21]))
+                    rl = [x for x in runs.split(";") if x]
+                    if row[0] not in rl:
+                        rl.append(row[0])
+                    d[k] = (";".join(rl), row[21])
+    return d
+
+
+def sra_lookup(table, *cands):
+    for c in cands:
+        hit = table.get(_norm(c))
+        if hit:
+            return hit
+    return None
+
+
+SRA_CHURCH = load_sra(["church*_runinfo.csv"])
+SRA_A2024 = load_sra(["ahuja2024*_runinfo.csv"])
+
+# Church collection dates from Table S7 (ID -> date), matched on normalized ID.
+CHURCH_DATE = {}
+try:
+    import sys as _sys, site as _site
+    _sys.path.insert(0, _site.getusersitepackages())
+    import openpyxl
+    wb = openpyxl.load_workbook(os.path.join(SRC, "Church_2025_Table_S7.xlsx"), read_only=True, data_only=True)
+    ws = wb.active
+    hdr = None
+    for r in ws.iter_rows(values_only=True):
+        if hdr is None:
+            hdr = [str(c or "") for c in r]
+            di = next((i for i, h in enumerate(hdr) if "date" in h.lower()), None)
+            continue
+        if r and r[0] and di is not None and r[di]:
+            CHURCH_DATE[_norm(str(r[0]))] = str(r[di]).split()[0]
+except Exception as e:  # noqa: BLE001
+    print(f"  (Church dates unavailable: {e})")
+
 rows = []
 
 # ---- Church et al. 2025 (151 Physalia) ----
 for r in read_tsv(os.path.join(SRC, "church_samples_metadata.tsv")):
     sid = r["sample"].strip()
     p = church_paths.get(sid, {})
+    hit = sra_lookup(SRA_CHURCH, sid, norm_voucher(sid).replace("YPM:IZ:", "YPM-IZ-"))
     rows.append(dict(
         library_id=f"Church2025:{sid}", specimen_id=norm_voucher(sid), study="Church2025",
         original_label=sid, also_in_studies="", provenance="Church et al. 2025",
@@ -85,8 +141,10 @@ for r in read_tsv(os.path.join(SRC, "church_samples_metadata.tsv")):
         host_reference="P_physalis",
         collection_id=sid, ocean_region=r.get("ocean_region", ""), locality=r.get("location", ""),
         latitude=r.get("latitude", ""), longitude=r.get("longitude", ""), lat_long_raw="",
-        collection_date="TODO:Table_S7", depth_m="", sra_run="TODO:Church_BioProject",
-        bioproject="TODO:Church2025", raw_path_mccleary=p.get("dirs", "TODO:sc2962/config.yaml"),
+        collection_date=CHURCH_DATE.get(_norm(sid), "TODO:Table_S7"), depth_m="",
+        sra_run=(hit[0] if hit else "TODO:SRA_not_in_PRJNA1092115"),
+        bioproject=(hit[1] if hit else "PRJNA1092115"),
+        raw_path_mccleary=p.get("dirs", "TODO:sc2962/config.yaml"),
         n_lanes=p.get("n_lanes", ""), notes="cluster=" + r.get("cluster", ""),
     ))
 
@@ -103,7 +161,8 @@ for r in read_tsv(os.path.join(SRC, "ds1_ahuja2024.tsv")):
         collection_id=r.get("collection_id", ""), ocean_region=r.get("ocean", ""),
         locality=r.get("location", ""), latitude=lat, longitude=lon,
         lat_long_raw=r.get("lat_lon", ""), collection_date=r.get("date", ""), depth_m="",
-        sra_run="TODO:Ahuja2024_BioProject", bioproject="TODO:Ahuja2024",
+        sra_run=((lambda h: h[0] if h else "TODO:SRA")(sra_lookup(SRA_A2024, sid, r.get("collection_id", "")))),
+        bioproject=((lambda h: h[1] if h else "PRJNA925656")(sra_lookup(SRA_A2024, sid, r.get("collection_id", "")))),
         raw_path_mccleary=r.get("sample_dir", ""), n_lanes=r.get("n_lanes", ""),
         notes=("Physalia utriculus (Guam); maps to P. physalis ref" if sid == "NA22" else ""),
     ))
