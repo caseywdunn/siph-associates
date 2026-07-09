@@ -40,6 +40,15 @@ Some parameter values remain provisional pending the last pilot runs — see §9
    siphonophore host — **Opisthokonta ≠ host** (the Metazoa/eukaryote signal holds
    prey and parasites, not just host), and Kraken2's *Homo* calls are ~99 % false
    and must be validated by mapping.
+7. **k-mer detection is nomination only; mapping breadth is the arbiter.** No associate is
+   asserted from a k-mer/containment hit. Screens (sylph/Kraken2/phyloFlash) only *nominate*
+   candidates; each is then validated by fetching (or de novo assembling) its reference and
+   competitively mapping — a claim stands only at sufficient **`covered_fraction` (genome
+   breadth)**, paired with `read_count`/`%identity`. Breadth cleanly separated real
+   presence (*Alteromonas* 73 %) from k-mer artifacts (*Endozoicomonas* 0.03 %) in the pilot.
+   Guardrails: `verify_taxon` on every fetch (the *Pararhizobium* bird-genome incident);
+   validate *Homo* by GRCh38 mapping; contamination is a hypothesis tested from breadth +
+   cross-library/batch pattern, never from organism identity alone.
 
 ---
 
@@ -102,16 +111,25 @@ S0 Manifest ─► S1 Trim ─► S2 Screening — ALL 185 libraries, on trimmed
   reads to their genome and drop chromosome/mt hitters; all other species reuse the S2
   Kraken2 `--classified-out` non-host reads (no redundant Kraken2). The reference-based
   route is also the **supplementary** host-subtracted analysis for the two ref species.
+  - **S3a Host-reference scaffold audit (once per reference).** Classify the unplaced
+    scaffolds of the *P. physalis* and *N. septata* assemblies (geNomad + BLAST) before using
+    them for subtraction: (i) confirm no co-assembled bacterial/symbiont sequence sits in the
+    reference (which would wrongly remove real symbiont reads), and (ii) report co-assembled
+    non-host / host EVEs as findings. Pilot: *N. septata*'s 458 unplaced scaffolds are clean
+    of bacteria but carry Polinton/adintovirus endogenous viral elements.
 - **S4 Assembly** — MEGAHIT on the S3 non-host reads of each bacteria/eukaryote-rich library
   (objective inclusion threshold). One assembly per library feeds **all four** domain tracks.
 
 **Domain tracks** (each: detect → reference → validate/quantify, uniform across libraries):
 
-- **TB — Bacteria / archaea.** Catalog built once from pooled S3 evidence (≥2 lines
-  agree; sylph ANI≥95 gate; taxon-verified fetch; contamination screen); **all** libraries
-  competitively mapped against the single catalog (`covered_fraction`+`read_count`+%id;
-  breadth is the arbiter, not k-mers). MAGs from S4 (MetaBAT2 → CheckM2 → GTDB-Tk r220),
-  dereplicated across all libraries, added back as references for quantification.
+- **TB — Bacteria / archaea.** Catalog built once from pooled S2 evidence (≥2 lines
+  agree; sylph ANI≥95 gate; contamination screen). **References come from NCBI fetch OR de
+  novo assembly:** named candidates are fetched (`verify_taxon` on every fetch); candidates
+  with no clean NCBI reference — the common case for the strong marine-MAG signal (e.g. the
+  OceanDNA-like hits at 24–52 % containment) — are **recovered from the S4 assemblies**
+  (MetaBAT2 → CheckM2 → GTDB-Tk r220). All members (fetched + assembled MAGs, dereplicated)
+  form one catalog; **all** libraries are competitively mapped against it
+  (`covered_fraction`+`read_count`+%id; **breadth is the arbiter, not k-mers**).
 - **TV — Viruses / phages.** geNomad on the S4 contigs → CheckV (completeness/quality;
   retain ≥ medium-quality) → dereplicate viral OTUs across all libraries →
   **host-linkage** (iPHoP and/or CRISPR-spacer matching to the TB bacterial MAGs) →
@@ -234,8 +252,10 @@ These depend on exploration still in progress and must be settled first:
 - ~~Rarefaction depth~~ **Resolved:** compute-ceiling cap set at **400 M read pairs** from
   the exact per-library `read_pairs` (SRA spots + counted); trims only ~5 % (the giant
   outliers), all else full depth.
-- **Contamination test design (TB)** — needs library/batch metadata and any negative/blank
-  controls (likely none for these skims; decide the cross-library/batch criterion).
+- **Contamination test design (TB)** — add a **sequencing-run/batch column to the manifest**
+  (currently absent), then test the human/skin/soil candidates (*C. acnes*, *Lawsonella*,
+  *Bradyrhizobium* — all low-breadth in the pilot) against cross-library/batch pattern; no
+  blank controls exist for these skims, so batch structure + breadth is the criterion.
 - **Host-handling robustness result (S2)** — confirm the two routes agree before demoting
   reference-based to supplementary.
 
