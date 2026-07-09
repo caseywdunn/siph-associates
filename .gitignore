@@ -12,3 +12,6 @@ __pycache__/
 
 # binary source supplements (cite by DOI; parsed tsv are tracked)
 data/sources/*.xlsx
+
+# SLURM logs
+logs/
