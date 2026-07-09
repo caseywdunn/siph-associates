@@ -21,10 +21,12 @@ Some parameter values remain provisional pending the last pilot runs — see §9
    2026) is a provenance *covariate*, not a hierarchy.
 2. **One pipeline, applied identically to every library**, regardless of study or
    whether a conspecific reference exists.
-3. **Reference-free host handling is the primary, uniform backbone.** Reference-based
-   host subtraction exists only as a *supplementary refinement* for the two species
-   that have chromosome-scale genomes, with a robustness check that the two routes
-   agree (§5). This keeps the unavoidable reference asymmetry out of the core Methods.
+3. **The backbone is trim → screen, applied identically to all libraries; host exclusion
+   is downstream, not a front-end.** The k-mer screens run on full trimmed reads (they
+   ignore host). Host depletion feeds only assembly: Kraken2 `--classified-out` for most
+   species, reference mapping for the two with a genome — the latter doubling as a
+   *supplementary* host-subtracted analysis, with a robustness check that the two routes
+   agree (§5). This keeps the reference asymmetry out of the primary path and Methods.
 4. **The reference catalog is built once, from evidence pooled across all libraries
    of all three studies, then every library is mapped against it** — Physalia against
    the *Nanomia*-derived references and vice versa.
@@ -61,37 +63,47 @@ Some parameter values remain provisional pending the last pilot runs — see §9
 
 ## 3. Analytical DAG
 
-Shared front end (S0–S3) → **one metagenome assembly per library (S4)** → four
-first-class **domain tracks** (bacteria, viruses, eukaryotic parasites, prey) → an
-integration/comparison stage (S9). Every step is applied identically to all libraries
-of all three studies.
+**The backbone is trim → screen, applied identically to every library.** Host exclusion is
+NOT a front-end step — the k-mer screens don't need it (they ignore host as unclassified),
+and applying reference-based removal only to the two ref species would break the symmetry.
+Host depletion is a **downstream branch** that feeds only the assembly track (and the
+supplementary reference-based analysis for the two species that have a genome).
 
 ```
-S0 Manifest ─► S1 QC/trim ─► S2 Host depletion ─► S3 Screening ─► S4 Assembly ─┐
-                                                    (reads)         (contigs)    │
-        ┌──────────────────────────────────────────────────────────────────────┤
+S0 Manifest ─► S1 Trim ─► S2 Screening — ALL 185 libraries, on trimmed reads ─────────┐
+              cap 400M→fastp    Kraken2+Bracken, sylph (GTDB+OceanDNA),                │
+              (trimmed = temp)  phyloFlash 16S/18S      (no host exclusion here)       │
+                    │                                                                   │
+                    └─► S3 Host-depleted reads (branch → assembly only):               │
+                          • ref species (P. physalis, N. septata): map trimmed → drop   │
+                            chromosome/mt hitters → non-host reads                       │
+                          • all others: Kraken2 `--classified-out` (the SAME run as the  │
+                            S2 Kraken2) → non-host reads                                 │
+                        └─► S4 Assembly: MEGAHIT on non-host reads (per library)         │
+        ┌───────────────────────────────────────────────────────────────────────────────┤
         ├─► TB Bacteria/archaea : sylph/16S screen → catalog → competitive map → MAGs (MetaBAT2/CheckM2/GTDB-Tk)
-        ├─► TV Viruses/phages   : geNomad on contigs → CheckV → derep → host-linkage → map-quantify
-        ├─► TE Euk parasites    : 18S/28S (phyloFlash+PR2) + barrnap on contigs + COI/mitogenome → non-host euk → trematode/parasite ID
+        ├─► TV Viruses/phages   : geNomad on S4 contigs → CheckV → derep → host-linkage → map-quantify
+        ├─► TE Euk parasites    : 18S/28S (phyloFlash+PR2) + barrnap on S4 contigs + COI/mitogenome → non-host euk → parasite ID
         ├─► TP Prey             : COI/18S barcoding (BOLD/SILVA) + prey mitogenome recovery → zooplankton/other prey ID
         └─► S9 Integration: catalog of associates across host phylogeny (discovery; presence + cross-domain links)
 ```
 
 - **S0 Manifest** — pooled, deduped, metadata (§2).
-- **S1 QC/trim** — fastp on **raw reads for all three studies** (Physalia re-processed
-  from raw, not from prior BAMs). Uniform adapter/quality params.
-- **S2 Host depletion (primary)** — Kraken2 `--classified-out` retains the non-host
-  (classified) fraction; the non-model siphonophore host is unclassified in the
-  standard DB. Applied to every library. **Supplementary** — reference-based subtraction
-  (drop chromosome/mt-hitters) for *P. physalis* and *N. septata* libraries only.
-- **S3 Screening (all domains)** — read-level: Kraken2/Bracken, sylph (GTDB + OceanDNA);
-  SSU rRNA: phyloFlash against SILVA (**16S bacteria + 18S eukaryotes**). **Full depth**
-  for maximal discovery, with a **compute-ceiling cap** (§4) that trims only the few giant
-  outlier libraries so they don't dominate runtime — not a rarefaction to a common floor
-  (this is a discovery analysis, not a quantitative one). Feeds every domain.
-- **S4 Assembly (shared)** — MEGAHIT on the non-host reads of each bacteria/eukaryote-rich
-  library (objective inclusion threshold). One assembly per library feeds **all four**
-  domain tracks (bacterial contigs, viral contigs, eukaryotic SSU/marker contigs).
+- **S1 Trim (universal front end)** — cap to 400 M read pairs (§4), then fastp
+  (adapter/quality), on **raw reads for all three studies** (Physalia re-processed from
+  raw, not prior BAMs). The trimmed reads are a **transient shared intermediate**
+  (Snakemake `temp()`): consumed by S2 + S3, then deleted — only non-host reads and reports
+  persist, so disk stays in the hundreds of GB, not multiple TB.
+- **S2 Screening (all 185, identically)** — read-level: Kraken2/Bracken, sylph (GTDB +
+  OceanDNA); SSU rRNA: phyloFlash vs SILVA (**16S + 18S**). Run on the full trimmed reads —
+  no host exclusion (safer for discovery: no reference-induced loss of host-similar symbiont
+  reads). Feeds every domain and the Track-F catalog screen.
+- **S3 Host depletion (downstream branch, feeds assembly)** — reference species map trimmed
+  reads to their genome and drop chromosome/mt hitters; all other species reuse the S2
+  Kraken2 `--classified-out` non-host reads (no redundant Kraken2). The reference-based
+  route is also the **supplementary** host-subtracted analysis for the two ref species.
+- **S4 Assembly** — MEGAHIT on the S3 non-host reads of each bacteria/eukaryote-rich library
+  (objective inclusion threshold). One assembly per library feeds **all four** domain tracks.
 
 **Domain tracks** (each: detect → reference → validate/quantify, uniform across libraries):
 
@@ -151,11 +163,13 @@ question (parasitism vs predation) differs.
 
 ---
 
-## 5. Primary vs supplementary host handling, and robustness
+## 5. Host handling, and robustness
 
-- **Primary (uniform):** reference-free Kraken2 host depletion for all libraries.
-- **Supplementary:** reference-based subtraction for *P. physalis* + *N. septata*
-  libraries.
+- **Screens (all libraries):** run on full trimmed reads, no host exclusion.
+- **Assembly input (all libraries):** host-depleted — Kraken2 `--classified-out` for most
+  species; reference mapping for *P. physalis* + *N. septata*.
+- **Supplementary:** the reference-mapping route for the two ref species is also reported
+  as a host-subtracted analysis.
 - **Robustness checks that de-path-depend the host handling:**
   1. For the two reference species, show symbiont composition from the reference-free
      vs reference-based routes is congruent.
