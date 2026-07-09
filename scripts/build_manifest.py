@@ -26,7 +26,7 @@ COLS = [
     "provenance", "species_current", "species_as_published", "host_reference",
     "collection_id", "ocean_region", "locality", "latitude", "longitude",
     "lat_long_raw", "collection_date", "depth_m", "sra_run", "bioproject",
-    "raw_path_mccleary", "n_lanes", "notes",
+    "raw_path_mccleary", "n_lanes", "read_pairs", "depth_source", "notes",
 ]
 
 
@@ -77,15 +77,22 @@ def _norm(s):
     return re.sub(r"[^A-Za-z0-9]", "", (s or "")).upper()
 
 
+RUN_SPOTS = {}  # SRA run accession -> spots (exact read pairs); filled by load_sra
+
+
 def load_sra(patterns):
     """Header-less SRA runinfo CSVs -> {norm(sampleName): (';'.join(runs), bioproject)}.
-    Positional columns: 0=Run, 11=LibraryName, 21=BioProject, 29=SampleName."""
+    Positional columns: 0=Run, 3=spots, 11=LibraryName, 21=BioProject, 29=SampleName."""
     d = {}
     for pat in patterns:
         for path in glob.glob(os.path.join(SRC, pat)):
             for row in csv.reader(open(path)):
                 if len(row) < 30 or not row[0].startswith(("SRR", "ERR", "DRR")):
                     continue
+                try:
+                    RUN_SPOTS[row[0]] = int(row[3])
+                except (ValueError, IndexError):
+                    pass
                 for k in {_norm(row[29]), _norm(row[11])}:
                     if not k:
                         continue
@@ -107,6 +114,17 @@ def sra_lookup(table, *cands):
 
 SRA_CHURCH = load_sra(["church*_runinfo.csv"])
 SRA_A2024 = load_sra(["ahuja2024*_runinfo.csv"])
+SRA_A2026 = load_sra(["ahuja2026*_runinfo.csv"])  # populates RUN_SPOTS for Nanomia runs
+
+# Exact read-pair counts for non-SRA libraries (SLURM count job output).
+COUNTED = {}
+_cp = os.path.join(SRC, "counted_read_pairs.tsv")
+if os.path.exists(_cp):
+    for r in read_tsv(_cp):
+        try:
+            COUNTED[r["library_id"]] = int(r["read_pairs"])
+        except (ValueError, KeyError):
+            pass
 
 # Church collection dates from Table S7 (ID -> date), matched on normalized ID.
 CHURCH_DATE = {}
@@ -195,6 +213,21 @@ for r in read_tsv(os.path.join(SRC, "ds2_ahuja2026.tsv")):
         bioproject=("PRJNA925656" if sid == "NA19" else "PRJNA1252167"),
         raw_path_mccleary=r.get("sample_dir", ""), n_lanes=r.get("n_lanes", ""), notes=note,
     ))
+
+# Exact read pairs: SRA spots (summed over a library's runs) where deposited,
+# else the SLURM-counted value. No estimates.
+for r in rows:
+    runs = [x for x in (r.get("sra_run") or "").split(";") if x]
+    spots = [RUN_SPOTS[x] for x in runs if x in RUN_SPOTS]
+    if runs and len(spots) == len(runs):
+        r["read_pairs"] = sum(spots)
+        r["depth_source"] = "SRA_spots"
+    elif r["library_id"] in COUNTED:
+        r["read_pairs"] = COUNTED[r["library_id"]]
+        r["depth_source"] = "counted"
+    else:
+        r["read_pairs"] = ""
+        r["depth_source"] = "TODO:count"
 
 with open(OUT, "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=COLS)

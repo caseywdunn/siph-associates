@@ -74,7 +74,7 @@ S0 Manifest ─► S1 QC/trim ─► S2 Host depletion ─► S3 Screening ─�
         ├─► TV Viruses/phages   : geNomad on contigs → CheckV → derep → host-linkage → map-quantify
         ├─► TE Euk parasites    : 18S/28S (phyloFlash+PR2) + barrnap on contigs + COI/mitogenome → non-host euk → trematode/parasite ID
         ├─► TP Prey             : COI/18S barcoding (BOLD/SILVA) + prey mitogenome recovery → zooplankton/other prey ID
-        └─► S9 Integration & comparison (rarefied; study/species/host-phylogeny/geography covariates; cross-domain links)
+        └─► S9 Integration: catalog of associates across host phylogeny (discovery; presence + cross-domain links)
 ```
 
 - **S0 Manifest** — pooled, deduped, metadata (§2).
@@ -85,8 +85,10 @@ S0 Manifest ─► S1 QC/trim ─► S2 Host depletion ─► S3 Screening ─�
   standard DB. Applied to every library. **Supplementary** — reference-based subtraction
   (drop chromosome/mt-hitters) for *P. physalis* and *N. septata* libraries only.
 - **S3 Screening (all domains)** — read-level: Kraken2/Bracken, sylph (GTDB + OceanDNA);
-  SSU rRNA: phyloFlash against SILVA (**16S bacteria + 18S eukaryotes**). Rarefied to a
-  common depth for cross-library comparison; full depth for discovery. Feeds every domain.
+  SSU rRNA: phyloFlash against SILVA (**16S bacteria + 18S eukaryotes**). **Full depth**
+  for maximal discovery, with a **compute-ceiling cap** (§4) that trims only the few giant
+  outlier libraries so they don't dominate runtime — not a rarefaction to a common floor
+  (this is a discovery analysis, not a quantitative one). Feeds every domain.
 - **S4 Assembly (shared)** — MEGAHIT on the non-host reads of each bacteria/eukaryote-rich
   library (objective inclusion threshold). One assembly per library feeds **all four**
   domain tracks (bacterial contigs, viral contigs, eukaryotic SSU/marker contigs).
@@ -111,11 +113,13 @@ S0 Manifest ─► S1 QC/trim ─► S2 Host depletion ─► S3 Screening ─�
   metazoan/other prey captured at collection (copepods and other zooplankton); recover
   prey mitogenomes where depth allows; distinguish prey from parasites biologically
   (tentacle-captured prey vs tissue-associated parasites) and from host.
-- **S9 Integration & comparison** — rarefied β-diversity of each domain; test composition
-  against host species, host phylogeny, geography, and study (all covariates, none
-  privileged); **cross-domain links** (phage↔bacterial-host co-occurrence;
-  parasite/prey↔host associations). Depth differences (Physalia deep 151 vs skims)
-  handled by rarefaction, not design asymmetry.
+- **S9 Integration** — the primary output is a **catalog of detectable associates** across
+  the siphonophore phylogeny: which bacteria/viruses/parasites/prey occur in which hosts,
+  each presence breadth-validated (not a quantitative abundance comparison). Then the
+  qualitative patterns — host-species / host-phylogeny / geographic associations and
+  **cross-domain links** (phage↔bacterial-host co-occurrence; parasite/prey↔host) — read as
+  presence/association, with `read_pairs` (the exact per-library depth) reported as a
+  detection-sensitivity covariate, not used to equalize effort.
 
 TE and TP share machinery (both are non-host eukaryote recovery + marker ID) and are
 distinguished at interpretation; they are listed separately because the biological
@@ -130,7 +134,7 @@ question (parasitism vs predation) differs.
 | S1 | fastp | `--detect_adapter_for_pe --dont_eval_duplication` | dup-eval OOMs on deep skims; trimmed output identical |
 | S2 primary | Kraken2 host depletion | standard DB, `--classified-out`, eager load (never `--memory-mapping` on GPFS) | host unclassified for non-model siphonophores; classified = non-host |
 | S2 suppl. | reference routing | proper-pair ≥ 80 % to conspecific reference | clean bimodal split observed (N. septata 84–95 % vs congeners 31–74 %) |
-| S3 | rarefaction depth | common target ≈ 50 M pairs (all libs exceed the floor) | below shallowest library, far above classification saturation |
+| S3 | compute-ceiling cap | **400 M read pairs** (full depth below; trim only the ~5 % of libraries above) | discovery, not quantitative — cap only stops the giant outliers (up to 1.0 B pairs) dominating runtime |
 | S3 | sylph DBs | GTDB-r220 c200 + OceanDNA c200 | — |
 | S3 | phyloFlash | SILVA 138.1 NR99 (local build), 16S + 18S | resolved species-level parasite/prey in the pilot |
 | S4 | assembly | MEGAHIT, `--min-contig-len 1000` | recovered 95.6 % of the *Alteromonas* genome de novo in NA33 |
@@ -178,8 +182,8 @@ finding (Physalia *Vibrio* community ≈absent in *Nanomia*; *Nanomia* carries a
   identically**.
 - Catalog = "30 Physalia genomes + 10 additions" → **one pooled, symmetric catalog**.
 - "Phase 1 / Phase 2", "Track A–F" Physalia-centric framing → **stage-based symmetric DAG**.
-- Depth cap applied only to some tracks/samples → **uniform rarefaction rule for all
-  comparison; full depth for all discovery**.
+- Depth cap applied only to some tracks/samples → **full depth everywhere; a single
+  400 M-pair compute ceiling trims only the giant outliers** (not rarefaction).
 - Reference-based host subtraction as the backbone → **reference-free primary; reference-
   based supplementary with robustness check**.
 - Engineering artifacts (CRLF, OOM retries, SLURM path fixes, empty-BAM skips) → absent
@@ -213,8 +217,9 @@ These depend on exploration still in progress and must be settled first:
   non-host-vs-host euk decision rules. Was the strongest gap in the exploration.
 - **Assembly inclusion threshold (S4)** — set objectively once non-host yields across all
   studies are known.
-- **Rarefaction depth (S3)** — finalize once the full depth distribution across the pooled
-  set is known.
+- ~~Rarefaction depth~~ **Resolved:** compute-ceiling cap set at **400 M read pairs** from
+  the exact per-library `read_pairs` (SRA spots + counted); trims only ~5 % (the giant
+  outliers), all else full depth.
 - **Contamination test design (TB)** — needs library/batch metadata and any negative/blank
   controls (likely none for these skims; decide the cross-library/batch criterion).
 - **Host-handling robustness result (S2)** — confirm the two routes agree before demoting
