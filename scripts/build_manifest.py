@@ -130,17 +130,18 @@ except Exception as e:  # noqa: BLE001
 rows = []
 
 # ---- Church et al. 2025 (Physalia) ----
-# Public data only: keep libraries deposited in SRA (PRJNA1092115). A handful of
-# Church specimens had technical issues, were not published, and are excluded here
-# (e.g. the Guam Physalia is still retained via its published Ahuja 2024 row).
-church_dropped = []
+# All 151 published libraries (Table S7). 130 are released in SRA (PRJNA1092115);
+# the remaining 21 were submitted to the same BioProject but not yet released by
+# NCBI (confirmed with the Church authors), so their sra_run is left blank.
+church_pending = []
 for r in read_tsv(os.path.join(SRC, "church_samples_metadata.tsv")):
     sid = r["sample"].strip()
     hit = sra_lookup(SRA_CHURCH, sid, norm_voucher(sid).replace("YPM:IZ:", "YPM-IZ-"))
-    if not hit:
-        church_dropped.append(sid)
-        continue
     p = church_paths.get(sid, {})
+    note = "cluster=" + r.get("cluster", "")
+    if not hit:
+        church_pending.append(sid)
+        note += "; submitted to PRJNA1092115, not yet released by NCBI"
     rows.append(dict(
         library_id=f"Church2025:{sid}", specimen_id=norm_voucher(sid), study="Church2025",
         original_label=sid, also_in_studies="", provenance="Church et al. 2025",
@@ -149,9 +150,9 @@ for r in read_tsv(os.path.join(SRC, "church_samples_metadata.tsv")):
         collection_id=sid, ocean_region=r.get("ocean_region", ""), locality=r.get("location", ""),
         latitude=r.get("latitude", ""), longitude=r.get("longitude", ""), lat_long_raw="",
         collection_date=CHURCH_DATE.get(_norm(sid), "TODO:Table_S7"), depth_m="",
-        sra_run=hit[0], bioproject=hit[1],
+        sra_run=(hit[0] if hit else ""), bioproject=(hit[1] if hit else "PRJNA1092115"),
         raw_path_mccleary=p.get("dirs", "TODO:sc2962/config.yaml"),
-        n_lanes=p.get("n_lanes", ""), notes="cluster=" + r.get("cluster", ""),
+        n_lanes=p.get("n_lanes", ""), notes=note,
     ))
 
 # ---- Ahuja et al. 2024 (32-species skim) ----
@@ -204,7 +205,7 @@ with open(OUT, "w", newline="") as f:
 from collections import Counter
 print(f"wrote {len(rows)} libraries -> {OUT}")
 print("by study:", dict(Counter(r["study"] for r in rows)))
-print(f"Church excluded (no public SRA / unpublished): {len(church_dropped)} -> {church_dropped}")
+print(f"Church libraries with SRA pending release (blank sra_run): {len(church_pending)}")
 print("Nanomia species_current:", dict(Counter(r["species_current"] for r in rows if "Nanomia" in r["species_current"])))
 todo = sum(1 for r in rows for c in COLS if str(r.get(c, "")).startswith("TODO"))
 print(f"TODO cells remaining: {todo}")
