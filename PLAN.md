@@ -100,9 +100,11 @@ S0 Manifest ─► S1 Trim ─► S2 Screening — ALL 185 libraries, on trimmed
 - **S0 Manifest** — pooled, deduped, metadata (§2).
 - **S1 Trim (universal front end)** — cap to 400 M read pairs (§4), then fastp
   (adapter/quality), on **raw reads for all three studies** (Physalia re-processed from
-  raw, not prior BAMs). The trimmed reads are a **transient shared intermediate**
-  (Snakemake `temp()`): consumed by S2 + S3, then deleted — only non-host reads and reports
-  persist, so disk stays in the hundreds of GB, not multiple TB.
+  raw, not prior BAMs). The trimmed reads are a **large regenerable intermediate written to
+  scratch** (`/vast/palmer/scratch/dunn/cwd7/...`, 7.5 TB, 60-day purge) — **not** `temp()`,
+  because they are consumed twice: by S2 (screens, early) and again by TB competitive mapping
+  *after* the catalog is built (§ storage note below). Only the small non-host reads +
+  products persist on `/work`.
 - **S2 Screening (all 185, identically)** — read-level: Kraken2/Bracken, sylph (GTDB +
   OceanDNA); SSU rRNA: phyloFlash vs SILVA (**16S + 18S**). Run on the full trimmed reads —
   no host exclusion (safer for discovery: no reference-induced loss of host-similar symbiont
@@ -163,6 +165,30 @@ S0 Manifest ─► S1 Trim ─► S2 Screening — ALL 185 libraries, on trimmed
 TE and TP share machinery (both are non-host eukaryote recovery + marker ID) and are
 distinguished at interpretation; they are listed separately because the biological
 question (parasitism vs predation) differs.
+
+### Intermediate files, storage, and rerun behavior (Snakemake)
+
+The trimmed reads are needed **twice** — by S2 (screens) and again by TB competitive
+mapping *after* the catalog is built from those screens — so they cannot be single-use
+`temp()`. They are large (~5 TB capped) and regenerable, so:
+
+- **Write trimmed reads to scratch** (`/vast/palmer/scratch/dunn/cwd7/...`; 7.5 TB free,
+  60-day purge) as **normal outputs, not `temp()`**.
+- **Downstream rules consume them via `ancient(...)`** and the workflow runs with
+  **`--rerun-triggers mtime`**. This yields exactly the desired semantics:
+  present → used; purged & a downstream product is pending → regenerated; purged & all
+  downstream products done → **not** regenerated (the DAG only builds what's needed);
+  regenerating them never cascades reruns of completed work (`ancient()` ignores their mtime).
+- **Persistent products live on `/work`** (~300 GB): non-host reads, small filtered
+  competitive-mapping BAMs (CoverM inputs), assemblies, MAGs, catalog, reports.
+- Consequence: a **scratch purge never triggers a blanket rerun** — only regenerates reads
+  when a genuinely pending job needs them. (Tradeoff of `--rerun-triggers mtime`: editing a
+  rule's code won't auto-rerun it; force with `snakemake -R <rule>`. Never target the
+  trimmed-read paths directly, or they'll be forced to regenerate.)
+
+Host subtraction is **streamed** (`bwa mem | samtools fastq -f 12`), so no full-genome BAM
+is ever written; only the non-host reads land on `/work` (§5). Competitive-mapping BAMs are
+filtered to catalog-mapping reads only (small) and can be `temp()` after CoverM.
 
 ---
 
