@@ -107,16 +107,25 @@ S0 Manifest ─► S1 Trim ─► S2 Screening — ALL 185 libraries, on trimmed
   OceanDNA); SSU rRNA: phyloFlash vs SILVA (**16S + 18S**). Run on the full trimmed reads —
   no host exclusion (safer for discovery: no reference-induced loss of host-similar symbiont
   reads). Feeds every domain and the Track-F catalog screen.
-- **S3 Host depletion (downstream branch, feeds assembly)** — reference species map trimmed
-  reads to their genome and drop chromosome/mt hitters; all other species reuse the S2
-  Kraken2 `--classified-out` non-host reads (no redundant Kraken2). The reference-based
-  route is also the **supplementary** host-subtracted analysis for the two ref species.
+- **S3 Host depletion (downstream branch, feeds assembly)** — **[locked]** reference species
+  map trimmed reads to the **entire** conspecific genome (all scaffolds + mito) and drop
+  **all** host-mapping pairs (keep both-unmapped); all other species reuse the S2 Kraken2
+  `--classified-out` non-host reads (no redundant Kraken2). The reference route is also the
+  **supplementary** host-subtracted analysis for the two ref species.
+  - **References (downloaded from NCBI):** all *Physalia* → *P. physalis* **`GCA_041430235.2`**
+    (Church 2025); all *Nanomia septata* → **`GCA_048301705.1`** (Ahuja 2026).
+  - **Map to the whole genome, not chromosomes-only** — unplaced/alt-haplotype scaffolds are
+    host, so whole-genome mapping removes them correctly (chromosomes-only kept host
+    alt-haplotypes as false "non-host" in Phase 1). Safe because S3a confirms the reference
+    carries no co-assembled bacterial/symbiont sequence that would delete real symbiont reads.
   - **S3a Host-reference scaffold audit (once per reference).** Classify the unplaced
     scaffolds of the *P. physalis* and *N. septata* assemblies (geNomad + BLAST) before using
     them for subtraction: (i) confirm no co-assembled bacterial/symbiont sequence sits in the
     reference (which would wrongly remove real symbiont reads), and (ii) report co-assembled
-    non-host / host EVEs as findings. Pilot: *N. septata*'s 458 unplaced scaffolds are clean
-    of bacteria but carry Polinton/adintovirus endogenous viral elements.
+    non-host / host EVEs as findings. Pilot: *N. septata* (`GCA_048301705.1`) — 458 unplaced
+    scaffolds **audited clean** of bacteria, carrying only host Polinton/adintovirus EVEs.
+    **Still to run:** the same audit on *P. physalis* `GCA_041430235.2` (likely clean —
+    published chromosome-scale assembly — but confirm before locking whole-genome mapping).
 - **S4 Assembly** — MEGAHIT on the S3 non-host reads of each bacteria/eukaryote-rich library
   (objective inclusion threshold). One assembly per library feeds **all four** domain tracks.
 
@@ -164,6 +173,8 @@ question (parasitism vs predation) differs.
 | S1 | fastp | `--detect_adapter_for_pe --dont_eval_duplication` | dup-eval OOMs on deep skims; trimmed output identical |
 | S2 primary | Kraken2 host depletion | standard DB, `--classified-out`, eager load (never `--memory-mapping` on GPFS) | host unclassified for non-model siphonophores; classified = non-host |
 | S2 suppl. | reference routing | proper-pair ≥ 80 % to conspecific reference | clean bimodal split observed (N. septata 84–95 % vs congeners 31–74 %) |
+| S3 | reference genomes (NCBI) | Physalia → *P. physalis* `GCA_041430235.2`; *N. septata* → `GCA_048301705.1` | published chromosome-scale assemblies (Church 2025 / Ahuja 2026) |
+| S3 | mapping target | **whole genome** (all scaffolds + mito), drop all host-mapping pairs | unplaced/alt-haplotype scaffolds are host; audited (S3a) free of co-assembled bacteria |
 | S3 | compute-ceiling cap | **400 M read pairs** (full depth below; trim only the ~5 % of libraries above) | discovery, not quantitative — cap only stops the giant outliers (up to 1.0 B pairs) dominating runtime |
 | S3 | sylph DBs | GTDB-r220 c200 + OceanDNA c200 | — |
 | S3 | phyloFlash | SILVA 138.1 NR99 (local build), 16S + 18S | resolved species-level parasite/prey in the pilot |
