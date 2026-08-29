@@ -195,6 +195,14 @@ validation end to end.
 
 ### Phase 2 — universal preprocessing and screening
 
+**Status: in progress (2026-08-29).** Universal screen validation and
+aggregation are separated from Phase-3 host handling. An eight-library pilot
+spanning all studies, host routes, cap states, depth extremes, and input-file
+layouts is predeclared in `config/phase2_pilot.tsv`. Static validation, lint,
+the 43-job pilot dry run, the 1,028-job cohort dry run, an exact-cap fixture,
+and three-study fixture aggregation pass. The full-library pilot is the active
+execution gate; no cohort target has been submitted.
+
 For all included unique libraries:
 
 1. deterministically cap only libraries above 400 M raw read pairs, preserving

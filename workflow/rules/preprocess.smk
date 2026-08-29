@@ -30,8 +30,8 @@ rule trim_reads:
         r2=raw_r2,
         run_snapshot=f"{WORK}/provenance/run/inputs.sha256",
     output:
-        r1=f"{SCRATCH}/trimmed/{{sample}}_R1.fastq.gz",
-        r2=f"{SCRATCH}/trimmed/{{sample}}_R2.fastq.gz",
+        r1=temp(f"{SCRATCH}/trimmed/{{sample}}_R1.fastq.gz") if config.get("cleanup_trimmed_after_validation") else f"{SCRATCH}/trimmed/{{sample}}_R1.fastq.gz",
+        r2=temp(f"{SCRATCH}/trimmed/{{sample}}_R2.fastq.gz") if config.get("cleanup_trimmed_after_validation") else f"{SCRATCH}/trimmed/{{sample}}_R2.fastq.gz",
         fastp_json=f"{WORK}/trim/{{sample}}.fastp.json",
         fastp_html=f"{WORK}/trim/{{sample}}.fastp.html",
         provenance=f"{WORK}/provenance/trim/{{sample}}.json",
@@ -47,12 +47,18 @@ rule trim_reads:
     benchmark:
         f"{WORK}/benchmarks/trim/{{sample}}.tsv",
     threads: config["resources"]["trim"]["threads"]
+    priority: 0
     resources:
         mem_mb=config["resources"]["trim"]["mem_mb"],
         runtime=config["resources"]["trim"]["runtime"],
         partition=config["resources"]["trim"]["partition"],
+        cap_slots=lambda wildcards: (
+            1 if int(SAMPLES[wildcards.sample]["read_pairs"]) > int(config["parameters"]["cap_pairs"])
+            else 0
+        ),
     envmodules:
-        "fastp/0.23.2-GCCcore-10.2.0"
+        "fastp/0.23.2-GCCcore-10.2.0",
+        "BBMap/38.90-GCCcore-10.2.0"
     conda:
         "../../envs/fastp.yaml"
     script:

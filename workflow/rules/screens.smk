@@ -22,6 +22,7 @@ rule kraken_bracken:
     benchmark:
         f"{WORK}/benchmarks/kraken_bracken/{{sample}}.tsv",
     threads: config["resources"]["kraken_bracken"]["threads"]
+    priority: 100
     resources:
         mem_mb=config["resources"]["kraken_bracken"]["mem_mb"],
         runtime=config["resources"]["kraken_bracken"]["runtime"],
@@ -48,6 +49,7 @@ rule sylph_screen:
     benchmark:
         f"{WORK}/benchmarks/sylph/{{sample}}.tsv",
     threads: config["resources"]["sylph"]["threads"]
+    priority: 100
     resources:
         mem_mb=config["resources"]["sylph"]["mem_mb"],
         runtime=config["resources"]["sylph"]["runtime"],
@@ -74,6 +76,7 @@ rule phyloflash_screen:
     benchmark:
         f"{WORK}/benchmarks/phyloflash/{{sample}}.tsv",
     threads: config["resources"]["phyloflash"]["threads"]
+    priority: 100
     resources:
         mem_mb=config["resources"]["phyloflash"]["mem_mb"],
         runtime=config["resources"]["phyloflash"]["runtime"],

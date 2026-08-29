@@ -19,6 +19,8 @@ logs/
 .snakemake/
 tests/scratch/
 tests/work/
+tests/cap_scratch/
+tests/cap_work/
 tests/fixtures/generated/
 workflow/state/
 data/results/

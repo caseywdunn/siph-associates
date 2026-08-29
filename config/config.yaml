@@ -9,7 +9,18 @@ scratch_root: /vast/palmer/scratch/dunn/cwd7/siph_associates
 fixture_root: /gpfs/ycga/work/dunn/cwd7/siph_associates/tests/fixtures/generated
 fixture_enabled: false
 fixture_pairs: 50000
+cleanup_trimmed_after_validation: true
 default_target: phase1_ready
+
+phase2_pilot_samples:
+  - Church2025__OA-190531-1
+  - Church2025__YPM-IZ-110877
+  - Church2025__YPM-IZ-110926
+  - Ahuja2024__CWD116
+  - Ahuja2024__CWD19
+  - Ahuja2024__CWD2
+  - Ahuja2026__NA29
+  - Ahuja2026__WS5
 
 parameters:
   cap_pairs: 400000000
@@ -55,3 +66,4 @@ resources:
   phyloflash: {threads: 8, mem_mb: 32000, runtime: 1080, partition: day}
   host_handling: {threads: 16, mem_mb: 32000, runtime: 720, partition: day}
   validation: {threads: 1, mem_mb: 4000, runtime: 60, partition: day}
+  aggregation: {threads: 1, mem_mb: 8000, runtime: 120, partition: day}

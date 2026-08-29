@@ -10,8 +10,12 @@ reads are written under `/vast/palmer/scratch/dunn/cwd7/siph_associates/`.
 - `phase1_ready`: validate the production sample table and snapshot configuration.
 - `phase1_smoke`: run the three-study, three-host-route fixture through trimming,
   Kraken2/Bracken, sylph, phyloFlash, host handling, and output validation.
-- `screen_cohort`: run the same rules for all 205 libraries. This target belongs
-  to Phase 2 and must not be submitted until that phase's resource pilot is accepted.
+- `screen_pilot`: run universal trimming and all three screens for the eight
+  full-library cases frozen in `config/phase2_pilot.tsv`, then validate and
+  aggregate them without Phase-3 host handling.
+- `screen_cohort`: run the same universal screens, validation, library-QC
+  aggregation, and candidate-nomination aggregation for all 205 libraries. It
+  must not be submitted until the full-library pilot resource gate passes.
 - `all`: resolves to `phase1_ready` in production and `phase1_smoke` in the fixture
   configuration.
 
@@ -74,11 +78,29 @@ sample/rule job. Jobs write temporary files before atomic replacement and emit
 validated sentinels rather than treating an empty biological result as success.
 
 Trimmed reads are normal scratch outputs and downstream rules consume them with
-`ancient()`. A purged trimmed file is regenerated only if a pending downstream
-target needs it; regenerating scratch reads does not invalidate already-complete
-persistent products. When code or locked parameters change, record and force the
-affected rules explicitly with `-R RULE`, because production uses mtime-only
-rerun triggers.
+`ancient()`. In production Phase 2 they are marked temporary and are removed
+only after Kraken2/Bracken, sylph, phyloFlash, and paired-count validation have
+all succeeded; this bounds residency below the shared scratch capacity. A
+purged trimmed file is regenerated only if a pending downstream target needs
+it, and regenerating scratch reads does not invalidate already-complete
+persistent products. Capped libraries are limited to one concurrent trim
+because exact seeded sampling temporarily stages their concatenated raw mates.
+When code or locked parameters change, record and force the affected rules
+explicitly with `-R RULE`, because production uses mtime-only rerun triggers.
+
+## Phase 2 gate
+
+Run the static and fixture checks before the full-library pilot:
+
+```bash
+bash scripts/check_phase2.sh --scope static
+bash scripts/submit_workflow.sh screen_pilot config/config.yaml
+```
+
+The pilot covers eight declared libraries and reuses accepted persistent
+outputs in the cohort. After it passes, use rule benchmarks and `sacct` maxima
+to lock resources with margin, rerun `scripts/check_phase2.sh --scope pilot`,
+and commit the resource decision before submitting `screen_cohort`.
 
 ## Environments and provenance
 

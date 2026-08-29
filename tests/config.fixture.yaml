@@ -6,8 +6,10 @@ scratch_root: /gpfs/ycga/work/dunn/cwd7/siph_associates/tests/scratch
 fixture_root: /gpfs/ycga/work/dunn/cwd7/siph_associates/tests/fixtures/generated
 fixture_enabled: true
 fixture_pairs: 50000
+cleanup_trimmed_after_validation: false
 fixture_reference_bases: 1000000
 default_target: phase1_smoke
+phase2_pilot_samples: []
 fixture_reference_sources:
   P_physalis: /gpfs/ycga/work/dunn/cwd7/databases/refgenomes/physalia_physalis/GCA_041430235.2_Physalia_TX2017-38_primary_02_genomic.fna
   N_septata: /gpfs/ycga/work/dunn/cwd7/databases/refgenomes/nanomia_septata/GCA_048301705.1_ASM4830170v1_genomic.fna

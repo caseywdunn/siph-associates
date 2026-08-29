@@ -1,7 +1,5 @@
-import gzip
 import json
 import os
-import random
 import shutil
 import subprocess
 import sys
@@ -19,37 +17,25 @@ def concatenate(inputs, output):
                 shutil.copyfileobj(source, target, 1024 * 1024)
 
 
-def record(handle):
-    lines = [handle.readline() for _ in range(4)]
-    if not lines[0]:
-        return None
-    if not all(lines):
-        raise ValueError("incomplete FASTQ record during deterministic capping")
-    return lines
-
-
-def systematic_cap(r1_paths, r2_paths, total, keep, seed, out1, out2):
-    selected = 0
-    seen = 0
-    offset = random.Random(seed).random()
-    next_index = int(offset * total / keep)
-    with gzip.open(out1, "wt") as target1, gzip.open(out2, "wt") as target2:
-        for path1, path2 in zip(r1_paths, r2_paths):
-            with gzip.open(path1, "rt") as source1, gzip.open(path2, "rt") as source2:
-                while True:
-                    pair1, pair2 = record(source1), record(source2)
-                    if pair1 is None and pair2 is None:
-                        break
-                    if pair1 is None or pair2 is None:
-                        raise ValueError("mate files contain different record counts")
-                    if seen == next_index and selected < keep:
-                        target1.writelines(pair1)
-                        target2.writelines(pair2)
-                        selected += 1
-                        next_index = int((selected + offset) * total / keep)
-                    seen += 1
-    if seen != total or selected != keep:
-        raise ValueError(f"cap reconciliation failed: observed={seen}, expected={total}, selected={selected}, keep={keep}")
+def deterministic_cap(r1_paths, r2_paths, keep, seed, out1, out2, threads, log):
+    """Create an exact seeded paired subsample with BBTools."""
+    reformat = shutil.which("reformat.sh")
+    if not reformat:
+        raise FileNotFoundError("deterministic capping requires reformat.sh from the declared BBMap module")
+    raw1, raw2 = out1.parent / "uncapped_R1.fastq.gz", out1.parent / "uncapped_R2.fastq.gz"
+    concatenate(r1_paths, raw1)
+    concatenate(r2_paths, raw2)
+    command = [
+        reformat, f"in1={raw1}", f"in2={raw2}", f"out1={out1}", f"out2={out2}",
+        f"samplereadstarget={keep}", f"sampleseed={seed}",
+        f"threads={max(1, threads // 2)}", "overwrite=t",
+    ]
+    result = subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, text=True)
+    if result.returncode:
+        raise subprocess.CalledProcessError(result.returncode, command)
+    raw1.unlink()
+    raw2.unlink()
+    return command
 
 
 ensure_parents(list(snakemake.output) + [snakemake.log[0]])
@@ -63,22 +49,25 @@ if not fastp:
 with tempfile.TemporaryDirectory(prefix=f"trim.{snakemake.wildcards.sample}.", dir=str(Path(snakemake.output.r1).parent)) as temp:
     temp = Path(temp)
     staged1, staged2 = temp / "input_R1.fastq.gz", temp / "input_R2.fastq.gz"
-    if expected > cap:
-        systematic_cap(snakemake.input.r1, snakemake.input.r2, expected, cap,
-                       int(snakemake.params.cap_seed), staged1, staged2)
-        cap_method = "seeded_deterministic_systematic_even_spacing"
-    else:
-        concatenate(snakemake.input.r1, staged1)
-        concatenate(snakemake.input.r2, staged2)
-        cap_method = "not_capped"
     out1, out2 = temp / "trimmed_R1.fastq.gz", temp / "trimmed_R2.fastq.gz"
     report_json, report_html = temp / "fastp.json", temp / "fastp.html"
-    command = [
-        fastp, "-i", str(staged1), "-I", str(staged2), "-o", str(out1), "-O", str(out2),
-        "--thread", str(snakemake.threads), "--detect_adapter_for_pe", "--dont_eval_duplication",
-        "--json", str(report_json), "--html", str(report_html),
-    ]
     with open(snakemake.log[0], "w") as log:
+        if expected > cap:
+            cap_command = deterministic_cap(
+                snakemake.input.r1, snakemake.input.r2, cap, int(snakemake.params.cap_seed),
+                staged1, staged2, int(snakemake.threads), log,
+            )
+            cap_method = "bbtools_exact_seeded_pair_sampling"
+        else:
+            concatenate(snakemake.input.r1, staged1)
+            concatenate(snakemake.input.r2, staged2)
+            cap_command = None
+            cap_method = "not_capped"
+        command = [
+            fastp, "-i", str(staged1), "-I", str(staged2), "-o", str(out1), "-O", str(out2),
+            "--thread", str(snakemake.threads), "--detect_adapter_for_pe", "--dont_eval_duplication",
+            "--json", str(report_json), "--html", str(report_html),
+        ]
         result = subprocess.run(command, stdout=log, stderr=subprocess.STDOUT, text=True)
     if result.returncode:
         raise subprocess.CalledProcessError(result.returncode, command)
@@ -92,7 +81,7 @@ with tempfile.TemporaryDirectory(prefix=f"trim.{snakemake.wildcards.sample}.", d
 
 atomic_json(snakemake.output.provenance, {
     "sample_id": str(snakemake.wildcards.sample),
-    "command": command,
+    "command": {"cap": cap_command, "fastp": command},
     "software": version([fastp, "--version"]),
     "parameters": {"cap_pairs": cap, "cap_seed": int(snakemake.params.cap_seed), "cap_method": cap_method},
     "run_snapshot_sha256": sha256(snakemake.input.run_snapshot),

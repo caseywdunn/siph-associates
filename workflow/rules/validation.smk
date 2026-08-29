@@ -106,27 +106,3 @@ rule phase1_smoke:
         "../../envs/workflow.yaml"
     script:
         "../scripts/validate_stage.py"
-
-
-rule screen_cohort:
-    input:
-        expand(f"{WORK}/validation/samples/{{sample}}.json", sample=SAMPLE_IDS)
-    output:
-        f"{WORK}/stages/screen_cohort.done"
-    params:
-        expected_samples=len(SAMPLE_IDS),
-        expected_studies=len({SAMPLES[s]["study"] for s in SAMPLE_IDS}),
-        expected_routes=len({SAMPLES[s]["host_route"] for s in SAMPLE_IDS}),
-    log:
-        f"{WORK}/logs/validation/screen_cohort.log",
-    benchmark:
-        f"{WORK}/benchmarks/validation/screen_cohort.tsv",
-    threads: 1
-    resources:
-        mem_mb=4000,
-        runtime=30,
-        partition="day",
-    conda:
-        "../../envs/workflow.yaml"
-    script:
-        "../scripts/validate_stage.py"

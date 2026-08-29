@@ -32,6 +32,7 @@ include: "workflow/rules/preprocess.smk"
 include: "workflow/rules/screens.smk"
 include: "workflow/rules/host.smk"
 include: "workflow/rules/validation.smk"
+include: "workflow/rules/phase2.smk"
 
 
 rule all:

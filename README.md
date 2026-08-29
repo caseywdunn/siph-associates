@@ -70,8 +70,10 @@ Phases 0 and 1 are complete. The 205-library manifest and normalized input
 metadata are validated and checksum-frozen, and the reproducible
 Snakemake/SLURM workflow passed lint, the 1,234-job production dry run, and an
 end-to-end real-read smoke spanning all three studies and host routes. No
-full-cohort computation has begun. Phase 2 starts with a 6--10-library resource
-pilot; the manuscript (LaTeX) lives in a separate repository and cites this one.
+full-cohort computation has begun. Phase 2 is in progress: its eight-library
+resource pilot is predeclared and all static, cap, dry-run, and
+fixture-aggregation gates pass. The manuscript (LaTeX) lives in a separate
+repository and cites this one.
 
 ## Citation / license
 

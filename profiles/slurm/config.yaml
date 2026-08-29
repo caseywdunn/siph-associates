@@ -1,5 +1,6 @@
 jobs: 32
 cores: 10000
+resources: [cap_slots=1]
 local-cores: 1
 cluster: "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python profiles/slurm/submit.py"
 cluster-status: "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python profiles/slurm/status.py"

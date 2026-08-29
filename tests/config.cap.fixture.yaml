@@ -1,0 +1,16 @@
+mode: fixture
+config_path: tests/config.cap.fixture.yaml
+samples: tests/fixtures/samples.tsv
+work_root: /gpfs/ycga/work/dunn/cwd7/siph_associates/tests/cap_work
+scratch_root: /gpfs/ycga/work/dunn/cwd7/siph_associates/tests/cap_scratch
+fixture_root: /gpfs/ycga/work/dunn/cwd7/siph_associates/tests/fixtures/generated
+fixture_enabled: true
+fixture_pairs: 50000
+cleanup_trimmed_after_validation: false
+default_target: phase1_ready
+phase2_pilot_samples: []
+parameters:
+  cap_pairs: 1000
+  cap_seed: 20260829
+resources:
+  trim: {threads: 6, mem_mb: 8000, runtime: 60, partition: day}

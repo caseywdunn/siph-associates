@@ -1,5 +1,26 @@
 # Run log
 
+## 2026-08-29 — Phase 2 full-library pilot ready
+
+- Target: `screen_pilot` using `config/config.yaml`; eight libraries are frozen
+  in `config/phase2_pilot.tsv` and span all three studies, all three host routes,
+  capped/uncapped data, 31.5 M--1.184 B raw pairs, and one to five input pairs.
+- Phase-2 screening is now independent of Phase-3 host handling. Per-library
+  validators check synchronized trimmed counts, cap/provenance reconciliation,
+  expected Kraken2/Bracken/sylph columns, phyloFlash archive contents, and
+  screen provenance. Aggregation emits library QC and nomination-only evidence
+  from Bracken, sylph, and phyloFlash.
+- Scratch policy: trimmed production reads are temporary only after all three
+  screens and validation succeed. Downstream priorities drain completed samples;
+  exact capped sampling is restricted to one concurrent trim to bound temporary
+  raw staging against 5.8 TB available scratch.
+- Static acceptance: manifest freeze PASS; Snakemake lint PASS; pilot dry run 43
+  jobs; cohort dry run 1,028 jobs; exact 1,000-pair cap fixture PASS; existing
+  three-study fixture screen validation and 84-row nomination aggregation PASS;
+  `scripts/validate_phase2.py --scope static` reports zero errors.
+- No Phase-2 SLURM job has yet been submitted. Next command after this checkpoint:
+  `bash scripts/submit_workflow.sh screen_pilot config/config.yaml`.
+
 ## 2026-08-29 — Phase 1 complete
 
 - Workflow commit: `c702150` (`Build Phase 1 Snakemake workflow skeleton`).
