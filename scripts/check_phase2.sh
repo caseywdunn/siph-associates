@@ -18,5 +18,6 @@ python3 scripts/validate_manifest.py --freeze data/metadata/manifest.freeze.sha2
   --cores 6 --use-envmodules --rerun-incomplete -R trim_reads \
   --configfile tests/config.cap.fixture.yaml
 python3 tests/check_capped_fixture.py
+python3 tests/test_atomic_move.py
 python3 tests/test_phase2_fixture.py
 python3 scripts/validate_phase2.py "$@"

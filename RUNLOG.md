@@ -18,8 +18,17 @@
   jobs; cohort dry run 1,028 jobs; exact 1,000-pair cap fixture PASS; existing
   three-study fixture screen validation and 84-row nomination aggregation PASS;
   `scripts/validate_phase2.py --scope static` reports zero errors.
-- No Phase-2 SLURM job has yet been submitted. Next command after this checkpoint:
-  `bash scripts/submit_workflow.sh screen_pilot config/config.yaml`.
+- Pilot controller `9721732` was submitted from commit `eb8bd30`. The first
+  completed fastp run exposed an atomic-publication bug: reports created on
+  `/vast` could not be renamed directly onto `/gpfs` (`EXDEV`). The data and
+  fastp results themselves were valid. The doomed controller and remaining
+  workers were canceled, and five enumerated incomplete scratch directories
+  (409 GB) were removed; these contained no accepted output and are fully
+  regenerable.
+- Fix: atomic publication now falls back to a destination-filesystem temporary
+  copy followed by rename. A direct `/tmp`-to-project cross-filesystem test
+  passes. Next command after the fix checkpoint: restart the identical
+  `screen_pilot` target; Snakemake will retain any accepted persistent output.
 
 ## 2026-08-29 — Phase 1 complete
 

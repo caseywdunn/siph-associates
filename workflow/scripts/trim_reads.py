@@ -7,7 +7,7 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(snakemake.config["manifest"]).resolve().parent / "workflow" / "scripts"))
-from common import atomic_json, ensure_parents, file_record, sha256, version
+from common import atomic_json, atomic_move, ensure_parents, file_record, sha256, version
 
 
 def concatenate(inputs, output):
@@ -77,7 +77,7 @@ with tempfile.TemporaryDirectory(prefix=f"trim.{snakemake.wildcards.sample}.", d
         raise ValueError(f"fastp produced invalid paired read count: {passed_reads}")
     for temporary, final in ((out1, snakemake.output.r1), (out2, snakemake.output.r2),
                              (report_json, snakemake.output.fastp_json), (report_html, snakemake.output.fastp_html)):
-        os.replace(temporary, final)
+        atomic_move(temporary, final)
 
 atomic_json(snakemake.output.provenance, {
     "sample_id": str(snakemake.wildcards.sample),

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import gzip
+import errno
 import hashlib
 import json
 import os
@@ -29,6 +30,20 @@ def atomic_json(path, payload):
     temporary = path.with_name(path.name + ".tmp")
     temporary.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
     os.replace(temporary, path)
+
+
+def atomic_move(source, destination):
+    """Atomically publish a file, copying to a destination temp on EXDEV."""
+    source, destination = Path(source), Path(str(destination))
+    try:
+        os.replace(source, destination)
+    except OSError as exc:
+        if exc.errno != errno.EXDEV:
+            raise
+        temporary = destination.with_name(destination.name + f".tmp.{os.getpid()}")
+        shutil.copyfile(source, temporary)
+        os.replace(temporary, destination)
+        source.unlink()
 
 
 def normalize_read_id(header):
