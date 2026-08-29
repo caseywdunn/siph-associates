@@ -1,0 +1,9 @@
+status	PASS
+manifest_libraries	205
+unique_specimens	205
+paired_fastq_records	313
+provenance_records	208
+phase0_resources	10
+host_reference_audits	2
+freeze_checked	yes
+errors	0

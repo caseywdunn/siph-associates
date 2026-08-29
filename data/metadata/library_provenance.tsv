@@ -1,0 +1,209 @@
+provenance_id	library_id	study	original_label	specimen_id	record_role	sequence_origin	bioproject	sra_run	source_record	notes
+Ahuja2024:CWD1	Ahuja2024:CWD1	Ahuja2024	CWD1	YPM:IZ:35024	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143291	ds1_ahuja2024.tsv	
+Ahuja2024:CWD101	Ahuja2024:CWD101	Ahuja2024	CWD101	YPM:IZ:35090	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143290	ds1_ahuja2024.tsv	
+Ahuja2024:CWD104	Ahuja2024:CWD104	Ahuja2024	CWD104	Tib596SS12	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143279	ds1_ahuja2024.tsv	
+Ahuja2024:CWD11	Ahuja2024:CWD11	Ahuja2024	CWD11	YPM:IZ:35076	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143268	ds1_ahuja2024.tsv	
+Ahuja2024:CWD116	Ahuja2024:CWD116	Ahuja2024	CWD116	MBARI071903BW	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR25099392;SRR25099393;SRR25099394;SRR25099395;SRR25099396	ds1_ahuja2024.tsv	
+Ahuja2024:CWD117	Ahuja2024:CWD117	Ahuja2024	CWD117	YPM:IZ:35045	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143261	ds1_ahuja2024.tsv	
+Ahuja2024:CWD12	Ahuja2024:CWD12	Ahuja2024	CWD12	YPM:IZ:35038	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143260	ds1_ahuja2024.tsv	
+Ahuja2024:CWD121	Ahuja2024:CWD121	Ahuja2024	CWD121	YPM:IZ:35350	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143259	ds1_ahuja2024.tsv	
+Ahuja2024:CWD122	Ahuja2024:CWD122	Ahuja2024	CWD122	YPM:IZ:35049	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143258	ds1_ahuja2024.tsv	
+Ahuja2024:CWD131	Ahuja2024:CWD131	Ahuja2024	CWD131	YPM:IZ:35355	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143257	ds1_ahuja2024.tsv	
+Ahuja2024:CWD141	Ahuja2024:CWD141	Ahuja2024	CWD141	YPM:IZ:35358	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143289	ds1_ahuja2024.tsv	
+Ahuja2024:CWD144	Ahuja2024:CWD144	Ahuja2024	CWD144	YPM:IZ:35360	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR25099388;SRR25099389;SRR25099390;SRR25099391	ds1_ahuja2024.tsv	
+Ahuja2024:CWD146	Ahuja2024:CWD146	Ahuja2024	CWD146	YPM:IZ:35362	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143287	ds1_ahuja2024.tsv	
+Ahuja2024:CWD16	Ahuja2024:CWD16	Ahuja2024	CWD16	YPM:IZ:35039	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143286	ds1_ahuja2024.tsv	
+Ahuja2024:CWD17	Ahuja2024:CWD17	Ahuja2024	CWD17	YPM:IZ:35040	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143285	ds1_ahuja2024.tsv	
+Ahuja2024:CWD19	Ahuja2024:CWD19	Ahuja2024	CWD19	YPM:IZ:35346	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143284	ds1_ahuja2024.tsv	
+Ahuja2024:CWD2	Ahuja2024:CWD2	Ahuja2024	CWD2	YPM:IZ:35029	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143283	ds1_ahuja2024.tsv	
+Ahuja2024:CWD20	Ahuja2024:CWD20	Ahuja2024	CWD20	YPM:IZ:35347	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143282	ds1_ahuja2024.tsv	
+Ahuja2024:CWD21	Ahuja2024:CWD21	Ahuja2024	CWD21	YPM:IZ:35041	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143281	ds1_ahuja2024.tsv	
+Ahuja2024:CWD3	Ahuja2024:CWD3	Ahuja2024	CWD3	YPM:IZ:35030	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143280	ds1_ahuja2024.tsv	
+Ahuja2024:CWD6	Ahuja2024:CWD6	Ahuja2024	CWD6	YPM:IZ:35032	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143278	ds1_ahuja2024.tsv	
+Ahuja2024:CWD7	Ahuja2024:CWD7	Ahuja2024	CWD7	YPM:IZ:35033	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143277	ds1_ahuja2024.tsv	
+Ahuja2024:NA1	Ahuja2024:NA1	Ahuja2024	NA1	YPM:IZ:110225	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143276	ds1_ahuja2024.tsv	
+Ahuja2024:NA10	Ahuja2024:NA10	Ahuja2024	NA10	T987-D2	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143275	ds1_ahuja2024.tsv	
+Ahuja2024:NA11	Ahuja2024:NA11	Ahuja2024	NA11	T845-D3	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143274	ds1_ahuja2024.tsv	
+Ahuja2024:NA19	Ahuja2026:NA19	Ahuja2024	NA19	YPM:IZ:111744	sequence_origin	Ahuja et al. 2024	PRJNA925656	SRR23143273	Ahuja_2024_Supplementary_Table_1.xlsx	Same library reused in the Ahuja 2026 Nanomia analysis
+Ahuja2024:NA2	Ahuja2024:NA2	Ahuja2024	NA2	D1399-D4	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143272	ds1_ahuja2024.tsv	
+Ahuja2024:NA22	Church2025:YPM-IZ-104465	Ahuja2024	NA22	YPM:IZ:104465	duplicate_provenance	Ahuja et al. 2024	PRJNA925656	SRR23143271	ds1_ahuja2024.tsv	Physalia utriculus (Guam); maps to P. physalis ref
+Ahuja2024:NA3	Ahuja2024:NA3	Ahuja2024	NA3	D1399-D5	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143270	ds1_ahuja2024.tsv	
+Ahuja2024:NA4	Ahuja2024:NA4	Ahuja2024	NA4	D1398-SS11	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143269	ds1_ahuja2024.tsv	
+Ahuja2024:NA5	Ahuja2024:NA5	Ahuja2024	NA5	D1399-D12	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143267	ds1_ahuja2024.tsv	
+Ahuja2024:NA6	Ahuja2024:NA6	Ahuja2024	NA6	V4355-SS6	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143266	ds1_ahuja2024.tsv	
+Ahuja2024:NA7	Ahuja2024:NA7	Ahuja2024	NA7	V4355-D3	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143265	ds1_ahuja2024.tsv	
+Ahuja2024:NA8	Ahuja2024:NA8	Ahuja2024	NA8	YPM:IZ:110226	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143264	ds1_ahuja2024.tsv	
+Ahuja2024:NA9	Ahuja2024:NA9	Ahuja2024	NA9	D199-SS8	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143263	ds1_ahuja2024.tsv	
+Ahuja2026:CWD16	Ahuja2024:CWD16	Ahuja2026	CWD16	YPM:IZ:35039	reused_in_study	Ahuja et al. 2024	PRJNA925656	SRR23143286	Ahuja_2026_journal.pone.0351247.s008.xlsx	Distinct from NA19; listed as older data in Ahuja 2026 Table S8
+Ahuja2026:NA19	Ahuja2026:NA19	Ahuja2026	NA19	YPM:IZ:111744	primary_analysis	Ahuja et al. 2024	PRJNA925656	SRR23143273	ds2_ahuja2026.tsv	routing R (properly-paired to N. septata ref)
+Ahuja2026:NA28	Ahuja2026:NA28	Ahuja2026	NA28	YPM:IZ:110451	primary_analysis	New	PRJNA1252167	SRR33215983	ds2_ahuja2026.tsv	RI cluster = N. bijuga (3) + N. cara (1); per-specimen CO1 needed
+Ahuja2026:NA29	Ahuja2026:NA29	Ahuja2026	NA29	YPM:IZ:111733	primary_analysis	New	PRJNA1252167	SRR33215966	ds2_ahuja2026.tsv	HI cluster = N. bijuga (2) + N. sp. 1 (1); per-specimen CO1 needed
+Ahuja2026:NA30	Ahuja2026:NA30	Ahuja2026	NA30	YPM:IZ:111732	primary_analysis	New	PRJNA1252167	SRR33215979	ds2_ahuja2026.tsv	Villefranche (Mediterranean)
+Ahuja2026:NA31	Ahuja2026:NA31	Ahuja2026	NA31	YPM:IZ:111742	primary_analysis	New	PRJNA1252167	SRR33215969	ds2_ahuja2026.tsv	
+Ahuja2026:NA32	Ahuja2026:NA32	Ahuja2026	NA32	YPM:IZ:111740	primary_analysis	New	PRJNA1252167	SRR33215968	ds2_ahuja2026.tsv	
+Ahuja2026:NA33	Ahuja2026:NA33	Ahuja2026	NA33	YPM:IZ:111741	primary_analysis	New	PRJNA1252167	SRR33215967	ds2_ahuja2026.tsv	
+Ahuja2026:NA34	Ahuja2026:NA34	Ahuja2026	NA34	YPM:IZ:111164	primary_analysis	New	PRJNA1252167	SRR33215978	ds2_ahuja2026.tsv	routing R (properly-paired to N. septata ref)
+Ahuja2026:NA35	Ahuja2026:NA35	Ahuja2026	NA35	YPM:IZ:111165	primary_analysis	New	PRJNA1252167	SRR33215977	ds2_ahuja2026.tsv	routing R (properly-paired to N. septata ref)
+Ahuja2026:NA36	Ahuja2026:NA36	Ahuja2026	NA36	YPM:IZ:111166	primary_analysis	New	PRJNA1252167	SRR33215976	ds2_ahuja2026.tsv	routing R (properly-paired to N. septata ref)
+Ahuja2026:NA37	Ahuja2026:NA37	Ahuja2026	NA37	YPM:IZ:111590	primary_analysis	New	PRJNA1252167	SRR33215975	ds2_ahuja2026.tsv	HI cluster = N. bijuga (2) + N. sp. 1 (1); per-specimen CO1 needed
+Ahuja2026:NA38	Ahuja2026:NA38	Ahuja2026	NA38	YPM:IZ:111591	primary_analysis	New	PRJNA1252167	SRR33215974	ds2_ahuja2026.tsv	HI cluster = N. bijuga (2) + N. sp. 1 (1); per-specimen CO1 needed
+Ahuja2026:WS10	Ahuja2026:WS10	Ahuja2026	WS10	YPM:IZ:111745	primary_analysis	New	PRJNA1252167	SRR33215970	ds2_ahuja2026.tsv	routing R (properly-paired to N. septata ref)
+Ahuja2026:WS2	Ahuja2026:WS2	Ahuja2026	WS2	YPM:IZ:110216	primary_analysis	New	PRJNA1252167	SRR33215982	ds2_ahuja2026.tsv	RI cluster = N. bijuga (3) + N. cara (1); per-specimen CO1 needed
+Ahuja2026:WS3	Ahuja2026:WS3	Ahuja2026	WS3	YPM:IZ:111734	primary_analysis	New	PRJNA1252167	SRR33215981	ds2_ahuja2026.tsv	RI cluster = N. bijuga (3) + N. cara (1); per-specimen CO1 needed
+Ahuja2026:WS4	Ahuja2026:WS4	Ahuja2026	WS4	YPM:IZ:111735	primary_analysis	New	PRJNA1252167	SRR33215980	ds2_ahuja2026.tsv	RI cluster = N. bijuga (3) + N. cara (1); per-specimen CO1 needed
+Ahuja2026:WS5	Ahuja2026:WS5	Ahuja2026	WS5	YPM:IZ:111736	primary_analysis	New	PRJNA1252167	SRR33215985	ds2_ahuja2026.tsv	routing R (properly-paired to N. septata ref)
+Ahuja2026:WS6	Ahuja2026:WS6	Ahuja2026	WS6	YPM:IZ:111737	primary_analysis	New	PRJNA1252167	SRR33215984	ds2_ahuja2026.tsv	routing R (properly-paired to N. septata ref)
+Ahuja2026:WS7	Ahuja2026:WS7	Ahuja2026	WS7	YPM:IZ:111738	primary_analysis	New	PRJNA1252167	SRR33215973	ds2_ahuja2026.tsv	routing R (properly-paired to N. septata ref)
+Ahuja2026:WS8	Ahuja2026:WS8	Ahuja2026	WS8	YPM:IZ:111739	primary_analysis	New	PRJNA1252167	SRR33215972	ds2_ahuja2026.tsv	routing R (properly-paired to N. septata ref)
+Ahuja2026:WS9	Ahuja2026:WS9	Ahuja2026	WS9	YPM:IZ:107008	primary_analysis	New	PRJNA1252167	SRR33215971	ds2_ahuja2026.tsv	routing R (properly-paired to N. septata ref)
+Church2025:FM-16644	Church2025:FM-16644	Church2025	FM-16644	FM-16644	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498736	church_samples_metadata.tsv	cluster=A
+Church2025:NIWA-173304	Church2025:NIWA-173304	Church2025	NIWA-173304	NIWA-173304	primary_analysis	Church et al. 2025	PRJNA1092115	SRR29478749	church_samples_metadata.tsv	cluster=C2
+Church2025:NIWA-173305	Church2025:NIWA-173305	Church2025	NIWA-173305	NIWA-173305	primary_analysis	Church et al. 2025	PRJNA1092115	SRR29478748	church_samples_metadata.tsv	cluster=C2
+Church2025:OA-190531-1	Church2025:OA-190531-1	Church2025	OA-190531-1	OA-190531-1	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=B1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:OA-Bluebottle	Church2025:OA-Bluebottle	Church2025	OA-Bluebottle	OA-Bluebottle	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=B1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:TMAG-K5632	Church2025:TMAG-K5632	Church2025	TMAG-K5632	TMAG-K5632	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498728	church_samples_metadata.tsv	cluster=C1
+Church2025:TMAG-K5633	Church2025:TMAG-K5633	Church2025	TMAG-K5633	TMAG-K5633	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498727	church_samples_metadata.tsv	cluster=C2
+Church2025:TMAG-K5634	Church2025:TMAG-K5634	Church2025	TMAG-K5634	TMAG-K5634	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498726	church_samples_metadata.tsv	cluster=C2
+Church2025:TMAG-K5635	Church2025:TMAG-K5635	Church2025	TMAG-K5635	TMAG-K5635	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498785	church_samples_metadata.tsv	cluster=C2
+Church2025:TMAG-K5636	Church2025:TMAG-K5636	Church2025	TMAG-K5636	TMAG-K5636	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498784	church_samples_metadata.tsv	cluster=C2
+Church2025:WAM-Z88480	Church2025:WAM-Z88480	Church2025	WAM-Z88480	WAM-Z88480	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498838	church_samples_metadata.tsv	cluster=C1
+Church2025:WAM-Z97900	Church2025:WAM-Z97900	Church2025	WAM-Z97900	WAM-Z97900	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498837	church_samples_metadata.tsv	cluster=C1
+Church2025:WAM-Z97901	Church2025:WAM-Z97901	Church2025	WAM-Z97901	WAM-Z97901	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498836	church_samples_metadata.tsv	cluster=C1
+Church2025:WAM-Z97902	Church2025:WAM-Z97902	Church2025	WAM-Z97902	WAM-Z97902	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498835	church_samples_metadata.tsv	cluster=B1
+Church2025:WAM-Z97903	Church2025:WAM-Z97903	Church2025	WAM-Z97903	WAM-Z97903	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498834	church_samples_metadata.tsv	cluster=C1
+Church2025:WAM-Z97906	Church2025:WAM-Z97906	Church2025	WAM-Z97906	WAM-Z97906	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498833	church_samples_metadata.tsv	cluster=C1
+Church2025:WAM-Z97907	Church2025:WAM-Z97907	Church2025	WAM-Z97907	WAM-Z97907	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498832	church_samples_metadata.tsv	cluster=B1
+Church2025:WAM-Z97908	Church2025:WAM-Z97908	Church2025	WAM-Z97908	WAM-Z97908	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498831	church_samples_metadata.tsv	cluster=B1
+Church2025:WAM-Z97910	Church2025:WAM-Z97910	Church2025	WAM-Z97910	WAM-Z97910	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498829	church_samples_metadata.tsv	cluster=B1
+Church2025:WAM-Z97911	Church2025:WAM-Z97911	Church2025	WAM-Z97911	WAM-Z97911	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498828	church_samples_metadata.tsv	cluster=B1
+Church2025:WAM-Z97914	Church2025:WAM-Z97914	Church2025	WAM-Z97914	WAM-Z97914	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498827	church_samples_metadata.tsv	cluster=B1
+Church2025:WAM-Z97916	Church2025:WAM-Z97916	Church2025	WAM-Z97916	WAM-Z97916	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498826	church_samples_metadata.tsv	cluster=B1
+Church2025:WAM-Z97917	Church2025:WAM-Z97917	Church2025	WAM-Z97917	WAM-Z97917	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498825	church_samples_metadata.tsv	cluster=B1
+Church2025:WAM-Z97920	Church2025:WAM-Z97920	Church2025	WAM-Z97920	WAM-Z97920	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498824	church_samples_metadata.tsv	cluster=C1
+Church2025:WAM-Z97921	Church2025:WAM-Z97921	Church2025	WAM-Z97921	WAM-Z97921	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498823	church_samples_metadata.tsv	cluster=B1
+Church2025:WAM-Z97923	Church2025:WAM-Z97923	Church2025	WAM-Z97923	WAM-Z97923	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498822	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-104460	Church2025:YPM-IZ-104460	Church2025	YPM-IZ-104460	YPM:IZ:104460	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498735	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-104461	Church2025:YPM-IZ-104461	Church2025	YPM-IZ-104461	YPM:IZ:104461	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498734	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-104464	Church2025:YPM-IZ-104464	Church2025	YPM-IZ-104464	YPM:IZ:104464	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498783	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-104465	Church2025:YPM-IZ-104465	Church2025	YPM-IZ-104465	YPM:IZ:104465	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=B1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-106919	Church2025:YPM-IZ-106919	Church2025	YPM-IZ-106919	YPM:IZ:106919	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498747	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-106920	Church2025:YPM-IZ-106920	Church2025	YPM-IZ-106920	YPM:IZ:106920	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498746	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-106923	Church2025:YPM-IZ-106923	Church2025	YPM-IZ-106923	YPM:IZ:106923	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498740	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-106935	Church2025:YPM-IZ-106935	Church2025	YPM-IZ-106935	YPM:IZ:106935	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498749	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-106936	Church2025:YPM-IZ-106936	Church2025	YPM-IZ-106936	YPM:IZ:106936	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498745	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-106937	Church2025:YPM-IZ-106937	Church2025	YPM-IZ-106937	YPM:IZ:106937	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498743	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-106941	Church2025:YPM-IZ-106941	Church2025	YPM-IZ-106941	YPM:IZ:106941	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498742	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-106943	Church2025:YPM-IZ-106943	Church2025	YPM-IZ-106943	YPM:IZ:106943	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498741	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-106954	Church2025:YPM-IZ-106954	Church2025	YPM-IZ-106954	YPM:IZ:106954	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498738	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-106958	Church2025:YPM-IZ-106958	Church2025	YPM-IZ-106958	YPM:IZ:106958	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498739	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110251	Church2025:YPM-IZ-110251	Church2025	YPM-IZ-110251	YPM:IZ:110251	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498840	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110254	Church2025:YPM-IZ-110254	Church2025	YPM-IZ-110254	YPM:IZ:110254	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498839	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110264	Church2025:YPM-IZ-110264	Church2025	YPM-IZ-110264	YPM:IZ:110264	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498843	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110268	Church2025:YPM-IZ-110268	Church2025	YPM-IZ-110268	YPM:IZ:110268	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498842	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110269	Church2025:YPM-IZ-110269	Church2025	YPM-IZ-110269	YPM:IZ:110269	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498813	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110276	Church2025:YPM-IZ-110276	Church2025	YPM-IZ-110276	YPM:IZ:110276	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498802	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110277	Church2025:YPM-IZ-110277	Church2025	YPM-IZ-110277	YPM:IZ:110277	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498791	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110278	Church2025:YPM-IZ-110278	Church2025	YPM-IZ-110278	YPM:IZ:110278	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498777	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110433	Church2025:YPM-IZ-110433	Church2025	YPM-IZ-110433	YPM:IZ:110433	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498766	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110434	Church2025:YPM-IZ-110434	Church2025	YPM-IZ-110434	YPM:IZ:110434	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=A; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-110436	Church2025:YPM-IZ-110436	Church2025	YPM-IZ-110436	YPM:IZ:110436	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=A; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-110438	Church2025:YPM-IZ-110438	Church2025	YPM-IZ-110438	YPM:IZ:110438	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498755	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110443	Church2025:YPM-IZ-110443	Church2025	YPM-IZ-110443	YPM:IZ:110443	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498744	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110460	Church2025:YPM-IZ-110460	Church2025	YPM-IZ-110460	YPM:IZ:110460	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498733	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110467	Church2025:YPM-IZ-110467	Church2025	YPM-IZ-110467	YPM:IZ:110467	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498841	church_samples_metadata.tsv	cluster=C2
+Church2025:YPM-IZ-110468	Church2025:YPM-IZ-110468	Church2025	YPM-IZ-110468	YPM:IZ:110468	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498830	church_samples_metadata.tsv	cluster=C2
+Church2025:YPM-IZ-110469	Church2025:YPM-IZ-110469	Church2025	YPM-IZ-110469	YPM:IZ:110469	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498821	church_samples_metadata.tsv	cluster=C2
+Church2025:YPM-IZ-110470	Church2025:YPM-IZ-110470	Church2025	YPM-IZ-110470	YPM:IZ:110470	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498820	church_samples_metadata.tsv	cluster=C2
+Church2025:YPM-IZ-110471	Church2025:YPM-IZ-110471	Church2025	YPM-IZ-110471	YPM:IZ:110471	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498819	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110473	Church2025:YPM-IZ-110473	Church2025	YPM-IZ-110473	YPM:IZ:110473	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498818	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110474	Church2025:YPM-IZ-110474	Church2025	YPM-IZ-110474	YPM:IZ:110474	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498817	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110480	Church2025:YPM-IZ-110480	Church2025	YPM-IZ-110480	YPM:IZ:110480	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498816	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110515	Church2025:YPM-IZ-110515	Church2025	YPM-IZ-110515	YPM:IZ:110515	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498815	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110520	Church2025:YPM-IZ-110520	Church2025	YPM-IZ-110520	YPM:IZ:110520	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498814	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110526	Church2025:YPM-IZ-110526	Church2025	YPM-IZ-110526	YPM:IZ:110526	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498812	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110556	Church2025:YPM-IZ-110556	Church2025	YPM-IZ-110556	YPM:IZ:110556	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498811	church_samples_metadata.tsv	cluster=C2
+Church2025:YPM-IZ-110557	Church2025:YPM-IZ-110557	Church2025	YPM-IZ-110557	YPM:IZ:110557	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498810	church_samples_metadata.tsv	cluster=C2
+Church2025:YPM-IZ-110558	Church2025:YPM-IZ-110558	Church2025	YPM-IZ-110558	YPM:IZ:110558	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498809	church_samples_metadata.tsv	cluster=C2
+Church2025:YPM-IZ-110566	Church2025:YPM-IZ-110566	Church2025	YPM-IZ-110566	YPM:IZ:110566	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498808	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110569	Church2025:YPM-IZ-110569	Church2025	YPM-IZ-110569	YPM:IZ:110569	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498807	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110600	Church2025:YPM-IZ-110600	Church2025	YPM-IZ-110600	YPM:IZ:110600	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498806	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110602	Church2025:YPM-IZ-110602	Church2025	YPM-IZ-110602	YPM:IZ:110602	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498805	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110605	Church2025:YPM-IZ-110605	Church2025	YPM-IZ-110605	YPM:IZ:110605	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498804	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110612	Church2025:YPM-IZ-110612	Church2025	YPM-IZ-110612	YPM:IZ:110612	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498803	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110613	Church2025:YPM-IZ-110613	Church2025	YPM-IZ-110613	YPM:IZ:110613	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498801	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110616	Church2025:YPM-IZ-110616	Church2025	YPM-IZ-110616	YPM:IZ:110616	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498800	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110631	Church2025:YPM-IZ-110631	Church2025	YPM-IZ-110631	YPM:IZ:110631	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498799	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110633	Church2025:YPM-IZ-110633	Church2025	YPM-IZ-110633	YPM:IZ:110633	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498798	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110667	Church2025:YPM-IZ-110667	Church2025	YPM-IZ-110667	YPM:IZ:110667	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498797	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110694	Church2025:YPM-IZ-110694	Church2025	YPM-IZ-110694	YPM:IZ:110694	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498796	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110716	Church2025:YPM-IZ-110716	Church2025	YPM-IZ-110716	YPM:IZ:110716	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498795	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110726	Church2025:YPM-IZ-110726	Church2025	YPM-IZ-110726	YPM:IZ:110726	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498794	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110738	Church2025:YPM-IZ-110738	Church2025	YPM-IZ-110738	YPM:IZ:110738	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498793	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110777	Church2025:YPM-IZ-110777	Church2025	YPM-IZ-110777	YPM:IZ:110777	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498792	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110780	Church2025:YPM-IZ-110780	Church2025	YPM-IZ-110780	YPM:IZ:110780	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498790	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110785	Church2025:YPM-IZ-110785	Church2025	YPM-IZ-110785	YPM:IZ:110785	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498789	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110786	Church2025:YPM-IZ-110786	Church2025	YPM-IZ-110786	YPM:IZ:110786	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498788	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110828	Church2025:YPM-IZ-110828	Church2025	YPM-IZ-110828	YPM:IZ:110828	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498787	church_samples_metadata.tsv	cluster=C1
+Church2025:YPM-IZ-110829	Church2025:YPM-IZ-110829	Church2025	YPM-IZ-110829	YPM:IZ:110829	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498786	church_samples_metadata.tsv	cluster=C1
+Church2025:YPM-IZ-110830	Church2025:YPM-IZ-110830	Church2025	YPM-IZ-110830	YPM:IZ:110830	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498782	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110842	Church2025:YPM-IZ-110842	Church2025	YPM-IZ-110842	YPM:IZ:110842	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498781	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110843	Church2025:YPM-IZ-110843	Church2025	YPM-IZ-110843	YPM:IZ:110843	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498780	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110844	Church2025:YPM-IZ-110844	Church2025	YPM-IZ-110844	YPM:IZ:110844	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498779	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110845	Church2025:YPM-IZ-110845	Church2025	YPM-IZ-110845	YPM:IZ:110845	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498778	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110846	Church2025:YPM-IZ-110846	Church2025	YPM-IZ-110846	YPM:IZ:110846	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498776	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110847	Church2025:YPM-IZ-110847	Church2025	YPM-IZ-110847	YPM:IZ:110847	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498775	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110876	Church2025:YPM-IZ-110876	Church2025	YPM-IZ-110876	YPM:IZ:110876	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498748	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110877	Church2025:YPM-IZ-110877	Church2025	YPM-IZ-110877	YPM:IZ:110877	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498774	church_samples_metadata.tsv	cluster=B2
+Church2025:YPM-IZ-110878	Church2025:YPM-IZ-110878	Church2025	YPM-IZ-110878	YPM:IZ:110878	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498732	church_samples_metadata.tsv	cluster=B2
+Church2025:YPM-IZ-110880	Church2025:YPM-IZ-110880	Church2025	YPM-IZ-110880	YPM:IZ:110880	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498737	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-110881	Church2025:YPM-IZ-110881	Church2025	YPM-IZ-110881	YPM:IZ:110881	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498731	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110882	Church2025:YPM-IZ-110882	Church2025	YPM-IZ-110882	YPM:IZ:110882	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498730	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110883	Church2025:YPM-IZ-110883	Church2025	YPM-IZ-110883	YPM:IZ:110883	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498729	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110906	Church2025:YPM-IZ-110906	Church2025	YPM-IZ-110906	YPM:IZ:110906	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498773	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110907	Church2025:YPM-IZ-110907	Church2025	YPM-IZ-110907	YPM:IZ:110907	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498772	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110925	Church2025:YPM-IZ-110925	Church2025	YPM-IZ-110925	YPM:IZ:110925	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498771	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110926	Church2025:YPM-IZ-110926	Church2025	YPM-IZ-110926	YPM:IZ:110926	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498770	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110930	Church2025:YPM-IZ-110930	Church2025	YPM-IZ-110930	YPM:IZ:110930	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498769	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110931	Church2025:YPM-IZ-110931	Church2025	YPM-IZ-110931	YPM:IZ:110931	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498768	church_samples_metadata.tsv	cluster=B2
+Church2025:YPM-IZ-110933	Church2025:YPM-IZ-110933	Church2025	YPM-IZ-110933	YPM:IZ:110933	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498767	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110937	Church2025:YPM-IZ-110937	Church2025	YPM-IZ-110937	YPM:IZ:110937	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498765	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110938	Church2025:YPM-IZ-110938	Church2025	YPM-IZ-110938	YPM:IZ:110938	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498764	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-110943	Church2025:YPM-IZ-110943	Church2025	YPM-IZ-110943	YPM:IZ:110943	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498763	church_samples_metadata.tsv	cluster=B2
+Church2025:YPM-IZ-110972	Church2025:YPM-IZ-110972	Church2025	YPM-IZ-110972	YPM:IZ:110972	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498762	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-111006	Church2025:YPM-IZ-111006	Church2025	YPM-IZ-111006	YPM:IZ:111006	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498761	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-111007	Church2025:YPM-IZ-111007	Church2025	YPM-IZ-111007	YPM:IZ:111007	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498760	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-111008	Church2025:YPM-IZ-111008	Church2025	YPM-IZ-111008	YPM:IZ:111008	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498759	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-111009	Church2025:YPM-IZ-111009	Church2025	YPM-IZ-111009	YPM:IZ:111009	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498758	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-111010	Church2025:YPM-IZ-111010	Church2025	YPM-IZ-111010	YPM:IZ:111010	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498757	church_samples_metadata.tsv	cluster=C1
+Church2025:YPM-IZ-111012	Church2025:YPM-IZ-111012	Church2025	YPM-IZ-111012	YPM:IZ:111012	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498756	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-111013	Church2025:YPM-IZ-111013	Church2025	YPM-IZ-111013	YPM:IZ:111013	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498754	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-111014	Church2025:YPM-IZ-111014	Church2025	YPM-IZ-111014	YPM:IZ:111014	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498753	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-111016	Church2025:YPM-IZ-111016	Church2025	YPM-IZ-111016	YPM:IZ:111016	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498752	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-111017	Church2025:YPM-IZ-111017	Church2025	YPM-IZ-111017	YPM:IZ:111017	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498751	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-111018	Church2025:YPM-IZ-111018	Church2025	YPM-IZ-111018	YPM:IZ:111018	primary_analysis	Church et al. 2025	PRJNA1092115	SRR28498750	church_samples_metadata.tsv	cluster=A
+Church2025:YPM-IZ-111156	Church2025:YPM-IZ-111156	Church2025	YPM-IZ-111156	YPM:IZ:111156	primary_analysis	Church et al. 2025	PRJNA1092115	SRR29478751	church_samples_metadata.tsv	cluster=C1
+Church2025:YPM-IZ-111157	Church2025:YPM-IZ-111157	Church2025	YPM-IZ-111157	YPM:IZ:111157	primary_analysis	Church et al. 2025	PRJNA1092115	SRR29478750	church_samples_metadata.tsv	cluster=C1
+Church2025:YPM-IZ-111158	Church2025:YPM-IZ-111158	Church2025	YPM-IZ-111158	YPM:IZ:111158	primary_analysis	Church et al. 2025	PRJNA1092115	SRR29478747	church_samples_metadata.tsv	cluster=C1
+Church2025:YPM-IZ-111159	Church2025:YPM-IZ-111159	Church2025	YPM-IZ-111159	YPM:IZ:111159	primary_analysis	Church et al. 2025	PRJNA1092115	SRR29478746	church_samples_metadata.tsv	cluster=C1
+Church2025:YPM-IZ-111160	Church2025:YPM-IZ-111160	Church2025	YPM-IZ-111160	YPM:IZ:111160	primary_analysis	Church et al. 2025	PRJNA1092115	SRR29478745	church_samples_metadata.tsv	cluster=C1
+Church2025:YPM-IZ-111163	Church2025:YPM-IZ-111163	Church2025	YPM-IZ-111163	YPM:IZ:111163	primary_analysis	Church et al. 2025	PRJNA1092115	SRR29478744	church_samples_metadata.tsv	cluster=B1
+Church2025:YPM-IZ-111207	Church2025:YPM-IZ-111207	Church2025	YPM-IZ-111207	YPM:IZ:111207	primary_analysis	Church et al. 2025	PRJNA1092115	SRR29478743	church_samples_metadata.tsv	cluster=C2
+Church2025:YPM-IZ-111208	Church2025:YPM-IZ-111208	Church2025	YPM-IZ-111208	YPM:IZ:111208	primary_analysis	Church et al. 2025	PRJNA1092115	SRR29478742	church_samples_metadata.tsv	cluster=C2
+Church2025:YPM-IZ-111209	Church2025:YPM-IZ-111209	Church2025	YPM-IZ-111209	YPM:IZ:111209	primary_analysis	Church et al. 2025	PRJNA1092115	SRR29478741	church_samples_metadata.tsv	cluster=C2
+Church2025:YPM-IZ-111210	Church2025:YPM-IZ-111210	Church2025	YPM-IZ-111210	YPM:IZ:111210	primary_analysis	Church et al. 2025	PRJNA1092115	SRR29478740	church_samples_metadata.tsv	cluster=C2
+Church2025:YPM-IZ-111241	Church2025:YPM-IZ-111241	Church2025	YPM-IZ-111241	YPM:IZ:111241	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=C2; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111243	Church2025:YPM-IZ-111243	Church2025	YPM-IZ-111243	YPM:IZ:111243	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=C2; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111495	Church2025:YPM-IZ-111495	Church2025	YPM-IZ-111495	YPM:IZ:111495	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=C1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111513	Church2025:YPM-IZ-111513	Church2025	YPM-IZ-111513	YPM:IZ:111513	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=C1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111514	Church2025:YPM-IZ-111514	Church2025	YPM-IZ-111514	YPM:IZ:111514	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=C1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111517	Church2025:YPM-IZ-111517	Church2025	YPM-IZ-111517	YPM:IZ:111517	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=C1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111518	Church2025:YPM-IZ-111518	Church2025	YPM-IZ-111518	YPM:IZ:111518	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=C1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111519	Church2025:YPM-IZ-111519	Church2025	YPM-IZ-111519	YPM:IZ:111519	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=C1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111520	Church2025:YPM-IZ-111520	Church2025	YPM-IZ-111520	YPM:IZ:111520	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=C1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111521	Church2025:YPM-IZ-111521	Church2025	YPM-IZ-111521	YPM:IZ:111521	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=C1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111529	Church2025:YPM-IZ-111529	Church2025	YPM-IZ-111529	YPM:IZ:111529	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=C1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111530	Church2025:YPM-IZ-111530	Church2025	YPM-IZ-111530	YPM:IZ:111530	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=C1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111539	Church2025:YPM-IZ-111539	Church2025	YPM-IZ-111539	YPM:IZ:111539	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=C1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111547	Church2025:YPM-IZ-111547	Church2025	YPM-IZ-111547	YPM:IZ:111547	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=B1; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111839	Church2025:YPM-IZ-111839	Church2025	YPM-IZ-111839	YPM:IZ:111839	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=B2; submitted to PRJNA1092115, not yet released by NCBI
+Church2025:YPM-IZ-111840	Church2025:YPM-IZ-111840	Church2025	YPM-IZ-111840	YPM:IZ:111840	primary_analysis	Church et al. 2025	PRJNA1092115		church_samples_metadata.tsv	cluster=B1; submitted to PRJNA1092115, not yet released by NCBI

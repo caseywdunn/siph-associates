@@ -17,7 +17,9 @@ each study is a first-class covariate, not a hierarchy.
 ```
 README.md              this file
 PLAN.md                the analysis plan — symmetric pipeline (S0–S9) + locked parameters
-manifest.csv           unified specimen/library manifest (206 libraries; the S0 input)
+EXECUTION_PLAN.md      goal-ready phase gates, acceptance tests, and SLURM recovery model
+manifest.csv           unified deduplicated manifest (205 libraries; the S0 input)
+data/metadata/         paired FASTQs, provenance, resources, checksums, validation
 scripts/
   build_manifest.py    reproducibly builds manifest.csv from data/sources/
 data/sources/          source supplements from the three studies (provenance)
@@ -27,13 +29,21 @@ data/results/          analysis outputs (not tracked)
 ## The manifest
 
 [`manifest.csv`](manifest.csv) is the single source of truth: **one row per
-sequencing library** (the analysis unit), with `specimen_id` (YPM voucher)
-grouping libraries of the same animal and `also_in_studies` flagging specimens
-shared across studies. It carries identity/provenance, taxonomy, collection data,
-and sequencing/data columns (SRA run, BioProject, McCleary path). 206 libraries:
-Church 2025 (151; PRJNA1092115), Ahuja 2024 (34; PRJNA925656), Ahuja 2026 (21;
-PRJNA1252167/PRJNA925656). 21 of the Church libraries are published (Table S7,
-high quality) and submitted to PRJNA1092115 but **not yet released by NCBI**, so
+unique sequencing library** (the analysis unit), with `specimen_id` identifying
+the physical animal. It carries taxonomy, collection data, exact depth, explicit
+FASTQ lists, true Illumina instrument/run/flowcell/lane batches, and inclusion
+state. There are **205 libraries**:
+Church 2025 (151 primary rows), Ahuja 2024 (33), and Ahuja 2026 (21). The
+study-to-library relationship is normalized separately in
+[`data/metadata/library_provenance.tsv`](data/metadata/library_provenance.tsv):
+Church YPM-IZ-104465/Ahuja NA22 is one library with two provenance records;
+CWD16 and NA19 are distinct Ahuja 2024 libraries both reused by Ahuja 2026.
+
+Explicit selected mate pairs and sequencing batches parsed from FASTQ headers are in
+[`data/metadata/raw_files.tsv`](data/metadata/raw_files.tsv). Phase-0 resources,
+host-reference audits, validation, and the checksum freeze are in the same
+directory. Twenty-one of the 151 published Church libraries were submitted to
+PRJNA1092115 but are **not yet released by NCBI**, so
 their `sra_run` is left blank (reads held locally; release pending). The only
 field not fully resolved is per-specimen *Nanomia* CO1 species for the 7
 Rhode-Island / Hawai'i congeners (marked `Nanomia sp.`; needs Ahuja's CO1 calls).
@@ -42,13 +52,19 @@ Rebuild it with:
 
 ```bash
 python3 scripts/build_manifest.py
+python3 scripts/inventory_phase0_resources.py
+python3 scripts/summarize_phase0.py
+python3 scripts/validate_manifest.py
+python3 scripts/freeze_manifest.py
+python3 scripts/validate_manifest.py --freeze data/metadata/manifest.freeze.sha256
 ```
 
 ## Status
 
-In preparation. The pipeline (PLAN.md) is being built from a completed
-exploratory pilot; the manifest is the first committed artifact. The manuscript
-(LaTeX) lives in a separate repository and cites this one.
+Phase 0 is complete: the 205-library manifest and normalized input metadata are
+validated and checksum-frozen. Cohort computation has not begun. Phase 1 is the
+reproducible Snakemake/SLURM workflow skeleton. The manuscript (LaTeX) lives in
+a separate repository and cites this one.
 
 ## Citation / license
 

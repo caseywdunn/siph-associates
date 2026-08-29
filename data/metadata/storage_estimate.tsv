@@ -1,0 +1,9 @@
+metric	value	unit	basis
+analytical_libraries	205	count	deduplicated manifest
+paired_fastq_files	313	pairs	selected original files
+raw_read_pairs	40125377663	read_pairs	sum of exact manifest depths
+raw_compressed_bytes	6049649423789	bytes	sum of selected R1+R2 sizes
+libraries_above_400m_cap	12	count	deterministic cap candidates
+capped_read_pairs	37153585013	read_pairs	sum min(depth, 400M)
+estimated_capped_compressed_bytes	5568192382758	bytes	linear estimate from each library's retained pair fraction
+scratch_reservation_with_20pct_margin	6681830859310	bytes	trimmed-read planning estimate; actual fastp compression may differ

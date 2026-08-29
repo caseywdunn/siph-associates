@@ -12,6 +12,15 @@ Ahuja datasets as additions; this plan removes that path dependence (see §7).
 
 Some parameter values remain provisional pending the last pilot runs — see §9.
 
+For the actionable, restart-safe implementation sequence and goal completion
+criteria, see [`EXECUTION_PLAN.md`](EXECUTION_PLAN.md). It also records the
+manifest and host-depletion issues that must be resolved before cohort work.
+
+**Phase 0 completed 2026-08-29:** 205 unique libraries, 313 explicit paired
+FASTQ inputs, 208 study-provenance records, header-derived sequencing batches,
+locked resource/audit inventories, and a verified checksum freeze. No cohort
+analysis has started; next is the Phase-1 workflow skeleton.
+
 ---
 
 ## 1. Principles
@@ -60,8 +69,11 @@ Some parameter values remain provisional pending the last pilot runs — see §9
 | Ahuja et al. 2024 | 32-species genome skim | 32 siphonophore spp. across the phylogeny | none (except the *Nanomia*/*Physalia* specimens below) |
 | Ahuja et al. 2026 | ~24 *Nanomia* population | 4 *Nanomia* spp. | *N. septata* (this study) |
 
-- **One pooled manifest**, specimen-level **deduplicated** (cross-study specimen
-  overlaps exist — e.g. NA19/CWD16 — resolve by YPM voucher; each specimen once).
+- **One pooled manifest**, specimen-level **deduplicated**. NA19 and CWD16 are
+  distinct Ahuja 2024 libraries reused in the Ahuja 2026 analysis; NA19 was also
+  delivered in both local data trees. Church YPM-IZ-104465 and Ahuja NA22 are
+  the same raw library and are represented once. Cross-study memberships live
+  in a separate provenance table; each raw library occurs once analytically.
 - Metadata per library: study, species, ocean/geography, collection date,
   host-reference-available (P. physalis / N. septata / none), sequencing depth,
   library batch (for the contamination test in §5).
@@ -79,7 +91,7 @@ Host depletion is a **downstream branch** that feeds only the assembly track (an
 supplementary reference-based analysis for the two species that have a genome).
 
 ```
-S0 Manifest ─► S1 Trim ─► S2 Screening — ALL 185 libraries, on trimmed reads ─────────┐
+S0 Manifest ─► S1 Trim ─► S2 Screening — ALL 205 libraries, on trimmed reads ─────────┐
               cap 400M→fastp    Kraken2+Bracken, sylph (GTDB+OceanDNA),                │
               (trimmed = temp)  phyloFlash 16S/18S      (no host exclusion here)       │
                     │                                                                   │
@@ -105,7 +117,7 @@ S0 Manifest ─► S1 Trim ─► S2 Screening — ALL 185 libraries, on trimmed
   because they are consumed twice: by S2 (screens, early) and again by TB competitive mapping
   *after* the catalog is built (§ storage note below). Only the small non-host reads +
   products persist on `/work`.
-- **S2 Screening (all 185, identically)** — read-level: Kraken2/Bracken, sylph (GTDB +
+- **S2 Screening (all 205, identically)** — read-level: Kraken2/Bracken, sylph (GTDB +
   OceanDNA); SSU rRNA: phyloFlash vs SILVA (**16S + 18S**). Run on the full trimmed reads —
   no host exclusion (safer for discovery: no reference-induced loss of host-similar symbiont
   reads). Feeds every domain and the Track-F catalog screen.
@@ -126,8 +138,9 @@ S0 Manifest ─► S1 Trim ─► S2 Screening — ALL 185 libraries, on trimmed
     reference (which would wrongly remove real symbiont reads), and (ii) report co-assembled
     non-host / host EVEs as findings. Pilot: *N. septata* (`GCA_048301705.1`) — 458 unplaced
     scaffolds **audited clean** of bacteria, carrying only host Polinton/adintovirus EVEs.
-    **Still to run:** the same audit on *P. physalis* `GCA_041430235.2` (likely clean —
-    published chromosome-scale assembly — but confirm before locking whole-genome mapping).
+    The equivalent *P. physalis* audit is also complete: no bacterial/plasmid
+    hallmark or conjugation signal; virus-like calls are host EVE candidates.
+    Both audited references are accepted for whole-genome host subtraction.
 - **S4 Assembly** — MEGAHIT on the S3 non-host reads of each bacteria/eukaryote-rich library
   (objective inclusion threshold). One assembly per library feeds **all four** domain tracks.
 
@@ -289,8 +302,9 @@ These depend on exploration still in progress and must be settled first:
 - ~~Rarefaction depth~~ **Resolved:** compute-ceiling cap set at **400 M read pairs** from
   the exact per-library `read_pairs` (SRA spots + counted); trims only ~5 % (the giant
   outliers), all else full depth.
-- **Contamination test design (TB)** — add a **sequencing-run/batch column to the manifest**
-  (currently absent), then test the human/skin/soil candidates (*C. acnes*, *Lawsonella*,
+- **Contamination test design (TB)** — sequencing batch is now normalized per
+  FASTQ pair from the Illumina header's instrument, run, flowcell, and lane
+  fields. Test the human/skin/soil candidates (*C. acnes*, *Lawsonella*,
   *Bradyrhizobium* — all low-breadth in the pilot) against cross-library/batch pattern; no
   blank controls exist for these skims, so batch structure + breadth is the criterion.
 - **Host-handling robustness result (S2)** — confirm the two routes agree before demoting

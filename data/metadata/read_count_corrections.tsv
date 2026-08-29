@@ -1,0 +1,6 @@
+library_id	old_read_pairs	corrected_read_pairs	reason	evidence
+Church2025:YPM-IZ-111241	244681994	122340997	Derived combined_R1 was counted with both component lane files; old total was exactly 2x.	combined_R1 byte size equals the sum of the two selected source R1 byte sizes
+Church2025:YPM-IZ-111243	213548632	106774316	Derived combined_R1 was counted with both component lane files; old total was exactly 2x.	combined_R1 byte size equals the sum of the two selected source R1 byte sizes
+Church2025:YPM-IZ-111495	204530266	102265133	Derived combined_R1 was counted with both component lane files; old total was exactly 2x.	combined_R1 byte size equals the sum of the two selected source R1 byte sizes
+Church2025:YPM-IZ-111513	225438426	112719213	Derived combined_R1 was counted with both component lane files; old total was exactly 2x.	combined_R1 byte size equals the sum of the two selected source R1 byte sizes
+Church2025:YPM-IZ-111514	214632554	107316277	Derived combined_R1 was counted with both component lane files; old total was exactly 2x.	combined_R1 byte size equals the sum of the two selected source R1 byte sizes
