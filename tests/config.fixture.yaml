@@ -1,0 +1,20 @@
+mode: fixture
+config_path: tests/config.fixture.yaml
+samples: tests/fixtures/samples.tsv
+work_root: /gpfs/ycga/work/dunn/cwd7/siph_associates/tests/work
+scratch_root: /gpfs/ycga/work/dunn/cwd7/siph_associates/tests/scratch
+fixture_root: /gpfs/ycga/work/dunn/cwd7/siph_associates/tests/fixtures/generated
+fixture_enabled: true
+fixture_pairs: 50000
+fixture_reference_bases: 1000000
+default_target: phase1_smoke
+fixture_reference_sources:
+  P_physalis: /gpfs/ycga/work/dunn/cwd7/databases/refgenomes/physalia_physalis/GCA_041430235.2_Physalia_TX2017-38_primary_02_genomic.fna
+  N_septata: /gpfs/ycga/work/dunn/cwd7/databases/refgenomes/nanomia_septata/GCA_048301705.1_ASM4830170v1_genomic.fna
+resources:
+  trim: {threads: 4, mem_mb: 8000, runtime: 60, partition: day}
+  kraken_bracken: {threads: 4, mem_mb: 96000, runtime: 120, partition: day}
+  sylph: {threads: 4, mem_mb: 48000, runtime: 120, partition: day}
+  phyloflash: {threads: 4, mem_mb: 16000, runtime: 120, partition: day}
+  host_handling: {threads: 4, mem_mb: 8000, runtime: 60, partition: day}
+  validation: {threads: 1, mem_mb: 4000, runtime: 30, partition: day}

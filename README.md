@@ -18,10 +18,15 @@ each study is a first-class covariate, not a hierarchy.
 README.md              this file
 PLAN.md                the analysis plan — symmetric pipeline (S0–S9) + locked parameters
 EXECUTION_PLAN.md      goal-ready phase gates, acceptance tests, and SLURM recovery model
+WORKFLOW.md            workflow targets, validation, submission, and recovery commands
 manifest.csv           unified deduplicated manifest (205 libraries; the S0 input)
 data/metadata/         paired FASTQs, provenance, resources, checksums, validation
 scripts/
   build_manifest.py    reproducibly builds manifest.csv from data/sources/
+workflow/              modular Snakemake rules and atomic rule scripts
+config/                production configuration and 205-library sample table
+profiles/slurm/         persistent controller/worker submission profile
+envs/                   pinned portable software definitions
 data/sources/          source supplements from the three studies (provenance)
 data/results/          analysis outputs (not tracked)
 ```
@@ -62,9 +67,11 @@ python3 scripts/validate_manifest.py --freeze data/metadata/manifest.freeze.sha2
 ## Status
 
 Phase 0 is complete: the 205-library manifest and normalized input metadata are
-validated and checksum-frozen. Cohort computation has not begun. Phase 1 is the
-reproducible Snakemake/SLURM workflow skeleton. The manuscript (LaTeX) lives in
-a separate repository and cites this one.
+validated and checksum-frozen. Phase 1 is in progress: the reproducible
+Snakemake/SLURM skeleton, production dry run, and real-read fixture are built;
+the database-screening smoke is the remaining acceptance gate. No full-cohort
+computation has begun. The manuscript (LaTeX) lives in a separate repository
+and cites this one.
 
 ## Citation / license
 

@@ -1,0 +1,15 @@
+jobs: 32
+cores: all
+local-cores: 1
+cluster: "python3 profiles/slurm/submit.py"
+cluster-status: "python3 profiles/slurm/status.py"
+latency-wait: 180
+rerun-incomplete: true
+keep-going: true
+printshellcmds: true
+show-failed-logs: true
+rerun-triggers: [mtime]
+restart-times: 0
+use-envmodules: true
+max-status-checks-per-second: 2
+max-jobs-per-second: 2

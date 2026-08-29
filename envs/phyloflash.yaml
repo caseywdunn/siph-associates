@@ -1,0 +1,5 @@
+name: siph-associates-phyloflash-3.4.2
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - phyloflash=3.4.2
+  - python=3.11.4

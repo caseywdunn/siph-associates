@@ -1,0 +1,6 @@
+name: siph-associates-workflow-7.24.0
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - python=3.11.4
+  - snakemake-minimal=7.24.0
+  - pyyaml=6.0

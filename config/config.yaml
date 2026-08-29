@@ -1,0 +1,56 @@
+schema_version: 1
+mode: production
+config_path: config/config.yaml
+samples: config/samples.tsv
+manifest: manifest.csv
+manifest_freeze: data/metadata/manifest.freeze.sha256
+work_root: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results
+scratch_root: /vast/palmer/scratch/dunn/cwd7/siph_associates
+fixture_root: /gpfs/ycga/work/dunn/cwd7/siph_associates/tests/fixtures/generated
+fixture_enabled: false
+fixture_pairs: 50000
+default_target: phase1_ready
+
+parameters:
+  cap_pairs: 400000000
+  cap_seed: 20260829
+  fastp:
+    detect_adapter_for_pe: true
+    dont_eval_duplication: true
+  kraken2:
+    report_minimizer_data: true
+  bracken:
+    threshold: 10
+    levels: [G, S]
+  sylph:
+    estimate_unknown: true
+  phyloflash:
+    almosteverything: true
+  host_mapping:
+    bwa_seed_length: 19
+    keep_sam_flag: 12
+
+databases:
+  kraken2: /gpfs/gibbs/data/db/kraken2/standard
+  sylph:
+    - /gpfs/ycga/work/dunn/cwd7/databases/sylph_gtdb_r220/gtdb-r220-c200-dbv1.syldb
+    - /gpfs/ycga/work/dunn/cwd7/databases/sylph_gtdb_r220/OceanDNA-c200-v0.3.syldb
+  phyloflash: /gpfs/ycga/work/dunn/cwd7/databases/phyloflash_silva/138.1
+  host_references:
+    P_physalis: /gpfs/ycga/work/dunn/cwd7/databases/refgenomes/physalia_physalis/GCA_041430235.2_Physalia_TX2017-38_primary_02_genomic.fna
+    N_septata: /gpfs/ycga/work/dunn/cwd7/databases/refgenomes/nanomia_septata/GCA_048301705.1_ASM4830170v1_genomic.fna
+
+tool_prefixes:
+  snakemake: /gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake
+  bracken: /gpfs/gibbs/project/dunn/cwd7/conda_envs/bracken_env
+  sylph: /gpfs/gibbs/project/dunn/cwd7/conda_envs/sylph_env
+  phyloflash: /gpfs/gibbs/project/dunn/cwd7/conda_envs/phyloflash_env
+  assembly: /gpfs/gibbs/project/dunn/cwd7/conda_envs/assembly_env
+
+resources:
+  trim: {threads: 16, mem_mb: 32000, runtime: 1440, partition: day}
+  kraken_bracken: {threads: 8, mem_mb: 96000, runtime: 1080, partition: day}
+  sylph: {threads: 16, mem_mb: 48000, runtime: 1080, partition: day}
+  phyloflash: {threads: 8, mem_mb: 32000, runtime: 1080, partition: day}
+  host_handling: {threads: 16, mem_mb: 32000, runtime: 720, partition: day}
+  validation: {threads: 1, mem_mb: 4000, runtime: 60, partition: day}

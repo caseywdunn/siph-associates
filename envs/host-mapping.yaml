@@ -1,0 +1,6 @@
+name: siph-associates-host-mapping
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - bwa=0.7.18
+  - samtools=1.19.2
+  - python=3.11.4
