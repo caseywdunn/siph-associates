@@ -14,14 +14,17 @@ ensure_parents(list(snakemake.output) + [snakemake.log[0]])
 kraken = resolve_executable(snakemake.params.prefix, "kraken2")
 bracken = resolve_executable(snakemake.params.prefix, "bracken")
 fastp_report = json.loads(Path(snakemake.input.fastp).read_text())
-read_length = round(float(fastp_report["summary"]["after_filtering"]["read1_mean_length"]))
+if int(fastp_report["summary"]["after_filtering"]["total_reads"]) <= 0:
+    raise ValueError("fastp report contains no reads")
+read_length = int(snakemake.params.read_length)
 database = str(snakemake.input.database)
 
 with tempfile.TemporaryDirectory(prefix=f"kraken.{snakemake.wildcards.sample}.", dir=str(Path(snakemake.output.report).parent)) as temp:
     temp = Path(temp)
     report = temp / "report.tsv"
     assignments = temp / "assignments.tsv.gz"
-    classified_template = str(temp / "classified_#.fastq")
+    # Kraken2 replaces # with the strings _1 and _2 for paired output.
+    classified_template = str(temp / "classified#.fastq")
     command = [
         kraken, "--db", database, "--threads", str(snakemake.threads), "--paired",
         "--gzip-compressed", "--report", str(report), "--report-minimizer-data",

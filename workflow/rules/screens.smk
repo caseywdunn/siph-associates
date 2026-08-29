@@ -16,6 +16,7 @@ rule kraken_bracken:
     params:
         prefix=config["tool_prefixes"]["bracken"],
         threshold=int(config["parameters"]["bracken"]["threshold"]),
+        read_length=int(config["parameters"]["bracken"]["read_length"]),
     log:
         f"{WORK}/logs/kraken_bracken/{{sample}}.log",
     benchmark:

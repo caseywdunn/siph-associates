@@ -21,6 +21,7 @@ parameters:
     report_minimizer_data: true
   bracken:
     threshold: 10
+    read_length: 150
     levels: [G, S]
   sylph:
     estimate_unknown: true

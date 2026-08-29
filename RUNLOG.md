@@ -20,7 +20,14 @@
   `snakemake`; the one-CPU controller environment also exposed undesired worker
   thread scaling. Fix: run profile helpers with the workflow environment Python
   and give Snakemake an explicit scheduler-only core budget. Replacement
-  controller: pending validation and submission.
+  controller: `9721122`, submitted from fix commit `285baf7`.
+- Controller `9721122` worker finding: all three Kraken2 classifications ran,
+  but jobs `9721143`, `9721146`, and `9721149` failed during atomic output
+  handling because Kraken replaces `#` with `_1`/`_2`, producing a doubled
+  underscore from the wrapper's original template. Corrected the template;
+  locked Bracken to the database's available 150-mer distribution rather than
+  an unsupported arbitrary post-trim mean length;
+  completed upstream and independent screen outputs remain valid for restart.
 - Acceptance artifact: `tests/work/stages/phase1_smoke.done`, followed by
   `bash scripts/check_phase1.sh --require-smoke`.
 
