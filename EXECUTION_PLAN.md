@@ -158,11 +158,13 @@ unexplained manifest TODOs, and the expected number of unique analysis rows.
 
 ### Phase 1 — build the reproducible workflow skeleton
 
-**Status: in progress (2026-08-29).** The modular workflow, locked production
-and fixture configurations, pinned environments, persistent SLURM profile, and
-three-study/three-route real-read fixture are implemented. Lint and the
-1,234-job production dry run pass; database-heavy fixture screens remain to be
-completed before acceptance.
+**Status: complete (2026-08-29).** The modular workflow, locked production and
+fixture configurations, pinned environments, persistent SLURM profile, and
+three-study/three-route real-read fixture are implemented. Lint, the 1,234-job
+production dry run, a clean post-run fixture dry run, and the end-to-end smoke
+all pass. Each fixture completed trim, Kraken2/Bracken, sylph, phyloFlash, its
+declared host route, and content validation. See `RUNLOG.md` and
+`data/metadata/phase1_validation.txt`.
 
 Implement a Snakemake workflow in the repository root with modular rules,
 `config/config.yaml`, `config/samples.tsv`, pinned environment definitions, and

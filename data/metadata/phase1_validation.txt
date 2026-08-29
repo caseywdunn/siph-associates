@@ -4,6 +4,6 @@ fixture_samples	3
 fixture_studies	3
 fixture_host_routes	3
 pinned_environments	6
-smoke_required	no
-smoke_validations	0
+smoke_required	yes
+smoke_validations	3
 errors	0

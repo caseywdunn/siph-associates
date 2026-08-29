@@ -29,5 +29,10 @@ with temporary.open("w", newline="") as handle:
     writer = csv.DictWriter(handle, fieldnames=fields, delimiter="\t", lineterminator="\n")
     writer.writeheader()
     writer.writerows(selected)
-temporary.replace(OUTPUT)
-print(f"wrote {len(selected)} fixture samples -> {OUTPUT}")
+if OUTPUT.exists() and temporary.read_bytes() == OUTPUT.read_bytes():
+    temporary.unlink()
+    action = "unchanged"
+else:
+    temporary.replace(OUTPUT)
+    action = "wrote"
+print(f"{action} {len(selected)} fixture samples -> {OUTPUT}")

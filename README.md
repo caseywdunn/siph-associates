@@ -66,12 +66,12 @@ python3 scripts/validate_manifest.py --freeze data/metadata/manifest.freeze.sha2
 
 ## Status
 
-Phase 0 is complete: the 205-library manifest and normalized input metadata are
-validated and checksum-frozen. Phase 1 is in progress: the reproducible
-Snakemake/SLURM skeleton, production dry run, and real-read fixture are built;
-the database-screening smoke is the remaining acceptance gate. No full-cohort
-computation has begun. The manuscript (LaTeX) lives in a separate repository
-and cites this one.
+Phases 0 and 1 are complete. The 205-library manifest and normalized input
+metadata are validated and checksum-frozen, and the reproducible
+Snakemake/SLURM workflow passed lint, the 1,234-job production dry run, and an
+end-to-end real-read smoke spanning all three studies and host routes. No
+full-cohort computation has begun. Phase 2 starts with a 6--10-library resource
+pilot; the manuscript (LaTeX) lives in a separate repository and cites this one.
 
 ## Citation / license
 

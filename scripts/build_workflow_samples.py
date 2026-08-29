@@ -52,5 +52,10 @@ with temporary.open("w", newline="") as handle:
     writer = csv.DictWriter(handle, fieldnames=fields, delimiter="\t", lineterminator="\n")
     writer.writeheader()
     writer.writerows(output_rows)
-temporary.replace(OUTPUT)
-print(f"wrote {len(output_rows)} workflow samples -> {OUTPUT}")
+if OUTPUT.exists() and temporary.read_bytes() == OUTPUT.read_bytes():
+    temporary.unlink()
+    action = "unchanged"
+else:
+    temporary.replace(OUTPUT)
+    action = "wrote"
+print(f"{action} {len(output_rows)} workflow samples -> {OUTPUT}")

@@ -1,6 +1,6 @@
 # Run log
 
-## 2026-08-29 — Phase 1 smoke planned
+## 2026-08-29 — Phase 1 complete
 
 - Workflow commit: `c702150` (`Build Phase 1 Snakemake workflow skeleton`).
 - Target: `phase1_smoke` with `tests/config.fixture.yaml`; this is a 50,000-pair
@@ -28,8 +28,25 @@
   locked Bracken to the database's available 150-mer distribution rather than
   an unsupported arbitrary post-trim mean length;
   completed upstream and independent screen outputs remain valid for restart.
-- Acceptance artifact: `tests/work/stages/phase1_smoke.done`, followed by
-  `bash scripts/check_phase1.sh --require-smoke`.
+- Restart controller `9721165`, submitted from wrapper-fix commit `797dad6`,
+  completed in 1m59s. Worker jobs `9721167`--`9721169` (Kraken2/Bracken),
+  `9721173`--`9721175` (host handling), `9721176`--`9721178` (sample
+  validation), and `9721180` (stage validation) all completed with exit 0.
+- The three validation JSONs report `PASS` and cover Church 2025 /
+  `P_physalis`, Ahuja 2024 / reference-free Kraken-nominated reads, and Ahuja
+  2026 / `N_septata`. The final sentinel reports three samples, three studies,
+  and three host routes.
+- Observed peak RSS informs the Phase-2 pilot: Kraken2/Bracken 84.3 GB, sylph
+  14.8 GB, phyloFlash 4.7 GB, fastp <0.4 GB, and fixture host handling <0.24
+  GB. These fixture values do not replace the required 6--10-library resource
+  pilot on full libraries.
+- Acceptance: `bash scripts/check_phase1.sh --require-smoke` PASS; Phase-0
+  freeze PASS; Snakemake lint PASS; production dry run 1,234 jobs; completed
+  fixture dry run reports nothing to do; `data/metadata/phase1_validation.txt`
+  reports zero errors. Artifact: `tests/work/stages/phase1_smoke.done`.
+- No cohort target was submitted. Next: begin Phase 2 by implementing and
+  dry-running a predeclared 6--10-library `screen_pilot` target; do not submit
+  `screen_cohort` until that pilot's resource gate is accepted.
 
 ## 2026-08-29 — Phase 0 complete
 
