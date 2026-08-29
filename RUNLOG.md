@@ -1,5 +1,29 @@
 # Run log
 
+## 2026-08-29 — Phase 1 smoke planned
+
+- Workflow commit: `c702150` (`Build Phase 1 Snakemake workflow skeleton`).
+- Target: `phase1_smoke` with `tests/config.fixture.yaml`; this is a 50,000-pair
+  real-read fixture, not a cohort run.
+- Coverage: Church 2025 / `P_physalis`, Ahuja 2024 / reference-free, and Ahuja
+  2026 / `N_septata`.
+- Static gates: Phase-0 frozen validation PASS; Snakemake lint PASS; production
+  `screen_cohort` dry run resolves 1,234 jobs; SLURM-profile fixture dry run
+  PASS; local fixture creation, fastp, and fixture-reference indexing PASS.
+- Worker ceilings: Kraken2/Bracken 4 CPU / 96 GB / 2 h; sylph 4 CPU / 48 GB /
+  2 h; phyloFlash 4 CPU / 16 GB / 2 h; fixture trim and host handling 4 CPU /
+  8 GB / 1 h. Controller: 1 CPU / 4 GB / 24 h on `day`.
+- Planned command:
+  `bash scripts/submit_workflow.sh phase1_smoke tests/config.fixture.yaml`.
+- Controller job `9721052`: FAILED before worker submission after 42 seconds.
+  Cause: the generic-cluster helper ran under system Python and could not import
+  `snakemake`; the one-CPU controller environment also exposed undesired worker
+  thread scaling. Fix: run profile helpers with the workflow environment Python
+  and give Snakemake an explicit scheduler-only core budget. Replacement
+  controller: pending validation and submission.
+- Acceptance artifact: `tests/work/stages/phase1_smoke.done`, followed by
+  `bash scripts/check_phase1.sh --require-smoke`.
+
 ## 2026-08-29 — Phase 0 complete
 
 - Repository state: Phase-0 metadata built; no cohort analysis submitted or run.

@@ -1,8 +1,8 @@
 jobs: 32
-cores: all
+cores: 10000
 local-cores: 1
-cluster: "python3 profiles/slurm/submit.py"
-cluster-status: "python3 profiles/slurm/status.py"
+cluster: "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python profiles/slurm/submit.py"
+cluster-status: "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python profiles/slurm/status.py"
 latency-wait: 180
 rerun-incomplete: true
 keep-going: true
