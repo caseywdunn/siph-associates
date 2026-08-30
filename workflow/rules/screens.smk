@@ -81,6 +81,9 @@ rule phyloflash_screen:
         mem_mb=config["resources"]["phyloflash"]["mem_mb"],
         runtime=config["resources"]["phyloflash"]["runtime"],
         partition=config["resources"]["phyloflash"]["partition"],
+    # phyloFlash 3.4.2 requires its Python-2-era EMIRGE environment. Keep the
+    # Python 3 workflow wrapper outside that environment; it prepends the
+    # versioned phyloFlash tool prefix to the child process PATH.
     conda:
         "../../envs/phyloflash.yaml"
     script:

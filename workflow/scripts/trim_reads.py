@@ -21,7 +21,7 @@ def deterministic_cap(r1_paths, r2_paths, keep, seed, out1, out2, threads, log):
     """Create an exact seeded paired subsample with BBTools."""
     reformat = shutil.which("reformat.sh")
     if not reformat:
-        raise FileNotFoundError("deterministic capping requires reformat.sh from the declared BBMap module")
+        raise FileNotFoundError("deterministic capping requires reformat.sh from the declared Conda environment")
     raw1, raw2 = out1.parent / "uncapped_R1.fastq.gz", out1.parent / "uncapped_R2.fastq.gz"
     concatenate(r1_paths, raw1)
     concatenate(r2_paths, raw2)
@@ -44,7 +44,7 @@ cap = int(snakemake.params.cap_pairs)
 kept = min(expected, cap)
 fastp = shutil.which("fastp")
 if not fastp:
-    raise FileNotFoundError("fastp is absent from PATH; run Snakemake with --use-envmodules")
+    raise FileNotFoundError("fastp is absent from PATH; run Snakemake with --use-conda")
 
 with tempfile.TemporaryDirectory(prefix=f"trim.{snakemake.wildcards.sample}.", dir=str(Path(snakemake.output.r1).parent)) as temp:
     temp = Path(temp)

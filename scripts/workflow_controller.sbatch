@@ -11,10 +11,13 @@ PROJECT="${SIPH_ASSOCIATES_PROJECT:?missing SIPH_ASSOCIATES_PROJECT}"
 TARGET="${SIPH_ASSOCIATES_TARGET:?missing SIPH_ASSOCIATES_TARGET}"
 CONFIG="${SIPH_ASSOCIATES_CONFIG:?missing SIPH_ASSOCIATES_CONFIG}"
 SNAKEMAKE=/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/snakemake
+CONDA_BIN=/vast/palmer/apps/avx2/software/miniconda/24.7.1/condabin
 
 cd "$PROJECT"
 export XDG_CACHE_HOME="$PROJECT/.cache"
-mkdir -p "$XDG_CACHE_HOME"
+export CONDA_PKGS_DIRS="$PROJECT/.cache/conda/pkgs"
+export PATH="$CONDA_BIN:$PATH"
+mkdir -p "$XDG_CACHE_HOME" "$CONDA_PKGS_DIRS"
 exec "$SNAKEMAKE" \
     "$TARGET" \
     --profile profiles/slurm \

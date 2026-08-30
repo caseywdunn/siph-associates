@@ -1,5 +1,6 @@
-name: siph-associates-phyloflash-3.4.2
+name: siph-associates-phyloflash-wrapper
 channels: [conda-forge, bioconda, defaults]
 dependencies:
-  - phyloflash=3.4.2
+  # The Python 3 workflow wrapper launches the versioned phyloFlash/EMIRGE
+  # Python 2 tool prefix declared in config/config.yaml.
   - python=3.11.4
