@@ -1,7 +1,7 @@
 status	PASS
-scope	static
+scope	pilot
 production_samples	205
 pilot_samples	8
 excluded_samples	0
-validated_samples	0
+validated_samples	8
 errors	0

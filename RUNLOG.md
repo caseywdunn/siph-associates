@@ -1,5 +1,29 @@
 # Run log
 
+## 2026-08-30 — Phase 2 pilot accepted; cohort resource gate
+
+- Controller `9735088`, commit `29b7660`, completed the revised 200 M-pair
+  `screen_pilot` target in 3h22m with exit 0. All eight libraries passed trim,
+  Kraken2/Bracken, sylph, phyloFlash, content validation, and aggregation; the
+  stage sentinel reports `status PASS`, three studies, three host routes, and
+  91,623 nomination rows.
+- The pinned Conda correction was effective: all eight Kraken2/Bracken workers
+  completed without the former missing-Python failure. No pilot worker failed
+  or exceeded its allocation.
+- Observed resource maxima and selected cohort requests are recorded in
+  `data/metadata/phase2_pilot_resources.tsv`. Kraken memory increases from 96
+  to 104 GB (23% over the 84.2 GB peak). Other requests are reduced with
+  margin because their pilot maxima were 15.8 GB RSS / 75 min for trim, 16.2
+  GB / 20 min for sylph, and 16.6 GB / 81 min for phyloFlash.
+- Gate decision: accept the 200 M-pair cap and proceed to the 205-library
+  `screen_cohort` only after lint, frozen-manifest validation, pilot validation,
+  capped-read fixture, and cohort dry-run pass from the resource-setting
+  checkpoint.
+- The resource edit refreshes the run snapshot by design, so the identical
+  eight-library pilot will be rerun under the selected allocations before the
+  cohort is released. This is the final resource gate, not a change to analysis
+  parameters or the pilot sample set.
+
 ## 2026-08-29 — Phase 2 pilot revises compute ceiling to 200 M pairs
 
 - Controller `9721858` completed all possible work in 7h59m: seven of eight

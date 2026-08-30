@@ -60,10 +60,10 @@ tool_prefixes:
   assembly: /gpfs/gibbs/project/dunn/cwd7/conda_envs/assembly_env
 
 resources:
-  trim: {threads: 16, mem_mb: 32000, runtime: 1440, partition: day}
-  kraken_bracken: {threads: 8, mem_mb: 96000, runtime: 1080, partition: day}
-  sylph: {threads: 16, mem_mb: 48000, runtime: 1080, partition: day}
-  phyloflash: {threads: 8, mem_mb: 32000, runtime: 1080, partition: day}
+  trim: {threads: 8, mem_mb: 24000, runtime: 180, partition: day}
+  kraken_bracken: {threads: 8, mem_mb: 104000, runtime: 360, partition: day}
+  sylph: {threads: 4, mem_mb: 24000, runtime: 120, partition: day}
+  phyloflash: {threads: 8, mem_mb: 24000, runtime: 180, partition: day}
   host_handling: {threads: 16, mem_mb: 32000, runtime: 720, partition: day}
-  validation: {threads: 1, mem_mb: 4000, runtime: 60, partition: day}
-  aggregation: {threads: 1, mem_mb: 8000, runtime: 120, partition: day}
+  validation: {threads: 1, mem_mb: 1000, runtime: 60, partition: day}
+  aggregation: {threads: 1, mem_mb: 2000, runtime: 60, partition: day}

@@ -1,0 +1,7 @@
+rule	pilot_jobs	max_elapsed_seconds	max_rss_mb	max_vms_mb	max_mean_load_percent	requested_threads	requested_mem_mb	requested_runtime_minutes
+trim_reads	8	4476.8849	15836.70	17417.49	476.76	8	24000	180
+kraken_bracken	8	11191.7162	84241.24	85112.90	294.18	8	104000	360
+sylph_screen	8	1177.1499	16195.66	17773.00	99.48	4	24000	120
+phyloflash_screen	8	4867.7531	16624.70	34276.36	725.97	8	24000	180
+validate_screen_sample	8	936.1553	56.82	788.98	98.68	1	1000	60
+aggregate_phase2	1	67.5027	615.03	1094.86	65.46	1	2000	60
