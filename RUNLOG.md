@@ -1,5 +1,23 @@
 # Run log
 
+## 2026-08-29 — Phase 2 pilot revises compute ceiling to 200 M pairs
+
+- Controller `9721858` completed all possible work in 7h59m: seven of eight
+  pilot libraries passed trim, all three screens, and content validation.
+  `Ahuja2024__CWD19` was OOM-killed during uncapped fastp at 384,583,011 raw
+  pairs with 32 GB; the controller consequently exited 1 and did not aggregate.
+- The 400 M ceiling reduced the planned cohort from 40.13 B to only 37.15 B
+  pairs (7.4%) and left individual screen jobs processing approximately 380 M
+  post-fastp pairs. It did not adequately control production cost.
+- Decision: use a provisional **200 M-pair** production ceiling. This caps
+  62/205 libraries, retains full depth for 143, reduces planned input to
+  29.86 B pairs, and halves worst-case downstream screening effort. The
+  100 M alternative would cap 163/205 libraries and is reserved for a
+  pre-cohort sensitivity comparison because it may lose rare associate signal.
+- Changing the locked config refreshes the run snapshot and invalidates prior
+  cap-dependent trim/screen validation under the mtime-only restart policy.
+  The revised eight-library pilot must pass before cohort submission.
+
 ## 2026-08-29 — Phase 2 full-library pilot ready
 
 - Target: `screen_pilot` using `config/config.yaml`; eight libraries are frozen

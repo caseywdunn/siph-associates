@@ -23,7 +23,7 @@ phase2_pilot_samples:
   - Ahuja2026__WS5
 
 parameters:
-  cap_pairs: 400000000
+  cap_pairs: 200000000
   cap_seed: 20260829
   fastp:
     detect_adapter_for_pe: true

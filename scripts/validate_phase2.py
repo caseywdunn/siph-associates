@@ -33,6 +33,12 @@ pilot = table(ROOT / "config" / "phase2_pilot.tsv")
 exclusions = table(ROOT / "config" / "phase2_exclusions.tsv")
 pilot_ids = [row["sample_id"] for row in pilot]
 excluded_ids = {row["sample_id"] for row in exclusions}
+config_lines = (ROOT / "config" / "config.yaml").read_text().splitlines()
+cap_values = [int(line.split(":", 1)[1].strip()) for line in config_lines
+              if line.strip().startswith("cap_pairs:")]
+require(len(cap_values) == 1, "production config must declare exactly one cap_pairs value")
+cap_pairs = cap_values[0] if len(cap_values) == 1 else 0
+require(cap_pairs > 0, "production cap_pairs must be positive")
 
 require(len(sample_by_id) == 205, f"expected 205 included samples, found {len(sample_by_id)}")
 require(6 <= len(pilot_ids) <= 10, f"pilot must contain 6--10 samples, found {len(pilot_ids)}")
@@ -43,8 +49,8 @@ require({sample_by_id[s]["study"] for s in pilot_ids} == {"Church2025", "Ahuja20
 require({sample_by_id[s]["host_route"] for s in pilot_ids} == {"P_physalis", "N_septata", "none"},
         "pilot does not cover all three host routes")
 pilot_depths = [int(sample_by_id[s]["read_pairs"]) for s in pilot_ids]
-require(any(depth > 400_000_000 for depth in pilot_depths), "pilot lacks a capped library")
-require(any(depth < 400_000_000 for depth in pilot_depths), "pilot lacks an uncapped library")
+require(any(depth > cap_pairs for depth in pilot_depths), "pilot lacks a capped library")
+require(any(depth < cap_pairs for depth in pilot_depths), "pilot lacks an uncapped library")
 require(excluded_ids.issubset(sample_by_id), "exclusion table contains an unknown sample ID")
 require(all(row.get("reason", "").strip() for row in exclusions), "an exclusion lacks a reason")
 

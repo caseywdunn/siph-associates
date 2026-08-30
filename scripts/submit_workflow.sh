@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-PROJECT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+PROJECT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)"
 TARGET="${1:-phase1_ready}"
 CONFIG="${2:-config/config.yaml}"
 mkdir -p "$PROJECT/logs/slurm" "$PROJECT/workflow/state"

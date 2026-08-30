@@ -1,9 +1,9 @@
 sample_id	study	host_route	raw_pairs	input_pairs	selection_stratum
 Church2025__OA-190531-1	Church2025	P_physalis	1184426675	3	largest Church; capped; multi-file
-Church2025__YPM-IZ-110877	Church2025	P_physalis	399257582	2	near-cap uncapped; multi-file
+Church2025__YPM-IZ-110877	Church2025	P_physalis	399257582	2	high-depth capped; multi-file
 Church2025__YPM-IZ-110926	Church2025	P_physalis	31522905	1	smallest cohort library
 Ahuja2024__CWD116	Ahuja2024	none	1036210467	5	largest Ahuja 2024; capped; most input pairs
-Ahuja2024__CWD19	Ahuja2024	none	384583011	1	near-cap uncapped; single-file
-Ahuja2024__CWD2	Ahuja2024	none	97168657	2	small Ahuja 2024; multi-file
+Ahuja2024__CWD19	Ahuja2024	none	384583011	1	high-depth capped; single-file
+Ahuja2024__CWD2	Ahuja2024	none	97168657	2	uncapped Ahuja 2024; multi-file
 Ahuja2026__NA29	Ahuja2026	none	519282453	1	largest Ahuja 2026; capped; reference-free
-Ahuja2026__WS5	Ahuja2026	N_septata	378026200	2	largest reference-bearing Nanomia; uncapped
+Ahuja2026__WS5	Ahuja2026	N_septata	378026200	2	largest reference-bearing Nanomia; capped

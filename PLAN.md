@@ -92,7 +92,7 @@ supplementary reference-based analysis for the two species that have a genome).
 
 ```
 S0 Manifest ─► S1 Trim ─► S2 Screening — ALL 205 libraries, on trimmed reads ─────────┐
-              cap 400M→fastp    Kraken2+Bracken, sylph (GTDB+OceanDNA),                │
+              cap 200M→fastp    Kraken2+Bracken, sylph (GTDB+OceanDNA),                │
               (trimmed = temp)  phyloFlash 16S/18S      (no host exclusion here)       │
                     │                                                                   │
                     └─► S3 Host-depleted reads (branch → assembly only):               │
@@ -110,7 +110,7 @@ S0 Manifest ─► S1 Trim ─► S2 Screening — ALL 205 libraries, on trimmed
 ```
 
 - **S0 Manifest** — pooled, deduped, metadata (§2).
-- **S1 Trim (universal front end)** — cap to 400 M read pairs (§4), then fastp
+- **S1 Trim (universal front end)** — cap to 200 M read pairs (§4), then fastp
   (adapter/quality), on **raw reads for all three studies** (Physalia re-processed from
   raw, not prior BAMs). The trimmed reads are a **large regenerable intermediate written to
   scratch** (`/vast/palmer/scratch/dunn/cwd7/...`, 7.5 TB, 60-day purge) — **not** `temp()`,
@@ -214,7 +214,7 @@ filtered to catalog-mapping reads only (small) and can be `temp()` after CoverM.
 | S2 suppl. | reference routing | proper-pair ≥ 80 % to conspecific reference | clean bimodal split observed (N. septata 84–95 % vs congeners 31–74 %) |
 | S3 | reference genomes (NCBI) | Physalia → *P. physalis* `GCA_041430235.2`; *N. septata* → `GCA_048301705.1` | published chromosome-scale assemblies (Church 2025 / Ahuja 2026) |
 | S3 | mapping target | **whole genome** (all scaffolds + mito), drop all host-mapping pairs | unplaced/alt-haplotype scaffolds are host; audited (S3a) free of co-assembled bacteria |
-| S3 | compute-ceiling cap | **400 M read pairs** (full depth below; trim only the ~5 % of libraries above) | discovery, not quantitative — cap only stops the giant outliers (up to 1.0 B pairs) dominating runtime |
+| S3 | compute-ceiling cap | **200 M read pairs** (full depth below; 62/205 libraries capped) | provisional post-pilot compromise: halves worst-case screen effort while retaining full depth for 143 libraries; test 100 M as a sensitivity analysis before cohort submission |
 | S3 | sylph DBs | GTDB-r220 c200 + OceanDNA c200 | — |
 | S3 | phyloFlash | SILVA 138.1 NR99 (local build), 16S + 18S | resolved species-level parasite/prey in the pilot |
 | S4 | assembly | MEGAHIT, `--min-contig-len 1000` | recovered 95.6 % of the *Alteromonas* genome de novo in NA33 |
@@ -264,8 +264,9 @@ finding (Physalia *Vibrio* community ≈absent in *Nanomia*; *Nanomia* carries a
   identically**.
 - Catalog = "30 Physalia genomes + 10 additions" → **one pooled, symmetric catalog**.
 - "Phase 1 / Phase 2", "Track A–F" Physalia-centric framing → **stage-based symmetric DAG**.
-- Depth cap applied only to some tracks/samples → **full depth everywhere; a single
-  400 M-pair compute ceiling trims only the giant outliers** (not rarefaction).
+- Depth cap applied only to some tracks/samples → **full depth below a single
+  200 M-pair compute ceiling across every track**; the cap controls high-depth
+  libraries without rarefying the 143 libraries below the ceiling.
 - Reference-based host subtraction as the backbone → **reference-free primary; reference-
   based supplementary with robustness check**.
 - Engineering artifacts (CRLF, OOM retries, SLURM path fixes, empty-BAM skips) → absent
@@ -299,9 +300,12 @@ These depend on exploration still in progress and must be settled first:
   non-host-vs-host euk decision rules. Was the strongest gap in the exploration.
 - **Assembly inclusion threshold (S4)** — set objectively once non-host yields across all
   studies are known.
-- ~~Rarefaction depth~~ **Resolved:** compute-ceiling cap set at **400 M read pairs** from
-  the exact per-library `read_pairs` (SRA spots + counted); trims only ~5 % (the giant
-  outliers), all else full depth.
+- ~~Rarefaction depth~~ **Revised after the Phase-2 resource pilot:** provisional
+  compute-ceiling cap set at **200 M read pairs** from exact per-library `read_pairs`
+  (SRA spots + counted). This caps 62/205 libraries and retains full depth for 143.
+  A pre-cohort 100 M sensitivity comparison must confirm whether weaker bacterial,
+  SSU, viral, parasite, and prey nominations are materially lost before any lower
+  ceiling is adopted.
 - **Contamination test design (TB)** — sequencing batch is now normalized per
   FASTQ pair from the Illumina header's instrument, run, flowcell, and lane
   fields. Test the human/skin/soil candidates (*C. acnes*, *Lawsonella*,

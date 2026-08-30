@@ -205,7 +205,7 @@ execution gate; no cohort target has been submitted.
 
 For all included unique libraries:
 
-1. deterministically cap only libraries above 400 M raw read pairs, preserving
+1. deterministically cap only libraries above 200 M raw read pairs, preserving
    mate synchronization and recording seed and retained fraction;
 2. run fastp with the locked settings;
 3. run Kraken2/Bracken, sylph against GTDB r220 plus OceanDNA, and phyloFlash
