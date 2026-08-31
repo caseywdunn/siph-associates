@@ -1,5 +1,18 @@
 # Run log
 
+## 2026-08-30 — Active cohort controller handoff checkpoint
+
+- Active full-cohort controller: `9903780`, target `screen_cohort`, submitted
+  from accepted gate commit `2f77618`; it is running on `day` with a hard
+  one-day QOS limit and is scheduled to end at **2026-08-31 20:38:46 EDT**.
+- Controller script commit `3f3b1f6` moves future controllers to `week` with a
+  seven-day limit. This does not alter controller `9903780` or its workers.
+- Do not cancel and overlap the current controller with a replacement. If it
+  times out before `data/results/stages/screen_cohort.done` exists, let all
+  submitted `sa.*` workers drain, then follow the controller handoff procedure
+  in `WORKFLOW.md`. Only unlock after confirming that both the old controller
+  and all of its workers are absent from `squeue`.
+
 ## 2026-08-30 — Phase 2 resource gate passed; cohort released
 
 - Resource-gate controller `9744872`, commit `a71225d`, completed the refreshed
