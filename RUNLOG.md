@@ -1,5 +1,22 @@
 # Run log
 
+## 2026-08-30 — Phase 2 resource gate passed; cohort released
+
+- Resource-gate controller `9744872`, commit `a71225d`, completed the refreshed
+  43-job `screen_pilot` in 7h36m with exit 0. All eight trim jobs, 24 screens,
+  eight content validators, aggregation, and the final sentinel completed; no
+  worker failed, timed out, or exceeded memory.
+- The refreshed sentinel reports `status PASS`, eight samples, three studies,
+  three host routes, and 91,622 nomination rows. Independent
+  `scripts/validate_phase2.py --scope pilot` reports eight validated samples
+  and zero errors.
+- A clean `screen_cohort` dry-run retains the eight completed pilot libraries
+  and resolves 987 remaining jobs: 197 each of trim, Kraken2/Bracken, sylph,
+  phyloFlash, and sample validation, followed by cohort aggregation and the
+  final sentinel.
+- Gate decision: the pilot-selected allocations and 200 M-pair cap are accepted
+  for cohort screening. The full cohort may be submitted from this checkpoint.
+
 ## 2026-08-30 — Phase 2 pilot accepted; cohort resource gate
 
 - Controller `9735088`, commit `29b7660`, completed the revised 200 M-pair
