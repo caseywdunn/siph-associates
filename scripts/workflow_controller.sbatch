@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #SBATCH --job-name=sa.controller
-#SBATCH --partition=day
+#SBATCH --partition=week
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
-#SBATCH --time=24:00:00
+#SBATCH --time=7-00:00:00
 #SBATCH --output=logs/slurm/controller.%j.out
 set -euo pipefail
 
