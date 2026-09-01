@@ -18,10 +18,18 @@ export XDG_CACHE_HOME="$PROJECT/.cache"
 export CONDA_PKGS_DIRS="$PROJECT/.cache/conda/pkgs"
 export PATH="$CONDA_BIN:$PATH"
 mkdir -p "$XDG_CACHE_HOME" "$CONDA_PKGS_DIRS"
+# Full-cohort failures reached the original 24 GB allocation exactly. Keep
+# these scheduler-only recovery overrides outside config/config.yaml so a
+# resource correction does not invalidate accepted analytical outputs through
+# the frozen run snapshot.
 exec "$SNAKEMAKE" \
     "$TARGET" \
     --profile profiles/slurm \
     --configfile "$CONFIG" \
+    --set-resources \
+        trim_reads:mem_mb=48000 \
+        phyloflash_screen:mem_mb=48000 \
+        phyloflash_screen:runtime=360 \
     --rerun-incomplete \
     --keep-going \
     --latency-wait 180 \

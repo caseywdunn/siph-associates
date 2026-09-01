@@ -1,5 +1,23 @@
 # Run log
 
+## 2026-09-01 — Cohort resource-recovery checkpoint
+
+- Replacement controller `10075623` resumed the 75-job remainder and completed
+  56 jobs before exiting under `--keep-going`; 198/205 libraries now have
+  accepted screen-validation JSONs and no controller or worker remains active.
+- Full-cohort evidence exceeded the pilot envelope. PhyloFlash jobs for
+  Ahuja 2026 NA35, NA38, and Ahuja 2024 NA10 reached the three-hour limit;
+  Ahuja 2026 NA37, WS3, and NA31 reached the 24 GB memory limit. The uncapped
+  Ahuja 2024 CWD11 trim also reached the 24 GB memory limit.
+- Recovery resource decision: controller submissions override `trim_reads` to
+  48 GB and `phyloflash_screen` to 48 GB / 6 h. These are scheduler-only
+  corrections: analytical parameters and accepted outputs are unchanged, and
+  `config/config.yaml` is deliberately not refreshed because doing so would
+  invalidate the run snapshot for completed libraries.
+- A clean recovery dry-run should contain 19 jobs: one trim, one Kraken/Bracken,
+  one sylph, seven phyloFlash, seven sample validators, aggregation, and the
+  final cohort sentinel.
+
 ## 2026-08-30 — Active cohort controller handoff checkpoint
 
 - Active full-cohort controller: `9903780`, target `screen_cohort`, submitted
