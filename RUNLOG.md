@@ -20,6 +20,9 @@
   CheckM2 path.
 - Planned target: `phase3_benchmark` from the implementation checkpoint using
   `bash scripts/submit_workflow.sh phase3_benchmark config/config.yaml`.
+- Controller `10089149` was submitted from checkpoint commit `818e747`; the
+  persistent controller is running on `week` and began by materializing the
+  pinned host-mapping environment needed for the two reference indexes.
 - This run produces a decision table only. Cohort assembly remains blocked
   until the benchmark result and objective inclusion threshold are accepted.
 
