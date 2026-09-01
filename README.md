@@ -66,14 +66,14 @@ python3 scripts/validate_manifest.py --freeze data/metadata/manifest.freeze.sha2
 
 ## Status
 
-Phases 0 and 1 are complete. The 205-library manifest and normalized input
-metadata are validated and checksum-frozen, and the reproducible
-Snakemake/SLURM workflow passed lint, the 1,234-job production dry run, and an
-end-to-end real-read smoke spanning all three studies and host routes. No
-full-cohort computation has begun. Phase 2 is in progress: its eight-library
-resource pilot is predeclared and all static, cap, dry-run, and
-fixture-aggregation gates pass. The manuscript (LaTeX) lives in a separate
-repository and cites this one.
+Phases 0--2 are complete. The 205-library manifest and normalized input
+metadata are validated and checksum-frozen, and all 205 libraries passed the
+universal fastp, Kraken2/Bracken, sylph, and phyloFlash screen. The accepted
+Phase-2 aggregation contains 2,282,231 nomination-only rows; these are not
+presence claims. Phase 3 is active: a six-library, 12-strategy benchmark is
+frozen to compare reference depletion, Kraken-nominated assembly, and
+fixed-effort whole-read assembly before a cohort assembly method is selected.
+The manuscript (LaTeX) lives in a separate repository and cites this one.
 
 ## Citation / license
 

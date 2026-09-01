@@ -16,6 +16,10 @@ reads are written under `/vast/palmer/scratch/dunn/cwd7/siph_associates/`.
 - `screen_cohort`: run the same universal screens, validation, library-QC
   aggregation, and candidate-nomination aggregation for all 205 libraries. It
   must not be submitted until the full-library pilot resource gate passes.
+- `phase3_benchmark`: run the frozen six-library/12-strategy assembly benchmark,
+  including marker, virus, MAG, host-carryover, and resource comparisons. Its
+  decision table is the gate for implementing cohort assembly; it is not a
+  cohort assembly target.
 - `all`: resolves to `phase1_ready` in production and `phase1_smoke` in the fixture
   configuration.
 
@@ -154,6 +158,30 @@ The pilot covers eight declared libraries and reuses accepted persistent
 outputs in the cohort. After it passes, use rule benchmarks and `sacct` maxima
 to lock resources with margin, rerun `scripts/check_phase2.sh --scope pilot`,
 and commit the resource decision before submitting `screen_cohort`.
+
+## Phase 3 benchmark gate
+
+The exact sample/strategy matrix is frozen in `config/phase3_benchmark.tsv` and
+its parameters, databases, tool prefixes, and resources are isolated in
+`config/phase3_benchmark.json`; this avoids invalidating accepted Phase-2
+outputs. Validate and launch it with:
+
+```bash
+bash scripts/check_phase3.sh --scope static
+bash scripts/submit_workflow.sh phase3_benchmark config/config.yaml
+```
+
+On completion, require both validators before interpreting the decision table:
+
+```bash
+cat data/results/stages/phase3_benchmark.done
+python3 scripts/validate_phase3.py --scope benchmark
+column -t -s $'\t' data/results/phase3_benchmark/decision_table.tsv | less -S
+```
+
+Do not submit cohort host handling or assembly until the benchmark comparison,
+objective read-yield inclusion rule, and selected method are recorded and
+committed.
 
 ## Environments and provenance
 

@@ -195,13 +195,12 @@ validation end to end.
 
 ### Phase 2 — universal preprocessing and screening
 
-**Status: in progress (2026-08-29).** Universal screen validation and
-aggregation are separated from Phase-3 host handling. An eight-library pilot
-spanning all studies, host routes, cap states, depth extremes, and input-file
-layouts is predeclared in `config/phase2_pilot.tsv`. Static validation, lint,
-the 43-job pilot dry run, the 1,028-job cohort dry run, an exact-cap fixture,
-and three-study fixture aggregation pass. The full-library pilot is the active
-execution gate; no cohort target has been submitted.
+**Status: complete (2026-09-01).** The eight-library resource pilot passed and
+released the cohort. All 205 libraries subsequently completed fastp,
+Kraken2/Bracken, sylph, phyloFlash, and per-library content validation. Cohort
+aggregation and the independent validator pass with zero exclusions and
+2,282,231 nomination-only rows. The final clean dry run reports nothing to do;
+see `RUNLOG.md` and `data/metadata/phase2_validation.txt`.
 
 For all included unique libraries:
 
@@ -221,6 +220,18 @@ Acceptance: one validated output set per included library for every screen, with
 all failures either rerun successfully or explicitly excluded with a reason.
 
 ### Phase 3 — lock and run the assembly branch
+
+**Status: benchmark implementation ready (2026-09-01).** Six libraries are
+predeclared in `config/phase3_benchmark.tsv`, with high/low screen-signal cases
+within all three host routes and all three studies represented. The paired
+12-strategy design compares whole-genome reference depletion with
+Kraken-nominated reads for reference-bearing hosts, and Kraken-nominated reads
+with a deterministic 25 M-pair whole-read subsample for reference-free hosts.
+The restartable benchmark measures assembly yield, barrnap markers, geNomad
+viruses, MetaBAT2/CheckM2 MAG recovery, reference-measured host carryover, and
+runtime/memory. Static validation, lint, wrapper fixture tests, and the 88-job
+production dry run pass. The benchmark result—not the implementation—will lock
+the cohort method and objective assembly-inclusion rule.
 
 Run the D0.3 benchmark, commit its decision table, then execute host handling and
 assembly. Reference-bearing hosts map to the complete audited nuclear plus

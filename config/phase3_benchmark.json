@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "panel": "config/phase3_benchmark.tsv",
+  "fixed_effort_pairs": 25000000,
+  "fixed_effort_seed": 20260901,
+  "min_contig_length": 1000,
+  "metabat_min_contig": 1500,
+  "metabat_seed": 42,
+  "databases": {
+    "genomad": "/gpfs/ycga/work/dunn/cwd7/databases/genomad_db/genomad_db",
+    "checkm2": "/gpfs/ycga/work/dunn/cwd7/databases/checkm2_db/CheckM2_database/uniref100.KO.1.dmnd"
+  },
+  "tool_prefixes": {
+    "assembly": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/assembly_env",
+    "barrnap": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/barrnap_env",
+    "genomad": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/genomad_env",
+    "checkm2": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/checkm2_env"
+  },
+  "resources": {
+    "host_depletion": {"threads": 16, "mem_mb": 64000, "runtime": 720, "partition": "day"},
+    "assembly": {"threads": 16, "mem_mb": 64000, "runtime": 1440, "partition": "week"},
+    "markers": {"threads": 4, "mem_mb": 8000, "runtime": 120, "partition": "day"},
+    "viruses": {"threads": 16, "mem_mb": 64000, "runtime": 720, "partition": "day"},
+    "binning": {"threads": 16, "mem_mb": 64000, "runtime": 720, "partition": "day"},
+    "checkm2": {"threads": 16, "mem_mb": 96000, "runtime": 1440, "partition": "week"},
+    "host_carryover": {"threads": 16, "mem_mb": 64000, "runtime": 720, "partition": "day"},
+    "validation": {"threads": 1, "mem_mb": 8000, "runtime": 60, "partition": "day"}
+  }
+}

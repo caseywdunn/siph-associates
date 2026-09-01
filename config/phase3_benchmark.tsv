@@ -1,0 +1,13 @@
+benchmark_id	sample_id	strategy	signal_stratum	selection_basis
+physalia_high__reference	Church2025__YPM-IZ-110616	reference_depleted	high	Highest sylph true coverage within P_physalis route (25.678)
+physalia_high__kraken	Church2025__YPM-IZ-110616	kraken_nominated	high	Paired comparison for the same high-signal library
+physalia_low__reference	Church2025__YPM-IZ-110843	reference_depleted	low	No sylph nomination and lowest non-Homo Bracken fraction within P_physalis route (0.01109)
+physalia_low__kraken	Church2025__YPM-IZ-110843	kraken_nominated	low	Paired comparison for the same low-signal library
+nanomia_high__reference	Ahuja2026__NA19	reference_depleted	high	Highest sylph true coverage within N_septata route (0.934)
+nanomia_high__kraken	Ahuja2026__NA19	kraken_nominated	high	Paired comparison for the same high-signal library
+nanomia_low__reference	Ahuja2026__WS7	reference_depleted	low	No sylph nomination and low non-Homo Bracken fraction within N_septata route
+nanomia_low__kraken	Ahuja2026__WS7	kraken_nominated	low	Paired comparison for the same low-signal library
+reference_free_high__kraken	Ahuja2024__NA10	kraken_nominated	high	Highest sylph true coverage within reference-free route (29.664)
+reference_free_high__fixed	Ahuja2024__NA10	fixed_effort_trimmed	high	Paired deterministic whole-read comparison for the same high-signal library
+reference_free_low__kraken	Ahuja2026__WS4	kraken_nominated	low	No sylph nomination; adds Ahuja 2026 reference-free low-signal stratum
+reference_free_low__fixed	Ahuja2026__WS4	fixed_effort_trimmed	low	Paired deterministic whole-read comparison for the same low-signal library

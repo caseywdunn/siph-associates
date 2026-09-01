@@ -1,0 +1,6 @@
+status	PASS
+scope	static
+benchmark_rows	12
+benchmark_samples	6
+validated_rows	0
+errors	0

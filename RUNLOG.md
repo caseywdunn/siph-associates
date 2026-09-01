@@ -1,5 +1,28 @@
 # Run log
 
+## 2026-09-01 — Phase 3 assembly-strategy benchmark ready
+
+- Phase 2 remains accepted: 205/205 screen validations, cohort sentinel PASS,
+  independent validator PASS, and no active workflow jobs.
+- The Phase-3 gate is frozen at six libraries and 12 paired strategy rows in
+  `config/phase3_benchmark.tsv`. It spans high/low screen signal, all three
+  studies, and all host routes. Reference-bearing libraries compare audited
+  whole-genome depletion with Kraken-nominated reads; reference-free libraries
+  compare Kraken-nominated reads with a deterministic 25 M-pair whole-read
+  subsample (seed 20260901).
+- Each strategy is evaluated by MEGAHIT assembly yield, barrnap rRNA markers,
+  geNomad viral recovery, MetaBAT2 plus CheckM2 MAG recovery, host carryover
+  where a conspecific reference exists, and measured runtime/memory.
+- Static gate: manifest freeze PASS; independent Phase-2 cohort validation
+  PASS; Phase-3 design/tool/database validation PASS; lint PASS; production
+  dry run resolves 88 jobs. Runtime fixture tests pass for MEGAHIT, reference
+  depletion, barrnap, geNomad, BWA back-mapping, MetaBAT2, and the no-bin
+  CheckM2 path.
+- Planned target: `phase3_benchmark` from the implementation checkpoint using
+  `bash scripts/submit_workflow.sh phase3_benchmark config/config.yaml`.
+- This run produces a decision table only. Cohort assembly remains blocked
+  until the benchmark result and objective inclusion threshold are accepted.
+
 ## 2026-09-01 — Cohort aggregation recovery checkpoint
 
 - Recovery controller `10081702` completed all seven remaining library

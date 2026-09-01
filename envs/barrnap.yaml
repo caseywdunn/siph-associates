@@ -1,0 +1,5 @@
+name: siph-associates-barrnap
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - python=3.11.4
+  - barrnap=0.9

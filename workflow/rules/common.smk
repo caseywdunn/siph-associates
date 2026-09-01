@@ -1,3 +1,6 @@
+import json
+
+
 def split_paths(value):
     return [path for path in value.split(";") if path]
 
@@ -40,6 +43,66 @@ def reference_source(wildcards):
     return config["databases"]["host_references"][wildcards.route]
 
 
+PHASE3_CONFIG_PATH = ROOT / "config" / "phase3_benchmark.json"
+with PHASE3_CONFIG_PATH.open() as handle:
+    PHASE3 = json.load(handle)
+PHASE3_PANEL_PATH = ROOT / PHASE3["panel"]
+with PHASE3_PANEL_PATH.open(newline="") as handle:
+    PHASE3_ROWS = list(csv.DictReader(handle, delimiter="\t")) if config.get("mode") == "production" else []
+PHASE3_BY_ID = {row["benchmark_id"]: row for row in PHASE3_ROWS}
+PHASE3_IDS = sorted(PHASE3_BY_ID)
+PHASE3_SAMPLES = sorted({row["sample_id"] for row in PHASE3_ROWS})
+
+if len(PHASE3_BY_ID) != len(PHASE3_ROWS):
+    raise WorkflowError("Phase-3 benchmark IDs are not unique")
+if config.get("mode") == "production" and any(row["sample_id"] not in SAMPLES for row in PHASE3_ROWS):
+    raise WorkflowError("Phase-3 benchmark contains a sample absent from the production table")
+
+
+def phase3_row(wildcards):
+    try:
+        return PHASE3_BY_ID[wildcards.benchmark_id]
+    except KeyError:
+        raise WorkflowError(f"unknown Phase-3 benchmark ID: {wildcards.benchmark_id}")
+
+
+def phase3_sample(wildcards):
+    return phase3_row(wildcards)["sample_id"]
+
+
+def phase3_strategy(wildcards):
+    return phase3_row(wildcards)["strategy"]
+
+
+def phase3_read_input(wildcards, mate):
+    row = phase3_row(wildcards)
+    sample, strategy = row["sample_id"], row["strategy"]
+    if strategy == "kraken_nominated":
+        return f"{WORK}/screens/kraken/{sample}.classified_{mate}.fastq.gz"
+    directory = "fixed" if strategy == "fixed_effort_trimmed" else "reference"
+    return f"{SCRATCH}/phase3_benchmark/inputs/{directory}/{wildcards.benchmark_id}_R{mate}.fastq.gz"
+
+
+def phase3_read_provenance(wildcards):
+    row = phase3_row(wildcards)
+    if row["strategy"] == "kraken_nominated":
+        return f"{WORK}/provenance/kraken_bracken/{row['sample_id']}.json"
+    directory = "fixed" if row["strategy"] == "fixed_effort_trimmed" else "reference"
+    return f"{WORK}/provenance/phase3_benchmark/inputs/{directory}/{wildcards.benchmark_id}.json"
+
+
+def phase3_reference_inputs(wildcards):
+    route = SAMPLES[phase3_sample(wildcards)]["host_route"]
+    if route == "none":
+        return []
+    prefix = f"{WORK}/reference_indices/{route}/host"
+    return [prefix + suffix for suffix in (".amb", ".ann", ".bwt", ".pac", ".sa")]
+
+
+def phase3_metric_paths(kind):
+    return expand(f"{WORK}/phase3_benchmark/{kind}/{{benchmark_id}}.json", benchmark_id=PHASE3_IDS)
+
+
 PILOT_IDS = list(config.get("phase2_pilot_samples", []))
 if len(PILOT_IDS) != len(set(PILOT_IDS)):
     raise WorkflowError("phase2 pilot sample IDs are duplicated")
@@ -68,6 +131,7 @@ _target_paths = {
     "phase1_smoke": f"{WORK}/stages/phase1_smoke.done",
     "screen_pilot": f"{WORK}/stages/screen_pilot.done",
     "screen_cohort": f"{WORK}/stages/screen_cohort.done",
+    "phase3_benchmark": f"{WORK}/stages/phase3_benchmark.done",
 }
 if _target not in _target_paths:
     raise WorkflowError(f"unknown default_target: {_target}")

@@ -1,0 +1,5 @@
+name: siph-associates-genomad
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - python=3.11.4
+  - genomad=1.12.0
