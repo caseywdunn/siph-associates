@@ -23,6 +23,12 @@
 - Controller `10089149` was submitted from checkpoint commit `818e747`; the
   persistent controller is running on `week` and began by materializing the
   pinned host-mapping environment needed for the two reference indexes.
+- Live submission exposed a scheduler-policy boundary absent from dry-run:
+  Yale rejects `week` workers requesting exactly 24 hours as too short for the
+  partition. The immediately available MEGAHIT submissions were rejected;
+  independent `day` workers were accepted. Correct the assembly and CheckM2
+  week requests to 48 hours, let controller `10089149` and every accepted
+  worker drain, then restart the identical target without overlapping jobs.
 - This run produces a decision table only. Cohort assembly remains blocked
   until the benchmark result and objective inclusion threshold are accepted.
 

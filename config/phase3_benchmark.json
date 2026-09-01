@@ -18,11 +18,11 @@
   },
   "resources": {
     "host_depletion": {"threads": 16, "mem_mb": 64000, "runtime": 720, "partition": "day"},
-    "assembly": {"threads": 16, "mem_mb": 64000, "runtime": 1440, "partition": "week"},
+    "assembly": {"threads": 16, "mem_mb": 64000, "runtime": 2880, "partition": "week"},
     "markers": {"threads": 4, "mem_mb": 8000, "runtime": 120, "partition": "day"},
     "viruses": {"threads": 16, "mem_mb": 64000, "runtime": 720, "partition": "day"},
     "binning": {"threads": 16, "mem_mb": 64000, "runtime": 720, "partition": "day"},
-    "checkm2": {"threads": 16, "mem_mb": 96000, "runtime": 1440, "partition": "week"},
+    "checkm2": {"threads": 16, "mem_mb": 96000, "runtime": 2880, "partition": "week"},
     "host_carryover": {"threads": 16, "mem_mb": 64000, "runtime": 720, "partition": "day"},
     "validation": {"threads": 1, "mem_mb": 8000, "runtime": 60, "partition": "day"}
   }
