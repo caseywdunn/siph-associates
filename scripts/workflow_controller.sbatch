@@ -22,6 +22,9 @@ mkdir -p "$XDG_CACHE_HOME" "$CONDA_PKGS_DIRS"
 # these scheduler-only recovery overrides outside config/config.yaml so a
 # resource correction does not invalidate accepted analytical outputs through
 # the frozen run snapshot.
+# Cohort aggregation likewise reached its original 2 GB allocation while
+# retaining nomination rows from all 205 libraries; give the finishing job
+# sufficient headroom without changing any analytical input or parameter.
 exec "$SNAKEMAKE" \
     "$TARGET" \
     --profile profiles/slurm \
@@ -30,6 +33,8 @@ exec "$SNAKEMAKE" \
         trim_reads:mem_mb=48000 \
         phyloflash_screen:mem_mb=48000 \
         phyloflash_screen:runtime=360 \
+        aggregate_phase2:mem_mb=8000 \
+        screen_cohort:mem_mb=8000 \
     --rerun-incomplete \
     --keep-going \
     --latency-wait 180 \

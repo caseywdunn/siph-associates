@@ -1,5 +1,29 @@
 # Run log
 
+## 2026-09-01 — Cohort aggregation recovery checkpoint
+
+- Recovery controller `10081702` completed all seven remaining library
+  recoveries. All 205/205 libraries now have accepted screen-validation JSONs.
+- Cohort aggregation worker `10085172` then reached its 2 GB memory allocation
+  after 11m37s and was OOM-killed, so the controller exited 1 and the final
+  `screen_cohort` sentinel was not created.
+- Recovery resource decision: raise only `aggregate_phase2` to 8 GB through a
+  controller-side scheduler override. Analytical parameters and accepted
+  sample outputs are unchanged; `config/config.yaml` remains untouched.
+- The recovery dry-run contains exactly two jobs: cohort aggregation and the
+  final cohort sentinel.
+- Controller `10087122` successfully published the 205-library aggregation
+  with 2,282,231 nomination rows. Final validator `10087328` then exhausted
+  its original 1 GB allocation while loading the 235 MB nomination table.
+  Add an 8 GB scheduler-only override for `screen_cohort`; the next recovery
+  dry-run should contain only that sentinel job.
+- Final recovery controller `10087353` completed with exit 0. Sentinel worker
+  `10087355` completed in 17 seconds with 2.44 GB peak RSS, and
+  `data/results/stages/screen_cohort.done` reports PASS for 205 samples, three
+  studies, three host routes, and 2,282,231 nomination rows.
+- Independent `scripts/validate_phase2.py --scope cohort` reports PASS with
+  zero errors. A final `screen_cohort` dry-run reports nothing to do.
+
 ## 2026-09-01 — Cohort resource-recovery checkpoint
 
 - Replacement controller `10075623` resumed the 75-job remainder and completed
