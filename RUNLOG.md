@@ -29,6 +29,11 @@
   independent `day` workers were accepted. Correct the assembly and CheckM2
   week requests to 48 hours, let controller `10089149` and every accepted
   worker drain, then restart the identical target without overlapping jobs.
+- Controller `10089149` exited 1 after 10h50m with 26/88 steps accepted; all
+  workers drained. The corrected recovery dry run contained 62 jobs.
+- Recovery controller `10105627` was submitted from correction commit
+  `5739877`. All 12 MEGAHIT workers were accepted with 48-hour limits: 11
+  started immediately and one initially waited only on `MaxCpuPerAccount`.
 - This run produces a decision table only. Cohort assembly remains blocked
   until the benchmark result and objective inclusion threshold are accepted.
 
