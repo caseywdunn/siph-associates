@@ -12,5 +12,6 @@ cd "$PROJECT"
 python3 scripts/validate_manifest.py --freeze data/metadata/manifest.freeze.sha256
 python3 scripts/validate_phase2.py --scope cohort
 python3 scripts/validate_phase3.py "$@"
+python3 tests/test_stage_readonly_input.py
 "$SNAKEMAKE" --lint --configfile config/config.yaml
 "$SNAKEMAKE" phase3_benchmark -n --quiet --profile profiles/slurm --configfile config/config.yaml

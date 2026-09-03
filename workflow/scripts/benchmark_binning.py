@@ -6,7 +6,10 @@ import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(snakemake.config["manifest"]).resolve().parent / "workflow" / "scripts"))
-from common import atomic_json, atomic_move, ensure_parents, executable, sha256, version
+from common import (
+    atomic_json, atomic_move, ensure_parents, executable, sha256,
+    stage_readonly_input, version,
+)
 
 ensure_parents(list(snakemake.output) + [snakemake.log[0]])
 prefix = Path(str(snakemake.params.prefix))
@@ -23,7 +26,7 @@ with tempfile.TemporaryDirectory(prefix=f"bin.{snakemake.wildcards.benchmark_id}
                                  dir=str(scratch_parent)) as temporary:
     temporary = Path(temporary)
     contigs = temporary / "assembly.fasta"
-    os.link(snakemake.input.contigs, contigs)
+    stage_readonly_input(snakemake.input.contigs, contigs)
     bam = temporary / "reads.sorted.bam"
     depth = temporary / "depth.tsv"
     bins_dir = temporary / "bins"

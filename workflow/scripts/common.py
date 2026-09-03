@@ -46,6 +46,17 @@ def atomic_move(source, destination):
         source.unlink()
 
 
+def stage_readonly_input(source, destination):
+    """Stage an immutable input cheaply, allowing source and scratch to differ."""
+    source, destination = Path(str(source)).resolve(), Path(str(destination))
+    try:
+        os.link(source, destination)
+    except OSError as exc:
+        if exc.errno != errno.EXDEV:
+            raise
+        destination.symlink_to(source)
+
+
 def normalize_read_id(header):
     token = header.strip().split()[0]
     if token.startswith("@"):
