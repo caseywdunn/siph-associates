@@ -11,7 +11,8 @@ if len({row["benchmark_id"] for row in table}) != len(table):
     errors.append("benchmark IDs are not unique")
 if len({row["sample_id"] for row in table}) != int(snakemake.params.expected_samples):
     errors.append("sample count mismatch")
-required = ("contigs", "assembly_bases", "rrna_markers", "viral_contigs", "raw_bins", "assessed_bins")
+required = ("contigs", "assembly_bases", "rrna_markers", "viral_contigs", "raw_bins",
+            "assessed_bins", "unassessed_bins")
 for row in table:
     for field in required:
         try:
@@ -19,6 +20,13 @@ for row in table:
                 errors.append(f"negative {field}: {row['benchmark_id']}")
         except Exception:
             errors.append(f"invalid {field}: {row['benchmark_id']}")
+    if row.get("checkm2_status") not in {"assessed", "no_bins", "no_annotations"}:
+        errors.append(f"invalid checkm2_status: {row['benchmark_id']}")
+    try:
+        if int(row["assessed_bins"]) + int(row["unassessed_bins"]) != int(row["raw_bins"]):
+            errors.append(f"CheckM2 bin accounting mismatch: {row['benchmark_id']}")
+    except Exception:
+        pass
 if {row["strategy"] for row in table} != {"reference_depleted", "kraken_nominated", "fixed_effort_trimmed"}:
     errors.append("strategy set mismatch")
 provenance = json.loads(Path(snakemake.input.provenance).read_text())

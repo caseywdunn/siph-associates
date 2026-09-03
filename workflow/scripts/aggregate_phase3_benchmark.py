@@ -42,7 +42,8 @@ fields = [
     "benchmark_id", "sample_id", "strategy", "signal_stratum", "selection_basis",
     "contigs", "assembly_bases", "n50", "max_contig", "rrna_markers", "bacterial_rrna",
     "archaeal_rrna", "eukaryotic_rrna", "viral_contigs", "viral_bases", "raw_bins",
-    "binned_bases", "assessed_bins", "medium_quality_or_better_bins", "high_quality_bins",
+    "binned_bases", "checkm2_status", "assessed_bins", "unassessed_bins",
+    "medium_quality_or_better_bins", "high_quality_bins",
     "host_mapped_record_fraction", "assembly_seconds", "assembly_max_rss_mb", "virus_seconds",
     "virus_max_rss_mb", "binning_seconds", "binning_max_rss_mb", "checkm2_seconds",
     "checkm2_max_rss_mb",
@@ -52,6 +53,12 @@ for panel_row in panel:
     key = panel_row["benchmark_id"]
     def resource(label, field):
         return resource_sets[label][key].get(field, "")
+    checkm2_status = checkm2[key].get(
+        "checkm2_status", "no_bins" if bins[key]["raw_bins"] == 0 else "assessed"
+    )
+    unassessed_bins = checkm2[key].get(
+        "unassessed_bins", bins[key]["raw_bins"] - checkm2[key]["assessed_bins"]
+    )
     rows.append({
         **panel_row,
         "contigs": assemblies[key]["contigs"], "assembly_bases": assemblies[key]["total_bases"],
@@ -60,7 +67,9 @@ for panel_row in panel:
         "archaeal_rrna": markers[key]["archaeal_rrna"], "eukaryotic_rrna": markers[key]["eukaryotic_rrna"],
         "viral_contigs": viruses[key]["viral_contigs"], "viral_bases": viruses[key]["viral_bases"],
         "raw_bins": bins[key]["raw_bins"], "binned_bases": bins[key]["binned_bases"],
+        "checkm2_status": checkm2_status,
         "assessed_bins": checkm2[key]["assessed_bins"],
+        "unassessed_bins": unassessed_bins,
         "medium_quality_or_better_bins": checkm2[key]["medium_quality_or_better_bins"],
         "high_quality_bins": checkm2[key]["high_quality_bins"],
         "host_mapped_record_fraction": host[key].get("host_mapped_record_fraction"),
