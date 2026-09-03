@@ -26,6 +26,9 @@
   screens and the Phase-3 benchmark are not rerun. Next command after the
   implementation checkpoint is
   `bash scripts/submit_workflow.sh phase3_inputs config/config.yaml`.
+- Controller `10151716` was submitted from implementation commit `946d922`.
+  It is running on `week`; the first wave of 31 trim workers was accepted and
+  started without an immediate workflow or scheduler failure.
 
 ## 2026-09-01 — Phase 3 assembly-strategy benchmark ready
 
