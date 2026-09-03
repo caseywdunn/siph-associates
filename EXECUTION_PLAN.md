@@ -221,17 +221,15 @@ all failures either rerun successfully or explicitly excluded with a reason.
 
 ### Phase 3 — lock and run the assembly branch
 
-**Status: benchmark implementation ready (2026-09-01).** Six libraries are
-predeclared in `config/phase3_benchmark.tsv`, with high/low screen-signal cases
-within all three host routes and all three studies represented. The paired
-12-strategy design compares whole-genome reference depletion with
-Kraken-nominated reads for reference-bearing hosts, and Kraken-nominated reads
-with a deterministic 25 M-pair whole-read subsample for reference-free hosts.
-The restartable benchmark measures assembly yield, barrnap markers, geNomad
-viruses, MetaBAT2/CheckM2 MAG recovery, reference-measured host carryover, and
-runtime/memory. Static validation, lint, wrapper fixture tests, and the 88-job
-production dry run pass. The benchmark result—not the implementation—will lock
-the cohort method and objective assembly-inclusion rule.
+**Status: benchmark accepted; cohort-input gate ready (2026-09-03).** The
+six-library, 12-strategy benchmark and final validator pass. Whole-genome
+reference depletion is selected for `P_physalis` and `N_septata`, while a
+deterministic 25 M-pair trimmed-read input is selected for reference-free
+hosts. The objective assembly floor is 175,000 prepared pairs, immediately
+below the lowest benchmark input that retained multi-domain recovery. These
+decisions are frozen in `config/phase3_cohort.json`. The `phase3_inputs` stage
+prepares all 205 inputs and emits the eligibility table before cohort assembly;
+its three-route fixture and 412-job production dry run pass.
 
 Run the D0.3 benchmark, commit its decision table, then execute host handling and
 assembly. Reference-bearing hosts map to the complete audited nuclear plus

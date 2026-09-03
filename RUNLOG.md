@@ -1,5 +1,32 @@
 # Run log
 
+## 2026-09-03 — Phase 3 benchmark accepted; cohort-input gate ready
+
+- Final benchmark recovery controller `10151500` completed all five remaining
+  jobs in 3m02s. The 12-row decision table and independent benchmark validator
+  report PASS for six libraries, three strategies, and all three host routes.
+- CheckM2 assessed 39 bins. One strategy produced no bins, and six bins across
+  three strategies were explicitly recorded as unassessable because they had
+  no DIAMOND annotations; this state is distinct from a low-quality call.
+- Locked cohort strategy: whole-genome reference depletion for `P_physalis`
+  and `N_septata`; deterministic 25 M-pair trimmed-read input (seed 20260901)
+  for reference-free libraries. Kraken-nominated assemblies had 88--100% host
+  carryover in reference-bearing cases, while fixed effort recovered much more
+  viral sequence in both reference-free comparisons.
+- Locked objective assembly floor: at least 175,000 prepared read pairs. The
+  lowest benchmarked input showing multi-domain recovery contained 176,589
+  pairs. Input preparation is separated from assembly so the resulting
+  eligibility table can be inspected and frozen before cohort MEGAHIT runs.
+- The `phase3_inputs` stage implements the locked routing for all 205 libraries,
+  aggregates retained-pair metrics, and validates exact cohort membership and
+  eligibility. A three-study/three-route real-read fixture passed end to end
+  and its clean dry run reports nothing to do.
+- The production dry run contains exactly 412 jobs: 205 regeneration-only trim
+  jobs, 205 cohort-input jobs, aggregation, and validation. Accepted Phase-2
+  screens and the Phase-3 benchmark are not rerun. Next command after the
+  implementation checkpoint is
+  `bash scripts/submit_workflow.sh phase3_inputs config/config.yaml`.
+
 ## 2026-09-01 — Phase 3 assembly-strategy benchmark ready
 
 - Phase 2 remains accepted: 205/205 screen validations, cohort sentinel PASS,

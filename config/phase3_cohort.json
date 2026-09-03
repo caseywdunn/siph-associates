@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "benchmark_sentinel": "data/results/stages/phase3_benchmark.done",
+  "strategy_by_host_route": {
+    "P_physalis": "reference_depleted",
+    "N_septata": "reference_depleted",
+    "none": "fixed_effort_trimmed"
+  },
+  "fixed_effort_pairs": 25000000,
+  "fixed_effort_seed": 20260901,
+  "minimum_assembly_input_pairs": 175000,
+  "decision_basis": {
+    "reference_depleted": "Removes measured host carryover while retaining marker, viral, and MAG recovery.",
+    "fixed_effort_trimmed": "Recovers substantially more viral sequence than Kraken-nominated assembly without unbounded reference-free compute.",
+    "minimum_assembly_input_pairs": "The lowest benchmarked retained input with multi-domain recovery contained 176589 pairs."
+  },
+  "resources": {
+    "input_preparation": {"threads": 16, "mem_mb": 64000, "runtime": 720, "partition": "day"},
+    "validation": {"threads": 1, "mem_mb": 8000, "runtime": 60, "partition": "day"}
+  }
+}

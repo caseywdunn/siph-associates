@@ -66,13 +66,14 @@ python3 scripts/validate_manifest.py --freeze data/metadata/manifest.freeze.sha2
 
 ## Status
 
-Phases 0--2 are complete. The 205-library manifest and normalized input
+Phases 0--2 and the Phase-3 strategy benchmark are complete. The 205-library manifest and normalized input
 metadata are validated and checksum-frozen, and all 205 libraries passed the
 universal fastp, Kraken2/Bracken, sylph, and phyloFlash screen. The accepted
 Phase-2 aggregation contains 2,282,231 nomination-only rows; these are not
-presence claims. Phase 3 is active: a six-library, 12-strategy benchmark is
-frozen to compare reference depletion, Kraken-nominated assembly, and
-fixed-effort whole-read assembly before a cohort assembly method is selected.
+presence claims. Phase 3 is active: the accepted benchmark selects reference
+depletion for reference-bearing hosts and deterministic 25 M-pair trimmed-read
+inputs for reference-free hosts. The cohort-input gate is ready to prepare all
+205 libraries and freeze objective assembly eligibility before cohort assembly.
 The manuscript (LaTeX) lives in a separate repository and cites this one.
 
 ## Citation / license

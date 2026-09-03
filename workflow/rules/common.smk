@@ -103,6 +103,23 @@ def phase3_metric_paths(kind):
     return expand(f"{WORK}/phase3_benchmark/{kind}/{{benchmark_id}}.json", benchmark_id=PHASE3_IDS)
 
 
+PHASE3_COHORT_CONFIG_PATH = ROOT / "config" / "phase3_cohort.json"
+with PHASE3_COHORT_CONFIG_PATH.open() as handle:
+    PHASE3_COHORT = json.load(handle)
+
+
+def phase3_cohort_strategy(wildcards):
+    return PHASE3_COHORT["strategy_by_host_route"][host_route(wildcards)]
+
+
+def phase3_cohort_input_path(wildcards, mate):
+    return f"{WORK}/phase3_cohort/inputs/{wildcards.sample}_R{mate}.fastq.gz"
+
+
+def phase3_cohort_input_metrics(wildcards):
+    return f"{WORK}/phase3_cohort/inputs/{wildcards.sample}.json"
+
+
 PILOT_IDS = list(config.get("phase2_pilot_samples", []))
 if len(PILOT_IDS) != len(set(PILOT_IDS)):
     raise WorkflowError("phase2 pilot sample IDs are duplicated")
@@ -132,6 +149,7 @@ _target_paths = {
     "screen_pilot": f"{WORK}/stages/screen_pilot.done",
     "screen_cohort": f"{WORK}/stages/screen_cohort.done",
     "phase3_benchmark": f"{WORK}/stages/phase3_benchmark.done",
+    "phase3_inputs": f"{WORK}/stages/phase3_inputs.done",
 }
 if _target not in _target_paths:
     raise WorkflowError(f"unknown default_target: {_target}")

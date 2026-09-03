@@ -30,6 +30,7 @@ samples = {row["sample_id"]: row for row in table(ROOT / "config" / "samples.tsv
            if row["include_primary"].lower() == "true"}
 panel = table(ROOT / "config" / "phase3_benchmark.tsv")
 settings = json.loads((ROOT / "config" / "phase3_benchmark.json").read_text())
+cohort_settings = json.loads((ROOT / "config" / "phase3_cohort.json").read_text())
 ids = [row["benchmark_id"] for row in panel]
 panel_samples = sorted({row["sample_id"] for row in panel})
 by_sample = defaultdict(set)
@@ -53,6 +54,21 @@ for sample, strategies in by_sample.items():
 require(int(settings.get("fixed_effort_pairs", 0)) == 25_000_000, "fixed-effort read ceiling is not 25M pairs")
 require(int(settings.get("fixed_effort_seed", 0)) > 0, "fixed-effort seed is absent")
 require(int(settings.get("min_contig_length", 0)) == 1000, "MEGAHIT minimum contig length is not 1 kb")
+require(cohort_settings.get("strategy_by_host_route") == {
+    "P_physalis": "reference_depleted", "N_septata": "reference_depleted",
+    "none": "fixed_effort_trimmed",
+}, "Phase-3 cohort route strategies do not match the accepted benchmark decision")
+require(int(cohort_settings.get("fixed_effort_pairs", 0)) == 25_000_000,
+        "Phase-3 cohort fixed-effort input is not 25M pairs")
+require(int(cohort_settings.get("minimum_assembly_input_pairs", 0)) == 175_000,
+        "Phase-3 cohort assembly eligibility floor is not 175,000 pairs")
+benchmark_sentinel = ROOT / cohort_settings.get("benchmark_sentinel", "")
+require(benchmark_sentinel.is_file(), "accepted Phase-3 benchmark sentinel is absent")
+if benchmark_sentinel.is_file():
+    benchmark_values = dict(
+        line.split("\t", 1) for line in benchmark_sentinel.read_text().splitlines() if "\t" in line
+    )
+    require(benchmark_values.get("status") == "PASS", "Phase-3 benchmark sentinel is not PASS")
 
 for label, path in settings.get("databases", {}).items():
     require(Path(path).exists(), f"missing {label} database: {path}")
@@ -74,7 +90,8 @@ if phase2.is_file():
 snake_text = "\n".join(path.read_text() for path in [ROOT / "Snakefile", *sorted((ROOT / "workflow" / "rules").glob("*.smk"))])
 for rule in ("benchmark_trim_reads", "benchmark_assembly", "benchmark_markers", "benchmark_viruses",
              "benchmark_binning", "benchmark_checkm2", "benchmark_host_carryover",
-             "aggregate_phase3_benchmark", "phase3_benchmark"):
+             "aggregate_phase3_benchmark", "phase3_benchmark", "phase3_prepare_cohort_input",
+             "aggregate_phase3_inputs", "phase3_inputs"):
     require(f"rule {rule}:" in snake_text, f"missing Phase-3 rule: {rule}")
 
 validated_rows = 0

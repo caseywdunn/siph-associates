@@ -20,6 +20,9 @@ reads are written under `/vast/palmer/scratch/dunn/cwd7/siph_associates/`.
   including marker, virus, MAG, host-carryover, and resource comparisons. Its
   decision table is the gate for implementing cohort assembly; it is not a
   cohort assembly target.
+- `phase3_inputs`: apply the benchmark-selected host route to every library,
+  aggregate prepared-pair yields, and validate the objective 175,000-pair
+  assembly-eligibility rule before cohort assembly is submitted.
 - `all`: resolves to `phase1_ready` in production and `phase1_smoke` in the fixture
   configuration.
 
@@ -178,6 +181,22 @@ cat data/results/stages/phase3_benchmark.done
 python3 scripts/validate_phase3.py --scope benchmark
 column -t -s $'\t' data/results/phase3_benchmark/decision_table.tsv | less -S
 ```
+
+## Phase 3 cohort-input gate
+
+The accepted route choices and eligibility floor are isolated in
+`config/phase3_cohort.json`, so they do not invalidate Phase-2 outputs. Validate
+the implementation, then prepare and summarize all cohort inputs:
+
+```bash
+python3 scripts/validate_phase3.py --scope benchmark
+snakemake -n phase3_inputs --profile profiles/slurm --configfile config/config.yaml
+bash scripts/submit_workflow.sh phase3_inputs config/config.yaml
+```
+
+After completion, require `data/results/stages/phase3_inputs.done` to report
+PASS and inspect `data/results/phase3_cohort/input_eligibility.tsv`. Freeze that
+table before submitting any cohort assemblies.
 
 Do not submit cohort host handling or assembly until the benchmark comparison,
 objective read-yield inclusion rule, and selected method are recorded and

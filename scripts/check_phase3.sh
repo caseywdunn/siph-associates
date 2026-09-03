@@ -16,3 +16,4 @@ python3 tests/test_stage_readonly_input.py
 python3 tests/test_checkm2_result.py
 "$SNAKEMAKE" --lint --configfile config/config.yaml
 "$SNAKEMAKE" phase3_benchmark -n --quiet --profile profiles/slurm --configfile config/config.yaml
+"$SNAKEMAKE" phase3_inputs -n --quiet --profile profiles/slurm --configfile config/config.yaml

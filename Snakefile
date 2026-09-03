@@ -34,6 +34,7 @@ include: "workflow/rules/host.smk"
 include: "workflow/rules/validation.smk"
 include: "workflow/rules/phase2.smk"
 include: "workflow/rules/phase3.smk"
+include: "workflow/rules/phase3_cohort.smk"
 
 
 rule all:
