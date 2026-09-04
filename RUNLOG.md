@@ -1,5 +1,16 @@
 # Run log
 
+## 2026-09-04 — Phase 3 cohort-input runtime recovery
+
+- Controller `10151716` was stopped after 22 input-preparation jobs reached
+  the 12-hour limit; 22/205 cohort inputs had completed and all 205 trim
+  provenance records were preserved.
+- Input preparation now requests 72 hours on `week` (commit `cf9d42a`). The
+  clean recovery dry run contains 183 unfinished cohort-input jobs, 129
+  regeneration-only trim jobs, aggregation, and validation.
+- Recovery controller `10175928` is running. Its first worker wave is active
+  with the corrected `3-00:00:00` time limit on `week`.
+
 ## 2026-09-03 — Phase 3 benchmark accepted; cohort-input gate ready
 
 - Final benchmark recovery controller `10151500` completed all five remaining
