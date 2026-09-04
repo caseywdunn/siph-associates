@@ -15,7 +15,7 @@
     "minimum_assembly_input_pairs": "The lowest benchmarked retained input with multi-domain recovery contained 176589 pairs."
   },
   "resources": {
-    "input_preparation": {"threads": 16, "mem_mb": 64000, "runtime": 720, "partition": "day"},
+    "input_preparation": {"threads": 16, "mem_mb": 64000, "runtime": 4320, "partition": "week"},
     "validation": {"threads": 1, "mem_mb": 8000, "runtime": 60, "partition": "day"}
   }
 }
