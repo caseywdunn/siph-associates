@@ -1,5 +1,49 @@
 # Run log
 
+## 2026-09-12 — Phase 3 cohort inputs accepted
+
+- Controller `10175928` exited 1 on 2026-09-10 at 310/314 steps. The single
+  failure was infrastructural: trim worker `10277131`
+  (`Church2025__YPM-IZ-110436`) was recorded `NODE_FAIL` by SLURM after 48
+  seconds on 2026-09-08 and never wrote a log. Under `--keep-going` the
+  controller drained its remaining ~90 workers, all of which completed, then
+  exited. 204/205 cohort inputs and 204/205 trim provenance records were
+  published; the 72-hour `week` runtime from `cf9d42a` was sufficient for every
+  input-preparation job in this wave (2.5--19 h).
+- No code, config, or resource change was required. `.snakemake/locks/` was
+  empty, so the exited controller had released cleanly. The recovery dry run
+  contained exactly the four expected jobs: trim and cohort input for
+  `Church2025__YPM-IZ-110436`, aggregation, and validation.
+- 38 stale `input.<sample>.<hash>/` staging directories (9.6 GB) left by the
+  earlier 12-hour-timeout wave were removed after confirming each belonged to a
+  library with a published `.json` and that none belonged to the missing
+  library.
+- Recovery controller `10631963` completed in 14h19m with exit 0. Trim
+  `10631991` took 25m08s on a 44 GB library, input preparation `10632572` took
+  13h52m on `week`, aggregation `10672497` 31 s, and the sentinel `10672520`
+  8 s.
+- Acceptance: 205/205 trim provenance records; 615 published cohort-input files
+  (R1, R2, and JSON for 205 libraries); `data/results/stages/phase3_inputs.done`
+  reports `status PASS`, 205 samples, 195 eligible, 0 errors.
+  `bash scripts/check_phase3.sh` exits 0 and the `phase3_inputs` dry run reports
+  nothing to do.
+- Eligibility against the locked 175,000-pair assembly floor: 195 of 205
+  libraries pass. The 10 below the floor are all reference-depleted --- nine
+  `P_physalis` (`YPM-IZ-106935`, `106937`, `106941`, `110880`, `111013`,
+  `111014`, `111016`, `111017`, `111018`) and one `N_septata` (`Ahuja2026__WS9`,
+  174,701 pairs, just under). Routing counts: 142 eligible `P_physalis`
+  depleted, 9 eligible `N_septata` depleted, 44 reference-free fixed-effort.
+- Known mtime artifact, not caused by this recovery: Phase-3 input preparation
+  regenerated every trim provenance record between 2026-09-03 and 2026-09-12,
+  all newer than the accepted Phase-2 screen outputs of 2026-08-31/09-01. Any
+  future target whose DAG includes those screens --- `phase3_benchmark` is the
+  one in `check_phase3.sh` --- therefore resolves 1,113 jobs in a dry run even
+  under `--rerun-triggers mtime`. The screens themselves remain accepted:
+  `validate_phase2.py --scope cohort` and the independent Phase-3 validator both
+  report PASS. Do not rerun `phase3_benchmark` without deciding how to handle
+  this cascade.
+- Next: cohort assembly over the 195 eligible libraries.
+
 ## 2026-09-04 — Phase 3 cohort-input runtime recovery
 
 - Controller `10151716` was stopped after 22 input-preparation jobs reached
