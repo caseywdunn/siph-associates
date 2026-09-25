@@ -1,6 +1,8 @@
 status	PASS
-scope	benchmark
+scope	static
 benchmark_rows	12
 benchmark_samples	6
-validated_rows	12
+validated_rows	0
+assembly_samples	195
+validated_assemblies	0
 errors	0

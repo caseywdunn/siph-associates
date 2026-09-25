@@ -231,6 +231,16 @@ decisions are frozen in `config/phase3_cohort.json`. The `phase3_inputs` stage
 prepares all 205 inputs and emits the eligibility table before cohort assembly;
 its three-route fixture and 412-job production dry run pass.
 
+**Update 2026-09-25: cohort inputs accepted; assembly stage ready.** All 205
+inputs are prepared and 195 libraries meet the floor. Membership is frozen in
+`config/phase3_assembly.tsv`, with the 10 below-floor libraries as documented
+exclusions. The `phase3_assembly` target runs MEGAHIT, barrnap,
+geNomad + CheckV, and MetaBAT2 + CheckM2 per library, reporting QC values
+without thresholds. Its fixture passes, and the production dry run is exactly
+1,173 jobs with no upstream reruns. Measured benchmark costs predict about
+150--220 job-hours with peak memory of about 20 GB. Pooled GTDB-Tk, locked
+MAG/vOTU QC rules, and dereplication remain for the next Phase-3 gate.
+
 Run the D0.3 benchmark, commit its decision table, then execute host handling and
 assembly. Reference-bearing hosts map to the complete audited nuclear plus
 mitochondrial reference and retain both-unmapped pairs. Reference-free hosts use

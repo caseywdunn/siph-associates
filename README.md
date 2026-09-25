@@ -72,8 +72,10 @@ universal fastp, Kraken2/Bracken, sylph, and phyloFlash screen. The accepted
 Phase-2 aggregation contains 2,282,231 nomination-only rows; these are not
 presence claims. Phase 3 is active: the accepted benchmark selects reference
 depletion for reference-bearing hosts and deterministic 25 M-pair trimmed-read
-inputs for reference-free hosts. The cohort-input gate is ready to prepare all
-205 libraries and freeze objective assembly eligibility before cohort assembly.
+inputs for reference-free hosts. All 205 cohort inputs are prepared; 195
+libraries meet the 175,000-pair assembly floor and are frozen in
+`config/phase3_assembly.tsv`. The per-library assembly stage (`phase3_assembly`)
+is implemented and fixture-tested; see `WORKFLOW.md`.
 The manuscript (LaTeX) lives in a separate repository and cites this one.
 
 ## Citation / license

@@ -198,9 +198,38 @@ After completion, require `data/results/stages/phase3_inputs.done` to report
 PASS and inspect `data/results/phase3_cohort/input_eligibility.tsv`. Freeze that
 table before submitting any cohort assemblies.
 
-Do not submit cohort host handling or assembly until the benchmark comparison,
-objective read-yield inclusion rule, and selected method are recorded and
-committed.
+## Phase 3 cohort assembly
+
+`workflow/rules/phase3_assembly.smk` assembles each eligible library and
+recovers its rRNA markers, viruses, and MAG bins. The tool commands are
+visible in the rule `shell:` blocks. Membership is frozen from the accepted
+eligibility table, and settings and resources live in
+`config/phase3_assembly.json`; neither file invalidates accepted outputs.
+
+| Step | Rule | Main output under `data/results/phase3_cohort/` |
+|---|---|---|
+| Assembly (≥1 kb contigs, IDs prefixed with the library) | `assemble_contigs_megahit` | `assemblies/<sample>.fasta` |
+| rRNA markers (bac/arc/euk) | `find_rrna_barrnap` | `markers/<sample>.gff` |
+| Viral contigs | `identify_viruses_genomad` | `viruses/<sample>.fna`, `.tsv` |
+| Viral quality | `assess_viruses_checkv` | `checkv/<sample>.tsv` |
+| Coverage binning (BAM kept only in scratch) | `bin_contigs_metabat2` | `bins/<sample>.tar.gz`, `.depth.tsv` |
+| Bin quality | `assess_bins_checkm2` | `checkm2/<sample>.tsv`, `.status` |
+| Cohort table, including below-floor exclusions | `summarize_assemblies` | `assembly_summary.tsv` |
+| Membership and accounting check | `validate_assemblies` | `../stages/phase3_assembly.done` |
+
+Freeze membership, check, dry-run, and launch from the repository root:
+
+```bash
+python3 scripts/freeze_phase3_assembly.py          # production; --fixture for tests
+bash scripts/check_phase3.sh
+snakemake phase3_assembly -n --profile profiles/slurm --configfile config/config.yaml
+bash scripts/submit_workflow.sh phase3_assembly config/config.yaml
+```
+
+After completion, `python3 scripts/validate_phase3.py --scope assembly` checks
+every expected output and assembly checksum independently. This stage reports
+QC values without applying thresholds: MAG/vOTU quality rules, pooled GTDB-Tk,
+and dereplication are locked in the following stage.
 
 ## Environments and provenance
 

@@ -120,6 +120,28 @@ def phase3_cohort_input_metrics(wildcards):
     return f"{WORK}/phase3_cohort/inputs/{wildcards.sample}.json"
 
 
+PHASE3_ASSEMBLY_CONFIG_PATH = ROOT / "config" / "phase3_assembly.json"
+with PHASE3_ASSEMBLY_CONFIG_PATH.open() as handle:
+    PHASE3_ASSEMBLY = json.load(handle)
+PHASE3_ASSEMBLY_MEMBERSHIP_PATH = ROOT / PHASE3_ASSEMBLY[
+    "fixture_membership" if config["fixture_enabled"] else "membership"
+]
+with PHASE3_ASSEMBLY_MEMBERSHIP_PATH.open(newline="") as handle:
+    PHASE3_ASSEMBLY_ROWS = {row["sample_id"]: row for row in csv.DictReader(handle, delimiter="\t")}
+if set(PHASE3_ASSEMBLY_ROWS) != set(SAMPLE_IDS):
+    raise WorkflowError("Phase-3 assembly membership does not exactly match the sample table")
+ASSEMBLY_IDS = sorted(s for s, row in PHASE3_ASSEMBLY_ROWS.items() if row["assembly_eligible"] == "true")
+
+
+def phase3_assembly_resource(key):
+    def resource(wildcards):
+        pairs = int(PHASE3_ASSEMBLY_ROWS[wildcards.sample]["retained_pairs"])
+        size = "large" if pairs >= int(PHASE3_ASSEMBLY["large_input_pairs"]) else "small"
+        return PHASE3_ASSEMBLY["resources"][f"assembly_{size}"][key]
+    return resource
+
+
+
 PILOT_IDS = list(config.get("phase2_pilot_samples", []))
 if len(PILOT_IDS) != len(set(PILOT_IDS)):
     raise WorkflowError("phase2 pilot sample IDs are duplicated")
@@ -150,6 +172,7 @@ _target_paths = {
     "screen_cohort": f"{WORK}/stages/screen_cohort.done",
     "phase3_benchmark": f"{WORK}/stages/phase3_benchmark.done",
     "phase3_inputs": f"{WORK}/stages/phase3_inputs.done",
+    "phase3_assembly": f"{WORK}/stages/phase3_assembly.done",
 }
 if _target not in _target_paths:
     raise WorkflowError(f"unknown default_target: {_target}")

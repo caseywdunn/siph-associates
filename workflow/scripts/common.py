@@ -106,3 +106,30 @@ def file_record(path, checksum=False):
     if checksum:
         record["sha256"] = sha256(path)
     return record
+
+
+def fasta_lengths(path):
+    lengths, current, seen = [], 0, False
+    with open(path) as handle:
+        for line in handle:
+            if line.startswith(">"):
+                if seen:
+                    lengths.append(current)
+                current, seen = 0, True
+            else:
+                current += len(line.strip())
+    if seen:
+        lengths.append(current)
+    return lengths
+
+
+def fasta_summary(path):
+    lengths = sorted(fasta_lengths(path), reverse=True)
+    total, running, n50 = sum(lengths), 0, 0
+    for length in lengths:
+        running += length
+        if running >= total / 2:
+            n50 = length
+            break
+    return {"contigs": len(lengths), "total_bases": total,
+            "max_contig": lengths[0] if lengths else 0, "n50": n50}

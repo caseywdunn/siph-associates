@@ -1,0 +1,4 @@
+sample_id	host_route	strategy	retained_pairs	minimum_assembly_input_pairs	assembly_eligible
+Ahuja2024__CWD1	none	fixed_effort_trimmed	48540	30000	true
+Ahuja2026__NA19	N_septata	reference_depleted	41991	30000	true
+Church2025__FM-16644	P_physalis	reference_depleted	39147	30000	true

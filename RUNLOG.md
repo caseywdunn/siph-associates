@@ -1,5 +1,40 @@
 # Run log
 
+## 2026-09-25 — Phase 3 cohort assembly stage ready
+
+- Feasibility from measured benchmark costs: MEGAHIT takes 1.0--2.1 h and 7--8
+  GB on a 25 M-pair input, and at most 8 min and 1 GB on the benchmarked
+  host-removed inputs. geNomad, MetaBAT2, CheckM2, and barrnap each take at most
+  about 30 min, with peak memory about 19 GB (geNomad). Cohort estimate: about
+  150--220 job-hours in total, 1--2 days of wall time.
+- Membership frozen with `scripts/freeze_phase3_assembly.py` into
+  `config/phase3_assembly.tsv`, a copy of the accepted eligibility table: 195
+  eligible (151 reference-depleted, 44 fixed-effort) and 10 below-floor
+  exclusions. Settings and resources are isolated in `config/phase3_assembly.json`,
+  so `config/config.yaml` and the run snapshot are unchanged. MEGAHIT requests
+  32 GB / 20 h for inputs of at least 10 M pairs (50 libraries) and 16 GB / 6 h
+  otherwise. All workers run on `day`.
+- The stage follows the lab workflow-design guidance (dunnlab-workflow-design):
+  tool commands are visible in `shell:` blocks, rule names state each scientific
+  step, and all metrics come from one cheap `summarize_assemblies` job, so
+  summary or validation edits cannot invalidate assemblies. Existing rules are
+  unchanged; repo-wide renaming and a README rule graph are deferred to a
+  separate no-rerun cleanup.
+- Fixture (tests/config.fixture.yaml; floor 30,000 pairs for the 50k-pair
+  fixture): controller `11177561` completed 21/21 jobs. The sentinel reports
+  PASS for 3 assembled libraries (10--35 contigs), barrnap markers, and 1
+  geNomad virus assessed by CheckV. No MetaBAT2 bins formed, so CheckM2 took the
+  `no_bins` path. The CheckM2 path that assesses real bins was not exercised
+  by the fixture; it mirrors the accepted benchmark logic.
+  An earlier fixture controller, `11177466`, ran the superseded script-based
+  implementation and failed only because the rules were rewritten mid-run.
+- Static gate: `bash scripts/check_phase3.sh` exits 0 (lint clean). The
+  `phase3_inputs` dry run reports nothing to do. The `phase3_assembly` dry run
+  resolves exactly 1,173 jobs (195 x 6 + summary, validation, target) with no
+  trim, screen, or input reruns.
+- Next: `bash scripts/submit_workflow.sh phase3_assembly config/config.yaml`,
+  then `python3 scripts/validate_phase3.py --scope assembly`.
+
 ## 2026-09-12 — Phase 3 cohort inputs accepted
 
 - Controller `10175928` exited 1 on 2026-09-10 at 310/314 steps. The single
