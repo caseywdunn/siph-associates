@@ -32,8 +32,11 @@
   `phase3_inputs` dry run reports nothing to do. The `phase3_assembly` dry run
   resolves exactly 1,173 jobs (195 x 6 + summary, validation, target) with no
   trim, screen, or input reruns.
-- Next: `bash scripts/submit_workflow.sh phase3_assembly config/config.yaml`,
-  then `python3 scripts/validate_phase3.py --scope assembly`.
+- Controller `11177733` was submitted from implementation commit `61521cf`
+  and is running on `week`. The first wave of 32 MEGAHIT workers was accepted
+  on `day` (16 running, 16 pending) with no scheduler rejection.
+- On completion: `cat data/results/stages/phase3_assembly.done` and
+  `python3 scripts/validate_phase3.py --scope assembly`.
 
 ## 2026-09-12 — Phase 3 cohort inputs accepted
 
