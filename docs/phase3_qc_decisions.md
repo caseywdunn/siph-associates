@@ -149,14 +149,36 @@ identity over ≥85% of the shorter sequence (MIUViG), using CheckV's
 it needs no data-driven tuning. Clustering after inclusion keeps artifacts from
 recruiting genuine viruses into shared clusters.
 
-## Open item: the recurrent 5,000-bp *Physalia* element
+## Resolved: the recurrent 5,000-bp *Physalia* element is a host retrotransposon
 
-A single near-identical element with direct terminal repeats (21-mer Jaccard
-0.93–1.0) was assembled at exactly 5,000 bp in 75 Church2025 *Physalia*
-libraries (`physalia_5kb_element.tsv`). It has no geNomad taxonomy and no
-hallmark gene, so it is excluded from the vOTU catalog by the rule above. It
-does not align to the *P. physalis* reference, which is why it survived host
-depletion. It may be an extrachromosomal host element absent from the
-reference, a widespread associate, or a contaminant. Its identity should be
-established (for example by NCBI BLAST of `qc_evidence/physalia_5kb.fa`)
-before it is interpreted. The inclusion rule does not depend on the outcome.
+A single near-identical element was assembled at exactly 5,000 bp in 75
+Church2025 *Physalia* libraries (21-mer Jaccard 0.93–1.0;
+`physalia_5kb_element.tsv`). MEGAHIT marks it circular at about 310× coverage,
+and its 141-bp terminal repeat is the k141 circular overlap. It does not align
+to the *P. physalis* reference, which is why it survived host depletion. It has
+no geNomad taxonomy or hallmark gene, but CheckV called it "Complete" from the
+terminal repeat.
+
+Identification (2026-09-26; files in `qc_evidence/`):
+- **Nucleotide.** NCBI megablast against core_nt found no significant
+  similarity (`physalia_5kb.blastn.ncbi.tsv`), so the element is novel at the
+  nucleotide level.
+- **Gene content.** prodigal-gv predicts one 1,519-aa ORF covering 91% of the
+  ~4.86 kb circle (`physalia_5kb_orf2.faa`). NCBI CD-Search places reverse
+  transcriptase (aa 582–760), RNase H (856–989), and integrase (H2C2 zinc
+  finger 1091–1146; rve core 1160–1249) domains in that order
+  (`physalia_5kb_orf2.cdd.tsv`).
+- **Protein similarity.** NCBI blastx against nr: all top hits are Gag-Pol
+  polyproteins encoded in animal genomes, at about 39% identity and E = 0
+  (molluscs, corals including *Paramuricea clavata* "Transposon Ty3-I Gag-Pol
+  polyprotein" and *Pocillopora*, brachiopods, crustaceans, hagfish). There
+  were no viral hits (`physalia_5kb.blastx.ncbi.txt`).
+
+**Conclusion.** The domain order RT–RNase H–integrase in a single polyprotein,
+with nearest relatives in animal genomes, identifies a Ty3/Gypsy-type LTR
+retrotransposon of the *Physalia* genome. It is present at high copy number but
+missing from the reference assembly, whose repeat content is incomplete. It is
+host sequence, not an associate. The viral inclusion rule already excludes it
+(no hallmark gene). The finding supports the decision that terminal-repeat
+completeness alone never qualifies a viral contig, and shows that reference
+depletion does not remove host repeats absent from the reference.

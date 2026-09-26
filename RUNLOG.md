@@ -22,10 +22,13 @@
 - Evidence is regenerated from accepted outputs by
   `sbatch scripts/phase3_qc_evidence.sbatch` (job `11198332`, 3m20s) into
   `data/results/phase3_cohort/qc_evidence/`.
-- Open: a 5,000-bp terminal-repeat element recurs near-identically in 75
-  Church2025 *Physalia* libraries and is absent from the *P. physalis*
-  reference. It is excluded by the viral rule; its identity awaits an
-  external BLAST search, pending approval.
+- Resolved with NCBI searches (Casey approved NCBI queries as needed): the
+  5,000-bp terminal-repeat element in 75 Church2025 *Physalia* libraries is a
+  host Ty3/Gypsy LTR retrotransposon absent from the *P. physalis* reference.
+  Megablast against core_nt found no hits. It has one 1,519-aa ORF with RT,
+  RNase H, and integrase domains (CD-Search). Its blastx top hits against nr
+  are animal-genome Ty3 Gag-Pol proteins at about 39% identity, with no viral
+  hits. The viral rule already excludes it.
 - Next: build the catalog stage (pooled GTDB-Tk, MAG dereplication, viral
   inclusion and endogenous-candidate flagging, vOTU clustering) from
   `config/phase3_catalog.json`.
