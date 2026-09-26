@@ -231,6 +231,9 @@ decisions are frozen in `config/phase3_cohort.json`. The `phase3_inputs` stage
 prepares all 205 inputs and emits the eligibility table before cohort assembly;
 its three-route fixture and 412-job production dry run pass.
 
+**Update 2026-09-26: per-library cohort assembly accepted.** 195/195 eligible
+libraries assembled and validated (555 bins, 20,812 viral contigs); see RUNLOG.
+
 **Update 2026-09-25: cohort inputs accepted; assembly stage ready.** All 205
 inputs are prepared and 195 libraries meet the floor. Membership is frozen in
 `config/phase3_assembly.tsv`, with the 10 below-floor libraries as documented

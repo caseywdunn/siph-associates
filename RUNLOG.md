@@ -1,5 +1,31 @@
 # Run log
 
+## 2026-09-26 — Phase 3 cohort assembly accepted
+
+- Recovery controller `11194736` completed 544/544 steps in 1h45m with zero
+  errors. It paused at the YCRC hourly limit and resumed through the
+  retrying submit wrapper.
+- Acceptance: `data/results/stages/phase3_assembly.done` reports PASS: 205
+  samples, 195 assembled, 0 with no contigs, 10 excluded below the floor, 0
+  errors. `python3 scripts/validate_phase3.py --scope assembly` reports PASS,
+  with 195 assemblies checked against their summarized checksums and library-
+  prefixed contig IDs. The `phase3_assembly` dry run reports nothing to do.
+- Yield: 3.77 M contigs (6.98 Gbp), 4,645 rRNA markers, and 20,812 geNomad
+  viral contigs (CheckV: 458 complete, 403 high-quality, 1,481 medium-quality).
+  There are 555 MetaBAT2 bins in 165 libraries; CheckM2 rates 131 medium-or-
+  better and 55 high-quality. Fixed-effort libraries (n=44) supply most viral
+  sequence (17,399 contigs). Reference-depleted libraries (n=151) supply most
+  quality MAGs (99 medium-or-better, 52 high-quality).
+- CheckM2 status: 161 assessed, 30 with no bins, and 4 with no DIAMOND
+  annotations (recorded as unassessable). The assessed path, not exercised by
+  the fixture, ran successfully 161 times.
+- Measured cost: 88 MEGAHIT job-hours in total, at most 2.9 h per library,
+  and peak memory of 13.1 GB. Throughput was limited by the 256-CPU per-user
+  QOS on `day` and the 200-per-hour submission limit, not by memory.
+- QC values are reported without thresholds. Next: lock MAG quality and
+  geNomad/CheckV vOTU criteria and dereplication identity/coverage, then build
+  pooled GTDB-Tk classification and cohort dereplication.
+
 ## 2026-09-25 — Phase 3 cohort assembly stage ready
 
 - Feasibility from measured benchmark costs: MEGAHIT takes 1.0--2.1 h and 7--8
