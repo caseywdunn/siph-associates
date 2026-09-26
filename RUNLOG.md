@@ -35,6 +35,21 @@
 - Controller `11177733` was submitted from implementation commit `61521cf`
   and is running on `week`. The first wave of 32 MEGAHIT workers was accepted
   on `day` (16 running, 16 pending) with no scheduler rejection.
+- Controller `11177733` exited 1 at 19:37 on 2026-09-25 after 7h40m with
+  629/1,173 steps complete. Once the short downstream jobs began, submissions
+  reached 197 and 280 per hour. YCRC refuses more than 200 submissions per
+  user per hour, and 344 `sbatch` calls were rejected from 19:31. Snakemake
+  recorded those refusals as failures and drained. Every submitted worker (629)
+  completed; no analysis job failed.
+- A fractional `max-jobs-per-second: 0.05` (commit `1766779`) did not throttle
+  Snakemake 7 cluster submissions: 80 jobs in 3 min under recovery controller
+  `11194736`. Commit `2458b7c` restores the profile value and makes
+  `profiles/slurm/submit.py` wait and retry every 2 min on the hourly-limit
+  refusal. The running controller picked the change up immediately, because the
+  wrapper runs once per submission.
+- Recovery controller `11194736` (dry run exactly 544 jobs: 10 assemblies plus
+  downstream steps) completed 228/544 steps by 12:07 on 2026-09-26. It then
+  paused at the limit with zero errors and resumes as the hourly window clears.
 - On completion: `cat data/results/stages/phase3_assembly.done` and
   `python3 scripts/validate_phase3.py --scope assembly`.
 
