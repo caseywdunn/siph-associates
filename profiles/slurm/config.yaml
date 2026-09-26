@@ -14,5 +14,4 @@ restart-times: 0
 use-conda: true
 conda-frontend: mamba
 max-status-checks-per-second: 2
-# YCRC rejects submissions beyond 200 jobs per hour per user; 0.05 per second = 180 per hour.
-max-jobs-per-second: 0.05
+max-jobs-per-second: 2

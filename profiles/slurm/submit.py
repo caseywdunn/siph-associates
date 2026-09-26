@@ -5,6 +5,7 @@ from __future__ import annotations
 import re
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 from snakemake.utils import read_job_properties
@@ -29,8 +30,15 @@ command = [
     f"--output={log_dir}/{name}.%j.out",
     jobscript,
 ]
-result = subprocess.run(command, text=True, stdout=subprocess.PIPE,
-                        stderr=subprocess.PIPE, check=False)
+# YCRC rejects submissions beyond 200 jobs per hour per user. Wait for the
+# rolling window instead of reporting a scheduler refusal as a job failure.
+while True:
+    result = subprocess.run(command, text=True, stdout=subprocess.PIPE,
+                            stderr=subprocess.PIPE, check=False)
+    if result.returncode and "per hour" in result.stderr:
+        time.sleep(120)
+        continue
+    break
 if result.returncode:
     sys.stderr.write(result.stderr)
     raise SystemExit(result.returncode)
