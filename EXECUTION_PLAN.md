@@ -119,6 +119,13 @@ abundance measure.
 - **Viruses:** lock geNomad/CheckV quality criteria, vOTU dereplication identity
   and coverage, and whether host linkage uses iPHoP, CRISPR spacers, or both.
   Host-reference EVEs are reported separately from associate viruses.
+  **Locked 2026-09-26** (`docs/phase3_qc_decisions.md`, `config/phase3_catalog.json`):
+  MAGs ≥50% complete / <10% contaminated with GTDB-Tk prokaryotic placement,
+  dereplicated at 95% ANI / 50% AF; viral contigs require ≥1 geNomad hallmark
+  and ≥5 kb or ≥50% CheckV completeness (DTR alone never qualifies), with
+  host-aligned, polinton-like, and RNA-virus-like contigs reported as
+  endogenous candidates; vOTUs at 95% ANI over 85% of the shorter sequence.
+  Host linkage (iPHoP/CRISPR) remains open.
 - **Parasites/prey:** lock PR2 version and non-host rules; use 18S/28S and COI or
   mitogenome evidence. Parasite versus prey is a biological interpretation with
   an explicit evidence field, not a classifier taxon bin. Targeted mapping is

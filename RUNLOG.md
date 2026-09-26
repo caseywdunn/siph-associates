@@ -1,5 +1,35 @@
 # Run log
 
+## 2026-09-26 — Phase 3 MAG and viral QC rules locked
+
+- Casey Dunn approved the catalog QC rules after reviewing the accepted
+  assembly outputs. The decision record with evidence and reasoning is
+  `docs/phase3_qc_decisions.md`; the thresholds are frozen in
+  `config/phase3_catalog.json`.
+- MAGs: ≥50% completeness and <10% contamination, plus GTDB-Tk placement in
+  Bacteria/Archaea (131 bins in 81 libraries); near-complete means ≥90% and
+  <5% (55). Dereplication at 95% ANI / ≥50% AF gives about 59 species; the
+  count is stable at 54--61 across 95--97% ANI.
+- Viruses: CheckV tiers proved unreliable in host-rich reference-free
+  assemblies. All 355 fixed-effort "Complete" calls rest on terminal repeats
+  alone and carry no hallmark gene, and 44 of the 50 from reference-free
+  *Nanomia* align over ≥50% to the *N. septata* genome (controls: 0/44
+  host-depleted *N. septata* contigs, 3% of distant-host contigs). The
+  inclusion rule requires ≥1 geNomad hallmark and ≥5 kb or ≥50% completeness
+  (656 contigs, 134 libraries). Host-aligned, Preplasmiviricota, and
+  Duplornaviricota contigs are reported as endogenous candidates. vOTUs:
+  95% ANI over 85% of the shorter sequence.
+- Evidence is regenerated from accepted outputs by
+  `sbatch scripts/phase3_qc_evidence.sbatch` (job `11198332`, 3m20s) into
+  `data/results/phase3_cohort/qc_evidence/`.
+- Open: a 5,000-bp terminal-repeat element recurs near-identically in 75
+  Church2025 *Physalia* libraries and is absent from the *P. physalis*
+  reference. It is excluded by the viral rule; its identity awaits an
+  external BLAST search, pending approval.
+- Next: build the catalog stage (pooled GTDB-Tk, MAG dereplication, viral
+  inclusion and endogenous-candidate flagging, vOTU clustering) from
+  `config/phase3_catalog.json`.
+
 ## 2026-09-26 — Phase 3 cohort assembly accepted
 
 - Recovery controller `11194736` completed 544/544 steps in 1h45m with zero

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "decision_record": "docs/phase3_qc_decisions.md",
+  "approved": "2026-09-26",
+  "mags": {
+    "min_completeness": 50,
+    "max_contamination_exclusive": 10,
+    "near_complete_min_completeness": 90,
+    "near_complete_max_contamination_exclusive": 5,
+    "require_gtdbtk_domains": ["Bacteria", "Archaea"],
+    "checkm2_statuses_eligible": ["assessed"],
+    "dereplication": {
+      "ani_min": 95,
+      "align_fraction_min": 50,
+      "representative_score": "completeness - 5 * contamination"
+    }
+  },
+  "viruses": {
+    "min_genomad_hallmarks": 1,
+    "min_length": 5000,
+    "min_checkv_completeness": 50,
+    "length_or_completeness": true,
+    "dtr_alone_qualifies": false,
+    "endogenous_candidates": {
+      "min_host_aligned_fraction": 0.5,
+      "host_references": "audited host references plus the N_septata congener reference for reference-free Nanomia",
+      "flag_phyla": ["Preplasmiviricota", "Duplornaviricota"]
+    },
+    "votu_clustering": {
+      "ani_min": 95,
+      "shorter_sequence_coverage_min": 85
+    }
+  }
+}
