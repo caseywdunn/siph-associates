@@ -116,8 +116,11 @@ rule classify_mags_gtdbtk:
         header=$(head -n 1 "$tmp/out/gtdbtk.bac120.summary.tsv" 2>/dev/null || echo user_genome)
         [ -f "$tmp/out/gtdbtk.ar53.summary.tsv" ] || echo "$header" > "$tmp/out/gtdbtk.ar53.summary.tsv"
         [ -f "$tmp/out/gtdbtk.bac120.summary.tsv" ] || echo "$header" > "$tmp/out/gtdbtk.bac120.summary.tsv"
-        mv "$tmp/out/gtdbtk.ar53.summary.tsv" {output.archaea:q}
-        mv "$tmp/out/gtdbtk.bac120.summary.tsv" {output.bacteria:q}
+        # Top-level summaries are relative symlinks into $tmp; copy their targets.
+        cp -L "$tmp/out/gtdbtk.ar53.summary.tsv" {output.archaea:q}.tmp
+        cp -L "$tmp/out/gtdbtk.bac120.summary.tsv" {output.bacteria:q}.tmp
+        mv {output.archaea:q}.tmp {output.archaea:q}
+        mv {output.bacteria:q}.tmp {output.bacteria:q}
         """
 
 
