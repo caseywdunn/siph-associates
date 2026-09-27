@@ -109,9 +109,10 @@ rule classify_mags_gtdbtk:
         tmp=$(mktemp -d {params.scratch:q}/run.XXXXXX)
         trap 'rm -rf "$tmp"' EXIT
         gtdbtk --version > {log:q} 2>&1
+        # Keep GTDB-Tk's own temporary files in node-local TMPDIR: multiprocessing
+        # sockets fail on paths longer than 108 characters.
         gtdbtk classify_wf --genome_dir {input.genomes:q} --extension fa --out_dir "$tmp/out" \
-          --cpus {threads} --pplacer_cpus {params.pplacer_cpus} --mash_db {params.mash_db:q} \
-          --tmpdir "$tmp" >> {log:q} 2>&1
+          --cpus {threads} --pplacer_cpus {params.pplacer_cpus} --mash_db {params.mash_db:q} >> {log:q} 2>&1
         header=$(head -n 1 "$tmp/out/gtdbtk.bac120.summary.tsv" 2>/dev/null || echo user_genome)
         [ -f "$tmp/out/gtdbtk.ar53.summary.tsv" ] || echo "$header" > "$tmp/out/gtdbtk.ar53.summary.tsv"
         [ -f "$tmp/out/gtdbtk.bac120.summary.tsv" ] || echo "$header" > "$tmp/out/gtdbtk.bac120.summary.tsv"
