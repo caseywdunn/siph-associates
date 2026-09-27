@@ -3,3 +3,4 @@ channels: [conda-forge, bioconda]
 dependencies:
   - python=3.11
   - gtdbtk=2.4.1
+  - numpy=1.26.4  # GTDB-Tk 2.4.1 uses ndarray.tostring, removed in NumPy 2
