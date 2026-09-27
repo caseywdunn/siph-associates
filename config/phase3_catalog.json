@@ -7,8 +7,13 @@
     "max_contamination_exclusive": 10,
     "near_complete_min_completeness": 90,
     "near_complete_max_contamination_exclusive": 5,
-    "require_gtdbtk_domains": ["Bacteria", "Archaea"],
-    "checkm2_statuses_eligible": ["assessed"],
+    "require_gtdbtk_domains": [
+      "Bacteria",
+      "Archaea"
+    ],
+    "checkm2_statuses_eligible": [
+      "assessed"
+    ],
     "dereplication": {
       "ani_min": 95,
       "align_fraction_min": 50,
@@ -24,11 +29,55 @@
     "endogenous_candidates": {
       "min_host_aligned_fraction": 0.5,
       "host_references": "audited host references plus the N_septata congener reference for reference-free Nanomia",
-      "flag_phyla": ["Preplasmiviricota", "Duplornaviricota"]
+      "flag_phyla": [
+        "Preplasmiviricota",
+        "Duplornaviricota"
+      ]
     },
     "votu_clustering": {
       "ani_min": 95,
       "shorter_sequence_coverage_min": 85
+    }
+  },
+  "tool_prefixes": {
+    "gtdbtk": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/gtdbtk_r220_env",
+    "skani": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/assembly_env",
+    "minimap2": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/assembly_env",
+    "votu": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/votu_env"
+  },
+  "databases": {
+    "gtdbtk": "/gpfs/ycga/work/dunn/cwd7/databases/gtdbtk_r220/release220"
+  },
+  "resources": {
+    "gtdbtk": {
+      "threads": 16,
+      "mem_mb": 150000,
+      "runtime": 720,
+      "partition": "day"
+    },
+    "skani": {
+      "threads": 8,
+      "mem_mb": 16000,
+      "runtime": 60,
+      "partition": "day"
+    },
+    "host_alignment": {
+      "threads": 8,
+      "mem_mb": 40000,
+      "runtime": 120,
+      "partition": "day"
+    },
+    "votu": {
+      "threads": 16,
+      "mem_mb": 16000,
+      "runtime": 240,
+      "partition": "day"
+    },
+    "summary": {
+      "threads": 1,
+      "mem_mb": 8000,
+      "runtime": 60,
+      "partition": "day"
     }
   }
 }

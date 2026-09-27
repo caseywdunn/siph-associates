@@ -142,6 +142,15 @@ def phase3_assembly_resource(key):
 
 
 
+PHASE3_CATALOG_CONFIG_PATH = ROOT / "config" / "phase3_catalog.json"
+with PHASE3_CATALOG_CONFIG_PATH.open() as handle:
+    PHASE3_CATALOG = json.load(handle)
+
+
+def catalog_resources(name):
+    return {key: PHASE3_CATALOG["resources"][name][key] for key in ("mem_mb", "runtime", "partition")}
+
+
 PILOT_IDS = list(config.get("phase2_pilot_samples", []))
 if len(PILOT_IDS) != len(set(PILOT_IDS)):
     raise WorkflowError("phase2 pilot sample IDs are duplicated")
@@ -173,6 +182,7 @@ _target_paths = {
     "phase3_benchmark": f"{WORK}/stages/phase3_benchmark.done",
     "phase3_inputs": f"{WORK}/stages/phase3_inputs.done",
     "phase3_assembly": f"{WORK}/stages/phase3_assembly.done",
+    "phase3_catalog": f"{WORK}/stages/phase3_catalog.done",
 }
 if _target not in _target_paths:
     raise WorkflowError(f"unknown default_target: {_target}")

@@ -1,0 +1,5 @@
+name: siph-associates-votu
+channels: [conda-forge, bioconda]
+dependencies:
+  - checkv=1.1.1
+  - blast=2.16.0

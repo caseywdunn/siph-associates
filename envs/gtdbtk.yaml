@@ -1,0 +1,5 @@
+name: siph-associates-gtdbtk
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - gtdbtk=2.4.1
