@@ -231,6 +231,29 @@ every expected output and assembly checksum independently. This stage reports
 QC values without applying thresholds: MAG/vOTU quality rules, pooled GTDB-Tk,
 and dereplication are locked in the following stage.
 
+## Phase 3 catalogs
+
+`workflow/rules/phase3_catalog.smk` builds the cohort MAG and vOTU catalogs
+from the accepted assembly products. It applies the locked rules in
+`config/phase3_catalog.json`, with evidence and reasoning in
+`docs/phase3_qc_decisions.md`.
+
+| Step | Rule | Output under `data/results/phase3_catalog/` |
+|---|---|---|
+| MAGs ≥50% complete, <10% contaminated | `select_mags` | `mags/candidates.tsv` |
+| GTDB r220 placement (GTDB-Tk 2.4.1) | `prepare_gtdbtk_reference`, `classify_mags_gtdbtk` | `mags/gtdbtk.*.summary.tsv` |
+| Pairwise ANI | `compare_mags_skani` | `mags/candidates.skani.tsv` |
+| Prokaryotic MAGs, species at 95% ANI / 50% AF | `build_mag_catalog` | `mags/mag_catalog.tsv`, `mags/species_representatives/` |
+| Viral inclusion (hallmark and ≥5 kb or ≥50% complete) | `select_viruses` | `viruses/included.tsv` |
+| Host alignment and endogenous-candidate flags | `align_viruses_host_minimap2`, `flag_endogenous_viruses` | `viruses/virus_classification.tsv` |
+| vOTUs (95% ANI, 85% AF) | `cluster_votus_checkv`, `build_votu_catalog` | `votus/{associate,endogenous_candidate}.votus.tsv` |
+| Rule and accounting check | `validate_catalog` | `../stages/phase3_catalog.done` |
+
+```bash
+snakemake phase3_catalog -n --profile profiles/slurm --configfile config/config.yaml
+bash scripts/submit_workflow.sh phase3_catalog config/config.yaml
+```
+
 ## Environments and provenance
 
 Pinned portable definitions are under `envs/`, and the Yale profile activates

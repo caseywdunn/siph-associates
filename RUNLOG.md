@@ -1,5 +1,47 @@
 # Run log
 
+## 2026-09-27 — Phase 3 catalogs accepted
+
+- Target `phase3_catalog` (`workflow/rules/phase3_catalog.smk`) applies the
+  locked rules in `config/phase3_catalog.json`. The final controller,
+  `11402086`, completed with 0 errors. The sentinel
+  `data/results/stages/phase3_catalog.done` reports PASS; the `phase3_inputs`,
+  `phase3_assembly`, and `phase3_catalog` dry runs report nothing to do, and
+  lint is clean.
+- MAGs: 131 quality-selected candidates. 24 were excluded for lacking
+  prokaryotic placement; all come from fixed-effort libraries, and GTDB-Tk
+  found 0/120 bacterial markers (for example CWD101 bin.1, which CheckM2 rated
+  63% complete at coding density 0.66). These are eukaryotic bins that CheckM2
+  cannot recognize. 107 MAGs were retained (99 reference-depleted, 8
+  fixed-effort; 55 near-complete), in 38 species by greedy centroid
+  clustering (35 by single linkage; the pre-GTDB estimate of 59 included the
+  non-prokaryotic bins). 30 species have no GTDB r220 species assignment. The
+  most widespread are novel Metamycoplasmataceae (Mycoplasmatales) in 26, 18,
+  and 8 libraries. Representative phyla: Pseudomonadota 23, Bacillota_I 11,
+  Bacteroidota 2, Thermoproteota 1, Cyanobacteriota 1.
+- Viruses: 656 included contigs, split into 400 associate viruses (319 vOTUs,
+  30 shared across libraries) and 256 endogenous candidates (153 clusters;
+  reasons: 185 Preplasmiviricota, 69 Duplornaviricota, 14 aligned to
+  *N. septata*). None of the 358 *Physalia*-library contigs aligns to
+  *P. physalis*. Associate vOTUs are mostly tailed phages (Uroviricota 320
+  contigs) and CRESS-DNA viruses (60).
+- Software: GTDB-Tk 2.4.1 against GTDB r220 (envs/gtdbtk.yaml). The installed
+  2.7.2 accepts only r232, and r220 keeps the release consistent with the
+  Phase-2 sylph screens. Clustering uses CheckV 1.1.1 `anicalc`/`aniclust` and
+  BLAST+ 2.16.0 (envs/votu.yaml). A scratch view corrects the r220 package's
+  relocated skani genome paths without modifying the shared database.
+- Execution fixes before acceptance, none affecting results:
+  - Python 3.14 broke GTDB-Tk 2.4.1 (pydantic), fixed by pinning Python 3.11.
+  - NumPy 2 removed `ndarray.tostring`, fixed by pinning NumPy 1.26.4.
+  - A scratch `--tmpdir` exceeded the 108-character multiprocessing socket
+    limit, fixed by using node-local tmp.
+  - The top-level GTDB-Tk summaries are symlinks, fixed by copying with `cp -L`.
+- Measured: GTDB-Tk 33 min with 131 genomes, about 56 GB peak during pplacer.
+  The reusable r220 Mash sketch (2.3 GB) is cached in scratch.
+- Next: Phase 4 — pool these representatives with taxon-verified reference
+  genomes, screen for contaminated or mislabeled references, and freeze the
+  mapping catalogs.
+
 ## 2026-09-26 — Phase 3 MAG and viral QC rules locked
 
 - Casey Dunn approved the catalog QC rules after reviewing the accepted

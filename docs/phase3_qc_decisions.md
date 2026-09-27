@@ -70,6 +70,12 @@ Of 930 reported pairs, only 54 fall between 90% and 97% ANI (33 at 90–95, 21 a
 - Completeness − 5 × contamination is the standard representative score (as in
   dRep). It favors complete, clean genomes as mapping references.
 
+**Outcome (2026-09-27).** GTDB-Tk excluded 24 of the 131 quality-selected bins,
+all from reference-free libraries, because they carry none of the 120 bacterial
+marker genes. They are eukaryotic bins that CheckM2 cannot recognize, and the
+evidence estimate above counted them. The catalog therefore holds 107 MAGs in
+38 species by greedy centroid clustering (35 by single linkage).
+
 ## 3. Viral inclusion
 
 **Decision.** A geNomad viral contig enters the vOTU catalog only if it has at

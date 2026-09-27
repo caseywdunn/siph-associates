@@ -238,6 +238,11 @@ decisions are frozen in `config/phase3_cohort.json`. The `phase3_inputs` stage
 prepares all 205 inputs and emits the eligibility table before cohort assembly;
 its three-route fixture and 412-job production dry run pass.
 
+**Update 2026-09-27: Phase 3 complete.** The catalog stage retains 107
+prokaryotic MAGs in 38 species, plus 400 associate viral contigs in 319
+vOTUs, with 256 endogenous candidates reported separately. Every member
+carries its source library; see RUNLOG.
+
 **Update 2026-09-26: per-library cohort assembly accepted.** 195/195 eligible
 libraries assembled and validated (555 bins, 20,812 viral contigs); see RUNLOG.
 
