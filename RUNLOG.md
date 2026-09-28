@@ -19,7 +19,13 @@
 - CRISPR spacers: 7 full-length matches with ≤1 mismatch link 6 vOTUs to
   hosts (3 to *Photobacterium angustum*, 2 to a DT-91 Pseudomonadales genus,
   1 to GCF-002020875). Links are sparse, as anticipated.
-- Under review, before any mapping: the NCBI rule excluded 13 GTDB
+- Resolved 2026-09-28: Casey approved substituting verified current NCBI
+  records. The rebuild found that 13 of the 22 exclusions came from a
+  status-check bug (GenBank queries return RefSeq-keyed records), and the
+  check now judges each accession in its own database. Of 393 accessions, 383
+  are current; the other 10 are replaced by MD5-verified substitutes that are
+  ≥99% ANI to the GTDB genome.
+- Original note: the NCBI rule excluded 13 GTDB
   representatives only because a newer version of the same assembly exists.
   These include *Pseudoalteromonas atlantica* (9 libraries, 99.3% ANI). It
   also excluded 9 RefSeq-suppressed records (*Vibrio neptunius* and

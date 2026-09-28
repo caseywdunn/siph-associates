@@ -84,6 +84,26 @@ species have no reference and enter only as MAGs.
   genomes, which improves breadth estimates, and keeps novel MAGs as their
   species' only genome.
 
+**Amendment (2026-09-28, approved by Casey Dunn before any mapping).**
+- **Substitution.** A GTDB accession that is not current in its own NCBI
+  database is replaced by a verified current substitute: the identical current
+  record in the other database (GenBank for a suppressed RefSeq record), or the
+  latest version of the same accession. The substitute is downloaded from NCBI
+  with its published MD5, must be ≥99% ANI to the GTDB genome it replaces, and
+  passes the same CheckM2 screen. Without a verified substitute, the reference
+  is excluded.
+- **Why.** Under the first build, 22 references were excluded, including
+  well-supported species such as *Vibrio neptunius* and *V. tasmaniensis*
+  (3 libraries each) and *Pseudoalteromonas atlantica* (9 libraries, 99.3%
+  ANI). Losing them would send their reads to relatives or leave them unmapped.
+- **A status-check bug.** 13 of those 22 were current GenBank records that the
+  check could not match. NCBI returns the paired RefSeq record for a GenBank
+  query, and the first implementation keyed status only by that record's
+  accession. The check now judges each accession in its own database.
+- **Result.** 383 of 393 GTDB accessions are current. The remaining 10 have
+  substitutes: 7 identical GenBank records for suppressed RefSeq entries and
+  3 newer versions.
+
 ## 3. Presence-rule controls
 
 **Decision.** Build the controls into the frozen catalog. Lock the presence

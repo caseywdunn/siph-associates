@@ -7,7 +7,8 @@ Phase-3 MAG species and carries 20 decoy genomes as presence-rule controls.
 1. Nominate references from cohort sylph hits and draw decoy candidates:
    nominate_references.
 2. Obtain genomes: fetch_oceandna_archive, collect_reference_genomes.
-3. Screen references: check_references_ncbi, assess_references_checkm2,
+3. Screen references and substitute current NCBI records where needed:
+   check_references_ncbi, fetch_ncbi_substitutes, assess_references_checkm2,
    classify_oceandna_gtdbtk.
 4. Pool, dereplicate, add decoys, and freeze the catalog:
    compare_catalog_genomes_skani, build_bacterial_catalog,
@@ -129,9 +130,31 @@ rule check_references_ncbi:
         """
 
 
+rule fetch_ncbi_substitutes:
+    input:
+        script="workflow/scripts/fetch_ncbi_substitutes.py",
+        status=f"{P4}/references/ncbi_status.tsv",
+    output:
+        genomes=directory(f"{P4}/references/substitutes"),
+        table=f"{P4}/references/substitutes.tsv",
+    log:
+        f"{WORK}/logs/phase4_catalog/fetch_ncbi_substitutes.log",
+    threads: 1
+    resources:
+        **phase4_resources("download"),
+    conda:
+        "../../envs/workflow.yaml"
+    shell:
+        """
+        python {input.script:q} --status {input.status:q} --genomes {output.genomes:q} --table {output.table:q} \
+          > {log:q} 2>&1
+        """
+
+
 rule assess_references_checkm2:
     input:
         genomes=f"{P4}/references/genomes",
+        substitutes=f"{P4}/references/substitutes",
         database=PHASE4_CATALOG["databases"]["checkm2"],
     output:
         f"{P4}/references/checkm2_quality.tsv",
@@ -154,7 +177,11 @@ rule assess_references_checkm2:
         tmp=$(mktemp -d {params.scratch:q}/run.XXXXXX)
         trap 'rm -rf "$tmp"' EXIT
         checkm2 --version > {log:q} 2>&1
-        checkm2 predict --threads {threads} --input {input.genomes:q} --extension fa \
+        mkdir "$tmp/genomes"
+        for f in {input.genomes:q}/*.fa {input.substitutes:q}/*.fa; do
+          if [ -e "$f" ]; then ln -s "$(realpath "$f")" "$tmp/genomes/"; fi
+        done
+        checkm2 predict --threads {threads} --input "$tmp/genomes" --extension fa \
           --database_path {input.database:q} --output-directory "$tmp/out" --force >> {log:q} 2>&1
         cp "$tmp/out/quality_report.tsv" {output:q}.tmp
         mv {output:q}.tmp {output:q}
@@ -206,6 +233,7 @@ rule classify_oceandna_gtdbtk:
 rule compare_catalog_genomes_skani:
     input:
         genomes=f"{P4}/references/genomes",
+        substitutes=f"{P4}/references/substitutes",
         mags=f"{WORK}/phase3_catalog/mags/species_representatives",
     output:
         f"{P4}/references/catalog_genomes.skani.tsv",
@@ -222,7 +250,8 @@ rule compare_catalog_genomes_skani:
         """
         export PATH={params.tools:q}:$PATH
         skani --version > {log:q} 2>&1
-        skani triangle -t {threads} -E {input.genomes:q}/*.fa {input.mags:q}/*.fa > {output:q}.tmp 2>> {log:q}
+        skani triangle -t {threads} -E {input.genomes:q}/*.fa $(ls {input.substitutes:q}/*.fa 2>/dev/null) \
+          {input.mags:q}/*.fa > {output:q}.tmp 2>> {log:q}
         mv {output:q}.tmp {output:q}
         """
 
@@ -236,6 +265,8 @@ rule build_bacterial_catalog:
         staged=f"{P4}/references/staged.tsv",
         genomes=f"{P4}/references/genomes",
         ncbi=f"{P4}/references/ncbi_status.tsv",
+        substitutes=f"{P4}/references/substitutes.tsv",
+        substitute_genomes=f"{P4}/references/substitutes",
         checkm2=f"{P4}/references/checkm2_quality.tsv",
         oceandna=[f"{P4}/references/oceandna_gtdbtk.bac120.summary.tsv",
                   f"{P4}/references/oceandna_gtdbtk.ar53.summary.tsv"],
@@ -256,7 +287,7 @@ rule build_bacterial_catalog:
         """
         python {input.script:q} --config {input.config:q} --references {input.references:q} \
           --decoys {input.decoys:q} --staged {input.staged:q} --genomes {input.genomes:q} --ncbi {input.ncbi:q} \
-          --checkm2 {input.checkm2:q} --oceandna-gtdbtk {input.oceandna:q} --mag-catalog {input.mag_catalog:q} \
+          --substitutes {input.substitutes:q} --substitute-genomes {input.substitute_genomes:q} --checkm2 {input.checkm2:q} --oceandna-gtdbtk {input.oceandna:q} --mag-catalog {input.mag_catalog:q} \
           --mag-representatives {input.mags:q} --ani {input.ani:q} --manifest {output.manifest:q} \
           --fasta {output.fasta:q} > {log:q} 2>&1
         """

@@ -25,7 +25,8 @@
       "url": "https://ndownloader.figshare.com/files/35080240",
       "md5": "94b451405272b47a8d3b2376ae3487cf"
     },
-    "ncbi_status_check": "GTDB accessions must be current, unsuppressed NCBI assemblies"
+    "ncbi_status_check": "GTDB accessions must be current and unsuppressed in their own NCBI database; non-current records are replaced by a verified current substitute (identical record in the other database, or the latest version), otherwise excluded",
+    "substitute_min_ani_to_gtdb_genome": 99
   },
   "reference_qc": {
     "min_completeness": 50,
