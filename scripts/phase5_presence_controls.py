@@ -66,8 +66,17 @@ def expected_breadth(depth):
     return 1 - math.exp(-depth)
 
 
+READ_LENGTH = 150  # nominal paired-read length; trimmed reads are slightly shorter
+
+
 def metrics(record):
-    breadth, reads, depth = float(record["covered_fraction"]), int(record["read_count"]), float(record["mean_depth"])
+    """Breadth, reads, read-based depth, and observed/expected breadth.
+
+    Depth is derived from read count rather than CoverM's mean, which reports 0 for
+    targets whose reads pile onto a single conserved locus.
+    """
+    breadth, reads = float(record["covered_fraction"]), int(record["read_count"])
+    depth = reads * READ_LENGTH / int(record["length"]) if int(record["length"]) else 0.0
     expected = expected_breadth(depth)
     return breadth, reads, depth, (breadth / expected if expected > 0 else 0.0)
 
