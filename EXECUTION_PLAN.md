@@ -273,6 +273,13 @@ carry source-library and method provenance.
 
 ### Phase 4 — build frozen pooled catalogs
 
+**Status: v1 accepted (2026-09-28).** The bacterial/archaeal catalog has 457
+genomes (427 sylph-nominated references and 30 MAG species) plus 20 decoys.
+The viral catalogs have 319 associate vOTUs and 153 endogenous-candidate
+clusters. There are 6 CRISPR host links. Decisions and the NCBI-substitution
+amendment are in `docs/phase4_catalog_decisions.md`. Eukaryotic marker sets
+remain a separate gate.
+
 Construct catalogs without study-specific tiers:
 
 - nominate across all Phase-2 screens;

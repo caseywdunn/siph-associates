@@ -1,5 +1,30 @@
 # Run log
 
+## 2026-09-28 — Phase 4 catalogs v1 accepted
+
+- Rebuild controller `11421473` (commit `e9c483f`) completed 13/13 steps in
+  1h25m. `data/results/stages/phase4_catalog.done` reports PASS with 0
+  errors, and the `phase4_catalog`, `phase3_catalog`, and `phase3_assembly`
+  dry runs report nothing to do. Lint is clean.
+- Bacterial/archaeal catalog v1 (`data/results/phase4_catalog/v1/`):
+  - 457 genomes: 427 references and 30 MAG species, plus 20 decoys; with a
+    bwa index and `.fai`.
+  - Of the 471 nominated references, 50 clustered into better-scoring
+    same-species genomes and 2 were excluded by CheckM2 (GCA_030409975.1 at
+    49.8% completeness; OceanDNA-b35289 at 29.7%).
+  - 9 entries use MD5-verified NCBI substitutes: 7 identical GenBank records
+    for suppressed RefSeq entries and 2 newer versions. Examples:
+    *Vibrio cidicii*, *V. europaeus*, and two *Pseudomonas_E*.
+  - *P. atlantica* is `BAC00252`. *V. neptunius* and *V. tasmaniensis* are
+    represented by higher-scoring same-species genomes.
+- Viral catalogs v1: 319 associate vOTUs and 153 endogenous-candidate
+  clusters. CRISPR host links: 6.
+- Catalog v1 is frozen for Phase-5 mapping; any addition becomes v2 with a
+  complete remap.
+- Next: Phase 5 — map all 205 libraries against catalog v1 under identical
+  filters; lock the presence rule from MAG positives and decoy negatives
+  before interpreting presences.
+
 ## 2026-09-28 — Phase 4 catalog v1 built; NCBI exclusions under review
 
 - Controller `11418217` (commit `366db30`) completed 15/15 steps in 1h11m.

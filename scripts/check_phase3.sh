@@ -19,3 +19,4 @@ python3 tests/test_checkm2_result.py
 "$SNAKEMAKE" phase3_inputs -n --quiet --profile profiles/slurm --configfile config/config.yaml
 "$SNAKEMAKE" phase3_assembly -n --quiet --profile profiles/slurm --configfile config/config.yaml
 "$SNAKEMAKE" phase3_catalog -n --quiet --profile profiles/slurm --configfile config/config.yaml
+"$SNAKEMAKE" phase4_catalog -n --quiet --profile profiles/slurm --configfile config/config.yaml

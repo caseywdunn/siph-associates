@@ -254,6 +254,26 @@ snakemake phase3_catalog -n --profile profiles/slurm --configfile config/config.
 bash scripts/submit_workflow.sh phase3_catalog config/config.yaml
 ```
 
+## Phase 4 catalogs
+
+`workflow/rules/phase4_catalog.smk` freezes the version-v1 mapping catalogs
+under `config/phase4_catalog.json`, with reasoning in
+`docs/phase4_catalog_decisions.md`. The accepted Phase-2 nomination table is
+checked against its SHA-256 instead of being declared as an input, so the
+known trim-provenance mtime cascade cannot reopen the screens.
+
+| Output under `data/results/phase4_catalog/v1/` | Contents |
+|---|---|
+| `bacterial_catalog.fna` (+ bwa index, `.fai`) | Catalog genomes and decoys; contigs named `<catalog_id>\|<contig>` |
+| `bacterial_catalog.manifest.tsv` | Every nominated, MAG, and decoy genome, with status, substitute, taxonomy, CheckM2, evidence, and checksums |
+| `viral_associate.fna`, `viral_endogenous_candidate.fna` (+ manifests) | Frozen vOTU representatives with sequence checksums |
+| `crispr/host_links.tsv` | vOTU–host links from full-length spacer matches (≤1 mismatch) |
+
+```bash
+snakemake phase4_catalog -n --profile profiles/slurm --configfile config/config.yaml
+bash scripts/submit_workflow.sh phase4_catalog config/config.yaml
+```
+
 ## Environments and provenance
 
 Pinned portable definitions are under `envs/`, and the Yale profile activates
