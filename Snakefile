@@ -37,6 +37,7 @@ include: "workflow/rules/phase3.smk"
 include: "workflow/rules/phase3_cohort.smk"
 include: "workflow/rules/phase3_assembly.smk"
 include: "workflow/rules/phase3_catalog.smk"
+include: "workflow/rules/phase4_catalog.smk"
 
 
 rule all:

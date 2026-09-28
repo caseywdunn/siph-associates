@@ -8,7 +8,9 @@
     "include_all_sylph_genomes": true,
     "sylph_min_adjusted_ani": 95,
     "evidence_bracken_genus_min_reads": 10,
-    "evidence_phyloflash_genus_min_reads": 1
+    "evidence_phyloflash_genus_min_reads": 1,
+    "source_sha256": "d7be19644f67e0666e21fa4078df6675675e3879a0df4db92bb4f37045a06c19",
+    "source_note": "accepted Phase-2 output; verified by checksum rather than declared as a rule input, so the known trim-provenance mtime cascade cannot reopen the screens"
   },
   "references": {
     "gtdb_release": "r220",
@@ -28,7 +30,10 @@
   "reference_qc": {
     "min_completeness": 50,
     "max_contamination_exclusive": 10,
-    "oceandna_require_gtdbtk_domains": ["Bacteria", "Archaea"]
+    "oceandna_require_gtdbtk_domains": [
+      "Bacteria",
+      "Archaea"
+    ]
   },
   "dereplication": {
     "ani_min": 95,
@@ -62,27 +67,71 @@
   },
   "presence_rule": {
     "status": "to be locked from control mapping before interpretation",
-    "starting_rule": {"min_breadth_percent": 10, "min_identity_percent": 95, "min_mapq": 30, "proper_pairs": true},
-    "controls": ["each MAG in its source library (positive)", "decoy genomes across all libraries (negative)"]
+    "starting_rule": {
+      "min_breadth_percent": 10,
+      "min_identity_percent": 95,
+      "min_mapq": 30,
+      "proper_pairs": true
+    },
+    "controls": [
+      "each MAG in its source library (positive)",
+      "decoy genomes across all libraries (negative)"
+    ]
   },
   "tool_prefixes": {
     "checkm2": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/checkm2_env",
     "gtdbtk": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/gtdbtk_r220_env",
     "skani": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/assembly_env",
     "bwa": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/assembly_env",
-    "votu": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/votu_env"
+    "votu": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/votu_env",
+    "crispr": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/crispr_env"
   },
   "databases": {
     "checkm2": "/gpfs/ycga/work/dunn/cwd7/databases/checkm2_db/CheckM2_database/uniref100.KO.1.dmnd",
     "gtdbtk": "/gpfs/ycga/work/dunn/cwd7/databases/gtdbtk_r220/release220"
   },
   "resources": {
-    "checkm2": {"threads": 16, "mem_mb": 64000, "runtime": 480, "partition": "day"},
-    "gtdbtk": {"threads": 16, "mem_mb": 150000, "runtime": 720, "partition": "day"},
-    "skani": {"threads": 16, "mem_mb": 32000, "runtime": 120, "partition": "day"},
-    "index": {"threads": 8, "mem_mb": 32000, "runtime": 360, "partition": "day"},
-    "crispr": {"threads": 8, "mem_mb": 16000, "runtime": 240, "partition": "day"},
-    "download": {"threads": 1, "mem_mb": 4000, "runtime": 360, "partition": "day"},
-    "summary": {"threads": 1, "mem_mb": 16000, "runtime": 120, "partition": "day"}
+    "checkm2": {
+      "threads": 16,
+      "mem_mb": 64000,
+      "runtime": 480,
+      "partition": "day"
+    },
+    "gtdbtk": {
+      "threads": 16,
+      "mem_mb": 150000,
+      "runtime": 720,
+      "partition": "day"
+    },
+    "skani": {
+      "threads": 16,
+      "mem_mb": 32000,
+      "runtime": 120,
+      "partition": "day"
+    },
+    "index": {
+      "threads": 8,
+      "mem_mb": 32000,
+      "runtime": 360,
+      "partition": "day"
+    },
+    "crispr": {
+      "threads": 8,
+      "mem_mb": 16000,
+      "runtime": 240,
+      "partition": "day"
+    },
+    "download": {
+      "threads": 1,
+      "mem_mb": 4000,
+      "runtime": 360,
+      "partition": "day"
+    },
+    "summary": {
+      "threads": 1,
+      "mem_mb": 16000,
+      "runtime": 120,
+      "partition": "day"
+    }
   }
 }

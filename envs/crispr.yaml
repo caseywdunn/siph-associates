@@ -1,0 +1,6 @@
+name: siph-associates-crispr
+channels: [conda-forge, bioconda]
+dependencies:
+  - minced=0.4.2
+  - blast=2.16.0
+  - openjdk=17  # MinCED is a Java program
