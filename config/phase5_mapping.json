@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "approved": "2026-09-28",
+  "catalog_version": "v1",
+  "read_source": {
+    "reference_bearing": "Phase-3 host-depleted cohort inputs (all trimmed pairs minus host)",
+    "reference_free": "full capped trimmed reads regenerated with the locked Phase-2 fastp settings and cap, deleted after mapping"
+  },
+  "mapping": {
+    "bwa_min_score": 60,
+    "min_mapq": 30,
+    "exclude_flags": "0x904",
+    "require_proper_pair": true,
+    "remove_duplicates": true
+  },
+  "coverage": {
+    "min_read_percent_identity": 95,
+    "min_read_aligned_percent": 75,
+    "separator": "|",
+    "methods": [
+      "covered_fraction",
+      "count",
+      "mean",
+      "trimmed_mean",
+      "covered_bases",
+      "length"
+    ]
+  },
+  "tool_prefixes": {
+    "mapping": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/assembly_env"
+  },
+  "resources": {
+    "trim": {
+      "threads": 8,
+      "mem_mb": 48000,
+      "runtime": 720,
+      "partition": "day"
+    },
+    "mapping_small": {
+      "threads": 16,
+      "mem_mb": 32000,
+      "runtime": 360,
+      "partition": "day"
+    },
+    "mapping_large": {
+      "threads": 16,
+      "mem_mb": 32000,
+      "runtime": 2880,
+      "partition": "week"
+    },
+    "index": {
+      "threads": 4,
+      "mem_mb": 16000,
+      "runtime": 120,
+      "partition": "day"
+    },
+    "summary": {
+      "threads": 1,
+      "mem_mb": 32000,
+      "runtime": 120,
+      "partition": "day"
+    }
+  },
+  "large_input_pairs": 20000000
+}

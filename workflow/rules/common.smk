@@ -160,6 +160,37 @@ def phase4_resources(name):
     return {key: PHASE4_CATALOG["resources"][name][key] for key in ("mem_mb", "runtime", "partition")}
 
 
+PHASE5_CONFIG_PATH = ROOT / "config" / "phase5_mapping.json"
+with PHASE5_CONFIG_PATH.open() as handle:
+    PHASE5 = json.load(handle)
+
+
+def phase5_resources(name):
+    return {key: PHASE5["resources"][name][key] for key in ("mem_mb", "runtime", "partition")}
+
+
+def phase5_reads(wildcards, mate):
+    """Host-depleted cohort input where a host reference exists; regenerated trimmed reads otherwise."""
+    if SAMPLES[wildcards.sample]["host_route"] == "none":
+        return f"{WORK}/phase5_mapping/trimmed/{wildcards.sample}_R{mate}.fastq.gz"
+    return f"{WORK}/phase3_cohort/inputs/{wildcards.sample}_R{mate}.fastq.gz"
+
+
+def phase5_mapping_resource(key):
+    def resource(wildcards):
+        size = "large" if SAMPLES[wildcards.sample]["host_route"] == "none" else "small"
+        return PHASE5["resources"][f"mapping_{size}"][key]
+    return resource
+
+
+def phase5_scope_samples(wildcards):
+    if wildcards.scope == "pilot":
+        return PILOT_IDS
+    if wildcards.scope == "cohort":
+        return SAMPLE_IDS
+    raise WorkflowError(f"unknown Phase-5 scope: {wildcards.scope}")
+
+
 PILOT_IDS = list(config.get("phase2_pilot_samples", []))
 if len(PILOT_IDS) != len(set(PILOT_IDS)):
     raise WorkflowError("phase2 pilot sample IDs are duplicated")
@@ -193,6 +224,8 @@ _target_paths = {
     "phase3_assembly": f"{WORK}/stages/phase3_assembly.done",
     "phase3_catalog": f"{WORK}/stages/phase3_catalog.done",
     "phase4_catalog": f"{WORK}/stages/phase4_catalog.done",
+    "phase5_pilot": f"{WORK}/stages/phase5_mapping_pilot.done",
+    "phase5_mapping": f"{WORK}/stages/phase5_mapping_cohort.done",
 }
 if _target not in _target_paths:
     raise WorkflowError(f"unknown default_target: {_target}")
