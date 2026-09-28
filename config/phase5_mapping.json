@@ -44,9 +44,9 @@
     },
     "mapping_large": {
       "threads": 16,
-      "mem_mb": 32000,
-      "runtime": 2880,
-      "partition": "week"
+      "mem_mb": 24000,
+      "runtime": 720,
+      "partition": "day"
     },
     "index": {
       "threads": 4,

@@ -1,5 +1,30 @@
 # Run log
 
+## 2026-09-28 — Phase 5 pilot accepted; cohort mapping launched
+
+- Hybrid read source approved by Casey Dunn: Phase-3 host-depleted reads for
+  the 161 reference-bearing libraries, and full capped trimmed reads
+  regenerated for the 44 reference-free libraries.
+- Pilot controller `11433785` (commit `d341f97`, 8 Phase-2 pilot libraries
+  across all three routes) completed 40/40 steps in about 3.5 h. The
+  `phase5_mapping_pilot.done` sentinel reports PASS: complete matrices of 477
+  bacterial and 472 viral targets, and 0 errors. For all 4 reference-free
+  libraries, the regenerated pair counts equal the Phase-2 post-fastp counts
+  exactly.
+- Cost: bacterial bwa takes about 2 h and 9.4 GB for about 193 M pairs;
+  viral 51--69 min. Host-depleted libraries take seconds to minutes. Large
+  mapping jobs moved to `day` / 12 h / 24 GB; the resource change is
+  scheduler-only.
+- Early control behaviour: decoys recruit up to 9,544 reads but reach at most
+  0.24% breadth (conserved-locus pile-ups). In reference-free libraries,
+  about 18% of reads pass the MAPQ and proper-pair filters but only about
+  0.1% pass CoverM's ≥95% identity; the rest are low-identity host
+  alignments. The pile-up pattern (for example 1.14 M reads on one 6.9 kb
+  *Photobacterium* contig, breadth 0.04%) is what the breadth criterion must
+  reject.
+- To examine when the rule is locked: CoverM reports mean depth 0 for
+  targets with pile-ups, so the breadth-ratio metric must be checked.
+
 ## 2026-09-28 — Phase 4 catalogs v1 accepted
 
 - Rebuild controller `11421473` (commit `e9c483f`) completed 13/13 steps in
