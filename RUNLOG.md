@@ -1,5 +1,31 @@
 # Run log
 
+## 2026-09-28 — Phase 4 catalog v1 built; NCBI exclusions under review
+
+- Controller `11418217` (commit `366db30`) completed 15/15 steps in 1h11m.
+  `data/results/stages/phase4_catalog.done` reports PASS with 0 errors.
+- Nominated: 471 genomes. Staged: 531 (with 60 decoy candidates). The
+  OceanDNA archive MD5 was verified, and all 393 GTDB accessions were found
+  in NCBI Assembly.
+- Bacterial catalog v1: 441 genomes (1.62 Gbp): 301 GTDB references, 110
+  OceanDNA references, and 30 MAG species. The other 8 MAG species were
+  absorbed into higher-scoring references. Also 20 decoys (one candidate
+  replaced after an NCBI status failure). There is a bwa index. Top phyla:
+  Pseudomonadota 289, Bacteroidota 72, Planctomycetota 13, Cyanobacteriota 12.
+- References clustered: 36. References excluded: 24 (22 by the NCBI status
+  rule, 1 GTDB and 1 OceanDNA by CheckM2).
+- Viral catalogs v1: 319 associate vOTUs and 153 endogenous-candidate
+  clusters, with sequence checksums.
+- CRISPR spacers: 7 full-length matches with ≤1 mismatch link 6 vOTUs to
+  hosts (3 to *Photobacterium angustum*, 2 to a DT-91 Pseudomonadales genus,
+  1 to GCF-002020875). Links are sparse, as anticipated.
+- Under review, before any mapping: the NCBI rule excluded 13 GTDB
+  representatives only because a newer version of the same assembly exists.
+  These include *Pseudoalteromonas atlantica* (9 libraries, 99.3% ANI). It
+  also excluded 9 RefSeq-suppressed records (*Vibrio neptunius* and
+  *V. tasmaniensis*, 3 libraries each). Catalog v1 must not be used for
+  mapping until this is decided.
+
 ## 2026-09-27 — Phase 4 catalog decisions locked
 
 - Casey Dunn approved the Phase-4 catalog design after reviewing the Phase-2
