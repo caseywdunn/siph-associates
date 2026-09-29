@@ -89,7 +89,8 @@ Before full mapping, lock a bacterial presence rule from pilot positives,
 negative/decoy references, and mapping nulls. A reasonable starting rule to
 evaluate is >=10% genome breadth with reads filtered at >=95% aligned identity,
 MAPQ >=30, proper pairs, and a minimum pair count; report breadth continuously
-and run threshold sensitivity analyses. Do not confuse CoverM's per-read
+and run threshold sensitivity analyses (locked 2026-09-29 at ≥10% breadth and ≥100 reads;
+see `docs/phase5_presence_decisions.md`). Do not confuse CoverM's per-read
 `--min-covered-percent 75` with 75% genome breadth.
 
 ### D0.3 Reference-free assembly strategy
@@ -296,6 +297,11 @@ Acceptance: catalog validation passes, every sequence is attributable, and
 positive/negative/decoy mapping tests support the chosen presence rules.
 
 ### Phase 5 — uniform validation and quantification
+
+**Status: accepted (2026-09-29).** All 205 libraries were mapped against
+catalog v1. Presence rules were locked from controls: bacteria validated at
+≥10% breadth and ≥100 reads (38/38 MAG positives, 0/4,100 decoy pairs);
+viruses present at ≥75% breadth. See `docs/phase5_presence_decisions.md`.
 
 Map every library against each applicable frozen catalog using identical
 filters. Produce long-form tables of breadth, read pairs, aligned identity,

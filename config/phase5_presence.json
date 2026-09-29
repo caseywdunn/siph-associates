@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "decision_record": "docs/phase5_presence_decisions.md",
+  "approved": "2026-09-29",
+  "catalog_version": "v1",
+  "mapping_filters": "config/phase5_mapping.json (bwa -M -T60; MAPQ >= 30; primary proper pairs; duplicates removed; >= 95% read identity over >= 75% of each read)",
+  "bacteria": {
+    "validated": {"min_breadth": 0.10, "min_reads": 100},
+    "trace": {"min_breadth": 0.01},
+    "divergent_strain_annotation": {
+      "metric": "breadth / (1 - exp(-reads * 150 / genome_length))",
+      "flag_below": 0.5,
+      "is_filter": false
+    },
+    "sensitivity_breadths": [0.05, 0.20]
+  },
+  "viruses": {
+    "present": {"min_breadth": 0.75},
+    "partial": {"min_breadth": 0.10}
+  }
+}

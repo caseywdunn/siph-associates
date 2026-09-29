@@ -1,5 +1,36 @@
 # Run log
 
+## 2026-09-29 — Phase 5 cohort mapping accepted; presence rules locked
+
+- Cohort controller `11440221` (commit `e110aa8`) completed 831/831 steps in
+  about 15 h. `data/results/stages/phase5_mapping_cohort.done` reports PASS
+  for 205 libraries, with complete matrices of 477 bacterial and 472 viral
+  targets and 0 errors.
+- For all 44 reference-free libraries, the regenerated trimmed pairs equal
+  the Phase-2 post-fastp counts exactly. Temporary trimmed reads were
+  removed, and the filtered BAMs total 142 GB.
+- Throughput was limited by one-at-a-time capped subsampling for the 13
+  reference-free libraries with more than 200 M pairs (`cap_slots=1`),
+  which set the last about 5 h.
+- Presence rules approved by Casey Dunn (`docs/phase5_presence_decisions.md`,
+  `config/phase5_presence.json`; tables from
+  `python3 scripts/phase5_presence_controls.py`):
+  - **Bacteria.** Validated at ≥10% breadth and ≥100 reads; trace at 1–10%.
+    38/38 MAG positives pass in their source libraries (breadth ≥41.9%), and
+    0/4,100 decoy–library pairs pass at any threshold from 5% to 20% (maximum
+    decoy breadth 2.2%). This gives 795 validated pairs (193 genomes, 161
+    libraries) and 1,433 trace pairs.
+  - **Divergent-strain annotation.** Breadth ratio below 0.5 (254 calls,
+    mostly Mycoplasmatales MAG species outside their source library);
+    reported, not filtered.
+  - **Viruses.** Present at ≥75% breadth; partial at 10–75%. 300/319
+    associate vOTUs pass in their source library, and 18 of the 19 failures
+    share near-identical regions with another vOTU (MAPQ loss). This gives
+    530 present and 880 partial vOTU–library pairs.
+- Next: Phase 6 — evidence grades (including probable contaminants from
+  breadth-by-batch patterns), statistics, and 5% / 20% sensitivity analyses.
+  The eukaryotic parasite/prey gate remains open.
+
 ## 2026-09-28 — Phase 5 pilot accepted; cohort mapping launched
 
 - Hybrid read source approved by Casey Dunn: Phase-3 host-depleted reads for

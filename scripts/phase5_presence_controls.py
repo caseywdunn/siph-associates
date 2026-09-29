@@ -100,3 +100,39 @@ for min_breadth in (0.01, 0.05, 0.10, 0.20, 0.50):
                          f"{fp}/{len(negatives)}", len({s for s, _, r in negatives if passes(r)})])
 write("rule_grid.tsv", ["min_breadth", "min_reads", "min_breadth_ratio", "positives_passing",
                         "decoy_library_pairs_passing", "libraries_with_decoy_pass"], grid)
+
+# Breadth-ratio distribution among candidate calls (>= 10% breadth), by catalog role.
+calls = [(r, metrics(r)) for (s, t), r in coverage.items() if r["role"] != "decoy" and metrics(r)[0] >= 0.10]
+ratio_rows = []
+for low in [i / 10 for i in range(10)]:
+    group = [(r, m) for r, m in calls if low <= m[3] < low + 0.1 or (low == 0.9 and m[3] >= 1)]
+    ratio_rows.append([f"{low:.1f}-{low + 0.1:.1f}", len(group), sum(r["role"] == "mag" for r, _ in group)])
+write("breadth_ratio_calls.tsv", ["breadth_ratio", "calls", "mag_calls"], ratio_rows)
+bands = [(0, 1e-12, "0"), (1e-12, 0.01, "<1%"), (0.01, 0.05, "1-5%"), (0.05, 0.10, "5-10%"),
+         (0.10, 0.20, "10-20%"), (0.20, 0.50, "20-50%"), (0.50, 1.01, ">=50%")]
+real = [metrics(r)[0] for r in coverage.values() if r["role"] != "decoy"]
+write("bacterial_breadth_bands.tsv", ["breadth", "genome_library_pairs"],
+      [[label, sum((b == 0) if label == "0" else (lo <= b < hi) for b in real)] for lo, hi, label in bands])
+
+# Viruses: each associate vOTU in the library its representative came from.
+viral = {(r["sample_id"], r["target_id"]): r for r in rows(RESULTS / "phase5_mapping" / args.scope /
+                                                           "viral_coverage.tsv")}
+votus = rows(RESULTS / "phase4_catalog" / "v1" / "viral_associate.manifest.tsv")
+reps = {v["representative_contig"]: v["votu_id"] for v in votus}
+shared = {}
+for r in rows(RESULTS / "phase3_catalog" / "votus" / "associate.ani.tsv"):
+    if r["qname"] != r["tname"] and r["qname"] in reps and r["tname"] in reps and float(r["pid"]) >= 95:
+        shared[r["qname"]] = max(shared.get(r["qname"], 0.0), float(r["qcov"]))
+source_rows = []
+for v in votus:
+    library = "__".join(v["representative_contig"].split("__")[:2])
+    record = viral.get((library, v["votu_id"]))
+    if record:
+        source_rows.append([v["votu_id"], library, float(record["covered_fraction"]), record["read_count"],
+                            round(shared.get(v["representative_contig"], 0.0), 1)])
+write("viral_source_breadth.tsv", ["votu_id", "source_library", "breadth", "reads",
+                                   "max_percent_shared_with_other_votu"],
+      [r for r in sorted(source_rows, key=lambda r: r[2]) if r[2] < 0.75])
+passing = sum(r[2] >= 0.75 for r in source_rows)
+write("viral_source_summary.tsv", ["votus_in_scope", "source_breadth_ge_75", "below_75_sharing_ge_30pct"],
+      [[len(source_rows), passing, sum(r[2] < 0.75 and r[4] >= 30 for r in source_rows)]])
