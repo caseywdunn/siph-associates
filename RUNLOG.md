@@ -1,5 +1,23 @@
 # Run log
 
+## 2026-09-29 — Phase 6 analysis plan pre-specified
+
+- Casey Dunn approved the Phase-6 analysis plan before any presence result was
+  summarized by host, region, study, or batch (`docs/phase6_analysis_plan.md`,
+  `config/phase6_analysis.json`).
+- Evidence grades: nominated, trace, validated, and high confidence
+  (validated plus a same-library MAG, or ≥10 kb of same-library contigs at
+  ≥95% identity), plus a genome-level probable-contaminant flag. The flag
+  uses a flowcell-concentration permutation within host species × ocean
+  region, at BH FDR <0.05. Genus identity is an annotation only.
+- Primary analyses: incidence; *Physalia* logistic mixed models, fitted only
+  where region is identifiable apart from flowcell, and a within-flowcell
+  PERMANOVA; *Nanomia* descriptive; skim descriptive; CRISPR-supported phage
+  links only.
+- Sensitivity analyses: 5% and 20% breadth; host handling (10 libraries);
+  capping (8 libraries); leave-one-study-out without remapping.
+- New pinned environment: `envs/stats.yaml` (R 4.4.3, lme4 2.0.6, vegan 2.7.5).
+
 ## 2026-09-29 — Phase 5 cohort mapping accepted; presence rules locked
 
 - Cohort controller `11440221` (commit `e110aa8`) completed 831/831 steps in

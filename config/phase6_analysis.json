@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "analysis_plan": "docs/phase6_analysis_plan.md",
+  "approved": "2026-09-29",
+  "presence_rules": "config/phase5_presence.json",
+  "evidence_grades": {
+    "high_confidence_assembly_support": {
+      "min_aligned_bases": 10000,
+      "min_identity_percent": 95,
+      "aligner": "minimap2 -x asm5"
+    }
+  },
+  "contamination_test": {
+    "min_validated_presences": 3,
+    "permutations": 10000,
+    "strata": ["host_species", "ocean_region"],
+    "statistic": "flowcell concentration: sum over flowcells of (presences on flowcell)^2 / total presences",
+    "fdr": 0.05,
+    "min_flowcells_in_stratum": 2,
+    "seed": 20260929,
+    "identity_annotation_genera": ["Cutibacterium", "Lawsonella", "Bradyrhizobium", "Mesorhizobium",
+                                   "Pelomonas", "Ralstonia", "Staphylococcus", "Corynebacterium",
+                                   "Streptococcus", "Acinetobacter", "Methylobacterium", "Sphingomonas",
+                                   "Delftia", "Micrococcus"]
+  },
+  "physalia_models": {
+    "min_presences": 10,
+    "model": "presence ~ log10(input_pairs) + ocean_region + (1 | flowcell)",
+    "region_test": "likelihood ratio versus model without ocean_region",
+    "fdr": 0.05,
+    "fit_only_if_region_identifiable": "at least 2 regions each represented on at least 2 flowcells, and flowcells spanning regions",
+    "community": "Jaccard PERMANOVA on validated presence, ~ log10(input_pairs) + ocean_region, permutations restricted within flowcell",
+    "permutations": 9999
+  },
+  "sensitivity": {
+    "presence_breadths": [0.05, 0.20],
+    "host_handling_subset": {"P_physalis": 5, "N_septata": 5, "seed": 20260930,
+                              "selection": "seeded draw across input-depth quintiles among assembly-eligible libraries"},
+    "capping_subset": {"libraries": 8, "seed": 20261001,
+                       "selection": "seeded draw among libraries above the 200 M-pair cap, spanning host routes"},
+    "leave_one_study_out": "count presences whose catalog genome was nominated only by a single study's libraries; no remapping"
+  },
+  "software": {
+    "stats_env": "envs/stats.yaml"
+  }
+}
