@@ -191,6 +191,30 @@ def phase5_scope_samples(wildcards):
     raise WorkflowError(f"unknown Phase-5 scope: {wildcards.scope}")
 
 
+PHASE6_CONFIG_PATH = ROOT / "config" / "phase6_analysis.json"
+with PHASE6_CONFIG_PATH.open() as handle:
+    PHASE6 = json.load(handle)
+with (ROOT / "config" / "phase6_subsets.tsv").open(newline="") as handle:
+    PHASE6_SUBSETS = list(csv.DictReader(handle, delimiter="\t"))
+PHASE6_SENSITIVITY = sorted({(variant, row["sample_id"]) for row in PHASE6_SUBSETS
+                             for variant in row["variants"].split(";")})
+
+
+def phase6_sensitivity_reads(wildcards, mate):
+    """Capped full trimmed reads (shared with Phase 5 trimming) or uncapped trimmed reads."""
+    if wildcards.variant == "full_reads":
+        return f"{WORK}/phase5_mapping/trimmed/{wildcards.sample}_R{mate}.fastq.gz"
+    return f"{WORK}/phase6_analysis/trimmed_uncapped/{wildcards.sample}_R{mate}.fastq.gz"
+
+
+def phase6_index(wildcards):
+    if wildcards.kind == "bacterial":
+        base = f"{WORK}/phase4_catalog/{PHASE5['catalog_version']}/bacterial_catalog.fna"
+    else:
+        base = f"{WORK}/phase5_mapping/{PHASE5['catalog_version']}/viral_catalog.fna"
+    return [base + suffix for suffix in (".amb", ".ann", ".bwt", ".pac", ".sa")]
+
+
 PILOT_IDS = list(config.get("phase2_pilot_samples", []))
 if len(PILOT_IDS) != len(set(PILOT_IDS)):
     raise WorkflowError("phase2 pilot sample IDs are duplicated")
@@ -226,6 +250,7 @@ _target_paths = {
     "phase4_catalog": f"{WORK}/stages/phase4_catalog.done",
     "phase5_pilot": f"{WORK}/stages/phase5_mapping_pilot.done",
     "phase5_mapping": f"{WORK}/stages/phase5_mapping_cohort.done",
+    "phase6_analysis": f"{WORK}/stages/phase6_analysis.done",
 }
 if _target not in _target_paths:
     raise WorkflowError(f"unknown default_target: {_target}")

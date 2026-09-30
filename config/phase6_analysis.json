@@ -13,15 +13,30 @@
   "contamination_test": {
     "min_validated_presences": 3,
     "permutations": 10000,
-    "strata": ["host_species", "ocean_region"],
+    "strata": [
+      "host_species",
+      "ocean_region"
+    ],
     "statistic": "flowcell concentration: sum over flowcells of (presences on flowcell)^2 / total presences",
     "fdr": 0.05,
     "min_flowcells_in_stratum": 2,
     "seed": 20260929,
-    "identity_annotation_genera": ["Cutibacterium", "Lawsonella", "Bradyrhizobium", "Mesorhizobium",
-                                   "Pelomonas", "Ralstonia", "Staphylococcus", "Corynebacterium",
-                                   "Streptococcus", "Acinetobacter", "Methylobacterium", "Sphingomonas",
-                                   "Delftia", "Micrococcus"]
+    "identity_annotation_genera": [
+      "Cutibacterium",
+      "Lawsonella",
+      "Bradyrhizobium",
+      "Mesorhizobium",
+      "Pelomonas",
+      "Ralstonia",
+      "Staphylococcus",
+      "Corynebacterium",
+      "Streptococcus",
+      "Acinetobacter",
+      "Methylobacterium",
+      "Sphingomonas",
+      "Delftia",
+      "Micrococcus"
+    ]
   },
   "physalia_models": {
     "min_presences": 10,
@@ -33,14 +48,25 @@
     "permutations": 9999
   },
   "sensitivity": {
-    "presence_breadths": [0.05, 0.20],
-    "host_handling_subset": {"P_physalis": 5, "N_septata": 5, "seed": 20260930,
-                              "selection": "seeded draw across input-depth quintiles among assembly-eligible libraries"},
-    "capping_subset": {"libraries": 8, "seed": 20261001,
-                       "selection": "seeded draw among libraries above the 200 M-pair cap, spanning host routes"},
+    "presence_breadths": [
+      0.05,
+      0.2
+    ],
+    "host_handling_subset": {
+      "P_physalis": 5,
+      "N_septata": 5,
+      "seed": 20260930,
+      "selection": "seeded draw across input-depth quintiles among assembly-eligible libraries"
+    },
+    "capping_subset": {
+      "libraries": 8,
+      "seed": 20261001,
+      "selection": "seeded draw among libraries above the 200 M-pair cap, spanning host routes"
+    },
     "leave_one_study_out": "count presences whose catalog genome was nominated only by a single study's libraries; no remapping"
   },
   "software": {
-    "stats_env": "envs/stats.yaml"
+    "stats_env": "envs/stats.yaml",
+    "stats_prefix": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/stats_env"
   }
 }

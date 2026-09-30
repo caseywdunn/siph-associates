@@ -39,6 +39,7 @@ include: "workflow/rules/phase3_assembly.smk"
 include: "workflow/rules/phase3_catalog.smk"
 include: "workflow/rules/phase4_catalog.smk"
 include: "workflow/rules/phase5_mapping.smk"
+include: "workflow/rules/phase6_analysis.smk"
 
 
 rule all:
