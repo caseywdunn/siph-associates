@@ -14,6 +14,7 @@ import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from xml.etree import ElementTree
 
 URL = "https://blast.ncbi.nlm.nih.gov/Blast.cgi"
 parser = argparse.ArgumentParser()
@@ -54,31 +55,33 @@ for start in range(0, len(names), args.batch):
     batch = names[start:start + args.batch]
     query = "".join(f">{local[n]}\n{''.join(records[n])}\n" for n in batch)
     reply = request({"CMD": "Put", "PROGRAM": "blastn", "DATABASE": "core_nt", "QUERY": query,
-                     "HITLIST_SIZE": 5, "FORMAT_TYPE": "Tabular"}, data=True)
+                     "HITLIST_SIZE": 5}, data=True)
     rid = re.search(r"RID = (\S+)", reply).group(1)
     time.sleep(30)
     while "Status=WAITING" in request({"CMD": "Get", "FORMAT_OBJECT": "SearchInfo", "RID": rid}):
         time.sleep(60)
-    text = request({"CMD": "Get", "RID": rid, "FORMAT_TYPE": "Tabular", "ALIGNMENTS": 5, "DESCRIPTIONS": 5,
-                    "ALIGNMENT_VIEW": "Tabular", "FORMAT_OBJECT": "Alignment"})
-    database = re.search(r"# Database: (.+)", text)
-    seen = {}
-    for line in text.splitlines():
-        if line.startswith("#") or "\t" not in line:
-            continue
-        f = line.split("\t")
-        query_id = alias.get(f[0], f[0])
-        rank = seen[query_id] = seen.get(query_id, 0) + 1
-        if rank <= 3:
-            rows.append({"sequence_id": query_id, "rank": rank, "subject": f[1], "identity": f[2],
-                         "alignment_length": f[3], "evalue": f[10], "bitscore": f[11].strip(),
-                         "database": database.group(1).strip() if database else "core_nt",
+    # BLAST XML is the machine-readable format this API returns reliably (Tabular comes back empty).
+    root = ElementTree.fromstring(request({"CMD": "Get", "RID": rid, "FORMAT_TYPE": "XML"}))
+    database = root.findtext("BlastOutput_db") or "core_nt"
+    seen = set()
+    for iteration in root.iter("Iteration"):
+        query_id = alias.get(iteration.findtext("Iteration_query-def", "").split()[0], "")
+        for rank, hit in enumerate(iteration.iter("Hit"), start=1):
+            if rank > 3:
+                break
+            hsp = hit.find("Hit_hsps/Hsp")
+            length = int(hsp.findtext("Hsp_align-len"))
+            rows.append({"sequence_id": query_id, "rank": rank, "subject": hit.findtext("Hit_accession"),
+                         "title": hit.findtext("Hit_def"),
+                         "identity": round(100 * int(hsp.findtext("Hsp_identity")) / length, 2),
+                         "alignment_length": length, "evalue": hsp.findtext("Hsp_evalue"),
+                         "bitscore": hsp.findtext("Hsp_bit-score"), "database": database,
                          "query_date": datetime.date.today().isoformat(), "rid": rid})
+            seen.add(query_id)
     for n in batch:
         if n not in seen:
-            rows.append({"sequence_id": n, "rank": 0, "subject": "no significant hit", "identity": "",
-                         "alignment_length": "", "evalue": "", "bitscore": "",
-                         "database": database.group(1).strip() if database else "core_nt",
+            rows.append({"sequence_id": n, "rank": 0, "subject": "no significant hit", "title": "", "identity": "",
+                         "alignment_length": "", "evalue": "", "bitscore": "", "database": database,
                          "query_date": datetime.date.today().isoformat(), "rid": rid})
     print(f"batch {start // args.batch + 1}: {len(batch)} sequences, RID {rid}", flush=True)
 
@@ -92,10 +95,12 @@ for start in range(0, len(accessions), 100):
     result = json.loads(reply.read().decode())["result"]
     for uid in result.get("uids", []):
         entry = result[uid]
-        summaries[entry.get("accessionversion", "")] = (entry.get("title", ""), entry.get("organism", ""))
+        for key in (entry.get("accessionversion", ""), entry.get("caption", "")):
+            summaries[key] = (entry.get("title", ""), entry.get("organism", ""))
     time.sleep(0.4)
 for r in rows:
-    r["title"], r["organism"] = summaries.get(r["subject"], ("", ""))
+    r["organism"] = summaries.get(r["subject"], ("", ""))[1]
+    r["title"] = r["title"] or summaries.get(r["subject"], ("", ""))[0]
 
 fields = ["sequence_id", "rank", "subject", "organism", "title", "identity", "alignment_length", "evalue",
           "bitscore", "database", "query_date", "rid"]
