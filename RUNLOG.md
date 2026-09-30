@@ -1,5 +1,44 @@
 # Run log
 
+## 2026-09-30 — Phase 6 analyses complete
+
+- Controller `11493188` (commit `31f8fef`) ran 308/308 steps; the approved
+  deviation rerun `11517657` (commit `e4b32d3`) ran 7/7.
+  `data/results/stages/phase6_analysis.done` reports PASS with 0 errors.
+  Outputs are in `data/results/phase6_analysis/`.
+- Evidence grades, bacteria: reference-bearing 516 high confidence, 203
+  validated, 1,264 trace; reference-free 20 high confidence, 56 validated,
+  169 trace. Viruses: reference-bearing 282 high confidence, 469 validated,
+  1,378 partial; reference-free 282, 208, and 609. The route bias in high
+  confidence is technical (reference-free assemblies used a 25 M-pair
+  subsample).
+- Contamination test: 53 genomes tested (all testable), 2 flagged as
+  probable contaminants: BAC00377 (q = 0.011, 2 flowcells) and BAC00369
+  (q = 0.021, 5 flowcells), both novel MAG genera. *Cutibacterium acnes* is
+  not flagged (q = 0.12): evenly spread handling contamination is the stated
+  no-blank limitation, and it keeps its identity annotation.
+- *Physalia* (141 libraries with region): PERMANOVA with permutations within
+  flowcell gives ocean region R² = 0.198 (p = 1e-4) and log depth
+  R² = 0.042 (p = 1e-4). All 12 pre-specified per-taxon mixed models failed
+  under separation. Under the approved deviation (within-flowcell permutation
+  of the deviance gain from region), 8/12 taxa are region-associated at
+  q < 0.05, 6 of them novel Mycoplasmatales genera.
+- Sensitivity:
+  - C1: 1,105 / 795 / 552 presences at 5% / 10% / 20% breadth, with stable
+    study shares.
+  - C2 host handling: bacteria 0 lost and 3 gained with full reads; all 31
+    extra viral calls are endogenous candidates, and associate vOTUs agree
+    fully.
+  - C3 capping: uncapped reads add 16 bacterial presences in the two deepest
+    libraries (YPM-IZ-111839 +13, NA38 +3) and lose none; viruses change
+    by +1.
+  - C4: Church-only genomes support 22% of presences, with 1 outside Church;
+    Ahuja-only genomes support about 2% each; no full remap is triggered.
+    62% of presences are on MAG genomes.
+- CRISPR phage–host links: 6, each co-present in 1–2 libraries.
+- Next: publication figures generated from these tables, then the eukaryotic
+  parasite/prey gate and the Phase-7 reproducibility audit.
+
 ## 2026-09-29 — Phase 6 analysis plan pre-specified
 
 - Casey Dunn approved the Phase-6 analysis plan before any presence result was

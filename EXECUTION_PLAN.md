@@ -315,6 +315,11 @@ are treated as hypotheses that may be confirmed or overturned.
 
 ### Phase 6 — statistical analysis and robustness
 
+**Status: analyses complete (2026-09-30).** The pre-specified plan is in
+`docs/phase6_analysis_plan.md`, including one approved deviation (per-taxon
+region test by within-flowcell permutation). All tables regenerate from the
+`phase6_analysis` target; publication figures are still to be generated.
+
 Predefine primary and sensitivity analyses before inspecting final plots:
 
 - catalog incidence and evidence-grade summaries by host and study;
