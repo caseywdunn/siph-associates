@@ -49,7 +49,8 @@ if (identifiable) {
       status <- if (length(messages)) "convergence_warning" else if (isSingular(full)) "fitted_singular" else "fitted"
       results[[target]] <- data.table(target_id = target, presences = sum(d$presence),
                                       chisq = test$Chisq[2], df = test$Df[2], p_value = test$`Pr(>Chisq)`[2],
-                                      status = status, messages = paste(unique(messages), collapse = "; "))
+                                      status = status,
+                                      messages = gsub("[\t\n]+", " ", paste(unique(messages), collapse = "; ")))
     }
   }
 }
