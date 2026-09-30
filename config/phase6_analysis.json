@@ -45,7 +45,16 @@
     "fdr": 0.05,
     "fit_only_if_region_identifiable": "at least 2 regions each represented on at least 2 flowcells, and flowcells spanning regions",
     "community": "Jaccard PERMANOVA on validated presence, ~ log10(input_pairs) + ocean_region, permutations restricted within flowcell",
-    "permutations": 9999
+    "permutations": 9999,
+    "deviation_2026_09_30": {
+      "approved_by": "Casey Dunn",
+      "reason": "all 12 pre-specified mixed models failed to converge (degenerate Hessian or singular fit) because of separation",
+      "reported_region_test": "per-taxon permutation test: deviance gain from adding ocean_region to glm(presence ~ log10(input_pairs)), region labels permuted within flowcell",
+      "permutations": 9999,
+      "seed": 20260930,
+      "fdr": 0.05,
+      "mixed_models": "still fitted and reported with their convergence status for completeness"
+    }
   },
   "sensitivity": {
     "presence_breadths": [

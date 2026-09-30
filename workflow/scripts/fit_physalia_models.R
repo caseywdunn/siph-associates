@@ -7,7 +7,7 @@ suppressPackageStartupMessages({
 args <- commandArgs(trailingOnly = TRUE)
 analysis <- fromJSON(args[1])$physalia_models
 grades <- fread(args[2]); libraries <- fread(args[3]); manifest <- fread(args[4])
-out_design <- args[5]; out_models <- args[6]; out_permanova <- args[7]
+out_design <- args[5]; out_models <- args[6]; out_permanova <- args[7]; out_permutation <- args[8]
 set.seed(20260929)
 
 manifest <- manifest[tolower(include_primary) == "true"]
@@ -62,6 +62,41 @@ if (!identifiable) models <- data.table(target_id = counts$target_id, presences 
                                         messages = "")
 models[, q_value := p.adjust(p_value, method = "BH")]
 fwrite(models, out_models, sep = "\t")
+
+# Deviation (approved 2026-09-30): the pre-specified mixed models fail under separation, so the
+# reported per-taxon region test is a permutation test mirroring the PERMANOVA design. The statistic
+# is the deviance improvement from adding ocean region to a logistic model with log depth; region
+# labels are permuted within flowcell, which stays valid when estimates do not converge.
+deviance_gain <- function(presence, log_pairs, region) {
+  null <- suppressWarnings(glm(presence ~ log_pairs, family = binomial))
+  full <- suppressWarnings(glm(presence ~ log_pairs + region, family = binomial))
+  deviance(null) - deviance(full)
+}
+permute_within <- function(labels, blocks) {
+  out <- labels
+  for (idx in split(seq_along(labels), blocks)) if (length(idx) > 1) out[idx] <- labels[idx][sample.int(length(idx))]
+  out
+}
+permutation <- list()
+if (identifiable) {
+  d <- copy(phys)
+  d[, log_pairs := log10(input_pairs)]
+  for (target in counts$target_id) {
+    set.seed(20260930)
+    presence <- as.integer(d$sample_id %in% present[target_id == target, sample_id])
+    observed <- deviance_gain(presence, d$log_pairs, factor(d$ocean_region))
+    null_gains <- replicate(analysis$permutations,
+                            deviance_gain(presence, d$log_pairs, factor(permute_within(d$ocean_region, d$flowcell))))
+    permutation[[target]] <- data.table(target_id = target, presences = sum(presence),
+                                        deviance_gain = observed, permutations = analysis$permutations,
+                                        p_value = (sum(null_gains >= observed - 1e-9) + 1) / (analysis$permutations + 1))
+  }
+}
+permutation <- if (length(permutation)) rbindlist(permutation) else
+  data.table(target_id = character(), presences = integer(), deviance_gain = numeric(),
+             permutations = integer(), p_value = numeric())
+permutation[, q_value := p.adjust(p_value, method = "BH")]
+fwrite(permutation, out_permutation, sep = "\t")
 
 # Community PERMANOVA on validated presence, permutations restricted within flowcell.
 matrix_wide <- dcast(present[, .(sample_id, target_id, value = 1L)], sample_id ~ target_id,

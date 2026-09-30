@@ -9,7 +9,8 @@ Phase-5 coverage tables. Every reported table regenerates from these rules.
    map_reads_sensitivity_bwa, summarize_sensitivity_coverage_coverm.
 3. Evidence grades and contamination flags: grade_presences,
    test_contamination_flowcell.
-4. Primary analyses: summarize_incidence, fit_physalia_models_lme4.
+4. Primary analyses: summarize_incidence, fit_physalia_models_lme4 (mixed models as
+   pre-specified, plus the approved within-flowcell permutation test of region).
 5. Sensitivity comparisons: compare_sensitivity_analyses.
 6. Check completeness of the analysis outputs: validate_phase6.
 
@@ -272,6 +273,7 @@ rule fit_physalia_models_lme4:
         design=f"{P6}/primary/physalia_design.tsv",
         models=f"{P6}/primary/physalia_models.tsv",
         permanova=f"{P6}/primary/physalia_permanova.tsv",
+        permutation=f"{P6}/primary/physalia_region_permutation.tsv",
     params:
         stats=P6_STATS,
     log:
@@ -284,7 +286,7 @@ rule fit_physalia_models_lme4:
     shell:
         """
         {params.stats}/Rscript {input.script:q} {input.analysis:q} {input.grades:q} {input.libraries:q} \
-          {input.manifest:q} {output.design:q} {output.models:q} {output.permanova:q} > {log:q} 2>&1
+          {input.manifest:q} {output.design:q} {output.models:q} {output.permanova:q} {output.permutation:q} > {log:q} 2>&1
         """
 
 
@@ -332,7 +334,7 @@ rule validate_phase6:
         contamination=f"{P6}/grades/contamination_tests.tsv",
         primary=[f"{P6}/primary/{name}.tsv" for name in ("bacterial_incidence", "viral_incidence", "grade_summary",
                                                          "phage_host_links", "physalia_design", "physalia_models",
-                                                         "physalia_permanova")],
+                                                         "physalia_permanova", "physalia_region_permutation")],
         sensitivity=[f"{P6}/sensitivity/{name}.tsv" for name in ("threshold_sensitivity", "host_handling_concordance",
                                                                  "capping_concordance", "leave_one_study_out")],
     output:

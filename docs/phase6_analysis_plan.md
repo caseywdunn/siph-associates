@@ -94,3 +94,26 @@ C2 and C3 need about 18 additional library mappings.
 The statistical models and PERMANOVA run in a pinned R environment
 (`envs/stats.yaml`: R with lme4 and vegan). Tabulation and permutation tests
 run in the workflow's standard Python.
+
+## Deviations
+
+### 2026-09-30: per-taxon *Physalia* region test (approved by Casey Dunn)
+
+- **What happened.** All 12 pre-specified logistic mixed models (B2) failed to
+  converge: degenerate Hessians and singular fits. The cause is separation: a
+  taxon is present in all or none of some region's libraries, so region
+  effects are not estimable.
+- **What is still reported.** The mixed models remain in the outputs
+  (`physalia_models.tsv`), each labelled with its convergence status. None of
+  their p-values is presented as a result.
+- **Replacement test.** The reported per-taxon region test is now a
+  permutation test that mirrors the pre-specified PERMANOVA design:
+  - the statistic is the deviance gain from adding ocean region to a
+    logistic model of presence on log10 input pairs;
+  - it is compared with 9,999 permutations of region labels within flowcell
+    (seed 20260930), with BH FDR across taxa;
+  - output: `physalia_region_permutation.tsv`.
+- **Why this test.** It asks the same question (region beyond depth, with
+  batch accounted for) and does not depend on model estimates converging.
+- **Alternative considered.** Weakly informative priors (`blme::bglmer`)
+  would keep the model form, but they give less standard p-values.
