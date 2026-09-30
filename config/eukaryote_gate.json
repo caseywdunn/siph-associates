@@ -50,7 +50,7 @@
       "Perkinsea",
       "Microsporidia",
       "Ichthyosporea",
-      "Kinetoplastea"
+      "Trypanosomatida"
     ],
     "prey": [
       "Copepoda",
@@ -66,7 +66,14 @@
       "Annelida"
     ],
     "otherwise": "unassigned",
-    "note": "role is a biological interpretation recorded as an evidence field, not a classifier bin"
+    "note": "role is a biological interpretation recorded as an evidence field, not a classifier bin",
+    "verified_overrides": [
+      {
+        "ncbi_top_hit_contains": "PLO of Paramoeba",
+        "role": "endosymbiont of Paramoeba"
+      }
+    ],
+    "amendment_2026_09_30": "Kinetoplastea replaced by Trypanosomatida: SILVA places the obligate Paramoeba endosymbiont (PLO, Perkinsela) within Prokinetoplastina/Ichthyobodo, so lineage alone cannot separate it from parasitic kinetoplastids; detections whose NCBI top hit is the PLO are labelled endosymbiont of Paramoeba (approved by Casey Dunn)"
   },
   "contamination_flag": "human (Homo) only; single-library detections are kept",
   "deferred": [

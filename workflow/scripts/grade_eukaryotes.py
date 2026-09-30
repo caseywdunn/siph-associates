@@ -45,7 +45,11 @@ def named(lineage, identity):
     return (kind_unit[1] if kind_unit else ";".join(ranks[:5])) + " (novel lineage)", "class_or_phylum"
 
 
-def role(lineage):
+def role(lineage, ncbi_hits):
+    """Verified NCBI overrides first (e.g. the Paramoeba endosymbiont), then the lineage lists."""
+    for override in roles.get("verified_overrides", []):
+        if any(override["ncbi_top_hit_contains"] in h for h in ncbi_hits):
+            return override["role"]
     ranks = set(lineage.split(";"))
     for label in ("parasite", "prey"):
         if ranks & set(roles[label]):
@@ -99,7 +103,7 @@ for (sample, reporting_unit), e in sorted(evidence.items()):
         "read_pairs_ge97": e["read_pairs"], "assembled_sequences": len(assembled),
         "assembled_sources": ",".join(sorted({a["source"] for a in assembled})),
         "best_identity": round(identity, 2), "named_lineage": lineage, "naming_depth": depth,
-        "role": role(lineage), "contamination": str(kinds[reporting_unit] == "human").lower(),
+        "role": role(lineage, [h["organism"] + " " + h.get("title", "") for h in top_hits]), "contamination": str(kinds[reporting_unit] == "human").lower(),
         "ncbi_top_hit": "; ".join(f"{h['organism']} ({h['subject']}, {h['identity']}%)" for h in top_hits[:2]),
     })
 

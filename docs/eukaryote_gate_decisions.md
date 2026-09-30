@@ -113,6 +113,23 @@ copepods, and the fish.
   including the one fish, are kept (Casey Dunn); NCBI verification is the
   check.
 
+**Amendment (2026-09-30, approved by Casey Dunn).**
+- **What was wrong.** The parasite list originally included all of
+  Kinetoplastea. That labelled the 12 kinetoplastid detections as parasites of
+  the host, but 11 of them have NCBI top hits to the "PLO of *Paramoeba
+  invadens*" (*Perkinsela*), an obligate endosymbiont that lives inside
+  *Paramoeba*. It co-occurs with *Paramoeba* in these libraries.
+- **Why lineage alone cannot fix it.** SILVA places the PLO within
+  Prokinetoplastina/*Ichthyobodo*, so lineage cannot separate it from the
+  parasitic kinetoplastids.
+- **The amendment.**
+  - Kinetoplastea is replaced by Trypanosomatida in the parasite list.
+  - Detections whose NCBI top hit is the PLO are labelled *endosymbiont of
+    Paramoeba*.
+  - The one read-only kinetoplastid detection, which has no assembled
+    sequence to verify, is *unassigned*.
+- **Effect.** No grade changes.
+
 ## 6. Deferred
 
 - COI and mitogenome assembly, which would allow species-level prey

@@ -21,7 +21,8 @@ def rows(path):
         return list(csv.DictReader(handle, delimiter="\t"))
 
 
-gate = json.loads(Path(args.config).read_text())["presence"]
+settings = json.loads(Path(args.config).read_text())
+gate, roles = settings["presence"], settings["role_field"]
 grades = rows(args.grades)
 errors = []
 keys = Counter((r["sample_id"], r["reporting_unit"]) for r in grades)
@@ -36,7 +37,8 @@ for r in grades:
         errors.append(f"grade disagrees with the rule: {r['sample_id']} {r['reporting_unit']}")
     if r["kind"] in ("host", "cnidarian", "negative_control") and not assembled:
         errors.append(f"read-only detection of an excluded class: {r['sample_id']} {r['reporting_unit']}")
-    if r["role"] not in ("parasite", "prey", "unassigned"):
+    allowed = {"parasite", "prey", "unassigned"} | {o["role"] for o in roles.get("verified_overrides", [])}
+    if r["role"] not in allowed:
         errors.append(f"invalid role: {r['sample_id']}")
 verified = {r["sequence_id"] for r in rows(args.verification)}
 missing = [r["sequence_id"] for r in rows(args.assembled) if r["sequence_id"] not in verified]
