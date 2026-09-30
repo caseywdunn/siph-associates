@@ -72,5 +72,10 @@
   "deferred": [
     "COI and mitogenome assembly",
     "PR2"
-  ]
+  ],
+  "assembled_classification": {
+    "aligner": "minimap2 -ax asm20 -N 200 -p 0.99 --secondary=yes",
+    "assembly_18s_min_length": 500,
+    "note": "both assembled sources are LCA-classified against the same competitive reference as the reads"
+  }
 }

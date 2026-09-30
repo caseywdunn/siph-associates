@@ -11,14 +11,19 @@ other animals.
    index_eukaryote_ssu_reference_minimap2.
 3. Assign read pairs to lineages: classify_ssu_reads_minimap2.
 4. Tabulate all libraries: aggregate_ssu_read_lineages.
+5. Classify assembled SSUs from phyloFlash and from Phase-3 assemblies:
+   classify_assembled_ssu_minimap2, collect_eukaryote_assembled.
+6. Verify assembled non-host SSUs at NCBI: verify_eukaryotes_ncbi.
+7. Grade detections under the locked rules and check them: grade_eukaryotes,
+   validate_eukaryote_gate.
 
-Next: presence rules calibrated against negative-control lineages grade these
-counts together with the assembled SSUs.
+Rules are in config/eukaryote_gate.json; reasoning in docs/eukaryote_gate_decisions.md.
 """
 
 EUK = f"{WORK}/eukaryote_gate"
 EUK_TOOLS = f"{PHASE5['tool_prefixes']['mapping']}/bin"
 EUK_SILVA = EUKARYOTE["databases"]["silva_ssu_nr99"]
+
 
 
 rule extract_phyloflash_ssu:
@@ -93,6 +98,29 @@ rule index_eukaryote_ssu_reference_minimap2:
         """
 
 
+rule index_eukaryote_ssu_reference_asm20:
+    # A minimap2 index fixes its preset, so full-length sequences need their own index.
+    input:
+        f"{EUK}/reference/ssu_reference.fasta",
+    output:
+        f"{EUK}/reference/ssu_reference.asm20.mmi",
+    params:
+        tools=EUK_TOOLS,
+    log:
+        f"{WORK}/logs/eukaryote_gate/index_ssu_reference_asm20.log",
+    threads: 8
+    resources:
+        **phase5_resources("summary"),
+    conda:
+        "../../envs/workflow.yaml"
+    shell:
+        """
+        export PATH={params.tools:q}:$PATH
+        minimap2 -x asm20 -t {threads} -d {output:q}.tmp {input:q} > {log:q} 2>&1
+        mv {output:q}.tmp {output:q}
+        """
+
+
 rule classify_ssu_reads_minimap2:
     input:
         r1=f"{EUK}/ssu/{{sample}}.R1.fq.gz",
@@ -146,3 +174,148 @@ rule aggregate_ssu_read_lineages:
 rule eukaryote_evidence:
     input:
         f"{EUK}/read_lineages.tsv",
+
+
+rule classify_assembled_ssu_minimap2:
+    # One job per library: phyloFlash SSUs, plus 18S genes from the library's Phase-3 assembly
+    # when it was assembled, each LCA-classified against the competitive reference.
+    input:
+        phyloflash=f"{EUK}/ssu/{{sample}}.assembled_ssu.fasta",
+        assembly=lambda wildcards: [f"{WORK}/phase3_cohort/markers/{wildcards.sample}.gff",
+                                    f"{WORK}/phase3_cohort/assemblies/{wildcards.sample}.fasta"]
+                                   if wildcards.sample in ASSEMBLY_IDS else [],
+        index=f"{EUK}/reference/ssu_reference.asm20.mmi",
+        taxonomy=f"{EUK}/reference/ssu_reference.taxonomy.tsv",
+        extract="workflow/scripts/extract_assembly_18s.py",
+        classify="workflow/scripts/classify_sequences_lca.py",
+    output:
+        phyloflash=f"{EUK}/assembled/{{sample}}.phyloflash.tsv",
+        assembly18s=f"{EUK}/assembled/{{sample}}.assembly18s.tsv",
+        fasta18s=f"{EUK}/assembled/{{sample}}.assembly18s.fasta",
+    params:
+        tools=EUK_TOOLS,
+        min_length=EUKARYOTE["assembled_classification"]["assembly_18s_min_length"],
+    log:
+        f"{WORK}/logs/eukaryote_gate/assembled/{{sample}}.log",
+    threads: 4
+    resources:
+        **phase5_resources("summary"),
+    conda:
+        "../../envs/workflow.yaml"
+    shell:
+        """
+        export PATH={params.tools:q}:$PATH
+        : > {log:q}
+        if [ -n "{input.assembly}" ]; then
+          python {input.extract:q} --gff {input.assembly[0]:q} --contigs {input.assembly[1]:q} \
+            --min-length {params.min_length} --output {output.fasta18s:q} >> {log:q} 2>&1
+        else
+          : > {output.fasta18s:q}
+        fi
+        for source in phyloflash assembly18s; do
+          if [ "$source" = phyloflash ]; then query={input.phyloflash:q}; out={output.phyloflash:q};
+          else query={output.fasta18s:q}; out={output.assembly18s:q}; fi
+          if [ -s "$query" ]; then
+            minimap2 -ax asm20 -N 200 -p 0.99 --secondary=yes -t {threads} {input.index:q} "$query" 2>> {log:q} \
+              | python {input.classify:q} --taxonomy {input.taxonomy:q} --sample {wildcards.sample} \
+                  --output "$out" 2>> {log:q}
+          else
+            printf 'sample_id\tsequence_id\tlineage\tidentity\taligned_bases\n' > "$out"
+          fi
+        done
+        """
+
+
+rule collect_eukaryote_assembled:
+    input:
+        script="workflow/scripts/collect_eukaryote_assembled.py",
+        tables=[f"{EUK}/assembled/{s}.{src}.tsv" for s in SAMPLE_IDS for src in ("phyloflash", "assembly18s")],
+        fastas=[f"{EUK}/ssu/{s}.assembled_ssu.fasta" if src == "phyloflash" else f"{EUK}/assembled/{s}.assembly18s.fasta"
+                for s in SAMPLE_IDS for src in ("phyloflash", "assembly18s")],
+    output:
+        table=f"{EUK}/assembled_nonhost.tsv",
+        fasta=f"{EUK}/assembled_nonhost.fasta",
+    log:
+        f"{WORK}/logs/eukaryote_gate/collect_assembled.log",
+    threads: 1
+    resources:
+        **phase5_resources("summary"),
+    conda:
+        "../../envs/workflow.yaml"
+    shell:
+        """
+        python {input.script:q} --classifications {input.tables:q} --fastas {input.fastas:q} \
+          --table {output.table:q} --fasta {output.fasta:q} > {log:q} 2>&1
+        """
+
+
+rule verify_eukaryotes_ncbi:
+    input:
+        script="workflow/scripts/verify_eukaryotes_ncbi.py",
+        fasta=f"{EUK}/assembled_nonhost.fasta",
+    output:
+        f"{EUK}/ncbi_verification.tsv",
+    params:
+        email="casey.dunn@yale.edu",
+    log:
+        f"{WORK}/logs/eukaryote_gate/verify_ncbi.log",
+    threads: 1
+    resources:
+        **phase5_resources("summary"),
+    conda:
+        "../../envs/workflow.yaml"
+    shell:
+        """
+        python {input.script:q} --fasta {input.fasta:q} --email {params.email} --output {output:q} > {log:q} 2>&1
+        """
+
+
+rule grade_eukaryotes:
+    input:
+        script="workflow/scripts/grade_eukaryotes.py",
+        config=str(EUKARYOTE_CONFIG_PATH),
+        reads=f"{EUK}/read_lineages.tsv",
+        assembled=f"{EUK}/assembled_nonhost.tsv",
+        verification=f"{EUK}/ncbi_verification.tsv",
+    output:
+        f"{EUK}/eukaryote_grades.tsv",
+    log:
+        f"{WORK}/logs/eukaryote_gate/grade.log",
+    threads: 1
+    resources:
+        **phase5_resources("summary"),
+    conda:
+        "../../envs/workflow.yaml"
+    shell:
+        """
+        python {input.script:q} --config {input.config:q} --reads {input.reads:q} --assembled {input.assembled:q} \
+          --verification {input.verification:q} --output {output:q} > {log:q} 2>&1
+        """
+
+
+rule validate_eukaryote_gate:
+    input:
+        script="workflow/scripts/validate_eukaryote_gate.py",
+        config=str(EUKARYOTE_CONFIG_PATH),
+        grades=f"{EUK}/eukaryote_grades.tsv",
+        assembled=f"{EUK}/assembled_nonhost.tsv",
+        verification=f"{EUK}/ncbi_verification.tsv",
+    output:
+        f"{WORK}/stages/eukaryote_gate.done",
+    log:
+        f"{WORK}/logs/eukaryote_gate/validate.log",
+    threads: 1
+    resources:
+        **phase5_resources("summary"),
+    conda:
+        "../../envs/workflow.yaml"
+    shell:
+        """
+        python {input.script:q} --config {input.config:q} --grades {input.grades:q} \
+          --assembled {input.assembled:q} --verification {input.verification:q} --output {output:q} > {log:q} 2>&1
+        """
+
+
+rule eukaryote_gate:
+    input:
+        f"{WORK}/stages/eukaryote_gate.done",
