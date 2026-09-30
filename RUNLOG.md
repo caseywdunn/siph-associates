@@ -1,5 +1,35 @@
 # Run log
 
+## 2026-09-30 — Eukaryote gate complete
+
+- `eukaryote_gate` (controllers `11532045`, `11532516`, `11550709`; commits
+  `f82f3c0`, the fix for libraries without an assembly, and the NCBI XML
+  parser fix) reports PASS: 62 validated detections in 39 libraries (42
+  high confidence), 233 trace, 0 errors. All 65 assembled non-host SSUs were
+  verified with NCBI BLAST (core_nt), with the query date recorded.
+- Parasites:
+  - Digenea (Azygiida, Plagiorchiida) and a cestode (*Crossobothrium*) in 11
+    *Physalia* libraries, all high confidence;
+  - Syndiniales in 1 *Nanomia* library.
+- Prey:
+  - fish in 4 *Physalia* libraries (NCBI top hit *Centroberyx*);
+  - calanoid copepods in *Praya* and *Nanomia* (*Metridia gerlachei*,
+    *Euchaeta indica*);
+  - a chaetognath (*Aidanosagitta*);
+  - *Mytilus trossulus* in 2 *Physalia* libraries (likely larvae).
+- Unassigned:
+  - *Paramoeba* (NCBI *Paramoeba invadens*) in 10 libraries, and its
+    kinetoplastid endosymbiont (PLO of *Paramoeba*) in 12;
+  - free-living marine nematodes (*Litoditis*) in 6 *Physalia* libraries;
+  - single-library fungi, algae, a diatom, a proseriate flatworm, and a
+    mite-like arthropod.
+- No human contamination.
+- Pending approval: the role list includes all of Kinetoplastea as parasites,
+  which labels the *Paramoeba* endosymbiont (PLO / *Perkinsela*) as a
+  parasite of the host. The proposed fix relabels it unassigned
+  (endosymbiont of *Paramoeba*). This is a label change only; no grade
+  changes.
+
 ## 2026-09-30 — Eukaryote gate decisions locked
 
 - Evidence review: phyloFlash assembled SSUs (Phase 2) show trematodes (14
