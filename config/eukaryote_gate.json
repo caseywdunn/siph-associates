@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "method approved 2026-09-30 (competitive remap with host SSUs and LCA assignment); presence thresholds pending calibration",
+  "databases": {
+    "silva_ssu_nr99": "/gpfs/ycga/work/dunn/cwd7/databases/phyloflash_silva/138.1/SILVA_SSU.noLSU.masked.trimmed.NR99.fixed.fasta"
+  },
+  "read_assignment": {
+    "aligner": "minimap2 -ax sr -N 200 -p 0.99 --secondary=yes",
+    "min_aligned_bases": 100,
+    "assignment": "lowest common ancestor of both mates' near-tied hits",
+    "host_references": "assembled SSUs whose SILVA best hit lies in Siphonophorae"
+  }
+}

@@ -215,6 +215,11 @@ def phase6_index(wildcards):
     return [base + suffix for suffix in (".amb", ".ann", ".bwt", ".pac", ".sa")]
 
 
+EUKARYOTE_CONFIG_PATH = ROOT / "config" / "eukaryote_gate.json"
+with EUKARYOTE_CONFIG_PATH.open() as handle:
+    EUKARYOTE = json.load(handle)
+
+
 PILOT_IDS = list(config.get("phase2_pilot_samples", []))
 if len(PILOT_IDS) != len(set(PILOT_IDS)):
     raise WorkflowError("phase2 pilot sample IDs are duplicated")
@@ -251,6 +256,7 @@ _target_paths = {
     "phase5_pilot": f"{WORK}/stages/phase5_mapping_pilot.done",
     "phase5_mapping": f"{WORK}/stages/phase5_mapping_cohort.done",
     "phase6_analysis": f"{WORK}/stages/phase6_analysis.done",
+    "eukaryote_evidence": f"{WORK}/eukaryote_gate/read_lineages.tsv",
 }
 if _target not in _target_paths:
     raise WorkflowError(f"unknown default_target: {_target}")
