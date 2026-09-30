@@ -24,11 +24,12 @@
   - single-library fungi, algae, a diatom, a proseriate flatworm, and a
     mite-like arthropod.
 - No human contamination.
-- Pending approval: the role list includes all of Kinetoplastea as parasites,
-  which labels the *Paramoeba* endosymbiont (PLO / *Perkinsela*) as a
-  parasite of the host. The proposed fix relabels it unassigned
-  (endosymbiont of *Paramoeba*). This is a label change only; no grade
-  changes.
+- Role amendment (approved by Casey Dunn; controller `11551963`, PASS): the
+  11 kinetoplastid detections with NCBI top hits to the PLO of *Paramoeba*
+  are now labelled endosymbiont of *Paramoeba*; the one read-only
+  kinetoplastid is unassigned. Roles are now parasite 12 (11 Platyhelminthes,
+  1 Syndiniales), prey 9, endosymbiont of *Paramoeba* 11, unassigned 30.
+  Grades are unchanged.
 
 ## 2026-09-30 — Eukaryote gate decisions locked
 
