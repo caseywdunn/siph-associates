@@ -41,21 +41,24 @@ if (identifiable) {
     null <- fit(presence ~ log_pairs + (1 | flowcell))
     if (is.null(full) || is.null(null)) {
       results[[target]] <- data.table(target_id = target, presences = sum(d$presence), chisq = NA,
-                                      df = NA, p_value = NA, status = "fit_failed")
+                                      df = NA, p_value = NA, status = "fit_failed", messages = "")
     } else {
       test <- anova(null, full)
-      singular <- isSingular(full)
+      # Record singular fits and optimizer convergence messages so unreliable fits are visible.
+      messages <- c(full@optinfo$conv$lme4$messages, null@optinfo$conv$lme4$messages)
+      status <- if (length(messages)) "convergence_warning" else if (isSingular(full)) "fitted_singular" else "fitted"
       results[[target]] <- data.table(target_id = target, presences = sum(d$presence),
                                       chisq = test$Chisq[2], df = test$Df[2], p_value = test$`Pr(>Chisq)`[2],
-                                      status = if (singular) "fitted_singular" else "fitted")
+                                      status = status, messages = paste(unique(messages), collapse = "; "))
     }
   }
 }
 models <- if (length(results)) rbindlist(results) else
   data.table(target_id = character(), presences = integer(), chisq = numeric(), df = integer(),
-             p_value = numeric(), status = character())
+             p_value = numeric(), status = character(), messages = character())
 if (!identifiable) models <- data.table(target_id = counts$target_id, presences = counts$N, chisq = NA,
-                                        df = NA, p_value = NA, status = "region_not_identifiable")
+                                        df = NA, p_value = NA, status = "region_not_identifiable",
+                                        messages = "")
 models[, q_value := p.adjust(p_value, method = "BH")]
 fwrite(models, out_models, sep = "\t")
 
