@@ -195,6 +195,9 @@ rule classify_assembled_ssu_minimap2:
     params:
         tools=EUK_TOOLS,
         min_length=EUKARYOTE["assembled_classification"]["assembly_18s_min_length"],
+        # Empty for the libraries below the assembly floor, which have no Phase-3 assembly.
+        gff=lambda wildcards, input: input.assembly[0] if input.assembly else "",
+        contigs=lambda wildcards, input: input.assembly[1] if input.assembly else "",
     log:
         f"{WORK}/logs/eukaryote_gate/assembled/{{sample}}.log",
     threads: 4
@@ -206,8 +209,8 @@ rule classify_assembled_ssu_minimap2:
         """
         export PATH={params.tools:q}:$PATH
         : > {log:q}
-        if [ -n "{input.assembly}" ]; then
-          python {input.extract:q} --gff {input.assembly[0]:q} --contigs {input.assembly[1]:q} \
+        if [ -n "{params.gff}" ]; then
+          python {input.extract:q} --gff {params.gff:q} --contigs {params.contigs:q} \
             --min-length {params.min_length} --output {output.fasta18s:q} >> {log:q} 2>&1
         else
           : > {output.fasta18s:q}
