@@ -1,5 +1,28 @@
 # Run log
 
+## 2026-09-30 — Eukaryote gate decisions locked
+
+- Evidence review: phyloFlash assembled SSUs (Phase 2) show trematodes (14
+  libraries), *Paramoeba* with its kinetoplastid endosymbiont (about 10),
+  nematodes, copepods, a chaetognath, dinoflagellates, and one fish. 32
+  libraries have no assembled SSU (SPAdes found no rRNA contig).
+- phyloFlash read mappings failed the negative control (insect SSU in 182/205
+  libraries at ≥97%), because host reads from conserved 18S land on arbitrary
+  metazoan references. An earlier extraction truncated lineages at 12 ranks,
+  which hid arthropods and nematodes; that was fixed.
+- Approved method (Casey Dunn): competitive re-mapping of SSU reads to SILVA
+  138.1 NR99 plus 150 host siphonophore SSUs, with LCA assignment (controller
+  `11521214`, commit `d6da2a7`, 414/414 steps). Background fell to a maximum
+  of 36 pairs (insects, 22 libraries).
+- Approved presence rule (`docs/eukaryote_gate_decisions.md`,
+  `config/eukaryote_gate.json`): validated by reads at ≥37 pairs and ≥97%
+  identity (54), or by an assembled SSU (49); high confidence when both
+  agree (42); trace at 2–36 pairs (235). Casey Dunn chose read-level
+  presence over assembled-only for sensitivity, and kept single-library
+  detections.
+- Next: build the grading stage (assembly 18S classification, NCBI
+  verification of key taxa, role field), then validate.
+
 ## 2026-09-30 — Phase 6 analyses complete
 
 - Controller `11493188` (commit `31f8fef`) ran 308/308 steps; the approved

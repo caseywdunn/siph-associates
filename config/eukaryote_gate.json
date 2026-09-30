@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "method approved 2026-09-30 (competitive remap with host SSUs and LCA assignment); presence thresholds pending calibration",
+  "status": "approved 2026-09-30",
   "databases": {
     "silva_ssu_nr99": "/gpfs/ycga/work/dunn/cwd7/databases/phyloflash_silva/138.1/SILVA_SSU.noLSU.masked.trimmed.NR99.fixed.fasta"
   },
@@ -9,5 +9,68 @@
     "min_aligned_bases": 100,
     "assignment": "lowest common ancestor of both mates' near-tied hits",
     "host_references": "assembled SSUs whose SILVA best hit lies in Siphonophorae"
-  }
+  },
+  "decision_record": "docs/eukaryote_gate_decisions.md",
+  "presence": {
+    "validated_reads": {
+      "min_identity_band": 97,
+      "min_read_pairs": 37,
+      "calibration": "one above the maximum negative-control background (36 pairs; Insecta, Embryophyta, non-human Mammalia)"
+    },
+    "trace_reads": {
+      "min_identity_band": 97,
+      "min_read_pairs": 2
+    },
+    "validated_assembled": "non-host full-length SSU assembled by phyloFlash or on the library's own Phase-3 assembly (barrnap 18S)",
+    "high_confidence": "validated by reads and by an assembled SSU of the same reporting unit in the same library",
+    "read_level_exclusions": [
+      "host (Siphonophorae)",
+      "all Cnidaria (host confusion)",
+      "unresolved lineages at or above Metazoa or its ancestors"
+    ]
+  },
+  "naming_depth": {
+    "ge97": "genus",
+    "90_to_97": "family or order",
+    "lt90": "novel lineage at class or phylum",
+    "silva_species_labels": "never reported"
+  },
+  "verification": "NCBI BLAST of assembled non-host SSUs for key taxa",
+  "role_field": {
+    "parasite": [
+      "Digenea",
+      "Trematoda",
+      "Monogenea",
+      "Cestoda",
+      "Ascaridomorpha",
+      "Anisakidae",
+      "Spirurina",
+      "Apicomplexa",
+      "Syndiniales",
+      "Perkinsea",
+      "Microsporidia",
+      "Ichthyosporea",
+      "Kinetoplastea"
+    ],
+    "prey": [
+      "Copepoda",
+      "Euphausiacea",
+      "Ostracoda",
+      "Cladocera",
+      "Chaetognatha",
+      "Actinopteri",
+      "Teleostei",
+      "Appendicularia",
+      "Thaliacea",
+      "Mollusca",
+      "Annelida"
+    ],
+    "otherwise": "unassigned",
+    "note": "role is a biological interpretation recorded as an evidence field, not a classifier bin"
+  },
+  "contamination_flag": "human (Homo) only; single-library detections are kept",
+  "deferred": [
+    "COI and mitogenome assembly",
+    "PR2"
+  ]
 }
