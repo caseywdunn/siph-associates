@@ -1,5 +1,5 @@
 """
-Map every library competitively against the frozen v1 catalogs under identical
+Map every library competitively against the frozen catalogs (config catalog_version) under identical
 filters (config/phase5_mapping.json). Reference-bearing libraries use their
 Phase-3 host-depleted reads; reference-free libraries use full capped trimmed
 reads regenerated with the locked Phase-2 settings. Coverage is reported
@@ -19,6 +19,8 @@ applied in Phase 6.
 """
 
 P5 = f"{WORK}/phase5_mapping"
+P5_VERSION = PHASE5["catalog_version"]
+P5V = f"{P5}/{P5_VERSION}"  # catalog-dependent outputs; earlier versions stay on disk
 P5_CATALOG = f"{WORK}/phase4_catalog/{PHASE5['catalog_version']}"
 P5_TOOLS = f"{PHASE5['tool_prefixes']['mapping']}/bin"
 P5_MAP = PHASE5["mapping"]
@@ -65,8 +67,8 @@ rule index_viral_catalog_bwa:
         associate=f"{P5_CATALOG}/viral_associate.fna",
         endogenous=f"{P5_CATALOG}/viral_endogenous_candidate.fna",
     output:
-        fasta=f"{P5}/{PHASE5['catalog_version']}/viral_catalog.fna",
-        index=multiext(f"{P5}/{PHASE5['catalog_version']}/viral_catalog.fna", ".amb", ".ann", ".bwt", ".pac", ".sa"),
+        fasta=f"{P5V}/viral_catalog.fna",
+        index=multiext(f"{P5V}/viral_catalog.fna", ".amb", ".ann", ".bwt", ".pac", ".sa"),
     params:
         tools=P5_TOOLS,
     log:
@@ -91,9 +93,9 @@ rule map_reads_bacterial_bwa:
         r2=lambda wildcards: phase5_reads(wildcards, 2),
         index=BACTERIAL_INDEX,
     output:
-        bam=f"{P5}/bam/bacterial/{{sample}}.bam",
-        bai=f"{P5}/bam/bacterial/{{sample}}.bam.bai",
-        flagstat=f"{P5}/bam/bacterial/{{sample}}.flagstat.txt",
+        bam=f"{P5V}/bam/bacterial/{{sample}}.bam",
+        bai=f"{P5V}/bam/bacterial/{{sample}}.bam.bai",
+        flagstat=f"{P5V}/bam/bacterial/{{sample}}.flagstat.txt",
     params:
         tools=P5_TOOLS,
         index=lambda wildcards, input: input.index[0].removesuffix(".amb"),
@@ -136,11 +138,11 @@ rule map_reads_viral_bwa:
     input:
         r1=lambda wildcards: phase5_reads(wildcards, 1),
         r2=lambda wildcards: phase5_reads(wildcards, 2),
-        index=multiext(f"{P5}/{PHASE5['catalog_version']}/viral_catalog.fna", ".amb", ".ann", ".bwt", ".pac", ".sa"),
+        index=multiext(f"{P5V}/viral_catalog.fna", ".amb", ".ann", ".bwt", ".pac", ".sa"),
     output:
-        bam=f"{P5}/bam/viral/{{sample}}.bam",
-        bai=f"{P5}/bam/viral/{{sample}}.bam.bai",
-        flagstat=f"{P5}/bam/viral/{{sample}}.flagstat.txt",
+        bam=f"{P5V}/bam/viral/{{sample}}.bam",
+        bai=f"{P5V}/bam/viral/{{sample}}.bam.bai",
+        flagstat=f"{P5V}/bam/viral/{{sample}}.flagstat.txt",
     params:
         tools=P5_TOOLS,
         index=lambda wildcards, input: input.index[0].removesuffix(".amb"),
@@ -180,10 +182,10 @@ rule map_reads_viral_bwa:
 
 rule summarize_bacterial_coverage_coverm:
     input:
-        bam=f"{P5}/bam/bacterial/{{sample}}.bam",
-        bai=f"{P5}/bam/bacterial/{{sample}}.bam.bai",
+        bam=f"{P5V}/bam/bacterial/{{sample}}.bam",
+        bai=f"{P5V}/bam/bacterial/{{sample}}.bam.bai",
     output:
-        f"{P5}/coverage/bacterial/{{sample}}.tsv",
+        f"{P5V}/coverage/bacterial/{{sample}}.tsv",
     params:
         tools=P5_TOOLS,
         identity=P5_COVERAGE["min_read_percent_identity"],
@@ -209,10 +211,10 @@ rule summarize_bacterial_coverage_coverm:
 
 rule summarize_viral_coverage_coverm:
     input:
-        bam=f"{P5}/bam/viral/{{sample}}.bam",
-        bai=f"{P5}/bam/viral/{{sample}}.bam.bai",
+        bam=f"{P5V}/bam/viral/{{sample}}.bam",
+        bai=f"{P5V}/bam/viral/{{sample}}.bam.bai",
     output:
-        f"{P5}/coverage/viral/{{sample}}.tsv",
+        f"{P5V}/coverage/viral/{{sample}}.tsv",
     params:
         tools=P5_TOOLS,
         identity=P5_COVERAGE["min_read_percent_identity"],
@@ -238,17 +240,17 @@ rule summarize_viral_coverage_coverm:
 rule aggregate_mapping:
     input:
         script="workflow/scripts/aggregate_mapping.py",
-        bacterial=lambda wildcards: expand(f"{P5}/coverage/bacterial/{{sample}}.tsv", sample=phase5_scope_samples(wildcards)),
-        viral=lambda wildcards: expand(f"{P5}/coverage/viral/{{sample}}.tsv", sample=phase5_scope_samples(wildcards)),
-        flagstat=lambda wildcards: expand(f"{P5}/bam/{{kind}}/{{sample}}.flagstat.txt", kind=("bacterial", "viral"),
+        bacterial=lambda wildcards: expand(f"{P5V}/coverage/bacterial/{{sample}}.tsv", sample=phase5_scope_samples(wildcards)),
+        viral=lambda wildcards: expand(f"{P5V}/coverage/viral/{{sample}}.tsv", sample=phase5_scope_samples(wildcards)),
+        flagstat=lambda wildcards: expand(f"{P5V}/bam/{{kind}}/{{sample}}.flagstat.txt", kind=("bacterial", "viral"),
                                           sample=phase5_scope_samples(wildcards)),
         trim=lambda wildcards: [f"{WORK}/provenance/phase5_mapping/trim/{s}.json"
                                 for s in phase5_scope_samples(wildcards) if SAMPLES[s]["host_route"] == "none"],
         manifest=f"{P5_CATALOG}/bacterial_catalog.manifest.tsv",
     output:
-        bacterial=f"{P5}/{{scope}}/bacterial_coverage.tsv",
-        viral=f"{P5}/{{scope}}/viral_coverage.tsv",
-        libraries=f"{P5}/{{scope}}/library_mapping.tsv",
+        bacterial=f"{P5V}/{{scope}}/bacterial_coverage.tsv",
+        viral=f"{P5V}/{{scope}}/viral_coverage.tsv",
+        libraries=f"{P5V}/{{scope}}/library_mapping.tsv",
     params:
         samples=phase5_scope_samples,
         results=lambda wildcards, output: str(Path(output.bacterial).parent.parent),
@@ -273,13 +275,13 @@ rule aggregate_mapping:
 rule validate_mapping:
     input:
         script="workflow/scripts/validate_mapping.py",
-        bacterial=f"{P5}/{{scope}}/bacterial_coverage.tsv",
-        viral=f"{P5}/{{scope}}/viral_coverage.tsv",
-        libraries=f"{P5}/{{scope}}/library_mapping.tsv",
+        bacterial=f"{P5V}/{{scope}}/bacterial_coverage.tsv",
+        viral=f"{P5V}/{{scope}}/viral_coverage.tsv",
+        libraries=f"{P5V}/{{scope}}/library_mapping.tsv",
         manifest=f"{P5_CATALOG}/bacterial_catalog.manifest.tsv",
-        viral_fasta=f"{P5}/{PHASE5['catalog_version']}/viral_catalog.fna",
+        viral_fasta=f"{P5V}/viral_catalog.fna",
     output:
-        f"{WORK}/stages/phase5_mapping_{{scope}}.done",
+        f"{WORK}/stages/phase5_mapping_{{scope}}_{P5_VERSION}.done",
     params:
         samples=phase5_scope_samples,
         library_qc=f"{WORK}/aggregation/cohort/library_qc.tsv",
@@ -300,9 +302,9 @@ rule validate_mapping:
 
 rule phase5_pilot:
     input:
-        f"{WORK}/stages/phase5_mapping_pilot.done",
+        f"{WORK}/stages/phase5_mapping_pilot_{P5_VERSION}.done",
 
 
 rule phase5_mapping:
     input:
-        f"{WORK}/stages/phase5_mapping_cohort.done",
+        f"{WORK}/stages/phase5_mapping_cohort_{P5_VERSION}.done",

@@ -4,6 +4,11 @@
 suppressPackageStartupMessages({library(phyloseq); library(data.table)})
 args <- commandArgs(trailingOnly = TRUE)
 matches <- fread(args[1])
+# One row per ASV: its best-matching species cluster(s); ties are joined with ",".
+matches <- matches[, .(identity = max(identity)), by = .(library, asv, species_cluster)]
+matches <- matches[, .SD[identity == max(identity)], by = .(library, asv)]
+matches <- matches[, .(species_cluster = paste(sort(species_cluster), collapse = ","), identity = identity[1]),
+                   by = .(library, asv)]
 libraries <- args[-(1:3)]
 rows <- list()
 for (path in libraries) {

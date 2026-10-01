@@ -9,6 +9,8 @@ set -euo pipefail
 
 PROJECT="${SIPH_ASSOCIATES_PROJECT:?missing SIPH_ASSOCIATES_PROJECT}"
 TARGET="${SIPH_ASSOCIATES_TARGET:?missing SIPH_ASSOCIATES_TARGET}"
+# A space-separated TARGET requests several targets in one DAG.
+read -ra TARGETS <<< "$TARGET"
 CONFIG="${SIPH_ASSOCIATES_CONFIG:?missing SIPH_ASSOCIATES_CONFIG}"
 SNAKEMAKE=/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/snakemake
 CONDA_BIN=/vast/palmer/apps/avx2/software/miniconda/24.7.1/condabin
@@ -26,7 +28,7 @@ mkdir -p "$XDG_CACHE_HOME" "$CONDA_PKGS_DIRS"
 # retaining nomination rows from all 205 libraries; give the finishing job
 # sufficient headroom without changing any analytical input or parameter.
 exec "$SNAKEMAKE" \
-    "$TARGET" \
+    "${TARGETS[@]}" \
     --profile profiles/slurm \
     --configfile "$CONFIG" \
     --set-resources \

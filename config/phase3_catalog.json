@@ -17,7 +17,9 @@
     "dereplication": {
       "ani_min": 95,
       "align_fraction_min": 50,
-      "representative_score": "completeness - 5 * contamination"
+      "representative_score": "completeness - 5 * contamination",
+      "align_fraction_rule": "at_least_one",
+      "align_fraction_note": "amended 2026-09-30 (approved by Casey Dunn): at least one genome of the pair must be >= align_fraction_min aligned; requiring both split same-species pairs (95.8-99.5% ANI) whenever one MAG was incomplete"
     }
   },
   "viruses": {

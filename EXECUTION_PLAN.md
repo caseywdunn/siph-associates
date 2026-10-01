@@ -274,7 +274,7 @@ carry source-library and method provenance.
 
 ### Phase 4 — build frozen pooled catalogs
 
-**Status: v1 accepted (2026-09-28).** The bacterial/archaeal catalog has 457
+**Status: v2 in progress (2026-09-30)** — species rule amended (≥50% alignment of at least one genome); v1 kept for comparison. **v1 accepted (2026-09-28).** The bacterial/archaeal catalog has 457
 genomes (427 sylph-nominated references and 30 MAG species) plus 20 decoys.
 The viral catalogs have 319 associate vOTUs and 153 endogenous-candidate
 clusters. There are 6 CRISPR host links. Decisions and the NCBI-substitution
@@ -298,7 +298,7 @@ positive/negative/decoy mapping tests support the chosen presence rules.
 
 ### Phase 5 — uniform validation and quantification
 
-**Status: accepted (2026-09-29).** All 205 libraries were mapped against
+**Status: v1 accepted (2026-09-29); v2 remap in progress (2026-09-30).** All 205 libraries were mapped against
 catalog v1. Presence rules were locked from controls: bacteria validated at
 ≥10% breadth and ≥100 reads (38/38 MAG positives, 0/4,100 decoy pairs);
 viruses present at ≥75% breadth. See `docs/phase5_presence_decisions.md`.
@@ -315,7 +315,7 @@ are treated as hypotheses that may be confirmed or overturned.
 
 ### Phase 6 — statistical analysis and robustness
 
-**Status: analyses complete (2026-09-30).** The pre-specified plan is in
+**Status: v1 analyses complete (2026-09-30); v2 rerun in progress.** The pre-specified plan is in
 `docs/phase6_analysis_plan.md`, including one approved deviation (per-taxon
 region test by within-flowcell permutation). All tables regenerate from the
 `phase6_analysis` target; publication figures are still to be generated.

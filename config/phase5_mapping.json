@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "approved": "2026-09-28",
-  "catalog_version": "v1",
+  "catalog_version": "v2",
   "read_source": {
     "reference_bearing": "Phase-3 host-depleted cohort inputs (all trimmed pairs minus host)",
     "reference_free": "full capped trimmed reads regenerated with the locked Phase-2 fastp settings and cap, deleted after mapping"

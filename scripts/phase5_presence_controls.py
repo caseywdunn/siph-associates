@@ -4,7 +4,7 @@
 Positives: every Phase-3 MAG species in the library it was assembled from (via the
 catalog genome that represents it). Negatives: the 20 decoy genomes in every
 library. Writes the tables used to lock the presence rule to
-data/results/phase5_mapping/<scope>/presence_controls/.
+data/results/phase5_mapping/<version>/<scope>/presence_controls/.
 """
 from __future__ import annotations
 
@@ -18,8 +18,9 @@ ROOT = Path(__file__).resolve().parent.parent
 RESULTS = ROOT / "data" / "results"
 parser = argparse.ArgumentParser()
 parser.add_argument("--scope", choices=("pilot", "cohort"), default="cohort")
+parser.add_argument("--version", default="v2", help="catalog version")
 args = parser.parse_args()
-OUT = RESULTS / "phase5_mapping" / args.scope / "presence_controls"
+OUT = RESULTS / "phase5_mapping" / args.version / args.scope / "presence_controls"
 
 
 def rows(path):
@@ -38,7 +39,7 @@ def write(name, header, records):
         print("\t".join(str(v) for v in record))
 
 
-manifest = rows(RESULTS / "phase4_catalog" / "v1" / "bacterial_catalog.manifest.tsv")
+manifest = rows(RESULTS / "phase4_catalog" / args.version / "bacterial_catalog.manifest.tsv")
 mags = {r["species_cluster"]: r for r in rows(RESULTS / "phase3_catalog" / "mags" / "mag_catalog.tsv")
         if r["catalog_status"] == "retained" and r["mag_id"] == r["representative"]}
 # Map each MAG species to the catalog genome that represents it (itself or a reference).
@@ -47,7 +48,7 @@ for entry in manifest:
     if entry["status"] == "representative":
         for member in entry["cluster_members"].split(","):
             representative_of[member] = entry["catalog_id"]
-coverage = {(r["sample_id"], r["target_id"]): r for r in rows(RESULTS / "phase5_mapping" / args.scope /
+coverage = {(r["sample_id"], r["target_id"]): r for r in rows(RESULTS / "phase5_mapping" / args.version / args.scope /
                                                              "bacterial_coverage.tsv")}
 samples = sorted({s for s, _ in coverage})
 decoys = sorted(e["catalog_id"] for e in manifest if e["role"] == "decoy" and e["catalog_id"])
@@ -115,9 +116,9 @@ write("bacterial_breadth_bands.tsv", ["breadth", "genome_library_pairs"],
       [[label, sum((b == 0) if label == "0" else (lo <= b < hi) for b in real)] for lo, hi, label in bands])
 
 # Viruses: each associate vOTU in the library its representative came from.
-viral = {(r["sample_id"], r["target_id"]): r for r in rows(RESULTS / "phase5_mapping" / args.scope /
+viral = {(r["sample_id"], r["target_id"]): r for r in rows(RESULTS / "phase5_mapping" / args.version / args.scope /
                                                            "viral_coverage.tsv")}
-votus = rows(RESULTS / "phase4_catalog" / "v1" / "viral_associate.manifest.tsv")
+votus = rows(RESULTS / "phase4_catalog" / args.version / "viral_associate.manifest.tsv")
 reps = {v["representative_contig"]: v["votu_id"] for v in votus}
 shared = {}
 for r in rows(RESULTS / "phase3_catalog" / "votus" / "associate.ani.tsv"):

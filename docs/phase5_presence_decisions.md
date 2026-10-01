@@ -4,7 +4,7 @@ Approved by Casey Dunn on 2026-09-29, after cohort mapping against catalog v1
 and before any presence was interpreted. The rules are frozen in
 `config/phase5_presence.json`. The control tables are regenerated from
 accepted mapping outputs with `python3 scripts/phase5_presence_controls.py`,
-which writes to `data/results/phase5_mapping/cohort/presence_controls/`.
+which writes to `data/results/phase5_mapping/<version>/cohort/presence_controls/`.
 
 The mapping filters were fixed before mapping (`config/phase5_mapping.json`):
 bwa-mem `-M -T60`; primary, properly paired alignments at MAPQ ≥30;

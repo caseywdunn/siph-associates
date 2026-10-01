@@ -54,7 +54,7 @@ placements = {r["user_genome"]: r["classification"] for path in args.oceandna_gt
 domains = {f"d__{d}" for d in qc["oceandna_require_gtdbtk_domains"]}
 
 
-# Pairwise ANI: species links need both alignment fractions; decoy exclusion uses ANI alone.
+# Pairwise ANI: species links also need the alignment-fraction rule; decoy exclusion uses ANI alone.
 species_links, near = defaultdict(set), defaultdict(set)
 stem = lambda path: Path(path).name.removesuffix(".fa")
 pair_ani = {}
@@ -64,8 +64,10 @@ for row in rows(args.ani):
     if ani >= decoy_rules["exclude_within_ani_of_catalog"]:
         near[a].add(b)
         near[b].add(a)
-    if ani >= derep["ani_min"] and min(float(row["Align_fraction_ref"]),
-                                       float(row["Align_fraction_query"])) >= derep["align_fraction_min"]:
+    fractions = (float(row["Align_fraction_ref"]), float(row["Align_fraction_query"]))
+    # "at_least_one": an incomplete MAG cannot cover its partner, so require coverage of one genome only.
+    covered = max(fractions) if derep.get("align_fraction_rule") == "at_least_one" else min(fractions)
+    if ani >= derep["ani_min"] and covered >= derep["align_fraction_min"]:
         species_links[a].add(b)
         species_links[b].add(a)
 

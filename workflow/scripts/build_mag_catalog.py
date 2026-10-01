@@ -41,12 +41,14 @@ for mag in mags:
     placed = mag["gtdb_classification"].split(";")[0] in domains
     mag["catalog_status"] = "retained" if placed else "excluded_no_prokaryotic_placement"
 
-# Pairwise ANI among candidates; both alignment fractions must meet the minimum.
+# Pairwise ANI among candidates; species links also need the configured alignment-fraction rule.
 linked = defaultdict(set)
 for row in rows(args.ani):
     a, b = Path(row["Ref_file"]).name[:-3], Path(row["Query_file"]).name[:-3]
-    if (float(row["ANI"]) >= ani_min and float(row["Align_fraction_ref"]) >= af_min
-            and float(row["Align_fraction_query"]) >= af_min):
+    fractions = (float(row["Align_fraction_ref"]), float(row["Align_fraction_query"]))
+    # "at_least_one": an incomplete MAG cannot cover its partner, so require coverage of one genome only.
+    covered = max(fractions) if rules["dereplication"].get("align_fraction_rule") == "at_least_one" else min(fractions)
+    if float(row["ANI"]) >= ani_min and covered >= af_min:
         linked[a].add(b)
         linked[b].add(a)
 

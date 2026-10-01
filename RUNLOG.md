@@ -1,5 +1,35 @@
 # Run log
 
+## 2026-09-30 — Catalog v2: amended species rule, full rebuild submitted
+
+- Finding: the Mycoplasmatales phylogeny showed species-level pairs at
+  98.4–99.5% ANI held apart. The "both genomes ≥50% aligned" rule splits a
+  species whenever one MAG is incomplete; catalog v1 had 10 same-species
+  representative pairs (7 MAG–MAG), including the 138-library *Physalia*
+  symbiont.
+- Decision (approved by Casey Dunn): ≥95% ANI with ≥50% alignment of at least
+  one genome (`align_fraction_rule: at_least_one` in
+  `config/phase3_catalog.json` and `config/phase4_catalog.json`); rebuild as
+  catalog v2 with a full remap. Preview of the Phase-3 step: 38 → 32 MAG
+  species (single linkage also 32).
+- Versioning: Phase-5 and Phase-6 catalog-dependent outputs and sentinels now
+  live under `<stage>/<catalog_version>/` and `stages/<stage>_<version>.done`.
+  v1 outputs were moved there unchanged (`phase5_mapping/v1/`,
+  `phase6_analysis/v1/`, `phase3_catalog/mags/v1/`,
+  `mycoplasmatales_phylogeny_v1/`, v1 logs as `logs_v1.tar.gz`).
+- Cascade control: config JSONs are declared inputs of every rule in their
+  stage, so the edit made Snakemake schedule MAG GTDB-Tk, reference QC and
+  vOTU clustering, none of which read the dereplication keys. The mtimes of
+  `config/phase3_catalog.json`, `phase4_catalog.json` and `phase5_mapping.json`
+  were reset to their last-commit times (`touch -d`); every rule that reads the
+  changed keys has missing or new-path outputs and reruns regardless.
+  Dry run: 1,195 jobs (catalog rebuild, 205 × bacterial/viral remap,
+  sensitivity remaps, analyses, phylogeny, 16S), no Phase 2/3 assembly reruns.
+- 16S stage (controller `11554024`) failed at the host summary: ASVs matching
+  several MAG 16S genes duplicated rows in the merge. Fixed by keeping each
+  ASV's best-matching species cluster(s); rerun under v2.
+- The controller now accepts a space-separated list of targets.
+
 ## 2026-09-30 — Eukaryote gate complete
 
 - `eukaryote_gate` (controllers `11532045`, `11532516`, `11550709`; commits

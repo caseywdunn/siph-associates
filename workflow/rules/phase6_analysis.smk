@@ -18,10 +18,11 @@ Next: Phase 7 freezes the publication tables and audits reproducibility.
 """
 
 P6 = f"{WORK}/phase6_analysis"
+P6V = f"{P6}/{PHASE5['catalog_version']}"  # catalog-dependent outputs
 P6_TOOLS = f"{PHASE5['tool_prefixes']['mapping']}/bin"
 P6_STATS = f"{PHASE6['software']['stats_prefix']}/bin"
 P6_CATALOG = f"{WORK}/phase4_catalog/{PHASE5['catalog_version']}"
-P6_COHORT = f"{WORK}/phase5_mapping/cohort"
+P6_COHORT = f"{WORK}/phase5_mapping/{PHASE5['catalog_version']}/cohort"
 
 wildcard_constraints:
     variant="full_reads|uncapped",
@@ -32,7 +33,7 @@ rule index_catalog_minimap2:
     input:
         f"{P6_CATALOG}/bacterial_catalog.fna",
     output:
-        f"{P6}/assembly_support/bacterial_catalog.asm5.mmi",
+        f"{P6V}/assembly_support/bacterial_catalog.asm5.mmi",
     params:
         tools=P6_TOOLS,
     log:
@@ -53,9 +54,9 @@ rule index_catalog_minimap2:
 rule align_assembly_catalog_minimap2:
     input:
         contigs=f"{WORK}/phase3_cohort/assemblies/{{sample}}.fasta",
-        index=f"{P6}/assembly_support/bacterial_catalog.asm5.mmi",
+        index=f"{P6V}/assembly_support/bacterial_catalog.asm5.mmi",
     output:
-        f"{P6}/assembly_support/{{sample}}.paf",
+        f"{P6V}/assembly_support/{{sample}}.paf",
     params:
         tools=P6_TOOLS,
     log:
@@ -109,8 +110,8 @@ rule map_reads_sensitivity_bwa:
         r2=lambda wildcards: phase6_sensitivity_reads(wildcards, 2),
         index=phase6_index,
     output:
-        bam=f"{P6}/sensitivity/{{variant}}/bam/{{kind}}/{{sample}}.bam",
-        bai=f"{P6}/sensitivity/{{variant}}/bam/{{kind}}/{{sample}}.bam.bai",
+        bam=f"{P6V}/sensitivity/{{variant}}/bam/{{kind}}/{{sample}}.bam",
+        bai=f"{P6V}/sensitivity/{{variant}}/bam/{{kind}}/{{sample}}.bam.bai",
     params:
         tools=P6_TOOLS,
         index=lambda wildcards, input: input.index[0].removesuffix(".amb"),
@@ -148,10 +149,10 @@ rule map_reads_sensitivity_bwa:
 
 rule summarize_sensitivity_coverage_coverm:
     input:
-        bam=f"{P6}/sensitivity/{{variant}}/bam/{{kind}}/{{sample}}.bam",
-        bai=f"{P6}/sensitivity/{{variant}}/bam/{{kind}}/{{sample}}.bam.bai",
+        bam=f"{P6V}/sensitivity/{{variant}}/bam/{{kind}}/{{sample}}.bam",
+        bai=f"{P6V}/sensitivity/{{variant}}/bam/{{kind}}/{{sample}}.bam.bai",
     output:
-        f"{P6}/sensitivity/{{variant}}/coverage/{{kind}}/{{sample}}.tsv",
+        f"{P6V}/sensitivity/{{variant}}/coverage/{{kind}}/{{sample}}.tsv",
     params:
         tools=P6_TOOLS,
         mode=lambda wildcards: "genome --separator '|' --min-covered-fraction 0" if wildcards.kind == "bacterial" else "contig",
@@ -186,10 +187,10 @@ rule grade_presences:
         nominated=f"{WORK}/phase4_catalog/references/nominated.tsv",
         mags=f"{WORK}/phase3_catalog/mags/mag_catalog.tsv",
         votus=[f"{WORK}/phase3_catalog/votus/{c}.votus.tsv" for c in ("associate", "endogenous_candidate")],
-        support=expand(f"{P6}/assembly_support/{{sample}}.paf", sample=ASSEMBLY_IDS),
+        support=expand(f"{P6V}/assembly_support/{{sample}}.paf", sample=ASSEMBLY_IDS),
     output:
-        bacterial=f"{P6}/grades/bacterial_grades.tsv",
-        viral=f"{P6}/grades/viral_grades.tsv",
+        bacterial=f"{P6V}/grades/bacterial_grades.tsv",
+        viral=f"{P6V}/grades/viral_grades.tsv",
     params:
         support_dir=lambda wildcards, input: str(Path(input.support[0]).parent),
     log:
@@ -213,10 +214,10 @@ rule test_contamination_flowcell:
     input:
         script="workflow/scripts/test_contamination_flowcell.py",
         analysis=str(PHASE6_CONFIG_PATH),
-        grades=f"{P6}/grades/bacterial_grades.tsv",
+        grades=f"{P6V}/grades/bacterial_grades.tsv",
         manifest=config["manifest"],
     output:
-        f"{P6}/grades/contamination_tests.tsv",
+        f"{P6V}/grades/contamination_tests.tsv",
     log:
         f"{WORK}/logs/phase6_analysis/test_contamination_flowcell.log",
     threads: 1
@@ -234,17 +235,17 @@ rule test_contamination_flowcell:
 rule summarize_incidence:
     input:
         script="workflow/scripts/summarize_incidence.py",
-        bacterial=f"{P6}/grades/bacterial_grades.tsv",
-        viral=f"{P6}/grades/viral_grades.tsv",
-        contamination=f"{P6}/grades/contamination_tests.tsv",
+        bacterial=f"{P6V}/grades/bacterial_grades.tsv",
+        viral=f"{P6V}/grades/viral_grades.tsv",
+        contamination=f"{P6V}/grades/contamination_tests.tsv",
         manifest=config["manifest"],
         samples=config["samples"],
         links=f"{P6_CATALOG}/crispr/host_links.tsv",
     output:
-        bacterial=f"{P6}/primary/bacterial_incidence.tsv",
-        viral=f"{P6}/primary/viral_incidence.tsv",
-        grades=f"{P6}/primary/grade_summary.tsv",
-        links=f"{P6}/primary/phage_host_links.tsv",
+        bacterial=f"{P6V}/primary/bacterial_incidence.tsv",
+        viral=f"{P6V}/primary/viral_incidence.tsv",
+        grades=f"{P6V}/primary/grade_summary.tsv",
+        links=f"{P6V}/primary/phage_host_links.tsv",
     log:
         f"{WORK}/logs/phase6_analysis/summarize_incidence.log",
     threads: 1
@@ -266,14 +267,14 @@ rule fit_physalia_models_lme4:
     input:
         script="workflow/scripts/fit_physalia_models.R",
         analysis=str(PHASE6_CONFIG_PATH),
-        grades=f"{P6}/grades/bacterial_grades.tsv",
+        grades=f"{P6V}/grades/bacterial_grades.tsv",
         libraries=f"{P6_COHORT}/library_mapping.tsv",
         manifest=config["manifest"],
     output:
-        design=f"{P6}/primary/physalia_design.tsv",
-        models=f"{P6}/primary/physalia_models.tsv",
-        permanova=f"{P6}/primary/physalia_permanova.tsv",
-        permutation=f"{P6}/primary/physalia_region_permutation.tsv",
+        design=f"{P6V}/primary/physalia_design.tsv",
+        models=f"{P6V}/primary/physalia_models.tsv",
+        permanova=f"{P6V}/primary/physalia_permanova.tsv",
+        permutation=f"{P6V}/primary/physalia_region_permutation.tsv",
     params:
         stats=P6_STATS,
     log:
@@ -295,18 +296,18 @@ rule compare_sensitivity_analyses:
         script="workflow/scripts/compare_sensitivity.py",
         presence=str(ROOT / "config" / "phase5_presence.json"),
         subsets=str(ROOT / "config" / "phase6_subsets.tsv"),
-        grades=f"{P6}/grades/bacterial_grades.tsv",
+        grades=f"{P6V}/grades/bacterial_grades.tsv",
         cohort_viral=f"{P6_COHORT}/viral_coverage.tsv",
         nominated=f"{WORK}/phase4_catalog/references/nominated.tsv",
         catalog=f"{P6_CATALOG}/bacterial_catalog.manifest.tsv",
         manifest=config["manifest"],
-        coverage=[f"{P6}/sensitivity/{v}/coverage/{k}/{s}.tsv" for v, s in PHASE6_SENSITIVITY
+        coverage=[f"{P6V}/sensitivity/{v}/coverage/{k}/{s}.tsv" for v, s in PHASE6_SENSITIVITY
                   for k in ("bacterial", "viral")],
     output:
-        thresholds=f"{P6}/sensitivity/threshold_sensitivity.tsv",
-        host_handling=f"{P6}/sensitivity/host_handling_concordance.tsv",
-        capping=f"{P6}/sensitivity/capping_concordance.tsv",
-        loso=f"{P6}/sensitivity/leave_one_study_out.tsv",
+        thresholds=f"{P6V}/sensitivity/threshold_sensitivity.tsv",
+        host_handling=f"{P6V}/sensitivity/host_handling_concordance.tsv",
+        capping=f"{P6V}/sensitivity/capping_concordance.tsv",
+        loso=f"{P6V}/sensitivity/leave_one_study_out.tsv",
     params:
         sensitivity_dir=lambda wildcards, output: str(Path(output.thresholds).parent),
     log:
@@ -329,16 +330,16 @@ rule compare_sensitivity_analyses:
 rule validate_phase6:
     input:
         script="workflow/scripts/validate_phase6.py",
-        bacterial=f"{P6}/grades/bacterial_grades.tsv",
-        viral=f"{P6}/grades/viral_grades.tsv",
-        contamination=f"{P6}/grades/contamination_tests.tsv",
-        primary=[f"{P6}/primary/{name}.tsv" for name in ("bacterial_incidence", "viral_incidence", "grade_summary",
+        bacterial=f"{P6V}/grades/bacterial_grades.tsv",
+        viral=f"{P6V}/grades/viral_grades.tsv",
+        contamination=f"{P6V}/grades/contamination_tests.tsv",
+        primary=[f"{P6V}/primary/{name}.tsv" for name in ("bacterial_incidence", "viral_incidence", "grade_summary",
                                                          "phage_host_links", "physalia_design", "physalia_models",
                                                          "physalia_permanova", "physalia_region_permutation")],
-        sensitivity=[f"{P6}/sensitivity/{name}.tsv" for name in ("threshold_sensitivity", "host_handling_concordance",
+        sensitivity=[f"{P6V}/sensitivity/{name}.tsv" for name in ("threshold_sensitivity", "host_handling_concordance",
                                                                  "capping_concordance", "leave_one_study_out")],
     output:
-        f"{WORK}/stages/phase6_analysis.done",
+        f"{WORK}/stages/phase6_analysis_{PHASE5['catalog_version']}.done",
     log:
         f"{WORK}/logs/phase6_analysis/validate_phase6.log",
     threads: 1
@@ -356,4 +357,4 @@ rule validate_phase6:
 
 rule phase6_analysis:
     input:
-        f"{WORK}/stages/phase6_analysis.done",
+        f"{WORK}/stages/phase6_analysis_{PHASE5['catalog_version']}.done",

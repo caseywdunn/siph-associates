@@ -76,6 +76,28 @@ marker genes. They are eukaryotic bins that CheckM2 cannot recognize, and the
 evidence estimate above counted them. The catalog therefore holds 107 MAGs in
 38 species by greedy centroid clustering (35 by single linkage).
 
+**Amendment (2026-09-30, approved by Casey Dunn): catalog v2.**
+- **Rule.** A pair is the same species at ≥95% ANI when *at least one* genome
+  of the pair is ≥50% aligned (`align_fraction_rule: at_least_one`), instead of
+  both.
+- **Why.** The Mycoplasmatales phylogeny showed MAGs at 98.4–99.5% ANI kept as
+  separate species. An incomplete MAG cannot cover 50% of its more complete
+  partner, so requiring both fractions split a species whenever one member was
+  partial. In catalog v1 this left 10 same-species representative pairs
+  (7 MAG–MAG), including the 138-library *Physalia* symbiont. Reads were
+  split between them, which lowers breadth and inflates breadth-ratio
+  (divergent-strain) calls.
+- **The earlier concern still holds.** The 10% sensitivity row above merged
+  large Church2025 clusters through partial alignment of *both* genomes; the
+  amended rule still requires 50% coverage of one genome, and greedy
+  clustering is unchanged.
+- **Result.** 107 MAGs in 32 species; single linkage also gives 32, so
+  representatives no longer link species that greedy clustering separates.
+  Six v1 species merge: three clade-A *Physalia* Metamycoplasmataceae into one,
+  two pairs in clade B, one DT-91 pair, and one *Cognatishimia* pair.
+- **Versioning.** The v1 catalog is kept in `phase3_catalog/mags/v1/`; all
+  downstream results are rebuilt as catalog v2 with v1 kept under `v1/`.
+
 ## 3. Viral inclusion
 
 **Decision.** A geNomad viral contig enters the vOTU catalog only if it has at

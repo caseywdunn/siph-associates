@@ -104,6 +104,14 @@ species have no reference and enter only as MAGs.
   substitutes: 7 identical GenBank records for suppressed RefSeq entries and
   3 newer versions.
 
+**Amendment (2026-09-30, approved by Casey Dunn): catalog v2.** Pooling uses
+the amended Phase-3 species rule: ≥95% ANI with ≥50% alignment of at least one
+genome of the pair (see `docs/phase3_qc_decisions.md` §2). Requiring both
+fractions left 10 same-species pairs among v1 representatives (7 MAG–MAG),
+which split reads between genomes of one species. All of v1 is kept unchanged
+under `phase4_catalog/v1/`; catalog v2 requires a complete remap (Phase 5) and
+reanalysis (Phase 6), per the versioning rule in EXECUTION_PLAN.md.
+
 ## 3. Presence-rule controls
 
 **Decision.** Build the controls into the frozen catalog. Lock the presence

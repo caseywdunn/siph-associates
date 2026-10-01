@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalog_version": "v1",
+  "catalog_version": "v2",
   "decision_record": "docs/phase4_catalog_decisions.md",
   "approved": "2026-09-27",
   "nomination": {
@@ -40,7 +40,9 @@
     "ani_min": 95,
     "align_fraction_min": 50,
     "representative_score": "completeness - 5 * contamination",
-    "representative_pool": "cohort MAG species representatives and screened references"
+    "representative_pool": "cohort MAG species representatives and screened references",
+    "align_fraction_rule": "at_least_one",
+    "align_fraction_note": "amended 2026-09-30 (approved by Casey Dunn): at least one genome of the pair must be >= align_fraction_min aligned; requiring both split same-species pairs (95.8-99.5% ANI) whenever one MAG was incomplete"
   },
   "decoys": {
     "purpose": "lineages implausible in marine animal tissue; estimate false-positive breadth under identical mapping filters",
@@ -134,5 +136,6 @@
       "runtime": 120,
       "partition": "day"
     }
-  }
+  },
+  "catalog_version_note": "v2 (2026-09-30) applies the amended species rule; v1 outputs are retained unchanged"
 }
