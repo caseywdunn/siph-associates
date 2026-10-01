@@ -136,7 +136,8 @@ rule summarize_matching_asv_hosts:
         f"{WORK}/logs/cnidarian_16s/summarize.log",
     threads: 1
     resources:
-        **phase4_resources("summary"),
+        # Loading all six phyloseq libraries needs more than the 16 GB summary default.
+        **{**phase4_resources("summary"), "mem_mb": 48000},
     conda:
         "../../envs/workflow.yaml"
     shell:
