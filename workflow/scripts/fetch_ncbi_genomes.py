@@ -49,7 +49,8 @@ with open(args.table, newline="") as handle:
         expected = next(line.split()[0] for line in checksums.read_text().splitlines() if line.endswith(f"/{name}"))
         if digest(archive, "md5") != expected:
             raise SystemExit(f"MD5 mismatch for {name}")
-        fasta = args.genomes / f"{row['accession']}.fa"
+        # A prefix keeps user genomes distinct from GTDB references with the same accession.
+        fasta = args.genomes / f"EXT_{row['accession']}.fa"
         with gzip.open(archive, "rb") as src, open(fasta, "wb") as dst:
             shutil.copyfileobj(src, dst)
         archive.unlink()

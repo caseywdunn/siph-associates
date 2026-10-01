@@ -45,17 +45,18 @@ for mag in rows(args.mag_catalog):
                        "completeness": mag["completeness"], "contamination": mag["contamination"], "status": "included"})
 for ext in rows(args.external):
     accession = ext["accession"]
-    q = quality.get(accession, {})
+    name = f"EXT_{accession}"
+    q = quality.get(name, {})
     completeness = float(q.get("Completeness", 0) or 0)
-    classification = placement.get(accession, "not_placed")
+    classification = placement.get(name, "not_placed")
     if f"o__{args.order}" not in classification:
         status = "excluded_outside_order"
     elif completeness < args.min_completeness:
         status = "excluded_low_completeness"
     else:
         status = "included"
-        shutil.copyfile(args.external_genomes / f"{accession}.fa", args.genomes / f"{accession}.fa")
-    labels.append({"genome": accession, "group": ext["reason"], "host_or_source": ext["host_or_source"],
+        shutil.copyfile(args.external_genomes / f"{name}.fa", args.genomes / f"{name}.fa")
+    labels.append({"genome": name, "group": ext["reason"], "host_or_source": ext["host_or_source"],
                    "classification": classification, "completeness": q.get("Completeness", ""),
                    "contamination": q.get("Contamination", ""), "status": status})
 
