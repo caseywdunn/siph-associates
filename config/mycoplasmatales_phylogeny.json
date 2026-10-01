@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "purpose": "place the siphonophore Mycoplasmatales MAG species among GTDB r220 Mycoplasmatales and Mollicutes from cnidarian and planktonic hosts",
+  "external_genomes": "config/mycoplasmatales_external.tsv",
+  "order": "Mycoplasmatales",
+  "min_completeness": 50,
+  "gtdbtk_de_novo": {
+    "markers": "bac120",
+    "taxa_filter": "o__Mycoplasmatales,f__Acholeplasmataceae",
+    "outgroup_taxon": "f__Acholeplasmataceae",
+    "tree": "FastTree (GTDB-Tk de_novo_wf default, WAG+GAMMA)"
+  }
+}

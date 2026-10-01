@@ -41,6 +41,7 @@ include: "workflow/rules/phase4_catalog.smk"
 include: "workflow/rules/phase5_mapping.smk"
 include: "workflow/rules/phase6_analysis.smk"
 include: "workflow/rules/eukaryote_gate.smk"
+include: "workflow/rules/mycoplasmatales_phylogeny.smk"
 
 
 rule all:
