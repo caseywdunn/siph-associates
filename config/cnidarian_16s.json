@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "purpose": "where across Cnidaria do 16S variants matching the siphonophore Mycoplasmatales occur",
+  "database": {
+    "source": "McCauley et al. 2023 Nat Commun 14:4899, Cnidarian Microbiome Database (figshare project 158957)",
+    "files": {
+      "V1V2": {"figshare_file": 41046017, "md5": "52d37dff36dc725b23378b7d6d0e6a3d"},
+      "V3": {"figshare_file": 41046038, "md5": "c7b8d0d6bd39c03bc2e96f14a7bd5a85"},
+      "V4": {"figshare_file": 41046041, "md5": "942e0adf7c30776efe9d509cddaaf596"},
+      "V4p": {"figshare_file": 41046044, "md5": "10ed017dc136c6ffb0cdfda0b460309e"},
+      "V5V6": {"figshare_file": 41046053, "md5": "c0cce212c8e8b555340cea660cdb4d17"},
+      "V7V8": {"figshare_file": 41046056, "md5": "f5f41ee16efa828bcc3e42c247b88b00"}
+    },
+    "metadata": {"figshare_file": 39074174, "md5": "8c5d275433ba02026cb0e5b4cd081672"}
+  },
+  "mag_16s_min_length": 1200,
+  "match": {"min_identity": 0.97, "query_coverage": 1.0, "report_identity_100": true},
+  "tool_prefixes": {
+    "phyloseq": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/phyloseq_env",
+    "vsearch": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/phyloflash_env"
+  }
+}

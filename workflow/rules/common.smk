@@ -258,6 +258,7 @@ _target_paths = {
     "phase6_analysis": f"{WORK}/stages/phase6_analysis.done",
     "eukaryote_evidence": f"{WORK}/eukaryote_gate/read_lineages.tsv",
     "mycoplasmatales_phylogeny": f"{WORK}/mycoplasmatales_phylogeny/mycoplasmatales.bac120.decorated.tree",
+    "cnidarian_16s": f"{WORK}/cnidarian_16s/matching_asv_hosts.tsv",
 }
 if _target not in _target_paths:
     raise WorkflowError(f"unknown default_target: {_target}")
