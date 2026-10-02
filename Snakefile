@@ -42,6 +42,7 @@ include: "workflow/rules/phase5_mapping.smk"
 include: "workflow/rules/phase6_analysis.smk"
 include: "workflow/rules/eukaryote_gate.smk"
 include: "workflow/rules/mycoplasmatales_phylogeny.smk"
+include: "workflow/rules/mycoplasmatales_gene_content.smk"
 include: "workflow/rules/cnidarian_16s.smk"
 
 

@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "purpose": "compare predicted gene content of the siphonophore Metamycoplasmataceae with host-associated and GTDB r220 relatives",
+  "analysis_plan": "docs/mycoplasmatales_gene_content_plan.md",
+  "approved": "2026-10-02",
+  "catalog_version": "v2",
+  "family": "Metamycoplasmataceae",
+  "genetic_code": 4,
+  "near_complete": {
+    "min_completeness": 90,
+    "max_contamination": 5,
+    "note": "MIMAG high-quality completeness and contamination; only these genomes support absence statements"
+  },
+  "min_completeness_included": 50,
+  "max_contamination_included": 10,
+  "lineages": {
+    "siphonophore clade A": [
+      "MAGSP0005"
+    ],
+    "siphonophore clade B": [
+      "MAGSP0007",
+      "MAGSP0010",
+      "MAGSP0029",
+      "MAGSP0031"
+    ],
+    "Nanomia/Resomia DT-68": [
+      "MAGSP0011"
+    ],
+    "Nanomia Mycoplasma_K": [
+      "MAGSP0012"
+    ]
+  },
+  "module_complete_min": 100,
+  "kofam": {
+    "profiles_url": "https://www.genome.jp/ftp/db/kofam/profiles.tar.gz",
+    "ko_list_url": "https://www.genome.jp/ftp/db/kofam/ko_list.gz",
+    "release_note": "KOfam release current on 2026-10-02 (profiles Last-Modified 2026-09-29, ko_list 2026-09-24); SHA-256 recorded at download",
+    "assignment": "KofamScan adaptive thresholds: a protein is assigned the KO only when its score meets the profile threshold (marked '*')"
+  },
+  "focal_kos": {
+    "arginine deiminase pathway": [
+      "K01478",
+      "K00611",
+      "K00926"
+    ],
+    "glycerol uptake and H2O2 (glpF, glpK, glpO/glpD)": [
+      "K02440",
+      "K00864",
+      "K00105",
+      "K00111"
+    ],
+    "urease": [
+      "K01428",
+      "K01429",
+      "K01430"
+    ],
+    "lactate dehydrogenase": [
+      "K00016"
+    ],
+    "acetate kinase / phosphotransacetylase": [
+      "K00925",
+      "K00625"
+    ],
+    "pyruvate dehydrogenase E1-E3": [
+      "K00161",
+      "K00162",
+      "K00627",
+      "K00382"
+    ],
+    "sialidase and sialic acid use (nanH, nanA, nanE, nanK)": [
+      "K01186",
+      "K01639",
+      "K01788",
+      "K00885"
+    ],
+    "chitinase / chitobiase": [
+      "K01183",
+      "K12373",
+      "K01207"
+    ],
+    "CRISPR-Cas (cas1, cas2, cas9, csn2)": [
+      "K15342",
+      "K09951",
+      "K09952",
+      "K19137"
+    ],
+    "type I/II/III restriction-modification (hsdR, hsdM, hsdS, mod, res)": [
+      "K01153",
+      "K03427",
+      "K01154",
+      "K07316",
+      "K01156"
+    ],
+    "cardiolipin and fatty-acid synthesis (cls, fabH, accA)": [
+      "K06131",
+      "K00648",
+      "K01962"
+    ]
+  },
+  "resources": {
+    "collect": {
+      "threads": 1,
+      "mem_mb": 8000,
+      "runtime": 60,
+      "partition": "day"
+    },
+    "checkm2": {
+      "threads": 16,
+      "mem_mb": 64000,
+      "runtime": 240,
+      "partition": "day"
+    },
+    "download": {
+      "threads": 1,
+      "mem_mb": 4000,
+      "runtime": 120,
+      "partition": "day"
+    },
+    "genes": {
+      "threads": 8,
+      "mem_mb": 16000,
+      "runtime": 120,
+      "partition": "day"
+    },
+    "kofamscan": {
+      "threads": 36,
+      "mem_mb": 96000,
+      "runtime": 1200,
+      "partition": "day"
+    },
+    "summary": {
+      "threads": 1,
+      "mem_mb": 16000,
+      "runtime": 120,
+      "partition": "day"
+    }
+  },
+  "tool_prefixes": {
+    "gene_content": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/gene_content_env"
+  },
+  "gtdb_taxonomy": "taxonomy/bac120_taxonomy_r220_reps.tsv"
+}

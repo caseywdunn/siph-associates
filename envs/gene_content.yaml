@@ -1,0 +1,10 @@
+name: siph-associates-gene-content
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - kofamscan=1.3.0
+  - hmmer=3.4
+  - pyrodigal=3.6
+  - kegg-pathways-completeness=1.3
+  - ruby=3.4.2
+  - parallel=20260922
