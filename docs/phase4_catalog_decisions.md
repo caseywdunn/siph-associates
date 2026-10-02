@@ -112,6 +112,31 @@ which split reads between genomes of one species. All of v1 is kept unchanged
 under `phase4_catalog/v1/`; catalog v2 requires a complete remap (Phase 5) and
 reanalysis (Phase 6), per the versioning rule in EXECUTION_PLAN.md.
 
+**v2 outcome (2026-10-02).** Catalog v2 has 448 genomes: 24 MAG species,
+424 references and 20 decoys. The viral catalogs are unchanged.
+- **A mixed bin.** The v1 genome present in 138 *Physalia* libraries
+  (`BAC00033`, a 54%-complete MAG in 486 contigs) combined the clade-A
+  Metamycoplasmataceae with unrelated sequence. 110 of its contigs align to
+  the complete clade-A genome (`MAGSP0005`). In libraries where only v1
+  called it present, all reads fell on 117 other contigs. Those contigs are
+  16% protein-coding (92% for its *Mycoplasma* contigs) and have no BLASTN
+  (core_nt) or BLASTX (nr) hits. They do not align to the *P. physalis*
+  assembly (GCA_041430235.2), yet recruit reads in 138 of 151 *Physalia*
+  libraries across all five species. They are most likely host sequence
+  absent from that assembly, which therefore escapes host depletion. In v2
+  the bin merges into the complete genome and these contigs leave the
+  catalog: the clade-A species is present in 44 libraries at median breadth
+  0.85, not 138 at 0.34.
+- **Screen of the remaining MAGs.** Contigs <50% coding (Prodigal) make up
+  ≤3.7% of any v2 MAG representative (`BAC00116`, *Xenococcus*, 3.7%;
+  `BAC00006`, 2.3%; all others ≤1%). None align to the *Physalia* assembly.
+  Because presence needs ≥10% breadth, such contigs cannot produce a presence
+  call by themselves. They add about 5% of reads to `BAC00116` and 4% to
+  `BAC00006`. No catalog v3 is needed.
+- **Low-confidence lineage.** `BAC00028` (67%-complete Metamycoplasmataceae,
+  `MAGSP0029`) is present in 9 libraries at median breadth 0.12, with 8
+  divergent-strain calls, and is reported as low confidence.
+
 ## 3. Presence-rule controls
 
 **Decision.** Build the controls into the frozen catalog. Lock the presence

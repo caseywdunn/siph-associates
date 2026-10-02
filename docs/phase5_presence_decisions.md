@@ -108,3 +108,14 @@ actually present would be nearly fully covered.
 - One such pair (VOTU00053 / VOTU00025) is borderline under the MIUViG
   clustering rule. CheckV's `aniclust` evaluates it from the longer sequence,
   where identity is 94.87%, just below 95%, so the two remain separate vOTUs.
+
+## Catalog v2 control check (2026-10-02)
+
+The locked rules were re-checked on catalog v2 before use
+(`python3 scripts/phase5_presence_controls.py --version v2`). At ≥10% breadth
+and ≥100 reads, all 32 MAG positives pass, and 0 of 4,100 decoy–library pairs
+pass; the v1 results were 38/38 and 0/4,100. The rules stand unchanged.
+Divergent-strain calls fall from 254 of 795 presences (32%) in v1 to 34 of 571
+(6%) in v2. Most v1 calls came from species split across several catalog
+genomes and from the mixed `BAC00033` bin (`docs/phase4_catalog_decisions.md`).
+

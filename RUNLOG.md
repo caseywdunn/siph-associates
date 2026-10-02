@@ -1,5 +1,27 @@
 # Run log
 
+## 2026-10-02 — Catalog v2 complete
+
+- Controller `11555682` (24 h): `phase3_catalog`, `phase4_catalog`,
+  `phase5_mapping_cohort_v2` and `phase6_analysis_v2` all PASS, 0 errors. Its
+  only failure was the 16S host summary (out of memory at 16 GB), rerun at
+  48 GB by controller `11712386` (PASS).
+- v2 catalog: 32 MAG species (24 catalog representatives; 12 not assignable to
+  a GTDB r220 genus; 7 Mycoplasmatales), 424 references, 20 decoys.
+- Presence controls on v2: 32/32 MAG positives and 0/4,100 decoy pairs pass the
+  locked rule.
+- Bacterial presences 795 → 571. Mycoplasmatales occur in 67 of 151 *Physalia*
+  libraries, not 138; the most frequent species are in 52, 44 and 22 libraries.
+  Divergent-strain calls fall from 32% to 6% of presences.
+- Cause: the v1 138-library genome `BAC00033` was a mixed bin. Its non-
+  *Mycoplasma* contigs are 16% coding, have no BLASTN/BLASTX hits, and do not
+  align to the *P. physalis* assembly, yet occur in 138 of 151 *Physalia*
+  libraries. They are most likely host sequence missing from the assembly.
+  Remaining v2 MAGs have ≤3.7% low-coding sequence, below the 10% breadth
+  rule; no v3. Details: `docs/phase4_catalog_decisions.md`.
+- *Physalia* models (v2): PERMANOVA region R² = 0.18 (118 libraries; v1 0.20,
+  141). Within-flowcell region permutation: 5 of 8 tested taxa q < 0.05.
+
 ## 2026-09-30 — Catalog v2: amended species rule, full rebuild submitted
 
 - Finding: the Mycoplasmatales phylogeny showed species-level pairs at

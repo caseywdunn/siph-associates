@@ -274,12 +274,14 @@ carry source-library and method provenance.
 
 ### Phase 4 — build frozen pooled catalogs
 
-**Status: v2 in progress (2026-09-30)** — species rule amended (≥50% alignment of at least one genome); v1 kept for comparison. **v1 accepted (2026-09-28).** The bacterial/archaeal catalog has 457
-genomes (427 sylph-nominated references and 30 MAG species) plus 20 decoys.
+**Status: v2 accepted (2026-10-02).** The species rule was amended to require
+≥50% alignment of at least one genome of a pair. The v2 bacterial/archaeal
+catalog has 448 genomes (424 sylph-nominated references and 24 MAG species)
+plus 20 decoys; v1 (457 genomes, accepted 2026-09-28) is kept for comparison.
 The viral catalogs have 319 associate vOTUs and 153 endogenous-candidate
-clusters. There are 6 CRISPR host links. Decisions and the NCBI-substitution
-amendment are in `docs/phase4_catalog_decisions.md`. Eukaryotic marker sets
-remain a separate gate.
+clusters. There are 6 CRISPR host links. Decisions and amendments are in
+`docs/phase4_catalog_decisions.md`. Eukaryotic marker sets are a separate
+gate.
 
 Construct catalogs without study-specific tiers:
 
@@ -298,9 +300,10 @@ positive/negative/decoy mapping tests support the chosen presence rules.
 
 ### Phase 5 — uniform validation and quantification
 
-**Status: v1 accepted (2026-09-29); v2 remap in progress (2026-09-30).** All 205 libraries were mapped against
-catalog v1. Presence rules were locked from controls: bacteria validated at
-≥10% breadth and ≥100 reads (38/38 MAG positives, 0/4,100 decoy pairs);
+**Status: v2 accepted (2026-10-02).** All 205 libraries were mapped against
+catalog v2. Presence rules were locked from v1 controls and re-checked on v2:
+bacteria validated at ≥10% breadth and ≥100 reads (v2: 32/32 MAG positives,
+0/4,100 decoy pairs);
 viruses present at ≥75% breadth. See `docs/phase5_presence_decisions.md`.
 
 Map every library against each applicable frozen catalog using identical
@@ -315,7 +318,7 @@ are treated as hypotheses that may be confirmed or overturned.
 
 ### Phase 6 — statistical analysis and robustness
 
-**Status: v1 analyses complete (2026-09-30); v2 rerun in progress.** The pre-specified plan is in
+**Status: v2 analyses complete (2026-10-02); v1 kept under `v1/`.** The pre-specified plan is in
 `docs/phase6_analysis_plan.md`, including one approved deviation (per-taxon
 region test by within-flowcell permutation). All tables regenerate from the
 `phase6_analysis` target; publication figures are still to be generated.
