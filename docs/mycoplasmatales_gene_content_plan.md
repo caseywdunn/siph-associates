@@ -70,3 +70,44 @@ contamination.
 `data/results/mycoplasmatales_gene_content/summary/`: `genome_stats.tsv`,
 `ko_matrix.tsv`, `module_completeness.tsv`, `lineage_modules.tsv`,
 `focal_functions.tsv`.
+
+## Deviations
+
+**2026-10-02 — relaxed KO assignment (primary), strict kept as sensitivity.**
+Approved by Casey Dunn after the first run, before any lineage results were
+interpreted.
+
+- **Problem.** KofamScan's adaptive thresholds miss divergent Mollicutes
+  orthologs. Across the 142 near-complete GTDB family genomes, no protein
+  passed the threshold for pyruvate dehydrogenase E1α (`K00161`; hits in 109
+  genomes, median score 262 vs threshold 425), E1β (`K00162`), E2 (`K00627`)
+  or phosphotransacetylase (`K00625`; hits in 108 genomes, median 294 vs 388).
+  These genes are common in the family, so strict-threshold absences are
+  unreliable.
+- **Rule.** A protein with no threshold-passing KO takes its best-scoring KO
+  when E-value ≤ 1e-5 and score ≥ 0.6 × that KO's threshold. This is the
+  anvi'o `anvi-run-kegg-kofams` heuristic (Veseli et al. 2023) with the
+  bitscore fraction lowered from its 0.75 default.
+- **Calibration** against curated RefSeq annotation of four complete family
+  genomes (*Mycoplasmopsis bovis* GCF_000183385.1, *Metamycoplasma hominis*
+  GCF_000085865.1, *Mycoplasmopsis pulmonis* GCF_900660575.1, *Mycoplasma
+  mobile* GCF_000008365.1; 2,747 of 2,818 genes matched by stop codon).
+  Recall of the 19 curated focal genes (PDH E1–E3, pta, ackA, arcABC, glpK):
+
+  | Rule | Recall |
+  |---|---|
+  | strict thresholds | 15/19 (missed pta ×3, E3 ×1) |
+  | anvi'o default, 0.75 | 17/19 (pta ×2) |
+  | **0.6 (adopted)** | **19/19** |
+  | 0.5 | 19/19 |
+
+  As a precision proxy, KO definitions shared a word with the RefSeq product
+  name for 85% of strict assignments and 72% of the added relaxed ones at 0.6
+  (69% at 0.5). 0.6 is the smallest fraction that reaches full recall.
+- **E1 paralogs.** The single Mollicutes 2-oxoacid dehydrogenase E1 scores
+  best against the branched-chain profiles (`K00166`/`K00167`), not PDH
+  (`K00161`/`K00162`); RefSeq mostly names it "alpha-ketoacid dehydrogenase".
+  It is reported as one focal group, and KEGG module calls that depend on
+  distinguishing PDH from BCKDH E1 are not interpreted.
+- **Outputs.** Relaxed tables are primary. Strict tables are written beside
+  them with a `_strict` suffix. `focal_functions.tsv` lists both tiers.

@@ -8,7 +8,8 @@ docs/mycoplasmatales_gene_content_plan.md).
    assess_gene_content_genomes_checkm2.
 2. Obtain KOfam profiles with checksums recorded: download_kofam_profiles.
 3. Predict genes with genetic code 4: predict_genes_pyrodigal.
-4. Assign KEGG orthologs: annotate_proteins_kofamscan.
+4. Assign KEGG orthologs: annotate_proteins_kofamscan (strict and relaxed tiers are
+   applied in the summary).
 5. Score KEGG modules and tabulate genomes, lineages, and focal functions:
    summarize_gene_content.
 
@@ -199,6 +200,10 @@ rule summarize_gene_content:
         modules=f"{GENE}/summary/module_completeness.tsv",
         lineages=f"{GENE}/summary/lineage_modules.tsv",
         focal=f"{GENE}/summary/focal_functions.tsv",
+        # Written by the script beside the relaxed tables, for the strict-threshold sensitivity view.
+        kos_strict=f"{GENE}/summary/ko_matrix_strict.tsv",
+        modules_strict=f"{GENE}/summary/module_completeness_strict.tsv",
+        lineages_strict=f"{GENE}/summary/lineage_modules_strict.tsv",
     params:
         config=str(GENE_CONFIG_PATH),
         tools=GENE_TOOLS,

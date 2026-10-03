@@ -35,7 +35,13 @@
     "profiles_url": "https://www.genome.jp/ftp/db/kofam/profiles.tar.gz",
     "ko_list_url": "https://www.genome.jp/ftp/db/kofam/ko_list.gz",
     "release_note": "KOfam release current on 2026-10-02 (profiles Last-Modified 2026-09-29, ko_list 2026-09-24); SHA-256 recorded at download",
-    "assignment": "KofamScan adaptive thresholds: a protein is assigned the KO only when its score meets the profile threshold (marked '*')"
+    "assignment": "KofamScan adaptive thresholds: a protein is assigned the KO only when its score meets the profile threshold (marked '*')",
+    "relaxed": {
+      "evalue_max": 1e-05,
+      "score_fraction_min": 0.6,
+      "rule": "a protein with no threshold-passing KO takes its best-scoring KO with E-value <= evalue_max and score >= score_fraction_min x the KO threshold (anvi'o heuristic; anvi'o default fraction 0.75)",
+      "basis": "deviation 2026-10-02 (docs/mycoplasmatales_gene_content_plan.md): strict thresholds missed pta and PDH in 4 curated RefSeq family genomes; 0.6 is the smallest fraction recovering all 19 curated focal genes"
+    }
   },
   "focal_kos": {
     "arginine deiminase pathway": [
@@ -61,9 +67,7 @@
       "K00925",
       "K00625"
     ],
-    "pyruvate dehydrogenase E1-E3": [
-      "K00161",
-      "K00162",
+    "pyruvate dehydrogenase E2-E3": [
       "K00627",
       "K00382"
     ],
@@ -95,6 +99,12 @@
       "K06131",
       "K00648",
       "K01962"
+    ],
+    "2-oxoacid dehydrogenase E1 (PDH or BCKDH profile; the single Mollicutes E1)": [
+      "K00161",
+      "K00162",
+      "K00166",
+      "K00167"
     ]
   },
   "resources": {
