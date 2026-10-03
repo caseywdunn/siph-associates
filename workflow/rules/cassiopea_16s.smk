@@ -165,7 +165,8 @@ rule match_cassiopea_16s_vsearch:
         printf 'run\\treads_in_length_range\\n' > {output.pacbio_reads:q}.tmp
         printf 'run\\tread\\tmag_16s\\tidentity\\tcoverage\\n' > {output.pacbio:q}.tmp
         awk -F '\\t' 'NR > 1 && $4 == "PACBIO_SMRT" {{print $1}}' {input.runs:q} | while read -r run; do
-          vsearch --fastx_filter {input.reads:q}/"$run"_subreads.fastq.gz --fastq_minlen {params.min_length} \
+          # HiFi reads carry quality values up to 93.
+          vsearch --fastx_filter {input.reads:q}/"$run"_subreads.fastq.gz --fastq_qmax 93 --fastq_minlen {params.min_length} \
             --fastq_maxlen {params.max_length} --fastaout "$tmp/$run.fa" >> {log:q} 2>&1
           printf '%s\\t%s\\n' "$run" "$(grep -c '>' "$tmp/$run.fa")" >> {output.pacbio_reads:q}.tmp
           vsearch --usearch_global "$tmp/$run.fa" --db {input.genes:q} --id {params.min_identity} \

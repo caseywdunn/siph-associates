@@ -92,11 +92,12 @@ interpreted.
   genomes (*Mycoplasmopsis bovis* GCF_000183385.1, *Metamycoplasma hominis*
   GCF_000085865.1, *Mycoplasmopsis pulmonis* GCF_900660575.1, *Mycoplasma
   mobile* GCF_000008365.1; 2,747 of 2,818 genes matched by stop codon).
-  Recall of the 19 curated focal genes (PDH E1–E3, pta, ackA, arcABC, glpK):
+  Recall of the 19 curated focal genes (PDH E1–E3, pta, ackA, arcABC, glpK;
+  E1 counted as recovered when assigned its PDH or branched-chain KO):
 
   | Rule | Recall |
   |---|---|
-  | strict thresholds | 15/19 (missed pta ×3, E3 ×1) |
+  | strict thresholds | 10/19 (missed E1α ×2, E1β ×3, E3 ×1, pta ×3) |
   | anvi'o default, 0.75 | 17/19 (pta ×2) |
   | **0.6 (adopted)** | **19/19** |
   | 0.5 | 19/19 |
@@ -104,6 +105,10 @@ interpreted.
   As a precision proxy, KO definitions shared a word with the RefSeq product
   name for 85% of strict assignments and 72% of the added relaxed ones at 0.6
   (69% at 0.5). 0.6 is the smallest fraction that reaches full recall.
+  Reproduce with `python3 scripts/kofam_refseq_calibration.py` (writes
+  `data/results/mycoplasmatales_gene_content/calibration/`). A first draft of
+  this table gave strict recall as 15/19 by wrongly crediting the E1
+  paralogs, which receive no KO under strict thresholds.
 - **E1 paralogs.** The single Mollicutes 2-oxoacid dehydrogenase E1 scores
   best against the branched-chain profiles (`K00166`/`K00167`), not PDH
   (`K00161`/`K00162`); RefSeq mostly names it "alpha-ketoacid dehydrogenase".

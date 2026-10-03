@@ -16,7 +16,7 @@
   KofamScan (4.5 h; KOfam SHA-256 recorded in `kofam/download.tsv`).
 - Deviation (approved): strict KofamScan thresholds missed PDH and pta across
   the family. A relaxed tier (E ≤ 1e-5, score ≥ 0.6 × threshold) was calibrated
-  on four curated RefSeq genomes (19/19 focal genes recovered vs 15/19 strict)
+  on four curated RefSeq genomes (19/19 focal genes recovered vs 10/19 strict)
   and is primary; strict tables are kept as `*_strict.tsv`.
 - Bug fixed before any result was used: KO-matrix lookups in a defaultdict
   added every KO to every genome, inflating module completeness (first-run

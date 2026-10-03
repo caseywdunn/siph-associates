@@ -21,12 +21,13 @@ near-complete host-associated external genomes (n = 7).
 | *Mycoplasma_K* (*Nanomia*) | MAGSP0012 | 91.9 | 0.0 | 0.48 | 0.266 | 443 |
 
 All are small, AT-rich genomes typical of the family (near-complete GTDB
-mean 0.87 Mb, 713 genes). Every genome uses genetic code 4: 78% of genes carry
-an in-frame UGA (Trp), as in *Mycoplasmopsis bovis* (77%).
+mean 0.87 Mb, 713 genes). Every genome uses genetic code 4: 70–78% of genes
+carry an in-frame UGA (Trp), as in *Mycoplasmopsis bovis* (77%), and no contig
+with ≥10 genes lacks one (`scripts/gene_content_genome_checks.py`).
 
 `MAGSP0031` has higher GC (0.35) and 8.9% CheckM2 contamination. Its contigs
-are uniform in GC (0.31–0.37) and coding density (0.91), and no contig of ≥10
-genes lacks in-frame UGA. The genome is therefore code-4 Mollicutes
+are uniform in GC (0.31–0.37) and coding density (0.91 overall), and no contig
+of ≥10 genes lacks in-frame UGA. The genome is therefore code-4 Mollicutes
 throughout, and the contamination estimate more likely reflects duplicated
 markers than foreign DNA. Under the plan it still supports presence only.
 
