@@ -1,5 +1,12 @@
 # Run log
 
+## 2026-10-03 — Phase 7 removed from the roadmap
+
+- Decision (Casey Dunn): no full reproducibility audit; its compute cost
+  outweighs its value. Phase 7 is removed from EXECUTION_PLAN.md. Publication
+  figures and tables are still to be produced from the Phase 6 and follow-on
+  outputs.
+
 ## 2026-10-03 — Mycoplasmatales gene content complete
 
 - Stage `mycoplasmatales_gene_content` (plan:
