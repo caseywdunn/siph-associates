@@ -341,6 +341,24 @@ Predefine primary and sensitivity analyses before inspecting final plots:
 Acceptance: analysis scripts regenerate all reported tables/figures from frozen
 long-form results; claims are stable or their sensitivity is reported.
 
+### Phase 7 — publication outputs
+
+Generate Methods-ready parameter and version tables, the sample inclusion
+flow, database and reference citations, QC summaries, figures, and
+machine-readable source-data tables from the frozen v2 results and the
+follow-on analyses. Tag the catalog and analysis release, and archive
+checksums of the released tables plus the final configs. Large reads and
+databases remain external, documented by stable accessions or paths and
+checksums.
+
+A full reproducibility audit (a clean-state rerun or end-to-end comparison
+of expected against observed artifacts) is out of scope: its compute cost
+outweighs its value (decision 2026-10-03).
+
+Acceptance: every manuscript number and figure has a producing script and
+source table, and `snakemake -n` reports nothing to do for the publication
+targets.
+
 ## SLURM and interrupted-session operating model
 
 Never run the Snakemake scheduler itself only inside the interactive tmux

@@ -14,7 +14,7 @@ Phase-5 coverage tables. Every reported table regenerates from these rules.
 5. Sensitivity comparisons: compare_sensitivity_analyses.
 6. Check completeness of the analysis outputs: validate_phase6.
 
-Next: publication figures and tables are drawn from these outputs.
+Next: Phase 7 produces publication figures and source-data tables from these outputs.
 """
 
 P6 = f"{WORK}/phase6_analysis"
