@@ -124,7 +124,9 @@ def tables(tier, ko_path, module_path, lineage_path):
     """KO matrix, per-genome module completeness, and the lineage view for one assignment tier."""
     tier_counts = counts[tier]
     all_kos = sorted({ko for g in included for ko in tier_counts[g]})
-    write(ko_path, [{"ko": ko, "definition": definitions.get(ko, ""), **{g: tier_counts[g][ko] for g in included}}
+    # .get keeps lookups from inserting zero-count KOs into a genome's set.
+    write(ko_path, [{"ko": ko, "definition": definitions.get(ko, ""),
+                     **{g: tier_counts[g].get(ko, 0) for g in included}}
                     for ko in all_kos], ["ko", "definition"] + included)
 
     args.scratch.mkdir(parents=True, exist_ok=True)
@@ -132,7 +134,7 @@ def tables(tier, ko_path, module_path, lineage_path):
     with tempfile.TemporaryDirectory(dir=args.scratch) as tmp:
         for name in included:
             listing = Path(tmp) / f"{name}.txt"
-            listing.write_text(",".join(sorted(tier_counts[name])) + "\n")
+            listing.write_text(",".join(sorted(ko for ko, n in tier_counts[name].items() if n > 0)) + "\n")
             subprocess.run(["give_completeness", "-l", str(listing), "-o", str(Path(tmp) / name), "-r", name],
                            check=True, capture_output=True)
             for r in rows(Path(tmp) / name / f"{name}_pathways.tsv"):
@@ -192,8 +194,9 @@ for function, kos in settings["focal_kos"].items():
             family = reference_sets["gtdb_family"]
             focal.append({"function": function, "ko": ko, "definition": definitions.get(ko, "NOT IN KO LIST"),
                           "assignment": tier,
-                          "gtdb_family_fraction": round(sum(counts[tier][g][ko] > 0 for g in family) / len(family), 3),
-                          **{g: counts[tier][g][ko] for g in included}})
+                          "gtdb_family_fraction": round(sum(counts[tier][g].get(ko, 0) > 0 for g in family)
+                                                       / len(family), 3),
+                          **{g: counts[tier][g].get(ko, 0) for g in included}})
 write(args.focal, focal, ["function", "ko", "definition", "assignment", "gtdb_family_fraction"] + included)
 print(f"genomes={len(genomes)} included={len(included)} near_complete={sum(g['near_complete'] for g in genomes)} "
       f"proteins_with_ko strict={len(assignment['strict'])} relaxed={len(assignment['relaxed'])} modules={module_count}")
