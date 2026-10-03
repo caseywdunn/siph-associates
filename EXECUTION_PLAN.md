@@ -318,7 +318,7 @@ are treated as hypotheses that may be confirmed or overturned.
 
 ### Phase 6 — statistical analysis and robustness
 
-**Status: v2 analyses complete (2026-10-02); v1 kept under `v1/`.** The pre-specified plan is in
+**Status: v2 analyses complete (2026-10-02); v1 kept under `v1/`.** Follow-on analyses: Mycoplasmatales phylogeny, cnidarian 16S comparison, and gene content (`docs/mycoplasmatales_gene_content_results.md`, 2026-10-03). The pre-specified plan is in
 `docs/phase6_analysis_plan.md`, including one approved deviation (per-taxon
 region test by within-flowcell permutation). All tables regenerate from the
 `phase6_analysis` target; publication figures are still to be generated.

@@ -1,5 +1,28 @@
 # Run log
 
+## 2026-10-03 — Mycoplasmatales gene content complete
+
+- Stage `mycoplasmatales_gene_content` (plan:
+  `docs/mycoplasmatales_gene_content_plan.md`). 178 genomes: 7 siphonophore
+  species, 29 host-associated relatives, 142 GTDB r220 Metamycoplasmataceae
+  representatives. Controller `11777579` ran CheckM2, pyrodigal (code 4) and
+  KofamScan (4.5 h; KOfam SHA-256 recorded in `kofam/download.tsv`).
+- Deviation (approved): strict KofamScan thresholds missed PDH and pta across
+  the family. A relaxed tier (E ≤ 1e-5, score ≥ 0.6 × threshold) was calibrated
+  on four curated RefSeq genomes (19/19 focal genes recovered vs 15/19 strict)
+  and is primary; strict tables are kept as `*_strict.tsv`.
+- Bug fixed before any result was used: KO-matrix lookups in a defaultdict
+  added every KO to every genome, inflating module completeness (first-run
+  module tables were wrong; focal counts unaffected). Controller `11867081`
+  regenerated all summary tables (strict 53,194 / relaxed 68,954 proteins with
+  a KO; 124 modules); dry run clean.
+- Results: `docs/mycoplasmatales_gene_content_results.md`. Arginine deiminase
+  absent from both near-complete clade-B genomes; lactate dehydrogenase only
+  in DT-68; sialic-acid catabolism (nanE) only in clade A; no glpO, urease,
+  sialidase or CRISPR-Cas in any siphonophore genome. `MAGSP0031` is code-4
+  throughout (78% of genes with in-frame UGA); its unique modules are
+  reported as single-genome features.
+
 ## 2026-10-02 — Catalog v2 complete
 
 - Controller `11555682` (24 h): `phase3_catalog`, `phase4_catalog`,
