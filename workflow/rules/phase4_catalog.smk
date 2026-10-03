@@ -421,7 +421,7 @@ rule validate_phase4_catalog:
         viral_fastas=[f"{P4}/{P4_VERSION}/viral_{s}.fna" for s in P4_VIRAL_SETS],
         links=f"{P4}/{P4_VERSION}/crispr/host_links.tsv",
     output:
-        f"{WORK}/stages/phase4_catalog.done",
+        f"{WORK}/stages/phase4_catalog_{PHASE4_CATALOG['catalog_version']}.done",
     log:
         f"{WORK}/logs/phase4_catalog/validate_phase4_catalog.log",
     threads: 1
@@ -440,4 +440,4 @@ rule validate_phase4_catalog:
 
 rule phase4_catalog:
     input:
-        f"{WORK}/stages/phase4_catalog.done",
+        f"{WORK}/stages/phase4_catalog_{PHASE4_CATALOG['catalog_version']}.done",

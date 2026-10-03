@@ -330,7 +330,7 @@ rule validate_catalog:
         classification=f"{CATALOG}/viruses/virus_classification.tsv",
         votus=[f"{CATALOG}/votus/{virus_set}.votus.tsv" for virus_set in VIRUS_SETS],
     output:
-        f"{WORK}/stages/phase3_catalog.done",
+        f"{WORK}/stages/phase3_catalog_{PHASE4_CATALOG['catalog_version']}.done",
     log:
         f"{WORK}/logs/phase3_catalog/validate_catalog.log",
     threads: 1
@@ -349,4 +349,4 @@ rule validate_catalog:
 
 rule phase3_catalog:
     input:
-        f"{WORK}/stages/phase3_catalog.done",
+        f"{WORK}/stages/phase3_catalog_{PHASE4_CATALOG['catalog_version']}.done",

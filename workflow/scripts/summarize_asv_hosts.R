@@ -33,10 +33,11 @@ for (path in libraries) {
 }
 samples <- rbindlist(rows, fill = TRUE)
 fwrite(samples, args[2], sep = "\t")
-hosts <- samples[, .(samples = uniqueN(sample), studies = uniqueN(Code),
+# Code is the BioSample accession (one per sample); Publication identifies the study.
+hosts <- samples[, .(samples = uniqueN(sample), studies = uniqueN(Publication),
                      median_relative_abundance = median(relative_abundance),
                      max_relative_abundance = max(relative_abundance),
                      best_identity = max(identity)),
-                 by = .(species_cluster, Phylum, Class, Order, Family, Genus, Species)]
+                 by = .(species_cluster, Phylum, Class, Order, Family, Scientific_Name)]
 fwrite(hosts[order(species_cluster, -samples)], args[3], sep = "\t")
-cat("matched samples:", uniqueN(samples$sample), " host species:", uniqueN(samples$Species), "\n")
+cat("matched samples:", uniqueN(samples$sample), " host species:", uniqueN(samples$Scientific_Name), "\n")

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "purpose": "do the siphonophore Mycoplasmatales, or close relatives, occur in Cassiopea tissue, and are they host-specific relative to water, sediment and swab controls",
+  "source": "Florida Keys Cassiopea microbiome (BioProjects PRJNA1020388, Illumina V3-V4; PRJNA1020446, PacBio HiFi full-length 16S); ENA run manifest with MD5s frozen 2026-10-03",
+  "runs": "config/cassiopea_16s_runs.tsv",
+  "primers": {
+    "forward": "CCTACGGGNGGCWGCAG",
+    "reverse": "GACTACHVGGGTATCTAATCC",
+    "note": "341F/805R; checked on SRR26155636, where reads start with the primer at position 1"
+  },
+  "illumina": {
+    "merge_max_diffs": 10,
+    "max_expected_errors": 1.0,
+    "min_length": 380,
+    "max_length": 480,
+    "unoise_min_size": 8,
+    "otutab_identity": 0.97
+  },
+  "pacbio": {
+    "min_length": 1300,
+    "max_length": 1700
+  },
+  "match": {
+    "min_identity": 0.9,
+    "query_coverage": 1.0,
+    "bands": {
+      "same_species_full_length": 0.987,
+      "genus_level": 0.97
+    },
+    "note": "matches are reported from 90% to show related lineages; full-length PacBio identity >= 98.7% is the species-level 16S threshold (Yarza et al. 2014)"
+  },
+  "mag_16s": "output of extract_mycoplasmatales_16s (cnidarian_16s stage)",
+  "resources": {
+    "download": {
+      "threads": 1,
+      "mem_mb": 4000,
+      "runtime": 240,
+      "partition": "day"
+    },
+    "amplicons": {
+      "threads": 16,
+      "mem_mb": 32000,
+      "runtime": 240,
+      "partition": "day"
+    },
+    "summary": {
+      "threads": 1,
+      "mem_mb": 8000,
+      "runtime": 60,
+      "partition": "day"
+    }
+  },
+  "tool_prefixes": {
+    "vsearch": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/phyloflash_env"
+  }
+}

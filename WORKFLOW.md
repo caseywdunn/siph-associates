@@ -247,7 +247,7 @@ from the accepted assembly products. It applies the locked rules in
 | Viral inclusion (hallmark and ≥5 kb or ≥50% complete) | `select_viruses` | `viruses/included.tsv` |
 | Host alignment and endogenous-candidate flags | `align_viruses_host_minimap2`, `flag_endogenous_viruses` | `viruses/virus_classification.tsv` |
 | vOTUs (95% ANI, 85% AF) | `cluster_votus_checkv`, `build_votu_catalog` | `votus/{associate,endogenous_candidate}.votus.tsv` |
-| Rule and accounting check | `validate_catalog` | `../stages/phase3_catalog.done` |
+| Rule and accounting check | `validate_catalog` | `../stages/phase3_catalog_<catalog_version>.done` |
 
 ```bash
 snakemake phase3_catalog -n --profile profiles/slurm --configfile config/config.yaml

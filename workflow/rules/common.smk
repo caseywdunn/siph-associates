@@ -251,14 +251,15 @@ _target_paths = {
     "phase3_benchmark": f"{WORK}/stages/phase3_benchmark.done",
     "phase3_inputs": f"{WORK}/stages/phase3_inputs.done",
     "phase3_assembly": f"{WORK}/stages/phase3_assembly.done",
-    "phase3_catalog": f"{WORK}/stages/phase3_catalog.done",
-    "phase4_catalog": f"{WORK}/stages/phase4_catalog.done",
+    "phase3_catalog": f"{WORK}/stages/phase3_catalog_{PHASE4_CATALOG['catalog_version']}.done",
+    "phase4_catalog": f"{WORK}/stages/phase4_catalog_{PHASE4_CATALOG['catalog_version']}.done",
     "phase5_pilot": f"{WORK}/stages/phase5_mapping_pilot_{PHASE5['catalog_version']}.done",
     "phase5_mapping": f"{WORK}/stages/phase5_mapping_cohort_{PHASE5['catalog_version']}.done",
     "phase6_analysis": f"{WORK}/stages/phase6_analysis_{PHASE5['catalog_version']}.done",
     "eukaryote_evidence": f"{WORK}/eukaryote_gate/read_lineages.tsv",
     "mycoplasmatales_phylogeny": f"{WORK}/mycoplasmatales_phylogeny/mycoplasmatales.bac120.decorated.tree",
     "mycoplasmatales_gene_content": f"{WORK}/mycoplasmatales_gene_content/summary/lineage_modules.tsv",
+    "cassiopea_16s": f"{WORK}/cassiopea_16s/summary/sample_type_summary.tsv",
     "cnidarian_16s": f"{WORK}/cnidarian_16s/matching_asv_hosts.tsv",
 }
 if _target not in _target_paths:
