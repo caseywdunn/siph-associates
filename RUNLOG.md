@@ -1,5 +1,23 @@
 # Run log
 
+## 2026-10-03 — Loose ends: Cassiopea 16S, 16S study counts, sentinels, evidence scripts
+
+- `cassiopea_16s` (controllers `11900497`, `11902234`): Florida Keys
+  *Cassiopea* V3–V4 amplicons (96 runs: tissue plus water, sediment and swab
+  controls; 860,221 filtered reads, 3,703 denoised variants) and PacBio HiFi
+  full-length 16S (3 runs, 38,067 reads). No variant or read matches a
+  siphonophore Mycoplasmatales 16S gene at ≥90% identity. The closest are
+  abundant variants at about 86% to `MAGSP0005`, a distant Mollicutes lineage.
+- `cnidarian_16s`: studies now counted by publication (the `Code` column is the
+  per-sample BioSample); hosts grouped by scientific name.
+- Phase 3 and 4 sentinels now carry the catalog version
+  (`phase3_catalog_v2.done`, `phase4_catalog_v2.done`); renamed, no reruns.
+- Evidence scripts for numbers quoted in decision records:
+  `scripts/kofam_refseq_calibration.py` (strict recall corrected to 10/19),
+  `scripts/gene_content_genome_checks.py` (in-frame UGA in 70–78% of genes),
+  `scripts/catalog_mixed_bin_evidence.py` (BAC00033 across all 94 v1-only
+  libraries; v2 low-coding screen).
+
 ## 2026-10-03 — Phase 7 reduced to publication outputs
 
 - Decision (Casey Dunn): no full reproducibility audit; its compute cost
@@ -43,10 +61,10 @@
 - Bacterial presences 795 → 571. Mycoplasmatales occur in 67 of 151 *Physalia*
   libraries, not 138; the most frequent species are in 52, 44 and 22 libraries.
   Divergent-strain calls fall from 32% to 6% of presences.
-- Cause: the v1 138-library genome `BAC00033` was a mixed bin. Its non-
-  *Mycoplasma* contigs are 16% coding, have no BLASTN/BLASTX hits, and do not
-  align to the *P. physalis* assembly, yet occur in 138 of 151 *Physalia*
-  libraries. They are most likely host sequence missing from the assembly.
+- Cause: the v1 138-library genome `BAC00033` was a mixed bin. Its 376 non-
+  *Mycoplasma* contigs are 20% coding, have no BLASTN/BLASTX hits, and do not
+  align to the *P. physalis* assembly; in the 94 libraries present only in v1,
+  99.9% of its reads fell on them. They are most likely host sequence missing from the assembly.
   Remaining v2 MAGs have ≤3.7% low-coding sequence, below the 10% breadth
   rule; no v3. Details: `docs/phase4_catalog_decisions.md`.
 - *Physalia* models (v2): PERMANOVA region R² = 0.18 (118 libraries; v1 0.20,
