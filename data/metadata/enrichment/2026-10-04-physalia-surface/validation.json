@@ -1,0 +1,20 @@
+{
+  "libraries": 205,
+  "assigned_physalia_zeroes": 150,
+  "physalia_zeroes_total": 151,
+  "source_record_depth_libraries": 52,
+  "numeric_depth_libraries": 202,
+  "unresolved_depth_libraries": [
+    "Ahuja2026:NA19",
+    "Ahuja2026:WS5",
+    "Ahuja2026:WS6"
+  ],
+  "filled_cells": 502,
+  "old_manifest_sha256": "4d7d14a445d1c5042d4d2b904c9bcd2d2a22480b68986d4436656093f87caff4",
+  "updated_manifest_sha256": "926bcbf2c6dffc18d9da0faa1877bd67349d057599aead88ba4472c40279b72d",
+  "baseline_overlay_replay_matches": true,
+  "all_existing_values_preserved": true,
+  "manifest_freeze_sha256": "6a127f1b2376786b9921669f9db54b94abceca53a7ab4a70ce2bfa3615d34178",
+  "metadata_tests_passed": 23,
+  "statistics_and_eukaryote_tests_passed": 6
+}

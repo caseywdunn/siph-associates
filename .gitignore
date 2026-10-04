@@ -9,6 +9,7 @@ data/results/
 *.gz
 __pycache__/
 *.pyc
+.DS_Store
 
 # binary source supplements (cite by DOI; parsed tsv are tracked)
 data/sources/*.xlsx

@@ -1,0 +1,629 @@
+library_id	field	value	source_type	source	source_locator	source_record	notes
+Ahuja2024:CWD1	collection_date	2002-09-22	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I15	Ahuja2024:CWD1	Ahuja2024:CWD1;voucher:YPMIZ35024
+Ahuja2024:CWD1	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P15	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P15	Ahuja2024:CWD1	Ahuja2024:CWD1;voucher:YPMIZ35024; explicit_metre_unit
+Ahuja2024:CWD1	collection_id	OC381-18-6	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B15	Ahuja2024:CWD1	Ahuja2024:CWD1;voucher:YPMIZ35024
+Ahuja2024:CWD1	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P15	Ahuja2024:CWD1	Ahuja2024:CWD1;voucher:YPMIZ35024; explicit_metre_unit
+Ahuja2024:CWD1	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P15	Ahuja2024:CWD1	Ahuja2024:CWD1;voucher:YPMIZ35024
+Ahuja2024:CWD1	lat_long_raw	37.43 N 72.68 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U15	Ahuja2024:CWD1	Ahuja2024:CWD1;voucher:YPMIZ35024
+Ahuja2024:CWD1	latitude	37.43	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U15	Ahuja2024:CWD1	Ahuja2024:CWD1;voucher:YPMIZ35024
+Ahuja2024:CWD1	locality	Atlantic Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J15	Ahuja2024:CWD1	Ahuja2024:CWD1;voucher:YPMIZ35024
+Ahuja2024:CWD1	longitude	-72.68	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U15	Ahuja2024:CWD1	Ahuja2024:CWD1;voucher:YPMIZ35024
+Ahuja2024:CWD1	specimen_voucher	YPM:IZ:35024	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W15	Ahuja2024:CWD1	Ahuja2024:CWD1;voucher:YPMIZ35024
+Ahuja2024:CWD1	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K15	Ahuja2024:CWD1	Ahuja2024:CWD1;voucher:YPMIZ35024
+Ahuja2024:CWD101	collection_date	2003-07-18	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I20	Ahuja2024:CWD101	Ahuja2024:CWD101;voucher:YPMIZ35090
+Ahuja2024:CWD101	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P20	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P20	Ahuja2024:CWD101	Ahuja2024:CWD101;voucher:YPMIZ35090; explicit_metre_unit
+Ahuja2024:CWD101	collection_id	Tib595D1	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B20	Ahuja2024:CWD101	Ahuja2024:CWD101;voucher:YPMIZ35090
+Ahuja2024:CWD101	depth_m	387	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P20	Ahuja2024:CWD101	Ahuja2024:CWD101;voucher:YPMIZ35090; explicit_metre_unit
+Ahuja2024:CWD101	depth_original	387 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P20	Ahuja2024:CWD101	Ahuja2024:CWD101;voucher:YPMIZ35090
+Ahuja2024:CWD101	lat_long_raw	36.23 N 122.77 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U20	Ahuja2024:CWD101	Ahuja2024:CWD101;voucher:YPMIZ35090
+Ahuja2024:CWD101	latitude	36.23	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U20	Ahuja2024:CWD101	Ahuja2024:CWD101;voucher:YPMIZ35090
+Ahuja2024:CWD101	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J20	Ahuja2024:CWD101	Ahuja2024:CWD101;voucher:YPMIZ35090
+Ahuja2024:CWD101	longitude	-122.77	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U20	Ahuja2024:CWD101	Ahuja2024:CWD101;voucher:YPMIZ35090
+Ahuja2024:CWD101	specimen_voucher	YPM:IZ:35090	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W20	Ahuja2024:CWD101	Ahuja2024:CWD101;voucher:YPMIZ35090
+Ahuja2024:CWD101	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K20	Ahuja2024:CWD101	Ahuja2024:CWD101;voucher:YPMIZ35090
+Ahuja2024:CWD104	collection_date	2003-07-19	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I21	Ahuja2024:CWD104	Ahuja2024:CWD104
+Ahuja2024:CWD104	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P21	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P21	Ahuja2024:CWD104	Ahuja2024:CWD104; explicit_metre_unit
+Ahuja2024:CWD104	collection_id	Tib596SS12	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B21	Ahuja2024:CWD104	Ahuja2024:CWD104
+Ahuja2024:CWD104	depth_m	877	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P21	Ahuja2024:CWD104	Ahuja2024:CWD104; explicit_metre_unit
+Ahuja2024:CWD104	depth_original	877 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P21	Ahuja2024:CWD104	Ahuja2024:CWD104
+Ahuja2024:CWD104	lat_long_raw	36.22 N 123.77 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U21	Ahuja2024:CWD104	Ahuja2024:CWD104
+Ahuja2024:CWD104	latitude	36.22	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U21	Ahuja2024:CWD104	Ahuja2024:CWD104
+Ahuja2024:CWD104	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J21	Ahuja2024:CWD104	Ahuja2024:CWD104
+Ahuja2024:CWD104	longitude	-123.77	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U21	Ahuja2024:CWD104	Ahuja2024:CWD104
+Ahuja2024:CWD104	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K21	Ahuja2024:CWD104	Ahuja2024:CWD104
+Ahuja2024:CWD11	collection_date	2002-07-03	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I48	Ahuja2024:CWD11	Ahuja2024:CWD11;voucher:YPMIZ35076
+Ahuja2024:CWD11	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P48	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P48	Ahuja2024:CWD11	Ahuja2024:CWD11;voucher:YPMIZ35076; explicit_metre_unit
+Ahuja2024:CWD11	collection_id	JSL3272D1	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B48	Ahuja2024:CWD11	Ahuja2024:CWD11;voucher:YPMIZ35076
+Ahuja2024:CWD11	depth_m	800	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P48	Ahuja2024:CWD11	Ahuja2024:CWD11;voucher:YPMIZ35076; explicit_metre_unit
+Ahuja2024:CWD11	depth_original	800 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P48	Ahuja2024:CWD11	Ahuja2024:CWD11;voucher:YPMIZ35076
+Ahuja2024:CWD11	lat_long_raw	40.31 N 68.13 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U48	Ahuja2024:CWD11	Ahuja2024:CWD11;voucher:YPMIZ35076
+Ahuja2024:CWD11	latitude	40.31	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U48	Ahuja2024:CWD11	Ahuja2024:CWD11;voucher:YPMIZ35076
+Ahuja2024:CWD11	locality	Atlantic Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J48	Ahuja2024:CWD11	Ahuja2024:CWD11;voucher:YPMIZ35076
+Ahuja2024:CWD11	longitude	-68.13	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U48	Ahuja2024:CWD11	Ahuja2024:CWD11;voucher:YPMIZ35076
+Ahuja2024:CWD11	specimen_voucher	YPM:IZ:35076	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W48	Ahuja2024:CWD11	Ahuja2024:CWD11;voucher:YPMIZ35076
+Ahuja2024:CWD11	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K48	Ahuja2024:CWD11	Ahuja2024:CWD11;voucher:YPMIZ35076
+Ahuja2024:CWD116	collection_date	2003-07-19	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I17	Ahuja2024:CWD116	Ahuja2024:CWD116
+Ahuja2024:CWD116	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P17	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P17	Ahuja2024:CWD116	Ahuja2024:CWD116; explicit_metre_unit
+Ahuja2024:CWD116	collection_id	MBARI071903BW	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B17	Ahuja2024:CWD116	Ahuja2024:CWD116
+Ahuja2024:CWD116	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P17	Ahuja2024:CWD116	Ahuja2024:CWD116; explicit_metre_unit
+Ahuja2024:CWD116	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P17	Ahuja2024:CWD116	Ahuja2024:CWD116
+Ahuja2024:CWD116	lat_long_raw	36.22 N 123.77 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U17	Ahuja2024:CWD116	Ahuja2024:CWD116
+Ahuja2024:CWD116	latitude	36.22	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U17	Ahuja2024:CWD116	Ahuja2024:CWD116
+Ahuja2024:CWD116	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J17	Ahuja2024:CWD116	Ahuja2024:CWD116
+Ahuja2024:CWD116	longitude	-123.77	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U17	Ahuja2024:CWD116	Ahuja2024:CWD116
+Ahuja2024:CWD116	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K17	Ahuja2024:CWD116	Ahuja2024:CWD116
+Ahuja2024:CWD117	collection_date	1999-06-28	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I34	Ahuja2024:CWD117	Ahuja2024:CWD117;voucher:YPMIZ35045
+Ahuja2024:CWD117	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P34	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P34	Ahuja2024:CWD117	Ahuja2024:CWD117;voucher:YPMIZ35045; explicit_metre_unit
+Ahuja2024:CWD117	collection_id	OC394-5-4	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B34	Ahuja2024:CWD117	Ahuja2024:CWD117;voucher:YPMIZ35045
+Ahuja2024:CWD117	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P34	Ahuja2024:CWD117	Ahuja2024:CWD117;voucher:YPMIZ35045; explicit_metre_unit
+Ahuja2024:CWD117	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P34	Ahuja2024:CWD117	Ahuja2024:CWD117;voucher:YPMIZ35045
+Ahuja2024:CWD117	lat_long_raw	39.70 N 70.92 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U34	Ahuja2024:CWD117	Ahuja2024:CWD117;voucher:YPMIZ35045
+Ahuja2024:CWD117	latitude	39.7	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U34	Ahuja2024:CWD117	Ahuja2024:CWD117;voucher:YPMIZ35045
+Ahuja2024:CWD117	locality	Atlantic Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J34	Ahuja2024:CWD117	Ahuja2024:CWD117;voucher:YPMIZ35045
+Ahuja2024:CWD117	longitude	-70.92	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U34	Ahuja2024:CWD117	Ahuja2024:CWD117;voucher:YPMIZ35045
+Ahuja2024:CWD117	specimen_voucher	YPM:IZ:35045	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W34	Ahuja2024:CWD117	Ahuja2024:CWD117;voucher:YPMIZ35045
+Ahuja2024:CWD117	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K34	Ahuja2024:CWD117	Ahuja2024:CWD117;voucher:YPMIZ35045
+Ahuja2024:CWD12	collection_date	2003-04-16	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I32	Ahuja2024:CWD12	Ahuja2024:CWD12;voucher:YPMIZ35038
+Ahuja2024:CWD12	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P32	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P32	Ahuja2024:CWD12	Ahuja2024:CWD12;voucher:YPMIZ35038; explicit_metre_unit
+Ahuja2024:CWD12	collection_id	VF041603	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B32	Ahuja2024:CWD12	Ahuja2024:CWD12;voucher:YPMIZ35038
+Ahuja2024:CWD12	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P32	Ahuja2024:CWD12	Ahuja2024:CWD12;voucher:YPMIZ35038; explicit_metre_unit
+Ahuja2024:CWD12	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P32	Ahuja2024:CWD12	Ahuja2024:CWD12;voucher:YPMIZ35038
+Ahuja2024:CWD12	lat_long_raw	43.68 N 7.33 E	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U32	Ahuja2024:CWD12	Ahuja2024:CWD12;voucher:YPMIZ35038
+Ahuja2024:CWD12	latitude	43.68	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U32	Ahuja2024:CWD12	Ahuja2024:CWD12;voucher:YPMIZ35038
+Ahuja2024:CWD12	locality	Mediterranean Sea	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J32	Ahuja2024:CWD12	Ahuja2024:CWD12;voucher:YPMIZ35038
+Ahuja2024:CWD12	longitude	7.33	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U32	Ahuja2024:CWD12	Ahuja2024:CWD12;voucher:YPMIZ35038
+Ahuja2024:CWD12	specimen_voucher	YPM:IZ:35038	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W32	Ahuja2024:CWD12	Ahuja2024:CWD12;voucher:YPMIZ35038
+Ahuja2024:CWD12	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K32	Ahuja2024:CWD12	Ahuja2024:CWD12;voucher:YPMIZ35038
+Ahuja2024:CWD121	collection_date	1999-06-28	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I14	Ahuja2024:CWD121	Ahuja2024:CWD121;voucher:YPMIZ35350
+Ahuja2024:CWD121	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P14	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P14	Ahuja2024:CWD121	Ahuja2024:CWD121;voucher:YPMIZ35350; explicit_metre_unit
+Ahuja2024:CWD121	collection_id	OC394-6-22	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B14	Ahuja2024:CWD121	Ahuja2024:CWD121;voucher:YPMIZ35350
+Ahuja2024:CWD121	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P14	Ahuja2024:CWD121	Ahuja2024:CWD121;voucher:YPMIZ35350; explicit_metre_unit
+Ahuja2024:CWD121	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P14	Ahuja2024:CWD121	Ahuja2024:CWD121;voucher:YPMIZ35350
+Ahuja2024:CWD121	lat_long_raw	39.75 N 70.87 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U14	Ahuja2024:CWD121	Ahuja2024:CWD121;voucher:YPMIZ35350
+Ahuja2024:CWD121	latitude	39.75	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U14	Ahuja2024:CWD121	Ahuja2024:CWD121;voucher:YPMIZ35350
+Ahuja2024:CWD121	locality	Atlantic Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J14	Ahuja2024:CWD121	Ahuja2024:CWD121;voucher:YPMIZ35350
+Ahuja2024:CWD121	longitude	-70.87	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U14	Ahuja2024:CWD121	Ahuja2024:CWD121;voucher:YPMIZ35350
+Ahuja2024:CWD121	specimen_voucher	YPM:IZ:35350	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W14	Ahuja2024:CWD121	Ahuja2024:CWD121;voucher:YPMIZ35350
+Ahuja2024:CWD121	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K14	Ahuja2024:CWD121	Ahuja2024:CWD121;voucher:YPMIZ35350
+Ahuja2024:CWD122	collection_date	1999-06-28	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I23	Ahuja2024:CWD122	Ahuja2024:CWD122;voucher:YPMIZ35049
+Ahuja2024:CWD122	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P23	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P23	Ahuja2024:CWD122	Ahuja2024:CWD122;voucher:YPMIZ35049; explicit_metre_unit
+Ahuja2024:CWD122	collection_id	OC394-5-19	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B23	Ahuja2024:CWD122	Ahuja2024:CWD122;voucher:YPMIZ35049
+Ahuja2024:CWD122	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P23	Ahuja2024:CWD122	Ahuja2024:CWD122;voucher:YPMIZ35049; explicit_metre_unit
+Ahuja2024:CWD122	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P23	Ahuja2024:CWD122	Ahuja2024:CWD122;voucher:YPMIZ35049
+Ahuja2024:CWD122	lat_long_raw	39.7 N 70.90 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U23	Ahuja2024:CWD122	Ahuja2024:CWD122;voucher:YPMIZ35049
+Ahuja2024:CWD122	latitude	39.7	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U23	Ahuja2024:CWD122	Ahuja2024:CWD122;voucher:YPMIZ35049
+Ahuja2024:CWD122	locality	Atlantic Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J23	Ahuja2024:CWD122	Ahuja2024:CWD122;voucher:YPMIZ35049
+Ahuja2024:CWD122	longitude	-70.9	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U23	Ahuja2024:CWD122	Ahuja2024:CWD122;voucher:YPMIZ35049
+Ahuja2024:CWD122	specimen_voucher	YPM:IZ:35049	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W23	Ahuja2024:CWD122	Ahuja2024:CWD122;voucher:YPMIZ35049
+Ahuja2024:CWD122	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K23	Ahuja2024:CWD122	Ahuja2024:CWD122;voucher:YPMIZ35049
+Ahuja2024:CWD131	collection_date	2003-03-15	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I44	Ahuja2024:CWD131	Ahuja2024:CWD131;voucher:YPMIZ35355
+Ahuja2024:CWD131	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P44	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P44	Ahuja2024:CWD131	Ahuja2024:CWD131;voucher:YPMIZ35355; explicit_metre_unit
+Ahuja2024:CWD131	collection_id	BW415May03GOC#59	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B44	Ahuja2024:CWD131	Ahuja2024:CWD131;voucher:YPMIZ35355
+Ahuja2024:CWD131	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P44	Ahuja2024:CWD131	Ahuja2024:CWD131;voucher:YPMIZ35355; explicit_metre_unit
+Ahuja2024:CWD131	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P44	Ahuja2024:CWD131	Ahuja2024:CWD131;voucher:YPMIZ35355
+Ahuja2024:CWD131	lat_long_raw	24.32 N 109.20 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U44	Ahuja2024:CWD131	Ahuja2024:CWD131;voucher:YPMIZ35355
+Ahuja2024:CWD131	latitude	24.32	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U44	Ahuja2024:CWD131	Ahuja2024:CWD131;voucher:YPMIZ35355
+Ahuja2024:CWD131	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J44	Ahuja2024:CWD131	Ahuja2024:CWD131;voucher:YPMIZ35355
+Ahuja2024:CWD131	longitude	-109.2	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U44	Ahuja2024:CWD131	Ahuja2024:CWD131;voucher:YPMIZ35355
+Ahuja2024:CWD131	specimen_voucher	YPM:IZ:35355	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W44	Ahuja2024:CWD131	Ahuja2024:CWD131;voucher:YPMIZ35355
+Ahuja2024:CWD131	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K44	Ahuja2024:CWD131	Ahuja2024:CWD131;voucher:YPMIZ35355
+Ahuja2024:CWD141	collection_date	2003-03-26	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I47	Ahuja2024:CWD141	Ahuja2024:CWD141;voucher:YPMIZ35358
+Ahuja2024:CWD141	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P47	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P47	Ahuja2024:CWD141	Ahuja2024:CWD141;voucher:YPMIZ35358; explicit_metre_unit
+Ahuja2024:CWD141	collection_id	26III03-GOC#188	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B47	Ahuja2024:CWD141	Ahuja2024:CWD141;voucher:YPMIZ35358
+Ahuja2024:CWD141	depth_m	1349	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P47	Ahuja2024:CWD141	Ahuja2024:CWD141;voucher:YPMIZ35358; explicit_metre_unit
+Ahuja2024:CWD141	depth_original	1349 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P47	Ahuja2024:CWD141	Ahuja2024:CWD141;voucher:YPMIZ35358
+Ahuja2024:CWD141	lat_long_raw	24.31 N 109.20 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U47	Ahuja2024:CWD141	Ahuja2024:CWD141;voucher:YPMIZ35358
+Ahuja2024:CWD141	latitude	24.31	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U47	Ahuja2024:CWD141	Ahuja2024:CWD141;voucher:YPMIZ35358
+Ahuja2024:CWD141	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J47	Ahuja2024:CWD141	Ahuja2024:CWD141;voucher:YPMIZ35358
+Ahuja2024:CWD141	longitude	-109.2	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U47	Ahuja2024:CWD141	Ahuja2024:CWD141;voucher:YPMIZ35358
+Ahuja2024:CWD141	specimen_voucher	YPM:IZ:35358	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W47	Ahuja2024:CWD141	Ahuja2024:CWD141;voucher:YPMIZ35358
+Ahuja2024:CWD141	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K47	Ahuja2024:CWD141	Ahuja2024:CWD141;voucher:YPMIZ35358
+Ahuja2024:CWD144	collection_date	2000-01-13	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I31	Ahuja2024:CWD144	Ahuja2024:CWD144;voucher:YPMIZ35360
+Ahuja2024:CWD144	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P31	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P31	Ahuja2024:CWD144	Ahuja2024:CWD144;voucher:YPMIZ35360; explicit_metre_unit
+Ahuja2024:CWD144	collection_id	Tib105SS8	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B31	Ahuja2024:CWD144	Ahuja2024:CWD144;voucher:YPMIZ35360
+Ahuja2024:CWD144	depth_m	420	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P31	Ahuja2024:CWD144	Ahuja2024:CWD144;voucher:YPMIZ35360; explicit_metre_unit
+Ahuja2024:CWD144	depth_original	420 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P31	Ahuja2024:CWD144	Ahuja2024:CWD144;voucher:YPMIZ35360
+Ahuja2024:CWD144	lat_long_raw	36.70 N 122.04 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U31	Ahuja2024:CWD144	Ahuja2024:CWD144;voucher:YPMIZ35360
+Ahuja2024:CWD144	latitude	36.7	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U31	Ahuja2024:CWD144	Ahuja2024:CWD144;voucher:YPMIZ35360
+Ahuja2024:CWD144	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J31	Ahuja2024:CWD144	Ahuja2024:CWD144;voucher:YPMIZ35360
+Ahuja2024:CWD144	longitude	-122.04	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U31	Ahuja2024:CWD144	Ahuja2024:CWD144;voucher:YPMIZ35360
+Ahuja2024:CWD144	specimen_voucher	YPM:IZ:35360	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W31	Ahuja2024:CWD144	Ahuja2024:CWD144;voucher:YPMIZ35360
+Ahuja2024:CWD144	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K31	Ahuja2024:CWD144	Ahuja2024:CWD144;voucher:YPMIZ35360
+Ahuja2024:CWD146	collection_date	2003-03-13	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I28	Ahuja2024:CWD146	Ahuja2024:CWD146;voucher:YPMIZ35362
+Ahuja2024:CWD146	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P28	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P28	Ahuja2024:CWD146	Ahuja2024:CWD146;voucher:YPMIZ35362; explicit_metre_unit
+Ahuja2024:CWD146	collection_id	531D3	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B28	Ahuja2024:CWD146	Ahuja2024:CWD146;voucher:YPMIZ35362
+Ahuja2024:CWD146	depth_m	910	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P28	Ahuja2024:CWD146	Ahuja2024:CWD146;voucher:YPMIZ35362; explicit_metre_unit
+Ahuja2024:CWD146	depth_original	910 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P28	Ahuja2024:CWD146	Ahuja2024:CWD146;voucher:YPMIZ35362
+Ahuja2024:CWD146	lat_long_raw	24.32 N 109.2 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U28	Ahuja2024:CWD146	Ahuja2024:CWD146;voucher:YPMIZ35362
+Ahuja2024:CWD146	latitude	24.32	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U28	Ahuja2024:CWD146	Ahuja2024:CWD146;voucher:YPMIZ35362
+Ahuja2024:CWD146	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J28	Ahuja2024:CWD146	Ahuja2024:CWD146;voucher:YPMIZ35362
+Ahuja2024:CWD146	longitude	-109.2	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U28	Ahuja2024:CWD146	Ahuja2024:CWD146;voucher:YPMIZ35362
+Ahuja2024:CWD146	specimen_voucher	YPM:IZ:35362	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W28	Ahuja2024:CWD146	Ahuja2024:CWD146;voucher:YPMIZ35362
+Ahuja2024:CWD146	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K28	Ahuja2024:CWD146	Ahuja2024:CWD146;voucher:YPMIZ35362
+Ahuja2024:CWD16	collection_date	2002-06-08	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I37	Ahuja2024:CWD16	Ahuja2024:CWD16;voucher:YPMIZ35039
+Ahuja2024:CWD16	collection_date	2002-06-08	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H2	Ahuja2026:CWD16	Ahuja2026:CWD16;voucher:YPMIZ35039;run:SRR23143286
+Ahuja2024:CWD16	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P37	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P37	Ahuja2024:CWD16	Ahuja2024:CWD16;voucher:YPMIZ35039; explicit_metre_unit
+Ahuja2024:CWD16	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I2	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I2	Ahuja2026:CWD16	Ahuja2026:CWD16;voucher:YPMIZ35039;run:SRR23143286; explicit_metre_unit
+Ahuja2024:CWD16	collection_id	OC379-11-7	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B37	Ahuja2024:CWD16	Ahuja2024:CWD16;voucher:YPMIZ35039
+Ahuja2024:CWD16	collection_id	OC379-11-7	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D2	Ahuja2026:CWD16	Ahuja2026:CWD16;voucher:YPMIZ35039;run:SRR23143286
+Ahuja2024:CWD16	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P37	Ahuja2024:CWD16	Ahuja2024:CWD16;voucher:YPMIZ35039; explicit_metre_unit
+Ahuja2024:CWD16	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I2	Ahuja2026:CWD16	Ahuja2026:CWD16;voucher:YPMIZ35039;run:SRR23143286; explicit_metre_unit
+Ahuja2024:CWD16	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I2	Ahuja2026:CWD16	Ahuja2026:CWD16;voucher:YPMIZ35039;run:SRR23143286; explicit_metre_unit
+Ahuja2024:CWD16	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P37	Ahuja2024:CWD16	Ahuja2024:CWD16;voucher:YPMIZ35039
+Ahuja2024:CWD16	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I2	Ahuja2026:CWD16	Ahuja2026:CWD16;voucher:YPMIZ35039;run:SRR23143286
+Ahuja2024:CWD16	lat_long_raw	37.45 N 74.02 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U37	Ahuja2024:CWD16	Ahuja2024:CWD16;voucher:YPMIZ35039
+Ahuja2024:CWD16	lat_long_raw	37.450000, -74.016667	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G2	Ahuja2026:CWD16	Ahuja2026:CWD16;voucher:YPMIZ35039;run:SRR23143286
+Ahuja2024:CWD16	latitude	37.45	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U37	Ahuja2024:CWD16	Ahuja2024:CWD16;voucher:YPMIZ35039
+Ahuja2024:CWD16	latitude	37.45	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G2	Ahuja2026:CWD16	Ahuja2026:CWD16;voucher:YPMIZ35039;run:SRR23143286
+Ahuja2024:CWD16	locality	Atlantic Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J37	Ahuja2024:CWD16	Ahuja2024:CWD16;voucher:YPMIZ35039
+Ahuja2024:CWD16	locality	Virginia	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F2	Ahuja2026:CWD16	Ahuja2026:CWD16;voucher:YPMIZ35039;run:SRR23143286
+Ahuja2024:CWD16	longitude	-74.02	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U37	Ahuja2024:CWD16	Ahuja2024:CWD16;voucher:YPMIZ35039
+Ahuja2024:CWD16	longitude	-74.016667	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G2	Ahuja2026:CWD16	Ahuja2026:CWD16;voucher:YPMIZ35039;run:SRR23143286
+Ahuja2024:CWD16	ocean_region	NW Atlantic	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E2	Ahuja2026:CWD16	Ahuja2026:CWD16;voucher:YPMIZ35039;run:SRR23143286
+Ahuja2024:CWD16	specimen_voucher	YPM:IZ:35039	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W37	Ahuja2024:CWD16	Ahuja2024:CWD16;voucher:YPMIZ35039
+Ahuja2024:CWD16	specimen_voucher	YPM-IZ-35039	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B2	Ahuja2026:CWD16	Ahuja2026:CWD16;voucher:YPMIZ35039;run:SRR23143286
+Ahuja2024:CWD16	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K37	Ahuja2024:CWD16	Ahuja2024:CWD16;voucher:YPMIZ35039
+Ahuja2024:CWD17	collection_date	2002-09-16	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I33	Ahuja2024:CWD17	Ahuja2024:CWD17;voucher:YPMIZ35040
+Ahuja2024:CWD17	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P33	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P33	Ahuja2024:CWD17	Ahuja2024:CWD17;voucher:YPMIZ35040; explicit_metre_unit
+Ahuja2024:CWD17	collection_id	OC381-3-20	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B33	Ahuja2024:CWD17	Ahuja2024:CWD17;voucher:YPMIZ35040
+Ahuja2024:CWD17	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P33	Ahuja2024:CWD17	Ahuja2024:CWD17;voucher:YPMIZ35040; explicit_metre_unit
+Ahuja2024:CWD17	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P33	Ahuja2024:CWD17	Ahuja2024:CWD17;voucher:YPMIZ35040
+Ahuja2024:CWD17	lat_long_raw	38.85 N 72.45 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U33	Ahuja2024:CWD17	Ahuja2024:CWD17;voucher:YPMIZ35040
+Ahuja2024:CWD17	latitude	38.85	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U33	Ahuja2024:CWD17	Ahuja2024:CWD17;voucher:YPMIZ35040
+Ahuja2024:CWD17	locality	Atlantic Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J33	Ahuja2024:CWD17	Ahuja2024:CWD17;voucher:YPMIZ35040
+Ahuja2024:CWD17	longitude	-72.45	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U33	Ahuja2024:CWD17	Ahuja2024:CWD17;voucher:YPMIZ35040
+Ahuja2024:CWD17	specimen_voucher	YPM:IZ:35040	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W33	Ahuja2024:CWD17	Ahuja2024:CWD17;voucher:YPMIZ35040
+Ahuja2024:CWD17	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K33	Ahuja2024:CWD17	Ahuja2024:CWD17;voucher:YPMIZ35040
+Ahuja2024:CWD19	collection_date	1999-03-12	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I41	Ahuja2024:CWD19	Ahuja2024:CWD19;voucher:YPMIZ35346
+Ahuja2024:CWD19	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P41	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P41	Ahuja2024:CWD19	Ahuja2024:CWD19;voucher:YPMIZ35346; explicit_metre_unit
+Ahuja2024:CWD19	collection_id	MBARI03129	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B41	Ahuja2024:CWD19	Ahuja2024:CWD19;voucher:YPMIZ35346
+Ahuja2024:CWD19	depth_m	298	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P41	Ahuja2024:CWD19	Ahuja2024:CWD19;voucher:YPMIZ35346; explicit_metre_unit
+Ahuja2024:CWD19	depth_original	298 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P41	Ahuja2024:CWD19	Ahuja2024:CWD19;voucher:YPMIZ35346
+Ahuja2024:CWD19	lat_long_raw	36.71 N 122.05 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U41	Ahuja2024:CWD19	Ahuja2024:CWD19;voucher:YPMIZ35346
+Ahuja2024:CWD19	latitude	36.71	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U41	Ahuja2024:CWD19	Ahuja2024:CWD19;voucher:YPMIZ35346
+Ahuja2024:CWD19	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J41	Ahuja2024:CWD19	Ahuja2024:CWD19;voucher:YPMIZ35346
+Ahuja2024:CWD19	longitude	-122.05	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U41	Ahuja2024:CWD19	Ahuja2024:CWD19;voucher:YPMIZ35346
+Ahuja2024:CWD19	specimen_voucher	YPM:IZ:35346	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W41	Ahuja2024:CWD19	Ahuja2024:CWD19;voucher:YPMIZ35346
+Ahuja2024:CWD19	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K41	Ahuja2024:CWD19	Ahuja2024:CWD19;voucher:YPMIZ35346
+Ahuja2024:CWD2	collection_date	2002-09-18	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I16	Ahuja2024:CWD2	Ahuja2024:CWD2;voucher:YPMIZ35029
+Ahuja2024:CWD2	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P16	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P16	Ahuja2024:CWD2	Ahuja2024:CWD2;voucher:YPMIZ35029; explicit_metre_unit
+Ahuja2024:CWD2	collection_id	OC381-7-27	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B16	Ahuja2024:CWD2	Ahuja2024:CWD2;voucher:YPMIZ35029
+Ahuja2024:CWD2	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P16	Ahuja2024:CWD2	Ahuja2024:CWD2;voucher:YPMIZ35029; explicit_metre_unit
+Ahuja2024:CWD2	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P16	Ahuja2024:CWD2	Ahuja2024:CWD2;voucher:YPMIZ35029
+Ahuja2024:CWD2	lat_long_raw	37.63 N 73.45 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U16	Ahuja2024:CWD2	Ahuja2024:CWD2;voucher:YPMIZ35029
+Ahuja2024:CWD2	latitude	37.63	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U16	Ahuja2024:CWD2	Ahuja2024:CWD2;voucher:YPMIZ35029
+Ahuja2024:CWD2	locality	Atlantic Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J16	Ahuja2024:CWD2	Ahuja2024:CWD2;voucher:YPMIZ35029
+Ahuja2024:CWD2	longitude	-73.45	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U16	Ahuja2024:CWD2	Ahuja2024:CWD2;voucher:YPMIZ35029
+Ahuja2024:CWD2	specimen_voucher	YPM:IZ:35029	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W16	Ahuja2024:CWD2	Ahuja2024:CWD2;voucher:YPMIZ35029
+Ahuja2024:CWD2	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K16	Ahuja2024:CWD2	Ahuja2024:CWD2;voucher:YPMIZ35029
+Ahuja2024:CWD20	collection_date	1999-07-20	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I45	Ahuja2024:CWD20	Ahuja2024:CWD20;voucher:YPMIZ35347
+Ahuja2024:CWD20	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P45	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P45	Ahuja2024:CWD20	Ahuja2024:CWD20;voucher:YPMIZ35347; explicit_metre_unit
+Ahuja2024:CWD20	collection_id	MBARI-OC	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B45	Ahuja2024:CWD20	Ahuja2024:CWD20;voucher:YPMIZ35347
+Ahuja2024:CWD20	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P45	Ahuja2024:CWD20	Ahuja2024:CWD20;voucher:YPMIZ35347; explicit_metre_unit
+Ahuja2024:CWD20	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P45	Ahuja2024:CWD20	Ahuja2024:CWD20;voucher:YPMIZ35347
+Ahuja2024:CWD20	lat_long_raw	40.31 N 68.14 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U45	Ahuja2024:CWD20	Ahuja2024:CWD20;voucher:YPMIZ35347
+Ahuja2024:CWD20	latitude	40.31	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U45	Ahuja2024:CWD20	Ahuja2024:CWD20;voucher:YPMIZ35347
+Ahuja2024:CWD20	locality	Atlantic Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J45	Ahuja2024:CWD20	Ahuja2024:CWD20;voucher:YPMIZ35347
+Ahuja2024:CWD20	longitude	-68.14	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U45	Ahuja2024:CWD20	Ahuja2024:CWD20;voucher:YPMIZ35347
+Ahuja2024:CWD20	specimen_voucher	YPM:IZ:35347	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W45	Ahuja2024:CWD20	Ahuja2024:CWD20;voucher:YPMIZ35347
+Ahuja2024:CWD20	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K45	Ahuja2024:CWD20	Ahuja2024:CWD20;voucher:YPMIZ35347
+Ahuja2024:CWD21	collection_date	2002-09-24	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I46	Ahuja2024:CWD21	Ahuja2024:CWD21;voucher:YPMIZ35041
+Ahuja2024:CWD21	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P46	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P46	Ahuja2024:CWD21	Ahuja2024:CWD21;voucher:YPMIZ35041; explicit_metre_unit
+Ahuja2024:CWD21	collection_id	OC381-22-18	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B46	Ahuja2024:CWD21	Ahuja2024:CWD21;voucher:YPMIZ35041
+Ahuja2024:CWD21	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P46	Ahuja2024:CWD21	Ahuja2024:CWD21;voucher:YPMIZ35041; explicit_metre_unit
+Ahuja2024:CWD21	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P46	Ahuja2024:CWD21	Ahuja2024:CWD21;voucher:YPMIZ35041
+Ahuja2024:CWD21	lat_long_raw	38.9 N 70.27 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U46	Ahuja2024:CWD21	Ahuja2024:CWD21;voucher:YPMIZ35041
+Ahuja2024:CWD21	latitude	38.9	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U46	Ahuja2024:CWD21	Ahuja2024:CWD21;voucher:YPMIZ35041
+Ahuja2024:CWD21	locality	Atlantic Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J46	Ahuja2024:CWD21	Ahuja2024:CWD21;voucher:YPMIZ35041
+Ahuja2024:CWD21	longitude	-70.27	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U46	Ahuja2024:CWD21	Ahuja2024:CWD21;voucher:YPMIZ35041
+Ahuja2024:CWD21	specimen_voucher	YPM:IZ:35041	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W46	Ahuja2024:CWD21	Ahuja2024:CWD21;voucher:YPMIZ35041
+Ahuja2024:CWD21	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K46	Ahuja2024:CWD21	Ahuja2024:CWD21;voucher:YPMIZ35041
+Ahuja2024:CWD3	collection_date	2002-09-17	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I18	Ahuja2024:CWD3	Ahuja2024:CWD3;voucher:YPMIZ35030
+Ahuja2024:CWD3	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P18	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P18	Ahuja2024:CWD3	Ahuja2024:CWD3;voucher:YPMIZ35030; explicit_metre_unit
+Ahuja2024:CWD3	collection_id	OC381-5-5	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B18	Ahuja2024:CWD3	Ahuja2024:CWD3;voucher:YPMIZ35030
+Ahuja2024:CWD3	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P18	Ahuja2024:CWD3	Ahuja2024:CWD3;voucher:YPMIZ35030; explicit_metre_unit
+Ahuja2024:CWD3	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P18	Ahuja2024:CWD3	Ahuja2024:CWD3;voucher:YPMIZ35030
+Ahuja2024:CWD3	lat_long_raw	38.17 N 72.98 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U18	Ahuja2024:CWD3	Ahuja2024:CWD3;voucher:YPMIZ35030
+Ahuja2024:CWD3	latitude	38.17	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U18	Ahuja2024:CWD3	Ahuja2024:CWD3;voucher:YPMIZ35030
+Ahuja2024:CWD3	locality	Atlantic Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J18	Ahuja2024:CWD3	Ahuja2024:CWD3;voucher:YPMIZ35030
+Ahuja2024:CWD3	longitude	-72.98	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U18	Ahuja2024:CWD3	Ahuja2024:CWD3;voucher:YPMIZ35030
+Ahuja2024:CWD3	specimen_voucher	YPM:IZ:35030	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W18	Ahuja2024:CWD3	Ahuja2024:CWD3;voucher:YPMIZ35030
+Ahuja2024:CWD3	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K18	Ahuja2024:CWD3	Ahuja2024:CWD3;voucher:YPMIZ35030
+Ahuja2024:CWD6	collection_date	2002-06-11	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I25	Ahuja2024:CWD6	Ahuja2024:CWD6;voucher:YPMIZ35032
+Ahuja2024:CWD6	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P25	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P25	Ahuja2024:CWD6	Ahuja2024:CWD6;voucher:YPMIZ35032; explicit_metre_unit
+Ahuja2024:CWD6	collection_id	OC379-16-20	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B25	Ahuja2024:CWD6	Ahuja2024:CWD6;voucher:YPMIZ35032
+Ahuja2024:CWD6	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P25	Ahuja2024:CWD6	Ahuja2024:CWD6;voucher:YPMIZ35032; explicit_metre_unit
+Ahuja2024:CWD6	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P25	Ahuja2024:CWD6	Ahuja2024:CWD6;voucher:YPMIZ35032
+Ahuja2024:CWD6	lat_long_raw	37.68 N 73.13 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U25	Ahuja2024:CWD6	Ahuja2024:CWD6;voucher:YPMIZ35032
+Ahuja2024:CWD6	latitude	37.68	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U25	Ahuja2024:CWD6	Ahuja2024:CWD6;voucher:YPMIZ35032
+Ahuja2024:CWD6	locality	Atlantic Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J25	Ahuja2024:CWD6	Ahuja2024:CWD6;voucher:YPMIZ35032
+Ahuja2024:CWD6	longitude	-73.13	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U25	Ahuja2024:CWD6	Ahuja2024:CWD6;voucher:YPMIZ35032
+Ahuja2024:CWD6	specimen_voucher	YPM:IZ:35032	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W25	Ahuja2024:CWD6	Ahuja2024:CWD6;voucher:YPMIZ35032
+Ahuja2024:CWD6	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K25	Ahuja2024:CWD6	Ahuja2024:CWD6;voucher:YPMIZ35032
+Ahuja2024:CWD7	collection_date	2002-09-19	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I27	Ahuja2024:CWD7	Ahuja2024:CWD7;voucher:YPMIZ35033
+Ahuja2024:CWD7	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P27	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P27	Ahuja2024:CWD7	Ahuja2024:CWD7;voucher:YPMIZ35033; explicit_metre_unit
+Ahuja2024:CWD7	collection_id	OC381-9-4	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B27	Ahuja2024:CWD7	Ahuja2024:CWD7;voucher:YPMIZ35033
+Ahuja2024:CWD7	depth_m	10	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P27	Ahuja2024:CWD7	Ahuja2024:CWD7;voucher:YPMIZ35033; explicit_metre_unit
+Ahuja2024:CWD7	depth_original	10 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P27	Ahuja2024:CWD7	Ahuja2024:CWD7;voucher:YPMIZ35033
+Ahuja2024:CWD7	lat_long_raw	36.98 N 73.85 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U27	Ahuja2024:CWD7	Ahuja2024:CWD7;voucher:YPMIZ35033
+Ahuja2024:CWD7	latitude	36.98	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U27	Ahuja2024:CWD7	Ahuja2024:CWD7;voucher:YPMIZ35033
+Ahuja2024:CWD7	locality	Atlantic Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J27	Ahuja2024:CWD7	Ahuja2024:CWD7;voucher:YPMIZ35033
+Ahuja2024:CWD7	longitude	-73.85	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U27	Ahuja2024:CWD7	Ahuja2024:CWD7;voucher:YPMIZ35033
+Ahuja2024:CWD7	specimen_voucher	YPM:IZ:35033	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W27	Ahuja2024:CWD7	Ahuja2024:CWD7;voucher:YPMIZ35033
+Ahuja2024:CWD7	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K27	Ahuja2024:CWD7	Ahuja2024:CWD7;voucher:YPMIZ35033
+Ahuja2024:NA1	collection_date	2021-10-29	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I24	Ahuja2024:NA1	Ahuja2024:NA1;voucher:YPMIZ110225
+Ahuja2024:NA1	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P24	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P24	Ahuja2024:NA1	Ahuja2024:NA1;voucher:YPMIZ110225; explicit_metre_unit
+Ahuja2024:NA1	collection_id	D1398-SS8	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B24	Ahuja2024:NA1	Ahuja2024:NA1;voucher:YPMIZ110225
+Ahuja2024:NA1	depth_m	964	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P24	Ahuja2024:NA1	Ahuja2024:NA1;voucher:YPMIZ110225; explicit_metre_unit
+Ahuja2024:NA1	depth_original	964 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P24	Ahuja2024:NA1	Ahuja2024:NA1;voucher:YPMIZ110225
+Ahuja2024:NA1	lat_long_raw	36.224784 N 123.14242 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U24	Ahuja2024:NA1	Ahuja2024:NA1;voucher:YPMIZ110225
+Ahuja2024:NA1	latitude	36.224784	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U24	Ahuja2024:NA1	Ahuja2024:NA1;voucher:YPMIZ110225
+Ahuja2024:NA1	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J24	Ahuja2024:NA1	Ahuja2024:NA1;voucher:YPMIZ110225
+Ahuja2024:NA1	longitude	-123.14242	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U24	Ahuja2024:NA1	Ahuja2024:NA1;voucher:YPMIZ110225
+Ahuja2024:NA1	specimen_voucher	YPM:IZ:110225	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W24	Ahuja2024:NA1	Ahuja2024:NA1;voucher:YPMIZ110225
+Ahuja2024:NA1	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K24	Ahuja2024:NA1	Ahuja2024:NA1;voucher:YPMIZ110225
+Ahuja2024:NA10	collection_date	2006-05-16	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I42	Ahuja2024:NA10	Ahuja2024:NA10
+Ahuja2024:NA10	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P42	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P42	Ahuja2024:NA10	Ahuja2024:NA10; explicit_metre_unit
+Ahuja2024:NA10	collection_id	T987-D2	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B42	Ahuja2024:NA10	Ahuja2024:NA10
+Ahuja2024:NA10	depth_m	286.25	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P42	Ahuja2024:NA10	Ahuja2024:NA10; explicit_metre_unit
+Ahuja2024:NA10	depth_original	286.25 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P42	Ahuja2024:NA10	Ahuja2024:NA10
+Ahuja2024:NA10	lat_long_raw	35.648785 N 122.737913 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U42	Ahuja2024:NA10	Ahuja2024:NA10
+Ahuja2024:NA10	latitude	35.648785	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U42	Ahuja2024:NA10	Ahuja2024:NA10
+Ahuja2024:NA10	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J42	Ahuja2024:NA10	Ahuja2024:NA10
+Ahuja2024:NA10	longitude	-122.737913	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U42	Ahuja2024:NA10	Ahuja2024:NA10
+Ahuja2024:NA10	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K42	Ahuja2024:NA10	Ahuja2024:NA10
+Ahuja2024:NA11	collection_date	2005-04-09	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I43	Ahuja2024:NA11	Ahuja2024:NA11
+Ahuja2024:NA11	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P43	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P43	Ahuja2024:NA11	Ahuja2024:NA11; explicit_metre_unit
+Ahuja2024:NA11	collection_id	T845-D3	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B43	Ahuja2024:NA11	Ahuja2024:NA11
+Ahuja2024:NA11	depth_m	235	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P43	Ahuja2024:NA11	Ahuja2024:NA11; explicit_metre_unit
+Ahuja2024:NA11	depth_original	235 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P43	Ahuja2024:NA11	Ahuja2024:NA11
+Ahuja2024:NA11	lat_long_raw	36.6990 N 122.0578 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U43	Ahuja2024:NA11	Ahuja2024:NA11
+Ahuja2024:NA11	latitude	36.699	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U43	Ahuja2024:NA11	Ahuja2024:NA11
+Ahuja2024:NA11	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J43	Ahuja2024:NA11	Ahuja2024:NA11
+Ahuja2024:NA11	longitude	-122.0578	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U43	Ahuja2024:NA11	Ahuja2024:NA11
+Ahuja2024:NA11	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K43	Ahuja2024:NA11	Ahuja2024:NA11
+Ahuja2024:NA2	collection_date	2021-10-30	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I39	Ahuja2024:NA2	Ahuja2024:NA2
+Ahuja2024:NA2	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P39	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P39	Ahuja2024:NA2	Ahuja2024:NA2; explicit_metre_unit
+Ahuja2024:NA2	collection_id	D1399-D4	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B39	Ahuja2024:NA2	Ahuja2024:NA2
+Ahuja2024:NA2	depth_m	600	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P39	Ahuja2024:NA2	Ahuja2024:NA2; explicit_metre_unit
+Ahuja2024:NA2	depth_original	600 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P39	Ahuja2024:NA2	Ahuja2024:NA2
+Ahuja2024:NA2	lat_long_raw	36.698 N 122.0716 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U39	Ahuja2024:NA2	Ahuja2024:NA2
+Ahuja2024:NA2	latitude	36.698	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U39	Ahuja2024:NA2	Ahuja2024:NA2
+Ahuja2024:NA2	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J39	Ahuja2024:NA2	Ahuja2024:NA2
+Ahuja2024:NA2	longitude	-122.0716	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U39	Ahuja2024:NA2	Ahuja2024:NA2
+Ahuja2024:NA2	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K39	Ahuja2024:NA2	Ahuja2024:NA2
+Ahuja2024:NA3	collection_date	2021-10-30	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I29	Ahuja2024:NA3	Ahuja2024:NA3
+Ahuja2024:NA3	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P29	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P29	Ahuja2024:NA3	Ahuja2024:NA3; explicit_metre_unit
+Ahuja2024:NA3	collection_id	D1399-D5	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B29	Ahuja2024:NA3	Ahuja2024:NA3
+Ahuja2024:NA3	depth_m	349	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P29	Ahuja2024:NA3	Ahuja2024:NA3; explicit_metre_unit
+Ahuja2024:NA3	depth_original	349 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P29	Ahuja2024:NA3	Ahuja2024:NA3
+Ahuja2024:NA3	lat_long_raw	36.697 N 122.0724 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U29	Ahuja2024:NA3	Ahuja2024:NA3
+Ahuja2024:NA3	latitude	36.697	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U29	Ahuja2024:NA3	Ahuja2024:NA3
+Ahuja2024:NA3	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J29	Ahuja2024:NA3	Ahuja2024:NA3
+Ahuja2024:NA3	longitude	-122.0724	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U29	Ahuja2024:NA3	Ahuja2024:NA3
+Ahuja2024:NA3	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K29	Ahuja2024:NA3	Ahuja2024:NA3
+Ahuja2024:NA4	collection_date	2021-10-30	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I40	Ahuja2024:NA4	Ahuja2024:NA4
+Ahuja2024:NA4	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P40	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P40	Ahuja2024:NA4	Ahuja2024:NA4; explicit_metre_unit
+Ahuja2024:NA4	collection_id	D1398-SS11	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B40	Ahuja2024:NA4	Ahuja2024:NA4
+Ahuja2024:NA4	depth_m	249	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P40	Ahuja2024:NA4	Ahuja2024:NA4; explicit_metre_unit
+Ahuja2024:NA4	depth_original	249 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P40	Ahuja2024:NA4	Ahuja2024:NA4
+Ahuja2024:NA4	lat_long_raw	36.2235 N 123.143176 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U40	Ahuja2024:NA4	Ahuja2024:NA4
+Ahuja2024:NA4	latitude	36.2235	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U40	Ahuja2024:NA4	Ahuja2024:NA4
+Ahuja2024:NA4	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J40	Ahuja2024:NA4	Ahuja2024:NA4
+Ahuja2024:NA4	longitude	-123.143176	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U40	Ahuja2024:NA4	Ahuja2024:NA4
+Ahuja2024:NA4	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K40	Ahuja2024:NA4	Ahuja2024:NA4
+Ahuja2024:NA5	collection_date	2021-10-30	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I19	Ahuja2024:NA5	Ahuja2024:NA5
+Ahuja2024:NA5	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P19	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P19	Ahuja2024:NA5	Ahuja2024:NA5; explicit_metre_unit
+Ahuja2024:NA5	collection_id	D1399-D12	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B19	Ahuja2024:NA5	Ahuja2024:NA5
+Ahuja2024:NA5	depth_m	556	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P19	Ahuja2024:NA5	Ahuja2024:NA5; explicit_metre_unit
+Ahuja2024:NA5	depth_original	556 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P19	Ahuja2024:NA5	Ahuja2024:NA5
+Ahuja2024:NA5	lat_long_raw	36.698 N 122.0719 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U19	Ahuja2024:NA5	Ahuja2024:NA5
+Ahuja2024:NA5	latitude	36.698	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U19	Ahuja2024:NA5	Ahuja2024:NA5
+Ahuja2024:NA5	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J19	Ahuja2024:NA5	Ahuja2024:NA5
+Ahuja2024:NA5	longitude	-122.0719	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U19	Ahuja2024:NA5	Ahuja2024:NA5
+Ahuja2024:NA5	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K19	Ahuja2024:NA5	Ahuja2024:NA5
+Ahuja2024:NA6	collection_date	2021-09-23	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I26	Ahuja2024:NA6	Ahuja2024:NA6
+Ahuja2024:NA6	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P26	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P26	Ahuja2024:NA6	Ahuja2024:NA6; explicit_metre_unit
+Ahuja2024:NA6	collection_id	V4355-SS6	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B26	Ahuja2024:NA6	Ahuja2024:NA6
+Ahuja2024:NA6	depth_m	467	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P26	Ahuja2024:NA6	Ahuja2024:NA6; explicit_metre_unit
+Ahuja2024:NA6	depth_original	467 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P26	Ahuja2024:NA6	Ahuja2024:NA6
+Ahuja2024:NA6	lat_long_raw	36.6844 N 122.072 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U26	Ahuja2024:NA6	Ahuja2024:NA6
+Ahuja2024:NA6	latitude	36.6844	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U26	Ahuja2024:NA6	Ahuja2024:NA6
+Ahuja2024:NA6	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J26	Ahuja2024:NA6	Ahuja2024:NA6
+Ahuja2024:NA6	longitude	-122.072	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U26	Ahuja2024:NA6	Ahuja2024:NA6
+Ahuja2024:NA6	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K26	Ahuja2024:NA6	Ahuja2024:NA6
+Ahuja2024:NA7	collection_date	2021-09-23	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I35	Ahuja2024:NA7	Ahuja2024:NA7
+Ahuja2024:NA7	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P35	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P35	Ahuja2024:NA7	Ahuja2024:NA7; explicit_metre_unit
+Ahuja2024:NA7	collection_id	V4355-D3	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B35	Ahuja2024:NA7	Ahuja2024:NA7
+Ahuja2024:NA7	depth_m	417	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P35	Ahuja2024:NA7	Ahuja2024:NA7; explicit_metre_unit
+Ahuja2024:NA7	depth_original	417 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P35	Ahuja2024:NA7	Ahuja2024:NA7
+Ahuja2024:NA7	lat_long_raw	36.6842 N 122.0727 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U35	Ahuja2024:NA7	Ahuja2024:NA7
+Ahuja2024:NA7	latitude	36.6842	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U35	Ahuja2024:NA7	Ahuja2024:NA7
+Ahuja2024:NA7	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J35	Ahuja2024:NA7	Ahuja2024:NA7
+Ahuja2024:NA7	longitude	-122.0727	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U35	Ahuja2024:NA7	Ahuja2024:NA7
+Ahuja2024:NA7	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K35	Ahuja2024:NA7	Ahuja2024:NA7
+Ahuja2024:NA8	collection_date	2021-10-29	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I22	Ahuja2024:NA8	Ahuja2024:NA8;voucher:YPMIZ110226
+Ahuja2024:NA8	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P22	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P22	Ahuja2024:NA8	Ahuja2024:NA8;voucher:YPMIZ110226; explicit_metre_unit
+Ahuja2024:NA8	collection_id	D1398-D1	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B22	Ahuja2024:NA8	Ahuja2024:NA8;voucher:YPMIZ110226
+Ahuja2024:NA8	depth_m	1299	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P22	Ahuja2024:NA8	Ahuja2024:NA8;voucher:YPMIZ110226; explicit_metre_unit
+Ahuja2024:NA8	depth_original	1299 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P22	Ahuja2024:NA8	Ahuja2024:NA8;voucher:YPMIZ110226
+Ahuja2024:NA8	lat_long_raw	36.225 N 123.1424 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U22	Ahuja2024:NA8	Ahuja2024:NA8;voucher:YPMIZ110226
+Ahuja2024:NA8	latitude	36.225	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U22	Ahuja2024:NA8	Ahuja2024:NA8;voucher:YPMIZ110226
+Ahuja2024:NA8	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J22	Ahuja2024:NA8	Ahuja2024:NA8;voucher:YPMIZ110226
+Ahuja2024:NA8	longitude	-123.1424	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U22	Ahuja2024:NA8	Ahuja2024:NA8;voucher:YPMIZ110226
+Ahuja2024:NA8	specimen_voucher	YPM:IZ:110226	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W22	Ahuja2024:NA8	Ahuja2024:NA8;voucher:YPMIZ110226
+Ahuja2024:NA8	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K22	Ahuja2024:NA8	Ahuja2024:NA8;voucher:YPMIZ110226
+Ahuja2024:NA9	collection_date	2010-10-12	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I30	Ahuja2024:NA9	Ahuja2024:NA9
+Ahuja2024:NA9	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P30	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P30	Ahuja2024:NA9	Ahuja2024:NA9; explicit_metre_unit
+Ahuja2024:NA9	collection_id	D199-SS8	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B30	Ahuja2024:NA9	Ahuja2024:NA9
+Ahuja2024:NA9	depth_m	420	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P30	Ahuja2024:NA9	Ahuja2024:NA9; explicit_metre_unit
+Ahuja2024:NA9	depth_original	420 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P30	Ahuja2024:NA9	Ahuja2024:NA9
+Ahuja2024:NA9	lat_long_raw	36.6996 N 122.0999 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U30	Ahuja2024:NA9	Ahuja2024:NA9
+Ahuja2024:NA9	latitude	36.6996	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U30	Ahuja2024:NA9	Ahuja2024:NA9
+Ahuja2024:NA9	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J30	Ahuja2024:NA9	Ahuja2024:NA9
+Ahuja2024:NA9	longitude	-122.0999	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U30	Ahuja2024:NA9	Ahuja2024:NA9
+Ahuja2024:NA9	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K30	Ahuja2024:NA9	Ahuja2024:NA9
+Ahuja2026:NA19	collection_date	2013-02-11	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I36	Ahuja2024:NA19	Ahuja2024:NA19
+Ahuja2026:NA19	collection_date	2013-02-11	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H23	Ahuja2026:NA19	Ahuja2026:NA19;voucher:YPMIZ111744;run:SRR23143273
+Ahuja2026:NA19	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P36	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P36	Ahuja2024:NA19	Ahuja2024:NA19; explicit_metre_unit
+Ahuja2026:NA19	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I23	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I23	Ahuja2026:NA19	Ahuja2026:NA19;voucher:YPMIZ111744;run:SRR23143273; metres_inferred_from_other_depth_cells_in_same_column
+Ahuja2026:NA19	collection_id	V3698-D2	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B36	Ahuja2024:NA19	Ahuja2024:NA19
+Ahuja2026:NA19	collection_id	V3698-D2	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D23	Ahuja2026:NA19	Ahuja2026:NA19;voucher:YPMIZ111744;run:SRR23143273
+Ahuja2026:NA19	depth_m	297	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P36	Ahuja2024:NA19	Ahuja2024:NA19; explicit_metre_unit
+Ahuja2026:NA19	depth_m	296	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I23	Ahuja2026:NA19	Ahuja2026:NA19;voucher:YPMIZ111744;run:SRR23143273; metres_inferred_from_other_depth_cells_in_same_column
+Ahuja2026:NA19	depth_original	297 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P36	Ahuja2024:NA19	Ahuja2024:NA19
+Ahuja2026:NA19	depth_original	296	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I23	Ahuja2026:NA19	Ahuja2026:NA19;voucher:YPMIZ111744;run:SRR23143273
+Ahuja2026:NA19	lat_long_raw	36.698983 N 122.050126 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U36	Ahuja2024:NA19	Ahuja2024:NA19
+Ahuja2026:NA19	lat_long_raw	36.698983, -122.050126	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G23	Ahuja2026:NA19	Ahuja2026:NA19;voucher:YPMIZ111744;run:SRR23143273
+Ahuja2026:NA19	latitude	36.698983	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U36	Ahuja2024:NA19	Ahuja2024:NA19
+Ahuja2026:NA19	latitude	36.698983	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G23	Ahuja2026:NA19	Ahuja2026:NA19;voucher:YPMIZ111744;run:SRR23143273
+Ahuja2026:NA19	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J36	Ahuja2024:NA19	Ahuja2024:NA19
+Ahuja2026:NA19	locality	California	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F23	Ahuja2026:NA19	Ahuja2026:NA19;voucher:YPMIZ111744;run:SRR23143273
+Ahuja2026:NA19	longitude	-122.050126	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U36	Ahuja2024:NA19	Ahuja2024:NA19
+Ahuja2026:NA19	longitude	-122.050126	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G23	Ahuja2026:NA19	Ahuja2026:NA19;voucher:YPMIZ111744;run:SRR23143273
+Ahuja2026:NA19	ocean_region	NE Pacific	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E23	Ahuja2026:NA19	Ahuja2026:NA19;voucher:YPMIZ111744;run:SRR23143273
+Ahuja2026:NA19	specimen_voucher	YPM-IZ-111744	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B23	Ahuja2026:NA19	Ahuja2026:NA19;voucher:YPMIZ111744;run:SRR23143273
+Ahuja2026:NA19	tissue	siphosome	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K36	Ahuja2024:NA19	Ahuja2024:NA19
+Ahuja2026:NA28	collection_date	2013-08-30	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H13	Ahuja2026:NA28	Ahuja2026:NA28;voucher:YPMIZ110451;run:SRR33215983
+Ahuja2026:NA28	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I13	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I13	Ahuja2026:NA28	Ahuja2026:NA28;voucher:YPMIZ110451;run:SRR33215983; explicit_metre_unit
+Ahuja2026:NA28	collection_id	RI2-5	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D13	Ahuja2026:NA28	Ahuja2026:NA28;voucher:YPMIZ110451;run:SRR33215983
+Ahuja2026:NA28	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I13	Ahuja2026:NA28	Ahuja2026:NA28;voucher:YPMIZ110451;run:SRR33215983; explicit_metre_unit
+Ahuja2026:NA28	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I13	Ahuja2026:NA28	Ahuja2026:NA28;voucher:YPMIZ110451;run:SRR33215983; explicit_metre_unit
+Ahuja2026:NA28	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I13	Ahuja2026:NA28	Ahuja2026:NA28;voucher:YPMIZ110451;run:SRR33215983
+Ahuja2026:NA28	lat_long_raw	41.036, -71.399	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G13	Ahuja2026:NA28	Ahuja2026:NA28;voucher:YPMIZ110451;run:SRR33215983
+Ahuja2026:NA28	latitude	41.036	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G13	Ahuja2026:NA28	Ahuja2026:NA28;voucher:YPMIZ110451;run:SRR33215983
+Ahuja2026:NA28	locality	Rhode Island	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F13	Ahuja2026:NA28	Ahuja2026:NA28;voucher:YPMIZ110451;run:SRR33215983
+Ahuja2026:NA28	longitude	-71.399	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G13	Ahuja2026:NA28	Ahuja2026:NA28;voucher:YPMIZ110451;run:SRR33215983
+Ahuja2026:NA28	ocean_region	NW Atlantic	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E13	Ahuja2026:NA28	Ahuja2026:NA28;voucher:YPMIZ110451;run:SRR33215983
+Ahuja2026:NA28	specimen_voucher	YPM-IZ-110451	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B13	Ahuja2026:NA28	Ahuja2026:NA28;voucher:YPMIZ110451;run:SRR33215983
+Ahuja2026:NA29	collection_date	2017-03-16	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H12	Ahuja2026:NA29	Ahuja2026:NA29;voucher:YPMIZ111733;run:SRR33215966
+Ahuja2026:NA29	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I12	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I12	Ahuja2026:NA29	Ahuja2026:NA29;voucher:YPMIZ111733;run:SRR33215966; explicit_metre_unit
+Ahuja2026:NA29	collection_id	KOK BW4-2	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D12	Ahuja2026:NA29	Ahuja2026:NA29;voucher:YPMIZ111733;run:SRR33215966
+Ahuja2026:NA29	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I12	Ahuja2026:NA29	Ahuja2026:NA29;voucher:YPMIZ111733;run:SRR33215966; explicit_metre_unit
+Ahuja2026:NA29	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I12	Ahuja2026:NA29	Ahuja2026:NA29;voucher:YPMIZ111733;run:SRR33215966; explicit_metre_unit
+Ahuja2026:NA29	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I12	Ahuja2026:NA29	Ahuja2026:NA29;voucher:YPMIZ111733;run:SRR33215966
+Ahuja2026:NA29	lat_long_raw	19.344170, -156.075853	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G12	Ahuja2026:NA29	Ahuja2026:NA29;voucher:YPMIZ111733;run:SRR33215966
+Ahuja2026:NA29	latitude	19.34417	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G12	Ahuja2026:NA29	Ahuja2026:NA29;voucher:YPMIZ111733;run:SRR33215966
+Ahuja2026:NA29	locality	Hawai'i	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F12	Ahuja2026:NA29	Ahuja2026:NA29;voucher:YPMIZ111733;run:SRR33215966
+Ahuja2026:NA29	longitude	-156.075853	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G12	Ahuja2026:NA29	Ahuja2026:NA29;voucher:YPMIZ111733;run:SRR33215966
+Ahuja2026:NA29	ocean_region	N Pacific	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E12	Ahuja2026:NA29	Ahuja2026:NA29;voucher:YPMIZ111733;run:SRR33215966
+Ahuja2026:NA29	specimen_voucher	YPM-IZ-111733	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B12	Ahuja2026:NA29	Ahuja2026:NA29;voucher:YPMIZ111733;run:SRR33215966
+Ahuja2026:NA30	collection_date	2011-04-01	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H17	Ahuja2026:NA30	Ahuja2026:NA30;voucher:YPMIZ111732;run:SRR33215979
+Ahuja2026:NA30	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I17	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I17	Ahuja2026:NA30	Ahuja2026:NA30;voucher:YPMIZ111732;run:SRR33215979; explicit_metre_unit
+Ahuja2026:NA30	collection_id	V13	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D17	Ahuja2026:NA30	Ahuja2026:NA30;voucher:YPMIZ111732;run:SRR33215979
+Ahuja2026:NA30	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I17	Ahuja2026:NA30	Ahuja2026:NA30;voucher:YPMIZ111732;run:SRR33215979; explicit_metre_unit
+Ahuja2026:NA30	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I17	Ahuja2026:NA30	Ahuja2026:NA30;voucher:YPMIZ111732;run:SRR33215979; explicit_metre_unit
+Ahuja2026:NA30	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I17	Ahuja2026:NA30	Ahuja2026:NA30;voucher:YPMIZ111732;run:SRR33215979
+Ahuja2026:NA30	lat_long_raw	43.690000, 7.310000	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G17	Ahuja2026:NA30	Ahuja2026:NA30;voucher:YPMIZ111732;run:SRR33215979
+Ahuja2026:NA30	latitude	43.69	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G17	Ahuja2026:NA30	Ahuja2026:NA30;voucher:YPMIZ111732;run:SRR33215979
+Ahuja2026:NA30	locality	France	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F17	Ahuja2026:NA30	Ahuja2026:NA30;voucher:YPMIZ111732;run:SRR33215979
+Ahuja2026:NA30	longitude	7.31	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G17	Ahuja2026:NA30	Ahuja2026:NA30;voucher:YPMIZ111732;run:SRR33215979
+Ahuja2026:NA30	ocean_region	Mediterranean	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E17	Ahuja2026:NA30	Ahuja2026:NA30;voucher:YPMIZ111732;run:SRR33215979
+Ahuja2026:NA30	specimen_voucher	YPM-IZ-111732	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B17	Ahuja2026:NA30	Ahuja2026:NA30;voucher:YPMIZ111732;run:SRR33215979
+Ahuja2026:NA31	collection_date	2010-06-18	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H9	Ahuja2026:NA31	Ahuja2026:NA31;voucher:YPMIZ111742;run:SRR33215969
+Ahuja2026:NA31	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I9	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I9	Ahuja2026:NA31	Ahuja2026:NA31;voucher:YPMIZ111742;run:SRR33215969; explicit_metre_unit
+Ahuja2026:NA31	collection_id	GOCBW2 nanomia	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D9	Ahuja2026:NA31	Ahuja2026:NA31;voucher:YPMIZ111742;run:SRR33215969
+Ahuja2026:NA31	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I9	Ahuja2026:NA31	Ahuja2026:NA31;voucher:YPMIZ111742;run:SRR33215969; explicit_metre_unit
+Ahuja2026:NA31	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I9	Ahuja2026:NA31	Ahuja2026:NA31;voucher:YPMIZ111742;run:SRR33215969; explicit_metre_unit
+Ahuja2026:NA31	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I9	Ahuja2026:NA31	Ahuja2026:NA31;voucher:YPMIZ111742;run:SRR33215969
+Ahuja2026:NA31	lat_long_raw	27.591667, -111.516667	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G9	Ahuja2026:NA31	Ahuja2026:NA31;voucher:YPMIZ111742;run:SRR33215969
+Ahuja2026:NA31	latitude	27.591667	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G9	Ahuja2026:NA31	Ahuja2026:NA31;voucher:YPMIZ111742;run:SRR33215969
+Ahuja2026:NA31	locality	Gulf of California	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F9	Ahuja2026:NA31	Ahuja2026:NA31;voucher:YPMIZ111742;run:SRR33215969
+Ahuja2026:NA31	longitude	-111.516667	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G9	Ahuja2026:NA31	Ahuja2026:NA31;voucher:YPMIZ111742;run:SRR33215969
+Ahuja2026:NA31	ocean_region	Gulf of California	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E9	Ahuja2026:NA31	Ahuja2026:NA31;voucher:YPMIZ111742;run:SRR33215969
+Ahuja2026:NA31	specimen_voucher	YPM-IZ-111742	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B9	Ahuja2026:NA31	Ahuja2026:NA31;voucher:YPMIZ111742;run:SRR33215969
+Ahuja2026:NA32	collection_date	2015-03-13	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H10	Ahuja2026:NA32	Ahuja2026:NA32;voucher:YPMIZ111740;run:SRR33215968
+Ahuja2026:NA32	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I10	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I10	Ahuja2026:NA32	Ahuja2026:NA32;voucher:YPMIZ111740;run:SRR33215968; explicit_metre_unit
+Ahuja2026:NA32	collection_id	GoC2015 BW6 nanomia	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D10	Ahuja2026:NA32	Ahuja2026:NA32;voucher:YPMIZ111740;run:SRR33215968
+Ahuja2026:NA32	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I10	Ahuja2026:NA32	Ahuja2026:NA32;voucher:YPMIZ111740;run:SRR33215968; explicit_metre_unit
+Ahuja2026:NA32	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I10	Ahuja2026:NA32	Ahuja2026:NA32;voucher:YPMIZ111740;run:SRR33215968; explicit_metre_unit
+Ahuja2026:NA32	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I10	Ahuja2026:NA32	Ahuja2026:NA32;voucher:YPMIZ111740;run:SRR33215968
+Ahuja2026:NA32	lat_long_raw	22.916667, -108.116667	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G10	Ahuja2026:NA32	Ahuja2026:NA32;voucher:YPMIZ111740;run:SRR33215968
+Ahuja2026:NA32	latitude	22.916667	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G10	Ahuja2026:NA32	Ahuja2026:NA32;voucher:YPMIZ111740;run:SRR33215968
+Ahuja2026:NA32	locality	Gulf of California	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F10	Ahuja2026:NA32	Ahuja2026:NA32;voucher:YPMIZ111740;run:SRR33215968
+Ahuja2026:NA32	longitude	-108.116667	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G10	Ahuja2026:NA32	Ahuja2026:NA32;voucher:YPMIZ111740;run:SRR33215968
+Ahuja2026:NA32	ocean_region	Gulf of California	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E10	Ahuja2026:NA32	Ahuja2026:NA32;voucher:YPMIZ111740;run:SRR33215968
+Ahuja2026:NA32	specimen_voucher	YPM-IZ-111740	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B10	Ahuja2026:NA32	Ahuja2026:NA32;voucher:YPMIZ111740;run:SRR33215968
+Ahuja2026:NA33	collection_date	2015-03-15	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H11	Ahuja2026:NA33	Ahuja2026:NA33;voucher:YPMIZ111741;run:SRR33215967
+Ahuja2026:NA33	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I11	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I11	Ahuja2026:NA33	Ahuja2026:NA33;voucher:YPMIZ111741;run:SRR33215967; explicit_metre_unit
+Ahuja2026:NA33	collection_id	GoCBW8 nanomia	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D11	Ahuja2026:NA33	Ahuja2026:NA33;voucher:YPMIZ111741;run:SRR33215967
+Ahuja2026:NA33	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I11	Ahuja2026:NA33	Ahuja2026:NA33;voucher:YPMIZ111741;run:SRR33215967; explicit_metre_unit
+Ahuja2026:NA33	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I11	Ahuja2026:NA33	Ahuja2026:NA33;voucher:YPMIZ111741;run:SRR33215967; explicit_metre_unit
+Ahuja2026:NA33	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I11	Ahuja2026:NA33	Ahuja2026:NA33;voucher:YPMIZ111741;run:SRR33215967
+Ahuja2026:NA33	lat_long_raw	24.183333, -108.633333	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G11	Ahuja2026:NA33	Ahuja2026:NA33;voucher:YPMIZ111741;run:SRR33215967
+Ahuja2026:NA33	latitude	24.183333	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G11	Ahuja2026:NA33	Ahuja2026:NA33;voucher:YPMIZ111741;run:SRR33215967
+Ahuja2026:NA33	locality	Gulf of California	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F11	Ahuja2026:NA33	Ahuja2026:NA33;voucher:YPMIZ111741;run:SRR33215967
+Ahuja2026:NA33	longitude	-108.633333	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G11	Ahuja2026:NA33	Ahuja2026:NA33;voucher:YPMIZ111741;run:SRR33215967
+Ahuja2026:NA33	ocean_region	Gulf of California	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E11	Ahuja2026:NA33	Ahuja2026:NA33;voucher:YPMIZ111741;run:SRR33215967
+Ahuja2026:NA33	specimen_voucher	YPM-IZ-111741	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B11	Ahuja2026:NA33	Ahuja2026:NA33;voucher:YPMIZ111741;run:SRR33215967
+Ahuja2026:NA34	collection_date	2024-06-16	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H18	Ahuja2026:NA34	Ahuja2026:NA34;voucher:YPMIZ111164;run:SRR33215978
+Ahuja2026:NA34	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I18	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I18	Ahuja2026:NA34	Ahuja2026:NA34;voucher:YPMIZ111164;run:SRR33215978; explicit_metre_unit
+Ahuja2026:NA34	collection_id	Nanomia-FHL-A	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D18	Ahuja2026:NA34	Ahuja2026:NA34;voucher:YPMIZ111164;run:SRR33215978
+Ahuja2026:NA34	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I18	Ahuja2026:NA34	Ahuja2026:NA34;voucher:YPMIZ111164;run:SRR33215978; explicit_metre_unit
+Ahuja2026:NA34	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I18	Ahuja2026:NA34	Ahuja2026:NA34;voucher:YPMIZ111164;run:SRR33215978; explicit_metre_unit
+Ahuja2026:NA34	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I18	Ahuja2026:NA34	Ahuja2026:NA34;voucher:YPMIZ111164;run:SRR33215978
+Ahuja2026:NA34	lat_long_raw	48.54505, -123.012141	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G18	Ahuja2026:NA34	Ahuja2026:NA34;voucher:YPMIZ111164;run:SRR33215978
+Ahuja2026:NA34	latitude	48.54505	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G18	Ahuja2026:NA34	Ahuja2026:NA34;voucher:YPMIZ111164;run:SRR33215978
+Ahuja2026:NA34	locality	Washington	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F18	Ahuja2026:NA34	Ahuja2026:NA34;voucher:YPMIZ111164;run:SRR33215978
+Ahuja2026:NA34	longitude	-123.012141	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G18	Ahuja2026:NA34	Ahuja2026:NA34;voucher:YPMIZ111164;run:SRR33215978
+Ahuja2026:NA34	ocean_region	NE Pacific	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E18	Ahuja2026:NA34	Ahuja2026:NA34;voucher:YPMIZ111164;run:SRR33215978
+Ahuja2026:NA34	specimen_voucher	YPM-IZ-111164	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B18	Ahuja2026:NA34	Ahuja2026:NA34;voucher:YPMIZ111164;run:SRR33215978
+Ahuja2026:NA35	collection_date	2024-06-16	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H19	Ahuja2026:NA35	Ahuja2026:NA35;voucher:YPMIZ111165;run:SRR33215977
+Ahuja2026:NA35	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I19	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I19	Ahuja2026:NA35	Ahuja2026:NA35;voucher:YPMIZ111165;run:SRR33215977; explicit_metre_unit
+Ahuja2026:NA35	collection_id	Nanomia-FHL-B	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D19	Ahuja2026:NA35	Ahuja2026:NA35;voucher:YPMIZ111165;run:SRR33215977
+Ahuja2026:NA35	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I19	Ahuja2026:NA35	Ahuja2026:NA35;voucher:YPMIZ111165;run:SRR33215977; explicit_metre_unit
+Ahuja2026:NA35	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I19	Ahuja2026:NA35	Ahuja2026:NA35;voucher:YPMIZ111165;run:SRR33215977; explicit_metre_unit
+Ahuja2026:NA35	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I19	Ahuja2026:NA35	Ahuja2026:NA35;voucher:YPMIZ111165;run:SRR33215977
+Ahuja2026:NA35	lat_long_raw	48.54505, -123.012141	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G19	Ahuja2026:NA35	Ahuja2026:NA35;voucher:YPMIZ111165;run:SRR33215977
+Ahuja2026:NA35	latitude	48.54505	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G19	Ahuja2026:NA35	Ahuja2026:NA35;voucher:YPMIZ111165;run:SRR33215977
+Ahuja2026:NA35	locality	Washington	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F19	Ahuja2026:NA35	Ahuja2026:NA35;voucher:YPMIZ111165;run:SRR33215977
+Ahuja2026:NA35	longitude	-123.012141	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G19	Ahuja2026:NA35	Ahuja2026:NA35;voucher:YPMIZ111165;run:SRR33215977
+Ahuja2026:NA35	ocean_region	NE Pacific	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E19	Ahuja2026:NA35	Ahuja2026:NA35;voucher:YPMIZ111165;run:SRR33215977
+Ahuja2026:NA35	specimen_voucher	YPM-IZ-111165	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B19	Ahuja2026:NA35	Ahuja2026:NA35;voucher:YPMIZ111165;run:SRR33215977
+Ahuja2026:NA36	collection_date	2024-06-16	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H20	Ahuja2026:NA36	Ahuja2026:NA36;voucher:YPMIZ111166;run:SRR33215976
+Ahuja2026:NA36	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I20	Ahuja2026:NA36	Ahuja2026:NA36;voucher:YPMIZ111166;run:SRR33215976; explicit_metre_unit
+Ahuja2026:NA36	collection_id	Nanomia-FHL-C	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D20	Ahuja2026:NA36	Ahuja2026:NA36;voucher:YPMIZ111166;run:SRR33215976
+Ahuja2026:NA36	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I20	Ahuja2026:NA36	Ahuja2026:NA36;voucher:YPMIZ111166;run:SRR33215976; explicit_metre_unit
+Ahuja2026:NA36	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I20	Ahuja2026:NA36	Ahuja2026:NA36;voucher:YPMIZ111166;run:SRR33215976; explicit_metre_unit
+Ahuja2026:NA36	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I20	Ahuja2026:NA36	Ahuja2026:NA36;voucher:YPMIZ111166;run:SRR33215976
+Ahuja2026:NA36	lat_long_raw	48.54505, -123.012141	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G20	Ahuja2026:NA36	Ahuja2026:NA36;voucher:YPMIZ111166;run:SRR33215976
+Ahuja2026:NA36	latitude	48.54505	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G20	Ahuja2026:NA36	Ahuja2026:NA36;voucher:YPMIZ111166;run:SRR33215976
+Ahuja2026:NA36	locality	Washington	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F20	Ahuja2026:NA36	Ahuja2026:NA36;voucher:YPMIZ111166;run:SRR33215976
+Ahuja2026:NA36	longitude	-123.012141	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G20	Ahuja2026:NA36	Ahuja2026:NA36;voucher:YPMIZ111166;run:SRR33215976
+Ahuja2026:NA36	ocean_region	NE Pacific	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E20	Ahuja2026:NA36	Ahuja2026:NA36;voucher:YPMIZ111166;run:SRR33215976
+Ahuja2026:NA36	specimen_voucher	YPM-IZ-111166	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B20	Ahuja2026:NA36	Ahuja2026:NA36;voucher:YPMIZ111166;run:SRR33215976
+Ahuja2026:NA37	collection_date	2024-04-12	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H21	Ahuja2026:NA37	Ahuja2026:NA37;voucher:YPMIZ111590;run:SRR33215975
+Ahuja2026:NA37	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I21	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I21	Ahuja2026:NA37	Ahuja2026:NA37;voucher:YPMIZ111590;run:SRR33215975; explicit_metre_unit
+Ahuja2026:NA37	collection_id	HI-NA-43, tube 1265	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D21	Ahuja2026:NA37	Ahuja2026:NA37;voucher:YPMIZ111590;run:SRR33215975
+Ahuja2026:NA37	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I21	Ahuja2026:NA37	Ahuja2026:NA37;voucher:YPMIZ111590;run:SRR33215975; explicit_metre_unit
+Ahuja2026:NA37	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I21	Ahuja2026:NA37	Ahuja2026:NA37;voucher:YPMIZ111590;run:SRR33215975; explicit_metre_unit
+Ahuja2026:NA37	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I21	Ahuja2026:NA37	Ahuja2026:NA37;voucher:YPMIZ111590;run:SRR33215975
+Ahuja2026:NA37	lat_long_raw	19.6183, -156.0842	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G21	Ahuja2026:NA37	Ahuja2026:NA37;voucher:YPMIZ111590;run:SRR33215975
+Ahuja2026:NA37	latitude	19.6183	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G21	Ahuja2026:NA37	Ahuja2026:NA37;voucher:YPMIZ111590;run:SRR33215975
+Ahuja2026:NA37	locality	Hawai'i	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F21	Ahuja2026:NA37	Ahuja2026:NA37;voucher:YPMIZ111590;run:SRR33215975
+Ahuja2026:NA37	longitude	-156.0842	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G21	Ahuja2026:NA37	Ahuja2026:NA37;voucher:YPMIZ111590;run:SRR33215975
+Ahuja2026:NA37	ocean_region	N Pacific	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E21	Ahuja2026:NA37	Ahuja2026:NA37;voucher:YPMIZ111590;run:SRR33215975
+Ahuja2026:NA37	specimen_voucher	YPM-IZ-111590	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B21	Ahuja2026:NA37	Ahuja2026:NA37;voucher:YPMIZ111590;run:SRR33215975
+Ahuja2026:NA38	collection_date	2024-04-12	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H22	Ahuja2026:NA38	Ahuja2026:NA38;voucher:YPMIZ111591;run:SRR33215974
+Ahuja2026:NA38	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I22	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I22	Ahuja2026:NA38	Ahuja2026:NA38;voucher:YPMIZ111591;run:SRR33215974; explicit_metre_unit
+Ahuja2026:NA38	collection_id	HI-NA-42, tube 1267	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D22	Ahuja2026:NA38	Ahuja2026:NA38;voucher:YPMIZ111591;run:SRR33215974
+Ahuja2026:NA38	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I22	Ahuja2026:NA38	Ahuja2026:NA38;voucher:YPMIZ111591;run:SRR33215974; explicit_metre_unit
+Ahuja2026:NA38	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I22	Ahuja2026:NA38	Ahuja2026:NA38;voucher:YPMIZ111591;run:SRR33215974; explicit_metre_unit
+Ahuja2026:NA38	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I22	Ahuja2026:NA38	Ahuja2026:NA38;voucher:YPMIZ111591;run:SRR33215974
+Ahuja2026:NA38	lat_long_raw	19.6183, -156.0842	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G22	Ahuja2026:NA38	Ahuja2026:NA38;voucher:YPMIZ111591;run:SRR33215974
+Ahuja2026:NA38	latitude	19.6183	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G22	Ahuja2026:NA38	Ahuja2026:NA38;voucher:YPMIZ111591;run:SRR33215974
+Ahuja2026:NA38	locality	Hawai'i	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F22	Ahuja2026:NA38	Ahuja2026:NA38;voucher:YPMIZ111591;run:SRR33215974
+Ahuja2026:NA38	longitude	-156.0842	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G22	Ahuja2026:NA38	Ahuja2026:NA38;voucher:YPMIZ111591;run:SRR33215974
+Ahuja2026:NA38	ocean_region	N Pacific	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E22	Ahuja2026:NA38	Ahuja2026:NA38;voucher:YPMIZ111591;run:SRR33215974
+Ahuja2026:NA38	specimen_voucher	YPM-IZ-111591	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B22	Ahuja2026:NA38	Ahuja2026:NA38;voucher:YPMIZ111591;run:SRR33215974
+Ahuja2026:WS10	collection_date	2010-05-03	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H8	Ahuja2026:WS10	Ahuja2026:WS10;voucher:YPMIZ111745;run:SRR33215970
+Ahuja2026:WS10	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I8	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I8	Ahuja2026:WS10	Ahuja2026:WS10;voucher:YPMIZ111745;run:SRR33215970; metres_inferred_from_other_depth_cells_in_same_column
+Ahuja2026:WS10	collection_id	V3557-D4, #51	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D8	Ahuja2026:WS10	Ahuja2026:WS10;voucher:YPMIZ111745;run:SRR33215970
+Ahuja2026:WS10	depth_m	217	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I8	Ahuja2026:WS10	Ahuja2026:WS10;voucher:YPMIZ111745;run:SRR33215970; metres_inferred_from_other_depth_cells_in_same_column
+Ahuja2026:WS10	depth_original	217	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I8	Ahuja2026:WS10	Ahuja2026:WS10;voucher:YPMIZ111745;run:SRR33215970
+Ahuja2026:WS10	lat_long_raw	36.700917, -122.049541	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G8	Ahuja2026:WS10	Ahuja2026:WS10;voucher:YPMIZ111745;run:SRR33215970
+Ahuja2026:WS10	latitude	36.700917	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G8	Ahuja2026:WS10	Ahuja2026:WS10;voucher:YPMIZ111745;run:SRR33215970
+Ahuja2026:WS10	locality	California	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F8	Ahuja2026:WS10	Ahuja2026:WS10;voucher:YPMIZ111745;run:SRR33215970
+Ahuja2026:WS10	longitude	-122.049541	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G8	Ahuja2026:WS10	Ahuja2026:WS10;voucher:YPMIZ111745;run:SRR33215970
+Ahuja2026:WS10	ocean_region	NE Pacific	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E8	Ahuja2026:WS10	Ahuja2026:WS10;voucher:YPMIZ111745;run:SRR33215970
+Ahuja2026:WS10	specimen_voucher	YPM-IZ-111745	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B8	Ahuja2026:WS10	Ahuja2026:WS10;voucher:YPMIZ111745;run:SRR33215970
+Ahuja2026:WS2	collection_date	2013-08-30	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H14	Ahuja2026:WS2	Ahuja2026:WS2;voucher:YPMIZ110216;run:SRR33215982
+Ahuja2026:WS2	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I14	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I14	Ahuja2026:WS2	Ahuja2026:WS2;voucher:YPMIZ110216;run:SRR33215982; explicit_metre_unit
+Ahuja2026:WS2	collection_id	RI2-8	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D14	Ahuja2026:WS2	Ahuja2026:WS2;voucher:YPMIZ110216;run:SRR33215982
+Ahuja2026:WS2	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I14	Ahuja2026:WS2	Ahuja2026:WS2;voucher:YPMIZ110216;run:SRR33215982; explicit_metre_unit
+Ahuja2026:WS2	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I14	Ahuja2026:WS2	Ahuja2026:WS2;voucher:YPMIZ110216;run:SRR33215982; explicit_metre_unit
+Ahuja2026:WS2	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I14	Ahuja2026:WS2	Ahuja2026:WS2;voucher:YPMIZ110216;run:SRR33215982
+Ahuja2026:WS2	lat_long_raw	41.036, -71.399	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G14	Ahuja2026:WS2	Ahuja2026:WS2;voucher:YPMIZ110216;run:SRR33215982
+Ahuja2026:WS2	latitude	41.036	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G14	Ahuja2026:WS2	Ahuja2026:WS2;voucher:YPMIZ110216;run:SRR33215982
+Ahuja2026:WS2	locality	Rhode Island	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F14	Ahuja2026:WS2	Ahuja2026:WS2;voucher:YPMIZ110216;run:SRR33215982
+Ahuja2026:WS2	longitude	-71.399	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G14	Ahuja2026:WS2	Ahuja2026:WS2;voucher:YPMIZ110216;run:SRR33215982
+Ahuja2026:WS2	ocean_region	NW Atlantic	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E14	Ahuja2026:WS2	Ahuja2026:WS2;voucher:YPMIZ110216;run:SRR33215982
+Ahuja2026:WS2	specimen_voucher	YPM-IZ-110216	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B14	Ahuja2026:WS2	Ahuja2026:WS2;voucher:YPMIZ110216;run:SRR33215982
+Ahuja2026:WS3	collection_date	2015-09-15	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H15	Ahuja2026:WS3	Ahuja2026:WS3;voucher:YPMIZ111734;run:SRR33215981
+Ahuja2026:WS3	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I15	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I15	Ahuja2026:WS3	Ahuja2026:WS3;voucher:YPMIZ111734;run:SRR33215981; explicit_metre_unit
+Ahuja2026:WS3	collection_id	RI8-28, #24	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D15	Ahuja2026:WS3	Ahuja2026:WS3;voucher:YPMIZ111734;run:SRR33215981
+Ahuja2026:WS3	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I15	Ahuja2026:WS3	Ahuja2026:WS3;voucher:YPMIZ111734;run:SRR33215981; explicit_metre_unit
+Ahuja2026:WS3	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I15	Ahuja2026:WS3	Ahuja2026:WS3;voucher:YPMIZ111734;run:SRR33215981; explicit_metre_unit
+Ahuja2026:WS3	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I15	Ahuja2026:WS3	Ahuja2026:WS3;voucher:YPMIZ111734;run:SRR33215981
+Ahuja2026:WS3	lat_long_raw	41.135, -71.366	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G15	Ahuja2026:WS3	Ahuja2026:WS3;voucher:YPMIZ111734;run:SRR33215981
+Ahuja2026:WS3	latitude	41.135	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G15	Ahuja2026:WS3	Ahuja2026:WS3;voucher:YPMIZ111734;run:SRR33215981
+Ahuja2026:WS3	locality	Rhode Island	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F15	Ahuja2026:WS3	Ahuja2026:WS3;voucher:YPMIZ111734;run:SRR33215981
+Ahuja2026:WS3	longitude	-71.366	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G15	Ahuja2026:WS3	Ahuja2026:WS3;voucher:YPMIZ111734;run:SRR33215981
+Ahuja2026:WS3	ocean_region	NW Atlantic	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E15	Ahuja2026:WS3	Ahuja2026:WS3;voucher:YPMIZ111734;run:SRR33215981
+Ahuja2026:WS3	specimen_voucher	YPM-IZ-111734	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B15	Ahuja2026:WS3	Ahuja2026:WS3;voucher:YPMIZ111734;run:SRR33215981
+Ahuja2026:WS4	collection_date	2014-08-20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H16	Ahuja2026:WS4	Ahuja2026:WS4;voucher:YPMIZ111735;run:SRR33215980
+Ahuja2026:WS4	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I16	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I16	Ahuja2026:WS4	Ahuja2026:WS4;voucher:YPMIZ111735;run:SRR33215980; explicit_metre_unit
+Ahuja2026:WS4	collection_id	RI6-12-C10	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D16	Ahuja2026:WS4	Ahuja2026:WS4;voucher:YPMIZ111735;run:SRR33215980
+Ahuja2026:WS4	depth_max_m	20	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I16	Ahuja2026:WS4	Ahuja2026:WS4;voucher:YPMIZ111735;run:SRR33215980; explicit_metre_unit
+Ahuja2026:WS4	depth_min_m	0	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I16	Ahuja2026:WS4	Ahuja2026:WS4;voucher:YPMIZ111735;run:SRR33215980; explicit_metre_unit
+Ahuja2026:WS4	depth_original	0-20 m	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I16	Ahuja2026:WS4	Ahuja2026:WS4;voucher:YPMIZ111735;run:SRR33215980
+Ahuja2026:WS4	lat_long_raw	41.056, -71.342	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G16	Ahuja2026:WS4	Ahuja2026:WS4;voucher:YPMIZ111735;run:SRR33215980
+Ahuja2026:WS4	latitude	41.056	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G16	Ahuja2026:WS4	Ahuja2026:WS4;voucher:YPMIZ111735;run:SRR33215980
+Ahuja2026:WS4	locality	Rhode Island	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F16	Ahuja2026:WS4	Ahuja2026:WS4;voucher:YPMIZ111735;run:SRR33215980
+Ahuja2026:WS4	longitude	-71.342	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G16	Ahuja2026:WS4	Ahuja2026:WS4;voucher:YPMIZ111735;run:SRR33215980
+Ahuja2026:WS4	ocean_region	NW Atlantic	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E16	Ahuja2026:WS4	Ahuja2026:WS4;voucher:YPMIZ111735;run:SRR33215980
+Ahuja2026:WS4	specimen_voucher	YPM-IZ-111735	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B16	Ahuja2026:WS4	Ahuja2026:WS4;voucher:YPMIZ111735;run:SRR33215980
+Ahuja2026:WS5	collection_date	2011-12-02	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H3	Ahuja2026:WS5	Ahuja2026:WS5;voucher:YPMIZ111736;run:SRR33215985
+Ahuja2026:WS5	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I3	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I3	Ahuja2026:WS5	Ahuja2026:WS5;voucher:YPMIZ111736;run:SRR33215985; metres_inferred_from_other_depth_cells_in_same_column; pending_external_verification_of_collection_depth_and_units
+Ahuja2026:WS5	collection_id	D325-SS12, #9	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D3	Ahuja2026:WS5	Ahuja2026:WS5;voucher:YPMIZ111736;run:SRR33215985
+Ahuja2026:WS5	depth_original	2854.16	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I3	Ahuja2026:WS5	Ahuja2026:WS5;voucher:YPMIZ111736;run:SRR33215985
+Ahuja2026:WS5	lat_long_raw	36.600636, -122.376887	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G3	Ahuja2026:WS5	Ahuja2026:WS5;voucher:YPMIZ111736;run:SRR33215985
+Ahuja2026:WS5	latitude	36.600636	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G3	Ahuja2026:WS5	Ahuja2026:WS5;voucher:YPMIZ111736;run:SRR33215985
+Ahuja2026:WS5	locality	California	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F3	Ahuja2026:WS5	Ahuja2026:WS5;voucher:YPMIZ111736;run:SRR33215985
+Ahuja2026:WS5	longitude	-122.376887	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G3	Ahuja2026:WS5	Ahuja2026:WS5;voucher:YPMIZ111736;run:SRR33215985
+Ahuja2026:WS5	ocean_region	NE Pacific	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E3	Ahuja2026:WS5	Ahuja2026:WS5;voucher:YPMIZ111736;run:SRR33215985
+Ahuja2026:WS5	specimen_voucher	YPM-IZ-111736	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B3	Ahuja2026:WS5	Ahuja2026:WS5;voucher:YPMIZ111736;run:SRR33215985
+Ahuja2026:WS6	collection_date	2011-12-03	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H4	Ahuja2026:WS6	Ahuja2026:WS6;voucher:YPMIZ111737;run:SRR33215984
+Ahuja2026:WS6	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I4	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I4	Ahuja2026:WS6	Ahuja2026:WS6;voucher:YPMIZ111737;run:SRR33215984; metres_inferred_from_other_depth_cells_in_same_column; pending_external_verification_of_collection_depth_and_units
+Ahuja2026:WS6	collection_id	D326-SS1, #28	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D4	Ahuja2026:WS6	Ahuja2026:WS6;voucher:YPMIZ111737;run:SRR33215984
+Ahuja2026:WS6	depth_original	2563.33	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I4	Ahuja2026:WS6	Ahuja2026:WS6;voucher:YPMIZ111737;run:SRR33215984
+Ahuja2026:WS6	lat_long_raw	36.071808, -122.282111	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G4	Ahuja2026:WS6	Ahuja2026:WS6;voucher:YPMIZ111737;run:SRR33215984
+Ahuja2026:WS6	latitude	36.071808	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G4	Ahuja2026:WS6	Ahuja2026:WS6;voucher:YPMIZ111737;run:SRR33215984
+Ahuja2026:WS6	locality	California	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F4	Ahuja2026:WS6	Ahuja2026:WS6;voucher:YPMIZ111737;run:SRR33215984
+Ahuja2026:WS6	longitude	-122.282111	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G4	Ahuja2026:WS6	Ahuja2026:WS6;voucher:YPMIZ111737;run:SRR33215984
+Ahuja2026:WS6	ocean_region	NE Pacific	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E4	Ahuja2026:WS6	Ahuja2026:WS6;voucher:YPMIZ111737;run:SRR33215984
+Ahuja2026:WS6	specimen_voucher	YPM-IZ-111737	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B4	Ahuja2026:WS6	Ahuja2026:WS6;voucher:YPMIZ111737;run:SRR33215984
+Ahuja2026:WS7	collection_date	2011-12-07	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H5	Ahuja2026:WS7	Ahuja2026:WS7;voucher:YPMIZ111738;run:SRR33215973
+Ahuja2026:WS7	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I5	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I5	Ahuja2026:WS7	Ahuja2026:WS7;voucher:YPMIZ111738;run:SRR33215973; metres_inferred_from_other_depth_cells_in_same_column
+Ahuja2026:WS7	collection_id	D331-SS5a, #136	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D5	Ahuja2026:WS7	Ahuja2026:WS7;voucher:YPMIZ111738;run:SRR33215973
+Ahuja2026:WS7	depth_m	662.29	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I5	Ahuja2026:WS7	Ahuja2026:WS7;voucher:YPMIZ111738;run:SRR33215973; metres_inferred_from_other_depth_cells_in_same_column
+Ahuja2026:WS7	depth_original	662.29	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I5	Ahuja2026:WS7	Ahuja2026:WS7;voucher:YPMIZ111738;run:SRR33215973
+Ahuja2026:WS7	lat_long_raw	36.699365, -122.101074	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G5	Ahuja2026:WS7	Ahuja2026:WS7;voucher:YPMIZ111738;run:SRR33215973
+Ahuja2026:WS7	latitude	36.699365	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G5	Ahuja2026:WS7	Ahuja2026:WS7;voucher:YPMIZ111738;run:SRR33215973
+Ahuja2026:WS7	locality	California	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F5	Ahuja2026:WS7	Ahuja2026:WS7;voucher:YPMIZ111738;run:SRR33215973
+Ahuja2026:WS7	longitude	-122.101074	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G5	Ahuja2026:WS7	Ahuja2026:WS7;voucher:YPMIZ111738;run:SRR33215973
+Ahuja2026:WS7	ocean_region	NE Pacific	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E5	Ahuja2026:WS7	Ahuja2026:WS7;voucher:YPMIZ111738;run:SRR33215973
+Ahuja2026:WS7	specimen_voucher	YPM-IZ-111738	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B5	Ahuja2026:WS7	Ahuja2026:WS7;voucher:YPMIZ111738;run:SRR33215973
+Ahuja2026:WS8	collection_date	2013-07-15	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H6	Ahuja2026:WS8	Ahuja2026:WS8;voucher:YPMIZ111739;run:SRR33215972
+Ahuja2026:WS8	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I6	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I6	Ahuja2026:WS8	Ahuja2026:WS8;voucher:YPMIZ111739;run:SRR33215972; metres_inferred_from_other_depth_cells_in_same_column
+Ahuja2026:WS8	collection_id	D500-SS12, #190	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D6	Ahuja2026:WS8	Ahuja2026:WS8;voucher:YPMIZ111739;run:SRR33215972
+Ahuja2026:WS8	depth_m	559.83	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I6	Ahuja2026:WS8	Ahuja2026:WS8;voucher:YPMIZ111739;run:SRR33215972; metres_inferred_from_other_depth_cells_in_same_column
+Ahuja2026:WS8	depth_original	559.83	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I6	Ahuja2026:WS8	Ahuja2026:WS8;voucher:YPMIZ111739;run:SRR33215972
+Ahuja2026:WS8	lat_long_raw	36.647412, -122.113209	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G6	Ahuja2026:WS8	Ahuja2026:WS8;voucher:YPMIZ111739;run:SRR33215972
+Ahuja2026:WS8	latitude	36.647412	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G6	Ahuja2026:WS8	Ahuja2026:WS8;voucher:YPMIZ111739;run:SRR33215972
+Ahuja2026:WS8	locality	California	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F6	Ahuja2026:WS8	Ahuja2026:WS8;voucher:YPMIZ111739;run:SRR33215972
+Ahuja2026:WS8	longitude	-122.113209	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G6	Ahuja2026:WS8	Ahuja2026:WS8;voucher:YPMIZ111739;run:SRR33215972
+Ahuja2026:WS8	ocean_region	NE Pacific	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E6	Ahuja2026:WS8	Ahuja2026:WS8;voucher:YPMIZ111739;run:SRR33215972
+Ahuja2026:WS8	specimen_voucher	YPM-IZ-111739	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B6	Ahuja2026:WS8	Ahuja2026:WS8;voucher:YPMIZ111739;run:SRR33215972
+Ahuja2026:WS9	collection_date	2014-05-22	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!H7	Ahuja2026:WS9	Ahuja2026:WS9;voucher:YPMIZ107008;run:SRR33215971
+Ahuja2026:WS9	collection_depth_source	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I7	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I7	Ahuja2026:WS9	Ahuja2026:WS9;voucher:YPMIZ107008;run:SRR33215971; metres_inferred_from_other_depth_cells_in_same_column
+Ahuja2026:WS9	collection_id	D614-SS12, #225	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!D7	Ahuja2026:WS9	Ahuja2026:WS9;voucher:YPMIZ107008;run:SRR33215971
+Ahuja2026:WS9	depth_m	309	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I7	Ahuja2026:WS9	Ahuja2026:WS9;voucher:YPMIZ107008;run:SRR33215971; metres_inferred_from_other_depth_cells_in_same_column
+Ahuja2026:WS9	depth_original	309	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!I7	Ahuja2026:WS9	Ahuja2026:WS9;voucher:YPMIZ107008;run:SRR33215971
+Ahuja2026:WS9	lat_long_raw	35.520, -122.5239	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G7	Ahuja2026:WS9	Ahuja2026:WS9;voucher:YPMIZ107008;run:SRR33215971
+Ahuja2026:WS9	latitude	35.52	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G7	Ahuja2026:WS9	Ahuja2026:WS9;voucher:YPMIZ107008;run:SRR33215971
+Ahuja2026:WS9	locality	California	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!F7	Ahuja2026:WS9	Ahuja2026:WS9;voucher:YPMIZ107008;run:SRR33215971
+Ahuja2026:WS9	longitude	-122.5239	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!G7	Ahuja2026:WS9	Ahuja2026:WS9;voucher:YPMIZ107008;run:SRR33215971
+Ahuja2026:WS9	ocean_region	NE Pacific	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!E7	Ahuja2026:WS9	Ahuja2026:WS9;voucher:YPMIZ107008;run:SRR33215971
+Ahuja2026:WS9	specimen_voucher	YPM-IZ-107008	primary_sheet	data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx	Sheet1!B7	Ahuja2026:WS9	Ahuja2026:WS9;voucher:YPMIZ107008;run:SRR33215971
+Church2025:YPM-IZ-104465	collection_date	2018-11-23	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!I38	Ahuja2024:NA22	Ahuja2024:NA22;voucher:YPMIZ104465
+Church2025:YPM-IZ-104465	collection_depth_source	data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P38	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P38	Ahuja2024:NA22	Ahuja2024:NA22;voucher:YPMIZ104465; explicit_metre_unit
+Church2025:YPM-IZ-104465	collection_id	Guam-104465	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!B38	Ahuja2024:NA22	Ahuja2024:NA22;voucher:YPMIZ104465
+Church2025:YPM-IZ-104465	depth_m	0	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P38	Ahuja2024:NA22	Ahuja2024:NA22;voucher:YPMIZ104465; explicit_metre_unit
+Church2025:YPM-IZ-104465	depth_original	0 meters	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!P38	Ahuja2024:NA22	Ahuja2024:NA22;voucher:YPMIZ104465
+Church2025:YPM-IZ-104465	lat_long_raw	13.428 N 144.799 W	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U38	Ahuja2024:NA22	Ahuja2024:NA22;voucher:YPMIZ104465
+Church2025:YPM-IZ-104465	latitude	13.428	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U38	Ahuja2024:NA22	Ahuja2024:NA22;voucher:YPMIZ104465
+Church2025:YPM-IZ-104465	locality	Pacific Ocean	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!J38	Ahuja2024:NA22	Ahuja2024:NA22;voucher:YPMIZ104465
+Church2025:YPM-IZ-104465	longitude	-144.799	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!U38	Ahuja2024:NA22	Ahuja2024:NA22;voucher:YPMIZ104465
+Church2025:YPM-IZ-104465	specimen_voucher	YPM:IZ:104465	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!W38	Ahuja2024:NA22	Ahuja2024:NA22;voucher:YPMIZ104465
+Church2025:YPM-IZ-104465	tissue	corm	primary_sheet	data/sources/Ahuja2024_Supplementary_Table_1.xlsx	Invertebrate.1.0!K38	Ahuja2024:NA22	Ahuja2024:NA22;voucher:YPMIZ104465

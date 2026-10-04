@@ -8,6 +8,7 @@ from pathlib import Path
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--bacterial", required=True)
+parser.add_argument("--grade-column", default="grade", choices=("grade", "grade_at_5pct", "grade_at_20pct"))
 parser.add_argument("--viral", required=True)
 parser.add_argument("--contamination", required=True)
 parser.add_argument("--manifest", required=True)
@@ -78,6 +79,13 @@ def incidence(table, kind):
 
 
 bacterial = rows(args.bacterial)
+# Use the selected threshold consistently for counts, confidence, and linkage.
+for row in bacterial:
+    row["grade"] = row[args.grade_column]
+    if args.grade_column != "grade":
+        row["divergent_strain"] = str(
+            row["grade"] in PRESENT and float(row["breadth_ratio"]) < 0.5
+        ).lower()
 viral = rows(args.viral)
 b = incidence(bacterial, "bacterial")
 v = incidence(viral, "viral")

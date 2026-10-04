@@ -1,0 +1,206 @@
+sample_id	study	host_species	ocean_region	flowcells	flowcell_count	inference_policy	flowcell	inference_eligible	inference_exclusion
+Ahuja2024__CWD1	Ahuja2024	Agalma clausi		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3	2	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD101	Ahuja2024	Apolemia sp. 3 CWD-2005		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3	2	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD104	Ahuja2024	Bargmannia elongata		A01519:196:H53CJDSX5	1	single_flowcell	A01519:196:H53CJDSX5	true	
+Ahuja2024__CWD11	Ahuja2024	Stephanomia amphytridis		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD116	Ahuja2024	Agalma elegans		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A00124:506:HY3KCDSX3;A00124:527:H355KDSX5;A01519:133:HM2L3DSX3	5	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD117	Ahuja2024	Hippopodius hippopus		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD12	Ahuja2024	Halistemma rubrum		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3	2	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD121	Ahuja2024	Abylopsis tetragona		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3	2	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD122	Ahuja2024	Chelophyes appendiculata		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A00124:527:H355KDSX5;A01519:133:HM2L3DSX3	4	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD131	Ahuja2024	Rhizophysa eysenhardtii		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD141	Ahuja2024	Stephalia dilata		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD144	Ahuja2024	Gymnopraia lapislazula		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A00124:531:H3FGVDSX5;A01519:133:HM2L3DSX3	4	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD146	Ahuja2024	Erenna sirena		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD16	Ahuja2024	Nanomia bijuga		A01519:196:H53CJDSX5	1	single_flowcell	A01519:196:H53CJDSX5	true	
+Ahuja2024__CWD17	Ahuja2024	Halistemma rubrum		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD19	Ahuja2024	Praya dubia		A01519:196:H53CJDSX5	1	single_flowcell	A01519:196:H53CJDSX5	true	
+Ahuja2024__CWD2	Ahuja2024	Agalma elegans		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3	2	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD20	Ahuja2024	Rhizophysa filiformis		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD21	Ahuja2024	Rosacea flaccida		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3	2	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD3	Ahuja2024	Agalma okenii		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD6	Ahuja2024	Cordagalma		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3	2	single_flowcell		false	multiple_flowcells
+Ahuja2024__CWD7	Ahuja2024	Diphyes dispar		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__NA1	Ahuja2024	Chuniphyes multidentata		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__NA10	Ahuja2024	Resomia ornicephala		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A00124:527:H355KDSX5;A01519:133:HM2L3DSX3	4	single_flowcell		false	multiple_flowcells
+Ahuja2024__NA11	Ahuja2024	Resomia ornicephala		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3	2	single_flowcell		false	multiple_flowcells
+Ahuja2024__NA2	Ahuja2024	Physonectae		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__NA3	Ahuja2024	Forskalia		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__NA4	Ahuja2024	Praya		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__NA5	Ahuja2024	Apolemia rubriversa		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__NA6	Ahuja2024	Craseoa lathetica		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3	2	single_flowcell		false	multiple_flowcells
+Ahuja2024__NA7	Ahuja2024	Lilyopsis fluoracantha		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2024__NA8	Ahuja2024	Bargmannia lata		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3	2	single_flowcell		false	multiple_flowcells
+Ahuja2024__NA9	Ahuja2024	Frillagalma vityazi		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
+Ahuja2026__NA19	Ahuja2026	Nanomia septata	NE Pacific	A01519:212:HHKVKDSX5	1	single_flowcell	A01519:212:HHKVKDSX5	true	
+Ahuja2026__NA28	Ahuja2026	Nanomia sp.	NW Atlantic	A01519:267:HT37JDSX5	1	single_flowcell	A01519:267:HT37JDSX5	true	
+Ahuja2026__NA29	Ahuja2026	Nanomia sp.	N Pacific	A01519:267:HT37JDSX5	1	single_flowcell	A01519:267:HT37JDSX5	true	
+Ahuja2026__NA30	Ahuja2026	Nanomia bijuga	Mediterranean	A01519:267:HT37JDSX5	1	single_flowcell	A01519:267:HT37JDSX5	true	
+Ahuja2026__NA31	Ahuja2026	Nanomia bijuga	Gulf of California	A00124:673:HFG3JDSX7	1	single_flowcell	A00124:673:HFG3JDSX7	true	
+Ahuja2026__NA32	Ahuja2026	Nanomia bijuga	Gulf of California	A00124:673:HFG3JDSX7	1	single_flowcell	A00124:673:HFG3JDSX7	true	
+Ahuja2026__NA33	Ahuja2026	Nanomia bijuga	Gulf of California	A00124:673:HFG3JDSX7	1	single_flowcell	A00124:673:HFG3JDSX7	true	
+Ahuja2026__NA34	Ahuja2026	Nanomia septata	NE Pacific	LH00309:136:223TNKLT4	1	single_flowcell	LH00309:136:223TNKLT4	true	
+Ahuja2026__NA35	Ahuja2026	Nanomia septata	NE Pacific	LH00309:136:223TNKLT4;LH00309:140:223JTMLT4	2	single_flowcell		false	multiple_flowcells
+Ahuja2026__NA36	Ahuja2026	Nanomia septata	NE Pacific	LH00309:136:223TNKLT4	1	single_flowcell	LH00309:136:223TNKLT4	true	
+Ahuja2026__NA37	Ahuja2026	Nanomia sp.	N Pacific	LH00309:212:22CMLKLT3	1	single_flowcell	LH00309:212:22CMLKLT3	true	
+Ahuja2026__NA38	Ahuja2026	Nanomia sp.	N Pacific	LH00309:212:22CMLKLT3	1	single_flowcell	LH00309:212:22CMLKLT3	true	
+Ahuja2026__WS10	Ahuja2026	Nanomia septata	NE Pacific	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
+Ahuja2026__WS2	Ahuja2026	Nanomia sp.	NW Atlantic	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
+Ahuja2026__WS3	Ahuja2026	Nanomia sp.	NW Atlantic	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
+Ahuja2026__WS4	Ahuja2026	Nanomia sp.	NW Atlantic	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7;LH00309:202:227M77LT4;LH00309:204:227MGJLT4	4	single_flowcell		false	multiple_flowcells
+Ahuja2026__WS5	Ahuja2026	Nanomia septata	NE Pacific	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
+Ahuja2026__WS6	Ahuja2026	Nanomia septata	NE Pacific	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
+Ahuja2026__WS7	Ahuja2026	Nanomia septata	NE Pacific	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
+Ahuja2026__WS8	Ahuja2026	Nanomia septata	NE Pacific	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
+Ahuja2026__WS9	Ahuja2026	Nanomia septata	NE Pacific	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
+Church2025__FM-16644	Church2025	Physalia physalis	NE Atlantic	LH00309:40:22CMVKLT3	1	single_flowcell	LH00309:40:22CMVKLT3	true	
+Church2025__NIWA-173304	Church2025	Physalia minuta	SW Pacific	LH00309:191:227L7FLT4;LH00309:195:227FKVLT4	2	single_flowcell		false	multiple_flowcells
+Church2025__NIWA-173305	Church2025	Physalia minuta	SW Pacific	LH00309:204:227MGJLT4	1	single_flowcell	LH00309:204:227MGJLT4	true	
+Church2025__OA-190531-1	Church2025	Physalia utriculus	SW Pacific	ST-E00199:415:HYGF2CCXY	1	single_flowcell	ST-E00199:415:HYGF2CCXY	true	
+Church2025__OA-Bluebottle	Church2025	Physalia utriculus	SW Pacific	A00152:671:HKTT5DRX2	1	single_flowcell	A00152:671:HKTT5DRX2	true	
+Church2025__TMAG-K5632	Church2025	Physalia megalista	SW Pacific	A00124:638:H5N7GDSX7;A01519:389:HMGLFDSX7	2	single_flowcell		false	multiple_flowcells
+Church2025__TMAG-K5633	Church2025	Physalia minuta	SW Pacific	A00124:638:H5N7GDSX7;A01519:389:HMGLFDSX7	2	single_flowcell		false	multiple_flowcells
+Church2025__TMAG-K5634	Church2025	Physalia minuta	SW Pacific	A00124:638:H5N7GDSX7	1	single_flowcell	A00124:638:H5N7GDSX7	true	
+Church2025__TMAG-K5635	Church2025	Physalia minuta	SW Pacific	A00124:673:HFG3JDSX7	1	single_flowcell	A00124:673:HFG3JDSX7	true	
+Church2025__TMAG-K5636	Church2025	Physalia minuta	SW Pacific	A00124:673:HFG3JDSX7	1	single_flowcell	A00124:673:HFG3JDSX7	true	
+Church2025__WAM-Z88480	Church2025	Physalia megalista	E Indian	LH00309:19:2273H5LT3;LH00309:46:22F2CTLT3	2	single_flowcell		false	multiple_flowcells
+Church2025__WAM-Z97900	Church2025	Physalia megalista	E Indian	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__WAM-Z97901	Church2025	Physalia megalista	E Indian	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__WAM-Z97902	Church2025	Physalia utriculus	E Indian	LH00309:43:22CYW2LT3;LH00309:55:22F5W5LT3	2	single_flowcell		false	multiple_flowcells
+Church2025__WAM-Z97903	Church2025	Physalia megalista	E Indian	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__WAM-Z97906	Church2025	Physalia megalista	E Indian	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__WAM-Z97907	Church2025	Physalia utriculus	E Indian	LH00309:43:22CYW2LT3;LH00309:55:22F5W5LT3	2	single_flowcell		false	multiple_flowcells
+Church2025__WAM-Z97908	Church2025	Physalia utriculus	E Indian	LH00309:43:22CYW2LT3;LH00309:55:22F5W5LT3	2	single_flowcell		false	multiple_flowcells
+Church2025__WAM-Z97910	Church2025	Physalia utriculus	E Indian	LH00309:43:22CYW2LT3;LH00309:55:22F5W5LT3	2	single_flowcell		false	multiple_flowcells
+Church2025__WAM-Z97911	Church2025	Physalia utriculus	E Indian	LH00309:43:22CYW2LT3;LH00309:55:22F5W5LT3	2	single_flowcell		false	multiple_flowcells
+Church2025__WAM-Z97914	Church2025	Physalia utriculus	E Indian	LH00309:43:22CYW2LT3;LH00309:55:22F5W5LT3	2	single_flowcell		false	multiple_flowcells
+Church2025__WAM-Z97916	Church2025	Physalia utriculus	E Indian	LH00309:43:22CYW2LT3;LH00309:55:22F5W5LT3	2	single_flowcell		false	multiple_flowcells
+Church2025__WAM-Z97917	Church2025	Physalia utriculus	SW Pacific	LH00309:40:22CMVKLT3	1	single_flowcell	LH00309:40:22CMVKLT3	true	
+Church2025__WAM-Z97920	Church2025	Physalia megalista	SW Pacific	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__WAM-Z97921	Church2025	Physalia utriculus	SW Pacific	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__WAM-Z97923	Church2025	Physalia utriculus	SW Pacific	LH00309:43:22CYW2LT3;LH00309:55:22F5W5LT3	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-104460	Church2025	Physalia utriculus	NW Pacific	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-104461	Church2025	Physalia utriculus	NW Pacific	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-104464	Church2025	Physalia utriculus	NW Pacific	A01519:212:HHKVKDSX5	1	single_flowcell	A01519:212:HHKVKDSX5	true	
+Church2025__YPM-IZ-104465	Church2025	Physalia utriculus	NW Pacific	A01519:212:HHKVKDSX5	1	single_flowcell	A01519:212:HHKVKDSX5	true	
+Church2025__YPM-IZ-106919	Church2025	Physalia utriculus	NW Pacific	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-106920	Church2025	Physalia utriculus	NW Pacific	A00124:569:HCTNWDSX5	1	single_flowcell	A00124:569:HCTNWDSX5	true	
+Church2025__YPM-IZ-106923	Church2025	Physalia utriculus	NW Pacific	A00124:569:HCTNWDSX5	1	single_flowcell	A00124:569:HCTNWDSX5	true	
+Church2025__YPM-IZ-106935	Church2025	Physalia physalis	Gulf of Mexico	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-106936	Church2025	Physalia physalis	Gulf of Mexico	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-106937	Church2025	Physalia physalis	Gulf of Mexico	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-106941	Church2025	Physalia physalis	NW Atlantic	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-106943	Church2025	Physalia physalis	NW Atlantic	A00124:569:HCTNWDSX5	1	single_flowcell	A00124:569:HCTNWDSX5	true	
+Church2025__YPM-IZ-106954	Church2025	Physalia physalis	NW Atlantic	A00124:569:HCTNWDSX5	1	single_flowcell	A00124:569:HCTNWDSX5	true	
+Church2025__YPM-IZ-106958	Church2025	Physalia physalis	Gulf of Mexico	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-110251	Church2025	Physalia physalis	NW Atlantic	A00124:569:HCTNWDSX5	1	single_flowcell	A00124:569:HCTNWDSX5	true	
+Church2025__YPM-IZ-110254	Church2025	Physalia physalis	NW Atlantic	A00124:569:HCTNWDSX5	1	single_flowcell	A00124:569:HCTNWDSX5	true	
+Church2025__YPM-IZ-110264	Church2025	Physalia utriculus	Central Pacific	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-110268	Church2025	Physalia utriculus	Central Pacific	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-110269	Church2025	Physalia utriculus	Central Pacific	A01519:271:HWW7GDSX5;A01519:311:H7FM5DSX7	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-110276	Church2025	Physalia utriculus	Central Pacific	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-110277	Church2025	Physalia utriculus	Central Pacific	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-110278	Church2025	Physalia utriculus	Central Pacific	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-110433	Church2025	Physalia physalis	NW Atlantic	A00124:624:HWVLCDSX5	1	single_flowcell	A00124:624:HWVLCDSX5	true	
+Church2025__YPM-IZ-110434	Church2025	Physalia physalis	NW Atlantic	LH00309:212:22CMLKLT3	1	single_flowcell	LH00309:212:22CMLKLT3	true	
+Church2025__YPM-IZ-110436	Church2025	Physalia physalis	NW Atlantic	LH00309:212:22CMLKLT3	1	single_flowcell	LH00309:212:22CMLKLT3	true	
+Church2025__YPM-IZ-110438	Church2025	Physalia physalis	Gulf of Mexico	A00124:624:HWVLCDSX5	1	single_flowcell	A00124:624:HWVLCDSX5	true	
+Church2025__YPM-IZ-110443	Church2025	Physalia physalis	Gulf of Mexico	A00124:624:HWVLCDSX5	1	single_flowcell	A00124:624:HWVLCDSX5	true	
+Church2025__YPM-IZ-110460	Church2025	Physalia utriculus	Central Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110467	Church2025	Physalia minuta	SW Pacific	A00124:624:HWVLCDSX5	1	single_flowcell	A00124:624:HWVLCDSX5	true	
+Church2025__YPM-IZ-110468	Church2025	Physalia minuta	SW Pacific	A00124:624:HWVLCDSX5	1	single_flowcell	A00124:624:HWVLCDSX5	true	
+Church2025__YPM-IZ-110469	Church2025	Physalia minuta	SW Pacific	A00124:624:HWVLCDSX5;A01519:311:H7FM5DSX7	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-110470	Church2025	Physalia minuta	SW Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110471	Church2025	Physalia utriculus	Central Pacific	A00124:624:HWVLCDSX5	1	single_flowcell	A00124:624:HWVLCDSX5	true	
+Church2025__YPM-IZ-110473	Church2025	Physalia utriculus	Central Pacific	A00124:673:HFG3JDSX7	1	single_flowcell	A00124:673:HFG3JDSX7	true	
+Church2025__YPM-IZ-110474	Church2025	Physalia utriculus	Central Pacific	A00124:624:HWVLCDSX5	1	single_flowcell	A00124:624:HWVLCDSX5	true	
+Church2025__YPM-IZ-110480	Church2025	Physalia utriculus	Central Pacific	A00124:624:HWVLCDSX5	1	single_flowcell	A00124:624:HWVLCDSX5	true	
+Church2025__YPM-IZ-110515	Church2025	Physalia utriculus	SW Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110520	Church2025	Physalia utriculus	SW Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110526	Church2025	Physalia utriculus	SW Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110556	Church2025	Physalia minuta	SW Pacific	A00124:672:HGYTLDSX7;A01519:389:HMGLFDSX7	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-110557	Church2025	Physalia minuta	SW Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110558	Church2025	Physalia minuta	SW Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110566	Church2025	Physalia utriculus	NW Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110569	Church2025	Physalia utriculus	NW Pacific	A00124:673:HFG3JDSX7	1	single_flowcell	A00124:673:HFG3JDSX7	true	
+Church2025__YPM-IZ-110600	Church2025	Physalia utriculus	NW Pacific	A00124:673:HFG3JDSX7	1	single_flowcell	A00124:673:HFG3JDSX7	true	
+Church2025__YPM-IZ-110602	Church2025	Physalia utriculus	NW Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110605	Church2025	Physalia utriculus	SW Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110612	Church2025	Physalia utriculus	SW Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110613	Church2025	Physalia utriculus	SW Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110616	Church2025	Physalia utriculus	SW Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110631	Church2025	Physalia physalis	NW Atlantic	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__YPM-IZ-110633	Church2025	Physalia physalis	NW Atlantic	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__YPM-IZ-110667	Church2025	Physalia physalis	NW Atlantic	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__YPM-IZ-110694	Church2025	Physalia physalis	NW Atlantic	LH00309:40:22CMVKLT3	1	single_flowcell	LH00309:40:22CMVKLT3	true	
+Church2025__YPM-IZ-110716	Church2025	Physalia physalis	NE Atlantic	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__YPM-IZ-110726	Church2025	Physalia physalis	NE Atlantic	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__YPM-IZ-110738	Church2025	Physalia physalis	NE Atlantic	LH00309:19:2273H5LT3;LH00309:46:22F2CTLT3	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-110777	Church2025	Physalia utriculus	Central Pacific	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__YPM-IZ-110780	Church2025	Physalia utriculus	Central Pacific	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__YPM-IZ-110785	Church2025	Physalia utriculus	Central Pacific	LH00309:22:22CMVLLT3	1	single_flowcell	LH00309:22:22CMVLLT3	true	
+Church2025__YPM-IZ-110786	Church2025	Physalia utriculus	Central Pacific	LH00309:22:22CMVLLT3	1	single_flowcell	LH00309:22:22CMVLLT3	true	
+Church2025__YPM-IZ-110828	Church2025	Physalia megalista	SE Pacific	LH00309:22:22CMVLLT3;LH00309:46:22F2CTLT3	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-110829	Church2025	Physalia megalista	SE Pacific	LH00309:40:22CMVKLT3	1	single_flowcell	LH00309:40:22CMVKLT3	true	
+Church2025__YPM-IZ-110830	Church2025	Physalia utriculus	SW Atlantic	LH00309:40:22CMVKLT3	1	single_flowcell	LH00309:40:22CMVKLT3	true	
+Church2025__YPM-IZ-110842	Church2025	Physalia physalis	NE Atlantic	LH00309:22:22CMVLLT3;LH00309:46:22F2CTLT3	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-110843	Church2025	Physalia physalis	NE Atlantic	LH00309:22:22CMVLLT3	1	single_flowcell	LH00309:22:22CMVLLT3	true	
+Church2025__YPM-IZ-110844	Church2025	Physalia physalis	NE Atlantic	LH00309:22:22CMVLLT3	1	single_flowcell	LH00309:22:22CMVLLT3	true	
+Church2025__YPM-IZ-110845	Church2025	Physalia physalis	NE Atlantic	LH00309:22:22CMVLLT3	1	single_flowcell	LH00309:22:22CMVLLT3	true	
+Church2025__YPM-IZ-110846	Church2025	Physalia physalis	NE Atlantic	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__YPM-IZ-110847	Church2025	Physalia physalis	NE Atlantic	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__YPM-IZ-110876	Church2025	Physalia physalis	Gulf of Mexico	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
+Church2025__YPM-IZ-110877	Church2025	Physalia sp1	Gulf of California	A01519:271:HWW7GDSX5;A01519:311:H7FM5DSX7	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-110878	Church2025	Physalia sp1	Gulf of California	LH00309:40:22CMVKLT3	1	single_flowcell	LH00309:40:22CMVKLT3	true	
+Church2025__YPM-IZ-110880	Church2025	Physalia physalis	NW Atlantic	LH00309:40:22CMVKLT3	1	single_flowcell	LH00309:40:22CMVKLT3	true	
+Church2025__YPM-IZ-110881	Church2025	Physalia utriculus	Central Pacific	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__YPM-IZ-110882	Church2025	Physalia utriculus	Central Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
+Church2025__YPM-IZ-110883	Church2025	Physalia utriculus	Central Pacific	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
+Church2025__YPM-IZ-110906	Church2025	Physalia utriculus	Central Pacific	LH00309:43:22CYW2LT3;LH00309:55:22F5W5LT3	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-110907	Church2025	Physalia utriculus	Central Pacific	LH00309:43:22CYW2LT3;LH00309:55:22F5W5LT3	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-110925	Church2025	Physalia utriculus	NW Pacific	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
+Church2025__YPM-IZ-110926	Church2025	Physalia utriculus	NW Pacific	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
+Church2025__YPM-IZ-110930	Church2025	Physalia utriculus	NW Pacific	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
+Church2025__YPM-IZ-110931	Church2025	Physalia sp1	NW Pacific	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
+Church2025__YPM-IZ-110933	Church2025	Physalia utriculus	NW Pacific	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
+Church2025__YPM-IZ-110937	Church2025	Physalia utriculus	NW Pacific	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
+Church2025__YPM-IZ-110938	Church2025	Physalia utriculus	NW Pacific	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
+Church2025__YPM-IZ-110943	Church2025	Physalia sp1	NW Pacific	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
+Church2025__YPM-IZ-110972	Church2025	Physalia physalis	NE Atlantic	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
+Church2025__YPM-IZ-111006	Church2025	Physalia utriculus	W Indian	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
+Church2025__YPM-IZ-111007	Church2025	Physalia utriculus	W Indian	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
+Church2025__YPM-IZ-111008	Church2025	Physalia utriculus	W Indian	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
+Church2025__YPM-IZ-111009	Church2025	Physalia utriculus	W Indian	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
+Church2025__YPM-IZ-111010	Church2025	Physalia megalista	W Indian	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
+Church2025__YPM-IZ-111012	Church2025	Physalia physalis	NW Atlantic	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
+Church2025__YPM-IZ-111013	Church2025	Physalia physalis	NW Atlantic	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
+Church2025__YPM-IZ-111014	Church2025	Physalia physalis	NW Atlantic	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
+Church2025__YPM-IZ-111016	Church2025	Physalia physalis	NW Atlantic	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
+Church2025__YPM-IZ-111017	Church2025	Physalia physalis	NW Atlantic	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
+Church2025__YPM-IZ-111018	Church2025	Physalia physalis	NW Atlantic	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
+Church2025__YPM-IZ-111156	Church2025	Physalia megalista	SW Pacific	LH00309:204:227MGJLT4	1	single_flowcell	LH00309:204:227MGJLT4	true	
+Church2025__YPM-IZ-111157	Church2025	Physalia megalista	SW Pacific	LH00309:204:227MGJLT4	1	single_flowcell	LH00309:204:227MGJLT4	true	
+Church2025__YPM-IZ-111158	Church2025	Physalia megalista	SW Pacific	LH00309:204:227MGJLT4	1	single_flowcell	LH00309:204:227MGJLT4	true	
+Church2025__YPM-IZ-111159	Church2025	Physalia megalista	SW Pacific	LH00309:204:227MGJLT4	1	single_flowcell	LH00309:204:227MGJLT4	true	
+Church2025__YPM-IZ-111160	Church2025	Physalia megalista	SW Pacific	LH00309:204:227MGJLT4	1	single_flowcell	LH00309:204:227MGJLT4	true	
+Church2025__YPM-IZ-111163	Church2025	Physalia utriculus	SW Pacific	LH00309:204:227MGJLT4	1	single_flowcell	LH00309:204:227MGJLT4	true	
+Church2025__YPM-IZ-111207	Church2025	Physalia minuta	SW Pacific	LH00309:191:227L7FLT4;LH00309:195:227FKVLT4	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-111208	Church2025	Physalia minuta	SW Pacific	LH00309:191:227L7FLT4;LH00309:195:227FKVLT4	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-111209	Church2025	Physalia minuta	SW Pacific	LH00309:204:227MGJLT4	1	single_flowcell	LH00309:204:227MGJLT4	true	
+Church2025__YPM-IZ-111210	Church2025	Physalia minuta	SW Pacific	LH00309:191:227L7FLT4;LH00309:195:227FKVLT4	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-111241	Church2025	Physalia minuta	SW Pacific	LH00309:259:22CWK3LT4;LH00309:266:22F23WLT3	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-111243	Church2025	Physalia minuta	SW Pacific	LH00309:259:22CWK3LT4;LH00309:266:22F23WLT3	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-111495	Church2025	Physalia megalista	SW Pacific	LH00309:259:22CWK3LT4;LH00309:266:22F23WLT3	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-111513	Church2025	Physalia megalista	SW Pacific	LH00309:259:22CWK3LT4;LH00309:266:22F23WLT3	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-111514	Church2025	Physalia megalista	SW Pacific	LH00309:308:22GYWYLT4;LH00309:314:22HW55LT4	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-111517	Church2025	Physalia megalista	SW Pacific	LH00309:311:22GMLFLT4	1	single_flowcell	LH00309:311:22GMLFLT4	true	
+Church2025__YPM-IZ-111518	Church2025	Physalia megalista	SW Pacific	LH00309:311:22GMLFLT4	1	single_flowcell	LH00309:311:22GMLFLT4	true	
+Church2025__YPM-IZ-111519	Church2025	Physalia megalista	SW Pacific	LH00309:308:22GYWYLT4	1	single_flowcell	LH00309:308:22GYWYLT4	true	
+Church2025__YPM-IZ-111520	Church2025	Physalia megalista	SW Pacific	LH00309:311:22GMLFLT4	1	single_flowcell	LH00309:311:22GMLFLT4	true	
+Church2025__YPM-IZ-111521	Church2025	Physalia megalista	SW Pacific	LH00309:311:22GMLFLT4	1	single_flowcell	LH00309:311:22GMLFLT4	true	
+Church2025__YPM-IZ-111529	Church2025	Physalia megalista	SW Pacific	LH00309:311:22GMLFLT4	1	single_flowcell	LH00309:311:22GMLFLT4	true	
+Church2025__YPM-IZ-111530	Church2025	Physalia megalista	SW Pacific	LH00309:311:22GMLFLT4	1	single_flowcell	LH00309:311:22GMLFLT4	true	
+Church2025__YPM-IZ-111539	Church2025	Physalia megalista	SW Pacific	LH00309:311:22GMLFLT4	1	single_flowcell	LH00309:311:22GMLFLT4	true	
+Church2025__YPM-IZ-111547	Church2025	Physalia utriculus	Central Pacific	LH00309:259:22CWK3LT4	1	single_flowcell	LH00309:259:22CWK3LT4	true	
+Church2025__YPM-IZ-111839	Church2025	Physalia sp1	Central Pacific	LH00309:325:22HLVMLT4	1	single_flowcell	LH00309:325:22HLVMLT4	true	
+Church2025__YPM-IZ-111840	Church2025	Physalia utriculus	Central Pacific	LH00309:325:22HLVMLT4	1	single_flowcell	LH00309:325:22HLVMLT4	true	

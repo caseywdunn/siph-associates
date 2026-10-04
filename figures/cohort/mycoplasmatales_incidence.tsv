@@ -1,0 +1,260 @@
+host	catalog_id	species_cluster	lineage	present_libraries	total_libraries
+Physalia utriculus	BAC00025	MAGSP0005	Clade A	20	64
+Physalia utriculus	BAC00026	MAGSP0007	Clade B	15	64
+Physalia utriculus	BAC00027	MAGSP0010	Clade B	23	64
+Physalia utriculus	BAC00028	MAGSP0029	Clade B	8	64
+Physalia utriculus	BAC00029	MAGSP0031	Clade B	3	64
+Physalia utriculus	BAC00030	MAGSP0011	DT-68	0	64
+Physalia utriculus	BAC00031	MAGSP0012	Mycoplasma_K	0	64
+Physalia physalis	BAC00025	MAGSP0005	Clade A	0	37
+Physalia physalis	BAC00026	MAGSP0007	Clade B	0	37
+Physalia physalis	BAC00027	MAGSP0010	Clade B	5	37
+Physalia physalis	BAC00028	MAGSP0029	Clade B	0	37
+Physalia physalis	BAC00029	MAGSP0031	Clade B	0	37
+Physalia physalis	BAC00030	MAGSP0011	DT-68	0	37
+Physalia physalis	BAC00031	MAGSP0012	Mycoplasma_K	0	37
+Physalia megalista	BAC00025	MAGSP0005	Clade A	10	26
+Physalia megalista	BAC00026	MAGSP0007	Clade B	6	26
+Physalia megalista	BAC00027	MAGSP0010	Clade B	12	26
+Physalia megalista	BAC00028	MAGSP0029	Clade B	0	26
+Physalia megalista	BAC00029	MAGSP0031	Clade B	0	26
+Physalia megalista	BAC00030	MAGSP0011	DT-68	0	26
+Physalia megalista	BAC00031	MAGSP0012	Mycoplasma_K	0	26
+Physalia minuta	BAC00025	MAGSP0005	Clade A	12	19
+Physalia minuta	BAC00026	MAGSP0007	Clade B	1	19
+Physalia minuta	BAC00027	MAGSP0010	Clade B	9	19
+Physalia minuta	BAC00028	MAGSP0029	Clade B	0	19
+Physalia minuta	BAC00029	MAGSP0031	Clade B	0	19
+Physalia minuta	BAC00030	MAGSP0011	DT-68	0	19
+Physalia minuta	BAC00031	MAGSP0012	Mycoplasma_K	0	19
+Nanomia septata	BAC00025	MAGSP0005	Clade A	0	10
+Nanomia septata	BAC00026	MAGSP0007	Clade B	0	10
+Nanomia septata	BAC00027	MAGSP0010	Clade B	0	10
+Nanomia septata	BAC00028	MAGSP0029	Clade B	0	10
+Nanomia septata	BAC00029	MAGSP0031	Clade B	0	10
+Nanomia septata	BAC00030	MAGSP0011	DT-68	7	10
+Nanomia septata	BAC00031	MAGSP0012	Mycoplasma_K	0	10
+Nanomia sp.	BAC00025	MAGSP0005	Clade A	0	7
+Nanomia sp.	BAC00026	MAGSP0007	Clade B	0	7
+Nanomia sp.	BAC00027	MAGSP0010	Clade B	0	7
+Nanomia sp.	BAC00028	MAGSP0029	Clade B	0	7
+Nanomia sp.	BAC00029	MAGSP0031	Clade B	0	7
+Nanomia sp.	BAC00030	MAGSP0011	DT-68	0	7
+Nanomia sp.	BAC00031	MAGSP0012	Mycoplasma_K	0	7
+Nanomia bijuga	BAC00025	MAGSP0005	Clade A	0	5
+Nanomia bijuga	BAC00026	MAGSP0007	Clade B	0	5
+Nanomia bijuga	BAC00027	MAGSP0010	Clade B	1	5
+Nanomia bijuga	BAC00028	MAGSP0029	Clade B	0	5
+Nanomia bijuga	BAC00029	MAGSP0031	Clade B	0	5
+Nanomia bijuga	BAC00030	MAGSP0011	DT-68	0	5
+Nanomia bijuga	BAC00031	MAGSP0012	Mycoplasma_K	1	5
+Physalia sp1	BAC00025	MAGSP0005	Clade A	2	5
+Physalia sp1	BAC00026	MAGSP0007	Clade B	0	5
+Physalia sp1	BAC00027	MAGSP0010	Clade B	2	5
+Physalia sp1	BAC00028	MAGSP0029	Clade B	1	5
+Physalia sp1	BAC00029	MAGSP0031	Clade B	0	5
+Physalia sp1	BAC00030	MAGSP0011	DT-68	0	5
+Physalia sp1	BAC00031	MAGSP0012	Mycoplasma_K	0	5
+Agalma elegans	BAC00025	MAGSP0005	Clade A	0	2
+Agalma elegans	BAC00026	MAGSP0007	Clade B	0	2
+Agalma elegans	BAC00027	MAGSP0010	Clade B	0	2
+Agalma elegans	BAC00028	MAGSP0029	Clade B	0	2
+Agalma elegans	BAC00029	MAGSP0031	Clade B	0	2
+Agalma elegans	BAC00030	MAGSP0011	DT-68	0	2
+Agalma elegans	BAC00031	MAGSP0012	Mycoplasma_K	0	2
+Halistemma rubrum	BAC00025	MAGSP0005	Clade A	0	2
+Halistemma rubrum	BAC00026	MAGSP0007	Clade B	0	2
+Halistemma rubrum	BAC00027	MAGSP0010	Clade B	0	2
+Halistemma rubrum	BAC00028	MAGSP0029	Clade B	0	2
+Halistemma rubrum	BAC00029	MAGSP0031	Clade B	0	2
+Halistemma rubrum	BAC00030	MAGSP0011	DT-68	0	2
+Halistemma rubrum	BAC00031	MAGSP0012	Mycoplasma_K	0	2
+Resomia ornicephala	BAC00025	MAGSP0005	Clade A	0	2
+Resomia ornicephala	BAC00026	MAGSP0007	Clade B	0	2
+Resomia ornicephala	BAC00027	MAGSP0010	Clade B	0	2
+Resomia ornicephala	BAC00028	MAGSP0029	Clade B	0	2
+Resomia ornicephala	BAC00029	MAGSP0031	Clade B	0	2
+Resomia ornicephala	BAC00030	MAGSP0011	DT-68	2	2
+Resomia ornicephala	BAC00031	MAGSP0012	Mycoplasma_K	0	2
+Abylopsis tetragona	BAC00025	MAGSP0005	Clade A	0	1
+Abylopsis tetragona	BAC00026	MAGSP0007	Clade B	0	1
+Abylopsis tetragona	BAC00027	MAGSP0010	Clade B	0	1
+Abylopsis tetragona	BAC00028	MAGSP0029	Clade B	0	1
+Abylopsis tetragona	BAC00029	MAGSP0031	Clade B	0	1
+Abylopsis tetragona	BAC00030	MAGSP0011	DT-68	0	1
+Abylopsis tetragona	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Agalma clausi	BAC00025	MAGSP0005	Clade A	0	1
+Agalma clausi	BAC00026	MAGSP0007	Clade B	0	1
+Agalma clausi	BAC00027	MAGSP0010	Clade B	0	1
+Agalma clausi	BAC00028	MAGSP0029	Clade B	0	1
+Agalma clausi	BAC00029	MAGSP0031	Clade B	0	1
+Agalma clausi	BAC00030	MAGSP0011	DT-68	0	1
+Agalma clausi	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Agalma okenii	BAC00025	MAGSP0005	Clade A	0	1
+Agalma okenii	BAC00026	MAGSP0007	Clade B	0	1
+Agalma okenii	BAC00027	MAGSP0010	Clade B	0	1
+Agalma okenii	BAC00028	MAGSP0029	Clade B	0	1
+Agalma okenii	BAC00029	MAGSP0031	Clade B	0	1
+Agalma okenii	BAC00030	MAGSP0011	DT-68	0	1
+Agalma okenii	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Apolemia rubriversa	BAC00025	MAGSP0005	Clade A	0	1
+Apolemia rubriversa	BAC00026	MAGSP0007	Clade B	0	1
+Apolemia rubriversa	BAC00027	MAGSP0010	Clade B	0	1
+Apolemia rubriversa	BAC00028	MAGSP0029	Clade B	0	1
+Apolemia rubriversa	BAC00029	MAGSP0031	Clade B	0	1
+Apolemia rubriversa	BAC00030	MAGSP0011	DT-68	0	1
+Apolemia rubriversa	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Apolemia sp. 3 CWD-2005	BAC00025	MAGSP0005	Clade A	0	1
+Apolemia sp. 3 CWD-2005	BAC00026	MAGSP0007	Clade B	0	1
+Apolemia sp. 3 CWD-2005	BAC00027	MAGSP0010	Clade B	0	1
+Apolemia sp. 3 CWD-2005	BAC00028	MAGSP0029	Clade B	0	1
+Apolemia sp. 3 CWD-2005	BAC00029	MAGSP0031	Clade B	0	1
+Apolemia sp. 3 CWD-2005	BAC00030	MAGSP0011	DT-68	0	1
+Apolemia sp. 3 CWD-2005	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Bargmannia elongata	BAC00025	MAGSP0005	Clade A	0	1
+Bargmannia elongata	BAC00026	MAGSP0007	Clade B	0	1
+Bargmannia elongata	BAC00027	MAGSP0010	Clade B	0	1
+Bargmannia elongata	BAC00028	MAGSP0029	Clade B	0	1
+Bargmannia elongata	BAC00029	MAGSP0031	Clade B	0	1
+Bargmannia elongata	BAC00030	MAGSP0011	DT-68	0	1
+Bargmannia elongata	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Bargmannia lata	BAC00025	MAGSP0005	Clade A	0	1
+Bargmannia lata	BAC00026	MAGSP0007	Clade B	0	1
+Bargmannia lata	BAC00027	MAGSP0010	Clade B	0	1
+Bargmannia lata	BAC00028	MAGSP0029	Clade B	0	1
+Bargmannia lata	BAC00029	MAGSP0031	Clade B	0	1
+Bargmannia lata	BAC00030	MAGSP0011	DT-68	0	1
+Bargmannia lata	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Chelophyes appendiculata	BAC00025	MAGSP0005	Clade A	0	1
+Chelophyes appendiculata	BAC00026	MAGSP0007	Clade B	0	1
+Chelophyes appendiculata	BAC00027	MAGSP0010	Clade B	0	1
+Chelophyes appendiculata	BAC00028	MAGSP0029	Clade B	0	1
+Chelophyes appendiculata	BAC00029	MAGSP0031	Clade B	0	1
+Chelophyes appendiculata	BAC00030	MAGSP0011	DT-68	0	1
+Chelophyes appendiculata	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Chuniphyes multidentata	BAC00025	MAGSP0005	Clade A	0	1
+Chuniphyes multidentata	BAC00026	MAGSP0007	Clade B	0	1
+Chuniphyes multidentata	BAC00027	MAGSP0010	Clade B	0	1
+Chuniphyes multidentata	BAC00028	MAGSP0029	Clade B	0	1
+Chuniphyes multidentata	BAC00029	MAGSP0031	Clade B	0	1
+Chuniphyes multidentata	BAC00030	MAGSP0011	DT-68	0	1
+Chuniphyes multidentata	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Cordagalma	BAC00025	MAGSP0005	Clade A	0	1
+Cordagalma	BAC00026	MAGSP0007	Clade B	0	1
+Cordagalma	BAC00027	MAGSP0010	Clade B	0	1
+Cordagalma	BAC00028	MAGSP0029	Clade B	0	1
+Cordagalma	BAC00029	MAGSP0031	Clade B	0	1
+Cordagalma	BAC00030	MAGSP0011	DT-68	0	1
+Cordagalma	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Craseoa lathetica	BAC00025	MAGSP0005	Clade A	0	1
+Craseoa lathetica	BAC00026	MAGSP0007	Clade B	0	1
+Craseoa lathetica	BAC00027	MAGSP0010	Clade B	0	1
+Craseoa lathetica	BAC00028	MAGSP0029	Clade B	0	1
+Craseoa lathetica	BAC00029	MAGSP0031	Clade B	0	1
+Craseoa lathetica	BAC00030	MAGSP0011	DT-68	0	1
+Craseoa lathetica	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Diphyes dispar	BAC00025	MAGSP0005	Clade A	0	1
+Diphyes dispar	BAC00026	MAGSP0007	Clade B	0	1
+Diphyes dispar	BAC00027	MAGSP0010	Clade B	0	1
+Diphyes dispar	BAC00028	MAGSP0029	Clade B	0	1
+Diphyes dispar	BAC00029	MAGSP0031	Clade B	0	1
+Diphyes dispar	BAC00030	MAGSP0011	DT-68	0	1
+Diphyes dispar	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Erenna sirena	BAC00025	MAGSP0005	Clade A	0	1
+Erenna sirena	BAC00026	MAGSP0007	Clade B	0	1
+Erenna sirena	BAC00027	MAGSP0010	Clade B	0	1
+Erenna sirena	BAC00028	MAGSP0029	Clade B	0	1
+Erenna sirena	BAC00029	MAGSP0031	Clade B	0	1
+Erenna sirena	BAC00030	MAGSP0011	DT-68	0	1
+Erenna sirena	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Forskalia	BAC00025	MAGSP0005	Clade A	0	1
+Forskalia	BAC00026	MAGSP0007	Clade B	0	1
+Forskalia	BAC00027	MAGSP0010	Clade B	0	1
+Forskalia	BAC00028	MAGSP0029	Clade B	0	1
+Forskalia	BAC00029	MAGSP0031	Clade B	0	1
+Forskalia	BAC00030	MAGSP0011	DT-68	0	1
+Forskalia	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Frillagalma vityazi	BAC00025	MAGSP0005	Clade A	0	1
+Frillagalma vityazi	BAC00026	MAGSP0007	Clade B	0	1
+Frillagalma vityazi	BAC00027	MAGSP0010	Clade B	0	1
+Frillagalma vityazi	BAC00028	MAGSP0029	Clade B	0	1
+Frillagalma vityazi	BAC00029	MAGSP0031	Clade B	0	1
+Frillagalma vityazi	BAC00030	MAGSP0011	DT-68	0	1
+Frillagalma vityazi	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Gymnopraia lapislazula	BAC00025	MAGSP0005	Clade A	0	1
+Gymnopraia lapislazula	BAC00026	MAGSP0007	Clade B	0	1
+Gymnopraia lapislazula	BAC00027	MAGSP0010	Clade B	0	1
+Gymnopraia lapislazula	BAC00028	MAGSP0029	Clade B	0	1
+Gymnopraia lapislazula	BAC00029	MAGSP0031	Clade B	0	1
+Gymnopraia lapislazula	BAC00030	MAGSP0011	DT-68	0	1
+Gymnopraia lapislazula	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Hippopodius hippopus	BAC00025	MAGSP0005	Clade A	0	1
+Hippopodius hippopus	BAC00026	MAGSP0007	Clade B	0	1
+Hippopodius hippopus	BAC00027	MAGSP0010	Clade B	0	1
+Hippopodius hippopus	BAC00028	MAGSP0029	Clade B	0	1
+Hippopodius hippopus	BAC00029	MAGSP0031	Clade B	0	1
+Hippopodius hippopus	BAC00030	MAGSP0011	DT-68	0	1
+Hippopodius hippopus	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Lilyopsis fluoracantha	BAC00025	MAGSP0005	Clade A	0	1
+Lilyopsis fluoracantha	BAC00026	MAGSP0007	Clade B	0	1
+Lilyopsis fluoracantha	BAC00027	MAGSP0010	Clade B	0	1
+Lilyopsis fluoracantha	BAC00028	MAGSP0029	Clade B	0	1
+Lilyopsis fluoracantha	BAC00029	MAGSP0031	Clade B	0	1
+Lilyopsis fluoracantha	BAC00030	MAGSP0011	DT-68	0	1
+Lilyopsis fluoracantha	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Physonectae	BAC00025	MAGSP0005	Clade A	0	1
+Physonectae	BAC00026	MAGSP0007	Clade B	0	1
+Physonectae	BAC00027	MAGSP0010	Clade B	0	1
+Physonectae	BAC00028	MAGSP0029	Clade B	0	1
+Physonectae	BAC00029	MAGSP0031	Clade B	0	1
+Physonectae	BAC00030	MAGSP0011	DT-68	0	1
+Physonectae	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Praya	BAC00025	MAGSP0005	Clade A	0	1
+Praya	BAC00026	MAGSP0007	Clade B	0	1
+Praya	BAC00027	MAGSP0010	Clade B	0	1
+Praya	BAC00028	MAGSP0029	Clade B	0	1
+Praya	BAC00029	MAGSP0031	Clade B	0	1
+Praya	BAC00030	MAGSP0011	DT-68	0	1
+Praya	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Praya dubia	BAC00025	MAGSP0005	Clade A	0	1
+Praya dubia	BAC00026	MAGSP0007	Clade B	0	1
+Praya dubia	BAC00027	MAGSP0010	Clade B	0	1
+Praya dubia	BAC00028	MAGSP0029	Clade B	0	1
+Praya dubia	BAC00029	MAGSP0031	Clade B	0	1
+Praya dubia	BAC00030	MAGSP0011	DT-68	0	1
+Praya dubia	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Rhizophysa eysenhardtii	BAC00025	MAGSP0005	Clade A	0	1
+Rhizophysa eysenhardtii	BAC00026	MAGSP0007	Clade B	0	1
+Rhizophysa eysenhardtii	BAC00027	MAGSP0010	Clade B	0	1
+Rhizophysa eysenhardtii	BAC00028	MAGSP0029	Clade B	0	1
+Rhizophysa eysenhardtii	BAC00029	MAGSP0031	Clade B	0	1
+Rhizophysa eysenhardtii	BAC00030	MAGSP0011	DT-68	0	1
+Rhizophysa eysenhardtii	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Rhizophysa filiformis	BAC00025	MAGSP0005	Clade A	0	1
+Rhizophysa filiformis	BAC00026	MAGSP0007	Clade B	0	1
+Rhizophysa filiformis	BAC00027	MAGSP0010	Clade B	0	1
+Rhizophysa filiformis	BAC00028	MAGSP0029	Clade B	0	1
+Rhizophysa filiformis	BAC00029	MAGSP0031	Clade B	0	1
+Rhizophysa filiformis	BAC00030	MAGSP0011	DT-68	0	1
+Rhizophysa filiformis	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Rosacea flaccida	BAC00025	MAGSP0005	Clade A	0	1
+Rosacea flaccida	BAC00026	MAGSP0007	Clade B	0	1
+Rosacea flaccida	BAC00027	MAGSP0010	Clade B	0	1
+Rosacea flaccida	BAC00028	MAGSP0029	Clade B	0	1
+Rosacea flaccida	BAC00029	MAGSP0031	Clade B	0	1
+Rosacea flaccida	BAC00030	MAGSP0011	DT-68	0	1
+Rosacea flaccida	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Stephalia dilata	BAC00025	MAGSP0005	Clade A	0	1
+Stephalia dilata	BAC00026	MAGSP0007	Clade B	0	1
+Stephalia dilata	BAC00027	MAGSP0010	Clade B	0	1
+Stephalia dilata	BAC00028	MAGSP0029	Clade B	0	1
+Stephalia dilata	BAC00029	MAGSP0031	Clade B	0	1
+Stephalia dilata	BAC00030	MAGSP0011	DT-68	0	1
+Stephalia dilata	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Stephanomia amphytridis	BAC00025	MAGSP0005	Clade A	0	1
+Stephanomia amphytridis	BAC00026	MAGSP0007	Clade B	0	1
+Stephanomia amphytridis	BAC00027	MAGSP0010	Clade B	0	1
+Stephanomia amphytridis	BAC00028	MAGSP0029	Clade B	0	1
+Stephanomia amphytridis	BAC00029	MAGSP0031	Clade B	0	1
+Stephanomia amphytridis	BAC00030	MAGSP0011	DT-68	0	1
+Stephanomia amphytridis	BAC00031	MAGSP0012	Mycoplasma_K	0	1

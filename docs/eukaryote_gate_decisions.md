@@ -50,6 +50,10 @@ non-human mammals 27 (maximum 18). No human reads were found.
 
 ## 2. Presence grades
 
+The counts in this section describe the original 2026-09-30 calibration
+snapshot. Use the corrected gate summary described in section 7 for reporting
+the current results; evidence-row counts and nonredundant detections differ.
+
 | Grade | Rule | Detections |
 |---|---|---|
 | Validated (reads) | ≥37 read pairs at ≥97% identity, one above the maximum negative-control background (36) | 54 |
@@ -135,3 +139,80 @@ copepods, and the fish.
 - COI and mitogenome assembly, which would allow species-level prey
   identification.
 - PR2. SILVA plus NCBI verification is sufficient at the SSU level.
+
+## 7. Reporting correction (2026-10-03)
+
+The manuscript review found two reporting errors. The user authorized their
+correction and regeneration of affected downstream outputs. No read alignment,
+assembled sequence, reference database, presence threshold, or role decision
+changes in this correction.
+
+**Overlapping reporting units.** A short LCA lineage can be an ancestor of a
+second reported lineage in the same library. In `Church2025__YPM-IZ-110469`,
+324 pairs resolve to `Archaeplastida;Rhodophyceae;Florideophycidae` and 961 pairs
+to its descendant ending in `Rhodymeniophycidae`. Both exceed the presence
+threshold, but the ancestor reads do not establish an additional organism.
+
+The grader therefore preserves every evidence row and its original grade,
+read count, assembled support, and interpretation, and adds:
+
+- `count_as_detection`: true only for validated or high-confidence evidence
+  without a validated descendant reporting unit in the same library;
+- `reporting_status`: `detection`, `unresolved_ancestor`, or `trace_evidence`;
+- `overlapping_descendant_units`: the validated descendants explaining why
+  an ancestor cannot be counted separately.
+
+Ancestor reads are not assigned to descendants or used to increase their
+grades. A trace descendant cannot suppress a validated ancestor. Ambiguous
+ancestor evidence remains available in the full supplement table and can be
+shown separately in figures. Count only `count_as_detection == "true"` when
+summarizing detected reporting units. These counts are not species richness:
+reporting resolution differs among clades and one unit can contain multiple
+organisms.
+
+**Naming ceiling versus resolved rank.** The previous `naming_depth` field
+said `genus` whenever identity was at least 97%, including classifications
+ending at the order `Calanoida`. Identity does not restore taxonomic
+resolution lost through LCA assignment. The replacement `naming_ceiling`
+records only the maximum naming resolution permitted by the identity rule.
+`lca_lineage` and `lca_terminal_taxon` retain the actual selected LCA result;
+`named_lineage` retains the conservative name used before this correction.
+An order-level LCA with a genus naming ceiling remains an order-level result.
+
+**Validation and resulting counts.** The bounded regrade was checked against
+all original rows: every pre-existing evidence field except the renamed
+`naming_depth` field is unchanged. All 295 rows remain, including 62 validated
+evidence rows and 233 trace rows. Removing the one redundant validated ancestor
+from detection summaries gives **61 nonredundant reporting-unit detections in
+39 libraries**, including 42 high-confidence detections. Their roles are
+12 parasite, 9 prey, 11 endosymbiont of *Paramoeba*, and 29 unassigned. Role
+labels remain biological interpretations, not evidence of interactions with
+the siphonophore host.
+
+`tests/test_eukaryote_reporting.py` checks overlapping ancestors, multiple
+descendants, separate libraries, trace descendants, unchanged read counts,
+coarse LCA names, and rejection of an incorrect counting flag. The validator
+now checks the reporting annotations as well as the original grade rules.
+Accepted pre-correction outputs and producing code are preserved with a
+SHA-256 manifest at
+`data/results/eukaryote_gate/review_archive/2026-10-03_before_reporting_correction/`.
+
+Regenerate only the affected summaries from the analysis repository root:
+
+```bash
+python3 -B workflow/scripts/grade_eukaryotes.py \
+  --config config/eukaryote_gate.json \
+  --reads data/results/eukaryote_gate/read_lineages.tsv \
+  --assembled data/results/eukaryote_gate/assembled_nonhost.tsv \
+  --verification data/results/eukaryote_gate/ncbi_verification.tsv \
+  --output data/results/eukaryote_gate/eukaryote_grades.tsv
+python3 -B workflow/scripts/validate_eukaryote_gate.py \
+  --config config/eukaryote_gate.json \
+  --grades data/results/eukaryote_gate/eukaryote_grades.tsv \
+  --assembled data/results/eukaryote_gate/assembled_nonhost.tsv \
+  --verification data/results/eukaryote_gate/ncbi_verification.tsv \
+  --output data/results/stages/eukaryote_gate.done
+```
+
+The upstream competitive mapping and NCBI verification do not need rerunning
+for this reporting-only correction.

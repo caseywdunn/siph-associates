@@ -1,0 +1,131 @@
+{
+  "status": "passed",
+  "command": [
+    "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+    "figures/build_cohort.py"
+  ],
+  "environment": {
+    "MPLCONFIGDIR": "/tmp/siph-associates-matplotlib"
+  },
+  "working_directory": "/gpfs/ycga/work/dunn/cwd7/siph_associates",
+  "started_utc": "2026-10-04T22:08:06.119265+00:00",
+  "completed_utc": "2026-10-04T22:08:11.318007+00:00",
+  "elapsed_seconds": 5.2,
+  "log": "data/metadata/enrichment/2026-10-04-physalia-surface/cohort_export.log",
+  "before_checksums": {
+    "figures/cohort/bacterial_detections.tsv": "8629c51f2a10c4250bcb2e012eee254d8962398f015aaf3d0b13580056498d14",
+    "figures/cohort/eukaryote_evidence.pdf": "79391b1f653e27a1273d2896e66269740cddd85199e15c9071c262864fffe606",
+    "figures/cohort/eukaryote_evidence.png": "e66567e671bd36f1b0195ade7c8520a21612f6e882809c673f9eb3cff3832704",
+    "figures/cohort/eukaryote_evidence.tsv": "5f56fcfd48e4c148fce1ce9d2762ab9086d07fa7da58aaa924a84cccdd63c440",
+    "figures/cohort/host_sampling.tsv": "df74f6e6ec5e22afef34ff2d90294ac2467a4b4108abf49ba7e7a4ae58de5a08",
+    "figures/cohort/library_flowcells.tsv": "a3a38e2b850dc172284cd9c9805e352f8f6c94a92138904d392ff7035efd698f",
+    "figures/cohort/mycoplasmatales_incidence.pdf": "9c7153ac6a0f5311bbc43beb98040a19416fd042ed105318ad076b970f22946a",
+    "figures/cohort/mycoplasmatales_incidence.png": "80491e9fc5d664643ee918e980b96f92e0baa0de91898c86855b31c8de5bdab3",
+    "figures/cohort/mycoplasmatales_incidence.tsv": "10f52a04b7c39feafac7d19bfe4b419615c80d7b57c9e91462a703557ace8e52",
+    "figures/cohort/sample_metadata.tsv": "517f6a6b86f25a832df2c8196e091027ee708ac700b5fea83250694184c68dc6",
+    "figures/cohort/sampling.pdf": "bf8ff4ea95d79d21e6f72daaae2f8fb811a4c9830bafd35d0747b9ecbff1faab",
+    "figures/cohort/sampling.png": "27bb48dc47d061ddb5f4ca25589fc20a2e96fe7e1efef952ac0d6caf7261eee0",
+    "figures/cohort/source_checksums.tsv": "a12b0a31513137dc8ea9f9dc67ce7da6862affafc6e9f607cd9330647520e4cc",
+    "figures/cohort/source_revision.txt": "784c61a242646bfec631d90de5f32e0ab59fa9921040e4fb9661ecf12da509d4",
+    "figures/cohort/summary.json": "89ddc7ed859071ac8a69274200ec0e4d7ad4b408a39cf30e721a45d9450659ed",
+    "figures/cohort/viral_detections.tsv": "2bac2074ecf9512dd35f1b036b4d264e7adda24e5b0c26d5477e6d935067e0c3"
+  },
+  "after_checksums": {
+    "figures/cohort/bacterial_detections.tsv": "8629c51f2a10c4250bcb2e012eee254d8962398f015aaf3d0b13580056498d14",
+    "figures/cohort/eukaryote_evidence.pdf": "aa6cc508939a90715b7d8860a1c662cc14e3a92efe4e60a682bbca2efd5a9ba0",
+    "figures/cohort/eukaryote_evidence.png": "e66567e671bd36f1b0195ade7c8520a21612f6e882809c673f9eb3cff3832704",
+    "figures/cohort/eukaryote_evidence.tsv": "5f56fcfd48e4c148fce1ce9d2762ab9086d07fa7da58aaa924a84cccdd63c440",
+    "figures/cohort/host_sampling.tsv": "df74f6e6ec5e22afef34ff2d90294ac2467a4b4108abf49ba7e7a4ae58de5a08",
+    "figures/cohort/library_flowcells.tsv": "a3a38e2b850dc172284cd9c9805e352f8f6c94a92138904d392ff7035efd698f",
+    "figures/cohort/mycoplasmatales_incidence.pdf": "c963538ad745ab83260f7bee88641cfe6a9eb7384d1bb5fc84473a7bcb2bfd77",
+    "figures/cohort/mycoplasmatales_incidence.png": "80491e9fc5d664643ee918e980b96f92e0baa0de91898c86855b31c8de5bdab3",
+    "figures/cohort/mycoplasmatales_incidence.tsv": "10f52a04b7c39feafac7d19bfe4b419615c80d7b57c9e91462a703557ace8e52",
+    "figures/cohort/sample_metadata.tsv": "3ccbe33c6ab9202db81ede19420ecfca362d4c96c725636879a6100df22ce7bc",
+    "figures/cohort/sampling.pdf": "63cdfd6779dc404fc0f53f3d5b360811291d376f4f749b96b24e63be24e70e66",
+    "figures/cohort/sampling.png": "27bb48dc47d061ddb5f4ca25589fc20a2e96fe7e1efef952ac0d6caf7261eee0",
+    "figures/cohort/source_checksums.tsv": "1932c3e52a0a2e98abed690b72a87e0bc4c6a696343ac97f6170959f403c3687",
+    "figures/cohort/source_revision.txt": "784c61a242646bfec631d90de5f32e0ab59fa9921040e4fb9661ecf12da509d4",
+    "figures/cohort/summary.json": "89ddc7ed859071ac8a69274200ec0e4d7ad4b408a39cf30e721a45d9450659ed",
+    "figures/cohort/viral_detections.tsv": "2bac2074ecf9512dd35f1b036b4d264e7adda24e5b0c26d5477e6d935067e0c3"
+  },
+  "changed_files": [
+    "figures/cohort/eukaryote_evidence.pdf",
+    "figures/cohort/mycoplasmatales_incidence.pdf",
+    "figures/cohort/sample_metadata.tsv",
+    "figures/cohort/sampling.pdf",
+    "figures/cohort/source_checksums.tsv"
+  ],
+  "unchanged_nonmetadata_files": [
+    "figures/cohort/bacterial_detections.tsv",
+    "figures/cohort/eukaryote_evidence.png",
+    "figures/cohort/eukaryote_evidence.tsv",
+    "figures/cohort/host_sampling.tsv",
+    "figures/cohort/library_flowcells.tsv",
+    "figures/cohort/mycoplasmatales_incidence.png",
+    "figures/cohort/mycoplasmatales_incidence.tsv",
+    "figures/cohort/sampling.png",
+    "figures/cohort/summary.json",
+    "figures/cohort/viral_detections.tsv"
+  ],
+  "unexpected_nonmetadata_changes": [],
+  "pdf_comparisons": {
+    "figures/cohort/sampling.pdf": {
+      "before": {
+        "excluding_creation_modification_dates_sha256": "5854a51bfdda5fe638550e91687013183b3204e9f9d2a9be5d80ad3499f37f8f",
+        "rendered_page_sha256": [
+          "fa4aba6e7a9151928edc75c74def264cd4063ccbce78b188b182a435494ae4c2"
+        ]
+      },
+      "after": {
+        "excluding_creation_modification_dates_sha256": "5854a51bfdda5fe638550e91687013183b3204e9f9d2a9be5d80ad3499f37f8f",
+        "rendered_page_sha256": [
+          "fa4aba6e7a9151928edc75c74def264cd4063ccbce78b188b182a435494ae4c2"
+        ]
+      },
+      "pixels_unchanged": true,
+      "only_dates_changed": true
+    },
+    "figures/cohort/eukaryote_evidence.pdf": {
+      "before": {
+        "excluding_creation_modification_dates_sha256": "3411ec2f26df440383cafc0203657da52cf5840a40c4ddf3e0322379647f4218",
+        "rendered_page_sha256": [
+          "458269bb07c688ac01c8247cd8526fd5f229fc4928feab775d5cb230a08520c6"
+        ]
+      },
+      "after": {
+        "excluding_creation_modification_dates_sha256": "3411ec2f26df440383cafc0203657da52cf5840a40c4ddf3e0322379647f4218",
+        "rendered_page_sha256": [
+          "458269bb07c688ac01c8247cd8526fd5f229fc4928feab775d5cb230a08520c6"
+        ]
+      },
+      "pixels_unchanged": true,
+      "only_dates_changed": true
+    },
+    "figures/cohort/mycoplasmatales_incidence.pdf": {
+      "before": {
+        "excluding_creation_modification_dates_sha256": "05f60aaeb0d6ecdd8d3c94de33552e8efcc6c1c338bfa24dddc59d7f7f2c64ea",
+        "rendered_page_sha256": [
+          "30f082647032ebbd1d94fa91c25b52c99422631e29f31a7133ffce84c430a1ab"
+        ]
+      },
+      "after": {
+        "excluding_creation_modification_dates_sha256": "05f60aaeb0d6ecdd8d3c94de33552e8efcc6c1c338bfa24dddc59d7f7f2c64ea",
+        "rendered_page_sha256": [
+          "30f082647032ebbd1d94fa91c25b52c99422631e29f31a7133ffce84c430a1ab"
+        ]
+      },
+      "pixels_unchanged": true,
+      "only_dates_changed": true
+    }
+  },
+  "exported_libraries": 205,
+  "libraries_with_depth": 202,
+  "physalia_at_zero": 151,
+  "collection_depth_basis_counts": {
+    "curator_assigned_surface": 150,
+    "source_record": 52
+  },
+  "metadata_matches_canonical_manifest": true,
+  "source_checksums_verified": 9,
+  "analysis_scope": "Publication export from existing accepted results only; no statistics or sequence analyses rerun."
+}

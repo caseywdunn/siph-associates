@@ -112,8 +112,11 @@ which split reads between genomes of one species. All of v1 is kept unchanged
 under `phase4_catalog/v1/`; catalog v2 requires a complete remap (Phase 5) and
 reanalysis (Phase 6), per the versioning rule in EXECUTION_PLAN.md.
 
-**v2 outcome (2026-10-02).** Catalog v2 has 448 genomes: 24 MAG species,
-424 references and 20 decoys. The viral catalogs are unchanged.
+**v2 outcome (2026-10-02).** Catalog v2 has 448 non-decoy genomes: 24 MAG
+representatives and 424 references. Including 20 decoys gives 468 mapping
+targets. The viral catalogs are unchanged. The distinction between 448 real
+targets and 468 total targets was clarified during publication review on
+2026-10-03; no catalog sequence or mapping changed.
 - **A mixed bin.** The v1 genome present in 138 *Physalia* libraries
   (`BAC00033`, a 54%-complete MAG in 486 contigs) combined the clade-A
   Metamycoplasmataceae with unrelated sequence. 110 of its contigs align to

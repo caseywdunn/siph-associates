@@ -14,10 +14,11 @@ species IDs). Gene content is reported separately in
 
 **Method.** GTDB-Tk 2.4.1 `de_novo_wf` on bac120 markers (FastTree,
 WAG+GAMMA), with GTDB r220 Mycoplasmatales and Acholeplasmataceae as the
-outgroup. Added genomes: the seven siphonophore species and 36 external
+outgroup. Candidate genomes: the seven siphonophore species and 32 external
 Mollicutes genomes from cnidarian, crustacean and isopod hosts (NCBI BioSample
 host search, 2026-09-30, and Keller-Costa et al. 2022). External genomes
-needed ≥50% completeness and placement in the order; 36 of 39 were included.
+needed ≥50% completeness and placement in the order; 29 of 32 were included,
+giving 36 added genomes in total.
 The tree has 483 tips. Support values are FastTree local supports.
 
 **Siphonophore lineages.** All four fall within one 21-tip clade (support

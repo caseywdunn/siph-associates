@@ -117,3 +117,62 @@ run in the workflow's standard Python.
   batch accounted for) and does not depend on model estimates converging.
 - **Alternative considered.** Weakly informative priors (`blme::bglmer`)
   would keep the model form, but they give less standard p-values.
+
+### 2026-10-03: physical-flowcell correction and complete breadth sensitivity
+
+A manuscript-readiness review found that the R regional analyses and Python
+contamination test split `sequencing_batches` on `/`, although the manifest
+uses `instrument:run:flowcell:lane`. Consequently, the original v1/v2 statistical
+outputs treated lanes, and combinations of lanes, as separate flowcells. Those
+batch-dependent results are superseded by the corrected run; no read mapping,
+presence grading, assembly, or catalog reconstruction is required.
+
+**Decision (approved by Casey Dunn, 2026-10-03).** Retain every library in
+all descriptive results. Restrict flowcell-based inference to libraries
+sequenced on one physical flowcell. A library spanning several lanes of the
+same flowcell remains eligible; a library spanning different flowcells does
+not. Do not encode overlapping flowcell sets as independent batch categories.
+This restriction applies to the regional mixed models, regional permutation
+tests, PERMANOVA, and contamination tests only. It does not apply to incidence,
+evidence grades, eukaryote detections, assemblies, or comparative genomics.
+
+`workflow/scripts/phase6_metadata.py` writes all 205 primary libraries to
+`phase6_analysis/v2/primary/library_flowcells.tsv`, with physical-flowcell
+identifiers, counts, inferential eligibility, and exclusion reasons. There are
+136 single-flowcell libraries and 69 multi-flowcell libraries: respectively
+122/29 in Church2025 (*Physalia*), 11/10 in Ahuja2026, and 3/30 in
+Ahuja2024. Across studies, the genus *Nanomia* has 22 libraries (12 eligible
+and 10 multi-flowcell), including one Ahuja2024 library in addition to the
+21 Ahuja2026 libraries. The inferential
+restriction changes the population to which the results apply; conclusions
+about all libraries must therefore use the descriptive results.
+
+For contamination tests, the minimum of three presences is assessed among
+eligible libraries. Only host-species × region strata containing at least two
+physical flowcells contribute to the concentration statistic and its
+permutations, as specified in A. Results preserve total, eligible, permutable,
+and excluded presence counts. An insufficient eligible count, absence of
+permutable presences, or constant permutation statistic is explicitly
+untestable; none is evidence of a clean sample or genome. The all-cohort and
+*Nanomia*-only tests are reported separately, with BH adjustment within each
+test family and threshold. Sorted strata make the seeded randomization
+independent of Python hash/set iteration order.
+
+The previous breadth sensitivity table contained only aggregate totals,
+although C1 required repeating B1–B3. The corrected workflow repeats incidence,
+evidence summaries, contamination tests (including the *Nanomia* subset),
+*Physalia* mixed models, per-taxon regional permutation tests, and community
+PERMANOVA at 5% and 20% bacterial breadth. Results live under
+`sensitivity/breadth_5pct/` and `sensitivity/breadth_20pct/`; primary 10% outputs
+retain their original paths. Each threshold selects taxa with at least ten
+presences among the eligible *Physalia* libraries, so tested families may
+change. All per-taxon tests use the same 9,999 seeded permutations; computational
+caching and parallel execution do not alter the statistic.
+
+PERMANOVA uses eligible libraries with at least one bacterial/archaeal
+presence. Empty communities are excluded because binary Jaccard distance is
+undefined for two empty communities; each threshold reports the eligible,
+included, and empty-community counts. Regional identifiability is checked
+again on this nonempty subset. Community and per-taxon regional results remain
+observational associations, with host species, region, study, and technical
+sampling limitations retained in their interpretation.

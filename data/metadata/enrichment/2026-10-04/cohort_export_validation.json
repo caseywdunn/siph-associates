@@ -1,0 +1,155 @@
+{
+  "status": "passed",
+  "started_utc": "2026-10-04T20:35:23.045218+00:00",
+  "completed_utc": "2026-10-04T20:35:37.355559+00:00",
+  "elapsed_seconds": 13.94,
+  "command": [
+    "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+    "figures/build_cohort.py"
+  ],
+  "working_directory": "/gpfs/ycga/work/dunn/cwd7/siph_associates",
+  "environment": {
+    "MPLCONFIGDIR": "/tmp/siph-associates-matplotlib",
+    "python": "3.11.0",
+    "matplotlib": "3.7.1",
+    "numpy": "1.24.2"
+  },
+  "previous_checksums": "data/metadata/enrichment/2026-10-04/previous_export_checksums.json",
+  "log": "data/metadata/enrichment/2026-10-04/cohort_export.log",
+  "changed_files": [
+    "figures/cohort/sampling.pdf",
+    "figures/cohort/eukaryote_evidence.pdf",
+    "figures/cohort/source_checksums.tsv",
+    "figures/cohort/sample_metadata.tsv",
+    "figures/cohort/mycoplasmatales_incidence.pdf"
+  ],
+  "unexpected_nonmetadata_changes": [],
+  "output_checksums": {
+    "figures/cohort/eukaryote_evidence.tsv": "5f56fcfd48e4c148fce1ce9d2762ab9086d07fa7da58aaa924a84cccdd63c440",
+    "figures/cohort/host_sampling.tsv": "df74f6e6ec5e22afef34ff2d90294ac2467a4b4108abf49ba7e7a4ae58de5a08",
+    "figures/cohort/sampling.pdf": "bf8ff4ea95d79d21e6f72daaae2f8fb811a4c9830bafd35d0747b9ecbff1faab",
+    "figures/cohort/viral_detections.tsv": "2bac2074ecf9512dd35f1b036b4d264e7adda24e5b0c26d5477e6d935067e0c3",
+    "figures/cohort/eukaryote_evidence.png": "e66567e671bd36f1b0195ade7c8520a21612f6e882809c673f9eb3cff3832704",
+    "figures/cohort/sampling.png": "27bb48dc47d061ddb5f4ca25589fc20a2e96fe7e1efef952ac0d6caf7261eee0",
+    "figures/cohort/eukaryote_evidence.pdf": "79391b1f653e27a1273d2896e66269740cddd85199e15c9071c262864fffe606",
+    "figures/cohort/mycoplasmatales_incidence.tsv": "10f52a04b7c39feafac7d19bfe4b419615c80d7b57c9e91462a703557ace8e52",
+    "figures/cohort/source_checksums.tsv": "a12b0a31513137dc8ea9f9dc67ce7da6862affafc6e9f607cd9330647520e4cc",
+    "figures/cohort/library_flowcells.tsv": "a3a38e2b850dc172284cd9c9805e352f8f6c94a92138904d392ff7035efd698f",
+    "figures/cohort/bacterial_detections.tsv": "8629c51f2a10c4250bcb2e012eee254d8962398f015aaf3d0b13580056498d14",
+    "figures/cohort/mycoplasmatales_incidence.png": "80491e9fc5d664643ee918e980b96f92e0baa0de91898c86855b31c8de5bdab3",
+    "figures/cohort/source_revision.txt": "784c61a242646bfec631d90de5f32e0ab59fa9921040e4fb9661ecf12da509d4",
+    "figures/cohort/sample_metadata.tsv": "517f6a6b86f25a832df2c8196e091027ee708ac700b5fea83250694184c68dc6",
+    "figures/cohort/mycoplasmatales_incidence.pdf": "9c7153ac6a0f5311bbc43beb98040a19416fd042ed105318ad076b970f22946a",
+    "figures/cohort/summary.json": "89ddc7ed859071ac8a69274200ec0e4d7ad4b408a39cf30e721a45d9450659ed"
+  },
+  "png_comparisons": {
+    "figures/cohort/eukaryote_evidence.png": {
+      "before": {
+        "size": [
+          1908,
+          1310
+        ],
+        "sha256": "9a43766a0436a50c98391485a4fb9d1ffee9ff8e6dc3e8040e6225383a6cd217"
+      },
+      "after": {
+        "size": [
+          1908,
+          1310
+        ],
+        "sha256": "9a43766a0436a50c98391485a4fb9d1ffee9ff8e6dc3e8040e6225383a6cd217"
+      },
+      "pixels_unchanged": true,
+      "bytes_unchanged": true
+    },
+    "figures/cohort/sampling.png": {
+      "before": {
+        "size": [
+          1301,
+          1489
+        ],
+        "sha256": "27753013a978742be5d121b5fe38497765413435899a7897e5d49fca9fe7ed27"
+      },
+      "after": {
+        "size": [
+          1301,
+          1489
+        ],
+        "sha256": "27753013a978742be5d121b5fe38497765413435899a7897e5d49fca9fe7ed27"
+      },
+      "pixels_unchanged": true,
+      "bytes_unchanged": true
+    },
+    "figures/cohort/mycoplasmatales_incidence.png": {
+      "before": {
+        "size": [
+          1380,
+          947
+        ],
+        "sha256": "1a56ca9922e166acd8b41f9eddcb5ba8502d44425b4d338d3aa150059642c156"
+      },
+      "after": {
+        "size": [
+          1380,
+          947
+        ],
+        "sha256": "1a56ca9922e166acd8b41f9eddcb5ba8502d44425b4d338d3aa150059642c156"
+      },
+      "pixels_unchanged": true,
+      "bytes_unchanged": true
+    }
+  },
+  "pdf_comparisons": {
+    "figures/cohort/sampling.pdf": {
+      "before": {
+        "excluding_creation_modification_dates_sha256": "8304fa3f3402f18195ed02c6ddc5fdfb12fac5d12a2597bf30f25f97547c260a",
+        "rendered_page_sha256": [
+          "fa4aba6e7a9151928edc75c74def264cd4063ccbce78b188b182a435494ae4c2"
+        ]
+      },
+      "after": {
+        "excluding_creation_modification_dates_sha256": "8304fa3f3402f18195ed02c6ddc5fdfb12fac5d12a2597bf30f25f97547c260a",
+        "rendered_page_sha256": [
+          "fa4aba6e7a9151928edc75c74def264cd4063ccbce78b188b182a435494ae4c2"
+        ]
+      },
+      "rendered_pixels_unchanged": true,
+      "only_creation_modification_dates_changed": true
+    },
+    "figures/cohort/eukaryote_evidence.pdf": {
+      "before": {
+        "excluding_creation_modification_dates_sha256": "4964a5802bcfe24f62ff399ffeb75ccb3390ab4645251d3f329f381520a5ce96",
+        "rendered_page_sha256": [
+          "458269bb07c688ac01c8247cd8526fd5f229fc4928feab775d5cb230a08520c6"
+        ]
+      },
+      "after": {
+        "excluding_creation_modification_dates_sha256": "4964a5802bcfe24f62ff399ffeb75ccb3390ab4645251d3f329f381520a5ce96",
+        "rendered_page_sha256": [
+          "458269bb07c688ac01c8247cd8526fd5f229fc4928feab775d5cb230a08520c6"
+        ]
+      },
+      "rendered_pixels_unchanged": true,
+      "only_creation_modification_dates_changed": true
+    },
+    "figures/cohort/mycoplasmatales_incidence.pdf": {
+      "before": {
+        "excluding_creation_modification_dates_sha256": "85dbdee1be5cb5a5f2a4bf2a57ce7dcb1c1c4f3e26189a366e6a525ca99ff619",
+        "rendered_page_sha256": [
+          "30f082647032ebbd1d94fa91c25b52c99422631e29f31a7133ffce84c430a1ab"
+        ]
+      },
+      "after": {
+        "excluding_creation_modification_dates_sha256": "85dbdee1be5cb5a5f2a4bf2a57ce7dcb1c1c4f3e26189a366e6a525ca99ff619",
+        "rendered_page_sha256": [
+          "30f082647032ebbd1d94fa91c25b52c99422631e29f31a7133ffce84c430a1ab"
+        ]
+      },
+      "rendered_pixels_unchanged": true,
+      "only_creation_modification_dates_changed": true
+    }
+  },
+  "exported_libraries": 205,
+  "metadata_matches_canonical_manifest": true,
+  "recorded_source_checksums_valid": true,
+  "analysis_scope": "Figure and table export from existing results only; no statistical or sequence analyses rerun."
+}

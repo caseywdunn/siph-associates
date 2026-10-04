@@ -1,0 +1,113 @@
+ko	label	genome	strict_copies	relaxed_copies	near_complete	family_n	family_strict_present	family_relaxed_present
+K01478	Arginine deiminase (arcA)	MAGSP0005	1	1	True	130	58	58
+K01478	Arginine deiminase (arcA)	MAGSP0007	0	0	True	130	58	58
+K01478	Arginine deiminase (arcA)	MAGSP0010	0	0	True	130	58	58
+K01478	Arginine deiminase (arcA)	MAGSP0029	0	0	False	130	58	58
+K01478	Arginine deiminase (arcA)	MAGSP0031	0	0	False	130	58	58
+K01478	Arginine deiminase (arcA)	MAGSP0011	1	1	True	130	58	58
+K01478	Arginine deiminase (arcA)	MAGSP0012	1	1	True	130	58	58
+K00611	Ornithine carbamoyltransferase (arcB)	MAGSP0005	1	1	True	130	52	52
+K00611	Ornithine carbamoyltransferase (arcB)	MAGSP0007	0	0	True	130	52	52
+K00611	Ornithine carbamoyltransferase (arcB)	MAGSP0010	0	0	True	130	52	52
+K00611	Ornithine carbamoyltransferase (arcB)	MAGSP0029	0	0	False	130	52	52
+K00611	Ornithine carbamoyltransferase (arcB)	MAGSP0031	0	0	False	130	52	52
+K00611	Ornithine carbamoyltransferase (arcB)	MAGSP0011	1	1	True	130	52	52
+K00611	Ornithine carbamoyltransferase (arcB)	MAGSP0012	1	1	True	130	52	52
+K00926	Carbamate kinase (arcC)	MAGSP0005	1	1	True	130	53	53
+K00926	Carbamate kinase (arcC)	MAGSP0007	0	0	True	130	53	53
+K00926	Carbamate kinase (arcC)	MAGSP0010	0	0	True	130	53	53
+K00926	Carbamate kinase (arcC)	MAGSP0029	0	0	False	130	53	53
+K00926	Carbamate kinase (arcC)	MAGSP0031	0	0	False	130	53	53
+K00926	Carbamate kinase (arcC)	MAGSP0011	3	3	True	130	53	53
+K00926	Carbamate kinase (arcC)	MAGSP0012	1	1	True	130	53	53
+K00016	L-lactate dehydrogenase	MAGSP0005	0	0	True	130	14	89
+K00016	L-lactate dehydrogenase	MAGSP0007	0	0	True	130	14	89
+K00016	L-lactate dehydrogenase	MAGSP0010	0	0	True	130	14	89
+K00016	L-lactate dehydrogenase	MAGSP0029	0	0	False	130	14	89
+K00016	L-lactate dehydrogenase	MAGSP0031	0	1	False	130	14	89
+K00016	L-lactate dehydrogenase	MAGSP0011	1	1	True	130	14	89
+K00016	L-lactate dehydrogenase	MAGSP0012	0	0	True	130	14	89
+K00166	2-oxoacid dehydrogenase E1 alpha	MAGSP0005	0	1	True	130	0	79
+K00166	2-oxoacid dehydrogenase E1 alpha	MAGSP0007	0	1	True	130	0	79
+K00166	2-oxoacid dehydrogenase E1 alpha	MAGSP0010	0	1	True	130	0	79
+K00166	2-oxoacid dehydrogenase E1 alpha	MAGSP0029	0	1	False	130	0	79
+K00166	2-oxoacid dehydrogenase E1 alpha	MAGSP0031	0	2	False	130	0	79
+K00166	2-oxoacid dehydrogenase E1 alpha	MAGSP0011	0	0	True	130	0	79
+K00166	2-oxoacid dehydrogenase E1 alpha	MAGSP0012	0	0	True	130	0	79
+K00167	2-oxoacid dehydrogenase E1 beta	MAGSP0005	0	1	True	130	4	74
+K00167	2-oxoacid dehydrogenase E1 beta	MAGSP0007	0	1	True	130	4	74
+K00167	2-oxoacid dehydrogenase E1 beta	MAGSP0010	0	1	True	130	4	74
+K00167	2-oxoacid dehydrogenase E1 beta	MAGSP0029	0	1	False	130	4	74
+K00167	2-oxoacid dehydrogenase E1 beta	MAGSP0031	0	2	False	130	4	74
+K00167	2-oxoacid dehydrogenase E1 beta	MAGSP0011	0	0	True	130	4	74
+K00167	2-oxoacid dehydrogenase E1 beta	MAGSP0012	0	0	True	130	4	74
+K00627	Pyruvate dehydrogenase E2	MAGSP0005	0	0	True	130	0	40
+K00627	Pyruvate dehydrogenase E2	MAGSP0007	0	0	True	130	0	40
+K00627	Pyruvate dehydrogenase E2	MAGSP0010	0	1	True	130	0	40
+K00627	Pyruvate dehydrogenase E2	MAGSP0029	0	0	False	130	0	40
+K00627	Pyruvate dehydrogenase E2	MAGSP0031	0	2	False	130	0	40
+K00627	Pyruvate dehydrogenase E2	MAGSP0011	0	0	True	130	0	40
+K00627	Pyruvate dehydrogenase E2	MAGSP0012	0	0	True	130	0	40
+K00382	Dihydrolipoyl dehydrogenase E3	MAGSP0005	1	1	True	130	80	89
+K00382	Dihydrolipoyl dehydrogenase E3	MAGSP0007	1	1	True	130	80	89
+K00382	Dihydrolipoyl dehydrogenase E3	MAGSP0010	1	1	True	130	80	89
+K00382	Dihydrolipoyl dehydrogenase E3	MAGSP0029	0	0	False	130	80	89
+K00382	Dihydrolipoyl dehydrogenase E3	MAGSP0031	2	2	False	130	80	89
+K00382	Dihydrolipoyl dehydrogenase E3	MAGSP0011	0	0	True	130	80	89
+K00382	Dihydrolipoyl dehydrogenase E3	MAGSP0012	0	0	True	130	80	89
+K00625	Phosphotransacetylase (pta)	MAGSP0005	0	1	True	130	0	82
+K00625	Phosphotransacetylase (pta)	MAGSP0007	0	1	True	130	0	82
+K00625	Phosphotransacetylase (pta)	MAGSP0010	0	1	True	130	0	82
+K00625	Phosphotransacetylase (pta)	MAGSP0029	0	1	False	130	0	82
+K00625	Phosphotransacetylase (pta)	MAGSP0031	0	1	False	130	0	82
+K00625	Phosphotransacetylase (pta)	MAGSP0011	0	0	True	130	0	82
+K00625	Phosphotransacetylase (pta)	MAGSP0012	0	0	True	130	0	82
+K00925	Acetate kinase (ackA)	MAGSP0005	1	1	True	130	121	121
+K00925	Acetate kinase (ackA)	MAGSP0007	1	1	True	130	121	121
+K00925	Acetate kinase (ackA)	MAGSP0010	1	1	True	130	121	121
+K00925	Acetate kinase (ackA)	MAGSP0029	0	0	False	130	121	121
+K00925	Acetate kinase (ackA)	MAGSP0031	1	1	False	130	121	121
+K00925	Acetate kinase (ackA)	MAGSP0011	0	0	True	130	121	121
+K00925	Acetate kinase (ackA)	MAGSP0012	1	1	True	130	121	121
+K02440	Glycerol uptake facilitator (glpF)	MAGSP0005	1	1	True	130	8	60
+K02440	Glycerol uptake facilitator (glpF)	MAGSP0007	0	0	True	130	8	60
+K02440	Glycerol uptake facilitator (glpF)	MAGSP0010	0	0	True	130	8	60
+K02440	Glycerol uptake facilitator (glpF)	MAGSP0029	0	0	False	130	8	60
+K02440	Glycerol uptake facilitator (glpF)	MAGSP0031	1	1	False	130	8	60
+K02440	Glycerol uptake facilitator (glpF)	MAGSP0011	0	0	True	130	8	60
+K02440	Glycerol uptake facilitator (glpF)	MAGSP0012	0	0	True	130	8	60
+K00864	Glycerol kinase (glpK)	MAGSP0005	1	1	True	130	57	58
+K00864	Glycerol kinase (glpK)	MAGSP0007	1	1	True	130	57	58
+K00864	Glycerol kinase (glpK)	MAGSP0010	1	1	True	130	57	58
+K00864	Glycerol kinase (glpK)	MAGSP0029	1	1	False	130	57	58
+K00864	Glycerol kinase (glpK)	MAGSP0031	1	1	False	130	57	58
+K00864	Glycerol kinase (glpK)	MAGSP0011	0	0	True	130	57	58
+K00864	Glycerol kinase (glpK)	MAGSP0012	0	0	True	130	57	58
+K00105	Glycerophosphate oxidase (glpO)	MAGSP0005	0	0	True	130	0	0
+K00105	Glycerophosphate oxidase (glpO)	MAGSP0007	0	0	True	130	0	0
+K00105	Glycerophosphate oxidase (glpO)	MAGSP0010	0	0	True	130	0	0
+K00105	Glycerophosphate oxidase (glpO)	MAGSP0029	0	0	False	130	0	0
+K00105	Glycerophosphate oxidase (glpO)	MAGSP0031	0	0	False	130	0	0
+K00105	Glycerophosphate oxidase (glpO)	MAGSP0011	0	0	True	130	0	0
+K00105	Glycerophosphate oxidase (glpO)	MAGSP0012	0	0	True	130	0	0
+K01639	N-acetylneuraminate lyase (nanA)	MAGSP0005	0	1	True	130	16	17
+K01639	N-acetylneuraminate lyase (nanA)	MAGSP0007	0	0	True	130	16	17
+K01639	N-acetylneuraminate lyase (nanA)	MAGSP0010	0	0	True	130	16	17
+K01639	N-acetylneuraminate lyase (nanA)	MAGSP0029	0	0	False	130	16	17
+K01639	N-acetylneuraminate lyase (nanA)	MAGSP0031	0	0	False	130	16	17
+K01639	N-acetylneuraminate lyase (nanA)	MAGSP0011	0	0	True	130	16	17
+K01639	N-acetylneuraminate lyase (nanA)	MAGSP0012	0	0	True	130	16	17
+K01788	N-acylglucosamine-P epimerase (nanE)	MAGSP0005	1	1	True	130	27	28
+K01788	N-acylglucosamine-P epimerase (nanE)	MAGSP0007	0	0	True	130	27	28
+K01788	N-acylglucosamine-P epimerase (nanE)	MAGSP0010	0	0	True	130	27	28
+K01788	N-acylglucosamine-P epimerase (nanE)	MAGSP0029	0	0	False	130	27	28
+K01788	N-acylglucosamine-P epimerase (nanE)	MAGSP0031	0	0	False	130	27	28
+K01788	N-acylglucosamine-P epimerase (nanE)	MAGSP0011	0	0	True	130	27	28
+K01788	N-acylglucosamine-P epimerase (nanE)	MAGSP0012	0	0	True	130	27	28
+K01186	Sialidase	MAGSP0005	0	0	True	130	0	6
+K01186	Sialidase	MAGSP0007	0	0	True	130	0	6
+K01186	Sialidase	MAGSP0010	0	0	True	130	0	6
+K01186	Sialidase	MAGSP0029	0	0	False	130	0	6
+K01186	Sialidase	MAGSP0031	0	0	False	130	0	6
+K01186	Sialidase	MAGSP0011	0	0	True	130	0	6
+K01186	Sialidase	MAGSP0012	0	0	True	130	0	6

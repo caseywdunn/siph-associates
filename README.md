@@ -12,6 +12,32 @@ each study is a first-class covariate, not a hierarchy.
 | Ahuja et al. 2024, *GBE* ([10.1093/gbe/evae048](https://doi.org/10.1093/gbe/evae048)) | 32-species genome skim across the siphonophore phylogeny | phylogenetic breadth |
 | Ahuja et al. 2026, *PLoS One* ([10.1371/journal.pone.0351247](https://doi.org/10.1371/journal.pone.0351247)) | *Nanomia* population set + chromosome-scale *N. septata* genome | Nanomia sampling; a host reference |
 
+## Publication preparation (2026-10-03)
+
+Catalog v2, cohort mapping, corrected downstream statistics and eukaryote
+reporting have completed validation. Publication figures are generated in
+[`figures/`](figures/README.md), with source tables and checksums. The manuscript
+and separate supplement are in `../manuscript_siph_associates`.
+
+All 205 libraries remain in descriptive analyses. Only flowcell-based inference
+uses the single-physical-flowcell subset (136 libraries overall; 122 Physalia;
+12 Nanomia). The genus-wide Nanomia count is 22, including one library from
+Ahuja2024 and 21 from Ahuja2026. See the corrected decision records in `docs/`
+and the latest RUNLOG entry. Earlier implementation-status sections below are
+historical and should not override the accepted versioned outputs.
+
+Collection metadata were enriched on 2026-10-04 from supplied specimen sheets
+and 185 public BioSamples. Coordinates now cover all 205 specimens and 169
+have tissue descriptions. Depths or intervals cover 202 specimens after
+scoring Physalia without an explicit depth record as 0 m, as instructed by
+the user. The 150 assigned zeros are distinguished from the 52 source-record
+depths by `collection_depth_basis`; see the
+[depth convention](docs/metadata_depth_conventions.md).
+Existing values and all biological results are preserved. See the
+[metadata review](data/metadata/enrichment/2026-10-04/README.md) for source
+discrepancies, coverage and reproduction. Manifest rebuilds apply the accepted
+`data/metadata/sample_metadata_updates.tsv` overlay.
+
 ## Repository layout
 
 ```
@@ -29,6 +55,7 @@ profiles/slurm/         persistent controller/worker submission profile
 envs/                   pinned portable software definitions
 data/sources/          source supplements from the three studies (provenance)
 data/results/          analysis outputs (not tracked)
+figures/               publication PDFs, previews, source tables and provenance
 ```
 
 ## The manifest

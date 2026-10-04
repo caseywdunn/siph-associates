@@ -1,0 +1,206 @@
+library_id	species_current	sra_run	biosample	mapping_status	runinfo_sources
+Church2025:FM-16644	Physalia physalis	SRR28498736	SAMN40621277	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:NIWA-173304	Physalia minuta	SRR29478749	SAMN41900828	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:NIWA-173305	Physalia minuta	SRR29478748	SAMN41900829	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:OA-190531-1	Physalia utriculus			no_public_run	
+Church2025:OA-Bluebottle	Physalia utriculus			no_public_run	
+Church2025:TMAG-K5632	Physalia megalista	SRR28498728	SAMN40621278	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:TMAG-K5633	Physalia minuta	SRR28498727	SAMN40621279	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:TMAG-K5634	Physalia minuta	SRR28498726	SAMN40621280	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:TMAG-K5635	Physalia minuta	SRR28498785	SAMN40621281	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:TMAG-K5636	Physalia minuta	SRR28498784	SAMN40621282	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z88480	Physalia megalista	SRR28498838	SAMN40621283	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97900	Physalia megalista	SRR28498837	SAMN40621284	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97901	Physalia megalista	SRR28498836	SAMN40621285	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97902	Physalia utriculus	SRR28498835	SAMN40621286	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97903	Physalia megalista	SRR28498834	SAMN40621287	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97906	Physalia megalista	SRR28498833	SAMN40621288	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97907	Physalia utriculus	SRR28498832	SAMN40621289	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97908	Physalia utriculus	SRR28498831	SAMN40621290	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97910	Physalia utriculus	SRR28498829	SAMN40621291	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97911	Physalia utriculus	SRR28498828	SAMN40621292	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97914	Physalia utriculus	SRR28498827	SAMN40621293	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97916	Physalia utriculus	SRR28498826	SAMN40621294	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97917	Physalia utriculus	SRR28498825	SAMN40621295	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97920	Physalia megalista	SRR28498824	SAMN40621296	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97921	Physalia utriculus	SRR28498823	SAMN40621297	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:WAM-Z97923	Physalia utriculus	SRR28498822	SAMN40621298	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-104460	Physalia utriculus	SRR28498735	SAMN40621299	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-104461	Physalia utriculus	SRR28498734	SAMN40621300	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-104464	Physalia utriculus	SRR28498783	SAMN40621301	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-104465	Physalia utriculus	SRR23143271	SAMN32803051	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-106919	Physalia utriculus	SRR28498747	SAMN40621302	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-106920	Physalia utriculus	SRR28498746	SAMN40621303	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-106923	Physalia utriculus	SRR28498740	SAMN40621304	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-106935	Physalia physalis	SRR28498749	SAMN40621305	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-106936	Physalia physalis	SRR28498745	SAMN40621306	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-106937	Physalia physalis	SRR28498743	SAMN40621307	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-106941	Physalia physalis	SRR28498742	SAMN40621308	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-106943	Physalia physalis	SRR28498741	SAMN40621309	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-106954	Physalia physalis	SRR28498738	SAMN40621310	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-106958	Physalia physalis	SRR28498739	SAMN40621311	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110251	Physalia physalis	SRR28498840	SAMN40621312	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110254	Physalia physalis	SRR28498839	SAMN40621313	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110264	Physalia utriculus	SRR28498843	SAMN40621314	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110268	Physalia utriculus	SRR28498842	SAMN40621315	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110269	Physalia utriculus	SRR28498813	SAMN40621316	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110276	Physalia utriculus	SRR28498802	SAMN40621317	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110277	Physalia utriculus	SRR28498791	SAMN40621318	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110278	Physalia utriculus	SRR28498777	SAMN40621319	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110433	Physalia physalis	SRR28498766	SAMN40621320	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110434	Physalia physalis			no_public_run	
+Church2025:YPM-IZ-110436	Physalia physalis			no_public_run	
+Church2025:YPM-IZ-110438	Physalia physalis	SRR28498755	SAMN40621321	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110443	Physalia physalis	SRR28498744	SAMN40621322	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110460	Physalia utriculus	SRR28498733	SAMN40621323	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110467	Physalia minuta	SRR28498841	SAMN40621324	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110468	Physalia minuta	SRR28498830	SAMN40621325	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110469	Physalia minuta	SRR28498821	SAMN40621326	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110470	Physalia minuta	SRR28498820	SAMN40621327	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110471	Physalia utriculus	SRR28498819	SAMN40621328	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110473	Physalia utriculus	SRR28498818	SAMN40621329	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110474	Physalia utriculus	SRR28498817	SAMN40621330	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110480	Physalia utriculus	SRR28498816	SAMN40621331	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110515	Physalia utriculus	SRR28498815	SAMN40621332	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110520	Physalia utriculus	SRR28498814	SAMN40621333	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110526	Physalia utriculus	SRR28498812	SAMN40621334	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110556	Physalia minuta	SRR28498811	SAMN40621335	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110557	Physalia minuta	SRR28498810	SAMN40621336	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110558	Physalia minuta	SRR28498809	SAMN40621337	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110566	Physalia utriculus	SRR28498808	SAMN40621338	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110569	Physalia utriculus	SRR28498807	SAMN40621339	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110600	Physalia utriculus	SRR28498806	SAMN40621340	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110602	Physalia utriculus	SRR28498805	SAMN40621341	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110605	Physalia utriculus	SRR28498804	SAMN40621342	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110612	Physalia utriculus	SRR28498803	SAMN40621343	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110613	Physalia utriculus	SRR28498801	SAMN40621344	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110616	Physalia utriculus	SRR28498800	SAMN40621345	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110631	Physalia physalis	SRR28498799	SAMN40621346	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110633	Physalia physalis	SRR28498798	SAMN40621347	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110667	Physalia physalis	SRR28498797	SAMN40621348	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110694	Physalia physalis	SRR28498796	SAMN40621349	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110716	Physalia physalis	SRR28498795	SAMN40621350	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110726	Physalia physalis	SRR28498794	SAMN40621351	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110738	Physalia physalis	SRR28498793	SAMN40621352	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110777	Physalia utriculus	SRR28498792	SAMN40621353	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110780	Physalia utriculus	SRR28498790	SAMN40621354	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110785	Physalia utriculus	SRR28498789	SAMN40621355	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110786	Physalia utriculus	SRR28498788	SAMN40621356	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110828	Physalia megalista	SRR28498787	SAMN40621357	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110829	Physalia megalista	SRR28498786	SAMN40621358	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110830	Physalia utriculus	SRR28498782	SAMN40621359	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110842	Physalia physalis	SRR28498781	SAMN40621360	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110843	Physalia physalis	SRR28498780	SAMN40621361	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110844	Physalia physalis	SRR28498779	SAMN40621362	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110845	Physalia physalis	SRR28498778	SAMN40621363	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110846	Physalia physalis	SRR28498776	SAMN40621364	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110847	Physalia physalis	SRR28498775	SAMN40621365	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110876	Physalia physalis	SRR28498748	SAMN40621366	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110877	Physalia sp1	SRR28498774	SAMN40621367	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110878	Physalia sp1	SRR28498732	SAMN40621368	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110880	Physalia physalis	SRR28498737	SAMN40621369	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110881	Physalia utriculus	SRR28498731	SAMN40621370	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110882	Physalia utriculus	SRR28498730	SAMN40621371	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110883	Physalia utriculus	SRR28498729	SAMN40621372	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110906	Physalia utriculus	SRR28498773	SAMN40621373	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110907	Physalia utriculus	SRR28498772	SAMN40621374	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110925	Physalia utriculus	SRR28498771	SAMN40621375	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110926	Physalia utriculus	SRR28498770	SAMN40621376	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110930	Physalia utriculus	SRR28498769	SAMN40621377	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110931	Physalia sp1	SRR28498768	SAMN40621378	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110933	Physalia utriculus	SRR28498767	SAMN40621379	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110937	Physalia utriculus	SRR28498765	SAMN40621380	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110938	Physalia utriculus	SRR28498764	SAMN40621381	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110943	Physalia sp1	SRR28498763	SAMN40621382	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-110972	Physalia physalis	SRR28498762	SAMN40621383	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111006	Physalia utriculus	SRR28498761	SAMN40621384	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111007	Physalia utriculus	SRR28498760	SAMN40621385	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111008	Physalia utriculus	SRR28498759	SAMN40621386	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111009	Physalia utriculus	SRR28498758	SAMN40621387	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111010	Physalia megalista	SRR28498757	SAMN40621388	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111012	Physalia physalis	SRR28498756	SAMN40621389	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111013	Physalia physalis	SRR28498754	SAMN40621390	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111014	Physalia physalis	SRR28498753	SAMN40621391	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111016	Physalia physalis	SRR28498752	SAMN40621392	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111017	Physalia physalis	SRR28498751	SAMN40621393	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111018	Physalia physalis	SRR28498750	SAMN40621394	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111156	Physalia megalista	SRR29478751	SAMN41900818	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111157	Physalia megalista	SRR29478750	SAMN41900819	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111158	Physalia megalista	SRR29478747	SAMN41900820	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111159	Physalia megalista	SRR29478746	SAMN41900821	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111160	Physalia megalista	SRR29478745	SAMN41900822	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111163	Physalia utriculus	SRR29478744	SAMN41900823	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111207	Physalia minuta	SRR29478743	SAMN41900824	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111208	Physalia minuta	SRR29478742	SAMN41900825	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111209	Physalia minuta	SRR29478741	SAMN41900826	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111210	Physalia minuta	SRR29478740	SAMN41900827	unique_run_match	data/sources/church_sra_runinfo.csv;data/sources/physalia_all_sra_runinfo.csv
+Church2025:YPM-IZ-111241	Physalia minuta			no_public_run	
+Church2025:YPM-IZ-111243	Physalia minuta			no_public_run	
+Church2025:YPM-IZ-111495	Physalia megalista			no_public_run	
+Church2025:YPM-IZ-111513	Physalia megalista			no_public_run	
+Church2025:YPM-IZ-111514	Physalia megalista			no_public_run	
+Church2025:YPM-IZ-111517	Physalia megalista			no_public_run	
+Church2025:YPM-IZ-111518	Physalia megalista			no_public_run	
+Church2025:YPM-IZ-111519	Physalia megalista			no_public_run	
+Church2025:YPM-IZ-111520	Physalia megalista			no_public_run	
+Church2025:YPM-IZ-111521	Physalia megalista			no_public_run	
+Church2025:YPM-IZ-111529	Physalia megalista			no_public_run	
+Church2025:YPM-IZ-111530	Physalia megalista			no_public_run	
+Church2025:YPM-IZ-111539	Physalia megalista			no_public_run	
+Church2025:YPM-IZ-111547	Physalia utriculus			no_public_run	
+Church2025:YPM-IZ-111839	Physalia sp1			no_public_run	
+Church2025:YPM-IZ-111840	Physalia utriculus			no_public_run	
+Ahuja2024:CWD1	Agalma clausi	SRR23143291	SAMN32803028	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD101	Apolemia sp. 3 CWD-2005	SRR23143290	SAMN32803033	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD104	Bargmannia elongata	SRR23143279	SAMN32803034	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD11	Stephanomia amphytridis	SRR23143268	SAMN32803061	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD116	Agalma elegans	SRR25099392;SRR25099393;SRR25099394;SRR25099395;SRR25099396	SAMN32803030	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD117	Hippopodius hippopus	SRR23143261	SAMN32803047	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD12	Halistemma rubrum	SRR23143260	SAMN32803045	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD121	Abylopsis tetragona	SRR23143259	SAMN32803027	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD122	Chelophyes appendiculata	SRR23143258	SAMN32803036	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD131	Rhizophysa eysenhardtii	SRR23143257	SAMN32803057	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD141	Stephalia dilata	SRR23143289	SAMN32803060	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD144	Gymnopraia lapislazula	SRR25099388;SRR25099389;SRR25099390;SRR25099391	SAMN32803044	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD146	Erenna sirena	SRR23143287	SAMN32803041	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD16	Nanomia bijuga	SRR23143286	SAMN32803050	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD17	Halistemma rubrum	SRR23143285	SAMN32803046	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD19	Praya dubia	SRR23143284	SAMN32803054	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD2	Agalma elegans	SRR23143283	SAMN32803029	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD20	Rhizophysa filiformis	SRR23143282	SAMN32803058	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD21	Rosacea flaccida	SRR23143281	SAMN32803059	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD3	Agalma okenii	SRR23143280	SAMN32803031	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD6	Cordagalma	SRR23143278	SAMN32803038	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:CWD7	Diphyes dispar	SRR23143277	SAMN32803040	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:NA1	Chuniphyes multidentata	SRR23143276	SAMN32803037	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:NA10	Resomia ornicephala	SRR23143275	SAMN32803055	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:NA11	Resomia ornicephala	SRR23143274	SAMN32803056	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:NA2	Physonectae	SRR23143272	SAMN32803052	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:NA3	Forskalia	SRR23143270	SAMN32803042	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:NA4	Praya	SRR23143269	SAMN32803053	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:NA5	Apolemia rubriversa	SRR23143267	SAMN32803032	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:NA6	Craseoa lathetica	SRR23143266	SAMN32803039	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:NA7	Lilyopsis fluoracantha	SRR23143265	SAMN32803048	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:NA8	Bargmannia lata	SRR23143264	SAMN32803035	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2024:NA9	Frillagalma vityazi	SRR23143263	SAMN32803043	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2026:NA19	Nanomia septata	SRR23143273	SAMN32803049	unique_run_match	data/sources/ahuja2024_sra_runinfo.csv;data/sources/ahuja2026_PRJNA925656_runinfo.csv
+Ahuja2026:NA28	Nanomia sp.	SRR33215983	SAMN48043655	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:NA29	Nanomia sp.	SRR33215966	SAMN48043654	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:NA30	Nanomia bijuga	SRR33215979	SAMN48043659	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:NA31	Nanomia bijuga	SRR33215969	SAMN48043651	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:NA32	Nanomia bijuga	SRR33215968	SAMN48043652	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:NA33	Nanomia bijuga	SRR33215967	SAMN48043653	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:NA34	Nanomia septata	SRR33215978	SAMN48043660	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:NA35	Nanomia septata	SRR33215977	SAMN48043661	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:NA36	Nanomia septata	SRR33215976	SAMN48043662	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:NA37	Nanomia sp.	SRR33215975	SAMN48043663	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:NA38	Nanomia sp.	SRR33215974	SAMN48043664	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:WS10	Nanomia septata	SRR33215970	SAMN48043650	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:WS2	Nanomia sp.	SRR33215982	SAMN48043656	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:WS3	Nanomia sp.	SRR33215981	SAMN48043657	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:WS4	Nanomia sp.	SRR33215980	SAMN48043658	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:WS5	Nanomia septata	SRR33215985	SAMN48043645	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:WS6	Nanomia septata	SRR33215984	SAMN48043646	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:WS7	Nanomia septata	SRR33215973	SAMN48043647	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:WS8	Nanomia septata	SRR33215972	SAMN48043648	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv
+Ahuja2026:WS9	Nanomia septata	SRR33215971	SAMN48043649	unique_run_match	data/sources/ahuja2026_PRJNA1252167_runinfo.csv

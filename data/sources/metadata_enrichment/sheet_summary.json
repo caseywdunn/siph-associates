@@ -1,0 +1,19 @@
+{
+  "source_rows": 78,
+  "matched_DNA_rows": 57,
+  "unique_libraries": 55,
+  "candidates": 628,
+  "pending_candidates": 2,
+  "excluded_non_DNA_rows": 20,
+  "unmatched_rows": [
+    {
+      "source": "data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx",
+      "sheet": "Sheet1",
+      "row": "24",
+      "source_record": "Ahuja2026:",
+      "status": "unmatched",
+      "library_id": "",
+      "matched_identifiers": ""
+    }
+  ]
+}

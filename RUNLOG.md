@@ -854,3 +854,106 @@ python3 scripts/validate_manifest.py
 python3 scripts/freeze_manifest.py
 python3 scripts/validate_manifest.py --freeze data/metadata/manifest.freeze.sha256
 ```
+
+
+## 2026-10-03 — Publication review corrections and figure exports
+
+The user authorized fixing the review findings and rerunning downstream
+outputs. All 205 libraries remain in descriptive results and all other
+analyses. Only flowcell-based inference is restricted to libraries sequenced
+on one physical flowcell. Shared metadata collapses lane identifiers from
+instrument:run:flowcell:lane records. Eligibility is 136 libraries overall,
+122 Physalia and 12 of the 22 Nanomia libraries.
+
+Completed 5%, 10% and 20% incidence summaries, contamination assessments
+(including Nanomia-only), regional models/permutations and PERMANOVA from
+frozen existing read mappings and grades. Primary regional tests: 3/5 genomes
+with q < 0.05; community 91/122 libraries, region R² = 0.1842376, P = 0.0001.
+At 5% and 20%, community sample sizes are 99 and 80, R² = 0.209 and 0.225,
+P = 0.0001; significant individual tests are 6/10 and 2/4. The exact values
+are preserved in the production tables. No primary contamination test was
+flagged at q < 0.05; 31 of 46 candidate genomes were testable.
+
+Eukaryote reporting retains all 295 evidence rows: 62 validated evidence rows
+become 61 nonredundant reporting-unit/library detections across 39 libraries,
+including 42 high-confidence detections. Naming ceiling is distinguished from
+resolved LCA lineage. Gene-content prose now reports MAGSP0031's relaxed-only
+K00016 assignment alongside DT-68 strict support; no annotation rerun was
+needed. Context and catalog documentation counts were clarified against the
+actual manifests.
+
+Validation: four statistics regressions passed; eukaryote regression and a
+temporary real-data regrade passed; 608 gene-content table consistency checks
+passed. The bounded dry run contained 14 steps and excluded assembly,
+annotation and remapping. Original tables were archived with hashes under
+`data/results/review_archive/` and the eukaryote gate's `review_archive/`.
+
+New scheduler submission was blocked by the tool sandbox. The existing
+compute allocation 11793267 on r209u08n04 was confirmed by environment/cgroup
+evidence (one CPU, 5 GB). `scripts/run_review_corrections.sh` executed locally
+there with one CPU and a 4-GB workflow budget. The first tool process
+terminated during the 5% analysis; completed outputs were retained, its stale
+lock was cleared and remaining work resumed. The final log
+`logs/review_corrections.resume3.11793267.log` completed all six remaining
+steps. The new Phase-6 sentinel reported PASS / 0 errors at 22:09:22, after
+the final 5% outputs. The eukaryote sentinel also passed.
+
+Five vector PDF figures with embedded TrueType fonts and PNG review previews
+were built in `figures/` from accepted result tables. Layout corrections were
+rerendered; a final one-rule cohort-figure run enlarged eukaryote labels
+(`logs/review_figures_final.11793267.log`). Source tables, checksums and
+producing-script snapshots accompany the exports. Manuscript transfer uses
+its `scripts/sync_assets.py` helper and a machine-readable copy manifest.
+
+Source base revision: `0a7c3e85a0e8f4856a16e5fc75e6a0ec73ba7b19`, with
+working-tree corrections. Git metadata was read-only, so no commit was
+created. No upstream sequence analysis was rerun; these were explicitly
+authorized reporting, statistics and figure jobs.
+
+
+## 2026-10-04 — Collection metadata enrichment
+
+The user supplied specimen sheets and authorized filling missing metadata from
+them and public records. Added 895 cells across 185 libraries: coordinates now
+cover all 205 specimens; 52 have numeric collection depths or intervals, 185
+have BioSample IDs and 169 have tissue descriptions. Existing nonmissing values
+and all biological/sequence inputs are preserved. Detailed coverage, conflicts,
+commands and hashes are recorded in `data/metadata/enrichment/2026-10-04/`.
+
+Exact sheet joins retain reused specimens and exclude RNA/out-of-cohort rows.
+All 185 mapped BioSamples were retrieved; GBIF searches of 168 YPM vouchers
+returned no exact cohort records, with successful positive controls. Retained
+source discrepancies include NA19 depth 296/297 m, unclear WS5/WS6 depths,
+NA34–NA36 collection years 2011/2024, and the Guam longitude sign. These do not
+overwrite existing facts. No blanket 0 m depth was assigned to Physalia.
+
+Rebuilds now apply the accepted metadata overlay. The previous manifest/freeze
+are archived under `data/metadata/history/2026-10-04_before_sample_enrichment/`.
+Twenty-two targeted tests and independent review passed; the existing manifest
+validator reported zero errors on the exact promoted proposal. The only
+regional-category addition, CWD16, remains a nonpermutable singleton and does
+not change statistical inputs that contribute to inference.
+
+The bounded cohort export completed in 14 seconds. Biological tables and PNGs
+are byte-identical; PDF changes are timestamps only. Metadata and source hashes
+were refreshed. No sequence analyses, statistical reruns or cluster jobs were
+launched. Historical executed-analysis freezes remain preserved.
+
+## 2026-10-04 — Physalia surface-depth convention
+
+The user authorized scoring all Physalia lacking an explicit depth record as
+0 m and committing/pushing the analysis repository. Added 150 zeros, retaining
+the one existing recorded Physalia zero. Numeric depths or intervals now cover
+202/205 specimens; NA19, WS5 and WS6 remain unresolved. The new
+`collection_depth_basis` column marks 150 `curator_assigned_surface` values
+and 52 `source_record` values. Existing depth records and all non-Physalia
+depths are unchanged; no beach-collection method was inferred.
+
+The scoring candidates, review audit, changed cells and validation are retained
+under `data/sources/metadata_enrichment/physalia_depth_scoring.tsv` and
+`data/metadata/enrichment/2026-10-04-physalia-surface/`. The earlier enriched
+manifest remains preserved. Full overlay replay from the original baseline
+reproduces the updated manifest. The scorer is idempotent and protects explicit
+point, interval and unparsed depth records. Metadata tests (23), plus statistics
+and eukaryote regressions (six), passed; all original biological result tables
+remain unchanged. Only the bounded cohort export is refreshed.

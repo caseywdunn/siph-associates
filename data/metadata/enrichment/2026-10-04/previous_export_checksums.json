@@ -1,0 +1,18 @@
+{
+  "figures/cohort/eukaryote_evidence.tsv": "5f56fcfd48e4c148fce1ce9d2762ab9086d07fa7da58aaa924a84cccdd63c440",
+  "figures/cohort/host_sampling.tsv": "df74f6e6ec5e22afef34ff2d90294ac2467a4b4108abf49ba7e7a4ae58de5a08",
+  "figures/cohort/sampling.pdf": "02e014020c818c553be43c4f58b084f2b62a5a6fd19d6ac09ce2d5813d65f238",
+  "figures/cohort/viral_detections.tsv": "2bac2074ecf9512dd35f1b036b4d264e7adda24e5b0c26d5477e6d935067e0c3",
+  "figures/cohort/eukaryote_evidence.png": "e66567e671bd36f1b0195ade7c8520a21612f6e882809c673f9eb3cff3832704",
+  "figures/cohort/sampling.png": "27bb48dc47d061ddb5f4ca25589fc20a2e96fe7e1efef952ac0d6caf7261eee0",
+  "figures/cohort/eukaryote_evidence.pdf": "75d9f4c5afdc2ce2d71429a961fb3be6e41f05b2d75233ce53d5f0c549510316",
+  "figures/cohort/mycoplasmatales_incidence.tsv": "10f52a04b7c39feafac7d19bfe4b419615c80d7b57c9e91462a703557ace8e52",
+  "figures/cohort/source_checksums.tsv": "d1f34be6e8596e4a380d5a205a4d47a9e36368f161b3a704a10e2220bf065311",
+  "figures/cohort/library_flowcells.tsv": "a3a38e2b850dc172284cd9c9805e352f8f6c94a92138904d392ff7035efd698f",
+  "figures/cohort/bacterial_detections.tsv": "8629c51f2a10c4250bcb2e012eee254d8962398f015aaf3d0b13580056498d14",
+  "figures/cohort/mycoplasmatales_incidence.png": "80491e9fc5d664643ee918e980b96f92e0baa0de91898c86855b31c8de5bdab3",
+  "figures/cohort/source_revision.txt": "784c61a242646bfec631d90de5f32e0ab59fa9921040e4fb9661ecf12da509d4",
+  "figures/cohort/sample_metadata.tsv": "8a90b2059817318a8cb9e7ac1dd99c23be91dffc945f17f7f62ca315ba941462",
+  "figures/cohort/mycoplasmatales_incidence.pdf": "585c53655036dd2f1f6536dd15a57eab711b4c02dc0c40c9087dc5ae05b0e062",
+  "figures/cohort/summary.json": "89ddc7ed859071ac8a69274200ec0e4d7ad4b408a39cf30e721a45d9450659ed"
+}

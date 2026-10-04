@@ -1,0 +1,896 @@
+library_id	field	before	after
+Church2025:FM-16644	lat_long_raw		28.591940 N 17.920910 W
+Church2025:FM-16644	biosample		SAMN40621277
+Church2025:FM-16644	tissue		tentacle
+Church2025:FM-16644	country		Spain
+Church2025:NIWA-173304	lat_long_raw		36.895150 S 174.443889 E
+Church2025:NIWA-173304	biosample		SAMN41900828
+Church2025:NIWA-173304	tissue		tentacle
+Church2025:NIWA-173304	country		New Zealand
+Church2025:NIWA-173305	lat_long_raw		36.895150 S 174.443889 E
+Church2025:NIWA-173305	biosample		SAMN41900829
+Church2025:NIWA-173305	tissue		tentacle
+Church2025:NIWA-173305	country		New Zealand
+Church2025:TMAG-K5632	lat_long_raw		41.863900 S 148.286500 E
+Church2025:TMAG-K5632	biosample		SAMN40621278
+Church2025:TMAG-K5632	tissue		tentacle
+Church2025:TMAG-K5632	country		Australia
+Church2025:TMAG-K5633	lat_long_raw		41.863900 S 148.286500 E
+Church2025:TMAG-K5633	biosample		SAMN40621279
+Church2025:TMAG-K5633	tissue		tentacle
+Church2025:TMAG-K5633	country		Australia
+Church2025:TMAG-K5634	lat_long_raw		41.863900 S 148.286500 E
+Church2025:TMAG-K5634	biosample		SAMN40621280
+Church2025:TMAG-K5634	tissue		tentacle
+Church2025:TMAG-K5634	country		Australia
+Church2025:TMAG-K5635	lat_long_raw		41.863900 S 148.286500 E
+Church2025:TMAG-K5635	biosample		SAMN40621281
+Church2025:TMAG-K5635	tissue		tentacle
+Church2025:TMAG-K5635	country		Australia
+Church2025:TMAG-K5636	lat_long_raw		41.863900 S 148.286500 E
+Church2025:TMAG-K5636	biosample		SAMN40621282
+Church2025:TMAG-K5636	tissue		tentacle
+Church2025:TMAG-K5636	country		Australia
+Church2025:WAM-Z88480	lat_long_raw		31.908144 S 115.754811 E
+Church2025:WAM-Z88480	biosample		SAMN40621283
+Church2025:WAM-Z88480	country		Australia
+Church2025:WAM-Z97900	lat_long_raw		31.855786 S 115.751741 E
+Church2025:WAM-Z97900	biosample		SAMN40621284
+Church2025:WAM-Z97900	country		Australia
+Church2025:WAM-Z97901	lat_long_raw		31.855786 S 115.751741 E
+Church2025:WAM-Z97901	biosample		SAMN40621285
+Church2025:WAM-Z97901	country		Australia
+Church2025:WAM-Z97902	lat_long_raw		31.855786 S 115.751741 E
+Church2025:WAM-Z97902	biosample		SAMN40621286
+Church2025:WAM-Z97902	country		Australia
+Church2025:WAM-Z97903	lat_long_raw		31.855786 S 115.751741 E
+Church2025:WAM-Z97903	biosample		SAMN40621287
+Church2025:WAM-Z97903	country		Australia
+Church2025:WAM-Z97906	lat_long_raw		31.855786 S 115.751741 E
+Church2025:WAM-Z97906	biosample		SAMN40621288
+Church2025:WAM-Z97906	country		Australia
+Church2025:WAM-Z97907	lat_long_raw		31.855786 S 115.751741 E
+Church2025:WAM-Z97907	biosample		SAMN40621289
+Church2025:WAM-Z97907	country		Australia
+Church2025:WAM-Z97908	lat_long_raw		31.855786 S 115.751741 E
+Church2025:WAM-Z97908	biosample		SAMN40621290
+Church2025:WAM-Z97908	country		Australia
+Church2025:WAM-Z97910	lat_long_raw		31.855786 S 115.751741 E
+Church2025:WAM-Z97910	biosample		SAMN40621291
+Church2025:WAM-Z97910	country		Australia
+Church2025:WAM-Z97911	lat_long_raw		31.855786 S 115.751741 E
+Church2025:WAM-Z97911	biosample		SAMN40621292
+Church2025:WAM-Z97911	country		Australia
+Church2025:WAM-Z97914	lat_long_raw		31.855786 S 115.751741 E
+Church2025:WAM-Z97914	biosample		SAMN40621293
+Church2025:WAM-Z97914	country		Australia
+Church2025:WAM-Z97916	lat_long_raw		31.855786 S 115.751741 E
+Church2025:WAM-Z97916	biosample		SAMN40621294
+Church2025:WAM-Z97916	country		Australia
+Church2025:WAM-Z97917	lat_long_raw		33.787002 S 151.288609 E
+Church2025:WAM-Z97917	biosample		SAMN40621295
+Church2025:WAM-Z97917	country		Australia
+Church2025:WAM-Z97920	lat_long_raw		33.987424 S 151.231329 E
+Church2025:WAM-Z97920	biosample		SAMN40621296
+Church2025:WAM-Z97920	country		Australia
+Church2025:WAM-Z97921	lat_long_raw		26.784003 S 153.140596 E
+Church2025:WAM-Z97921	biosample		SAMN40621297
+Church2025:WAM-Z97921	country		Australia
+Church2025:WAM-Z97923	lat_long_raw		26.784003 S 153.140596 E
+Church2025:WAM-Z97923	biosample		SAMN40621298
+Church2025:WAM-Z97923	country		Australia
+Church2025:YPM-IZ-104460	lat_long_raw		13.427861 N 144.798518 E
+Church2025:YPM-IZ-104460	biosample		SAMN40621299
+Church2025:YPM-IZ-104460	tissue		tentacle
+Church2025:YPM-IZ-104460	country		Guam
+Church2025:YPM-IZ-104461	lat_long_raw		13.427861 N 144.798518 E
+Church2025:YPM-IZ-104461	biosample		SAMN40621300
+Church2025:YPM-IZ-104461	tissue		tentacle
+Church2025:YPM-IZ-104461	country		Guam
+Church2025:YPM-IZ-104464	lat_long_raw		13.427861 N 144.798518 E
+Church2025:YPM-IZ-104464	biosample		SAMN40621301
+Church2025:YPM-IZ-104464	tissue		tentacle
+Church2025:YPM-IZ-104464	country		Guam
+Church2025:YPM-IZ-104465	depth_m		0
+Church2025:YPM-IZ-104465	depth_original		0 meters
+Church2025:YPM-IZ-104465	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P38 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803051
+Church2025:YPM-IZ-104465	biosample		SAMN32803051
+Church2025:YPM-IZ-104465	tissue		corm
+Church2025:YPM-IZ-104465	specimen_voucher		YPM:IZ:104465
+Church2025:YPM-IZ-106919	lat_long_raw		35.307390 N 139.480651 E
+Church2025:YPM-IZ-106919	biosample		SAMN40621302
+Church2025:YPM-IZ-106919	tissue		tentacle
+Church2025:YPM-IZ-106919	country		Japan
+Church2025:YPM-IZ-106920	lat_long_raw		35.307390 N 139.480651 E
+Church2025:YPM-IZ-106920	biosample		SAMN40621303
+Church2025:YPM-IZ-106920	tissue		tentacle
+Church2025:YPM-IZ-106920	country		Japan
+Church2025:YPM-IZ-106923	lat_long_raw		35.307390 N 139.480651 E
+Church2025:YPM-IZ-106923	biosample		SAMN40621304
+Church2025:YPM-IZ-106923	tissue		tentacle
+Church2025:YPM-IZ-106923	country		Japan
+Church2025:YPM-IZ-106935	lat_long_raw		29.19532 N 94.8429383 W
+Church2025:YPM-IZ-106935	biosample		SAMN40621305
+Church2025:YPM-IZ-106935	tissue		tentacle
+Church2025:YPM-IZ-106935	country		USA
+Church2025:YPM-IZ-106936	lat_long_raw		29.19532 N 94.8429383 W
+Church2025:YPM-IZ-106936	biosample		SAMN40621306
+Church2025:YPM-IZ-106936	tissue		tentacle
+Church2025:YPM-IZ-106936	country		USA
+Church2025:YPM-IZ-106937	lat_long_raw		29.19532 N 94.8429383 W
+Church2025:YPM-IZ-106937	biosample		SAMN40621307
+Church2025:YPM-IZ-106937	tissue		tentacle
+Church2025:YPM-IZ-106937	country		USA
+Church2025:YPM-IZ-106941	lat_long_raw		32.323333 N 64.656300 W
+Church2025:YPM-IZ-106941	biosample		SAMN40621308
+Church2025:YPM-IZ-106941	tissue		tentacle
+Church2025:YPM-IZ-106941	country		Bermuda
+Church2025:YPM-IZ-106943	lat_long_raw		32.341117 N 64.669133 W
+Church2025:YPM-IZ-106943	biosample		SAMN40621309
+Church2025:YPM-IZ-106943	tissue		tentacle
+Church2025:YPM-IZ-106943	country		Bermuda
+Church2025:YPM-IZ-106954	lat_long_raw		32.367233 N 64.714550 W
+Church2025:YPM-IZ-106954	biosample		SAMN40621310
+Church2025:YPM-IZ-106954	tissue		tentacle
+Church2025:YPM-IZ-106954	country		Bermuda
+Church2025:YPM-IZ-106958	lat_long_raw		29.195320 N 94.842938 W
+Church2025:YPM-IZ-106958	biosample		SAMN40621311
+Church2025:YPM-IZ-106958	tissue		tentacle
+Church2025:YPM-IZ-106958	country		USA
+Church2025:YPM-IZ-110251	lat_long_raw		25.737060 N 80.152790 W
+Church2025:YPM-IZ-110251	biosample		SAMN40621312
+Church2025:YPM-IZ-110251	tissue		tentacle
+Church2025:YPM-IZ-110251	country		USA
+Church2025:YPM-IZ-110254	lat_long_raw		25.736470 N 80.153500 W
+Church2025:YPM-IZ-110254	biosample		SAMN40621313
+Church2025:YPM-IZ-110254	tissue		tentacle
+Church2025:YPM-IZ-110254	country		USA
+Church2025:YPM-IZ-110264	lat_long_raw		22.069018 N 159.316685 W
+Church2025:YPM-IZ-110264	biosample		SAMN40621314
+Church2025:YPM-IZ-110264	tissue		tentacle
+Church2025:YPM-IZ-110264	country		USA
+Church2025:YPM-IZ-110268	lat_long_raw		22.069018 N 159.316685 W
+Church2025:YPM-IZ-110268	biosample		SAMN40621315
+Church2025:YPM-IZ-110268	tissue		tentacle
+Church2025:YPM-IZ-110268	country		USA
+Church2025:YPM-IZ-110269	lat_long_raw		22.069018 N 159.316685 W
+Church2025:YPM-IZ-110269	biosample		SAMN40621316
+Church2025:YPM-IZ-110269	tissue		tentacle
+Church2025:YPM-IZ-110269	country		USA
+Church2025:YPM-IZ-110276	lat_long_raw		20.9225222 N 156.4926917 W
+Church2025:YPM-IZ-110276	biosample		SAMN40621317
+Church2025:YPM-IZ-110276	tissue		tentacle
+Church2025:YPM-IZ-110276	country		USA
+Church2025:YPM-IZ-110277	lat_long_raw		20.9225222 N 156.4926917 W
+Church2025:YPM-IZ-110277	biosample		SAMN40621318
+Church2025:YPM-IZ-110277	tissue		tentacle
+Church2025:YPM-IZ-110277	country		USA
+Church2025:YPM-IZ-110278	lat_long_raw		20.9225222 N 156.4926917 W
+Church2025:YPM-IZ-110278	biosample		SAMN40621319
+Church2025:YPM-IZ-110278	tissue		tentacle
+Church2025:YPM-IZ-110278	country		USA
+Church2025:YPM-IZ-110433	lat_long_raw		25.741630 N 80.175194 W
+Church2025:YPM-IZ-110433	biosample		SAMN40621320
+Church2025:YPM-IZ-110433	tissue		tentacle
+Church2025:YPM-IZ-110433	country		USA
+Church2025:YPM-IZ-110438	lat_long_raw		28.989194 N 95.237778 W
+Church2025:YPM-IZ-110438	biosample		SAMN40621321
+Church2025:YPM-IZ-110438	tissue		tentacle
+Church2025:YPM-IZ-110438	country		USA
+Church2025:YPM-IZ-110443	lat_long_raw		28.951778 N 95.283167 W
+Church2025:YPM-IZ-110443	biosample		SAMN40621322
+Church2025:YPM-IZ-110443	tissue		tentacle
+Church2025:YPM-IZ-110443	country		USA
+Church2025:YPM-IZ-110460	lat_long_raw		21.400790 N 157.734500 W
+Church2025:YPM-IZ-110460	biosample		SAMN40621323
+Church2025:YPM-IZ-110460	tissue		tentacle
+Church2025:YPM-IZ-110460	country		USA
+Church2025:YPM-IZ-110467	lat_long_raw		41.330278 S 174.831944 E
+Church2025:YPM-IZ-110467	biosample		SAMN40621324
+Church2025:YPM-IZ-110467	tissue		tentacle
+Church2025:YPM-IZ-110467	country		New Zealand
+Church2025:YPM-IZ-110468	lat_long_raw		41.330000 S 174.833056 E
+Church2025:YPM-IZ-110468	biosample		SAMN40621325
+Church2025:YPM-IZ-110468	tissue		tentacle
+Church2025:YPM-IZ-110468	country		New Zealand
+Church2025:YPM-IZ-110469	lat_long_raw		41.330000 S 174.833056 E
+Church2025:YPM-IZ-110469	biosample		SAMN40621326
+Church2025:YPM-IZ-110469	tissue		tentacle
+Church2025:YPM-IZ-110469	country		New Zealand
+Church2025:YPM-IZ-110470	lat_long_raw		41.330000 S 174.833056 E
+Church2025:YPM-IZ-110470	biosample		SAMN40621327
+Church2025:YPM-IZ-110470	tissue		zooid
+Church2025:YPM-IZ-110470	country		New Zealand
+Church2025:YPM-IZ-110471	lat_long_raw		21.400790 N 157.734500 W
+Church2025:YPM-IZ-110471	biosample		SAMN40621328
+Church2025:YPM-IZ-110471	tissue		tentacle
+Church2025:YPM-IZ-110471	country		USA
+Church2025:YPM-IZ-110473	lat_long_raw		21.400790 N 157.734500 W
+Church2025:YPM-IZ-110473	biosample		SAMN40621329
+Church2025:YPM-IZ-110473	tissue		tentacle
+Church2025:YPM-IZ-110473	country		USA
+Church2025:YPM-IZ-110474	lat_long_raw		21.454600 N 157.748500 W
+Church2025:YPM-IZ-110474	biosample		SAMN40621330
+Church2025:YPM-IZ-110474	tissue		tentacle
+Church2025:YPM-IZ-110474	country		USA
+Church2025:YPM-IZ-110480	lat_long_raw		21.454600 N 157.748500 W
+Church2025:YPM-IZ-110480	biosample		SAMN40621331
+Church2025:YPM-IZ-110480	tissue		tentacle
+Church2025:YPM-IZ-110480	country		USA
+Church2025:YPM-IZ-110515	lat_long_raw		33.947500 S 151.257361 E
+Church2025:YPM-IZ-110515	biosample		SAMN40621332
+Church2025:YPM-IZ-110515	tissue		tentacle
+Church2025:YPM-IZ-110515	country		Australia
+Church2025:YPM-IZ-110520	lat_long_raw		33.947500 S 151.257361 E
+Church2025:YPM-IZ-110520	biosample		SAMN40621333
+Church2025:YPM-IZ-110520	tissue		tentacle
+Church2025:YPM-IZ-110520	country		Australia
+Church2025:YPM-IZ-110526	lat_long_raw		33.947500 S 151.257361 E
+Church2025:YPM-IZ-110526	biosample		SAMN40621334
+Church2025:YPM-IZ-110526	tissue		tentacle
+Church2025:YPM-IZ-110526	country		Australia
+Church2025:YPM-IZ-110556	lat_long_raw		41.996839 S 148.284729 E
+Church2025:YPM-IZ-110556	biosample		SAMN40621335
+Church2025:YPM-IZ-110556	tissue		tentacle
+Church2025:YPM-IZ-110556	country		Australia
+Church2025:YPM-IZ-110557	lat_long_raw		41.996839 S 148.284729 E
+Church2025:YPM-IZ-110557	biosample		SAMN40621336
+Church2025:YPM-IZ-110557	tissue		tentacle
+Church2025:YPM-IZ-110557	country		Australia
+Church2025:YPM-IZ-110558	lat_long_raw		41.996839 S 148.284729 E
+Church2025:YPM-IZ-110558	biosample		SAMN40621337
+Church2025:YPM-IZ-110558	tissue		tentacle
+Church2025:YPM-IZ-110558	country		Australia
+Church2025:YPM-IZ-110566	lat_long_raw		13.605463 N 144.907196 E
+Church2025:YPM-IZ-110566	biosample		SAMN40621338
+Church2025:YPM-IZ-110566	tissue		tentacle
+Church2025:YPM-IZ-110566	country		Guam
+Church2025:YPM-IZ-110569	lat_long_raw		13.427664 N 144.801336 E
+Church2025:YPM-IZ-110569	biosample		SAMN40621339
+Church2025:YPM-IZ-110569	tissue		tentacle
+Church2025:YPM-IZ-110569	country		Guam
+Church2025:YPM-IZ-110600	lat_long_raw		13.372435 N 144.773357 E
+Church2025:YPM-IZ-110600	biosample		SAMN40621340
+Church2025:YPM-IZ-110600	tissue		tentacle
+Church2025:YPM-IZ-110600	country		Guam
+Church2025:YPM-IZ-110602	lat_long_raw		13.372435 N 144.773357 E
+Church2025:YPM-IZ-110602	biosample		SAMN40621341
+Church2025:YPM-IZ-110602	tissue		tentacle
+Church2025:YPM-IZ-110602	country		Guam
+Church2025:YPM-IZ-110605	lat_long_raw		28.089089 S 153.453921 E
+Church2025:YPM-IZ-110605	biosample		SAMN40621342
+Church2025:YPM-IZ-110605	tissue		tentacle
+Church2025:YPM-IZ-110605	country		Australia
+Church2025:YPM-IZ-110612	lat_long_raw		30.745087 S 152.995494 E
+Church2025:YPM-IZ-110612	biosample		SAMN40621343
+Church2025:YPM-IZ-110612	tissue		tentacle
+Church2025:YPM-IZ-110612	country		Australia
+Church2025:YPM-IZ-110613	lat_long_raw		30.745087 S 152.995494 E
+Church2025:YPM-IZ-110613	biosample		SAMN40621344
+Church2025:YPM-IZ-110613	tissue		tentacle
+Church2025:YPM-IZ-110613	country		Australia
+Church2025:YPM-IZ-110616	lat_long_raw		30.881192 S 153.035604 E
+Church2025:YPM-IZ-110616	biosample		SAMN40621345
+Church2025:YPM-IZ-110616	tissue		tentacle
+Church2025:YPM-IZ-110616	country		Australia
+Church2025:YPM-IZ-110631	lat_long_raw		41.346250 N 71.678310 W
+Church2025:YPM-IZ-110631	biosample		SAMN40621346
+Church2025:YPM-IZ-110631	tissue		tentacle
+Church2025:YPM-IZ-110631	country		USA
+Church2025:YPM-IZ-110633	lat_long_raw		41.377020 N 71.527820 W
+Church2025:YPM-IZ-110633	biosample		SAMN40621347
+Church2025:YPM-IZ-110633	tissue		tentacle
+Church2025:YPM-IZ-110633	country		USA
+Church2025:YPM-IZ-110667	lat_long_raw		40.857420 N 71.779920 W
+Church2025:YPM-IZ-110667	biosample		SAMN40621348
+Church2025:YPM-IZ-110667	tissue		tentacle
+Church2025:YPM-IZ-110667	country		USA
+Church2025:YPM-IZ-110694	lat_long_raw		41.344990 N 70.836797 W
+Church2025:YPM-IZ-110694	biosample		SAMN40621349
+Church2025:YPM-IZ-110694	tissue		tentacle
+Church2025:YPM-IZ-110694	country		USA
+Church2025:YPM-IZ-110716	lat_long_raw		36.458090 N 6.252680 W
+Church2025:YPM-IZ-110716	biosample		SAMN40621350
+Church2025:YPM-IZ-110716	tissue		tentacle
+Church2025:YPM-IZ-110716	country		Spain
+Church2025:YPM-IZ-110726	lat_long_raw		36.458090 N 6.252680 W
+Church2025:YPM-IZ-110726	biosample		SAMN40621351
+Church2025:YPM-IZ-110726	tissue		tentacle
+Church2025:YPM-IZ-110726	country		Spain
+Church2025:YPM-IZ-110738	lat_long_raw		36.458090 N 6.252680 W
+Church2025:YPM-IZ-110738	biosample		SAMN40621352
+Church2025:YPM-IZ-110738	tissue		tentacle
+Church2025:YPM-IZ-110738	country		Spain
+Church2025:YPM-IZ-110777	lat_long_raw		21.400790 N 157.734500 W
+Church2025:YPM-IZ-110777	biosample		SAMN40621353
+Church2025:YPM-IZ-110777	tissue		tentacle
+Church2025:YPM-IZ-110777	country		USA
+Church2025:YPM-IZ-110780	lat_long_raw		21.400790 N 157.734500 W
+Church2025:YPM-IZ-110780	biosample		SAMN40621354
+Church2025:YPM-IZ-110780	tissue		tentacle
+Church2025:YPM-IZ-110780	country		USA
+Church2025:YPM-IZ-110785	lat_long_raw		21.400790 N 157.734500 W
+Church2025:YPM-IZ-110785	biosample		SAMN40621355
+Church2025:YPM-IZ-110785	tissue		tentacle
+Church2025:YPM-IZ-110785	country		USA
+Church2025:YPM-IZ-110786	lat_long_raw		21.400790 N 157.734500 W
+Church2025:YPM-IZ-110786	biosample		SAMN40621356
+Church2025:YPM-IZ-110786	tissue		tentacle
+Church2025:YPM-IZ-110786	country		USA
+Church2025:YPM-IZ-110828	lat_long_raw		29.972700 S 71.360900 W
+Church2025:YPM-IZ-110828	biosample		SAMN40621357
+Church2025:YPM-IZ-110828	tissue		tentacle
+Church2025:YPM-IZ-110828	country		Chile
+Church2025:YPM-IZ-110829	lat_long_raw		29.972700 S 71.360900 W
+Church2025:YPM-IZ-110829	biosample		SAMN40621358
+Church2025:YPM-IZ-110829	tissue		tentacle
+Church2025:YPM-IZ-110829	country		Chile
+Church2025:YPM-IZ-110830	lat_long_raw		33.751600 S 53.380100 W
+Church2025:YPM-IZ-110830	biosample		SAMN40621359
+Church2025:YPM-IZ-110830	tissue		tentacle
+Church2025:YPM-IZ-110830	country		Uruguay
+Church2025:YPM-IZ-110842	lat_long_raw		38.524769 N 28.625946 W
+Church2025:YPM-IZ-110842	biosample		SAMN40621360
+Church2025:YPM-IZ-110842	tissue		tentacle
+Church2025:YPM-IZ-110842	country		Portugal
+Church2025:YPM-IZ-110843	lat_long_raw		37.818604 N 25.543635 W
+Church2025:YPM-IZ-110843	biosample		SAMN40621361
+Church2025:YPM-IZ-110843	tissue		tentacle
+Church2025:YPM-IZ-110843	country		Portugal
+Church2025:YPM-IZ-110844	lat_long_raw		38.524769 N 28.625946 W
+Church2025:YPM-IZ-110844	biosample		SAMN40621362
+Church2025:YPM-IZ-110844	tissue		tentacle
+Church2025:YPM-IZ-110844	country		Portugal
+Church2025:YPM-IZ-110845	lat_long_raw		37.750488 N 25.624447 W
+Church2025:YPM-IZ-110845	biosample		SAMN40621363
+Church2025:YPM-IZ-110845	tissue		tentacle
+Church2025:YPM-IZ-110845	country		Portugal
+Church2025:YPM-IZ-110846	lat_long_raw		38.523756 N 28.623767 W
+Church2025:YPM-IZ-110846	biosample		SAMN40621364
+Church2025:YPM-IZ-110846	tissue		tentacle
+Church2025:YPM-IZ-110846	country		Portugal
+Church2025:YPM-IZ-110847	lat_long_raw		38.542865 N 28.618676 W
+Church2025:YPM-IZ-110847	biosample		SAMN40621365
+Church2025:YPM-IZ-110847	tissue		tentacle
+Church2025:YPM-IZ-110847	country		Portugal
+Church2025:YPM-IZ-110876	lat_long_raw		29.260000 N 94.840000 W
+Church2025:YPM-IZ-110876	biosample		SAMN40621366
+Church2025:YPM-IZ-110876	tissue		tentacle
+Church2025:YPM-IZ-110876	country		USA
+Church2025:YPM-IZ-110877	lat_long_raw		27.245000 N 111.500000 W
+Church2025:YPM-IZ-110877	biosample		SAMN40621367
+Church2025:YPM-IZ-110877	tissue		tentacle
+Church2025:YPM-IZ-110877	country		Mexico
+Church2025:YPM-IZ-110878	lat_long_raw		27.326667 N 111.480000 W
+Church2025:YPM-IZ-110878	biosample		SAMN40621368
+Church2025:YPM-IZ-110878	tissue		tentacle
+Church2025:YPM-IZ-110878	country		Mexico
+Church2025:YPM-IZ-110880	lat_long_raw		41.149290 N 71.481140 W
+Church2025:YPM-IZ-110880	biosample		SAMN40621369
+Church2025:YPM-IZ-110880	tissue		tentacle
+Church2025:YPM-IZ-110880	country		USA
+Church2025:YPM-IZ-110881	lat_long_raw		19.666667 N 156.083333 W
+Church2025:YPM-IZ-110881	biosample		SAMN40621370
+Church2025:YPM-IZ-110881	tissue		whole body
+Church2025:YPM-IZ-110881	life_stage		juvenile
+Church2025:YPM-IZ-110881	country		USA
+Church2025:YPM-IZ-110882	lat_long_raw		19.666667 N 156.083333 W
+Church2025:YPM-IZ-110882	biosample		SAMN40621371
+Church2025:YPM-IZ-110882	tissue		whole body
+Church2025:YPM-IZ-110882	life_stage		juvenile
+Church2025:YPM-IZ-110882	country		USA
+Church2025:YPM-IZ-110883	lat_long_raw		19.666667 N 156.083333 W
+Church2025:YPM-IZ-110883	biosample		SAMN40621372
+Church2025:YPM-IZ-110883	tissue		whole body
+Church2025:YPM-IZ-110883	life_stage		juvenile
+Church2025:YPM-IZ-110883	country		USA
+Church2025:YPM-IZ-110906	lat_long_raw		26.723056 N 164.766667 W
+Church2025:YPM-IZ-110906	biosample		SAMN40621373
+Church2025:YPM-IZ-110906	tissue		zooid
+Church2025:YPM-IZ-110906	life_stage		juvenile
+Church2025:YPM-IZ-110907	lat_long_raw		26.080000 N 176.470000 W
+Church2025:YPM-IZ-110907	biosample		SAMN40621374
+Church2025:YPM-IZ-110907	tissue		zooid
+Church2025:YPM-IZ-110907	life_stage		juvenile
+Church2025:YPM-IZ-110925	lat_long_raw		28.404780 N 129.454826 E
+Church2025:YPM-IZ-110925	biosample		SAMN40621375
+Church2025:YPM-IZ-110925	tissue		tentacle
+Church2025:YPM-IZ-110925	country		Japan
+Church2025:YPM-IZ-110926	lat_long_raw		35.309561 N 139.478820 E
+Church2025:YPM-IZ-110926	biosample		SAMN40621376
+Church2025:YPM-IZ-110926	tissue		tentacle
+Church2025:YPM-IZ-110926	country		Japan
+Church2025:YPM-IZ-110930	lat_long_raw		35.309561 N 139.478820 E
+Church2025:YPM-IZ-110930	biosample		SAMN40621377
+Church2025:YPM-IZ-110930	tissue		tentacle
+Church2025:YPM-IZ-110930	country		Japan
+Church2025:YPM-IZ-110931	lat_long_raw		35.309561 N 139.478820 E
+Church2025:YPM-IZ-110931	biosample		SAMN40621378
+Church2025:YPM-IZ-110931	tissue		tentacle
+Church2025:YPM-IZ-110931	country		Japan
+Church2025:YPM-IZ-110933	lat_long_raw		35.309701 N 139.478831 E
+Church2025:YPM-IZ-110933	biosample		SAMN40621379
+Church2025:YPM-IZ-110933	tissue		tentacle
+Church2025:YPM-IZ-110933	country		Japan
+Church2025:YPM-IZ-110937	lat_long_raw		35.309561 N 139.478820 E
+Church2025:YPM-IZ-110937	biosample		SAMN40621380
+Church2025:YPM-IZ-110937	tissue		tentacle
+Church2025:YPM-IZ-110937	country		Japan
+Church2025:YPM-IZ-110938	lat_long_raw		35.309701 N 139.478831 E
+Church2025:YPM-IZ-110938	biosample		SAMN40621381
+Church2025:YPM-IZ-110938	tissue		tentacle
+Church2025:YPM-IZ-110938	country		Japan
+Church2025:YPM-IZ-110943	lat_long_raw		35.134935 N 140.284606 E
+Church2025:YPM-IZ-110943	biosample		SAMN40621382
+Church2025:YPM-IZ-110943	tissue		tentacle
+Church2025:YPM-IZ-110943	country		Japan
+Church2025:YPM-IZ-110972	lat_long_raw		51.83707 N 10.19556 W
+Church2025:YPM-IZ-110972	biosample		SAMN40621383
+Church2025:YPM-IZ-110972	tissue		tentacle
+Church2025:YPM-IZ-110972	country		Ireland
+Church2025:YPM-IZ-111006	lat_long_raw		27.539919 S 32.678650 E
+Church2025:YPM-IZ-111006	biosample		SAMN40621384
+Church2025:YPM-IZ-111006	tissue		tentacle
+Church2025:YPM-IZ-111006	country		South Africa
+Church2025:YPM-IZ-111007	lat_long_raw		27.539919 S 32.678650 E
+Church2025:YPM-IZ-111007	biosample		SAMN40621385
+Church2025:YPM-IZ-111007	tissue		tentacle
+Church2025:YPM-IZ-111007	country		South Africa
+Church2025:YPM-IZ-111008	lat_long_raw		27.539919 S 32.678650 E
+Church2025:YPM-IZ-111008	biosample		SAMN40621386
+Church2025:YPM-IZ-111008	tissue		tentacle
+Church2025:YPM-IZ-111008	country		South Africa
+Church2025:YPM-IZ-111009	lat_long_raw		27.539919 S 32.678650 E
+Church2025:YPM-IZ-111009	biosample		SAMN40621387
+Church2025:YPM-IZ-111009	tissue		tentacle
+Church2025:YPM-IZ-111009	country		South Africa
+Church2025:YPM-IZ-111010	lat_long_raw		27.539919 S 32.678650 E
+Church2025:YPM-IZ-111010	biosample		SAMN40621388
+Church2025:YPM-IZ-111010	tissue		tentacle
+Church2025:YPM-IZ-111010	country		South Africa
+Church2025:YPM-IZ-111012	biosample		SAMN40621389
+Church2025:YPM-IZ-111012	tissue		tentacle
+Church2025:YPM-IZ-111012	country		Bermuda
+Church2025:YPM-IZ-111013	biosample		SAMN40621390
+Church2025:YPM-IZ-111013	tissue		tentacle
+Church2025:YPM-IZ-111013	country		Bermuda
+Church2025:YPM-IZ-111014	biosample		SAMN40621391
+Church2025:YPM-IZ-111014	tissue		tentacle
+Church2025:YPM-IZ-111014	country		Bermuda
+Church2025:YPM-IZ-111016	biosample		SAMN40621392
+Church2025:YPM-IZ-111016	tissue		tentacle
+Church2025:YPM-IZ-111016	country		Bermuda
+Church2025:YPM-IZ-111017	biosample		SAMN40621393
+Church2025:YPM-IZ-111017	tissue		tentacle
+Church2025:YPM-IZ-111017	country		Bermuda
+Church2025:YPM-IZ-111018	biosample		SAMN40621394
+Church2025:YPM-IZ-111018	tissue		tentacle
+Church2025:YPM-IZ-111018	country		Bermuda
+Church2025:YPM-IZ-111156	lat_long_raw		35.747000 S 154.330000 E
+Church2025:YPM-IZ-111156	biosample		SAMN41900818
+Church2025:YPM-IZ-111156	tissue		tentacle
+Church2025:YPM-IZ-111157	lat_long_raw		35.747000 S 154.330000 E
+Church2025:YPM-IZ-111157	biosample		SAMN41900819
+Church2025:YPM-IZ-111157	tissue		tentacle
+Church2025:YPM-IZ-111158	lat_long_raw		35.747000 S 154.330000 E
+Church2025:YPM-IZ-111158	biosample		SAMN41900820
+Church2025:YPM-IZ-111158	tissue		tentacle
+Church2025:YPM-IZ-111159	lat_long_raw		35.747000 S 154.330000 E
+Church2025:YPM-IZ-111159	biosample		SAMN41900821
+Church2025:YPM-IZ-111159	tissue		tentacle
+Church2025:YPM-IZ-111160	lat_long_raw		35.747000 S 154.330000 E
+Church2025:YPM-IZ-111160	biosample		SAMN41900822
+Church2025:YPM-IZ-111160	tissue		tentacle
+Church2025:YPM-IZ-111163	lat_long_raw		33.947500 S 151.257361 E
+Church2025:YPM-IZ-111163	biosample		SAMN41900823
+Church2025:YPM-IZ-111163	tissue		tentacle
+Church2025:YPM-IZ-111163	country		Australia
+Church2025:YPM-IZ-111207	lat_long_raw		36.895150 S 174.443889 E
+Church2025:YPM-IZ-111207	biosample		SAMN41900824
+Church2025:YPM-IZ-111207	tissue		tentacle
+Church2025:YPM-IZ-111207	country		New Zealand
+Church2025:YPM-IZ-111208	lat_long_raw		36.895150 S 174.443889 E
+Church2025:YPM-IZ-111208	biosample		SAMN41900825
+Church2025:YPM-IZ-111208	tissue		tentacle
+Church2025:YPM-IZ-111208	country		New Zealand
+Church2025:YPM-IZ-111209	lat_long_raw		36.895150 S 174.443889 E
+Church2025:YPM-IZ-111209	biosample		SAMN41900826
+Church2025:YPM-IZ-111209	tissue		tentacle
+Church2025:YPM-IZ-111209	country		New Zealand
+Church2025:YPM-IZ-111210	lat_long_raw		36.895150 S 174.443889 E
+Church2025:YPM-IZ-111210	biosample		SAMN41900827
+Church2025:YPM-IZ-111210	tissue		tentacle
+Church2025:YPM-IZ-111210	country		New Zealand
+Ahuja2024:CWD1	latitude		37.43
+Ahuja2024:CWD1	longitude		-72.68
+Ahuja2024:CWD1	depth_m		10
+Ahuja2024:CWD1	depth_original		10 meters
+Ahuja2024:CWD1	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P15 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803028
+Ahuja2024:CWD1	biosample		SAMN32803028
+Ahuja2024:CWD1	tissue		siphosome
+Ahuja2024:CWD1	specimen_voucher		YPM:IZ:35024
+Ahuja2024:CWD101	latitude		36.23
+Ahuja2024:CWD101	longitude		-122.77
+Ahuja2024:CWD101	depth_m		387
+Ahuja2024:CWD101	depth_original		387 meters
+Ahuja2024:CWD101	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P20 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803033
+Ahuja2024:CWD101	biosample		SAMN32803033
+Ahuja2024:CWD101	tissue		siphosome
+Ahuja2024:CWD101	specimen_voucher		YPM:IZ:35090
+Ahuja2024:CWD104	latitude		36.22
+Ahuja2024:CWD104	longitude		-123.77
+Ahuja2024:CWD104	depth_m		877
+Ahuja2024:CWD104	depth_original		877 meters
+Ahuja2024:CWD104	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P21 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803034
+Ahuja2024:CWD104	biosample		SAMN32803034
+Ahuja2024:CWD104	tissue		siphosome
+Ahuja2024:CWD11	latitude		40.31
+Ahuja2024:CWD11	longitude		-68.13
+Ahuja2024:CWD11	depth_m		800
+Ahuja2024:CWD11	depth_original		800 meters
+Ahuja2024:CWD11	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P48 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803061
+Ahuja2024:CWD11	biosample		SAMN32803061
+Ahuja2024:CWD11	tissue		siphosome
+Ahuja2024:CWD11	specimen_voucher		YPM:IZ:35076
+Ahuja2024:CWD116	latitude		36.22
+Ahuja2024:CWD116	longitude		-123.77
+Ahuja2024:CWD116	depth_m		10
+Ahuja2024:CWD116	depth_original		10 meters
+Ahuja2024:CWD116	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P17 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803030
+Ahuja2024:CWD116	biosample		SAMN32803030
+Ahuja2024:CWD116	tissue		siphosome
+Ahuja2024:CWD117	latitude		39.7
+Ahuja2024:CWD117	longitude		-70.92
+Ahuja2024:CWD117	depth_m		10
+Ahuja2024:CWD117	depth_original		10 meters
+Ahuja2024:CWD117	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P34 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803047
+Ahuja2024:CWD117	biosample		SAMN32803047
+Ahuja2024:CWD117	tissue		siphosome
+Ahuja2024:CWD117	specimen_voucher		YPM:IZ:35045
+Ahuja2024:CWD12	latitude		43.68
+Ahuja2024:CWD12	longitude		7.33
+Ahuja2024:CWD12	depth_m		10
+Ahuja2024:CWD12	depth_original		10 meters
+Ahuja2024:CWD12	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P32 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803045
+Ahuja2024:CWD12	biosample		SAMN32803045
+Ahuja2024:CWD12	tissue		siphosome
+Ahuja2024:CWD12	specimen_voucher		YPM:IZ:35038
+Ahuja2024:CWD121	latitude		39.75
+Ahuja2024:CWD121	longitude		-70.87
+Ahuja2024:CWD121	depth_m		10
+Ahuja2024:CWD121	depth_original		10 meters
+Ahuja2024:CWD121	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P14 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803027
+Ahuja2024:CWD121	biosample		SAMN32803027
+Ahuja2024:CWD121	tissue		siphosome
+Ahuja2024:CWD121	specimen_voucher		YPM:IZ:35350
+Ahuja2024:CWD122	latitude		39.7
+Ahuja2024:CWD122	longitude		-70.9
+Ahuja2024:CWD122	depth_m		10
+Ahuja2024:CWD122	depth_original		10 meters
+Ahuja2024:CWD122	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P23 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803036
+Ahuja2024:CWD122	biosample		SAMN32803036
+Ahuja2024:CWD122	tissue		siphosome
+Ahuja2024:CWD122	specimen_voucher		YPM:IZ:35049
+Ahuja2024:CWD131	latitude		24.32
+Ahuja2024:CWD131	longitude		-109.2
+Ahuja2024:CWD131	depth_m		10
+Ahuja2024:CWD131	depth_original		10 meters
+Ahuja2024:CWD131	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P44 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803057
+Ahuja2024:CWD131	biosample		SAMN32803057
+Ahuja2024:CWD131	tissue		siphosome
+Ahuja2024:CWD131	specimen_voucher		YPM:IZ:35355
+Ahuja2024:CWD141	latitude		24.31
+Ahuja2024:CWD141	longitude		-109.2
+Ahuja2024:CWD141	depth_m		1349
+Ahuja2024:CWD141	depth_original		1349 meters
+Ahuja2024:CWD141	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P47 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803060
+Ahuja2024:CWD141	biosample		SAMN32803060
+Ahuja2024:CWD141	tissue		siphosome
+Ahuja2024:CWD141	specimen_voucher		YPM:IZ:35358
+Ahuja2024:CWD144	latitude		36.7
+Ahuja2024:CWD144	longitude		-122.04
+Ahuja2024:CWD144	depth_m		420
+Ahuja2024:CWD144	depth_original		420 meters
+Ahuja2024:CWD144	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P31 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803044
+Ahuja2024:CWD144	biosample		SAMN32803044
+Ahuja2024:CWD144	tissue		siphosome
+Ahuja2024:CWD144	specimen_voucher		YPM:IZ:35360
+Ahuja2024:CWD146	latitude		24.32
+Ahuja2024:CWD146	longitude		-109.2
+Ahuja2024:CWD146	depth_m		910
+Ahuja2024:CWD146	depth_original		910 meters
+Ahuja2024:CWD146	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P28 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803041
+Ahuja2024:CWD146	biosample		SAMN32803041
+Ahuja2024:CWD146	tissue		siphosome
+Ahuja2024:CWD146	specimen_voucher		YPM:IZ:35362
+Ahuja2024:CWD16	ocean_region		NW Atlantic
+Ahuja2024:CWD16	latitude		37.45
+Ahuja2024:CWD16	longitude		-74.016667
+Ahuja2024:CWD16	depth_m		10
+Ahuja2024:CWD16	depth_min_m		0
+Ahuja2024:CWD16	depth_max_m		20
+Ahuja2024:CWD16	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P37 | data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I2 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803050
+Ahuja2024:CWD16	biosample		SAMN32803050
+Ahuja2024:CWD16	tissue		siphosome
+Ahuja2024:CWD16	specimen_voucher		YPM:IZ:35039
+Ahuja2024:CWD17	latitude		38.85
+Ahuja2024:CWD17	longitude		-72.45
+Ahuja2024:CWD17	depth_m		10
+Ahuja2024:CWD17	depth_original		10 meters
+Ahuja2024:CWD17	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P33 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803046
+Ahuja2024:CWD17	biosample		SAMN32803046
+Ahuja2024:CWD17	tissue		siphosome
+Ahuja2024:CWD17	specimen_voucher		YPM:IZ:35040
+Ahuja2024:CWD19	latitude		36.71
+Ahuja2024:CWD19	longitude		-122.05
+Ahuja2024:CWD19	depth_m		298
+Ahuja2024:CWD19	depth_original		298 meters
+Ahuja2024:CWD19	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P41 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803054
+Ahuja2024:CWD19	biosample		SAMN32803054
+Ahuja2024:CWD19	tissue		siphosome
+Ahuja2024:CWD19	specimen_voucher		YPM:IZ:35346
+Ahuja2024:CWD2	latitude		37.63
+Ahuja2024:CWD2	longitude		-73.45
+Ahuja2024:CWD2	depth_m		10
+Ahuja2024:CWD2	depth_original		10 meters
+Ahuja2024:CWD2	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P16 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803029
+Ahuja2024:CWD2	biosample		SAMN32803029
+Ahuja2024:CWD2	tissue		siphosome
+Ahuja2024:CWD2	specimen_voucher		YPM:IZ:35029
+Ahuja2024:CWD20	latitude		40.31
+Ahuja2024:CWD20	longitude		-68.14
+Ahuja2024:CWD20	depth_m		10
+Ahuja2024:CWD20	depth_original		10 meters
+Ahuja2024:CWD20	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P45 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803058
+Ahuja2024:CWD20	biosample		SAMN32803058
+Ahuja2024:CWD20	tissue		siphosome
+Ahuja2024:CWD20	specimen_voucher		YPM:IZ:35347
+Ahuja2024:CWD21	latitude		38.9
+Ahuja2024:CWD21	longitude		-70.27
+Ahuja2024:CWD21	depth_m		10
+Ahuja2024:CWD21	depth_original		10 meters
+Ahuja2024:CWD21	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P46 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803059
+Ahuja2024:CWD21	biosample		SAMN32803059
+Ahuja2024:CWD21	tissue		siphosome
+Ahuja2024:CWD21	specimen_voucher		YPM:IZ:35041
+Ahuja2024:CWD3	latitude		38.17
+Ahuja2024:CWD3	longitude		-72.98
+Ahuja2024:CWD3	depth_m		10
+Ahuja2024:CWD3	depth_original		10 meters
+Ahuja2024:CWD3	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P18 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803031
+Ahuja2024:CWD3	biosample		SAMN32803031
+Ahuja2024:CWD3	tissue		siphosome
+Ahuja2024:CWD3	specimen_voucher		YPM:IZ:35030
+Ahuja2024:CWD6	latitude		37.68
+Ahuja2024:CWD6	longitude		-73.13
+Ahuja2024:CWD6	depth_m		10
+Ahuja2024:CWD6	depth_original		10 meters
+Ahuja2024:CWD6	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P25 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803038
+Ahuja2024:CWD6	biosample		SAMN32803038
+Ahuja2024:CWD6	tissue		siphosome
+Ahuja2024:CWD6	specimen_voucher		YPM:IZ:35032
+Ahuja2024:CWD7	latitude		36.98
+Ahuja2024:CWD7	longitude		-73.85
+Ahuja2024:CWD7	depth_m		10
+Ahuja2024:CWD7	depth_original		10 meters
+Ahuja2024:CWD7	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P27 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803040
+Ahuja2024:CWD7	biosample		SAMN32803040
+Ahuja2024:CWD7	tissue		siphosome
+Ahuja2024:CWD7	specimen_voucher		YPM:IZ:35033
+Ahuja2024:NA1	latitude		36.224784
+Ahuja2024:NA1	longitude		-123.14242
+Ahuja2024:NA1	depth_m		964
+Ahuja2024:NA1	depth_original		964 meters
+Ahuja2024:NA1	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P24 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803037
+Ahuja2024:NA1	biosample		SAMN32803037
+Ahuja2024:NA1	tissue		siphosome
+Ahuja2024:NA1	specimen_voucher		YPM:IZ:110225
+Ahuja2024:NA10	latitude		35.648785
+Ahuja2024:NA10	longitude		-122.737913
+Ahuja2024:NA10	depth_m		286.25
+Ahuja2024:NA10	depth_original		286.25 meters
+Ahuja2024:NA10	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P42 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803055
+Ahuja2024:NA10	biosample		SAMN32803055
+Ahuja2024:NA10	tissue		siphosome
+Ahuja2024:NA11	latitude		36.699
+Ahuja2024:NA11	longitude		-122.0578
+Ahuja2024:NA11	depth_m		235
+Ahuja2024:NA11	depth_original		235 meters
+Ahuja2024:NA11	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P43 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803056
+Ahuja2024:NA11	biosample		SAMN32803056
+Ahuja2024:NA11	tissue		siphosome
+Ahuja2024:NA2	latitude		36.698
+Ahuja2024:NA2	longitude		-122.0716
+Ahuja2024:NA2	depth_m		600
+Ahuja2024:NA2	depth_original		600 meters
+Ahuja2024:NA2	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P39 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803052
+Ahuja2024:NA2	biosample		SAMN32803052
+Ahuja2024:NA2	tissue		siphosome
+Ahuja2024:NA3	latitude		36.697
+Ahuja2024:NA3	longitude		-122.0724
+Ahuja2024:NA3	depth_m		349
+Ahuja2024:NA3	depth_original		349 meters
+Ahuja2024:NA3	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P29 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803042
+Ahuja2024:NA3	biosample		SAMN32803042
+Ahuja2024:NA3	tissue		siphosome
+Ahuja2024:NA4	latitude		36.2235
+Ahuja2024:NA4	longitude		-123.143176
+Ahuja2024:NA4	depth_m		249
+Ahuja2024:NA4	depth_original		249 meters
+Ahuja2024:NA4	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P40 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803053
+Ahuja2024:NA4	biosample		SAMN32803053
+Ahuja2024:NA4	tissue		siphosome
+Ahuja2024:NA5	latitude		36.698
+Ahuja2024:NA5	longitude		-122.0719
+Ahuja2024:NA5	depth_m		556
+Ahuja2024:NA5	depth_original		556 meters
+Ahuja2024:NA5	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P19 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803032
+Ahuja2024:NA5	biosample		SAMN32803032
+Ahuja2024:NA5	tissue		siphosome
+Ahuja2024:NA6	latitude		36.6844
+Ahuja2024:NA6	longitude		-122.072
+Ahuja2024:NA6	depth_m		467
+Ahuja2024:NA6	depth_original		467 meters
+Ahuja2024:NA6	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P26 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803039
+Ahuja2024:NA6	biosample		SAMN32803039
+Ahuja2024:NA6	tissue		siphosome
+Ahuja2024:NA7	latitude		36.6842
+Ahuja2024:NA7	longitude		-122.0727
+Ahuja2024:NA7	depth_m		417
+Ahuja2024:NA7	depth_original		417 meters
+Ahuja2024:NA7	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P35 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803048
+Ahuja2024:NA7	biosample		SAMN32803048
+Ahuja2024:NA7	tissue		siphosome
+Ahuja2024:NA8	latitude		36.225
+Ahuja2024:NA8	longitude		-123.1424
+Ahuja2024:NA8	depth_m		1299
+Ahuja2024:NA8	depth_original		1299 meters
+Ahuja2024:NA8	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P22 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803035
+Ahuja2024:NA8	biosample		SAMN32803035
+Ahuja2024:NA8	tissue		siphosome
+Ahuja2024:NA8	specimen_voucher		YPM:IZ:110226
+Ahuja2024:NA9	latitude		36.6996
+Ahuja2024:NA9	longitude		-122.0999
+Ahuja2024:NA9	depth_m		420
+Ahuja2024:NA9	depth_original		420 meters
+Ahuja2024:NA9	collection_depth_source		data/sources/Ahuja2024_Supplementary_Table_1.xlsx#Invertebrate.1.0!P30 | https://www.ncbi.nlm.nih.gov/biosample/SAMN32803043
+Ahuja2024:NA9	biosample		SAMN32803043
+Ahuja2024:NA9	tissue		siphosome
+Ahuja2026:NA19	biosample		SAMN32803049
+Ahuja2026:NA19	tissue		siphosome
+Ahuja2026:NA19	specimen_voucher		YPM:IZ:111744
+Ahuja2026:NA28	depth_min_m		0
+Ahuja2026:NA28	depth_max_m		20
+Ahuja2026:NA28	depth_original		0-20 m
+Ahuja2026:NA28	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I13 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043655
+Ahuja2026:NA28	biosample		SAMN48043655
+Ahuja2026:NA28	tissue		siphosome
+Ahuja2026:NA28	specimen_voucher		YPM:IZ:110451
+Ahuja2026:NA29	depth_min_m		0
+Ahuja2026:NA29	depth_max_m		20
+Ahuja2026:NA29	depth_original		0-20 m
+Ahuja2026:NA29	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I12 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043654
+Ahuja2026:NA29	biosample		SAMN48043654
+Ahuja2026:NA29	tissue		siphosome
+Ahuja2026:NA29	specimen_voucher		YPM:IZ:111733
+Ahuja2026:NA30	depth_min_m		0
+Ahuja2026:NA30	depth_max_m		20
+Ahuja2026:NA30	depth_original		0-20 m
+Ahuja2026:NA30	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I17 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043659
+Ahuja2026:NA30	biosample		SAMN48043659
+Ahuja2026:NA30	tissue		siphosome
+Ahuja2026:NA30	specimen_voucher		YPM:IZ:111732
+Ahuja2026:NA31	depth_min_m		0
+Ahuja2026:NA31	depth_max_m		20
+Ahuja2026:NA31	depth_original		0-20 m
+Ahuja2026:NA31	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I9 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043651
+Ahuja2026:NA31	biosample		SAMN48043651
+Ahuja2026:NA31	tissue		siphosome
+Ahuja2026:NA31	specimen_voucher		YPM:IZ:111742
+Ahuja2026:NA32	depth_min_m		0
+Ahuja2026:NA32	depth_max_m		20
+Ahuja2026:NA32	depth_original		0-20 m
+Ahuja2026:NA32	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I10 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043652
+Ahuja2026:NA32	biosample		SAMN48043652
+Ahuja2026:NA32	tissue		siphosome
+Ahuja2026:NA32	specimen_voucher		YPM:IZ:111740
+Ahuja2026:NA33	depth_min_m		0
+Ahuja2026:NA33	depth_max_m		20
+Ahuja2026:NA33	depth_original		0-20 m
+Ahuja2026:NA33	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I11 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043653
+Ahuja2026:NA33	biosample		SAMN48043653
+Ahuja2026:NA33	tissue		siphosome
+Ahuja2026:NA33	specimen_voucher		YPM:IZ:111741
+Ahuja2026:NA34	depth_min_m		0
+Ahuja2026:NA34	depth_max_m		20
+Ahuja2026:NA34	depth_original		0-20 m
+Ahuja2026:NA34	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I18 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043660
+Ahuja2026:NA34	biosample		SAMN48043660
+Ahuja2026:NA34	tissue		siphosome
+Ahuja2026:NA34	country		USA
+Ahuja2026:NA34	specimen_voucher		YPM:IZ:111164
+Ahuja2026:NA35	depth_min_m		0
+Ahuja2026:NA35	depth_max_m		20
+Ahuja2026:NA35	depth_original		0-20 m
+Ahuja2026:NA35	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I19 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043661
+Ahuja2026:NA35	biosample		SAMN48043661
+Ahuja2026:NA35	tissue		siphosome
+Ahuja2026:NA35	country		USA
+Ahuja2026:NA35	specimen_voucher		YPM:IZ:111165
+Ahuja2026:NA36	depth_min_m		0
+Ahuja2026:NA36	depth_max_m		20
+Ahuja2026:NA36	depth_original		0-20 m
+Ahuja2026:NA36	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I20 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043662
+Ahuja2026:NA36	biosample		SAMN48043662
+Ahuja2026:NA36	tissue		siphosome
+Ahuja2026:NA36	country		USA
+Ahuja2026:NA36	specimen_voucher		YPM:IZ:111166
+Ahuja2026:NA37	depth_min_m		0
+Ahuja2026:NA37	depth_max_m		20
+Ahuja2026:NA37	depth_original		0-20 m
+Ahuja2026:NA37	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I21 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043663
+Ahuja2026:NA37	biosample		SAMN48043663
+Ahuja2026:NA37	tissue		siphosome
+Ahuja2026:NA37	specimen_voucher		YPM:IZ:111590
+Ahuja2026:NA38	depth_min_m		0
+Ahuja2026:NA38	depth_max_m		20
+Ahuja2026:NA38	depth_original		0-20 m
+Ahuja2026:NA38	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I22 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043664
+Ahuja2026:NA38	biosample		SAMN48043664
+Ahuja2026:NA38	tissue		siphosome
+Ahuja2026:NA38	specimen_voucher		YPM:IZ:111591
+Ahuja2026:WS10	depth_m		217
+Ahuja2026:WS10	depth_original		217
+Ahuja2026:WS10	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I8 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043650
+Ahuja2026:WS10	biosample		SAMN48043650
+Ahuja2026:WS10	tissue		siphosome
+Ahuja2026:WS10	specimen_voucher		YPM:IZ:111745
+Ahuja2026:WS2	depth_min_m		0
+Ahuja2026:WS2	depth_max_m		20
+Ahuja2026:WS2	depth_original		0-20 m
+Ahuja2026:WS2	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I14 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043656
+Ahuja2026:WS2	biosample		SAMN48043656
+Ahuja2026:WS2	tissue		siphosome
+Ahuja2026:WS2	specimen_voucher		YPM:IZ:110216
+Ahuja2026:WS3	depth_min_m		0
+Ahuja2026:WS3	depth_max_m		20
+Ahuja2026:WS3	depth_original		0-20 m
+Ahuja2026:WS3	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I15 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043657
+Ahuja2026:WS3	biosample		SAMN48043657
+Ahuja2026:WS3	tissue		siphosome
+Ahuja2026:WS3	specimen_voucher		YPM:IZ:111734
+Ahuja2026:WS4	depth_min_m		0
+Ahuja2026:WS4	depth_max_m		20
+Ahuja2026:WS4	depth_original		0-20 m
+Ahuja2026:WS4	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I16 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043658
+Ahuja2026:WS4	biosample		SAMN48043658
+Ahuja2026:WS4	tissue		siphosome
+Ahuja2026:WS4	specimen_voucher		YPM:IZ:111735
+Ahuja2026:WS5	depth_original		2854.16
+Ahuja2026:WS5	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I3 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043645
+Ahuja2026:WS5	biosample		SAMN48043645
+Ahuja2026:WS5	tissue		siphosome
+Ahuja2026:WS5	specimen_voucher		YPM:IZ:111736
+Ahuja2026:WS6	depth_original		2563.33
+Ahuja2026:WS6	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I4 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043646
+Ahuja2026:WS6	biosample		SAMN48043646
+Ahuja2026:WS6	tissue		siphosome
+Ahuja2026:WS6	specimen_voucher		YPM:IZ:111737
+Ahuja2026:WS7	depth_m		662.29
+Ahuja2026:WS7	depth_original		662.29
+Ahuja2026:WS7	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I5 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043647
+Ahuja2026:WS7	biosample		SAMN48043647
+Ahuja2026:WS7	tissue		siphosome
+Ahuja2026:WS7	specimen_voucher		YPM:IZ:111738
+Ahuja2026:WS8	depth_m		559.83
+Ahuja2026:WS8	depth_original		559.83
+Ahuja2026:WS8	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I6 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043648
+Ahuja2026:WS8	biosample		SAMN48043648
+Ahuja2026:WS8	tissue		siphosome
+Ahuja2026:WS8	specimen_voucher		YPM:IZ:111739
+Ahuja2026:WS9	depth_m		309
+Ahuja2026:WS9	depth_original		309
+Ahuja2026:WS9	collection_depth_source		data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx#Sheet1!I7 | https://www.ncbi.nlm.nih.gov/biosample/SAMN48043649
+Ahuja2026:WS9	biosample		SAMN48043649
+Ahuja2026:WS9	tissue		siphosome
+Ahuja2026:WS9	specimen_voucher		YPM:IZ:107008

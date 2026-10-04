@@ -17,6 +17,8 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from merge_sample_metadata import ADDITIONAL_FIELDS, apply_updates, read_candidates
+
 REPO = Path(__file__).resolve().parent.parent
 SRC = REPO / "data" / "sources"
 META = REPO / "data" / "metadata"
@@ -33,7 +35,7 @@ COLS = [
     "collection_date", "depth_m", "sra_run", "bioproject",
     "sequencing_batches", "raw_path_mccleary", "r1_paths", "r2_paths",
     "n_lanes", "read_pairs", "depth_source", "include_primary",
-    "exclusion_reason", "notes",
+    "exclusion_reason", "notes", *ADDITIONAL_FIELDS,
 ]
 RAW_COLS = [
     "library_id", "read_pair_id", "sequencing_batch", "source_directory",
@@ -457,6 +459,12 @@ analysis_rows.sort(key=lambda row: (
 ))
 raw_rows.sort(key=lambda row: (str(row["library_id"]), str(row["read_pair_id"])))
 provenance_rows.sort(key=lambda row: str(row["provenance_id"]))
+
+# Reviewed collection metadata is an overlay on the deduplicated analytical IDs.
+# This does not alter FASTQ identity, sequencing depth_source, or frozen results.
+metadata_updates = META / "sample_metadata_updates.tsv"
+if metadata_updates.exists():
+    analysis_rows = apply_updates(analysis_rows, read_candidates(metadata_updates))
 
 write_table(OUT, analysis_rows, COLS, ",")
 write_table(RAW_OUT, raw_rows, RAW_COLS, "\t")

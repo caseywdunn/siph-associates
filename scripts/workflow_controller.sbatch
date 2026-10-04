@@ -20,6 +20,14 @@ export XDG_CACHE_HOME="$PROJECT/.cache"
 export CONDA_PKGS_DIRS="$PROJECT/.cache/conda/pkgs"
 export PATH="$CONDA_BIN:$PATH"
 mkdir -p "$XDG_CACHE_HOME" "$CONDA_PKGS_DIRS"
+# A reviewed downstream-only run may whitelist rules. Existing products of
+# omitted rules then act as frozen inputs; missing inputs fail instead of
+# silently reopening read processing, assembly, or mapping.
+BOUNDED_ARGS=()
+if [[ -n "${SIPH_ASSOCIATES_ALLOWED_RULES:-}" ]]; then
+    read -ra ALLOWED_RULES <<< "$SIPH_ASSOCIATES_ALLOWED_RULES"
+    BOUNDED_ARGS=(--allowed-rules "${ALLOWED_RULES[@]}")
+fi
 # Full-cohort failures reached the original 24 GB allocation exactly. Keep
 # these scheduler-only recovery overrides outside config/config.yaml so a
 # resource correction does not invalidate accepted analytical outputs through
@@ -31,6 +39,7 @@ exec "$SNAKEMAKE" \
     "${TARGETS[@]}" \
     --profile profiles/slurm \
     --configfile "$CONFIG" \
+    "${BOUNDED_ARGS[@]}" \
     --set-resources \
         trim_reads:mem_mb=48000 \
         phyloflash_screen:mem_mb=48000 \

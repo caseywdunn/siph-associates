@@ -1,0 +1,1318 @@
+library_id	biosample	attribute_name	harmonized_name	value	source	raw_response
+Church2025:FM-16644	SAMN40621277	isolate	isolate	FM16644	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621277	biosamples_01.xml
+Church2025:FM-16644	SAMN40621277	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621277	biosamples_01.xml
+Church2025:FM-16644	SAMN40621277	collection_date	collection_date	2023-05-14	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621277	biosamples_01.xml
+Church2025:FM-16644	SAMN40621277	geo_loc_name	geo_loc_name	Spain: Canary Islands	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621277	biosamples_01.xml
+Church2025:FM-16644	SAMN40621277	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621277	biosamples_01.xml
+Church2025:FM-16644	SAMN40621277	lat_lon	lat_lon	28.591940 N 17.920910 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621277	biosamples_01.xml
+Church2025:NIWA-173304	SAMN41900828	isolate	isolate	NIWA-173304	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900828	biosamples_04.xml
+Church2025:NIWA-173304	SAMN41900828	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900828	biosamples_04.xml
+Church2025:NIWA-173304	SAMN41900828	collection_date	collection_date	2024-03-15	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900828	biosamples_04.xml
+Church2025:NIWA-173304	SAMN41900828	geo_loc_name	geo_loc_name	New Zealand	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900828	biosamples_04.xml
+Church2025:NIWA-173304	SAMN41900828	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900828	biosamples_04.xml
+Church2025:NIWA-173304	SAMN41900828	lat_lon	lat_lon	36.895150 S 174.443889 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900828	biosamples_04.xml
+Church2025:NIWA-173305	SAMN41900829	isolate	isolate	NIWA-173305	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900829	biosamples_04.xml
+Church2025:NIWA-173305	SAMN41900829	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900829	biosamples_04.xml
+Church2025:NIWA-173305	SAMN41900829	collection_date	collection_date	2024-03-15	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900829	biosamples_04.xml
+Church2025:NIWA-173305	SAMN41900829	geo_loc_name	geo_loc_name	New Zealand	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900829	biosamples_04.xml
+Church2025:NIWA-173305	SAMN41900829	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900829	biosamples_04.xml
+Church2025:NIWA-173305	SAMN41900829	lat_lon	lat_lon	36.895150 S 174.443889 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900829	biosamples_04.xml
+Church2025:TMAG-K5632	SAMN40621278	isolate	isolate	TMAG-K5632	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621278	biosamples_01.xml
+Church2025:TMAG-K5632	SAMN40621278	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621278	biosamples_01.xml
+Church2025:TMAG-K5632	SAMN40621278	collection_date	collection_date	2023-01-14	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621278	biosamples_01.xml
+Church2025:TMAG-K5632	SAMN40621278	geo_loc_name	geo_loc_name	Australia: Tasmania	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621278	biosamples_01.xml
+Church2025:TMAG-K5632	SAMN40621278	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621278	biosamples_01.xml
+Church2025:TMAG-K5632	SAMN40621278	lat_lon	lat_lon	41.863900 S 148.286500 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621278	biosamples_01.xml
+Church2025:TMAG-K5633	SAMN40621279	isolate	isolate	TMAG-K5633	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621279	biosamples_01.xml
+Church2025:TMAG-K5633	SAMN40621279	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621279	biosamples_01.xml
+Church2025:TMAG-K5633	SAMN40621279	collection_date	collection_date	2023-01-14	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621279	biosamples_01.xml
+Church2025:TMAG-K5633	SAMN40621279	geo_loc_name	geo_loc_name	Australia: Tasmania	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621279	biosamples_01.xml
+Church2025:TMAG-K5633	SAMN40621279	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621279	biosamples_01.xml
+Church2025:TMAG-K5633	SAMN40621279	lat_lon	lat_lon	41.863900 S 148.286500 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621279	biosamples_01.xml
+Church2025:TMAG-K5634	SAMN40621280	isolate	isolate	TMAG-K5634	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621280	biosamples_01.xml
+Church2025:TMAG-K5634	SAMN40621280	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621280	biosamples_01.xml
+Church2025:TMAG-K5634	SAMN40621280	collection_date	collection_date	2023-01-14	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621280	biosamples_01.xml
+Church2025:TMAG-K5634	SAMN40621280	geo_loc_name	geo_loc_name	Australia: Tasmania	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621280	biosamples_01.xml
+Church2025:TMAG-K5634	SAMN40621280	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621280	biosamples_01.xml
+Church2025:TMAG-K5634	SAMN40621280	lat_lon	lat_lon	41.863900 S 148.286500 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621280	biosamples_01.xml
+Church2025:TMAG-K5635	SAMN40621281	isolate	isolate	TMAG-K5635	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621281	biosamples_01.xml
+Church2025:TMAG-K5635	SAMN40621281	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621281	biosamples_01.xml
+Church2025:TMAG-K5635	SAMN40621281	collection_date	collection_date	2023-01-14	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621281	biosamples_01.xml
+Church2025:TMAG-K5635	SAMN40621281	geo_loc_name	geo_loc_name	Australia: Tasmania	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621281	biosamples_01.xml
+Church2025:TMAG-K5635	SAMN40621281	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621281	biosamples_01.xml
+Church2025:TMAG-K5635	SAMN40621281	lat_lon	lat_lon	41.863900 S 148.286500 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621281	biosamples_01.xml
+Church2025:TMAG-K5636	SAMN40621282	isolate	isolate	TMAG-K5636	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621282	biosamples_01.xml
+Church2025:TMAG-K5636	SAMN40621282	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621282	biosamples_01.xml
+Church2025:TMAG-K5636	SAMN40621282	collection_date	collection_date	2023-01-14	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621282	biosamples_01.xml
+Church2025:TMAG-K5636	SAMN40621282	geo_loc_name	geo_loc_name	Australia: Tasmania	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621282	biosamples_01.xml
+Church2025:TMAG-K5636	SAMN40621282	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621282	biosamples_01.xml
+Church2025:TMAG-K5636	SAMN40621282	lat_lon	lat_lon	41.863900 S 148.286500 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621282	biosamples_01.xml
+Church2025:WAM-Z88480	SAMN40621283	isolate	isolate	WAMZ88480	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621283	biosamples_01.xml
+Church2025:WAM-Z88480	SAMN40621283	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621283	biosamples_01.xml
+Church2025:WAM-Z88480	SAMN40621283	collection_date	collection_date	2018-08-03	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621283	biosamples_01.xml
+Church2025:WAM-Z88480	SAMN40621283	geo_loc_name	geo_loc_name	Australia: Western Australia	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621283	biosamples_01.xml
+Church2025:WAM-Z88480	SAMN40621283	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621283	biosamples_01.xml
+Church2025:WAM-Z88480	SAMN40621283	lat_lon	lat_lon	31.908144 S 115.754811 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621283	biosamples_01.xml
+Church2025:WAM-Z97900	SAMN40621284	isolate	isolate	WAMZ97900	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621284	biosamples_01.xml
+Church2025:WAM-Z97900	SAMN40621284	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621284	biosamples_01.xml
+Church2025:WAM-Z97900	SAMN40621284	collection_date	collection_date	2019-04-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621284	biosamples_01.xml
+Church2025:WAM-Z97900	SAMN40621284	geo_loc_name	geo_loc_name	Australia: Western Australia	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621284	biosamples_01.xml
+Church2025:WAM-Z97900	SAMN40621284	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621284	biosamples_01.xml
+Church2025:WAM-Z97900	SAMN40621284	lat_lon	lat_lon	31.855786 S 115.751741 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621284	biosamples_01.xml
+Church2025:WAM-Z97901	SAMN40621285	isolate	isolate	WAMZ97901	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621285	biosamples_01.xml
+Church2025:WAM-Z97901	SAMN40621285	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621285	biosamples_01.xml
+Church2025:WAM-Z97901	SAMN40621285	collection_date	collection_date	2019-04-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621285	biosamples_01.xml
+Church2025:WAM-Z97901	SAMN40621285	geo_loc_name	geo_loc_name	Australia: Western Australia	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621285	biosamples_01.xml
+Church2025:WAM-Z97901	SAMN40621285	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621285	biosamples_01.xml
+Church2025:WAM-Z97901	SAMN40621285	lat_lon	lat_lon	31.855786 S 115.751741 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621285	biosamples_01.xml
+Church2025:WAM-Z97902	SAMN40621286	isolate	isolate	WAMZ97902	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621286	biosamples_01.xml
+Church2025:WAM-Z97902	SAMN40621286	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621286	biosamples_01.xml
+Church2025:WAM-Z97902	SAMN40621286	collection_date	collection_date	2019-04-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621286	biosamples_01.xml
+Church2025:WAM-Z97902	SAMN40621286	geo_loc_name	geo_loc_name	Australia: Western Australia	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621286	biosamples_01.xml
+Church2025:WAM-Z97902	SAMN40621286	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621286	biosamples_01.xml
+Church2025:WAM-Z97902	SAMN40621286	lat_lon	lat_lon	31.855786 S 115.751741 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621286	biosamples_01.xml
+Church2025:WAM-Z97903	SAMN40621287	isolate	isolate	WAMZ97903	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621287	biosamples_01.xml
+Church2025:WAM-Z97903	SAMN40621287	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621287	biosamples_01.xml
+Church2025:WAM-Z97903	SAMN40621287	collection_date	collection_date	2019-04-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621287	biosamples_01.xml
+Church2025:WAM-Z97903	SAMN40621287	geo_loc_name	geo_loc_name	Australia: Western Australia	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621287	biosamples_01.xml
+Church2025:WAM-Z97903	SAMN40621287	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621287	biosamples_01.xml
+Church2025:WAM-Z97903	SAMN40621287	lat_lon	lat_lon	31.855786 S 115.751741 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621287	biosamples_01.xml
+Church2025:WAM-Z97906	SAMN40621288	isolate	isolate	WAMZ97906	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621288	biosamples_01.xml
+Church2025:WAM-Z97906	SAMN40621288	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621288	biosamples_01.xml
+Church2025:WAM-Z97906	SAMN40621288	collection_date	collection_date	2019-04-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621288	biosamples_01.xml
+Church2025:WAM-Z97906	SAMN40621288	geo_loc_name	geo_loc_name	Australia: Western Australia	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621288	biosamples_01.xml
+Church2025:WAM-Z97906	SAMN40621288	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621288	biosamples_01.xml
+Church2025:WAM-Z97906	SAMN40621288	lat_lon	lat_lon	31.855786 S 115.751741 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621288	biosamples_01.xml
+Church2025:WAM-Z97907	SAMN40621289	isolate	isolate	WAMZ97907	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621289	biosamples_01.xml
+Church2025:WAM-Z97907	SAMN40621289	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621289	biosamples_01.xml
+Church2025:WAM-Z97907	SAMN40621289	collection_date	collection_date	2019-04-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621289	biosamples_01.xml
+Church2025:WAM-Z97907	SAMN40621289	geo_loc_name	geo_loc_name	Australia: Western Australia	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621289	biosamples_01.xml
+Church2025:WAM-Z97907	SAMN40621289	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621289	biosamples_01.xml
+Church2025:WAM-Z97907	SAMN40621289	lat_lon	lat_lon	31.855786 S 115.751741 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621289	biosamples_01.xml
+Church2025:WAM-Z97908	SAMN40621290	isolate	isolate	WAMZ97908	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621290	biosamples_01.xml
+Church2025:WAM-Z97908	SAMN40621290	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621290	biosamples_01.xml
+Church2025:WAM-Z97908	SAMN40621290	collection_date	collection_date	2019-04-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621290	biosamples_01.xml
+Church2025:WAM-Z97908	SAMN40621290	geo_loc_name	geo_loc_name	Australia: Western Australia	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621290	biosamples_01.xml
+Church2025:WAM-Z97908	SAMN40621290	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621290	biosamples_01.xml
+Church2025:WAM-Z97908	SAMN40621290	lat_lon	lat_lon	31.855786 S 115.751741 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621290	biosamples_01.xml
+Church2025:WAM-Z97910	SAMN40621291	isolate	isolate	WAMZ97910	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621291	biosamples_01.xml
+Church2025:WAM-Z97910	SAMN40621291	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621291	biosamples_01.xml
+Church2025:WAM-Z97910	SAMN40621291	collection_date	collection_date	2019-04-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621291	biosamples_01.xml
+Church2025:WAM-Z97910	SAMN40621291	geo_loc_name	geo_loc_name	Australia: Western Australia	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621291	biosamples_01.xml
+Church2025:WAM-Z97910	SAMN40621291	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621291	biosamples_01.xml
+Church2025:WAM-Z97910	SAMN40621291	lat_lon	lat_lon	31.855786 S 115.751741 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621291	biosamples_01.xml
+Church2025:WAM-Z97911	SAMN40621292	isolate	isolate	WAMZ97911	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621292	biosamples_02.xml
+Church2025:WAM-Z97911	SAMN40621292	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621292	biosamples_02.xml
+Church2025:WAM-Z97911	SAMN40621292	collection_date	collection_date	2019-04-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621292	biosamples_02.xml
+Church2025:WAM-Z97911	SAMN40621292	geo_loc_name	geo_loc_name	Australia: Western Australia	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621292	biosamples_02.xml
+Church2025:WAM-Z97911	SAMN40621292	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621292	biosamples_02.xml
+Church2025:WAM-Z97911	SAMN40621292	lat_lon	lat_lon	31.855786 S 115.751741 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621292	biosamples_02.xml
+Church2025:WAM-Z97914	SAMN40621293	isolate	isolate	WAMZ97914	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621293	biosamples_02.xml
+Church2025:WAM-Z97914	SAMN40621293	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621293	biosamples_02.xml
+Church2025:WAM-Z97914	SAMN40621293	collection_date	collection_date	2019-04-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621293	biosamples_02.xml
+Church2025:WAM-Z97914	SAMN40621293	geo_loc_name	geo_loc_name	Australia: Western Australia	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621293	biosamples_02.xml
+Church2025:WAM-Z97914	SAMN40621293	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621293	biosamples_02.xml
+Church2025:WAM-Z97914	SAMN40621293	lat_lon	lat_lon	31.855786 S 115.751741 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621293	biosamples_02.xml
+Church2025:WAM-Z97916	SAMN40621294	isolate	isolate	WAMZ97916	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621294	biosamples_02.xml
+Church2025:WAM-Z97916	SAMN40621294	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621294	biosamples_02.xml
+Church2025:WAM-Z97916	SAMN40621294	collection_date	collection_date	2019-04-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621294	biosamples_02.xml
+Church2025:WAM-Z97916	SAMN40621294	geo_loc_name	geo_loc_name	Australia: Western Australia	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621294	biosamples_02.xml
+Church2025:WAM-Z97916	SAMN40621294	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621294	biosamples_02.xml
+Church2025:WAM-Z97916	SAMN40621294	lat_lon	lat_lon	31.855786 S 115.751741 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621294	biosamples_02.xml
+Church2025:WAM-Z97917	SAMN40621295	isolate	isolate	WAMZ97917	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621295	biosamples_02.xml
+Church2025:WAM-Z97917	SAMN40621295	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621295	biosamples_02.xml
+Church2025:WAM-Z97917	SAMN40621295	collection_date	collection_date	2019-01-18	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621295	biosamples_02.xml
+Church2025:WAM-Z97917	SAMN40621295	geo_loc_name	geo_loc_name	Australia: New South Wales	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621295	biosamples_02.xml
+Church2025:WAM-Z97917	SAMN40621295	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621295	biosamples_02.xml
+Church2025:WAM-Z97917	SAMN40621295	lat_lon	lat_lon	33.787002 S 151.288609 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621295	biosamples_02.xml
+Church2025:WAM-Z97920	SAMN40621296	isolate	isolate	WAMZ97920	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621296	biosamples_02.xml
+Church2025:WAM-Z97920	SAMN40621296	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621296	biosamples_02.xml
+Church2025:WAM-Z97920	SAMN40621296	collection_date	collection_date	2018-02-05	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621296	biosamples_02.xml
+Church2025:WAM-Z97920	SAMN40621296	geo_loc_name	geo_loc_name	Australia: New South Wales	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621296	biosamples_02.xml
+Church2025:WAM-Z97920	SAMN40621296	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621296	biosamples_02.xml
+Church2025:WAM-Z97920	SAMN40621296	lat_lon	lat_lon	33.987424 S 151.231329 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621296	biosamples_02.xml
+Church2025:WAM-Z97921	SAMN40621297	isolate	isolate	WAMZ97921	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621297	biosamples_02.xml
+Church2025:WAM-Z97921	SAMN40621297	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621297	biosamples_02.xml
+Church2025:WAM-Z97921	SAMN40621297	collection_date	collection_date	2019-01-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621297	biosamples_02.xml
+Church2025:WAM-Z97921	SAMN40621297	geo_loc_name	geo_loc_name	Australia: Queensland	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621297	biosamples_02.xml
+Church2025:WAM-Z97921	SAMN40621297	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621297	biosamples_02.xml
+Church2025:WAM-Z97921	SAMN40621297	lat_lon	lat_lon	26.784003 S 153.140596 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621297	biosamples_02.xml
+Church2025:WAM-Z97923	SAMN40621298	isolate	isolate	WAMZ97923	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621298	biosamples_02.xml
+Church2025:WAM-Z97923	SAMN40621298	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621298	biosamples_02.xml
+Church2025:WAM-Z97923	SAMN40621298	collection_date	collection_date	2019-01-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621298	biosamples_02.xml
+Church2025:WAM-Z97923	SAMN40621298	geo_loc_name	geo_loc_name	Australia: Queensland	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621298	biosamples_02.xml
+Church2025:WAM-Z97923	SAMN40621298	tissue	tissue	missing	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621298	biosamples_02.xml
+Church2025:WAM-Z97923	SAMN40621298	lat_lon	lat_lon	26.784003 S 153.140596 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621298	biosamples_02.xml
+Church2025:YPM-IZ-104460	SAMN40621299	isolate	isolate	YPM-IZ-104460	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621299	biosamples_02.xml
+Church2025:YPM-IZ-104460	SAMN40621299	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621299	biosamples_02.xml
+Church2025:YPM-IZ-104460	SAMN40621299	collection_date	collection_date	2018-11-23	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621299	biosamples_02.xml
+Church2025:YPM-IZ-104460	SAMN40621299	geo_loc_name	geo_loc_name	Guam	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621299	biosamples_02.xml
+Church2025:YPM-IZ-104460	SAMN40621299	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621299	biosamples_02.xml
+Church2025:YPM-IZ-104460	SAMN40621299	lat_lon	lat_lon	13.427861 N 144.798518 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621299	biosamples_02.xml
+Church2025:YPM-IZ-104461	SAMN40621300	isolate	isolate	YPM-IZ-104461	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621300	biosamples_02.xml
+Church2025:YPM-IZ-104461	SAMN40621300	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621300	biosamples_02.xml
+Church2025:YPM-IZ-104461	SAMN40621300	collection_date	collection_date	2018-11-23	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621300	biosamples_02.xml
+Church2025:YPM-IZ-104461	SAMN40621300	geo_loc_name	geo_loc_name	Guam	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621300	biosamples_02.xml
+Church2025:YPM-IZ-104461	SAMN40621300	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621300	biosamples_02.xml
+Church2025:YPM-IZ-104461	SAMN40621300	lat_lon	lat_lon	13.427861 N 144.798518 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621300	biosamples_02.xml
+Church2025:YPM-IZ-104464	SAMN40621301	isolate	isolate	YPM-IZ-104464	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621301	biosamples_02.xml
+Church2025:YPM-IZ-104464	SAMN40621301	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621301	biosamples_02.xml
+Church2025:YPM-IZ-104464	SAMN40621301	collection_date	collection_date	2018-11-23	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621301	biosamples_02.xml
+Church2025:YPM-IZ-104464	SAMN40621301	geo_loc_name	geo_loc_name	Guam	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621301	biosamples_02.xml
+Church2025:YPM-IZ-104464	SAMN40621301	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621301	biosamples_02.xml
+Church2025:YPM-IZ-104464	SAMN40621301	lat_lon	lat_lon	13.427861 N 144.798518 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621301	biosamples_02.xml
+Church2025:YPM-IZ-104465	SAMN32803051	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803051	biosamples_01.xml
+Church2025:YPM-IZ-104465	SAMN32803051	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803051	biosamples_01.xml
+Church2025:YPM-IZ-104465	SAMN32803051	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803051	biosamples_01.xml
+Church2025:YPM-IZ-104465	SAMN32803051	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803051	biosamples_01.xml
+Church2025:YPM-IZ-104465	SAMN32803051	collection_date	collection_date	2018-11-23	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803051	biosamples_01.xml
+Church2025:YPM-IZ-104465	SAMN32803051	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803051	biosamples_01.xml
+Church2025:YPM-IZ-104465	SAMN32803051	tissue	tissue	corm	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803051	biosamples_01.xml
+Church2025:YPM-IZ-104465	SAMN32803051	depth	depth	0 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803051	biosamples_01.xml
+Church2025:YPM-IZ-104465	SAMN32803051	lat_lon	lat_lon	13.428 N 144.799 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803051	biosamples_01.xml
+Church2025:YPM-IZ-104465	SAMN32803051	specimen_voucher	specimen_voucher	YPM:IZ:104465	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803051	biosamples_01.xml
+Church2025:YPM-IZ-106919	SAMN40621302	isolate	isolate	YPM-IZ-106919	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621302	biosamples_02.xml
+Church2025:YPM-IZ-106919	SAMN40621302	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621302	biosamples_02.xml
+Church2025:YPM-IZ-106919	SAMN40621302	collection_date	collection_date	2020-11-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621302	biosamples_02.xml
+Church2025:YPM-IZ-106919	SAMN40621302	geo_loc_name	geo_loc_name	Japan	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621302	biosamples_02.xml
+Church2025:YPM-IZ-106919	SAMN40621302	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621302	biosamples_02.xml
+Church2025:YPM-IZ-106919	SAMN40621302	lat_lon	lat_lon	35.307390 N 139.480651 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621302	biosamples_02.xml
+Church2025:YPM-IZ-106920	SAMN40621303	isolate	isolate	YPM-IZ-106920	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621303	biosamples_02.xml
+Church2025:YPM-IZ-106920	SAMN40621303	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621303	biosamples_02.xml
+Church2025:YPM-IZ-106920	SAMN40621303	collection_date	collection_date	2020-11-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621303	biosamples_02.xml
+Church2025:YPM-IZ-106920	SAMN40621303	geo_loc_name	geo_loc_name	Japan	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621303	biosamples_02.xml
+Church2025:YPM-IZ-106920	SAMN40621303	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621303	biosamples_02.xml
+Church2025:YPM-IZ-106920	SAMN40621303	lat_lon	lat_lon	35.307390 N 139.480651 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621303	biosamples_02.xml
+Church2025:YPM-IZ-106923	SAMN40621304	isolate	isolate	YPM-IZ-106923	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621304	biosamples_02.xml
+Church2025:YPM-IZ-106923	SAMN40621304	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621304	biosamples_02.xml
+Church2025:YPM-IZ-106923	SAMN40621304	collection_date	collection_date	2020-11-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621304	biosamples_02.xml
+Church2025:YPM-IZ-106923	SAMN40621304	geo_loc_name	geo_loc_name	Japan	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621304	biosamples_02.xml
+Church2025:YPM-IZ-106923	SAMN40621304	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621304	biosamples_02.xml
+Church2025:YPM-IZ-106923	SAMN40621304	lat_lon	lat_lon	35.307390 N 139.480651 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621304	biosamples_02.xml
+Church2025:YPM-IZ-106935	SAMN40621305	isolate	isolate	YPM-IZ-106935	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621305	biosamples_02.xml
+Church2025:YPM-IZ-106935	SAMN40621305	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621305	biosamples_02.xml
+Church2025:YPM-IZ-106935	SAMN40621305	collection_date	collection_date	2016-03-02	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621305	biosamples_02.xml
+Church2025:YPM-IZ-106935	SAMN40621305	geo_loc_name	geo_loc_name	USA: Texas	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621305	biosamples_02.xml
+Church2025:YPM-IZ-106935	SAMN40621305	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621305	biosamples_02.xml
+Church2025:YPM-IZ-106935	SAMN40621305	lat_lon	lat_lon	29.19532 N 94.8429383 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621305	biosamples_02.xml
+Church2025:YPM-IZ-106936	SAMN40621306	isolate	isolate	YPM-IZ-106936	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621306	biosamples_02.xml
+Church2025:YPM-IZ-106936	SAMN40621306	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621306	biosamples_02.xml
+Church2025:YPM-IZ-106936	SAMN40621306	collection_date	collection_date	2016-03-03	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621306	biosamples_02.xml
+Church2025:YPM-IZ-106936	SAMN40621306	geo_loc_name	geo_loc_name	USA: Texas	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621306	biosamples_02.xml
+Church2025:YPM-IZ-106936	SAMN40621306	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621306	biosamples_02.xml
+Church2025:YPM-IZ-106936	SAMN40621306	lat_lon	lat_lon	29.19532 N 94.8429383 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621306	biosamples_02.xml
+Church2025:YPM-IZ-106937	SAMN40621307	isolate	isolate	YPM-IZ-106937	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621307	biosamples_02.xml
+Church2025:YPM-IZ-106937	SAMN40621307	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621307	biosamples_02.xml
+Church2025:YPM-IZ-106937	SAMN40621307	collection_date	collection_date	2016-03-03	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621307	biosamples_02.xml
+Church2025:YPM-IZ-106937	SAMN40621307	geo_loc_name	geo_loc_name	USA: Texas	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621307	biosamples_02.xml
+Church2025:YPM-IZ-106937	SAMN40621307	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621307	biosamples_02.xml
+Church2025:YPM-IZ-106937	SAMN40621307	lat_lon	lat_lon	29.19532 N 94.8429383 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621307	biosamples_02.xml
+Church2025:YPM-IZ-106941	SAMN40621308	isolate	isolate	YPM-IZ-106941	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621308	biosamples_02.xml
+Church2025:YPM-IZ-106941	SAMN40621308	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621308	biosamples_02.xml
+Church2025:YPM-IZ-106941	SAMN40621308	collection_date	collection_date	2019-05-18	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621308	biosamples_02.xml
+Church2025:YPM-IZ-106941	SAMN40621308	geo_loc_name	geo_loc_name	Bermuda	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621308	biosamples_02.xml
+Church2025:YPM-IZ-106941	SAMN40621308	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621308	biosamples_02.xml
+Church2025:YPM-IZ-106941	SAMN40621308	lat_lon	lat_lon	32.323333 N 64.656300 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621308	biosamples_02.xml
+Church2025:YPM-IZ-106943	SAMN40621309	isolate	isolate	YPM-IZ-106943	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621309	biosamples_02.xml
+Church2025:YPM-IZ-106943	SAMN40621309	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621309	biosamples_02.xml
+Church2025:YPM-IZ-106943	SAMN40621309	collection_date	collection_date	2019-05-18	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621309	biosamples_02.xml
+Church2025:YPM-IZ-106943	SAMN40621309	geo_loc_name	geo_loc_name	Bermuda	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621309	biosamples_02.xml
+Church2025:YPM-IZ-106943	SAMN40621309	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621309	biosamples_02.xml
+Church2025:YPM-IZ-106943	SAMN40621309	lat_lon	lat_lon	32.341117 N 64.669133 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621309	biosamples_02.xml
+Church2025:YPM-IZ-106954	SAMN40621310	isolate	isolate	YPM-IZ-106954	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621310	biosamples_02.xml
+Church2025:YPM-IZ-106954	SAMN40621310	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621310	biosamples_02.xml
+Church2025:YPM-IZ-106954	SAMN40621310	collection_date	collection_date	2019-05-20	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621310	biosamples_02.xml
+Church2025:YPM-IZ-106954	SAMN40621310	geo_loc_name	geo_loc_name	Bermuda	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621310	biosamples_02.xml
+Church2025:YPM-IZ-106954	SAMN40621310	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621310	biosamples_02.xml
+Church2025:YPM-IZ-106954	SAMN40621310	lat_lon	lat_lon	32.367233 N 64.714550 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621310	biosamples_02.xml
+Church2025:YPM-IZ-106958	SAMN40621311	isolate	isolate	YPM-IZ-106958	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621311	biosamples_02.xml
+Church2025:YPM-IZ-106958	SAMN40621311	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621311	biosamples_02.xml
+Church2025:YPM-IZ-106958	SAMN40621311	collection_date	collection_date	2017-03-18	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621311	biosamples_02.xml
+Church2025:YPM-IZ-106958	SAMN40621311	geo_loc_name	geo_loc_name	USA: Texas	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621311	biosamples_02.xml
+Church2025:YPM-IZ-106958	SAMN40621311	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621311	biosamples_02.xml
+Church2025:YPM-IZ-106958	SAMN40621311	lat_lon	lat_lon	29.195320 N 94.842938 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621311	biosamples_02.xml
+Church2025:YPM-IZ-110251	SAMN40621312	isolate	isolate	YPM-IZ-110251	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621312	biosamples_02.xml
+Church2025:YPM-IZ-110251	SAMN40621312	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621312	biosamples_02.xml
+Church2025:YPM-IZ-110251	SAMN40621312	collection_date	collection_date	2022-12-22	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621312	biosamples_02.xml
+Church2025:YPM-IZ-110251	SAMN40621312	geo_loc_name	geo_loc_name	USA: Florida	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621312	biosamples_02.xml
+Church2025:YPM-IZ-110251	SAMN40621312	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621312	biosamples_02.xml
+Church2025:YPM-IZ-110251	SAMN40621312	lat_lon	lat_lon	25.737060 N 80.152790 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621312	biosamples_02.xml
+Church2025:YPM-IZ-110254	SAMN40621313	isolate	isolate	YPM-IZ-110254	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621313	biosamples_02.xml
+Church2025:YPM-IZ-110254	SAMN40621313	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621313	biosamples_02.xml
+Church2025:YPM-IZ-110254	SAMN40621313	collection_date	collection_date	2022-12-22	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621313	biosamples_02.xml
+Church2025:YPM-IZ-110254	SAMN40621313	geo_loc_name	geo_loc_name	USA: Florida	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621313	biosamples_02.xml
+Church2025:YPM-IZ-110254	SAMN40621313	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621313	biosamples_02.xml
+Church2025:YPM-IZ-110254	SAMN40621313	lat_lon	lat_lon	25.736470 N 80.153500 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621313	biosamples_02.xml
+Church2025:YPM-IZ-110264	SAMN40621314	isolate	isolate	YPM-IZ-110264	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621314	biosamples_02.xml
+Church2025:YPM-IZ-110264	SAMN40621314	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621314	biosamples_02.xml
+Church2025:YPM-IZ-110264	SAMN40621314	collection_date	collection_date	2022-10-31	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621314	biosamples_02.xml
+Church2025:YPM-IZ-110264	SAMN40621314	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621314	biosamples_02.xml
+Church2025:YPM-IZ-110264	SAMN40621314	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621314	biosamples_02.xml
+Church2025:YPM-IZ-110264	SAMN40621314	lat_lon	lat_lon	22.069018 N 159.316685 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621314	biosamples_02.xml
+Church2025:YPM-IZ-110268	SAMN40621315	isolate	isolate	YPM-IZ-110268	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621315	biosamples_02.xml
+Church2025:YPM-IZ-110268	SAMN40621315	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621315	biosamples_02.xml
+Church2025:YPM-IZ-110268	SAMN40621315	collection_date	collection_date	2022-11-04	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621315	biosamples_02.xml
+Church2025:YPM-IZ-110268	SAMN40621315	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621315	biosamples_02.xml
+Church2025:YPM-IZ-110268	SAMN40621315	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621315	biosamples_02.xml
+Church2025:YPM-IZ-110268	SAMN40621315	lat_lon	lat_lon	22.069018 N 159.316685 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621315	biosamples_02.xml
+Church2025:YPM-IZ-110269	SAMN40621316	isolate	isolate	YPM-IZ-110269	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621316	biosamples_02.xml
+Church2025:YPM-IZ-110269	SAMN40621316	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621316	biosamples_02.xml
+Church2025:YPM-IZ-110269	SAMN40621316	collection_date	collection_date	2022-11-04	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621316	biosamples_02.xml
+Church2025:YPM-IZ-110269	SAMN40621316	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621316	biosamples_02.xml
+Church2025:YPM-IZ-110269	SAMN40621316	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621316	biosamples_02.xml
+Church2025:YPM-IZ-110269	SAMN40621316	lat_lon	lat_lon	22.069018 N 159.316685 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621316	biosamples_02.xml
+Church2025:YPM-IZ-110276	SAMN40621317	isolate	isolate	YPM-IZ-110276	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621317	biosamples_02.xml
+Church2025:YPM-IZ-110276	SAMN40621317	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621317	biosamples_02.xml
+Church2025:YPM-IZ-110276	SAMN40621317	collection_date	collection_date	2022-11-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621317	biosamples_02.xml
+Church2025:YPM-IZ-110276	SAMN40621317	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621317	biosamples_02.xml
+Church2025:YPM-IZ-110276	SAMN40621317	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621317	biosamples_02.xml
+Church2025:YPM-IZ-110276	SAMN40621317	lat_lon	lat_lon	20.9225222 N 156.4926917 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621317	biosamples_02.xml
+Church2025:YPM-IZ-110277	SAMN40621318	isolate	isolate	YPM-IZ-110277	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621318	biosamples_02.xml
+Church2025:YPM-IZ-110277	SAMN40621318	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621318	biosamples_02.xml
+Church2025:YPM-IZ-110277	SAMN40621318	collection_date	collection_date	2022-11-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621318	biosamples_02.xml
+Church2025:YPM-IZ-110277	SAMN40621318	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621318	biosamples_02.xml
+Church2025:YPM-IZ-110277	SAMN40621318	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621318	biosamples_02.xml
+Church2025:YPM-IZ-110277	SAMN40621318	lat_lon	lat_lon	20.9225222 N 156.4926917 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621318	biosamples_02.xml
+Church2025:YPM-IZ-110278	SAMN40621319	isolate	isolate	YPM-IZ-110278	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621319	biosamples_02.xml
+Church2025:YPM-IZ-110278	SAMN40621319	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621319	biosamples_02.xml
+Church2025:YPM-IZ-110278	SAMN40621319	collection_date	collection_date	2022-11-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621319	biosamples_02.xml
+Church2025:YPM-IZ-110278	SAMN40621319	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621319	biosamples_02.xml
+Church2025:YPM-IZ-110278	SAMN40621319	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621319	biosamples_02.xml
+Church2025:YPM-IZ-110278	SAMN40621319	lat_lon	lat_lon	20.9225222 N 156.4926917 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621319	biosamples_02.xml
+Church2025:YPM-IZ-110433	SAMN40621320	isolate	isolate	YPM-IZ-110433	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621320	biosamples_02.xml
+Church2025:YPM-IZ-110433	SAMN40621320	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621320	biosamples_02.xml
+Church2025:YPM-IZ-110433	SAMN40621320	collection_date	collection_date	2023-03-14	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621320	biosamples_02.xml
+Church2025:YPM-IZ-110433	SAMN40621320	geo_loc_name	geo_loc_name	USA: Florida	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621320	biosamples_02.xml
+Church2025:YPM-IZ-110433	SAMN40621320	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621320	biosamples_02.xml
+Church2025:YPM-IZ-110433	SAMN40621320	lat_lon	lat_lon	25.741630 N 80.175194 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621320	biosamples_02.xml
+Church2025:YPM-IZ-110438	SAMN40621321	isolate	isolate	YPM-IZ-110438	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621321	biosamples_02.xml
+Church2025:YPM-IZ-110438	SAMN40621321	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621321	biosamples_02.xml
+Church2025:YPM-IZ-110438	SAMN40621321	collection_date	collection_date	2023-03-24	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621321	biosamples_02.xml
+Church2025:YPM-IZ-110438	SAMN40621321	geo_loc_name	geo_loc_name	USA: Texas	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621321	biosamples_02.xml
+Church2025:YPM-IZ-110438	SAMN40621321	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621321	biosamples_02.xml
+Church2025:YPM-IZ-110438	SAMN40621321	lat_lon	lat_lon	28.989194 N 95.237778 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621321	biosamples_02.xml
+Church2025:YPM-IZ-110443	SAMN40621322	isolate	isolate	YPM-IZ-110443	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621322	biosamples_02.xml
+Church2025:YPM-IZ-110443	SAMN40621322	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621322	biosamples_02.xml
+Church2025:YPM-IZ-110443	SAMN40621322	collection_date	collection_date	2023-03-24	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621322	biosamples_02.xml
+Church2025:YPM-IZ-110443	SAMN40621322	geo_loc_name	geo_loc_name	USA: Texas	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621322	biosamples_02.xml
+Church2025:YPM-IZ-110443	SAMN40621322	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621322	biosamples_02.xml
+Church2025:YPM-IZ-110443	SAMN40621322	lat_lon	lat_lon	28.951778 N 95.283167 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621322	biosamples_02.xml
+Church2025:YPM-IZ-110460	SAMN40621323	isolate	isolate	YPM-IZ-110460	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621323	biosamples_02.xml
+Church2025:YPM-IZ-110460	SAMN40621323	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621323	biosamples_02.xml
+Church2025:YPM-IZ-110460	SAMN40621323	collection_date	collection_date	2022-11-14	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621323	biosamples_02.xml
+Church2025:YPM-IZ-110460	SAMN40621323	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621323	biosamples_02.xml
+Church2025:YPM-IZ-110460	SAMN40621323	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621323	biosamples_02.xml
+Church2025:YPM-IZ-110460	SAMN40621323	lat_lon	lat_lon	21.400790 N 157.734500 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621323	biosamples_02.xml
+Church2025:YPM-IZ-110467	SAMN40621324	isolate	isolate	YPM-IZ-110467	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621324	biosamples_02.xml
+Church2025:YPM-IZ-110467	SAMN40621324	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621324	biosamples_02.xml
+Church2025:YPM-IZ-110467	SAMN40621324	collection_date	collection_date	2023-02-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621324	biosamples_02.xml
+Church2025:YPM-IZ-110467	SAMN40621324	geo_loc_name	geo_loc_name	New Zealand	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621324	biosamples_02.xml
+Church2025:YPM-IZ-110467	SAMN40621324	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621324	biosamples_02.xml
+Church2025:YPM-IZ-110467	SAMN40621324	lat_lon	lat_lon	41.330278 S 174.831944 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621324	biosamples_02.xml
+Church2025:YPM-IZ-110468	SAMN40621325	isolate	isolate	YPM-IZ-110468	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621325	biosamples_02.xml
+Church2025:YPM-IZ-110468	SAMN40621325	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621325	biosamples_02.xml
+Church2025:YPM-IZ-110468	SAMN40621325	collection_date	collection_date	2023-02-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621325	biosamples_02.xml
+Church2025:YPM-IZ-110468	SAMN40621325	geo_loc_name	geo_loc_name	New Zealand	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621325	biosamples_02.xml
+Church2025:YPM-IZ-110468	SAMN40621325	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621325	biosamples_02.xml
+Church2025:YPM-IZ-110468	SAMN40621325	lat_lon	lat_lon	41.330000 S 174.833056 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621325	biosamples_02.xml
+Church2025:YPM-IZ-110469	SAMN40621326	isolate	isolate	YPM-IZ-110469	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621326	biosamples_02.xml
+Church2025:YPM-IZ-110469	SAMN40621326	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621326	biosamples_02.xml
+Church2025:YPM-IZ-110469	SAMN40621326	collection_date	collection_date	2023-02-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621326	biosamples_02.xml
+Church2025:YPM-IZ-110469	SAMN40621326	geo_loc_name	geo_loc_name	New Zealand	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621326	biosamples_02.xml
+Church2025:YPM-IZ-110469	SAMN40621326	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621326	biosamples_02.xml
+Church2025:YPM-IZ-110469	SAMN40621326	lat_lon	lat_lon	41.330000 S 174.833056 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621326	biosamples_02.xml
+Church2025:YPM-IZ-110470	SAMN40621327	isolate	isolate	YPM-IZ-110470	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621327	biosamples_02.xml
+Church2025:YPM-IZ-110470	SAMN40621327	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621327	biosamples_02.xml
+Church2025:YPM-IZ-110470	SAMN40621327	collection_date	collection_date	2023-02-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621327	biosamples_02.xml
+Church2025:YPM-IZ-110470	SAMN40621327	geo_loc_name	geo_loc_name	New Zealand	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621327	biosamples_02.xml
+Church2025:YPM-IZ-110470	SAMN40621327	tissue	tissue	zooid	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621327	biosamples_02.xml
+Church2025:YPM-IZ-110470	SAMN40621327	lat_lon	lat_lon	41.330000 S 174.833056 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621327	biosamples_02.xml
+Church2025:YPM-IZ-110471	SAMN40621328	isolate	isolate	YPM-IZ-110471	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621328	biosamples_02.xml
+Church2025:YPM-IZ-110471	SAMN40621328	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621328	biosamples_02.xml
+Church2025:YPM-IZ-110471	SAMN40621328	collection_date	collection_date	2023-04-09	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621328	biosamples_02.xml
+Church2025:YPM-IZ-110471	SAMN40621328	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621328	biosamples_02.xml
+Church2025:YPM-IZ-110471	SAMN40621328	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621328	biosamples_02.xml
+Church2025:YPM-IZ-110471	SAMN40621328	lat_lon	lat_lon	21.400790 N 157.734500 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621328	biosamples_02.xml
+Church2025:YPM-IZ-110473	SAMN40621329	isolate	isolate	YPM-IZ-110473	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621329	biosamples_02.xml
+Church2025:YPM-IZ-110473	SAMN40621329	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621329	biosamples_02.xml
+Church2025:YPM-IZ-110473	SAMN40621329	collection_date	collection_date	2023-04-09	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621329	biosamples_02.xml
+Church2025:YPM-IZ-110473	SAMN40621329	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621329	biosamples_02.xml
+Church2025:YPM-IZ-110473	SAMN40621329	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621329	biosamples_02.xml
+Church2025:YPM-IZ-110473	SAMN40621329	lat_lon	lat_lon	21.400790 N 157.734500 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621329	biosamples_02.xml
+Church2025:YPM-IZ-110474	SAMN40621330	isolate	isolate	YPM-IZ-110474	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621330	biosamples_02.xml
+Church2025:YPM-IZ-110474	SAMN40621330	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621330	biosamples_02.xml
+Church2025:YPM-IZ-110474	SAMN40621330	collection_date	collection_date	2023-04-04	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621330	biosamples_02.xml
+Church2025:YPM-IZ-110474	SAMN40621330	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621330	biosamples_02.xml
+Church2025:YPM-IZ-110474	SAMN40621330	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621330	biosamples_02.xml
+Church2025:YPM-IZ-110474	SAMN40621330	lat_lon	lat_lon	21.454600 N 157.748500 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621330	biosamples_02.xml
+Church2025:YPM-IZ-110480	SAMN40621331	isolate	isolate	YPM-IZ-110480	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621331	biosamples_02.xml
+Church2025:YPM-IZ-110480	SAMN40621331	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621331	biosamples_02.xml
+Church2025:YPM-IZ-110480	SAMN40621331	collection_date	collection_date	2023-04-06	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621331	biosamples_02.xml
+Church2025:YPM-IZ-110480	SAMN40621331	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621331	biosamples_02.xml
+Church2025:YPM-IZ-110480	SAMN40621331	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621331	biosamples_02.xml
+Church2025:YPM-IZ-110480	SAMN40621331	lat_lon	lat_lon	21.454600 N 157.748500 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621331	biosamples_02.xml
+Church2025:YPM-IZ-110515	SAMN40621332	isolate	isolate	YPM-IZ-110515	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621332	biosamples_02.xml
+Church2025:YPM-IZ-110515	SAMN40621332	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621332	biosamples_02.xml
+Church2025:YPM-IZ-110515	SAMN40621332	collection_date	collection_date	2023-02-09	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621332	biosamples_02.xml
+Church2025:YPM-IZ-110515	SAMN40621332	geo_loc_name	geo_loc_name	Australia: New South Wales	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621332	biosamples_02.xml
+Church2025:YPM-IZ-110515	SAMN40621332	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621332	biosamples_02.xml
+Church2025:YPM-IZ-110515	SAMN40621332	lat_lon	lat_lon	33.947500 S 151.257361 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621332	biosamples_02.xml
+Church2025:YPM-IZ-110520	SAMN40621333	isolate	isolate	YPM-IZ-110520	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621333	biosamples_02.xml
+Church2025:YPM-IZ-110520	SAMN40621333	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621333	biosamples_02.xml
+Church2025:YPM-IZ-110520	SAMN40621333	collection_date	collection_date	2023-02-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621333	biosamples_02.xml
+Church2025:YPM-IZ-110520	SAMN40621333	geo_loc_name	geo_loc_name	Australia: New South Wales	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621333	biosamples_02.xml
+Church2025:YPM-IZ-110520	SAMN40621333	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621333	biosamples_02.xml
+Church2025:YPM-IZ-110520	SAMN40621333	lat_lon	lat_lon	33.947500 S 151.257361 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621333	biosamples_02.xml
+Church2025:YPM-IZ-110526	SAMN40621334	isolate	isolate	YPM-IZ-110526	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621334	biosamples_02.xml
+Church2025:YPM-IZ-110526	SAMN40621334	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621334	biosamples_02.xml
+Church2025:YPM-IZ-110526	SAMN40621334	collection_date	collection_date	2023-04-23	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621334	biosamples_02.xml
+Church2025:YPM-IZ-110526	SAMN40621334	geo_loc_name	geo_loc_name	Australia: New South Wales	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621334	biosamples_02.xml
+Church2025:YPM-IZ-110526	SAMN40621334	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621334	biosamples_02.xml
+Church2025:YPM-IZ-110526	SAMN40621334	lat_lon	lat_lon	33.947500 S 151.257361 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621334	biosamples_02.xml
+Church2025:YPM-IZ-110556	SAMN40621335	isolate	isolate	YPM-IZ-110556	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621335	biosamples_02.xml
+Church2025:YPM-IZ-110556	SAMN40621335	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621335	biosamples_02.xml
+Church2025:YPM-IZ-110556	SAMN40621335	collection_date	collection_date	2022-12-25	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621335	biosamples_02.xml
+Church2025:YPM-IZ-110556	SAMN40621335	geo_loc_name	geo_loc_name	Australia: Tasmania	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621335	biosamples_02.xml
+Church2025:YPM-IZ-110556	SAMN40621335	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621335	biosamples_02.xml
+Church2025:YPM-IZ-110556	SAMN40621335	lat_lon	lat_lon	41.996839 S 148.284729 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621335	biosamples_02.xml
+Church2025:YPM-IZ-110557	SAMN40621336	isolate	isolate	YPM-IZ-110557	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621336	biosamples_02.xml
+Church2025:YPM-IZ-110557	SAMN40621336	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621336	biosamples_02.xml
+Church2025:YPM-IZ-110557	SAMN40621336	collection_date	collection_date	2022-12-25	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621336	biosamples_02.xml
+Church2025:YPM-IZ-110557	SAMN40621336	geo_loc_name	geo_loc_name	Australia: Tasmania	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621336	biosamples_02.xml
+Church2025:YPM-IZ-110557	SAMN40621336	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621336	biosamples_02.xml
+Church2025:YPM-IZ-110557	SAMN40621336	lat_lon	lat_lon	41.996839 S 148.284729 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621336	biosamples_02.xml
+Church2025:YPM-IZ-110558	SAMN40621337	isolate	isolate	YPM-IZ-110558	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621337	biosamples_02.xml
+Church2025:YPM-IZ-110558	SAMN40621337	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621337	biosamples_02.xml
+Church2025:YPM-IZ-110558	SAMN40621337	collection_date	collection_date	2022-12-25	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621337	biosamples_02.xml
+Church2025:YPM-IZ-110558	SAMN40621337	geo_loc_name	geo_loc_name	Australia: Tasmania	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621337	biosamples_02.xml
+Church2025:YPM-IZ-110558	SAMN40621337	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621337	biosamples_02.xml
+Church2025:YPM-IZ-110558	SAMN40621337	lat_lon	lat_lon	41.996839 S 148.284729 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621337	biosamples_02.xml
+Church2025:YPM-IZ-110566	SAMN40621338	isolate	isolate	YPM-IZ-110566	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621338	biosamples_02.xml
+Church2025:YPM-IZ-110566	SAMN40621338	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621338	biosamples_02.xml
+Church2025:YPM-IZ-110566	SAMN40621338	collection_date	collection_date	2022-01-24	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621338	biosamples_02.xml
+Church2025:YPM-IZ-110566	SAMN40621338	geo_loc_name	geo_loc_name	Guam	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621338	biosamples_02.xml
+Church2025:YPM-IZ-110566	SAMN40621338	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621338	biosamples_02.xml
+Church2025:YPM-IZ-110566	SAMN40621338	lat_lon	lat_lon	13.605463 N 144.907196 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621338	biosamples_02.xml
+Church2025:YPM-IZ-110569	SAMN40621339	isolate	isolate	YPM-IZ-110569	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621339	biosamples_02.xml
+Church2025:YPM-IZ-110569	SAMN40621339	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621339	biosamples_02.xml
+Church2025:YPM-IZ-110569	SAMN40621339	collection_date	collection_date	2022-01-27	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621339	biosamples_02.xml
+Church2025:YPM-IZ-110569	SAMN40621339	geo_loc_name	geo_loc_name	Guam	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621339	biosamples_02.xml
+Church2025:YPM-IZ-110569	SAMN40621339	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621339	biosamples_02.xml
+Church2025:YPM-IZ-110569	SAMN40621339	lat_lon	lat_lon	13.427664 N 144.801336 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621339	biosamples_02.xml
+Church2025:YPM-IZ-110600	SAMN40621340	isolate	isolate	YPM-IZ-110600	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621340	biosamples_02.xml
+Church2025:YPM-IZ-110600	SAMN40621340	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621340	biosamples_02.xml
+Church2025:YPM-IZ-110600	SAMN40621340	collection_date	collection_date	2023-04-27	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621340	biosamples_02.xml
+Church2025:YPM-IZ-110600	SAMN40621340	geo_loc_name	geo_loc_name	Guam	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621340	biosamples_02.xml
+Church2025:YPM-IZ-110600	SAMN40621340	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621340	biosamples_02.xml
+Church2025:YPM-IZ-110600	SAMN40621340	lat_lon	lat_lon	13.372435 N 144.773357 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621340	biosamples_02.xml
+Church2025:YPM-IZ-110602	SAMN40621341	isolate	isolate	YPM-IZ-110602	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621341	biosamples_02.xml
+Church2025:YPM-IZ-110602	SAMN40621341	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621341	biosamples_02.xml
+Church2025:YPM-IZ-110602	SAMN40621341	collection_date	collection_date	2023-04-27	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621341	biosamples_02.xml
+Church2025:YPM-IZ-110602	SAMN40621341	geo_loc_name	geo_loc_name	Guam	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621341	biosamples_02.xml
+Church2025:YPM-IZ-110602	SAMN40621341	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621341	biosamples_02.xml
+Church2025:YPM-IZ-110602	SAMN40621341	lat_lon	lat_lon	13.372435 N 144.773357 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621341	biosamples_02.xml
+Church2025:YPM-IZ-110605	SAMN40621342	isolate	isolate	YPM-IZ-110605	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621342	biosamples_03.xml
+Church2025:YPM-IZ-110605	SAMN40621342	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621342	biosamples_03.xml
+Church2025:YPM-IZ-110605	SAMN40621342	collection_date	collection_date	2023-02-03	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621342	biosamples_03.xml
+Church2025:YPM-IZ-110605	SAMN40621342	geo_loc_name	geo_loc_name	Australia: Queensland	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621342	biosamples_03.xml
+Church2025:YPM-IZ-110605	SAMN40621342	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621342	biosamples_03.xml
+Church2025:YPM-IZ-110605	SAMN40621342	lat_lon	lat_lon	28.089089 S 153.453921 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621342	biosamples_03.xml
+Church2025:YPM-IZ-110612	SAMN40621343	isolate	isolate	YPM-IZ-110612	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621343	biosamples_03.xml
+Church2025:YPM-IZ-110612	SAMN40621343	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621343	biosamples_03.xml
+Church2025:YPM-IZ-110612	SAMN40621343	collection_date	collection_date	2023-03-26	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621343	biosamples_03.xml
+Church2025:YPM-IZ-110612	SAMN40621343	geo_loc_name	geo_loc_name	Australia: New South Wales	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621343	biosamples_03.xml
+Church2025:YPM-IZ-110612	SAMN40621343	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621343	biosamples_03.xml
+Church2025:YPM-IZ-110612	SAMN40621343	lat_lon	lat_lon	30.745087 S 152.995494 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621343	biosamples_03.xml
+Church2025:YPM-IZ-110613	SAMN40621344	isolate	isolate	YPM-IZ-110613	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621344	biosamples_03.xml
+Church2025:YPM-IZ-110613	SAMN40621344	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621344	biosamples_03.xml
+Church2025:YPM-IZ-110613	SAMN40621344	collection_date	collection_date	2023-03-26	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621344	biosamples_03.xml
+Church2025:YPM-IZ-110613	SAMN40621344	geo_loc_name	geo_loc_name	Australia: New South Wales	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621344	biosamples_03.xml
+Church2025:YPM-IZ-110613	SAMN40621344	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621344	biosamples_03.xml
+Church2025:YPM-IZ-110613	SAMN40621344	lat_lon	lat_lon	30.745087 S 152.995494 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621344	biosamples_03.xml
+Church2025:YPM-IZ-110616	SAMN40621345	isolate	isolate	YPM-IZ-110616	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621345	biosamples_03.xml
+Church2025:YPM-IZ-110616	SAMN40621345	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621345	biosamples_03.xml
+Church2025:YPM-IZ-110616	SAMN40621345	collection_date	collection_date	2023-03-26	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621345	biosamples_03.xml
+Church2025:YPM-IZ-110616	SAMN40621345	geo_loc_name	geo_loc_name	Australia: New South Wales	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621345	biosamples_03.xml
+Church2025:YPM-IZ-110616	SAMN40621345	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621345	biosamples_03.xml
+Church2025:YPM-IZ-110616	SAMN40621345	lat_lon	lat_lon	30.881192 S 153.035604 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621345	biosamples_03.xml
+Church2025:YPM-IZ-110631	SAMN40621346	isolate	isolate	YPM-IZ-110631	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621346	biosamples_03.xml
+Church2025:YPM-IZ-110631	SAMN40621346	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621346	biosamples_03.xml
+Church2025:YPM-IZ-110631	SAMN40621346	collection_date	collection_date	2023-07-14	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621346	biosamples_03.xml
+Church2025:YPM-IZ-110631	SAMN40621346	geo_loc_name	geo_loc_name	USA: Rhode Island	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621346	biosamples_03.xml
+Church2025:YPM-IZ-110631	SAMN40621346	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621346	biosamples_03.xml
+Church2025:YPM-IZ-110631	SAMN40621346	lat_lon	lat_lon	41.346250 N 71.678310 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621346	biosamples_03.xml
+Church2025:YPM-IZ-110633	SAMN40621347	isolate	isolate	YPM-IZ-110633	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621347	biosamples_03.xml
+Church2025:YPM-IZ-110633	SAMN40621347	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621347	biosamples_03.xml
+Church2025:YPM-IZ-110633	SAMN40621347	collection_date	collection_date	2023-07-15	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621347	biosamples_03.xml
+Church2025:YPM-IZ-110633	SAMN40621347	geo_loc_name	geo_loc_name	USA: Rhode Island	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621347	biosamples_03.xml
+Church2025:YPM-IZ-110633	SAMN40621347	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621347	biosamples_03.xml
+Church2025:YPM-IZ-110633	SAMN40621347	lat_lon	lat_lon	41.377020 N 71.527820 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621347	biosamples_03.xml
+Church2025:YPM-IZ-110667	SAMN40621348	isolate	isolate	YPM-IZ-110667	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621348	biosamples_03.xml
+Church2025:YPM-IZ-110667	SAMN40621348	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621348	biosamples_03.xml
+Church2025:YPM-IZ-110667	SAMN40621348	collection_date	collection_date	2023-07-20	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621348	biosamples_03.xml
+Church2025:YPM-IZ-110667	SAMN40621348	geo_loc_name	geo_loc_name	USA: New York	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621348	biosamples_03.xml
+Church2025:YPM-IZ-110667	SAMN40621348	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621348	biosamples_03.xml
+Church2025:YPM-IZ-110667	SAMN40621348	lat_lon	lat_lon	40.857420 N 71.779920 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621348	biosamples_03.xml
+Church2025:YPM-IZ-110694	SAMN40621349	isolate	isolate	YPM-IZ-110694	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621349	biosamples_03.xml
+Church2025:YPM-IZ-110694	SAMN40621349	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621349	biosamples_03.xml
+Church2025:YPM-IZ-110694	SAMN40621349	collection_date	collection_date	2023-07-26	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621349	biosamples_03.xml
+Church2025:YPM-IZ-110694	SAMN40621349	geo_loc_name	geo_loc_name	USA: Massachusetts	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621349	biosamples_03.xml
+Church2025:YPM-IZ-110694	SAMN40621349	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621349	biosamples_03.xml
+Church2025:YPM-IZ-110694	SAMN40621349	lat_lon	lat_lon	41.344990 N 70.836797 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621349	biosamples_03.xml
+Church2025:YPM-IZ-110716	SAMN40621350	isolate	isolate	YPM-IZ-110716	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621350	biosamples_03.xml
+Church2025:YPM-IZ-110716	SAMN40621350	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621350	biosamples_03.xml
+Church2025:YPM-IZ-110716	SAMN40621350	collection_date	collection_date	2013-04-02	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621350	biosamples_03.xml
+Church2025:YPM-IZ-110716	SAMN40621350	geo_loc_name	geo_loc_name	Spain	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621350	biosamples_03.xml
+Church2025:YPM-IZ-110716	SAMN40621350	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621350	biosamples_03.xml
+Church2025:YPM-IZ-110716	SAMN40621350	lat_lon	lat_lon	36.458090 N 6.252680 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621350	biosamples_03.xml
+Church2025:YPM-IZ-110726	SAMN40621351	isolate	isolate	YPM-IZ-110726	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621351	biosamples_03.xml
+Church2025:YPM-IZ-110726	SAMN40621351	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621351	biosamples_03.xml
+Church2025:YPM-IZ-110726	SAMN40621351	collection_date	collection_date	2013-04-02	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621351	biosamples_03.xml
+Church2025:YPM-IZ-110726	SAMN40621351	geo_loc_name	geo_loc_name	Spain	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621351	biosamples_03.xml
+Church2025:YPM-IZ-110726	SAMN40621351	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621351	biosamples_03.xml
+Church2025:YPM-IZ-110726	SAMN40621351	lat_lon	lat_lon	36.458090 N 6.252680 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621351	biosamples_03.xml
+Church2025:YPM-IZ-110738	SAMN40621352	isolate	isolate	YPM-IZ-110738	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621352	biosamples_03.xml
+Church2025:YPM-IZ-110738	SAMN40621352	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621352	biosamples_03.xml
+Church2025:YPM-IZ-110738	SAMN40621352	collection_date	collection_date	2013-04-02	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621352	biosamples_03.xml
+Church2025:YPM-IZ-110738	SAMN40621352	geo_loc_name	geo_loc_name	Spain	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621352	biosamples_03.xml
+Church2025:YPM-IZ-110738	SAMN40621352	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621352	biosamples_03.xml
+Church2025:YPM-IZ-110738	SAMN40621352	lat_lon	lat_lon	36.458090 N 6.252680 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621352	biosamples_03.xml
+Church2025:YPM-IZ-110777	SAMN40621353	isolate	isolate	YPM-IZ-110777	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621353	biosamples_03.xml
+Church2025:YPM-IZ-110777	SAMN40621353	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621353	biosamples_03.xml
+Church2025:YPM-IZ-110777	SAMN40621353	collection_date	collection_date	2023-07-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621353	biosamples_03.xml
+Church2025:YPM-IZ-110777	SAMN40621353	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621353	biosamples_03.xml
+Church2025:YPM-IZ-110777	SAMN40621353	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621353	biosamples_03.xml
+Church2025:YPM-IZ-110777	SAMN40621353	lat_lon	lat_lon	21.400790 N 157.734500 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621353	biosamples_03.xml
+Church2025:YPM-IZ-110780	SAMN40621354	isolate	isolate	YPM-IZ-110780	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621354	biosamples_03.xml
+Church2025:YPM-IZ-110780	SAMN40621354	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621354	biosamples_03.xml
+Church2025:YPM-IZ-110780	SAMN40621354	collection_date	collection_date	2023-07-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621354	biosamples_03.xml
+Church2025:YPM-IZ-110780	SAMN40621354	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621354	biosamples_03.xml
+Church2025:YPM-IZ-110780	SAMN40621354	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621354	biosamples_03.xml
+Church2025:YPM-IZ-110780	SAMN40621354	lat_lon	lat_lon	21.400790 N 157.734500 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621354	biosamples_03.xml
+Church2025:YPM-IZ-110785	SAMN40621355	isolate	isolate	YPM-IZ-110785	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621355	biosamples_03.xml
+Church2025:YPM-IZ-110785	SAMN40621355	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621355	biosamples_03.xml
+Church2025:YPM-IZ-110785	SAMN40621355	collection_date	collection_date	2023-07-21	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621355	biosamples_03.xml
+Church2025:YPM-IZ-110785	SAMN40621355	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621355	biosamples_03.xml
+Church2025:YPM-IZ-110785	SAMN40621355	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621355	biosamples_03.xml
+Church2025:YPM-IZ-110785	SAMN40621355	lat_lon	lat_lon	21.400790 N 157.734500 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621355	biosamples_03.xml
+Church2025:YPM-IZ-110786	SAMN40621356	isolate	isolate	YPM-IZ-110786	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621356	biosamples_03.xml
+Church2025:YPM-IZ-110786	SAMN40621356	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621356	biosamples_03.xml
+Church2025:YPM-IZ-110786	SAMN40621356	collection_date	collection_date	2023-07-28	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621356	biosamples_03.xml
+Church2025:YPM-IZ-110786	SAMN40621356	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621356	biosamples_03.xml
+Church2025:YPM-IZ-110786	SAMN40621356	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621356	biosamples_03.xml
+Church2025:YPM-IZ-110786	SAMN40621356	lat_lon	lat_lon	21.400790 N 157.734500 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621356	biosamples_03.xml
+Church2025:YPM-IZ-110828	SAMN40621357	isolate	isolate	YPM-IZ-110828	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621357	biosamples_03.xml
+Church2025:YPM-IZ-110828	SAMN40621357	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621357	biosamples_03.xml
+Church2025:YPM-IZ-110828	SAMN40621357	collection_date	collection_date	2023-07-12	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621357	biosamples_03.xml
+Church2025:YPM-IZ-110828	SAMN40621357	geo_loc_name	geo_loc_name	Chile	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621357	biosamples_03.xml
+Church2025:YPM-IZ-110828	SAMN40621357	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621357	biosamples_03.xml
+Church2025:YPM-IZ-110828	SAMN40621357	lat_lon	lat_lon	29.972700 S 71.360900 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621357	biosamples_03.xml
+Church2025:YPM-IZ-110829	SAMN40621358	isolate	isolate	YPM-IZ-110829	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621358	biosamples_03.xml
+Church2025:YPM-IZ-110829	SAMN40621358	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621358	biosamples_03.xml
+Church2025:YPM-IZ-110829	SAMN40621358	collection_date	collection_date	2023-07-13	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621358	biosamples_03.xml
+Church2025:YPM-IZ-110829	SAMN40621358	geo_loc_name	geo_loc_name	Chile	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621358	biosamples_03.xml
+Church2025:YPM-IZ-110829	SAMN40621358	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621358	biosamples_03.xml
+Church2025:YPM-IZ-110829	SAMN40621358	lat_lon	lat_lon	29.972700 S 71.360900 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621358	biosamples_03.xml
+Church2025:YPM-IZ-110830	SAMN40621359	isolate	isolate	YPM-IZ-110830	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621359	biosamples_03.xml
+Church2025:YPM-IZ-110830	SAMN40621359	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621359	biosamples_03.xml
+Church2025:YPM-IZ-110830	SAMN40621359	collection_date	collection_date	2014-02-28	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621359	biosamples_03.xml
+Church2025:YPM-IZ-110830	SAMN40621359	geo_loc_name	geo_loc_name	Uruguay	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621359	biosamples_03.xml
+Church2025:YPM-IZ-110830	SAMN40621359	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621359	biosamples_03.xml
+Church2025:YPM-IZ-110830	SAMN40621359	lat_lon	lat_lon	33.751600 S 53.380100 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621359	biosamples_03.xml
+Church2025:YPM-IZ-110842	SAMN40621360	isolate	isolate	YPM-IZ-110842	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621360	biosamples_03.xml
+Church2025:YPM-IZ-110842	SAMN40621360	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621360	biosamples_03.xml
+Church2025:YPM-IZ-110842	SAMN40621360	collection_date	collection_date	2019-07-18	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621360	biosamples_03.xml
+Church2025:YPM-IZ-110842	SAMN40621360	geo_loc_name	geo_loc_name	Portugal: Azores	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621360	biosamples_03.xml
+Church2025:YPM-IZ-110842	SAMN40621360	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621360	biosamples_03.xml
+Church2025:YPM-IZ-110842	SAMN40621360	lat_lon	lat_lon	38.524769 N 28.625946 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621360	biosamples_03.xml
+Church2025:YPM-IZ-110843	SAMN40621361	isolate	isolate	YPM-IZ-110843	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621361	biosamples_03.xml
+Church2025:YPM-IZ-110843	SAMN40621361	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621361	biosamples_03.xml
+Church2025:YPM-IZ-110843	SAMN40621361	collection_date	collection_date	2020-05-22	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621361	biosamples_03.xml
+Church2025:YPM-IZ-110843	SAMN40621361	geo_loc_name	geo_loc_name	Portugal: Azores	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621361	biosamples_03.xml
+Church2025:YPM-IZ-110843	SAMN40621361	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621361	biosamples_03.xml
+Church2025:YPM-IZ-110843	SAMN40621361	lat_lon	lat_lon	37.818604 N 25.543635 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621361	biosamples_03.xml
+Church2025:YPM-IZ-110844	SAMN40621362	isolate	isolate	YPM-IZ-110844	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621362	biosamples_03.xml
+Church2025:YPM-IZ-110844	SAMN40621362	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621362	biosamples_03.xml
+Church2025:YPM-IZ-110844	SAMN40621362	collection_date	collection_date	2019-11-29	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621362	biosamples_03.xml
+Church2025:YPM-IZ-110844	SAMN40621362	geo_loc_name	geo_loc_name	Portugal: Azores	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621362	biosamples_03.xml
+Church2025:YPM-IZ-110844	SAMN40621362	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621362	biosamples_03.xml
+Church2025:YPM-IZ-110844	SAMN40621362	lat_lon	lat_lon	38.524769 N 28.625946 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621362	biosamples_03.xml
+Church2025:YPM-IZ-110845	SAMN40621363	isolate	isolate	YPM-IZ-110845	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621363	biosamples_03.xml
+Church2025:YPM-IZ-110845	SAMN40621363	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621363	biosamples_03.xml
+Church2025:YPM-IZ-110845	SAMN40621363	collection_date	collection_date	2020-08-17	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621363	biosamples_03.xml
+Church2025:YPM-IZ-110845	SAMN40621363	geo_loc_name	geo_loc_name	Portugal: Azores	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621363	biosamples_03.xml
+Church2025:YPM-IZ-110845	SAMN40621363	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621363	biosamples_03.xml
+Church2025:YPM-IZ-110845	SAMN40621363	lat_lon	lat_lon	37.750488 N 25.624447 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621363	biosamples_03.xml
+Church2025:YPM-IZ-110846	SAMN40621364	isolate	isolate	YPM-IZ-110846	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621364	biosamples_03.xml
+Church2025:YPM-IZ-110846	SAMN40621364	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621364	biosamples_03.xml
+Church2025:YPM-IZ-110846	SAMN40621364	collection_date	collection_date	2020-07-10	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621364	biosamples_03.xml
+Church2025:YPM-IZ-110846	SAMN40621364	geo_loc_name	geo_loc_name	Portugal: Azores	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621364	biosamples_03.xml
+Church2025:YPM-IZ-110846	SAMN40621364	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621364	biosamples_03.xml
+Church2025:YPM-IZ-110846	SAMN40621364	lat_lon	lat_lon	38.523756 N 28.623767 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621364	biosamples_03.xml
+Church2025:YPM-IZ-110847	SAMN40621365	isolate	isolate	YPM-IZ-110847	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621365	biosamples_03.xml
+Church2025:YPM-IZ-110847	SAMN40621365	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621365	biosamples_03.xml
+Church2025:YPM-IZ-110847	SAMN40621365	collection_date	collection_date	2020-07-15	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621365	biosamples_03.xml
+Church2025:YPM-IZ-110847	SAMN40621365	geo_loc_name	geo_loc_name	Portugal: Azores	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621365	biosamples_03.xml
+Church2025:YPM-IZ-110847	SAMN40621365	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621365	biosamples_03.xml
+Church2025:YPM-IZ-110847	SAMN40621365	lat_lon	lat_lon	38.542865 N 28.618676 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621365	biosamples_03.xml
+Church2025:YPM-IZ-110876	SAMN40621366	isolate	isolate	YPM-IZ-110876	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621366	biosamples_03.xml
+Church2025:YPM-IZ-110876	SAMN40621366	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621366	biosamples_03.xml
+Church2025:YPM-IZ-110876	SAMN40621366	collection_date	collection_date	2017-03-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621366	biosamples_03.xml
+Church2025:YPM-IZ-110876	SAMN40621366	geo_loc_name	geo_loc_name	USA: Texas	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621366	biosamples_03.xml
+Church2025:YPM-IZ-110876	SAMN40621366	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621366	biosamples_03.xml
+Church2025:YPM-IZ-110876	SAMN40621366	lat_lon	lat_lon	29.260000 N 94.840000 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621366	biosamples_03.xml
+Church2025:YPM-IZ-110877	SAMN40621367	isolate	isolate	YPM-IZ-110877	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621367	biosamples_03.xml
+Church2025:YPM-IZ-110877	SAMN40621367	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621367	biosamples_03.xml
+Church2025:YPM-IZ-110877	SAMN40621367	collection_date	collection_date	2007-06-06	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621367	biosamples_03.xml
+Church2025:YPM-IZ-110877	SAMN40621367	geo_loc_name	geo_loc_name	Mexico	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621367	biosamples_03.xml
+Church2025:YPM-IZ-110877	SAMN40621367	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621367	biosamples_03.xml
+Church2025:YPM-IZ-110877	SAMN40621367	lat_lon	lat_lon	27.245000 N 111.500000 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621367	biosamples_03.xml
+Church2025:YPM-IZ-110878	SAMN40621368	isolate	isolate	YPM-IZ-110878	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621368	biosamples_03.xml
+Church2025:YPM-IZ-110878	SAMN40621368	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621368	biosamples_03.xml
+Church2025:YPM-IZ-110878	SAMN40621368	collection_date	collection_date	2006-06-09	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621368	biosamples_03.xml
+Church2025:YPM-IZ-110878	SAMN40621368	geo_loc_name	geo_loc_name	Mexico	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621368	biosamples_03.xml
+Church2025:YPM-IZ-110878	SAMN40621368	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621368	biosamples_03.xml
+Church2025:YPM-IZ-110878	SAMN40621368	lat_lon	lat_lon	27.326667 N 111.480000 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621368	biosamples_03.xml
+Church2025:YPM-IZ-110880	SAMN40621369	isolate	isolate	YPM-IZ-110880	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621369	biosamples_03.xml
+Church2025:YPM-IZ-110880	SAMN40621369	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621369	biosamples_03.xml
+Church2025:YPM-IZ-110880	SAMN40621369	collection_date	collection_date	2023-08-23	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621369	biosamples_03.xml
+Church2025:YPM-IZ-110880	SAMN40621369	geo_loc_name	geo_loc_name	USA: Rhode Island	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621369	biosamples_03.xml
+Church2025:YPM-IZ-110880	SAMN40621369	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621369	biosamples_03.xml
+Church2025:YPM-IZ-110880	SAMN40621369	lat_lon	lat_lon	41.149290 N 71.481140 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621369	biosamples_03.xml
+Church2025:YPM-IZ-110881	SAMN40621370	isolate	isolate	YPM-IZ-110881	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621370	biosamples_03.xml
+Church2025:YPM-IZ-110881	SAMN40621370	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621370	biosamples_03.xml
+Church2025:YPM-IZ-110881	SAMN40621370	collection_date	collection_date	2023-04-10	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621370	biosamples_03.xml
+Church2025:YPM-IZ-110881	SAMN40621370	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621370	biosamples_03.xml
+Church2025:YPM-IZ-110881	SAMN40621370	tissue	tissue	whole body	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621370	biosamples_03.xml
+Church2025:YPM-IZ-110881	SAMN40621370	dev_stage	dev_stage	juvenile	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621370	biosamples_03.xml
+Church2025:YPM-IZ-110881	SAMN40621370	lat_lon	lat_lon	19.666667 N 156.083333 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621370	biosamples_03.xml
+Church2025:YPM-IZ-110882	SAMN40621371	isolate	isolate	YPM-IZ-110882	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621371	biosamples_03.xml
+Church2025:YPM-IZ-110882	SAMN40621371	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621371	biosamples_03.xml
+Church2025:YPM-IZ-110882	SAMN40621371	collection_date	collection_date	2023-04-10	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621371	biosamples_03.xml
+Church2025:YPM-IZ-110882	SAMN40621371	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621371	biosamples_03.xml
+Church2025:YPM-IZ-110882	SAMN40621371	tissue	tissue	whole body	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621371	biosamples_03.xml
+Church2025:YPM-IZ-110882	SAMN40621371	dev_stage	dev_stage	juvenile	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621371	biosamples_03.xml
+Church2025:YPM-IZ-110882	SAMN40621371	lat_lon	lat_lon	19.666667 N 156.083333 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621371	biosamples_03.xml
+Church2025:YPM-IZ-110883	SAMN40621372	isolate	isolate	YPM-IZ-110883	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621372	biosamples_03.xml
+Church2025:YPM-IZ-110883	SAMN40621372	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621372	biosamples_03.xml
+Church2025:YPM-IZ-110883	SAMN40621372	collection_date	collection_date	2023-04-10	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621372	biosamples_03.xml
+Church2025:YPM-IZ-110883	SAMN40621372	geo_loc_name	geo_loc_name	USA: Hawai'i	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621372	biosamples_03.xml
+Church2025:YPM-IZ-110883	SAMN40621372	tissue	tissue	whole body	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621372	biosamples_03.xml
+Church2025:YPM-IZ-110883	SAMN40621372	dev_stage	dev_stage	juvenile	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621372	biosamples_03.xml
+Church2025:YPM-IZ-110883	SAMN40621372	lat_lon	lat_lon	19.666667 N 156.083333 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621372	biosamples_03.xml
+Church2025:YPM-IZ-110906	SAMN40621373	isolate	isolate	YPM-IZ-110906	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621373	biosamples_03.xml
+Church2025:YPM-IZ-110906	SAMN40621373	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621373	biosamples_03.xml
+Church2025:YPM-IZ-110906	SAMN40621373	collection_date	collection_date	2023-08-23	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621373	biosamples_03.xml
+Church2025:YPM-IZ-110906	SAMN40621373	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621373	biosamples_03.xml
+Church2025:YPM-IZ-110906	SAMN40621373	tissue	tissue	zooid	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621373	biosamples_03.xml
+Church2025:YPM-IZ-110906	SAMN40621373	dev_stage	dev_stage	juvenile	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621373	biosamples_03.xml
+Church2025:YPM-IZ-110906	SAMN40621373	lat_lon	lat_lon	26.723056 N 164.766667 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621373	biosamples_03.xml
+Church2025:YPM-IZ-110907	SAMN40621374	isolate	isolate	YPM-IZ-110907	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621374	biosamples_03.xml
+Church2025:YPM-IZ-110907	SAMN40621374	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621374	biosamples_03.xml
+Church2025:YPM-IZ-110907	SAMN40621374	collection_date	collection_date	2023-08-22	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621374	biosamples_03.xml
+Church2025:YPM-IZ-110907	SAMN40621374	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621374	biosamples_03.xml
+Church2025:YPM-IZ-110907	SAMN40621374	tissue	tissue	zooid	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621374	biosamples_03.xml
+Church2025:YPM-IZ-110907	SAMN40621374	dev_stage	dev_stage	juvenile	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621374	biosamples_03.xml
+Church2025:YPM-IZ-110907	SAMN40621374	lat_lon	lat_lon	26.080000 N 176.470000 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621374	biosamples_03.xml
+Church2025:YPM-IZ-110925	SAMN40621375	isolate	isolate	YPM-IZ-110925	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621375	biosamples_03.xml
+Church2025:YPM-IZ-110925	SAMN40621375	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621375	biosamples_03.xml
+Church2025:YPM-IZ-110925	SAMN40621375	collection_date	collection_date	2023-02-04	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621375	biosamples_03.xml
+Church2025:YPM-IZ-110925	SAMN40621375	geo_loc_name	geo_loc_name	Japan	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621375	biosamples_03.xml
+Church2025:YPM-IZ-110925	SAMN40621375	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621375	biosamples_03.xml
+Church2025:YPM-IZ-110925	SAMN40621375	lat_lon	lat_lon	28.404780 N 129.454826 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621375	biosamples_03.xml
+Church2025:YPM-IZ-110926	SAMN40621376	isolate	isolate	YPM-IZ-110926	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621376	biosamples_03.xml
+Church2025:YPM-IZ-110926	SAMN40621376	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621376	biosamples_03.xml
+Church2025:YPM-IZ-110926	SAMN40621376	collection_date	collection_date	2023-04-10	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621376	biosamples_03.xml
+Church2025:YPM-IZ-110926	SAMN40621376	geo_loc_name	geo_loc_name	Japan	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621376	biosamples_03.xml
+Church2025:YPM-IZ-110926	SAMN40621376	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621376	biosamples_03.xml
+Church2025:YPM-IZ-110926	SAMN40621376	lat_lon	lat_lon	35.309561 N 139.478820 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621376	biosamples_03.xml
+Church2025:YPM-IZ-110930	SAMN40621377	isolate	isolate	YPM-IZ-110930	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621377	biosamples_03.xml
+Church2025:YPM-IZ-110930	SAMN40621377	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621377	biosamples_03.xml
+Church2025:YPM-IZ-110930	SAMN40621377	collection_date	collection_date	2023-04-30	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621377	biosamples_03.xml
+Church2025:YPM-IZ-110930	SAMN40621377	geo_loc_name	geo_loc_name	Japan	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621377	biosamples_03.xml
+Church2025:YPM-IZ-110930	SAMN40621377	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621377	biosamples_03.xml
+Church2025:YPM-IZ-110930	SAMN40621377	lat_lon	lat_lon	35.309561 N 139.478820 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621377	biosamples_03.xml
+Church2025:YPM-IZ-110931	SAMN40621378	isolate	isolate	YPM-IZ-110931	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621378	biosamples_03.xml
+Church2025:YPM-IZ-110931	SAMN40621378	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621378	biosamples_03.xml
+Church2025:YPM-IZ-110931	SAMN40621378	collection_date	collection_date	2023-05-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621378	biosamples_03.xml
+Church2025:YPM-IZ-110931	SAMN40621378	geo_loc_name	geo_loc_name	Japan	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621378	biosamples_03.xml
+Church2025:YPM-IZ-110931	SAMN40621378	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621378	biosamples_03.xml
+Church2025:YPM-IZ-110931	SAMN40621378	lat_lon	lat_lon	35.309561 N 139.478820 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621378	biosamples_03.xml
+Church2025:YPM-IZ-110933	SAMN40621379	isolate	isolate	YPM-IZ-110933	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621379	biosamples_03.xml
+Church2025:YPM-IZ-110933	SAMN40621379	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621379	biosamples_03.xml
+Church2025:YPM-IZ-110933	SAMN40621379	collection_date	collection_date	2023-07-20	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621379	biosamples_03.xml
+Church2025:YPM-IZ-110933	SAMN40621379	geo_loc_name	geo_loc_name	Japan	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621379	biosamples_03.xml
+Church2025:YPM-IZ-110933	SAMN40621379	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621379	biosamples_03.xml
+Church2025:YPM-IZ-110933	SAMN40621379	lat_lon	lat_lon	35.309701 N 139.478831 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621379	biosamples_03.xml
+Church2025:YPM-IZ-110937	SAMN40621380	isolate	isolate	YPM-IZ-110937	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621380	biosamples_03.xml
+Church2025:YPM-IZ-110937	SAMN40621380	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621380	biosamples_03.xml
+Church2025:YPM-IZ-110937	SAMN40621380	collection_date	collection_date	2023-07-21	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621380	biosamples_03.xml
+Church2025:YPM-IZ-110937	SAMN40621380	geo_loc_name	geo_loc_name	Japan	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621380	biosamples_03.xml
+Church2025:YPM-IZ-110937	SAMN40621380	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621380	biosamples_03.xml
+Church2025:YPM-IZ-110937	SAMN40621380	lat_lon	lat_lon	35.309561 N 139.478820 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621380	biosamples_03.xml
+Church2025:YPM-IZ-110938	SAMN40621381	isolate	isolate	YPM-IZ-110938	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621381	biosamples_03.xml
+Church2025:YPM-IZ-110938	SAMN40621381	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621381	biosamples_03.xml
+Church2025:YPM-IZ-110938	SAMN40621381	collection_date	collection_date	2023-09-22	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621381	biosamples_03.xml
+Church2025:YPM-IZ-110938	SAMN40621381	geo_loc_name	geo_loc_name	Japan	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621381	biosamples_03.xml
+Church2025:YPM-IZ-110938	SAMN40621381	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621381	biosamples_03.xml
+Church2025:YPM-IZ-110938	SAMN40621381	lat_lon	lat_lon	35.309701 N 139.478831 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621381	biosamples_03.xml
+Church2025:YPM-IZ-110943	SAMN40621382	isolate	isolate	YPM-IZ-110943	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621382	biosamples_03.xml
+Church2025:YPM-IZ-110943	SAMN40621382	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621382	biosamples_03.xml
+Church2025:YPM-IZ-110943	SAMN40621382	collection_date	collection_date	2023-05-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621382	biosamples_03.xml
+Church2025:YPM-IZ-110943	SAMN40621382	geo_loc_name	geo_loc_name	Japan	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621382	biosamples_03.xml
+Church2025:YPM-IZ-110943	SAMN40621382	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621382	biosamples_03.xml
+Church2025:YPM-IZ-110943	SAMN40621382	lat_lon	lat_lon	35.134935 N 140.284606 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621382	biosamples_03.xml
+Church2025:YPM-IZ-110972	SAMN40621383	isolate	isolate	YPM-IZ-110972	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621383	biosamples_03.xml
+Church2025:YPM-IZ-110972	SAMN40621383	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621383	biosamples_03.xml
+Church2025:YPM-IZ-110972	SAMN40621383	collection_date	collection_date	2023-10-08	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621383	biosamples_03.xml
+Church2025:YPM-IZ-110972	SAMN40621383	geo_loc_name	geo_loc_name	Ireland	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621383	biosamples_03.xml
+Church2025:YPM-IZ-110972	SAMN40621383	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621383	biosamples_03.xml
+Church2025:YPM-IZ-110972	SAMN40621383	lat_lon	lat_lon	51.83707 N 10.19556 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621383	biosamples_03.xml
+Church2025:YPM-IZ-111006	SAMN40621384	isolate	isolate	YPM-IZ-111006	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621384	biosamples_03.xml
+Church2025:YPM-IZ-111006	SAMN40621384	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621384	biosamples_03.xml
+Church2025:YPM-IZ-111006	SAMN40621384	collection_date	collection_date	2023-08-08	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621384	biosamples_03.xml
+Church2025:YPM-IZ-111006	SAMN40621384	geo_loc_name	geo_loc_name	South Africa	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621384	biosamples_03.xml
+Church2025:YPM-IZ-111006	SAMN40621384	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621384	biosamples_03.xml
+Church2025:YPM-IZ-111006	SAMN40621384	lat_lon	lat_lon	27.539919 S 32.678650 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621384	biosamples_03.xml
+Church2025:YPM-IZ-111007	SAMN40621385	isolate	isolate	YPM-IZ-111007	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621385	biosamples_03.xml
+Church2025:YPM-IZ-111007	SAMN40621385	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621385	biosamples_03.xml
+Church2025:YPM-IZ-111007	SAMN40621385	collection_date	collection_date	2023-08-08	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621385	biosamples_03.xml
+Church2025:YPM-IZ-111007	SAMN40621385	geo_loc_name	geo_loc_name	South Africa	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621385	biosamples_03.xml
+Church2025:YPM-IZ-111007	SAMN40621385	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621385	biosamples_03.xml
+Church2025:YPM-IZ-111007	SAMN40621385	lat_lon	lat_lon	27.539919 S 32.678650 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621385	biosamples_03.xml
+Church2025:YPM-IZ-111008	SAMN40621386	isolate	isolate	YPM-IZ-111008	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621386	biosamples_03.xml
+Church2025:YPM-IZ-111008	SAMN40621386	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621386	biosamples_03.xml
+Church2025:YPM-IZ-111008	SAMN40621386	collection_date	collection_date	2023-08-08	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621386	biosamples_03.xml
+Church2025:YPM-IZ-111008	SAMN40621386	geo_loc_name	geo_loc_name	South Africa	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621386	biosamples_03.xml
+Church2025:YPM-IZ-111008	SAMN40621386	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621386	biosamples_03.xml
+Church2025:YPM-IZ-111008	SAMN40621386	lat_lon	lat_lon	27.539919 S 32.678650 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621386	biosamples_03.xml
+Church2025:YPM-IZ-111009	SAMN40621387	isolate	isolate	YPM-IZ-111009	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621387	biosamples_03.xml
+Church2025:YPM-IZ-111009	SAMN40621387	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621387	biosamples_03.xml
+Church2025:YPM-IZ-111009	SAMN40621387	collection_date	collection_date	2023-08-08	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621387	biosamples_03.xml
+Church2025:YPM-IZ-111009	SAMN40621387	geo_loc_name	geo_loc_name	South Africa	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621387	biosamples_03.xml
+Church2025:YPM-IZ-111009	SAMN40621387	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621387	biosamples_03.xml
+Church2025:YPM-IZ-111009	SAMN40621387	lat_lon	lat_lon	27.539919 S 32.678650 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621387	biosamples_03.xml
+Church2025:YPM-IZ-111010	SAMN40621388	isolate	isolate	YPM-IZ-111010	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621388	biosamples_03.xml
+Church2025:YPM-IZ-111010	SAMN40621388	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621388	biosamples_03.xml
+Church2025:YPM-IZ-111010	SAMN40621388	collection_date	collection_date	2023-08-08	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621388	biosamples_03.xml
+Church2025:YPM-IZ-111010	SAMN40621388	geo_loc_name	geo_loc_name	South Africa	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621388	biosamples_03.xml
+Church2025:YPM-IZ-111010	SAMN40621388	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621388	biosamples_03.xml
+Church2025:YPM-IZ-111010	SAMN40621388	lat_lon	lat_lon	27.539919 S 32.678650 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621388	biosamples_03.xml
+Church2025:YPM-IZ-111012	SAMN40621389	isolate	isolate	YPM-IZ-111012	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621389	biosamples_03.xml
+Church2025:YPM-IZ-111012	SAMN40621389	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621389	biosamples_03.xml
+Church2025:YPM-IZ-111012	SAMN40621389	collection_date	collection_date	2022-03-08	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621389	biosamples_03.xml
+Church2025:YPM-IZ-111012	SAMN40621389	geo_loc_name	geo_loc_name	Bermuda	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621389	biosamples_03.xml
+Church2025:YPM-IZ-111012	SAMN40621389	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621389	biosamples_03.xml
+Church2025:YPM-IZ-111013	SAMN40621390	isolate	isolate	YPM-IZ-111013	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621390	biosamples_03.xml
+Church2025:YPM-IZ-111013	SAMN40621390	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621390	biosamples_03.xml
+Church2025:YPM-IZ-111013	SAMN40621390	collection_date	collection_date	2022-03-08	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621390	biosamples_03.xml
+Church2025:YPM-IZ-111013	SAMN40621390	geo_loc_name	geo_loc_name	Bermuda	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621390	biosamples_03.xml
+Church2025:YPM-IZ-111013	SAMN40621390	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621390	biosamples_03.xml
+Church2025:YPM-IZ-111014	SAMN40621391	isolate	isolate	YPM-IZ-111014	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621391	biosamples_03.xml
+Church2025:YPM-IZ-111014	SAMN40621391	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621391	biosamples_03.xml
+Church2025:YPM-IZ-111014	SAMN40621391	collection_date	collection_date	2022-03-09	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621391	biosamples_03.xml
+Church2025:YPM-IZ-111014	SAMN40621391	geo_loc_name	geo_loc_name	Bermuda	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621391	biosamples_03.xml
+Church2025:YPM-IZ-111014	SAMN40621391	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621391	biosamples_03.xml
+Church2025:YPM-IZ-111016	SAMN40621392	isolate	isolate	YPM-IZ-111016	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621392	biosamples_04.xml
+Church2025:YPM-IZ-111016	SAMN40621392	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621392	biosamples_04.xml
+Church2025:YPM-IZ-111016	SAMN40621392	collection_date	collection_date	2022-03-09	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621392	biosamples_04.xml
+Church2025:YPM-IZ-111016	SAMN40621392	geo_loc_name	geo_loc_name	Bermuda	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621392	biosamples_04.xml
+Church2025:YPM-IZ-111016	SAMN40621392	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621392	biosamples_04.xml
+Church2025:YPM-IZ-111017	SAMN40621393	isolate	isolate	YPM-IZ-111017	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621393	biosamples_04.xml
+Church2025:YPM-IZ-111017	SAMN40621393	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621393	biosamples_04.xml
+Church2025:YPM-IZ-111017	SAMN40621393	collection_date	collection_date	2022-03-09	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621393	biosamples_04.xml
+Church2025:YPM-IZ-111017	SAMN40621393	geo_loc_name	geo_loc_name	Bermuda	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621393	biosamples_04.xml
+Church2025:YPM-IZ-111017	SAMN40621393	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621393	biosamples_04.xml
+Church2025:YPM-IZ-111018	SAMN40621394	isolate	isolate	YPM-IZ-111018	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621394	biosamples_04.xml
+Church2025:YPM-IZ-111018	SAMN40621394	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621394	biosamples_04.xml
+Church2025:YPM-IZ-111018	SAMN40621394	collection_date	collection_date	2022-03-09	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621394	biosamples_04.xml
+Church2025:YPM-IZ-111018	SAMN40621394	geo_loc_name	geo_loc_name	Bermuda	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621394	biosamples_04.xml
+Church2025:YPM-IZ-111018	SAMN40621394	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN40621394	biosamples_04.xml
+Church2025:YPM-IZ-111156	SAMN41900818	isolate	isolate	YPM-IZ-111156	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900818	biosamples_04.xml
+Church2025:YPM-IZ-111156	SAMN41900818	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900818	biosamples_04.xml
+Church2025:YPM-IZ-111156	SAMN41900818	collection_date	collection_date	2023-10-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900818	biosamples_04.xml
+Church2025:YPM-IZ-111156	SAMN41900818	geo_loc_name	geo_loc_name	Tasman Sea	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900818	biosamples_04.xml
+Church2025:YPM-IZ-111156	SAMN41900818	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900818	biosamples_04.xml
+Church2025:YPM-IZ-111156	SAMN41900818	lat_lon	lat_lon	35.747000 S 154.330000 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900818	biosamples_04.xml
+Church2025:YPM-IZ-111157	SAMN41900819	isolate	isolate	YPM-IZ-111157	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900819	biosamples_04.xml
+Church2025:YPM-IZ-111157	SAMN41900819	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900819	biosamples_04.xml
+Church2025:YPM-IZ-111157	SAMN41900819	collection_date	collection_date	2023-10-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900819	biosamples_04.xml
+Church2025:YPM-IZ-111157	SAMN41900819	geo_loc_name	geo_loc_name	Tasman Sea	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900819	biosamples_04.xml
+Church2025:YPM-IZ-111157	SAMN41900819	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900819	biosamples_04.xml
+Church2025:YPM-IZ-111157	SAMN41900819	lat_lon	lat_lon	35.747000 S 154.330000 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900819	biosamples_04.xml
+Church2025:YPM-IZ-111158	SAMN41900820	isolate	isolate	YPM-IZ-111158	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900820	biosamples_04.xml
+Church2025:YPM-IZ-111158	SAMN41900820	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900820	biosamples_04.xml
+Church2025:YPM-IZ-111158	SAMN41900820	collection_date	collection_date	2023-10-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900820	biosamples_04.xml
+Church2025:YPM-IZ-111158	SAMN41900820	geo_loc_name	geo_loc_name	Tasman Sea	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900820	biosamples_04.xml
+Church2025:YPM-IZ-111158	SAMN41900820	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900820	biosamples_04.xml
+Church2025:YPM-IZ-111158	SAMN41900820	lat_lon	lat_lon	35.747000 S 154.330000 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900820	biosamples_04.xml
+Church2025:YPM-IZ-111159	SAMN41900821	isolate	isolate	YPM-IZ-111159	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900821	biosamples_04.xml
+Church2025:YPM-IZ-111159	SAMN41900821	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900821	biosamples_04.xml
+Church2025:YPM-IZ-111159	SAMN41900821	collection_date	collection_date	2023-10-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900821	biosamples_04.xml
+Church2025:YPM-IZ-111159	SAMN41900821	geo_loc_name	geo_loc_name	Tasman Sea	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900821	biosamples_04.xml
+Church2025:YPM-IZ-111159	SAMN41900821	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900821	biosamples_04.xml
+Church2025:YPM-IZ-111159	SAMN41900821	lat_lon	lat_lon	35.747000 S 154.330000 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900821	biosamples_04.xml
+Church2025:YPM-IZ-111160	SAMN41900822	isolate	isolate	YPM-IZ-111160	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900822	biosamples_04.xml
+Church2025:YPM-IZ-111160	SAMN41900822	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900822	biosamples_04.xml
+Church2025:YPM-IZ-111160	SAMN41900822	collection_date	collection_date	2023-10-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900822	biosamples_04.xml
+Church2025:YPM-IZ-111160	SAMN41900822	geo_loc_name	geo_loc_name	Tasman Sea	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900822	biosamples_04.xml
+Church2025:YPM-IZ-111160	SAMN41900822	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900822	biosamples_04.xml
+Church2025:YPM-IZ-111160	SAMN41900822	lat_lon	lat_lon	35.747000 S 154.330000 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900822	biosamples_04.xml
+Church2025:YPM-IZ-111163	SAMN41900823	isolate	isolate	YPM-IZ-111163	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900823	biosamples_04.xml
+Church2025:YPM-IZ-111163	SAMN41900823	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900823	biosamples_04.xml
+Church2025:YPM-IZ-111163	SAMN41900823	collection_date	collection_date	2024-03-18	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900823	biosamples_04.xml
+Church2025:YPM-IZ-111163	SAMN41900823	geo_loc_name	geo_loc_name	Australia: New South Wales	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900823	biosamples_04.xml
+Church2025:YPM-IZ-111163	SAMN41900823	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900823	biosamples_04.xml
+Church2025:YPM-IZ-111163	SAMN41900823	lat_lon	lat_lon	33.947500 S 151.257361 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900823	biosamples_04.xml
+Church2025:YPM-IZ-111207	SAMN41900824	isolate	isolate	YPM-IZ-111207	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900824	biosamples_04.xml
+Church2025:YPM-IZ-111207	SAMN41900824	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900824	biosamples_04.xml
+Church2025:YPM-IZ-111207	SAMN41900824	collection_date	collection_date	2024-03-15	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900824	biosamples_04.xml
+Church2025:YPM-IZ-111207	SAMN41900824	geo_loc_name	geo_loc_name	New Zealand	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900824	biosamples_04.xml
+Church2025:YPM-IZ-111207	SAMN41900824	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900824	biosamples_04.xml
+Church2025:YPM-IZ-111207	SAMN41900824	lat_lon	lat_lon	36.895150 S 174.443889 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900824	biosamples_04.xml
+Church2025:YPM-IZ-111208	SAMN41900825	isolate	isolate	YPM-IZ-111208	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900825	biosamples_04.xml
+Church2025:YPM-IZ-111208	SAMN41900825	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900825	biosamples_04.xml
+Church2025:YPM-IZ-111208	SAMN41900825	collection_date	collection_date	2024-03-15	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900825	biosamples_04.xml
+Church2025:YPM-IZ-111208	SAMN41900825	geo_loc_name	geo_loc_name	New Zealand	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900825	biosamples_04.xml
+Church2025:YPM-IZ-111208	SAMN41900825	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900825	biosamples_04.xml
+Church2025:YPM-IZ-111208	SAMN41900825	lat_lon	lat_lon	36.895150 S 174.443889 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900825	biosamples_04.xml
+Church2025:YPM-IZ-111209	SAMN41900826	isolate	isolate	YPM-IZ-111209	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900826	biosamples_04.xml
+Church2025:YPM-IZ-111209	SAMN41900826	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900826	biosamples_04.xml
+Church2025:YPM-IZ-111209	SAMN41900826	collection_date	collection_date	2024-03-15	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900826	biosamples_04.xml
+Church2025:YPM-IZ-111209	SAMN41900826	geo_loc_name	geo_loc_name	New Zealand	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900826	biosamples_04.xml
+Church2025:YPM-IZ-111209	SAMN41900826	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900826	biosamples_04.xml
+Church2025:YPM-IZ-111209	SAMN41900826	lat_lon	lat_lon	36.895150 S 174.443889 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900826	biosamples_04.xml
+Church2025:YPM-IZ-111210	SAMN41900827	isolate	isolate	YPM-IZ-111210	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900827	biosamples_04.xml
+Church2025:YPM-IZ-111210	SAMN41900827	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900827	biosamples_04.xml
+Church2025:YPM-IZ-111210	SAMN41900827	collection_date	collection_date	2024-03-15	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900827	biosamples_04.xml
+Church2025:YPM-IZ-111210	SAMN41900827	geo_loc_name	geo_loc_name	New Zealand	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900827	biosamples_04.xml
+Church2025:YPM-IZ-111210	SAMN41900827	tissue	tissue	tentacle	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900827	biosamples_04.xml
+Church2025:YPM-IZ-111210	SAMN41900827	lat_lon	lat_lon	36.895150 S 174.443889 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN41900827	biosamples_04.xml
+Ahuja2024:CWD1	SAMN32803028	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803028	biosamples_01.xml
+Ahuja2024:CWD1	SAMN32803028	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803028	biosamples_01.xml
+Ahuja2024:CWD1	SAMN32803028	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803028	biosamples_01.xml
+Ahuja2024:CWD1	SAMN32803028	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803028	biosamples_01.xml
+Ahuja2024:CWD1	SAMN32803028	collection_date	collection_date	2002-09-22	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803028	biosamples_01.xml
+Ahuja2024:CWD1	SAMN32803028	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803028	biosamples_01.xml
+Ahuja2024:CWD1	SAMN32803028	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803028	biosamples_01.xml
+Ahuja2024:CWD1	SAMN32803028	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803028	biosamples_01.xml
+Ahuja2024:CWD1	SAMN32803028	lat_lon	lat_lon	37.43 N 72.68 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803028	biosamples_01.xml
+Ahuja2024:CWD1	SAMN32803028	specimen_voucher	specimen_voucher	YPM:IZ:35024	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803028	biosamples_01.xml
+Ahuja2024:CWD101	SAMN32803033	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803033	biosamples_01.xml
+Ahuja2024:CWD101	SAMN32803033	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803033	biosamples_01.xml
+Ahuja2024:CWD101	SAMN32803033	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803033	biosamples_01.xml
+Ahuja2024:CWD101	SAMN32803033	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803033	biosamples_01.xml
+Ahuja2024:CWD101	SAMN32803033	collection_date	collection_date	2003-07-18	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803033	biosamples_01.xml
+Ahuja2024:CWD101	SAMN32803033	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803033	biosamples_01.xml
+Ahuja2024:CWD101	SAMN32803033	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803033	biosamples_01.xml
+Ahuja2024:CWD101	SAMN32803033	depth	depth	387 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803033	biosamples_01.xml
+Ahuja2024:CWD101	SAMN32803033	lat_lon	lat_lon	36.23 N 122.77 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803033	biosamples_01.xml
+Ahuja2024:CWD101	SAMN32803033	specimen_voucher	specimen_voucher	YPM:IZ:35090	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803033	biosamples_01.xml
+Ahuja2024:CWD104	SAMN32803034	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803034	biosamples_01.xml
+Ahuja2024:CWD104	SAMN32803034	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803034	biosamples_01.xml
+Ahuja2024:CWD104	SAMN32803034	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803034	biosamples_01.xml
+Ahuja2024:CWD104	SAMN32803034	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803034	biosamples_01.xml
+Ahuja2024:CWD104	SAMN32803034	collection_date	collection_date	2003-07-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803034	biosamples_01.xml
+Ahuja2024:CWD104	SAMN32803034	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803034	biosamples_01.xml
+Ahuja2024:CWD104	SAMN32803034	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803034	biosamples_01.xml
+Ahuja2024:CWD104	SAMN32803034	depth	depth	877 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803034	biosamples_01.xml
+Ahuja2024:CWD104	SAMN32803034	lat_lon	lat_lon	36.22 N 123.77 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803034	biosamples_01.xml
+Ahuja2024:CWD11	SAMN32803061	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803061	biosamples_01.xml
+Ahuja2024:CWD11	SAMN32803061	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803061	biosamples_01.xml
+Ahuja2024:CWD11	SAMN32803061	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803061	biosamples_01.xml
+Ahuja2024:CWD11	SAMN32803061	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803061	biosamples_01.xml
+Ahuja2024:CWD11	SAMN32803061	collection_date	collection_date	2002-07-03	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803061	biosamples_01.xml
+Ahuja2024:CWD11	SAMN32803061	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803061	biosamples_01.xml
+Ahuja2024:CWD11	SAMN32803061	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803061	biosamples_01.xml
+Ahuja2024:CWD11	SAMN32803061	depth	depth	800 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803061	biosamples_01.xml
+Ahuja2024:CWD11	SAMN32803061	lat_lon	lat_lon	40.31 N 68.13 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803061	biosamples_01.xml
+Ahuja2024:CWD11	SAMN32803061	specimen_voucher	specimen_voucher	YPM:IZ:35076	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803061	biosamples_01.xml
+Ahuja2024:CWD116	SAMN32803030	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803030	biosamples_01.xml
+Ahuja2024:CWD116	SAMN32803030	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803030	biosamples_01.xml
+Ahuja2024:CWD116	SAMN32803030	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803030	biosamples_01.xml
+Ahuja2024:CWD116	SAMN32803030	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803030	biosamples_01.xml
+Ahuja2024:CWD116	SAMN32803030	collection_date	collection_date	2003-07-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803030	biosamples_01.xml
+Ahuja2024:CWD116	SAMN32803030	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803030	biosamples_01.xml
+Ahuja2024:CWD116	SAMN32803030	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803030	biosamples_01.xml
+Ahuja2024:CWD116	SAMN32803030	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803030	biosamples_01.xml
+Ahuja2024:CWD116	SAMN32803030	lat_lon	lat_lon	36.22 N 123.77 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803030	biosamples_01.xml
+Ahuja2024:CWD117	SAMN32803047	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803047	biosamples_01.xml
+Ahuja2024:CWD117	SAMN32803047	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803047	biosamples_01.xml
+Ahuja2024:CWD117	SAMN32803047	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803047	biosamples_01.xml
+Ahuja2024:CWD117	SAMN32803047	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803047	biosamples_01.xml
+Ahuja2024:CWD117	SAMN32803047	collection_date	collection_date	1999-06-28	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803047	biosamples_01.xml
+Ahuja2024:CWD117	SAMN32803047	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803047	biosamples_01.xml
+Ahuja2024:CWD117	SAMN32803047	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803047	biosamples_01.xml
+Ahuja2024:CWD117	SAMN32803047	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803047	biosamples_01.xml
+Ahuja2024:CWD117	SAMN32803047	lat_lon	lat_lon	39.70 N 70.92 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803047	biosamples_01.xml
+Ahuja2024:CWD117	SAMN32803047	specimen_voucher	specimen_voucher	YPM:IZ:35045	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803047	biosamples_01.xml
+Ahuja2024:CWD12	SAMN32803045	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803045	biosamples_01.xml
+Ahuja2024:CWD12	SAMN32803045	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803045	biosamples_01.xml
+Ahuja2024:CWD12	SAMN32803045	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803045	biosamples_01.xml
+Ahuja2024:CWD12	SAMN32803045	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803045	biosamples_01.xml
+Ahuja2024:CWD12	SAMN32803045	collection_date	collection_date	2003-04-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803045	biosamples_01.xml
+Ahuja2024:CWD12	SAMN32803045	geo_loc_name	geo_loc_name	Mediterranean Sea	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803045	biosamples_01.xml
+Ahuja2024:CWD12	SAMN32803045	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803045	biosamples_01.xml
+Ahuja2024:CWD12	SAMN32803045	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803045	biosamples_01.xml
+Ahuja2024:CWD12	SAMN32803045	lat_lon	lat_lon	43.68 N 7.33 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803045	biosamples_01.xml
+Ahuja2024:CWD12	SAMN32803045	specimen_voucher	specimen_voucher	YPM:IZ:35038	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803045	biosamples_01.xml
+Ahuja2024:CWD121	SAMN32803027	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803027	biosamples_01.xml
+Ahuja2024:CWD121	SAMN32803027	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803027	biosamples_01.xml
+Ahuja2024:CWD121	SAMN32803027	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803027	biosamples_01.xml
+Ahuja2024:CWD121	SAMN32803027	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803027	biosamples_01.xml
+Ahuja2024:CWD121	SAMN32803027	collection_date	collection_date	1999-06-28	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803027	biosamples_01.xml
+Ahuja2024:CWD121	SAMN32803027	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803027	biosamples_01.xml
+Ahuja2024:CWD121	SAMN32803027	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803027	biosamples_01.xml
+Ahuja2024:CWD121	SAMN32803027	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803027	biosamples_01.xml
+Ahuja2024:CWD121	SAMN32803027	lat_lon	lat_lon	39.75 N 70.87 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803027	biosamples_01.xml
+Ahuja2024:CWD121	SAMN32803027	specimen_voucher	specimen_voucher	YPM:IZ:35350	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803027	biosamples_01.xml
+Ahuja2024:CWD122	SAMN32803036	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803036	biosamples_01.xml
+Ahuja2024:CWD122	SAMN32803036	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803036	biosamples_01.xml
+Ahuja2024:CWD122	SAMN32803036	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803036	biosamples_01.xml
+Ahuja2024:CWD122	SAMN32803036	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803036	biosamples_01.xml
+Ahuja2024:CWD122	SAMN32803036	collection_date	collection_date	1999-06-28	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803036	biosamples_01.xml
+Ahuja2024:CWD122	SAMN32803036	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803036	biosamples_01.xml
+Ahuja2024:CWD122	SAMN32803036	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803036	biosamples_01.xml
+Ahuja2024:CWD122	SAMN32803036	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803036	biosamples_01.xml
+Ahuja2024:CWD122	SAMN32803036	lat_lon	lat_lon	39.7 N 70.90 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803036	biosamples_01.xml
+Ahuja2024:CWD122	SAMN32803036	specimen_voucher	specimen_voucher	YPM:IZ:35049	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803036	biosamples_01.xml
+Ahuja2024:CWD131	SAMN32803057	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803057	biosamples_01.xml
+Ahuja2024:CWD131	SAMN32803057	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803057	biosamples_01.xml
+Ahuja2024:CWD131	SAMN32803057	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803057	biosamples_01.xml
+Ahuja2024:CWD131	SAMN32803057	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803057	biosamples_01.xml
+Ahuja2024:CWD131	SAMN32803057	collection_date	collection_date	2003-03-15	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803057	biosamples_01.xml
+Ahuja2024:CWD131	SAMN32803057	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803057	biosamples_01.xml
+Ahuja2024:CWD131	SAMN32803057	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803057	biosamples_01.xml
+Ahuja2024:CWD131	SAMN32803057	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803057	biosamples_01.xml
+Ahuja2024:CWD131	SAMN32803057	lat_lon	lat_lon	24.32 N 109.20 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803057	biosamples_01.xml
+Ahuja2024:CWD131	SAMN32803057	specimen_voucher	specimen_voucher	YPM:IZ:35355	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803057	biosamples_01.xml
+Ahuja2024:CWD141	SAMN32803060	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803060	biosamples_01.xml
+Ahuja2024:CWD141	SAMN32803060	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803060	biosamples_01.xml
+Ahuja2024:CWD141	SAMN32803060	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803060	biosamples_01.xml
+Ahuja2024:CWD141	SAMN32803060	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803060	biosamples_01.xml
+Ahuja2024:CWD141	SAMN32803060	collection_date	collection_date	2003-03-26	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803060	biosamples_01.xml
+Ahuja2024:CWD141	SAMN32803060	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803060	biosamples_01.xml
+Ahuja2024:CWD141	SAMN32803060	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803060	biosamples_01.xml
+Ahuja2024:CWD141	SAMN32803060	depth	depth	1349 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803060	biosamples_01.xml
+Ahuja2024:CWD141	SAMN32803060	lat_lon	lat_lon	24.31 N 109.20 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803060	biosamples_01.xml
+Ahuja2024:CWD141	SAMN32803060	specimen_voucher	specimen_voucher	YPM:IZ:35358	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803060	biosamples_01.xml
+Ahuja2024:CWD144	SAMN32803044	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803044	biosamples_01.xml
+Ahuja2024:CWD144	SAMN32803044	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803044	biosamples_01.xml
+Ahuja2024:CWD144	SAMN32803044	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803044	biosamples_01.xml
+Ahuja2024:CWD144	SAMN32803044	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803044	biosamples_01.xml
+Ahuja2024:CWD144	SAMN32803044	collection_date	collection_date	2000-01-13	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803044	biosamples_01.xml
+Ahuja2024:CWD144	SAMN32803044	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803044	biosamples_01.xml
+Ahuja2024:CWD144	SAMN32803044	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803044	biosamples_01.xml
+Ahuja2024:CWD144	SAMN32803044	depth	depth	420 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803044	biosamples_01.xml
+Ahuja2024:CWD144	SAMN32803044	lat_lon	lat_lon	36.70 N 122.04 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803044	biosamples_01.xml
+Ahuja2024:CWD144	SAMN32803044	specimen_voucher	specimen_voucher	YPM:IZ:35360	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803044	biosamples_01.xml
+Ahuja2024:CWD146	SAMN32803041	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803041	biosamples_01.xml
+Ahuja2024:CWD146	SAMN32803041	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803041	biosamples_01.xml
+Ahuja2024:CWD146	SAMN32803041	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803041	biosamples_01.xml
+Ahuja2024:CWD146	SAMN32803041	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803041	biosamples_01.xml
+Ahuja2024:CWD146	SAMN32803041	collection_date	collection_date	2003-03-13	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803041	biosamples_01.xml
+Ahuja2024:CWD146	SAMN32803041	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803041	biosamples_01.xml
+Ahuja2024:CWD146	SAMN32803041	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803041	biosamples_01.xml
+Ahuja2024:CWD146	SAMN32803041	depth	depth	910 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803041	biosamples_01.xml
+Ahuja2024:CWD146	SAMN32803041	lat_lon	lat_lon	24.32 N 109.2 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803041	biosamples_01.xml
+Ahuja2024:CWD146	SAMN32803041	specimen_voucher	specimen_voucher	YPM:IZ:35362	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803041	biosamples_01.xml
+Ahuja2024:CWD16	SAMN32803050	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803050	biosamples_01.xml
+Ahuja2024:CWD16	SAMN32803050	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803050	biosamples_01.xml
+Ahuja2024:CWD16	SAMN32803050	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803050	biosamples_01.xml
+Ahuja2024:CWD16	SAMN32803050	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803050	biosamples_01.xml
+Ahuja2024:CWD16	SAMN32803050	collection_date	collection_date	2002-06-08	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803050	biosamples_01.xml
+Ahuja2024:CWD16	SAMN32803050	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803050	biosamples_01.xml
+Ahuja2024:CWD16	SAMN32803050	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803050	biosamples_01.xml
+Ahuja2024:CWD16	SAMN32803050	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803050	biosamples_01.xml
+Ahuja2024:CWD16	SAMN32803050	lat_lon	lat_lon	37.45 N 74.02 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803050	biosamples_01.xml
+Ahuja2024:CWD16	SAMN32803050	specimen_voucher	specimen_voucher	YPM:IZ:35039	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803050	biosamples_01.xml
+Ahuja2024:CWD17	SAMN32803046	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803046	biosamples_01.xml
+Ahuja2024:CWD17	SAMN32803046	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803046	biosamples_01.xml
+Ahuja2024:CWD17	SAMN32803046	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803046	biosamples_01.xml
+Ahuja2024:CWD17	SAMN32803046	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803046	biosamples_01.xml
+Ahuja2024:CWD17	SAMN32803046	collection_date	collection_date	2002-09-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803046	biosamples_01.xml
+Ahuja2024:CWD17	SAMN32803046	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803046	biosamples_01.xml
+Ahuja2024:CWD17	SAMN32803046	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803046	biosamples_01.xml
+Ahuja2024:CWD17	SAMN32803046	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803046	biosamples_01.xml
+Ahuja2024:CWD17	SAMN32803046	lat_lon	lat_lon	38.85 N 72.45 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803046	biosamples_01.xml
+Ahuja2024:CWD17	SAMN32803046	specimen_voucher	specimen_voucher	YPM:IZ:35040	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803046	biosamples_01.xml
+Ahuja2024:CWD19	SAMN32803054	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803054	biosamples_01.xml
+Ahuja2024:CWD19	SAMN32803054	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803054	biosamples_01.xml
+Ahuja2024:CWD19	SAMN32803054	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803054	biosamples_01.xml
+Ahuja2024:CWD19	SAMN32803054	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803054	biosamples_01.xml
+Ahuja2024:CWD19	SAMN32803054	collection_date	collection_date	1999-03-12	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803054	biosamples_01.xml
+Ahuja2024:CWD19	SAMN32803054	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803054	biosamples_01.xml
+Ahuja2024:CWD19	SAMN32803054	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803054	biosamples_01.xml
+Ahuja2024:CWD19	SAMN32803054	depth	depth	298 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803054	biosamples_01.xml
+Ahuja2024:CWD19	SAMN32803054	lat_lon	lat_lon	36.71 N 122.05 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803054	biosamples_01.xml
+Ahuja2024:CWD19	SAMN32803054	specimen_voucher	specimen_voucher	YPM:IZ:35346	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803054	biosamples_01.xml
+Ahuja2024:CWD2	SAMN32803029	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803029	biosamples_01.xml
+Ahuja2024:CWD2	SAMN32803029	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803029	biosamples_01.xml
+Ahuja2024:CWD2	SAMN32803029	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803029	biosamples_01.xml
+Ahuja2024:CWD2	SAMN32803029	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803029	biosamples_01.xml
+Ahuja2024:CWD2	SAMN32803029	collection_date	collection_date	2002-09-18	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803029	biosamples_01.xml
+Ahuja2024:CWD2	SAMN32803029	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803029	biosamples_01.xml
+Ahuja2024:CWD2	SAMN32803029	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803029	biosamples_01.xml
+Ahuja2024:CWD2	SAMN32803029	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803029	biosamples_01.xml
+Ahuja2024:CWD2	SAMN32803029	lat_lon	lat_lon	37.63 N 73.45 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803029	biosamples_01.xml
+Ahuja2024:CWD2	SAMN32803029	specimen_voucher	specimen_voucher	YPM:IZ:35029	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803029	biosamples_01.xml
+Ahuja2024:CWD20	SAMN32803058	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803058	biosamples_01.xml
+Ahuja2024:CWD20	SAMN32803058	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803058	biosamples_01.xml
+Ahuja2024:CWD20	SAMN32803058	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803058	biosamples_01.xml
+Ahuja2024:CWD20	SAMN32803058	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803058	biosamples_01.xml
+Ahuja2024:CWD20	SAMN32803058	collection_date	collection_date	1999-07-20	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803058	biosamples_01.xml
+Ahuja2024:CWD20	SAMN32803058	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803058	biosamples_01.xml
+Ahuja2024:CWD20	SAMN32803058	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803058	biosamples_01.xml
+Ahuja2024:CWD20	SAMN32803058	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803058	biosamples_01.xml
+Ahuja2024:CWD20	SAMN32803058	lat_lon	lat_lon	40.31 N 68.14 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803058	biosamples_01.xml
+Ahuja2024:CWD20	SAMN32803058	specimen_voucher	specimen_voucher	YPM:IZ:35347	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803058	biosamples_01.xml
+Ahuja2024:CWD21	SAMN32803059	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803059	biosamples_01.xml
+Ahuja2024:CWD21	SAMN32803059	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803059	biosamples_01.xml
+Ahuja2024:CWD21	SAMN32803059	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803059	biosamples_01.xml
+Ahuja2024:CWD21	SAMN32803059	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803059	biosamples_01.xml
+Ahuja2024:CWD21	SAMN32803059	collection_date	collection_date	2002-09-24	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803059	biosamples_01.xml
+Ahuja2024:CWD21	SAMN32803059	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803059	biosamples_01.xml
+Ahuja2024:CWD21	SAMN32803059	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803059	biosamples_01.xml
+Ahuja2024:CWD21	SAMN32803059	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803059	biosamples_01.xml
+Ahuja2024:CWD21	SAMN32803059	lat_lon	lat_lon	38.9 N 70.27 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803059	biosamples_01.xml
+Ahuja2024:CWD21	SAMN32803059	specimen_voucher	specimen_voucher	YPM:IZ:35041	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803059	biosamples_01.xml
+Ahuja2024:CWD3	SAMN32803031	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803031	biosamples_01.xml
+Ahuja2024:CWD3	SAMN32803031	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803031	biosamples_01.xml
+Ahuja2024:CWD3	SAMN32803031	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803031	biosamples_01.xml
+Ahuja2024:CWD3	SAMN32803031	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803031	biosamples_01.xml
+Ahuja2024:CWD3	SAMN32803031	collection_date	collection_date	2002-09-17	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803031	biosamples_01.xml
+Ahuja2024:CWD3	SAMN32803031	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803031	biosamples_01.xml
+Ahuja2024:CWD3	SAMN32803031	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803031	biosamples_01.xml
+Ahuja2024:CWD3	SAMN32803031	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803031	biosamples_01.xml
+Ahuja2024:CWD3	SAMN32803031	lat_lon	lat_lon	38.17 N 72.98 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803031	biosamples_01.xml
+Ahuja2024:CWD3	SAMN32803031	specimen_voucher	specimen_voucher	YPM:IZ:35030	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803031	biosamples_01.xml
+Ahuja2024:CWD6	SAMN32803038	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803038	biosamples_01.xml
+Ahuja2024:CWD6	SAMN32803038	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803038	biosamples_01.xml
+Ahuja2024:CWD6	SAMN32803038	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803038	biosamples_01.xml
+Ahuja2024:CWD6	SAMN32803038	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803038	biosamples_01.xml
+Ahuja2024:CWD6	SAMN32803038	collection_date	collection_date	2002-06-11	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803038	biosamples_01.xml
+Ahuja2024:CWD6	SAMN32803038	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803038	biosamples_01.xml
+Ahuja2024:CWD6	SAMN32803038	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803038	biosamples_01.xml
+Ahuja2024:CWD6	SAMN32803038	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803038	biosamples_01.xml
+Ahuja2024:CWD6	SAMN32803038	lat_lon	lat_lon	37.68 N 73.13 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803038	biosamples_01.xml
+Ahuja2024:CWD6	SAMN32803038	specimen_voucher	specimen_voucher	YPM:IZ:35032	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803038	biosamples_01.xml
+Ahuja2024:CWD7	SAMN32803040	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803040	biosamples_01.xml
+Ahuja2024:CWD7	SAMN32803040	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803040	biosamples_01.xml
+Ahuja2024:CWD7	SAMN32803040	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803040	biosamples_01.xml
+Ahuja2024:CWD7	SAMN32803040	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803040	biosamples_01.xml
+Ahuja2024:CWD7	SAMN32803040	collection_date	collection_date	2002-09-19	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803040	biosamples_01.xml
+Ahuja2024:CWD7	SAMN32803040	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803040	biosamples_01.xml
+Ahuja2024:CWD7	SAMN32803040	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803040	biosamples_01.xml
+Ahuja2024:CWD7	SAMN32803040	depth	depth	10 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803040	biosamples_01.xml
+Ahuja2024:CWD7	SAMN32803040	lat_lon	lat_lon	36.98 N 73.85 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803040	biosamples_01.xml
+Ahuja2024:CWD7	SAMN32803040	specimen_voucher	specimen_voucher	YPM:IZ:35033	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803040	biosamples_01.xml
+Ahuja2024:NA1	SAMN32803037	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803037	biosamples_01.xml
+Ahuja2024:NA1	SAMN32803037	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803037	biosamples_01.xml
+Ahuja2024:NA1	SAMN32803037	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803037	biosamples_01.xml
+Ahuja2024:NA1	SAMN32803037	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803037	biosamples_01.xml
+Ahuja2024:NA1	SAMN32803037	collection_date	collection_date	2021-10-29	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803037	biosamples_01.xml
+Ahuja2024:NA1	SAMN32803037	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803037	biosamples_01.xml
+Ahuja2024:NA1	SAMN32803037	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803037	biosamples_01.xml
+Ahuja2024:NA1	SAMN32803037	depth	depth	964 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803037	biosamples_01.xml
+Ahuja2024:NA1	SAMN32803037	lat_lon	lat_lon	36.224784 N 123.14242 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803037	biosamples_01.xml
+Ahuja2024:NA1	SAMN32803037	specimen_voucher	specimen_voucher	YPM:IZ:110225	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803037	biosamples_01.xml
+Ahuja2024:NA10	SAMN32803055	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803055	biosamples_01.xml
+Ahuja2024:NA10	SAMN32803055	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803055	biosamples_01.xml
+Ahuja2024:NA10	SAMN32803055	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803055	biosamples_01.xml
+Ahuja2024:NA10	SAMN32803055	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803055	biosamples_01.xml
+Ahuja2024:NA10	SAMN32803055	collection_date	collection_date	2006-05-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803055	biosamples_01.xml
+Ahuja2024:NA10	SAMN32803055	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803055	biosamples_01.xml
+Ahuja2024:NA10	SAMN32803055	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803055	biosamples_01.xml
+Ahuja2024:NA10	SAMN32803055	depth	depth	286.25 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803055	biosamples_01.xml
+Ahuja2024:NA10	SAMN32803055	lat_lon	lat_lon	35.648785 N 122.737913 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803055	biosamples_01.xml
+Ahuja2024:NA11	SAMN32803056	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803056	biosamples_01.xml
+Ahuja2024:NA11	SAMN32803056	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803056	biosamples_01.xml
+Ahuja2024:NA11	SAMN32803056	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803056	biosamples_01.xml
+Ahuja2024:NA11	SAMN32803056	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803056	biosamples_01.xml
+Ahuja2024:NA11	SAMN32803056	collection_date	collection_date	2005-04-09	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803056	biosamples_01.xml
+Ahuja2024:NA11	SAMN32803056	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803056	biosamples_01.xml
+Ahuja2024:NA11	SAMN32803056	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803056	biosamples_01.xml
+Ahuja2024:NA11	SAMN32803056	depth	depth	235 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803056	biosamples_01.xml
+Ahuja2024:NA11	SAMN32803056	lat_lon	lat_lon	36.6990 N 122.0578 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803056	biosamples_01.xml
+Ahuja2024:NA2	SAMN32803052	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803052	biosamples_01.xml
+Ahuja2024:NA2	SAMN32803052	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803052	biosamples_01.xml
+Ahuja2024:NA2	SAMN32803052	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803052	biosamples_01.xml
+Ahuja2024:NA2	SAMN32803052	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803052	biosamples_01.xml
+Ahuja2024:NA2	SAMN32803052	collection_date	collection_date	2021-10-30	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803052	biosamples_01.xml
+Ahuja2024:NA2	SAMN32803052	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803052	biosamples_01.xml
+Ahuja2024:NA2	SAMN32803052	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803052	biosamples_01.xml
+Ahuja2024:NA2	SAMN32803052	depth	depth	600 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803052	biosamples_01.xml
+Ahuja2024:NA2	SAMN32803052	lat_lon	lat_lon	36.698 N 122.0716 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803052	biosamples_01.xml
+Ahuja2024:NA3	SAMN32803042	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803042	biosamples_01.xml
+Ahuja2024:NA3	SAMN32803042	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803042	biosamples_01.xml
+Ahuja2024:NA3	SAMN32803042	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803042	biosamples_01.xml
+Ahuja2024:NA3	SAMN32803042	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803042	biosamples_01.xml
+Ahuja2024:NA3	SAMN32803042	collection_date	collection_date	2021-10-30	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803042	biosamples_01.xml
+Ahuja2024:NA3	SAMN32803042	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803042	biosamples_01.xml
+Ahuja2024:NA3	SAMN32803042	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803042	biosamples_01.xml
+Ahuja2024:NA3	SAMN32803042	depth	depth	349 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803042	biosamples_01.xml
+Ahuja2024:NA3	SAMN32803042	lat_lon	lat_lon	36.697 N 122.0724 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803042	biosamples_01.xml
+Ahuja2024:NA4	SAMN32803053	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803053	biosamples_01.xml
+Ahuja2024:NA4	SAMN32803053	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803053	biosamples_01.xml
+Ahuja2024:NA4	SAMN32803053	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803053	biosamples_01.xml
+Ahuja2024:NA4	SAMN32803053	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803053	biosamples_01.xml
+Ahuja2024:NA4	SAMN32803053	collection_date	collection_date	2021-10-30	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803053	biosamples_01.xml
+Ahuja2024:NA4	SAMN32803053	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803053	biosamples_01.xml
+Ahuja2024:NA4	SAMN32803053	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803053	biosamples_01.xml
+Ahuja2024:NA4	SAMN32803053	depth	depth	249 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803053	biosamples_01.xml
+Ahuja2024:NA4	SAMN32803053	lat_lon	lat_lon	36.2235 N 123.143176 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803053	biosamples_01.xml
+Ahuja2024:NA5	SAMN32803032	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803032	biosamples_01.xml
+Ahuja2024:NA5	SAMN32803032	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803032	biosamples_01.xml
+Ahuja2024:NA5	SAMN32803032	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803032	biosamples_01.xml
+Ahuja2024:NA5	SAMN32803032	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803032	biosamples_01.xml
+Ahuja2024:NA5	SAMN32803032	collection_date	collection_date	2021-10-30	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803032	biosamples_01.xml
+Ahuja2024:NA5	SAMN32803032	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803032	biosamples_01.xml
+Ahuja2024:NA5	SAMN32803032	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803032	biosamples_01.xml
+Ahuja2024:NA5	SAMN32803032	depth	depth	556 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803032	biosamples_01.xml
+Ahuja2024:NA5	SAMN32803032	lat_lon	lat_lon	36.698 N 122.0719 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803032	biosamples_01.xml
+Ahuja2024:NA6	SAMN32803039	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803039	biosamples_01.xml
+Ahuja2024:NA6	SAMN32803039	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803039	biosamples_01.xml
+Ahuja2024:NA6	SAMN32803039	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803039	biosamples_01.xml
+Ahuja2024:NA6	SAMN32803039	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803039	biosamples_01.xml
+Ahuja2024:NA6	SAMN32803039	collection_date	collection_date	2021-09-23	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803039	biosamples_01.xml
+Ahuja2024:NA6	SAMN32803039	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803039	biosamples_01.xml
+Ahuja2024:NA6	SAMN32803039	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803039	biosamples_01.xml
+Ahuja2024:NA6	SAMN32803039	depth	depth	467 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803039	biosamples_01.xml
+Ahuja2024:NA6	SAMN32803039	lat_lon	lat_lon	36.6844 N 122.072 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803039	biosamples_01.xml
+Ahuja2024:NA7	SAMN32803048	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803048	biosamples_01.xml
+Ahuja2024:NA7	SAMN32803048	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803048	biosamples_01.xml
+Ahuja2024:NA7	SAMN32803048	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803048	biosamples_01.xml
+Ahuja2024:NA7	SAMN32803048	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803048	biosamples_01.xml
+Ahuja2024:NA7	SAMN32803048	collection_date	collection_date	2021-09-23	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803048	biosamples_01.xml
+Ahuja2024:NA7	SAMN32803048	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803048	biosamples_01.xml
+Ahuja2024:NA7	SAMN32803048	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803048	biosamples_01.xml
+Ahuja2024:NA7	SAMN32803048	depth	depth	417 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803048	biosamples_01.xml
+Ahuja2024:NA7	SAMN32803048	lat_lon	lat_lon	36.6842 N 122.0727 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803048	biosamples_01.xml
+Ahuja2024:NA8	SAMN32803035	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803035	biosamples_01.xml
+Ahuja2024:NA8	SAMN32803035	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803035	biosamples_01.xml
+Ahuja2024:NA8	SAMN32803035	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803035	biosamples_01.xml
+Ahuja2024:NA8	SAMN32803035	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803035	biosamples_01.xml
+Ahuja2024:NA8	SAMN32803035	collection_date	collection_date	2021-10-29	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803035	biosamples_01.xml
+Ahuja2024:NA8	SAMN32803035	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803035	biosamples_01.xml
+Ahuja2024:NA8	SAMN32803035	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803035	biosamples_01.xml
+Ahuja2024:NA8	SAMN32803035	depth	depth	1299 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803035	biosamples_01.xml
+Ahuja2024:NA8	SAMN32803035	lat_lon	lat_lon	36.225 N 123.1424 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803035	biosamples_01.xml
+Ahuja2024:NA8	SAMN32803035	specimen_voucher	specimen_voucher	YPM:IZ:110226	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803035	biosamples_01.xml
+Ahuja2024:NA9	SAMN32803043	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803043	biosamples_01.xml
+Ahuja2024:NA9	SAMN32803043	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803043	biosamples_01.xml
+Ahuja2024:NA9	SAMN32803043	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803043	biosamples_01.xml
+Ahuja2024:NA9	SAMN32803043	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803043	biosamples_01.xml
+Ahuja2024:NA9	SAMN32803043	collection_date	collection_date	2010-10-12	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803043	biosamples_01.xml
+Ahuja2024:NA9	SAMN32803043	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803043	biosamples_01.xml
+Ahuja2024:NA9	SAMN32803043	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803043	biosamples_01.xml
+Ahuja2024:NA9	SAMN32803043	depth	depth	420 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803043	biosamples_01.xml
+Ahuja2024:NA9	SAMN32803043	lat_lon	lat_lon	36.6996 N 122.0999 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803043	biosamples_01.xml
+Ahuja2026:NA19	SAMN32803049	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803049	biosamples_01.xml
+Ahuja2026:NA19	SAMN32803049	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803049	biosamples_01.xml
+Ahuja2026:NA19	SAMN32803049	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803049	biosamples_01.xml
+Ahuja2026:NA19	SAMN32803049	isolation_source	isolation_source	ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803049	biosamples_01.xml
+Ahuja2026:NA19	SAMN32803049	collection_date	collection_date	2013-02-11	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803049	biosamples_01.xml
+Ahuja2026:NA19	SAMN32803049	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803049	biosamples_01.xml
+Ahuja2026:NA19	SAMN32803049	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803049	biosamples_01.xml
+Ahuja2026:NA19	SAMN32803049	depth	depth	297 meters	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803049	biosamples_01.xml
+Ahuja2026:NA19	SAMN32803049	lat_lon	lat_lon	36.698983 N 122.050126 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803049	biosamples_01.xml
+Ahuja2026:NA28	SAMN48043655	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043655	biosamples_04.xml
+Ahuja2026:NA28	SAMN48043655	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043655	biosamples_04.xml
+Ahuja2026:NA28	SAMN48043655	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043655	biosamples_04.xml
+Ahuja2026:NA28	SAMN48043655	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043655	biosamples_04.xml
+Ahuja2026:NA28	SAMN48043655	collection_date	collection_date	2013-08-30	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043655	biosamples_04.xml
+Ahuja2026:NA28	SAMN48043655	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043655	biosamples_04.xml
+Ahuja2026:NA28	SAMN48043655	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043655	biosamples_04.xml
+Ahuja2026:NA28	SAMN48043655	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043655	biosamples_04.xml
+Ahuja2026:NA28	SAMN48043655	lat_lon	lat_lon	41.036 N 71.399 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043655	biosamples_04.xml
+Ahuja2026:NA28	SAMN48043655	specimen_voucher	specimen_voucher	YPM:IZ:110451	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043655	biosamples_04.xml
+Ahuja2026:NA29	SAMN48043654	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043654	biosamples_04.xml
+Ahuja2026:NA29	SAMN48043654	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043654	biosamples_04.xml
+Ahuja2026:NA29	SAMN48043654	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043654	biosamples_04.xml
+Ahuja2026:NA29	SAMN48043654	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043654	biosamples_04.xml
+Ahuja2026:NA29	SAMN48043654	collection_date	collection_date	2017-03-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043654	biosamples_04.xml
+Ahuja2026:NA29	SAMN48043654	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043654	biosamples_04.xml
+Ahuja2026:NA29	SAMN48043654	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043654	biosamples_04.xml
+Ahuja2026:NA29	SAMN48043654	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043654	biosamples_04.xml
+Ahuja2026:NA29	SAMN48043654	lat_lon	lat_lon	19.344170 N 156.075853 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043654	biosamples_04.xml
+Ahuja2026:NA29	SAMN48043654	specimen_voucher	specimen_voucher	YPM:IZ:111733	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043654	biosamples_04.xml
+Ahuja2026:NA30	SAMN48043659	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043659	biosamples_04.xml
+Ahuja2026:NA30	SAMN48043659	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043659	biosamples_04.xml
+Ahuja2026:NA30	SAMN48043659	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043659	biosamples_04.xml
+Ahuja2026:NA30	SAMN48043659	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043659	biosamples_04.xml
+Ahuja2026:NA30	SAMN48043659	collection_date	collection_date	2011-04-01	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043659	biosamples_04.xml
+Ahuja2026:NA30	SAMN48043659	geo_loc_name	geo_loc_name	Mediterranean Sea	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043659	biosamples_04.xml
+Ahuja2026:NA30	SAMN48043659	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043659	biosamples_04.xml
+Ahuja2026:NA30	SAMN48043659	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043659	biosamples_04.xml
+Ahuja2026:NA30	SAMN48043659	lat_lon	lat_lon	43.690000 N 7.310000 E	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043659	biosamples_04.xml
+Ahuja2026:NA30	SAMN48043659	specimen_voucher	specimen_voucher	YPM:IZ:111732	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043659	biosamples_04.xml
+Ahuja2026:NA31	SAMN48043651	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043651	biosamples_04.xml
+Ahuja2026:NA31	SAMN48043651	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043651	biosamples_04.xml
+Ahuja2026:NA31	SAMN48043651	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043651	biosamples_04.xml
+Ahuja2026:NA31	SAMN48043651	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043651	biosamples_04.xml
+Ahuja2026:NA31	SAMN48043651	collection_date	collection_date	2010-06-18	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043651	biosamples_04.xml
+Ahuja2026:NA31	SAMN48043651	geo_loc_name	geo_loc_name	Pacific Ocean:Baja	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043651	biosamples_04.xml
+Ahuja2026:NA31	SAMN48043651	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043651	biosamples_04.xml
+Ahuja2026:NA31	SAMN48043651	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043651	biosamples_04.xml
+Ahuja2026:NA31	SAMN48043651	lat_lon	lat_lon	27.591667 N 111.516667 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043651	biosamples_04.xml
+Ahuja2026:NA31	SAMN48043651	specimen_voucher	specimen_voucher	YPM:IZ:111742	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043651	biosamples_04.xml
+Ahuja2026:NA32	SAMN48043652	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043652	biosamples_04.xml
+Ahuja2026:NA32	SAMN48043652	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043652	biosamples_04.xml
+Ahuja2026:NA32	SAMN48043652	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043652	biosamples_04.xml
+Ahuja2026:NA32	SAMN48043652	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043652	biosamples_04.xml
+Ahuja2026:NA32	SAMN48043652	collection_date	collection_date	2015-03-13	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043652	biosamples_04.xml
+Ahuja2026:NA32	SAMN48043652	geo_loc_name	geo_loc_name	Pacific Ocean:Baja	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043652	biosamples_04.xml
+Ahuja2026:NA32	SAMN48043652	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043652	biosamples_04.xml
+Ahuja2026:NA32	SAMN48043652	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043652	biosamples_04.xml
+Ahuja2026:NA32	SAMN48043652	lat_lon	lat_lon	22.916667 N 108.116667 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043652	biosamples_04.xml
+Ahuja2026:NA32	SAMN48043652	specimen_voucher	specimen_voucher	YPM:IZ:111740	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043652	biosamples_04.xml
+Ahuja2026:NA33	SAMN48043653	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043653	biosamples_04.xml
+Ahuja2026:NA33	SAMN48043653	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043653	biosamples_04.xml
+Ahuja2026:NA33	SAMN48043653	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043653	biosamples_04.xml
+Ahuja2026:NA33	SAMN48043653	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043653	biosamples_04.xml
+Ahuja2026:NA33	SAMN48043653	collection_date	collection_date	2015-03-15	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043653	biosamples_04.xml
+Ahuja2026:NA33	SAMN48043653	geo_loc_name	geo_loc_name	Pacific Ocean:Baja	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043653	biosamples_04.xml
+Ahuja2026:NA33	SAMN48043653	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043653	biosamples_04.xml
+Ahuja2026:NA33	SAMN48043653	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043653	biosamples_04.xml
+Ahuja2026:NA33	SAMN48043653	lat_lon	lat_lon	24.183333 N 108.633333 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043653	biosamples_04.xml
+Ahuja2026:NA33	SAMN48043653	specimen_voucher	specimen_voucher	YPM:IZ:111741	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043653	biosamples_04.xml
+Ahuja2026:NA34	SAMN48043660	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043660	biosamples_04.xml
+Ahuja2026:NA34	SAMN48043660	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043660	biosamples_04.xml
+Ahuja2026:NA34	SAMN48043660	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043660	biosamples_04.xml
+Ahuja2026:NA34	SAMN48043660	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043660	biosamples_04.xml
+Ahuja2026:NA34	SAMN48043660	collection_date	collection_date	2011-06-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043660	biosamples_04.xml
+Ahuja2026:NA34	SAMN48043660	geo_loc_name	geo_loc_name	USA:Washington,Friday Harbor Lab	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043660	biosamples_04.xml
+Ahuja2026:NA34	SAMN48043660	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043660	biosamples_04.xml
+Ahuja2026:NA34	SAMN48043660	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043660	biosamples_04.xml
+Ahuja2026:NA34	SAMN48043660	lat_lon	lat_lon	48.54505 N 123.012141 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043660	biosamples_04.xml
+Ahuja2026:NA34	SAMN48043660	specimen_voucher	specimen_voucher	YPM:IZ:111164	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043660	biosamples_04.xml
+Ahuja2026:NA35	SAMN48043661	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043661	biosamples_04.xml
+Ahuja2026:NA35	SAMN48043661	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043661	biosamples_04.xml
+Ahuja2026:NA35	SAMN48043661	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043661	biosamples_04.xml
+Ahuja2026:NA35	SAMN48043661	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043661	biosamples_04.xml
+Ahuja2026:NA35	SAMN48043661	collection_date	collection_date	2011-06-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043661	biosamples_04.xml
+Ahuja2026:NA35	SAMN48043661	geo_loc_name	geo_loc_name	USA:Washington,Friday Harbor Lab	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043661	biosamples_04.xml
+Ahuja2026:NA35	SAMN48043661	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043661	biosamples_04.xml
+Ahuja2026:NA35	SAMN48043661	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043661	biosamples_04.xml
+Ahuja2026:NA35	SAMN48043661	lat_lon	lat_lon	48.54505 N 123.012141 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043661	biosamples_04.xml
+Ahuja2026:NA35	SAMN48043661	specimen_voucher	specimen_voucher	YPM:IZ:111165	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043661	biosamples_04.xml
+Ahuja2026:NA36	SAMN48043662	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043662	biosamples_04.xml
+Ahuja2026:NA36	SAMN48043662	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043662	biosamples_04.xml
+Ahuja2026:NA36	SAMN48043662	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043662	biosamples_04.xml
+Ahuja2026:NA36	SAMN48043662	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043662	biosamples_04.xml
+Ahuja2026:NA36	SAMN48043662	collection_date	collection_date	2011-06-16	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043662	biosamples_04.xml
+Ahuja2026:NA36	SAMN48043662	geo_loc_name	geo_loc_name	USA:Washington,Friday Harbor Lab	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043662	biosamples_04.xml
+Ahuja2026:NA36	SAMN48043662	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043662	biosamples_04.xml
+Ahuja2026:NA36	SAMN48043662	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043662	biosamples_04.xml
+Ahuja2026:NA36	SAMN48043662	lat_lon	lat_lon	48.54505 N 123.012141 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043662	biosamples_04.xml
+Ahuja2026:NA36	SAMN48043662	specimen_voucher	specimen_voucher	YPM:IZ:111166	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043662	biosamples_04.xml
+Ahuja2026:NA37	SAMN48043663	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043663	biosamples_04.xml
+Ahuja2026:NA37	SAMN48043663	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043663	biosamples_04.xml
+Ahuja2026:NA37	SAMN48043663	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043663	biosamples_04.xml
+Ahuja2026:NA37	SAMN48043663	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043663	biosamples_04.xml
+Ahuja2026:NA37	SAMN48043663	collection_date	collection_date	2024-04-12	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043663	biosamples_04.xml
+Ahuja2026:NA37	SAMN48043663	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043663	biosamples_04.xml
+Ahuja2026:NA37	SAMN48043663	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043663	biosamples_04.xml
+Ahuja2026:NA37	SAMN48043663	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043663	biosamples_04.xml
+Ahuja2026:NA37	SAMN48043663	lat_lon	lat_lon	19.6183 N 156.0842 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043663	biosamples_04.xml
+Ahuja2026:NA37	SAMN48043663	specimen_voucher	specimen_voucher	YPM:IZ:111590	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043663	biosamples_04.xml
+Ahuja2026:NA38	SAMN48043664	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043664	biosamples_04.xml
+Ahuja2026:NA38	SAMN48043664	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043664	biosamples_04.xml
+Ahuja2026:NA38	SAMN48043664	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043664	biosamples_04.xml
+Ahuja2026:NA38	SAMN48043664	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043664	biosamples_04.xml
+Ahuja2026:NA38	SAMN48043664	collection_date	collection_date	2024-04-12	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043664	biosamples_04.xml
+Ahuja2026:NA38	SAMN48043664	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043664	biosamples_04.xml
+Ahuja2026:NA38	SAMN48043664	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043664	biosamples_04.xml
+Ahuja2026:NA38	SAMN48043664	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043664	biosamples_04.xml
+Ahuja2026:NA38	SAMN48043664	lat_lon	lat_lon	19.6183 N 156.0842 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043664	biosamples_04.xml
+Ahuja2026:NA38	SAMN48043664	specimen_voucher	specimen_voucher	YPM:IZ:111591	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043664	biosamples_04.xml
+Ahuja2026:WS10	SAMN48043650	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043650	biosamples_04.xml
+Ahuja2026:WS10	SAMN48043650	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043650	biosamples_04.xml
+Ahuja2026:WS10	SAMN48043650	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043650	biosamples_04.xml
+Ahuja2026:WS10	SAMN48043650	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043650	biosamples_04.xml
+Ahuja2026:WS10	SAMN48043650	collection_date	collection_date	2010-05-03	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043650	biosamples_04.xml
+Ahuja2026:WS10	SAMN48043650	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043650	biosamples_04.xml
+Ahuja2026:WS10	SAMN48043650	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043650	biosamples_04.xml
+Ahuja2026:WS10	SAMN48043650	depth	depth	217	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043650	biosamples_04.xml
+Ahuja2026:WS10	SAMN48043650	lat_lon	lat_lon	36.700917 N 122.049541 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043650	biosamples_04.xml
+Ahuja2026:WS10	SAMN48043650	specimen_voucher	specimen_voucher	YPM:IZ:111745	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043650	biosamples_04.xml
+Ahuja2026:WS2	SAMN48043656	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043656	biosamples_04.xml
+Ahuja2026:WS2	SAMN48043656	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043656	biosamples_04.xml
+Ahuja2026:WS2	SAMN48043656	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043656	biosamples_04.xml
+Ahuja2026:WS2	SAMN48043656	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043656	biosamples_04.xml
+Ahuja2026:WS2	SAMN48043656	collection_date	collection_date	2013-08-30	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043656	biosamples_04.xml
+Ahuja2026:WS2	SAMN48043656	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043656	biosamples_04.xml
+Ahuja2026:WS2	SAMN48043656	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043656	biosamples_04.xml
+Ahuja2026:WS2	SAMN48043656	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043656	biosamples_04.xml
+Ahuja2026:WS2	SAMN48043656	lat_lon	lat_lon	41.036 N 71.399 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043656	biosamples_04.xml
+Ahuja2026:WS2	SAMN48043656	specimen_voucher	specimen_voucher	YPM:IZ:110216	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043656	biosamples_04.xml
+Ahuja2026:WS3	SAMN48043657	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043657	biosamples_04.xml
+Ahuja2026:WS3	SAMN48043657	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043657	biosamples_04.xml
+Ahuja2026:WS3	SAMN48043657	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043657	biosamples_04.xml
+Ahuja2026:WS3	SAMN48043657	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043657	biosamples_04.xml
+Ahuja2026:WS3	SAMN48043657	collection_date	collection_date	2015-09-15	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043657	biosamples_04.xml
+Ahuja2026:WS3	SAMN48043657	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043657	biosamples_04.xml
+Ahuja2026:WS3	SAMN48043657	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043657	biosamples_04.xml
+Ahuja2026:WS3	SAMN48043657	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043657	biosamples_04.xml
+Ahuja2026:WS3	SAMN48043657	lat_lon	lat_lon	41.135 N 71.366 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043657	biosamples_04.xml
+Ahuja2026:WS3	SAMN48043657	specimen_voucher	specimen_voucher	YPM:IZ:111734	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043657	biosamples_04.xml
+Ahuja2026:WS4	SAMN48043658	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043658	biosamples_04.xml
+Ahuja2026:WS4	SAMN48043658	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043658	biosamples_04.xml
+Ahuja2026:WS4	SAMN48043658	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043658	biosamples_04.xml
+Ahuja2026:WS4	SAMN48043658	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043658	biosamples_04.xml
+Ahuja2026:WS4	SAMN48043658	collection_date	collection_date	2014-08-20	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043658	biosamples_04.xml
+Ahuja2026:WS4	SAMN48043658	geo_loc_name	geo_loc_name	Atlantic Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043658	biosamples_04.xml
+Ahuja2026:WS4	SAMN48043658	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043658	biosamples_04.xml
+Ahuja2026:WS4	SAMN48043658	depth	depth	0-20 m	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043658	biosamples_04.xml
+Ahuja2026:WS4	SAMN48043658	lat_lon	lat_lon	41.056 N 71.342 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043658	biosamples_04.xml
+Ahuja2026:WS4	SAMN48043658	specimen_voucher	specimen_voucher	YPM:IZ:111735	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043658	biosamples_04.xml
+Ahuja2026:WS5	SAMN48043645	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043645	biosamples_04.xml
+Ahuja2026:WS5	SAMN48043645	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043645	biosamples_04.xml
+Ahuja2026:WS5	SAMN48043645	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043645	biosamples_04.xml
+Ahuja2026:WS5	SAMN48043645	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043645	biosamples_04.xml
+Ahuja2026:WS5	SAMN48043645	collection_date	collection_date	2011-12-02	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043645	biosamples_04.xml
+Ahuja2026:WS5	SAMN48043645	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043645	biosamples_04.xml
+Ahuja2026:WS5	SAMN48043645	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043645	biosamples_04.xml
+Ahuja2026:WS5	SAMN48043645	depth	depth	2854.16	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043645	biosamples_04.xml
+Ahuja2026:WS5	SAMN48043645	lat_lon	lat_lon	36.600636 N 122.376887 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043645	biosamples_04.xml
+Ahuja2026:WS5	SAMN48043645	specimen_voucher	specimen_voucher	YPM:IZ:111736	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043645	biosamples_04.xml
+Ahuja2026:WS6	SAMN48043646	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043646	biosamples_04.xml
+Ahuja2026:WS6	SAMN48043646	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043646	biosamples_04.xml
+Ahuja2026:WS6	SAMN48043646	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043646	biosamples_04.xml
+Ahuja2026:WS6	SAMN48043646	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043646	biosamples_04.xml
+Ahuja2026:WS6	SAMN48043646	collection_date	collection_date	2011-12-03	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043646	biosamples_04.xml
+Ahuja2026:WS6	SAMN48043646	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043646	biosamples_04.xml
+Ahuja2026:WS6	SAMN48043646	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043646	biosamples_04.xml
+Ahuja2026:WS6	SAMN48043646	depth	depth	2563.33	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043646	biosamples_04.xml
+Ahuja2026:WS6	SAMN48043646	lat_lon	lat_lon	36.071808 N 122.282111 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043646	biosamples_04.xml
+Ahuja2026:WS6	SAMN48043646	specimen_voucher	specimen_voucher	YPM:IZ:111737	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043646	biosamples_04.xml
+Ahuja2026:WS7	SAMN48043647	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043647	biosamples_04.xml
+Ahuja2026:WS7	SAMN48043647	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043647	biosamples_04.xml
+Ahuja2026:WS7	SAMN48043647	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043647	biosamples_04.xml
+Ahuja2026:WS7	SAMN48043647	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043647	biosamples_04.xml
+Ahuja2026:WS7	SAMN48043647	collection_date	collection_date	2011-12-07	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043647	biosamples_04.xml
+Ahuja2026:WS7	SAMN48043647	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043647	biosamples_04.xml
+Ahuja2026:WS7	SAMN48043647	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043647	biosamples_04.xml
+Ahuja2026:WS7	SAMN48043647	depth	depth	662.29	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043647	biosamples_04.xml
+Ahuja2026:WS7	SAMN48043647	lat_lon	lat_lon	36.699365 N 122.101074 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043647	biosamples_04.xml
+Ahuja2026:WS7	SAMN48043647	specimen_voucher	specimen_voucher	YPM:IZ:111738	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043647	biosamples_04.xml
+Ahuja2026:WS8	SAMN48043648	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043648	biosamples_04.xml
+Ahuja2026:WS8	SAMN48043648	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043648	biosamples_04.xml
+Ahuja2026:WS8	SAMN48043648	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043648	biosamples_04.xml
+Ahuja2026:WS8	SAMN48043648	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043648	biosamples_04.xml
+Ahuja2026:WS8	SAMN48043648	collection_date	collection_date	2013-07-15	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043648	biosamples_04.xml
+Ahuja2026:WS8	SAMN48043648	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043648	biosamples_04.xml
+Ahuja2026:WS8	SAMN48043648	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043648	biosamples_04.xml
+Ahuja2026:WS8	SAMN48043648	depth	depth	559.83	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043648	biosamples_04.xml
+Ahuja2026:WS8	SAMN48043648	lat_lon	lat_lon	36.647412 N 122.113209 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043648	biosamples_04.xml
+Ahuja2026:WS8	SAMN48043648	specimen_voucher	specimen_voucher	YPM:IZ:111739	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043648	biosamples_04.xml
+Ahuja2026:WS9	SAMN48043649	isolate	isolate	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043649	biosamples_04.xml
+Ahuja2026:WS9	SAMN48043649	breed	breed	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043649	biosamples_04.xml
+Ahuja2026:WS9	SAMN48043649	host	host	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043649	biosamples_04.xml
+Ahuja2026:WS9	SAMN48043649	isolation_source	isolation_source	not applicable	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043649	biosamples_04.xml
+Ahuja2026:WS9	SAMN48043649	collection_date	collection_date	2014-05-22	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043649	biosamples_04.xml
+Ahuja2026:WS9	SAMN48043649	geo_loc_name	geo_loc_name	Pacific Ocean	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043649	biosamples_04.xml
+Ahuja2026:WS9	SAMN48043649	tissue	tissue	siphosome	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043649	biosamples_04.xml
+Ahuja2026:WS9	SAMN48043649	depth	depth	309	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043649	biosamples_04.xml
+Ahuja2026:WS9	SAMN48043649	lat_lon	lat_lon	35.520 N 122.5239 W	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043649	biosamples_04.xml
+Ahuja2026:WS9	SAMN48043649	specimen_voucher	specimen_voucher	YPM:IZ:107008	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043649	biosamples_04.xml

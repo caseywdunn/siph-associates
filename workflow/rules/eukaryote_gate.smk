@@ -276,6 +276,8 @@ rule verify_eukaryotes_ncbi:
 rule grade_eukaryotes:
     input:
         script="workflow/scripts/grade_eukaryotes.py",
+        reporting="workflow/scripts/eukaryote_reporting.py",
+        units="workflow/scripts/eukaryote_units.py",
         config=str(EUKARYOTE_CONFIG_PATH),
         reads=f"{EUK}/read_lineages.tsv",
         assembled=f"{EUK}/assembled_nonhost.tsv",

@@ -1,0 +1,34 @@
+{
+  "libraries": 205,
+  "host_labels": 37,
+  "singleton_host_labels": 26,
+  "libraries_by_study": {
+    "Church2025": 151,
+    "Ahuja2024": 33,
+    "Ahuja2026": 21
+  },
+  "assembly_eligible": 195,
+  "retained_mags": 107,
+  "mag_species": 32,
+  "near_complete_mags": 55,
+  "bacterial_detection_rows": 571,
+  "bacterial_detected_targets": 185,
+  "bacterial_positive_libraries": 138,
+  "bacterial_high_confidence_rows": 311,
+  "bacterial_divergent_match_rows": 34,
+  "associate_viral_detection_rows": 530,
+  "associate_viral_targets": 300,
+  "associate_viral_positive_libraries": 122,
+  "eukaryote_validated_evidence_rows": 62,
+  "eukaryote_nonredundant_detection_rows": 61,
+  "eukaryote_positive_libraries": 39,
+  "eukaryote_reporting_units": 16,
+  "eukaryote_high_confidence_rows": 42,
+  "eukaryote_roles": {
+    "prey": 9,
+    "unassigned": 29,
+    "parasite": 12,
+    "endosymbiont of Paramoeba": 11
+  },
+  "physalia_mycoplasmatales_positive_libraries": 67
+}

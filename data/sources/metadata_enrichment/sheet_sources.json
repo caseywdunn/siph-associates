@@ -1,0 +1,206 @@
+{
+  "openpyxl_version": "3.1.5",
+  "sources": [
+    {
+      "source": "data/sources/Ahuja2024_Supplementary_Table_1.xlsx",
+      "input": "tmp/Supplementary_Table_1.xlsx",
+      "sha256": "9ab7c6256babe09ae243949580248d6c040fd1fdd6d325d33fc89ea4f56f6a47",
+      "study": "Ahuja2024",
+      "sheet": "Invertebrate.1.0",
+      "header_row": 13,
+      "columns": [
+        {
+          "column": 1,
+          "name": "sample_name",
+          "comment": "======\nID#AAAAiAxYsVM\n    (2022-10-20 15:22:47)\nSample Name is a name that you choose for the sample. It can have any format, but we suggest that you make it concise, unique and consistent within your lab, and as informative as possible. Every Sample Name from a single Submitter must be unique."
+        },
+        {
+          "column": 2,
+          "name": "sample_title",
+          "comment": "======\nID#AAAAiAxYsUQ\n    (2022-10-20 15:22:47)\nTitle of the sample."
+        },
+        {
+          "column": 3,
+          "name": "bioproject_accession",
+          "comment": "======\nID#AAAAiAxYsU4\n    (2022-10-20 15:22:47)\nThe accession number of the BioProject(s) to which the BioSample belongs. If the BioSample belongs to more than one BioProject, enter multiple bioproject_accession columns. A valid BioProject accession has prefix PRJN, PRJE or PRJD, e.g., PRJNA12345."
+        },
+        {
+          "column": 4,
+          "name": "organism",
+          "comment": "======\nID#AAAAiAxYsVA\n    (2022-10-20 15:22:47)\nThe most descriptive organism name for this sample (to the species, if possible). It is OK to submit an organism name that is not in our database. In the case of a new species, provide the desired organism name, and our taxonomists may assign a provisional taxID. In the case of unidentified species, choose the appropriate Genus and include 'sp.', e.g., \"Escherichia sp.\". When sequencing a genome from a non-metagenomic source, include a strain or isolate name too, e.g., \"Pseudomonas sp. UK4\". For more information about providing a valid organism, including new species, metagenomes (microbiomes) and metagenome-assembled genomes, see https://www.ncbi.nlm.nih.gov/biosample/docs/organism/."
+        },
+        {
+          "column": 5,
+          "name": "isolate",
+          "comment": "======\nID#AAAAiAxYsU0\n    (2022-10-20 15:22:47)\nOrganism group\n\nidentification or description of the specific individual from which this sample was obtained"
+        },
+        {
+          "column": 6,
+          "name": "breed",
+          "comment": "======\nID#AAAAiAxYsUA\n    (2022-10-20 15:22:47)\nOrganism group\n\nbreed name - chiefly used in domesticated animals or plants"
+        },
+        {
+          "column": 7,
+          "name": "host",
+          "comment": "======\nID#AAAAiAxYsUM\n    (2022-10-20 15:22:47)\nSource group\n\nThe natural (as opposed to laboratory) host to the organism from which the sample was obtained. Use the full taxonomic name, eg, \"Homo sapiens\"."
+        },
+        {
+          "column": 8,
+          "name": "isolation_source",
+          "comment": "======\nID#AAAAiAxYsTw\n    (2022-10-20 15:22:47)\nSource group\n\nDescribes the physical, environmental and/or local geographical source of the biological sample from which the sample was derived."
+        },
+        {
+          "column": 9,
+          "name": "collection_date",
+          "comment": "======\nID#AAAAiAxYsUs\n    (2022-10-20 15:22:47)\nthe date on which the sample was collected; date/time ranges are supported by providing two dates from among the supported value formats, delimited by a forward-slash character; collection times are supported by adding \"T\", then the hour and minute after the date, and must be in Coordinated Universal Time (UTC), otherwise known as \"Zulu Time\" (Z); supported formats include \"DD-Mmm-YYYY\", \"Mmm-YYYY\", \"YYYY\" or ISO 8601 standard \"YYYY-mm-dd\", \"YYYY-mm\", \"YYYY-mm-ddThh:mm:ss\"; e.g., 30-Oct-1990, Oct-1990, 1990, 1990-10-30, 1990-10,  21-Oct-1952/15-Feb-1953, 2015-10-11T17:53:03Z; valid non-ISO dates will be automatically transformed to ISO format"
+        },
+        {
+          "column": 10,
+          "name": "geo_loc_name",
+          "comment": "======\nID#AAAAiAxYsUc\n    (2022-10-20 15:22:47)\nGeographical origin of the sample; use the appropriate name from this list http://www.insdc.org/documents/country-qualifier-vocabulary. Use a colon to separate the country or ocean from more detailed information about the location, eg \"Canada: Vancouver\" or \"Germany: halfway down Zugspitze, Alps\""
+        },
+        {
+          "column": 11,
+          "name": "tissue",
+          "comment": "======\nID#AAAAiAxYsUU\n    (2022-10-20 15:22:47)\nType of tissue the sample was taken from."
+        },
+        {
+          "column": 12,
+          "name": "age",
+          "comment": "======\nID#AAAAiAxYsUo\n    (2022-10-20 15:22:47)\nage at the time of sampling; relevant scale depends on species and study, e.g. could be seconds for amoebae or centuries for trees"
+        },
+        {
+          "column": 13,
+          "name": "altitude",
+          "comment": "======\nID#AAAAiAxYsUg\n    (2022-10-20 15:22:47)\nThe altitude of the sample is the vertical distance between Earth's surface above Sea Level and the sampled position in the air."
+        },
+        {
+          "column": 14,
+          "name": "biomaterial_provider",
+          "comment": "======\nID#AAAAiAxYsUI\n    (2022-10-20 15:22:47)\nname and address of the lab or PI, or a culture collection identifier"
+        },
+        {
+          "column": 15,
+          "name": "collected_by",
+          "comment": "======\nID#AAAAiAxYsUY\n    (2022-10-20 15:22:47)\nName of persons or institute who collected the sample"
+        },
+        {
+          "column": 16,
+          "name": "depth",
+          "comment": "======\nID#AAAAiAxYsT4\n    (2022-10-20 15:22:47)\nDepth is defined as the vertical distance below surface, e.g. for sediment or soil samples depth is measured from sediment or soil surface, respectivly. Depth can be reported as an interval for subsurface samples."
+        },
+        {
+          "column": 17,
+          "name": "dev_stage",
+          "comment": "======\nID#AAAAiAxYsU8\n    (2022-10-20 15:22:47)\nDevelopmental stage at the time of sampling."
+        },
+        {
+          "column": 18,
+          "name": "env_broad_scale",
+          "comment": "======\nID#AAAAiAxYsUk\n    (2022-10-20 15:22:47)\nAdd terms that identify the major environment type(s) where your sample was collected. Recommend subclasses of biome [ENVO:00000428]. Multiple terms can be separated by one or more pipes e.g.:  mangrove biome [ENVO:01000181]|estuarine biome [ENVO:01000020]"
+        },
+        {
+          "column": 19,
+          "name": "host_tissue_sampled",
+          "comment": "======\nID#AAAAiAxYsT8\n    (2022-10-20 15:22:47)\nType of tissue the initial sample was taken from. Controlled vocabulary, http://bioportal.bioontology.org/ontologies/1005)"
+        },
+        {
+          "column": 20,
+          "name": "identified_by",
+          "comment": "======\nID#AAAAiAxYsVI\n    (2022-10-20 15:22:47)\nname of the taxonomist who identified the specimen"
+        },
+        {
+          "column": 21,
+          "name": "lat_lon",
+          "comment": "======\nID#AAAAiAxYsVE\n    (2022-10-20 15:22:47)\nThe geographical coordinates of the location where the sample was collected. Specify as degrees latitude and longitude in format \"d[d.dddd] N|S d[dd.dddd] W|E\", eg, 38.98 N 77.11 W"
+        },
+        {
+          "column": 22,
+          "name": "sex",
+          "comment": "======\nID#AAAAiAxYsUw\n    (2022-10-20 15:22:47)\nphysical sex of sampled organism"
+        },
+        {
+          "column": 23,
+          "name": "specimen_voucher",
+          "comment": "======\nID#AAAAiAxYsTs\n    (2022-10-20 15:22:47)\nIdentifier for the physical specimen. Use format: \"[<institution-code>:[<collection-code>:]]<specimen_id>\", eg, \"UAM:Mamm:52179\". Intended as a reference to the physical specimen that remains after it was analyzed. If the specimen was destroyed in the process of analysis, electronic images (e-vouchers) are an adequate substitute for a physical voucher specimen. Ideally the specimens will be deposited in a curated museum, herbarium, or frozen tissue collection, but often they will remain in a personal or laboratory collection for some time before they are deposited in a curated collection. There are three forms of specimen_voucher qualifiers. If the text of the qualifier includes one or more colons it is a 'structured voucher'. Structured vouchers include institution-codes (and optional collection-codes) taken from a controlled vocabulary maintained by the INSDC that denotes the museum or herbarium collection where the specimen resides, please visit: http://www.insdc.org/controlled-vocabulary-specimenvoucher-qualifier."
+        },
+        {
+          "column": 24,
+          "name": "temp",
+          "comment": "======\nID#AAAAiAxYsUE\n    (2022-10-20 15:22:47)\ntemperature of the sample at time of sampling"
+        },
+        {
+          "column": 25,
+          "name": "description",
+          "comment": "======\nID#AAAAiAxYsT0\n    (2022-10-20 15:22:47)\nDescription of the sample."
+        }
+      ]
+    },
+    {
+      "source": "data/sources/Ahuja2026_journal.pone.0351247.s008.xlsx",
+      "input": "tmp/journal.pone.0351247.s008.xlsx",
+      "sha256": "e5c12cb8931b78e74d5eef616d59d1514bcc44699f72b31538397b91b5ed4446",
+      "study": "Ahuja2026",
+      "sheet": "Sheet1",
+      "header_row": 1,
+      "columns": [
+        {
+          "column": 1,
+          "name": "Accession number",
+          "comment": ""
+        },
+        {
+          "column": 2,
+          "name": "YPM ID",
+          "comment": ""
+        },
+        {
+          "column": 3,
+          "name": "sample_ID",
+          "comment": ""
+        },
+        {
+          "column": 4,
+          "name": "collection_ID",
+          "comment": ""
+        },
+        {
+          "column": 5,
+          "name": "ocean",
+          "comment": ""
+        },
+        {
+          "column": 6,
+          "name": "location",
+          "comment": ""
+        },
+        {
+          "column": 7,
+          "name": "lat_long",
+          "comment": ""
+        },
+        {
+          "column": 8,
+          "name": "date_collected",
+          "comment": ""
+        },
+        {
+          "column": 9,
+          "name": "depth",
+          "comment": ""
+        },
+        {
+          "column": 10,
+          "name": "DNA/RNA",
+          "comment": ""
+        },
+        {
+          "column": 11,
+          "name": "New to this study or older data",
+          "comment": ""
+        }
+      ]
+    }
+  ],
+  "canonical_manifest_sha256": "d4f360916ad637c179e67674455836f7318b2e4272194ad8b4e3db5bae977a37"
+}

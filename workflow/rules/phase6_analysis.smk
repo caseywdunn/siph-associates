@@ -7,11 +7,13 @@ Phase-5 coverage tables. Every reported table regenerates from these rules.
    align_assembly_catalog_minimap2.
 2. Sensitivity read sets and mappings: trim_reads_uncapped,
    map_reads_sensitivity_bwa, summarize_sensitivity_coverage_coverm.
-3. Evidence grades and contamination flags: grade_presences,
-   test_contamination_flowcell.
+3. Evidence grades and physical-flowcell metadata: grade_presences,
+   normalize_phase6_metadata; contamination flags: test_contamination_flowcell,
+   test_nanomia_contamination_flowcell.
 4. Primary analyses: summarize_incidence, fit_physalia_models_lme4 (mixed models as
    pre-specified, plus the approved within-flowcell permutation test of region).
-5. Sensitivity comparisons: compare_sensitivity_analyses.
+5. Full 5% and 20% breadth analyses: analyze_presence_threshold;
+   read-handling sensitivity comparisons: compare_sensitivity_analyses.
 6. Check completeness of the analysis outputs: validate_phase6.
 
 Next: Phase 7 produces publication figures and source-data tables from these outputs.
@@ -210,12 +212,32 @@ rule grade_presences:
         """
 
 
+rule normalize_phase6_metadata:
+    input:
+        script="workflow/scripts/phase6_metadata.py",
+        manifest=config["manifest"],
+    output:
+        f"{P6V}/primary/library_flowcells.tsv",
+    log:
+        f"{WORK}/logs/phase6_analysis/normalize_phase6_metadata.log",
+    threads: 1
+    resources:
+        **phase5_resources("summary"),
+    conda:
+        "../../envs/workflow.yaml"
+    shell:
+        """
+        python {input.script:q} --manifest {input.manifest:q} --flowcell-policy single_flowcell \
+          --output {output:q} > {log:q} 2>&1
+        """
+
+
 rule test_contamination_flowcell:
     input:
         script="workflow/scripts/test_contamination_flowcell.py",
         analysis=str(PHASE6_CONFIG_PATH),
         grades=f"{P6V}/grades/bacterial_grades.tsv",
-        manifest=config["manifest"],
+        metadata=f"{P6V}/primary/library_flowcells.tsv",
     output:
         f"{P6V}/grades/contamination_tests.tsv",
     log:
@@ -228,7 +250,29 @@ rule test_contamination_flowcell:
     shell:
         """
         python {input.script:q} --analysis {input.analysis:q} --grades {input.grades:q} \
-          --manifest {input.manifest:q} --output {output:q} > {log:q} 2>&1
+          --metadata {input.metadata:q} --output {output:q} > {log:q} 2>&1
+        """
+
+
+rule test_nanomia_contamination_flowcell:
+    input:
+        script="workflow/scripts/test_contamination_flowcell.py",
+        analysis=str(PHASE6_CONFIG_PATH),
+        grades=f"{P6V}/grades/bacterial_grades.tsv",
+        metadata=f"{P6V}/primary/library_flowcells.tsv",
+    output:
+        f"{P6V}/primary/nanomia_contamination_tests.tsv",
+    log:
+        f"{WORK}/logs/phase6_analysis/test_nanomia_contamination_flowcell.log",
+    threads: 1
+    resources:
+        **phase5_resources("summary"),
+    conda:
+        "../../envs/workflow.yaml"
+    shell:
+        """
+        python {input.script:q} --analysis {input.analysis:q} --grades {input.grades:q} \
+          --metadata {input.metadata:q} --subset nanomia --output {output:q} > {log:q} 2>&1
         """
 
 
@@ -269,7 +313,7 @@ rule fit_physalia_models_lme4:
         analysis=str(PHASE6_CONFIG_PATH),
         grades=f"{P6V}/grades/bacterial_grades.tsv",
         libraries=f"{P6_COHORT}/library_mapping.tsv",
-        manifest=config["manifest"],
+        metadata=f"{P6V}/primary/library_flowcells.tsv",
     output:
         design=f"{P6V}/primary/physalia_design.tsv",
         models=f"{P6V}/primary/physalia_models.tsv",
@@ -287,7 +331,7 @@ rule fit_physalia_models_lme4:
     shell:
         """
         {params.stats}/Rscript {input.script:q} {input.analysis:q} {input.grades:q} {input.libraries:q} \
-          {input.manifest:q} {output.design:q} {output.models:q} {output.permanova:q} {output.permutation:q} > {log:q} 2>&1
+          {input.metadata:q} {output.design:q} {output.models:q} {output.permanova:q} {output.permutation:q} grade {threads} > {log:q} 2>&1
         """
 
 
@@ -327,12 +371,73 @@ rule compare_sensitivity_analyses:
         """
 
 
+rule analyze_presence_threshold:
+    input:
+        contamination_script="workflow/scripts/test_contamination_flowcell.py",
+        incidence_script="workflow/scripts/summarize_incidence.py",
+        models_script="workflow/scripts/fit_physalia_models.R",
+        analysis=str(PHASE6_CONFIG_PATH),
+        bacterial=f"{P6V}/grades/bacterial_grades.tsv",
+        viral=f"{P6V}/grades/viral_grades.tsv",
+        libraries=f"{P6_COHORT}/library_mapping.tsv",
+        metadata=f"{P6V}/primary/library_flowcells.tsv",
+        manifest=config["manifest"],
+        samples=config["samples"],
+        links=f"{P6_CATALOG}/crispr/host_links.tsv",
+    output:
+        contamination=f"{P6V}/sensitivity/breadth_{{threshold}}pct/contamination_tests.tsv",
+        nanomia=f"{P6V}/sensitivity/breadth_{{threshold}}pct/nanomia_contamination_tests.tsv",
+        bacterial=f"{P6V}/sensitivity/breadth_{{threshold}}pct/bacterial_incidence.tsv",
+        viral=f"{P6V}/sensitivity/breadth_{{threshold}}pct/viral_incidence.tsv",
+        grades=f"{P6V}/sensitivity/breadth_{{threshold}}pct/grade_summary.tsv",
+        links=f"{P6V}/sensitivity/breadth_{{threshold}}pct/phage_host_links.tsv",
+        design=f"{P6V}/sensitivity/breadth_{{threshold}}pct/physalia_design.tsv",
+        models=f"{P6V}/sensitivity/breadth_{{threshold}}pct/physalia_models.tsv",
+        permanova=f"{P6V}/sensitivity/breadth_{{threshold}}pct/physalia_permanova.tsv",
+        permutation=f"{P6V}/sensitivity/breadth_{{threshold}}pct/physalia_region_permutation.tsv",
+    params:
+        stats=P6_STATS,
+        grade=lambda wildcards: f"grade_at_{wildcards.threshold}pct",
+    wildcard_constraints:
+        threshold="5|20",
+    log:
+        f"{WORK}/logs/phase6_analysis/breadth_{{threshold}}pct.log",
+    threads: 4
+    resources:
+        **phase5_resources("summary"),
+    conda:
+        "../../envs/workflow.yaml"
+    shell:
+        """
+        python {input.contamination_script:q} --analysis {input.analysis:q} --grades {input.bacterial:q} \
+          --metadata {input.metadata:q} --grade-column {params.grade:q} \
+          --output {output.contamination:q} > {log:q} 2>&1
+        python {input.contamination_script:q} --analysis {input.analysis:q} --grades {input.bacterial:q} \
+          --metadata {input.metadata:q} --grade-column {params.grade:q} --subset nanomia \
+          --output {output.nanomia:q} >> {log:q} 2>&1
+        python {input.incidence_script:q} --bacterial {input.bacterial:q} --viral {input.viral:q} \
+          --contamination {output.contamination:q} --manifest {input.manifest:q} --samples {input.samples:q} \
+          --links {input.links:q} --grade-column {params.grade:q} \
+          --out-bacterial {output.bacterial:q} --out-viral {output.viral:q} --out-grades {output.grades:q} \
+          --out-links {output.links:q} >> {log:q} 2>&1
+        {params.stats}/Rscript {input.models_script:q} {input.analysis:q} {input.bacterial:q} {input.libraries:q} \
+          {input.metadata:q} {output.design:q} {output.models:q} {output.permanova:q} \
+          {output.permutation:q} {params.grade:q} {threads} >> {log:q} 2>&1
+        """
+
+
 rule validate_phase6:
     input:
         script="workflow/scripts/validate_phase6.py",
         bacterial=f"{P6V}/grades/bacterial_grades.tsv",
         viral=f"{P6V}/grades/viral_grades.tsv",
         contamination=f"{P6V}/grades/contamination_tests.tsv",
+        metadata=f"{P6V}/primary/library_flowcells.tsv",
+        nanomia=f"{P6V}/primary/nanomia_contamination_tests.tsv",
+        thresholds=expand(f"{P6V}/sensitivity/breadth_{{threshold}}pct/{{name}}.tsv",
+                          threshold=[5, 20], name=["contamination_tests", "nanomia_contamination_tests",
+                          "bacterial_incidence", "viral_incidence", "grade_summary", "phage_host_links",
+                          "physalia_design", "physalia_models", "physalia_permanova", "physalia_region_permutation"]),
         primary=[f"{P6V}/primary/{name}.tsv" for name in ("bacterial_incidence", "viral_incidence", "grade_summary",
                                                          "phage_host_links", "physalia_design", "physalia_models",
                                                          "physalia_permanova", "physalia_region_permutation")],
@@ -350,7 +455,8 @@ rule validate_phase6:
     shell:
         """
         python {input.script:q} --bacterial {input.bacterial:q} --viral {input.viral:q} \
-          --contamination {input.contamination:q} --primary {input.primary:q} \
+          --contamination {input.contamination:q} --metadata {input.metadata:q} --nanomia {input.nanomia:q} \
+          --thresholds {input.thresholds:q} --primary {input.primary:q} \
           --sensitivity {input.sensitivity:q} --output {output:q} > {log:q} 2>&1
         """
 

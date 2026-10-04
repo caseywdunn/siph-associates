@@ -45,6 +45,7 @@ include: "workflow/rules/mycoplasmatales_phylogeny.smk"
 include: "workflow/rules/mycoplasmatales_gene_content.smk"
 include: "workflow/rules/cnidarian_16s.smk"
 include: "workflow/rules/cassiopea_16s.smk"
+include: "workflow/rules/publication_figures.smk"
 
 
 rule all:

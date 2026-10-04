@@ -1,104 +1,152 @@
 #!/usr/bin/env python3
-"""Pre-specified contamination test: flowcell concentration of validated presences.
+"""Test physical-flowcell concentration within host-species x region strata.
 
-For each non-decoy genome with enough validated presences, the statistic
-sum_f n_f^2 / N (n_f = presences on flowcell f) is compared with permutations of
-flowcell labels within host species x ocean region strata. Strata with fewer than
-the minimum number of flowcells keep their labels fixed; a genome whose presences
-lie only in such strata is untestable. BH FDR is applied across tested genomes.
+Only libraries eligible in the normalized metadata enter inference. Descriptive
+presence counts retain all libraries. Strata without two physical flowcells do
+not enter the concentration statistic; a constant permutation distribution is
+reported as untestable. Permutations and BH adjustment are deterministic.
 """
+
 import argparse
 import csv
 import json
-import os
 import random
 from collections import Counter, defaultdict
 from pathlib import Path
 
-parser = argparse.ArgumentParser()
-parser.add_argument("--analysis", required=True)
-parser.add_argument("--grades", required=True)
-parser.add_argument("--manifest", required=True)
-parser.add_argument("--output", required=True, type=Path)
-args = parser.parse_args()
+PRESENT = {"validated", "high_confidence"}
+FIELDS = [
+    "target_id", "taxonomy", "validated_presences", "eligible_presences",
+    "permutable_presences", "excluded_presences", "flowcells",
+    "observed_concentration", "p_value", "q_value", "status",
+    "probable_contaminant", "identity_annotation", "analysis_subset",
+    "grade_column",
+]
 
-rule = json.loads(Path(args.analysis).read_text())["contamination_test"]
-libraries = {}
-with open(args.manifest, newline="") as handle:
-    for r in csv.DictReader(handle):
-        if r["include_primary"].lower() != "true":
+
+def rows(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="") as handle:
+        return list(csv.DictReader(handle, delimiter="\t"))
+
+
+def concentration(labels: dict[str, str], members: set[str]) -> float:
+    counts = Counter(labels[sample] for sample in members)
+    return sum(count * count for count in counts.values()) / len(members)
+
+
+def contamination_results(
+    rule: dict, grades: list[dict[str, str]], metadata: list[dict[str, str]],
+    grade_column: str = "grade", subset: str = "all",
+) -> list[dict]:
+    """Return separate descriptive and inferential counts for each tested genome."""
+    meta = {
+        row["sample_id"]: row for row in metadata
+        if subset == "all" or row["host_species"].startswith("Nanomia")
+    }
+    libraries = {
+        sample: row for sample, row in meta.items()
+        if row["inference_eligible"] == "true"
+    }
+    strata = defaultdict(list)
+    for sample, row in sorted(libraries.items()):
+        strata[(row["host_species"], row["ocean_region"] or "unknown")].append(sample)
+    permutable = {
+        key: members for key, members in sorted(strata.items())
+        if len({libraries[sample]["flowcell"] for sample in members})
+        >= rule["min_flowcells_in_stratum"]
+    }
+    permutable_samples = {sample for members in permutable.values() for sample in members}
+    present, taxonomy = defaultdict(set), {}
+    for row in grades:
+        if (row["sample_id"] in meta and row["role"] != "decoy"
+                and row[grade_column] in PRESENT):
+            present[row["target_id"]].add(row["sample_id"])
+            taxonomy[row["target_id"]] = row["taxonomy"]
+
+    generator = random.Random(rule["seed"])
+    base = {sample: libraries[sample]["flowcell"] for sample in sorted(permutable_samples)}
+    permutations = []
+    for _ in range(rule["permutations"]):
+        labels = dict(base)
+        for members in permutable.values():
+            shuffled = [base[sample] for sample in members]
+            generator.shuffle(shuffled)
+            labels.update(zip(members, shuffled))
+        permutations.append(labels)
+
+    results = []
+    for target, all_members in sorted(present.items()):
+        if len(all_members) < rule["min_validated_presences"]:
             continue
-        sample = f"{r['study']}__{r['library_id'].split(':')[-1]}"
-        flowcells = sorted({"/".join(b.split("/")[:3]) for b in r["sequencing_batches"].split(";") if b})
-        libraries[sample] = {"flowcell": ";".join(flowcells), "stratum": (r["species_current"],
-                                                                         r["ocean_region"] or "unknown")}
-samples = sorted(libraries)
-strata = defaultdict(list)
-for sample in samples:
-    strata[libraries[sample]["stratum"]].append(sample)
-permutable = {k for k, members in strata.items()
-              if len({libraries[s]["flowcell"] for s in members}) >= rule["min_flowcells_in_stratum"]}
+        eligible_members = all_members & libraries.keys()
+        members = all_members & permutable_samples
+        observed = concentration(base, members) if members else None
+        status, p_value = "untestable_no_permutable_presences", None
+        if len(eligible_members) < rule["min_validated_presences"]:
+            status = "below_minimum_eligible_presences"
+        elif members:
+            null = [concentration(labels, members) for labels in permutations]
+            # The statistic may be fixed even in a stratum with multiple flowcells.
+            # For example, all its libraries can carry the genome.
+            if min(null + [observed]) == max(null + [observed]):
+                status = "untestable_constant_statistic"
+            else:
+                status = "tested"
+                p_value = (sum(value >= observed for value in null) + 1) / (len(null) + 1)
+        genus = next((rank[3:] for rank in taxonomy[target].split(";")
+                      if rank.startswith("g__")), "")
+        results.append({
+            "target_id": target, "taxonomy": taxonomy[target],
+            "validated_presences": len(all_members),
+            "eligible_presences": len(eligible_members),
+            "permutable_presences": len(members),
+            "excluded_presences": len(all_members - eligible_members),
+            "flowcells": len({libraries[sample]["flowcell"] for sample in members}),
+            "observed_concentration": "" if observed is None else observed,
+            "p_value": "" if p_value is None else p_value,
+            "status": status,
+            "identity_annotation": str(genus.split("_")[0]
+                                       in rule["identity_annotation_genera"]).lower(),
+            "analysis_subset": subset, "grade_column": grade_column,
+        })
+    tested = sorted((row for row in results if row["status"] == "tested"),
+                    key=lambda row: row["p_value"])
+    running = 1.0
+    for rank, row in reversed(list(enumerate(tested, start=1))):
+        running = min(running, row["p_value"] * len(tested) / rank)
+        row["q_value"] = running
+    for row in results:
+        row.setdefault("q_value", "")
+        row["probable_contaminant"] = str(
+            row["status"] == "tested" and row["q_value"] < rule["fdr"]
+        ).lower()
+    return results
 
-present = defaultdict(set)
-taxonomy = {}
-with open(args.grades, newline="") as handle:
-    for r in csv.DictReader(handle, delimiter="\t"):
-        if r["role"] != "decoy" and r["grade"] in ("validated", "high_confidence"):
-            present[r["target_id"]].add(r["sample_id"])
-            taxonomy[r["target_id"]] = r["taxonomy"]
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--analysis", required=True, type=Path)
+    parser.add_argument("--grades", required=True, type=Path)
+    parser.add_argument("--metadata", required=True, type=Path)
+    parser.add_argument("--output", required=True, type=Path)
+    parser.add_argument("--grade-column", default="grade",
+                        choices=("grade", "grade_at_5pct", "grade_at_20pct"))
+    parser.add_argument("--subset", default="all", choices=("all", "nanomia"))
+    args = parser.parse_args()
+    rule = json.loads(args.analysis.read_text())["contamination_test"]
+    results = contamination_results(rule, rows(args.grades), rows(args.metadata),
+                                 args.grade_column, args.subset)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    temporary = args.output.with_name(args.output.name + ".tmp")
+    with temporary.open("w", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=FIELDS, delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(results)
+    temporary.replace(args.output)
+    print(f"genomes considered={len(results)} "
+          f"tested={sum(row['status'] == 'tested' for row in results)} "
+          f"flagged={sum(row['probable_contaminant'] == 'true' for row in results)}")
 
 
-def concentration(labels, members):
-    counts = Counter(labels[s] for s in members)
-    return sum(n * n for n in counts.values()) / len(members)
-
-
-generator = random.Random(rule["seed"])
-base = {s: libraries[s]["flowcell"] for s in samples}
-permutations = []
-for _ in range(rule["permutations"]):
-    labels = dict(base)
-    for key in permutable:
-        members = strata[key]
-        shuffled = [base[s] for s in members]
-        generator.shuffle(shuffled)
-        labels.update(zip(members, shuffled))
-    permutations.append(labels)
-
-results = []
-for target, members in sorted(present.items()):
-    if len(members) < rule["min_validated_presences"]:
-        continue
-    testable = any(libraries[s]["stratum"] in permutable for s in members)
-    observed = concentration(base, members)
-    if testable:
-        exceed = sum(concentration(labels, members) >= observed for labels in permutations)
-        p = (exceed + 1) / (len(permutations) + 1)
-    else:
-        p = None
-    genus = taxonomy[target].split(";")[5][3:] if taxonomy[target] else ""
-    results.append({"target_id": target, "taxonomy": taxonomy[target], "validated_presences": len(members),
-                    "flowcells": len({base[s] for s in members}), "observed_concentration": round(observed, 4),
-                    "p_value": "" if p is None else round(p, 6), "status": "tested" if testable else "untestable",
-                    "identity_annotation": str(genus.split("_")[0] in rule["identity_annotation_genera"]).lower()})
-
-tested = sorted((r for r in results if r["status"] == "tested"), key=lambda r: r["p_value"])
-m = len(tested)
-running = 1.0
-for rank, r in reversed(list(enumerate(tested, start=1))):
-    running = min(running, r["p_value"] * m / rank)
-    r["q_value"] = round(running, 6)
-for r in results:
-    r.setdefault("q_value", "")
-    r["probable_contaminant"] = str(r["status"] == "tested" and r["q_value"] < rule["fdr"]).lower()
-
-fields = ["target_id", "taxonomy", "validated_presences", "flowcells", "observed_concentration", "p_value",
-          "q_value", "status", "probable_contaminant", "identity_annotation"]
-args.output.parent.mkdir(parents=True, exist_ok=True)
-temporary = args.output.with_name(args.output.name + ".tmp")
-with temporary.open("w", newline="") as handle:
-    writer = csv.DictWriter(handle, fieldnames=fields, delimiter="\t", lineterminator="\n")
-    writer.writeheader()
-    writer.writerows(results)
-os.replace(temporary, args.output)
-print(f"genomes considered={len(results)} tested={m} flagged={sum(r['probable_contaminant'] == 'true' for r in results)}")
+if __name__ == "__main__":
+    main()

@@ -46,9 +46,15 @@ markers than foreign DNA. Under the plan it still supports presence only.
   plan deviation), E3 (K00382), phosphotransacetylase (K00625) and acetate
   kinase (K00925). This is the PDH–Pta–AckA route found in most family members
   (Pta–AckA module complete in 63%).
-- **DT-68** (*Nanomia*/*Resomia*) lacks PDH, Pta and AckA, and is the only
-  siphonophore lineage with **L-lactate dehydrogenase** (K00016; both tiers).
-  It points to lactate fermentation.
+- **DT-68** (*Nanomia*/*Resomia*, `MAGSP0011`, 91.9% complete) has no
+  detected PDH, Pta or AckA and carries one **L-lactate dehydrogenase**
+  (K00016) assignment in both tiers, consistent with lactate fermentation.
+  It is the only siphonophore MAG with a strict-threshold K00016 assignment.
+  `MAGSP0031` (clade B) also has one K00016 assignment in the primary relaxed
+  tier, but none in the strict tier. Because that genome has 8.9% estimated
+  contamination, this is a threshold-dependent, single-genome presence
+  observation, not an established clade-B trait. Thus lactate dehydrogenase
+  is not exclusive to DT-68 under the primary assignment rule.
 - **Arginine deiminase pathway** (arcA K01478, arcB K00611, arcC K00926;
   identical in both tiers):
   - present in clade A, DT-68 (three carbamate kinase copies) and
@@ -57,7 +63,8 @@ markers than foreign DNA. Under the plan it still supports presence only.
     of family genomes carry it.
   Clade B is therefore expected to depend on sugar fermentation for ATP.
 - **Glycerol.** Glycerol kinase (K00864) is in both *Physalia* clades; clade A
-  also has the uptake facilitator (glpF). No siphonophore genome encodes
+  and `MAGSP0031` also have the uptake facilitator (glpF, K02440; both tiers).
+  No siphonophore genome encodes
   glycerol-3-phosphate oxidase (glpO, K00105) or dehydrogenase (K00111). The
   H2O2-producing glycerol pathway, a virulence factor in some *Mycoplasma*,
   is absent, as it is from all 130 family comparison genomes.
@@ -97,8 +104,13 @@ as features of that genome, not of clade B.
 
 ## Interpretation
 
-Relaxed and strict tiers agree on the arginine deiminase, lactate
-dehydrogenase, glycerol and nanE contrasts. The siphonophore Mollicutes share
+For the seven siphonophore MAGs, relaxed and strict tiers agree on the
+arginine deiminase, glycerol and nanE assignments. They also agree on the
+lactate dehydrogenase assignment in DT-68, but the additional assignment in
+`MAGSP0031` is relaxed-only. Concordance here refers to the siphonophore
+MAGs; comparison-family frequencies can depend strongly on the tier (for
+example, K00016 occurs in 68.5% under relaxed assignments and 10.8% under
+strict assignments). The siphonophore Mollicutes share
 the reduced, fermentative metabolism of the family and do not encode the
 H2O2-producing glycerol pathway, urease or sialidase associated with
 pathogenic relatives. The *Physalia* clades ferment sugar to acetate. Clade A

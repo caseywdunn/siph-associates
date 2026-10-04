@@ -14,6 +14,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from eukaryote_reporting import annotate_detections  # noqa: E402
 from eukaryote_units import unit  # noqa: E402
 
 parser = argparse.ArgumentParser()
@@ -35,7 +36,12 @@ def rows(path):
 
 
 def named(lineage, identity):
-    """Lineage reported to the depth its identity supports; SILVA species labels are never reported."""
+    """Return a conservative name and identity-based ceiling, not an achieved rank.
+
+    LCA assignment may end above this ceiling; without a rank-resolved taxonomy
+    it must not be described as genus identification solely from high identity.
+    SILVA species labels have already been removed by the classification step.
+    """
     ranks = [r for r in lineage.split(";") if r]
     if identity >= 97:
         return ";".join(ranks), "genus"
@@ -92,21 +98,25 @@ for (sample, reporting_unit), e in sorted(evidence.items()):
         continue
     if assembled:
         best = max(assembled, key=lambda a: float(a["identity"]))
-        lineage, depth = named(best["lineage"], float(best["identity"]))
+        lca_lineage = best["lineage"]
+        lineage, ceiling = named(lca_lineage, float(best["identity"]))
         identity = float(best["identity"])
     else:
-        top = e["read_lineages"].most_common(1)[0][0]
-        lineage, depth, identity = named(top, band)[0], named(top, band)[1], band
+        lca_lineage = e["read_lineages"].most_common(1)[0][0]
+        lineage, ceiling = named(lca_lineage, band)
+        identity = band
     top_hits = [verified[a["sequence_id"]][0] for a in assembled if verified.get(a["sequence_id"])]
     records.append({
         "sample_id": sample, "reporting_unit": reporting_unit, "kind": kinds[reporting_unit], "grade": grade,
         "read_pairs_ge97": e["read_pairs"], "assembled_sequences": len(assembled),
         "assembled_sources": ",".join(sorted({a["source"] for a in assembled})),
-        "best_identity": round(identity, 2), "named_lineage": lineage, "naming_depth": depth,
+        "best_identity": round(identity, 2), "named_lineage": lineage, "naming_ceiling": ceiling,
+        "lca_lineage": lca_lineage, "lca_terminal_taxon": lca_lineage.split(";")[-1],
         "role": role(lineage, [h["organism"] + " " + h.get("title", "") for h in top_hits]), "contamination": str(kinds[reporting_unit] == "human").lower(),
         "ncbi_top_hit": "; ".join(f"{h['organism']} ({h['subject']}, {h['identity']}%)" for h in top_hits[:2]),
     })
 
+records = annotate_detections(records)
 fields = list(records[0]) if records else ["sample_id"]
 temporary = args.output.with_name(args.output.name + ".tmp")
 with temporary.open("w", newline="") as handle:
@@ -115,4 +125,5 @@ with temporary.open("w", newline="") as handle:
     writer.writerows(records)
 os.replace(temporary, args.output)
 print("grades:", dict(Counter(r["grade"] for r in records)),
-      "roles:", dict(Counter(r["role"] for r in records if r["grade"] != "trace")))
+      "nonredundant_detections:", sum(r["count_as_detection"] == "true" for r in records),
+      "roles:", dict(Counter(r["role"] for r in records if r["count_as_detection"] == "true")))

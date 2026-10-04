@@ -1,0 +1,9 @@
+library_id	field	value	issue	source
+Church2025:YPM-IZ-104465	longitude	13.428 N 144.799 W	west_longitude_conflicts_with_Guam_label_and_existing_east_coordinate	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803051
+Ahuja2026:NA19	depth_m	297	BioSample_matches_2024_sheet_297m_but_2026_sheet_reports_296; retain_conflict	https://www.ncbi.nlm.nih.gov/biosample/SAMN32803049
+Ahuja2026:WS10	depth	217	numeric_depth_with_missing_units_or_unresolved_format; no_depth_m_candidate	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043650
+Ahuja2026:WS5	depth	2854.16	numeric_depth_with_missing_units_or_unresolved_format; no_depth_m_candidate	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043645
+Ahuja2026:WS6	depth	2563.33	numeric_depth_with_missing_units_or_unresolved_format; no_depth_m_candidate	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043646
+Ahuja2026:WS7	depth	662.29	numeric_depth_with_missing_units_or_unresolved_format; no_depth_m_candidate	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043647
+Ahuja2026:WS8	depth	559.83	numeric_depth_with_missing_units_or_unresolved_format; no_depth_m_candidate	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043648
+Ahuja2026:WS9	depth	309	numeric_depth_with_missing_units_or_unresolved_format; no_depth_m_candidate	https://www.ncbi.nlm.nih.gov/biosample/SAMN48043649

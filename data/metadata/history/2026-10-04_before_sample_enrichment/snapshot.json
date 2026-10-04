@@ -1,0 +1,12 @@
+[
+  {
+    "source": "manifest.csv",
+    "snapshot": "data/metadata/history/2026-10-04_before_sample_enrichment/manifest.csv",
+    "sha256": "d4f360916ad637c179e67674455836f7318b2e4272194ad8b4e3db5bae977a37"
+  },
+  {
+    "source": "data/metadata/manifest.freeze.sha256",
+    "snapshot": "data/metadata/history/2026-10-04_before_sample_enrichment/manifest.freeze.sha256",
+    "sha256": "a696ad3eadd38c7ffe33578a96a9ab3934ad0a824f8a74a0760e330802284097"
+  }
+]
