@@ -38,6 +38,22 @@ Existing values and all biological results are preserved. See the
 discrepancies, coverage and reproduction. Manifest rebuilds apply the accepted
 `data/metadata/sample_metadata_updates.tsv` overlay.
 
+## Direct trematode comparison and revised figures
+
+A targeted comparison of the eight trematode-positive specimens against
+Waki et al.'s deposited markers and their external comparison references
+recovers Dinurus-like ITS2-containing and COI sequences and
+Prodistomum-like 28S sequences. The comparison retains competing hits and
+marker-linkage limits; it does not change the original cohort presence grades.
+See [methods, results and reproduction](docs/waki_sequence_comparison.md) and
+[reference retrieval](data/sources/waki2026/README.md).
+
+The main-figure set now opens with a study overview and host-photo placeholders,
+followed by broad bacterial/archaeal distributions, one focused bacterial
+phylogeny, and eukaryotic evidence with host-species labels. Detailed
+Mycoplasmatales incidence and gene functions remain available for the
+manuscript supplement. See [figure builds and source data](figures/README.md).
+
 ## Repository layout
 
 ```

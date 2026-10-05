@@ -1,0 +1,7 @@
+species_current	depth_group	total_libraries	single_flowcell_libraries	library_ids	bacterial_positive_libraries	bacterial_targets	archaeal_positive_libraries	archaeal_targets	viral_positive_libraries	viral_targets	eukaryote_positive_libraries	eukaryote_groups	dt68_positive_libraries	dt68_targets	vibrio_positive_libraries	vibrio_targets	metamycoplasmataceae_positive_libraries	metamycoplasmataceae_targets	clade_a_positive_libraries	clade_a_targets	clade_b_positive_libraries	clade_b_targets	prey_positive_libraries	prey_groups	parasite_positive_libraries	parasite_groups
+Nanomia bijuga	non_Physalia_0_20m	5	5	Ahuja2024:CWD16;Ahuja2026:NA30;Ahuja2026:NA31;Ahuja2026:NA32;Ahuja2026:NA33	2	28	0	0	5	71	1	2	0	0	1	1	1	2	0	0	1	1	0	0	0	0
+Nanomia septata	non_Physalia_0_20m	3	2	Ahuja2026:NA34;Ahuja2026:NA35;Ahuja2026:NA36	1	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Nanomia septata	non_Physalia_gt20m	4	0	Ahuja2026:WS10;Ahuja2026:WS7;Ahuja2026:WS8;Ahuja2026:WS9	4	4	0	0	4	6	0	0	4	4	0	0	4	4	0	0	0	0	0	0	0	0
+Nanomia septata	non_Physalia_unknown	3	1	Ahuja2026:NA19;Ahuja2026:WS5;Ahuja2026:WS6	3	4	0	0	3	5	1	2	3	3	0	0	3	3	0	0	0	0	0	0	1	1
+Nanomia sp.	non_Physalia_0_20m	7	4	Ahuja2026:NA28;Ahuja2026:NA29;Ahuja2026:NA37;Ahuja2026:NA38;Ahuja2026:WS2;Ahuja2026:WS3;Ahuja2026:WS4	3	23	1	1	5	12	1	5	0	0	1	1	0	0	0	0	0	0	1	1	0	0
+Resomia ornicephala	non_Physalia_gt20m	2	0	Ahuja2024:NA10;Ahuja2024:NA11	2	17	0	0	2	2	0	0	2	2	0	0	2	2	0	0	0	0	0	0	0	0

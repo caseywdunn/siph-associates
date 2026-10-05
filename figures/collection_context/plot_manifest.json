@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "generated_utc": "2026-10-04T23:30:58.964296+00:00",
+  "source_revision": "7cac98ca4c82f1e8c76c8bd714f6510b753416b1",
+  "working_directory": "/gpfs/ycga/work/dunn/cwd7/siph_associates",
+  "source_git_status_porcelain": [
+    " M figures/README.md",
+    " M workflow/rules/publication_figures.smk",
+    "?? docs/collection_context_analysis.md",
+    "?? figures/collection_context/",
+    "?? figures/plot_collection_context.py",
+    "?? scripts/analyze_collection_context.py",
+    "?? tests/test_collection_context.py"
+  ],
+  "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python figures/plot_collection_context.py",
+  "source_snapshot": "figures/collection_context/provenance/plot_collection_context.py",
+  "script_sha256": "fab5213b766a96849416ab3aef9fc6c9d734ef9ee1a6a81f15a588e950eebe97",
+  "inputs_sha256": {
+    "figures/collection_context/library_context.tsv": "d8a3ef8ec4a175593a2ad034eb84097a931d7aa17cb9fc0f34921a3ce6761dbc",
+    "figures/collection_context/host_detection_summary.tsv": "b3aecd1492991eb4103fef7d7fe7dd4ebb7a5e5d39ba9f31b21813a47db08db3",
+    "figures/collection_context/dt68_specimens.tsv": "62b0d01afe0d05cdc5185439b2df10b0f8317540aa50032e077dd1c3dccea017",
+    "figures/collection_context/tissue_summary.tsv": "a13bd4cf3de0551436bbb2abdc94e694e9462234063a3a887a46d0d2fd9c2901",
+    "figures/collection_context/tissue_region_incidence.tsv": "58bf513f4fe6a9497c770adc2e7a766b64b15e8ad42c302ef2bad16483a2d940"
+  },
+  "outputs_sha256": {
+    "figures/collection_context/depth_host_overview.pdf": "a68d438ba55a561c0df298aeb6b1880332d76c9fda69c955ff0ea93fd6a7bf95",
+    "figures/collection_context/depth_host_overview.png": "4fb0b578f9155779ee8787d06bf4a142bc76329633f37ff89f101f4b3592078c",
+    "figures/collection_context/dt68_depth_context.pdf": "e9dd1001218a67fc4fdafaa0417ac59cf0ba92022379d20ffc6b8e36f3a067d0",
+    "figures/collection_context/dt68_depth_context.png": "b4dbfc070879971fa4fa32be7d46936eb13e5092c6ad29f349c3fa4b332c9355",
+    "figures/collection_context/tissue_context.pdf": "aa69bf10154b3e456aacb68df4642b929f8c5d854679a109e674935574240e50",
+    "figures/collection_context/tissue_context.png": "8edb8dcc441dea0ab5ad51ef59de325bf0a8ecbe037001ff89080521ad54f4e3"
+  },
+  "environment": {
+    "python": "3.11.0",
+    "matplotlib": "3.7.1",
+    "numpy": "1.24.2"
+  },
+  "scope": "All 205 libraries descriptive; only one-physical-flowcell libraries eligible for flowcell inference."
+}

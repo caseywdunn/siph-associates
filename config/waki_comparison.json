@@ -1,0 +1,21 @@
+{
+  "references": "data/sources/waki2026/references.fasta",
+  "reference_genbank": "data/sources/waki2026/references.gb",
+  "reference_metadata": "data/sources/waki2026/reference_metadata.tsv",
+  "context_references": "data/sources/waki2026/context_references.fasta",
+  "context_genbank": "data/sources/waki2026/context_references.gb",
+  "context_metadata": "data/sources/waki2026/context_metadata.tsv",
+  "manifest": "manifest.csv",
+  "grades": "data/results/eukaryote_gate/eukaryote_grades.tsv",
+  "assembled_ssu_table": "data/results/eukaryote_gate/assembled_nonhost.tsv",
+  "assembled_ssu_fasta": "data/results/eukaryote_gate/assembled_nonhost.fasta",
+  "assembly_pattern": "data/results/phase3_cohort/assemblies/{sample_id}.fasta",
+  "samples": ["Church2025__YPM-IZ-104464", "Church2025__YPM-IZ-110436", "Church2025__YPM-IZ-110557", "Church2025__YPM-IZ-110631", "Church2025__YPM-IZ-110694", "Church2025__YPM-IZ-110846", "Church2025__YPM-IZ-110882", "Church2025__YPM-IZ-110931"],
+  "blastn": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/blastn",
+  "makeblastdb": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/makeblastdb",
+  "blast_parameters": {"task": "blastn", "word_size": 11, "dust": "yes", "evalue": "1e-10", "max_target_seqs": 1000000, "threads": 1},
+  "long_homology_min_alignment_bp": 200,
+  "physical_ssu_link_min_identity_percent": 97,
+  "physical_ssu_link_min_query_coverage_percent": 80,
+  "competitor_min_locus_overlap_fraction": 0.8
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "independent_xlsx_parser": "openpyxl3.1.5",
+  "accessioned_rows": 211,
+  "unique_accessions": 211,
+  "study_unique_accessions": 98,
+  "external_unique_accessions": 113,
+  "supplement_sha256": "e591d82bbbd510d5b7e9df3b8f4695df8965eafafa92b4fcb5ab81fdab902ab8"
+}

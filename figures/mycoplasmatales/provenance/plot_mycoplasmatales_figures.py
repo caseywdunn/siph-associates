@@ -14,8 +14,10 @@ import hashlib
 import json
 import os
 import platform
+import shlex
 import shutil
 import subprocess
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -28,7 +30,6 @@ import numpy as np
 from Bio import Phylo
 from matplotlib.colors import ListedColormap
 from matplotlib.patches import Patch
-
 
 FUNCTIONS = [
     ("K01478", "Arginine deiminase (arcA)"),
@@ -182,7 +183,9 @@ def node_support(clade) -> float | None:
     return None
 
 
-def focus_tree(tree_path: Path, genomes: list[dict], labels: list[dict], output: Path) -> None:
+def focus_tree(
+    tree_path: Path, genomes: list[dict], labels: list[dict], output: Path
+) -> None:
     """Display the existing MRCA subtree without removing duplicate source tips."""
     tree = Phylo.read(tree_path, "newick")
     terminals = tree.get_terminals()
@@ -192,7 +195,9 @@ def focus_tree(tree_path: Path, genomes: list[dict], labels: list[dict], output:
     root = tree.common_ancestor(MAG_ORDER)
     tips = root.get_terminals()
     if len(terminals) != 483 or len(tips) != 21:
-        raise ValueError("Tree changed: inspect the selected 21-tip clade before plotting")
+        raise ValueError(
+            "Tree changed: inspect the selected 21-tip clade before plotting"
+        )
     taxonomy = {row["genome"]: row for row in genomes}
     external = {row["genome"]: row for row in labels}
     depth, height = {}, {}
@@ -201,32 +206,54 @@ def focus_tree(tree_path: Path, genomes: list[dict], labels: list[dict], output:
         depth[clade] = distance
         for child in clade.clades:
             layout(child, distance + (child.branch_length or 0.0))
-        height[clade] = (len(tips) - 1 - tips.index(clade)) if clade.is_terminal() else (
-            height[clade.clades[0]] + height[clade.clades[-1]]) / 2
+        height[clade] = (
+            (len(tips) - 1 - tips.index(clade))
+            if clade.is_terminal()
+            else (height[clade.clades[0]] + height[clade.clades[-1]]) / 2
+        )
 
     layout(root)
     max_depth = max(depth.values())
-    fig, ax = plt.subplots(figsize=(8.0, 6.4))
-    fig.subplots_adjust(left=0.035, right=0.97, bottom=0.15, top=0.84)
+    fig, ax = plt.subplots(figsize=(8.0, 7.8))
+    fig.subplots_adjust(left=0.035, right=0.97, bottom=0.18, top=0.84)
     rows = []
     source_colors = {"study": "#197F8C", "external": "#B75B24", "GTDB": "#48565C"}
-    mag_lineages = {"MAGSP0005": "clade A", "MAGSP0007": "clade B",
-                    "MAGSP0010": "clade B", "MAGSP0029": "clade B",
-                    "MAGSP0031": "clade B", "MAGSP0011": "DT-68",
-                    "MAGSP0012": "Mycoplasma_K"}
+    mag_lineages = {
+        "MAGSP0005": "clade A",
+        "MAGSP0007": "clade B",
+        "MAGSP0010": "clade B",
+        "MAGSP0029": "clade B",
+        "MAGSP0031": "clade B",
+        "MAGSP0011": "DT-68",
+        "MAGSP0012": "Mycoplasma_K",
+    }
     for clade in root.find_clades(order="preorder"):
         if clade.clades:
-            ax.plot([depth[clade]] * 2, [height[clade.clades[0]], height[clade.clades[-1]]],
-                    color="#65767B", linewidth=0.8)
+            ax.plot(
+                [depth[clade]] * 2,
+                [height[clade.clades[0]], height[clade.clades[-1]]],
+                color="#65767B",
+                linewidth=0.8,
+            )
             for child in clade.clades:
-                ax.plot([depth[clade], depth[child]], [height[child]] * 2,
-                        color="#65767B", linewidth=0.8)
+                ax.plot(
+                    [depth[clade], depth[child]],
+                    [height[child]] * 2,
+                    color="#65767B",
+                    linewidth=0.8,
+                )
             support = node_support(clade)
             if support is not None:
-                ax.text(depth[clade] - 0.008 * max_depth, height[clade] + 0.16,
-                        f"{support:.3g}", fontsize=6.3, ha="right", va="bottom",
-                        color="#A65120" if support < 0.9 else "#37464A",
-                        bbox={"facecolor": "white", "edgecolor": "none", "pad": 0.35})
+                ax.text(
+                    depth[clade] - 0.008 * max_depth,
+                    height[clade] + 0.16,
+                    f"{support:.3g}",
+                    fontsize=9,
+                    ha="right",
+                    va="bottom",
+                    color="#A65120" if support < 0.9 else "#37464A",
+                    bbox={"facecolor": "white", "edgecolor": "none", "pad": 0.35},
+                )
             continue
         tip = clade.name
         duplicate = "GCA_929200685.1" in tip
@@ -250,33 +277,78 @@ def focus_tree(tree_path: Path, genomes: list[dict], labels: list[dict], output:
         if duplicate:
             label += " [dup.]"
         color = source_colors[source]
-        ax.scatter(depth[clade], height[clade], s=11 if source != "study" else 20,
-                   color=color, zorder=4)
-        ax.text(depth[clade] + max_depth * 0.025, height[clade], label, va="center",
-                color=color, fontsize=8, weight="bold" if source == "study" else "normal")
-        rows.append({"tip": tip, "display_label": label, "source": source,
-                     "classification": classification, "duplicate_assembly": duplicate,
-                     "distance_from_subtree_root": depth[clade]})
+        ax.scatter(
+            depth[clade],
+            height[clade],
+            s=11 if source != "study" else 20,
+            color=color,
+            zorder=4,
+        )
+        ax.text(
+            depth[clade] + max_depth * 0.025,
+            height[clade],
+            label,
+            va="center",
+            color=color,
+            fontsize=10,
+            weight="bold" if source == "study" else "normal",
+        )
+        rows.append(
+            {
+                "tip": tip,
+                "display_label": label,
+                "source": source,
+                "classification": classification,
+                "duplicate_assembly": duplicate,
+                "distance_from_subtree_root": depth[clade],
+            }
+        )
     ax.set(xlim=(-max_depth * 0.055, max_depth * 2.52), ylim=(-1.4, len(tips) - 0.1))
     ax.axis("off")
     scale = 0.1
     ax.plot([0, scale], [-0.9, -0.9], color="#37464A", lw=1.5)
-    ax.text(scale / 2, -1.12, "0.1 substitutions/site", fontsize=7, ha="center", va="top")
-    fig.text(0.025, 0.965, "Phylogenomic context of the siphonophore lineages",
-             fontsize=12, weight="bold", va="top")
-    fig.text(0.025, 0.916,
-             "Metamycoplasmataceae: 21-tip clade from the 483-tip bac120 tree; branch lengths retained",
-             fontsize=8.5, color="#48565C")
-    handles = [Patch(facecolor=color, label=label) for color, label in [
-        (source_colors["study"], "Siphonophore MAG"),
-        (source_colors["external"], "External host-associated genome"),
-        (source_colors["GTDB"], "GTDB r220 reference")]]
-    fig.legend(handles=handles, loc="lower left", bbox_to_anchor=(0.02, 0.065),
-               ncol=3, frameon=False, fontsize=8)
-    fig.text(0.025, 0.048,
-             "Node labels: FastTree local support, not bootstrap percentages. Root support = 0.999.\n"
-             "[dup.] The same assembly GCA_929200685.1 occurs as both an external input and a GTDB reference.",
-             fontsize=7.5, va="top")
+    ax.text(
+        scale / 2, -1.12, "0.1 substitutions/site", fontsize=9, ha="center", va="top"
+    )
+    fig.text(
+        0.025,
+        0.965,
+        "Phylogenomic context of the siphonophore lineages",
+        fontsize=12,
+        weight="bold",
+        va="top",
+    )
+    fig.text(
+        0.025,
+        0.916,
+        "Metamycoplasmataceae: 21-tip clade from the 483-tip bac120 tree; branch lengths retained",
+        fontsize=9,
+        color="#48565C",
+    )
+    handles = [
+        Patch(facecolor=color, label=label)
+        for color, label in [
+            (source_colors["study"], "Siphonophore MAG"),
+            (source_colors["external"], "External host-associated genome"),
+            (source_colors["GTDB"], "GTDB r220 reference"),
+        ]
+    ]
+    fig.legend(
+        handles=handles,
+        loc="lower left",
+        bbox_to_anchor=(0.02, 0.065),
+        ncol=3,
+        frameon=False,
+        fontsize=9,
+    )
+    fig.text(
+        0.025,
+        0.048,
+        "Node labels: FastTree local support, not bootstrap percentages. Root support = 0.999.\n"
+        "[dup.] The same assembly GCA_929200685.1 occurs as both an external input and a GTDB reference.",
+        fontsize=9,
+        va="top",
+    )
     save_figure(fig, output, "phylogeny_focus")
     write_rows(output / "source_phylogeny_focus.tsv", rows)
 
@@ -315,7 +387,7 @@ def main() -> None:
         "source_revision": subprocess.check_output(
             ["git", "rev-parse", "HEAD"], cwd=root, text=True).strip(),
         "source_snapshot": str(snapshot.relative_to(root)), "script_sha256": checksum(snapshot),
-        "command": "python workflow/scripts/plot_mycoplasmatales_figures.py",
+        "command": shlex.join([sys.executable, *sys.argv]),
         "environment": {"python": platform.python_version(), "biopython": Bio.__version__,
                         "matplotlib": matplotlib.__version__, "numpy": np.__version__},
         "inputs_sha256": before,

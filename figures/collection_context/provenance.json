@@ -1,0 +1,66 @@
+{
+  "analysis_id": "collection-context-descriptive",
+  "run_id": "20261004T230835.012952Z",
+  "started_at_utc": "2026-10-04T23:08:35.012952+00:00",
+  "completed_at_utc": "2026-10-04T23:08:35.093315+00:00",
+  "status": "complete",
+  "command": "/home/cwd7/.conda/envs/corpus/bin/python scripts/analyze_collection_context.py",
+  "working_directory": "/gpfs/ycga/work/dunn/cwd7/siph_associates",
+  "python_version": "3.12.14",
+  "dependencies": "Python standard library only",
+  "source_base_git_revision": "7cac98ca4c82f1e8c76c8bd714f6510b753416b1",
+  "source_dirty_state": [
+    "?? figures/collection_context/",
+    "?? figures/plot_collection_context.py",
+    "?? scripts/analyze_collection_context.py",
+    "?? tests/test_collection_context.py"
+  ],
+  "script": "scripts/analyze_collection_context.py",
+  "script_sha256": "b0f3da8b798fffceacf617df2e7426f2ee862f357621ad9c1d5fc8049c3786a5",
+  "source_snapshot": "figures/collection_context/provenance/analyze_collection_context.py",
+  "inputs_sha256": {
+    "manifest.csv": "926bcbf2c6dffc18d9da0faa1877bd67349d057599aead88ba4472c40279b72d",
+    "figures/cohort/bacterial_detections.tsv": "8629c51f2a10c4250bcb2e012eee254d8962398f015aaf3d0b13580056498d14",
+    "figures/cohort/viral_detections.tsv": "2bac2074ecf9512dd35f1b036b4d264e7adda24e5b0c26d5477e6d935067e0c3",
+    "figures/cohort/eukaryote_evidence.tsv": "5f56fcfd48e4c148fce1ce9d2762ab9086d07fa7da58aaa924a84cccdd63c440",
+    "figures/cohort/library_flowcells.tsv": "a3a38e2b850dc172284cd9c9805e352f8f6c94a92138904d392ff7035efd698f",
+    "figures/cohort/mycoplasmatales_incidence.tsv": "10f52a04b7c39feafac7d19bfe4b419615c80d7b57c9e91462a703557ace8e52"
+  },
+  "outputs_sha256": {
+    "figures/collection_context/library_context.tsv": "d8a3ef8ec4a175593a2ad034eb84097a931d7aa17cb9fc0f34921a3ce6761dbc",
+    "figures/collection_context/associate_detections.tsv": "5f72ba8bab23d47d5df1121f04bab39058e70329d6bf07c80827a9faadff2610",
+    "figures/collection_context/depth_summary.tsv": "0c3cd8d7237048516eb6d1eacf13a53dc4764ba94a92e240b402f3d3f514d57a",
+    "figures/collection_context/host_detection_summary.tsv": "b3aecd1492991eb4103fef7d7fe7dd4ebb7a5e5d39ba9f31b21813a47db08db3",
+    "figures/collection_context/tissue_summary.tsv": "a13bd4cf3de0551436bbb2abdc94e694e9462234063a3a887a46d0d2fd9c2901",
+    "figures/collection_context/dt68_specimens.tsv": "62b0d01afe0d05cdc5185439b2df10b0f8317540aa50032e077dd1c3dccea017",
+    "figures/collection_context/dt68_depth_summary.tsv": "80313ad0af6eefb3f95ded1041e2024cc3ad8f55c141dee38ce9cd4bdadf2e99",
+    "figures/collection_context/tissue_region_incidence.tsv": "58bf513f4fe6a9497c770adc2e7a766b64b15e8ad42c302ef2bad16483a2d940",
+    "figures/collection_context/tissue_region_host_incidence.tsv": "74add0bcde48ede7a3ab3bccf02b649686b5e03750172cfd42b9fa22a35bbb3a",
+    "figures/collection_context/summary.json": "047011cc56d5e8fa666c7ea86a7e86f6af401cabd5e083d7ca299b67a83ebfd0"
+  },
+  "parameters": {
+    "scope": "All 205 libraries descriptive; additional single-physical-flowcell descriptive subsets only; no new tests or models.",
+    "positive_grades": [
+      "high_confidence",
+      "validated"
+    ],
+    "eukaryote_selection": "count_as_detection=true in reviewed evidence; no ancestor/descendant double-counting.",
+    "units": "Bacterial/archaeal/viral counts are accepted genome targets; eukaryote counts are reviewed reporting groups. They are not equivalent richness measures.",
+    "zero_interpretation": "No accepted detection in the reviewed evidence, not established biological absence.",
+    "depth_strata": "Physalia at assigned/recorded surface; other hosts entirely within 0-20 m, entirely below 20 m, crossing 20 m, or unknown. Intervals have no imputed midpoint.",
+    "physalia_depths": "150 curator-assigned surface values and one source-record zero are distinguished.",
+    "roles": "Roles are evidence annotations. A library may contain both potential prey and potential parasites.",
+    "tissue_groups": "Source tissue descriptions are lowercased; empty values are unknown. No anatomical localization is inferred from DNA presence.",
+    "host_tissue_check": "A fixed secondary descriptive subset of Physalia utriculus compares regional incidence within one host species and tissue description; all-library and single-flowcell scopes remain separate.",
+    "lifestyle": "Physalia neustonic; Stephalia dilata benthic; remaining taxa broadly pelagic, not depth-derived.",
+    "interpretation": "Post hoc exploratory descriptions; host, depth, region, tissue, sampling time and sequencing batch overlap."
+  },
+  "checks": {
+    "one_to_one_identifiers": true,
+    "all_libraries_retained": 205,
+    "all_evidence_samples_joined": true,
+    "depth_intervals_valid": true,
+    "flowcell_policy_verified": true,
+    "evidence_rows": 1162
+  }
+}

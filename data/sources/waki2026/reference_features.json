@@ -1,0 +1,6775 @@
+[
+  {
+    "accession_version": "LC889164.1",
+    "type": "source",
+    "location_biopython": "[0:1450](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1450,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW981"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Okinawa"
+      ],
+      "collection_date": [
+        "2018-12-17"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889164.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1450](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1450,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889165.1",
+    "type": "source",
+    "location_biopython": "[0:1058](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1058,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T100"
+      ],
+      "host": [
+        "Canthidermis maculata"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Fukui"
+      ],
+      "collection_date": [
+        "2022-12-30"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889165.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1058](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1058,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889166.1",
+    "type": "source",
+    "location_biopython": "[0:1058](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1058,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T101"
+      ],
+      "host": [
+        "Aluterus scriptus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Fukui"
+      ],
+      "collection_date": [
+        "2022-12-30"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889166.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1058](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1058,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889167.1",
+    "type": "source",
+    "location_biopython": "[0:891](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 891,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "N10"
+      ],
+      "host": [
+        "Lagocephalus cheesemanii"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2025-01-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889167.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>891](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 891,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889168.1",
+    "type": "source",
+    "location_biopython": "[0:1343](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1343,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1327"
+      ],
+      "host": [
+        "Lagocephalus spadiceus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2025-05-15"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889168.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1343](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1343,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889169.1",
+    "type": "source",
+    "location_biopython": "[0:1419](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1419,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1041"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2024-08-13"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889169.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1419](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1419,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889170.1",
+    "type": "source",
+    "location_biopython": "[0:1408](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1408,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1043"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2024-08-13"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889170.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1408](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1408,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889171.1",
+    "type": "source",
+    "location_biopython": "[0:1371](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1371,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1139"
+      ],
+      "host": [
+        "Exocoetidae sp."
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Mie"
+      ],
+      "collection_date": [
+        "2024-10-10"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889171.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1371](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1371,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889172.1",
+    "type": "source",
+    "location_biopython": "[0:1396](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1396,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "YASEKINE"
+      ],
+      "host": [
+        "Chaetognatha sp."
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2025-01-13"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889172.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1396](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1396,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889173.1",
+    "type": "source",
+    "location_biopython": "[0:1466](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1466,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bathycotyle branchialis"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1070"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3337788"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Iwate"
+      ],
+      "collection_date": [
+        "2024-09-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889173.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1466](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1466,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889174.1",
+    "type": "source",
+    "location_biopython": "[0:1542](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1542,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bathycotyle branchialis"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1057"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3337788"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2018-06-02"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889174.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1542](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1542,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889175.1",
+    "type": "source",
+    "location_biopython": "[0:1533](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1533,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1035"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Shizuoka"
+      ],
+      "collection_date": [
+        "2024-08-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889175.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1533](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1533,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889176.1",
+    "type": "source",
+    "location_biopython": "[0:1538](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1538,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1062"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Okinawa"
+      ],
+      "collection_date": [
+        "2018-12-17"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889176.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1538](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1538,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889177.1",
+    "type": "source",
+    "location_biopython": "[0:1349](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1349,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1042"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2024-08-13"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889177.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1349](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1349,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889178.1",
+    "type": "source",
+    "location_biopython": "[0:1532](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1532,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus barbatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1078"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3317756"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Iwate"
+      ],
+      "collection_date": [
+        "2024-09-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889178.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1532](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1532,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889179.1",
+    "type": "source",
+    "location_biopython": "[0:1306](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1306,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus barbatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1077"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3317756"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Shizuoka"
+      ],
+      "collection_date": [
+        "2024-08-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889179.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1306](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1306,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889180.1",
+    "type": "source",
+    "location_biopython": "[0:1217](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1217,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Cephalolepidapedon saba"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1145"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:3093053"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2024-11-10"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889180.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1217](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1217,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889181.1",
+    "type": "source",
+    "location_biopython": "[0:1604](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1604,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Cephalolepidapedon saba"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1146"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:3093053"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2024-11-10"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889181.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1604](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1604,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889182.1",
+    "type": "source",
+    "location_biopython": "[0:1545](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1545,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Opechona sp. 1TW1359"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1359"
+      ],
+      "host": [
+        "Urashimea globosa"
+      ],
+      "db_xref": [
+        "taxon:3460077"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-12"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889182.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1545](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1545,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889183.1",
+    "type": "source",
+    "location_biopython": "[0:1570](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1570,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. T4_AA3"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T4_AA3"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3460078"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889183.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1570](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1570,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889184.1",
+    "type": "source",
+    "location_biopython": "[0:1557](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1557,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. 2TW1276"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "2TW1276"
+      ],
+      "host": [
+        "Aurelia coerulea"
+      ],
+      "db_xref": [
+        "taxon:3460079"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kyoto"
+      ],
+      "collection_date": [
+        "2025-03-22"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889184.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1557](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1557,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889185.1",
+    "type": "source",
+    "location_biopython": "[0:1559](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1559,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1143"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2024-11-10"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889185.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1559](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1559,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889186.1",
+    "type": "source",
+    "location_biopython": "[0:1607](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1607,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1087"
+      ],
+      "host": [
+        "Clytia sp."
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Ehime"
+      ],
+      "collection_date": [
+        "2024-09-26"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889186.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1607](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1607,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889187.1",
+    "type": "source",
+    "location_biopython": "[0:1603](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1603,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. 1TW1339"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "1TW1339"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3460080"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2025-05-15"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889187.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1603](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1603,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889188.1",
+    "type": "source",
+    "location_biopython": "[0:1583](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1583,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Lepocreadiidae sp. 1AA13"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "1AA13"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3460081"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-15"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889188.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1583](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1583,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889189.1",
+    "type": "source",
+    "location_biopython": "[0:1525](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1525,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Lepocreadiidae sp. 1AA13"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "1AA12"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3460081"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-15"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889189.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1525](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1525,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889190.1",
+    "type": "source",
+    "location_biopython": "[0:488](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 488,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "AA4"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889190.1",
+    "type": "gene",
+    "location_biopython": "[<0:>488](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 488,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889190.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>488](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 488,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53016.1"
+      ],
+      "translation": [
+        "MPVLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHMFW"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889191.1",
+    "type": "source",
+    "location_biopython": "[0:459](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 459,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. T4_TW1353"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T4_TW1353"
+      ],
+      "host": [
+        "Chrysaora pacifica"
+      ],
+      "db_xref": [
+        "taxon:3460082"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2025-06-12"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889191.1",
+    "type": "gene",
+    "location_biopython": "[<0:>459](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 459,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889191.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>459](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 459,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53017.1"
+      ],
+      "translation": [
+        "IFFFFMPVLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISMIGGAGVGWTFYPPLSGGDYAGWGTDFLLFSLHLAGVSSVFGSLNFICTIVGTMRDKTVKRCSIIIWAYLFTSVLLILSLPVLAAAITMLLFDRNFSASFFDP"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889192.1",
+    "type": "source",
+    "location_biopython": "[0:494](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 494,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1337"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2025-05-15"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889192.1",
+    "type": "gene",
+    "location_biopython": "[<0:>494](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 494,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889192.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>494](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 494,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53018.1"
+      ],
+      "translation": [
+        "FFFMPVLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHMF"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889193.1",
+    "type": "source",
+    "location_biopython": "[0:485](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 485,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1338"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2025-05-15"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889193.1",
+    "type": "gene",
+    "location_biopython": "[<0:>485](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 485,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889193.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>485](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 485,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53019.1"
+      ],
+      "translation": [
+        "MPVLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHMF"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889194.1",
+    "type": "source",
+    "location_biopython": "[0:551](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 551,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bathycotyle branchialis"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1070"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3337788"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Iwate"
+      ],
+      "collection_date": [
+        "2024-09-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889194.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>551](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 551,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889195.1",
+    "type": "source",
+    "location_biopython": "[0:543](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 543,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bathycotyle branchialis"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1057"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3337788"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2018-06-02"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889195.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>543](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 543,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889196.1",
+    "type": "source",
+    "location_biopython": "[0:534](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 534,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bathycotyle branchialis"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1056"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3337788"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2018-06-02"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889196.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>534](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 534,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889197.1",
+    "type": "source",
+    "location_biopython": "[0:658](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 658,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1035"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Shizuoka"
+      ],
+      "collection_date": [
+        "2024-08-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889197.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>658](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 658,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889198.1",
+    "type": "source",
+    "location_biopython": "[0:665](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 665,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1062"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Okinawa"
+      ],
+      "collection_date": [
+        "2018-12-17"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889198.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>665](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 665,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889199.1",
+    "type": "source",
+    "location_biopython": "[0:662](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 662,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1063"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Okinawa"
+      ],
+      "collection_date": [
+        "2018-12-17"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889199.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>662](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 662,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889200.1",
+    "type": "source",
+    "location_biopython": "[0:660](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 660,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1064"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Okinawa"
+      ],
+      "collection_date": [
+        "2018-12-17"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889200.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>660](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 660,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889201.1",
+    "type": "source",
+    "location_biopython": "[0:656](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 656,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1042"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889201.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>656](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 656,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889202.1",
+    "type": "source",
+    "location_biopython": "[0:597](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 597,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus barbatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1077"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3317756"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Shizuoka"
+      ],
+      "collection_date": [
+        "2024-08-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889202.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>597](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 597,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889203.1",
+    "type": "source",
+    "location_biopython": "[0:677](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 677,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus barbatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1078"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3317756"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Iwate"
+      ],
+      "collection_date": [
+        "2024-09-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889203.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>677](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 677,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889204.1",
+    "type": "source",
+    "location_biopython": "[0:665](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 665,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus barbatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1065"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3317756"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Okinawa"
+      ],
+      "collection_date": [
+        "2018-12-17"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889204.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>665](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 665,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and 28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889205.1",
+    "type": "source",
+    "location_biopython": "[0:419](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 419,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW981"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Okinawa"
+      ],
+      "collection_date": [
+        "2018-12-17"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889205.1",
+    "type": "gene",
+    "location_biopython": "[<0:>419](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 419,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889205.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>419](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 419,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "3"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53020.1"
+      ],
+      "translation": [
+        "EVYVLILPGFGVISHICVTLSNNDSLFGYQGLVSAMLAIVCLGSVVWGHHMFLVGFDVKTAVFFSSVTMVIGVPTGIKVFSWLYMLGTCRYHLNEVIVWWIIGFIALFTIGGVTGIVLSASILDMVLHDTWFVVAHFHY"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889206.1",
+    "type": "source",
+    "location_biopython": "[0:429](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 429,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1344"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2025-04-24"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889206.1",
+    "type": "gene",
+    "location_biopython": "[<0:>429](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 429,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889206.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>429](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 429,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "3"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53021.1"
+      ],
+      "translation": [
+        "HPEVYVLILPGFGVISHICVTLSNNDSLFGYQGLVSAMLAIVCLGSVVWGHHMFLVGFDVKTAVFFSSVTMVIGVPTGIKVFSWLYMLGTCRYHLNEVIVWWIIGFIALFTIGGVTGIVLSASILDMVLHDTWFVVAHFHYV"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889207.1",
+    "type": "source",
+    "location_biopython": "[0:379](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 379,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW708"
+      ],
+      "host": [
+        "Echeneis naucrates"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2022-02-17"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889207.1",
+    "type": "gene",
+    "location_biopython": "[<0:>379](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 379,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889207.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>379](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 379,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "3"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53022.1"
+      ],
+      "translation": [
+        "HICVTLSNNDSLFGYQGLVSAMLAIVCLGSVVWGHHMFLVGFDVKTAVFFSSVTMVIGVPTGIKVFSWLYMLGTCRYHLNEVIVWWIIGFIALFTIGGVTGIVLSASILDMVLHDTWFVVAHFHYV"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889208.1",
+    "type": "source",
+    "location_biopython": "[0:900](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 900,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T100"
+      ],
+      "host": [
+        "Canthidermis maculata"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Fukui"
+      ],
+      "collection_date": [
+        "2022-12-30"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889208.1",
+    "type": "gene",
+    "location_biopython": "[<0:>900](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 900,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889208.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>900](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 900,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889209.1",
+    "type": "source",
+    "location_biopython": "[0:900](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 900,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T101"
+      ],
+      "host": [
+        "Aluterus scriptus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Fukui"
+      ],
+      "collection_date": [
+        "2022-12-30"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889209.1",
+    "type": "gene",
+    "location_biopython": "[<0:>900](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 900,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889209.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>900](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 900,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889210.1",
+    "type": "source",
+    "location_biopython": "[0:867](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 867,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1341"
+      ],
+      "host": [
+        "Lagocephalus spadiceus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2025-05-15"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889210.1",
+    "type": "gene",
+    "location_biopython": "[<0:>867](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 867,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889210.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>867](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 867,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889211.1",
+    "type": "source",
+    "location_biopython": "[0:862](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 862,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1342"
+      ],
+      "host": [
+        "Lagocephalus spadiceus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2025-05-15"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889211.1",
+    "type": "gene",
+    "location_biopython": "[<0:>862](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 862,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889211.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>862](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 862,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889212.1",
+    "type": "source",
+    "location_biopython": "[0:851](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 851,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1343"
+      ],
+      "host": [
+        "Lagocephalus spadiceus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:KOchi"
+      ],
+      "collection_date": [
+        "2025-05-15"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889212.1",
+    "type": "gene",
+    "location_biopython": "[<0:>851](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 851,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889212.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>851](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 851,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889213.1",
+    "type": "source",
+    "location_biopython": "[0:840](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 840,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "N10"
+      ],
+      "host": [
+        "Lagocephalus cheesemanii"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2025-01-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889213.1",
+    "type": "gene",
+    "location_biopython": "[<0:>840](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 840,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889213.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>840](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 840,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889214.1",
+    "type": "source",
+    "location_biopython": "[0:817](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 817,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "AA2"
+      ],
+      "host": [
+        "Arothron firmamentum"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2025"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889214.1",
+    "type": "gene",
+    "location_biopython": "[<0:>817](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 817,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889214.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>817](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 817,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889215.1",
+    "type": "source",
+    "location_biopython": "[0:838](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 838,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1152"
+      ],
+      "host": [
+        "Elagatis bipinnulata"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2024-11-16"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889215.1",
+    "type": "gene",
+    "location_biopython": "[<0:>838](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 838,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889215.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>838](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 838,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889216.1",
+    "type": "source",
+    "location_biopython": "[0:425](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 425,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1114"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Ibaraki"
+      ],
+      "collection_date": [
+        "2024-10-14"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889216.1",
+    "type": "gene",
+    "location_biopython": "[<0:>425](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 425,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889216.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>425](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 425,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53023.1"
+      ],
+      "translation": [
+        "PEVYVLILPGFGVISHICVTLSNNDSLFGYQGLVSAMLAIVCLGSVVWGHHMFLVGFDVKTAVFFSSVTMVIGVPTGIKVFSWLYMLGTCRYHLNEVIVWWIIGFIALFTIGGVTGIVLSASILDMVLHDTWFVVAHFHYV"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889217.1",
+    "type": "source",
+    "location_biopython": "[0:890](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 890,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1045"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2024-08-13"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889217.1",
+    "type": "gene",
+    "location_biopython": "[<0:>890](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 890,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889217.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>890](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 890,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889218.1",
+    "type": "source",
+    "location_biopython": "[0:376](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 376,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1058"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2024-08-25"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889218.1",
+    "type": "gene",
+    "location_biopython": "[<0:>376](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 376,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889218.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>376](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 376,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "3"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53024.1"
+      ],
+      "translation": [
+        "HICVTLSNNDSLFGYQGLVSAMLAIVCLGSVVWGHHMFLVGFDVKTAVFFSSVTMVIGVPTGIKVFSWLYMLGTCRYHLNEVIVWWIIGFIALFTIGGVTGIVLSASILDMVLHDTWFVVAHFH"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889219.1",
+    "type": "source",
+    "location_biopython": "[0:417](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 417,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1059"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2024-08-25"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889219.1",
+    "type": "gene",
+    "location_biopython": "[<0:>417](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 417,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889219.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>417](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 417,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "3"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53025.1"
+      ],
+      "translation": [
+        "EVYVLILPGFGVISHICVTLSNNDSLFGYQGLVSAMLAIVCLGSVVWGHHMFLVGFDVKTAVFFSSVTMVIGVPTGIKVFSWLYMLGTCRYHLNEVIVWWIIGFIALFTIGGVTGIVLSASILDMVLHDTWFVVAHFH"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889220.1",
+    "type": "source",
+    "location_biopython": "[0:425](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 425,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1107"
+      ],
+      "host": [
+        "Velella velella"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Ibaraki"
+      ],
+      "collection_date": [
+        "2024-10-14"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889220.1",
+    "type": "gene",
+    "location_biopython": "[<0:>425](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 425,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889220.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>425](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 425,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53026.1"
+      ],
+      "translation": [
+        "PEVYVLILPGFGVISHICVTLSNNDSLFGYQGLVSAMLAIVCLGSVVWGHHMFLVGFDVKTAVFFSSVTMVIGVPTGIKVFSWLYMLGTCRYHLNEVIVWWIIGFIALFTIGGVTGIVLSASILDMVLHDTWFVVAHFHYV"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889221.1",
+    "type": "source",
+    "location_biopython": "[0:397](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 397,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "YASEKINE"
+      ],
+      "host": [
+        "Chaetognatha sp."
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2025-01-13"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889221.1",
+    "type": "gene",
+    "location_biopython": "[<0:>397](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 397,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889221.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>397](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 397,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53027.1"
+      ],
+      "translation": [
+        "GFGVISHICVTLSNNDSLFGYQGLVSAMLAIVCLGSVVWGHHMFLVGFDVKTAVFFSSVTMVIGVPTGIKVFSWLYMLGTCRYHLNEVIVWWIIGFIALFTIGGVTGIVLSASILDMVLHDTWFVVAHFHYV"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889222.1",
+    "type": "source",
+    "location_biopython": "[0:860](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 860,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bathycotyle branchialis"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1057"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3337788"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Iwate"
+      ],
+      "collection_date": [
+        "2024-09-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889222.1",
+    "type": "gene",
+    "location_biopython": "[<0:>860](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 860,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889222.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>860](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 860,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889223.1",
+    "type": "source",
+    "location_biopython": "[0:836](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 836,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bathycotyle branchialis"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1070"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3337788"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2018-06-02"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889223.1",
+    "type": "gene",
+    "location_biopython": "[<0:>836](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 836,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889223.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>836](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 836,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889224.1",
+    "type": "source",
+    "location_biopython": "[0:412](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 412,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1033"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Shizuoka"
+      ],
+      "collection_date": [
+        "2024-08-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889224.1",
+    "type": "gene",
+    "location_biopython": "[<0:>412](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 412,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889224.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>412](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 412,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53028.1"
+      ],
+      "translation": [
+        "YVLILPAFGIISHICIQISNNDNLFGYFGLVFAMFSIVTLGSVVWGHHMFMVGLDVKTAVFFSSITMIIGVPTGIKVFSWLYMLGACRMHLHEVVVWWIIGFIFLFTVGGVTGIVLSASVLDMILHDTWFVVAHFHY"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889225.1",
+    "type": "source",
+    "location_biopython": "[0:398](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 398,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1034"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Shizuoka"
+      ],
+      "collection_date": [
+        "2024-08-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889225.1",
+    "type": "gene",
+    "location_biopython": "[<0:>398](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 398,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889225.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>398](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 398,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "3"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53029.1"
+      ],
+      "translation": [
+        "ILPAFGIISHICIQISNNDNLFGYFGLVFAMFSIVTLGSVVWGHHMFMVGLDVKTAVFFSSITMIIGVPTGIKVFSWLYMLGACRMHLHEVVVWWIIGFIFLFTVGGVTGIVLSASVLDMILHDTWFVVAHF"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889226.1",
+    "type": "source",
+    "location_biopython": "[0:420](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 420,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1035"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Shizuoka"
+      ],
+      "collection_date": [
+        "2024-08-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889226.1",
+    "type": "gene",
+    "location_biopython": "[<0:>420](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 420,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889226.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>420](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 420,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53030.1"
+      ],
+      "translation": [
+        "PEVYVLILPAFGIISHICIQISNNDNLFGYFGLVFAMFSIVTLGSVVWGHHMFMVGLDVKTAVFFSSITMIIGVPTGIKVFSWLYMLGACRMHLHEVVVWWIIGFIFLFTVGGVTGIVLSASVLDMILHDTWFVVAHFHY"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889227.1",
+    "type": "source",
+    "location_biopython": "[0:418](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 418,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1037"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Shizuoka"
+      ],
+      "collection_date": [
+        "2024-08-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889227.1",
+    "type": "gene",
+    "location_biopython": "[<0:>418](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 418,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889227.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>418](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 418,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53031.1"
+      ],
+      "translation": [
+        "EVYVLILPAFGIISHICIQISNNDNLFGYFGLVFAMFSIVTLGSVVWGHHMFMVGLDVKTAVFFSSITMIIGVPTGIKVFSWLYMLGACRMHLHEVVVWWIIGFIFLFTVGGVTGIVLSASVLDMILHDTWFVVAHFHY"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889228.1",
+    "type": "source",
+    "location_biopython": "[0:421](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 421,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1072"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Iwate"
+      ],
+      "collection_date": [
+        "2024-09-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889228.1",
+    "type": "gene",
+    "location_biopython": "[<0:>421](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 421,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889228.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>421](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 421,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53032.1"
+      ],
+      "translation": [
+        "HPEVYVLILPAFGIISHICIQISNNDNLFGYFGLVFAMFSIVTLGSVVWGHHMFMVGLDVKTAVFFSSITMIIGVPTGIKVFSWLYMLGACRMHLHEVVVWWIIGFIFLFTVGGVTGIVLSASVLDMILHDTWFVVAHFH"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889229.1",
+    "type": "source",
+    "location_biopython": "[0:418](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 418,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1076"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Shizuoka"
+      ],
+      "collection_date": [
+        "2024-08-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889229.1",
+    "type": "gene",
+    "location_biopython": "[<0:>418](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 418,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889229.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>418](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 418,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53033.1"
+      ],
+      "translation": [
+        "EVYVLILPAFGIISHICIQISNNDNLFGYFGLVFAMFSIVTLGSVVWGHHMFMVGLDVKTAVFFSSITMIIGVPTGIKVFSWLYMLGACRMHLHEVVVWWIIGFIFLFTVGGVTGIVLSASVLDMILHDTWFVVAHFHY"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889230.1",
+    "type": "source",
+    "location_biopython": "[0:419](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 419,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1073"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Iwate"
+      ],
+      "collection_date": [
+        "2024-09-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889230.1",
+    "type": "gene",
+    "location_biopython": "[<0:>419](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 419,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889230.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>419](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 419,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53034.1"
+      ],
+      "translation": [
+        "PEVYVLILPAFGIISHICIQISNNDNLFGYFGLVFAMFSIVTLGSVVWGHHMFMVGLDVKTAVFFSSITMIIGVPTGIKVFSWLYMLGACRMHLHEVVVWWIIGFIFLFTVGGVTGIVLSASVLDMILHDTWFVVAHFH"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889231.1",
+    "type": "source",
+    "location_biopython": "[0:400](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 400,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1243"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Shizuoka"
+      ],
+      "collection_date": [
+        "2024-08-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889231.1",
+    "type": "gene",
+    "location_biopython": "[<0:>400](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 400,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889231.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>400](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 400,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53035.1"
+      ],
+      "translation": [
+        "PAFGIISHICIQISNNDNLFGYFGLVFAMFSIVTLGSVVWGHHMFMVGLDVKTAVFFSSITMIIGVPTGIKVFSWLYMLGACRMHLHEVVVWWIIGFIFLFTVGGVTGIVLSASVLDMILHDTWFVVAHFHYV"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889232.1",
+    "type": "source",
+    "location_biopython": "[0:407](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 407,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1246"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Shizuoka"
+      ],
+      "collection_date": [
+        "2024-08-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889232.1",
+    "type": "gene",
+    "location_biopython": "[<0:>407](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 407,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889232.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>407](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 407,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53036.1"
+      ],
+      "translation": [
+        "ILPAFGIISHICIQISNNDNLFGYFGLVFAMFSIVTLGSVVWGHHMFMVGLDVKTAVFFSSITMIIGVPTGIKVFSWLYMLGACRMHLHEVVVWWIIGFIFLFTVGGVTGIVLSASVLDMILHDTWFVVAHFHYV"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889233.1",
+    "type": "source",
+    "location_biopython": "[0:855](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 855,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1247"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Shizuoka"
+      ],
+      "collection_date": [
+        "2024-08-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889233.1",
+    "type": "gene",
+    "location_biopython": "[<0:>855](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 855,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889233.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>855](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 855,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889234.1",
+    "type": "source",
+    "location_biopython": "[0:863](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 863,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "AA9"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889234.1",
+    "type": "gene",
+    "location_biopython": "[<0:>863](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 863,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889234.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>863](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 863,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889235.1",
+    "type": "source",
+    "location_biopython": "[0:867](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 867,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "AA10"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889235.1",
+    "type": "gene",
+    "location_biopython": "[<0:>867](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 867,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889235.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>867](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 867,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889236.1",
+    "type": "source",
+    "location_biopython": "[0:822](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 822,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1062"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Okinawa"
+      ],
+      "collection_date": [
+        "2018-12-17"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889236.1",
+    "type": "gene",
+    "location_biopython": "[<0:>822](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 822,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889236.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>822](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 822,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889237.1",
+    "type": "source",
+    "location_biopython": "[0:789](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 789,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus barbatus"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1077"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3317756"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Shizuoka"
+      ],
+      "collection_date": [
+        "2024-08-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889237.1",
+    "type": "gene",
+    "location_biopython": "[<0:>789](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 789,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889237.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>789](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 789,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889238.1",
+    "type": "source",
+    "location_biopython": "[0:819](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 819,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. T4_TW1353"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T4_TW1353"
+      ],
+      "host": [
+        "Chrysaora pacifica"
+      ],
+      "db_xref": [
+        "taxon:3460082"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2025-06-12"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889238.1",
+    "type": "gene",
+    "location_biopython": "[<0:>819](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 819,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889238.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>819](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 819,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889239.1",
+    "type": "source",
+    "location_biopython": "[0:850](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 850,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. T4A28"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T4A28"
+      ],
+      "host": [
+        "Urashimea globosa"
+      ],
+      "db_xref": [
+        "taxon:3460084"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-12"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889239.1",
+    "type": "gene",
+    "location_biopython": "[<0:>850](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 850,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889239.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>850](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 850,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889240.1",
+    "type": "source",
+    "location_biopython": "[0:786](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 786,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. T4AA8"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T4AA8"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3460085"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889240.1",
+    "type": "gene",
+    "location_biopython": "[<0:>786](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 786,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889240.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>786](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 786,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889241.1",
+    "type": "source",
+    "location_biopython": "[0:847](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 847,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. T4_AA3"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T4_AA3"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3460078"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889241.1",
+    "type": "gene",
+    "location_biopython": "[<0:>847](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 847,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889241.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>847](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 847,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889242.1",
+    "type": "source",
+    "location_biopython": "[0:849](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 849,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. T4AA7"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T4AA7"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3460087"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889242.1",
+    "type": "gene",
+    "location_biopython": "[<0:>849](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 849,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889242.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>849](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 849,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889243.1",
+    "type": "source",
+    "location_biopython": "[0:880](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 880,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. T4AA11"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T4AA11"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3460088"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889243.1",
+    "type": "gene",
+    "location_biopython": "[<0:>880](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 880,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889243.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>880](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 880,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889244.1",
+    "type": "source",
+    "location_biopython": "[0:810](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 810,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. T4AA16"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T4AA16"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3460089"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889244.1",
+    "type": "gene",
+    "location_biopython": "[<0:>810](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 810,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889244.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>810](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 810,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889245.1",
+    "type": "source",
+    "location_biopython": "[0:852](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 852,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. T4AA18"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T4AA18"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3460090"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889245.1",
+    "type": "gene",
+    "location_biopython": "[<0:>852](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 852,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889245.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>852](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 852,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889246.1",
+    "type": "source",
+    "location_biopython": "[0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. T4AA20"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T4AA20"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3460091"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889246.1",
+    "type": "gene",
+    "location_biopython": "[<0:>781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889246.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889247.1",
+    "type": "source",
+    "location_biopython": "[0:857](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 857,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. T4AA25"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "T4AA25"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3460092"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889247.1",
+    "type": "gene",
+    "location_biopython": "[<0:>857](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 857,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889247.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>857](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 857,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889248.1",
+    "type": "source",
+    "location_biopython": "[0:776](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 776,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. 1A36"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "1A36"
+      ],
+      "host": [
+        "Urashimea globosa"
+      ],
+      "db_xref": [
+        "taxon:3460093"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-12"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889248.1",
+    "type": "gene",
+    "location_biopython": "[<0:>776](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 776,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889248.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>776](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 776,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889249.1",
+    "type": "source",
+    "location_biopython": "[0:428](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 428,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. 1TW1339"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "1TW1339"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3460080"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2025-05-15"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889249.1",
+    "type": "gene",
+    "location_biopython": "[<0:>428](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 428,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889249.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>428](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 428,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53037.1"
+      ],
+      "translation": [
+        "HPEVYVLILPGFGIVSHICMAMSNNDSLFGYYGLVYASGGIVCLGSVVWAHHMFMVGLDVQTSVFFSSVTMIIGVPTGIKVFSWLYMLTSTRDRLGDPVMWWLLGFIFLFTVGGVTGIVLSASILDVLLHDTWFVVAHFHYV"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889250.1",
+    "type": "source",
+    "location_biopython": "[0:437](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 437,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. 1TW1223"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "1TW1223"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:3460094"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Iwate"
+      ],
+      "collection_date": [
+        "2024-10-30"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889250.1",
+    "type": "gene",
+    "location_biopython": "[<0:>437](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 437,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889250.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>437](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 437,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53038.1"
+      ],
+      "translation": [
+        "FFGHPEVYVLILPGFGIVSHICMAMSNNDSLFGYYGLVYASGGIVCLGSVVWAHHMFMVGLDVQTSVFFSSVTMIIGVPTGIKVFSWLYMLTSTRDRLGDPVMWWLLGFIFLFTVGGVTGIVLSASILDVLLHDTWFVVAHFHYV"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889251.1",
+    "type": "source",
+    "location_biopython": "[0:833](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 833,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp. 2TW1276"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "2TW1276"
+      ],
+      "host": [
+        "Aurelia coerulea"
+      ],
+      "db_xref": [
+        "taxon:3460079"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kyoto"
+      ],
+      "collection_date": [
+        "2025-03-22"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889251.1",
+    "type": "gene",
+    "location_biopython": "[<0:>833](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 833,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889251.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>833](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 833,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889252.1",
+    "type": "source",
+    "location_biopython": "[0:426](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 426,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1087"
+      ],
+      "host": [
+        "Clytia sp."
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Ehime"
+      ],
+      "collection_date": [
+        "2024-09-26"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889252.1",
+    "type": "gene",
+    "location_biopython": "[<0:>426](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 426,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889252.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>426](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 426,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53039.1"
+      ],
+      "translation": [
+        "HPEVYVLILPGFGIVSHVCMTMSNNDSLFGYYGLVFASGGIVCLGSVVWAHHMFMVGLDVQTSVFFSSVTMIIGVPTGIKVFSWLYMLTSTRDRLGDPVMWWLLGFIFLFTAGGVTGIVLSASVLDVLLHDTWFVVAHFHYV"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889253.1",
+    "type": "source",
+    "location_biopython": "[0:758](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 758,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1337"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2025-05-15"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889253.1",
+    "type": "gene",
+    "location_biopython": "[<0:>758](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 758,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889253.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>758](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 758,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53040.1"
+      ],
+      "translation": [
+        "NNDSLFGYYGLVFASGGIVCLGSVVWAHHMFMVGLDVQTSVFFSSVTMIIGVPTGIKVFSWLYMLTSTRDRLGDPVMWWLLGFIFLFTAGGVTGIVLSASVLDVLLHDTWFVVAHFHYVLSLGSFSTLVISLIWWWPIVVGYTLNKYLLQGHWIASMVGFNLCFFPMHYLGLFGLPRRVCSFDTTFMWVHVISGIGSVISVISGFFLLFIVWESLVVGNRVIGLWGSNVTVLNVVTIPTPHHADYISQPNRW"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889254.1",
+    "type": "source",
+    "location_biopython": "[0:758](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 758,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1338"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Kochi"
+      ],
+      "collection_date": [
+        "2025-05-15"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889254.1",
+    "type": "gene",
+    "location_biopython": "[<0:>758](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 758,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889254.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>758](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 758,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53041.1"
+      ],
+      "translation": [
+        "NNDSLFGYYGLVFASGGIVCLGSVVWAHHMFMVGLDVQTSVFFSSVTMIIGVPTGIKVFSWLYMLTSTRDRLGDPVMWWLLGFIFLFTAGGVTGIVLSASVLDVLLHDTWFVVAHFHYVLSLGSFSTLVISLIWWWPIVVGYTLNKYLLQGHWIASMVGFNLCFFPMHYLGLFGLPRRVCSFDTTFMWVHVISGIGSVISVISGFFLLFIVWESLVVGNRVIGLWGSNVTVLNVVTIPTPHHADYISQPNRW"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889255.1",
+    "type": "source",
+    "location_biopython": "[0:771](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 771,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1156"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2024-11-10"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889255.1",
+    "type": "gene",
+    "location_biopython": "[<0:>771](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 771,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889255.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>771](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 771,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53042.1"
+      ],
+      "translation": [
+        "LYDYVNNDSLFGYYGLVFASGGIVCLGSVVWAHHMFMVGLDVQTSVFFSSVTMIIGVPTGIKVFSWLYMLTSTRDRLGDPVMWWLLGFIFLFTAGGVTGIVLSASVLDVLLHDTWFVVAHFHYVLSLGSFSTLVISLIWWWPIVVGYTLNKYLLQGHWIASMVGFNLCFFPMHYLGLFGLPRRVCSFDTTFMWVHVISGIGSVISVISGFFLLFIVWESLVVGNRVIGLWGSNVTVLNVVTIPTPHHADYISQPNRW"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889256.1",
+    "type": "source",
+    "location_biopython": "[0:780](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 780,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "AA5"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889256.1",
+    "type": "gene",
+    "location_biopython": "[<0:>780](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 780,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889256.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>780](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 780,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889257.1",
+    "type": "source",
+    "location_biopython": "[0:833](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 833,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "AA4"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889257.1",
+    "type": "gene",
+    "location_biopython": "[<0:>833](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 833,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889257.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>833](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 833,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889258.1",
+    "type": "source",
+    "location_biopython": "[0:835](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 835,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1354"
+      ],
+      "host": [
+        "Chrysaora pacifica"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2025-06-12"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889258.1",
+    "type": "gene",
+    "location_biopython": "[<0:>835](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 835,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889258.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>835](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 835,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889259.1",
+    "type": "source",
+    "location_biopython": "[0:777](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 777,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1355"
+      ],
+      "host": [
+        "Chrysaora pacifica"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2025-06-12"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889259.1",
+    "type": "gene",
+    "location_biopython": "[<0:>777](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 777,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889259.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>777](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 777,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889260.1",
+    "type": "source",
+    "location_biopython": "[0:755](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 755,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1356"
+      ],
+      "host": [
+        "Chrysaora pacifica"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2025-06-12"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889260.1",
+    "type": "gene",
+    "location_biopython": "[<0:>755](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 755,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889260.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>755](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 755,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53043.1"
+      ],
+      "translation": [
+        "CMTMSNNDSLFGYYGLVFASGGIVCLGSVVWAHHMFMVGLDVQTSVFFSSVTMIIGVPTGIKVFSWLYMLTSTRDRLGDPVMWWLLGFIFLFTAGGVTGIVLSASVLDVLLHDTWFVVAHFHYVLSLGSFSTLVISLIWWWPIVVGYTLNKYLLQGHWIASMVGFNLCFFPMHYLGLFGLPRRVCSFDTTFMWVHVISGIGSVISVISGFFLLFIVWESLVVGNRVIGLWGSNVTVLNVVTIPTPHHADYI"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889261.1",
+    "type": "source",
+    "location_biopython": "[0:825](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 825,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1357"
+      ],
+      "host": [
+        "Chrysaora pacifica"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2025-06-12"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889261.1",
+    "type": "gene",
+    "location_biopython": "[<0:>825](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 825,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889261.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>825](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 825,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889262.1",
+    "type": "source",
+    "location_biopython": "[0:793](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 793,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1360"
+      ],
+      "host": [
+        "Urashimea globosa"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-12"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889262.1",
+    "type": "gene",
+    "location_biopython": "[<0:>793](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 793,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889262.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>793](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 793,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889263.1",
+    "type": "source",
+    "location_biopython": "[0:784](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 784,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1362"
+      ],
+      "host": [
+        "Urashimea globosa"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-12"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889263.1",
+    "type": "gene",
+    "location_biopython": "[<0:>784](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 784,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889263.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>784](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 784,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889264.1",
+    "type": "source",
+    "location_biopython": "[0:821](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 821,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1275"
+      ],
+      "host": [
+        "Aurelia coerulea"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kyoto"
+      ],
+      "collection_date": [
+        "2025-03-22"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889264.1",
+    "type": "gene",
+    "location_biopython": "[<0:>821](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 821,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889264.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>821](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 821,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889265.1",
+    "type": "source",
+    "location_biopython": "[0:837](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 837,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Cephalolepidapedon saba"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1146"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:3093053"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2024-11-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889265.1",
+    "type": "gene",
+    "location_biopython": "[<0:>837](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 837,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889265.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>837](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 837,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889266.1",
+    "type": "source",
+    "location_biopython": "[0:804](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 804,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Cephalolepidapedon saba"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1145"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:3093053"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2024-11-08"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889266.1",
+    "type": "gene",
+    "location_biopython": "[<0:>804](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 804,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889266.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>804](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 804,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889267.1",
+    "type": "source",
+    "location_biopython": "[0:849](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 849,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Cephalolepidapedon saba"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "AA6"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3093053"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889267.1",
+    "type": "gene",
+    "location_biopython": "[<0:>849](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 849,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889267.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>849](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 849,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889268.1",
+    "type": "source",
+    "location_biopython": "[0:742](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 742,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Opechona sp. 1TW1358"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "1TW1358"
+      ],
+      "host": [
+        "Urashimea globosa"
+      ],
+      "db_xref": [
+        "taxon:3460095"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-12"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889268.1",
+    "type": "gene",
+    "location_biopython": "[<0:>742](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 742,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889268.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>742](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 742,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889269.1",
+    "type": "source",
+    "location_biopython": "[0:782](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 782,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Opechona sp. 1TW1359"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "1TW1359"
+      ],
+      "host": [
+        "Urashimea globosa"
+      ],
+      "db_xref": [
+        "taxon:3460077"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-12"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889269.1",
+    "type": "gene",
+    "location_biopython": "[<0:>26](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 26,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889269.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>26](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 26,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BHD53044.1"
+      ],
+      "translation": [
+        "QSYLYDSL"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889270.1",
+    "type": "source",
+    "location_biopython": "[0:843](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 843,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Lepocreadiidae sp. 1AA13"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "1AA13"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3460081"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889270.1",
+    "type": "gene",
+    "location_biopython": "[<0:>843](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 843,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889270.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>843](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 843,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889271.1",
+    "type": "source",
+    "location_biopython": "[0:852](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 852,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Lepocreadiidae sp. 1AA14"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "1AA14"
+      ],
+      "host": [
+        "Physalia utriculus"
+      ],
+      "db_xref": [
+        "taxon:3460096"
+      ],
+      "dev_stage": [
+        "metacercaria"
+      ],
+      "geo_loc_name": [
+        "Japan:Kanagawa"
+      ],
+      "collection_date": [
+        "2025-05-20"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889271.1",
+    "type": "gene",
+    "location_biopython": "[<0:>852](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 852,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC889271.1",
+    "type": "misc_feature",
+    "location_biopython": "[<0:>852](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 852,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "note": [
+        "cytochrome c oxidase subunit 1"
+      ]
+    }
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "status": "complete",
+  "publication_doi": "10.1017/S0022149X25100989",
+  "generated_utc": "2026-10-05T02:27:48.342495+00:00",
+  "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python scripts/waki_comparison/retrieve_waki_references.py",
+  "script_sha256": "5abfd4e57ebb773a79f6506efa89175a7c62f3293fa69de52a829b42123cb625",
+  "python": "3.11.0",
+  "biopython": "1.81",
+  "sources": [
+    {
+      "url": "https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0022149X25100989/resource/name/S0022149X25100989sup001.xlsx",
+      "path": "data/sources/waki2026/S0022149X25100989sup001.xlsx",
+      "sha256": "e591d82bbbd510d5b7e9df3b8f4695df8965eafafa92b4fcb5ab81fdab902ab8",
+      "cache_reused": "true",
+      "retrieved_or_cached_file_mtime_utc": "2026-10-05T01:52:36.123148+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=LC889164%2CLC889165%2CLC889166%2CLC889167%2CLC889168%2CLC889169%2CLC889170%2CLC889171%2CLC889172%2CLC889173%2CLC889174%2CLC889175%2CLC889176%2CLC889177%2CLC889178%2CLC889179%2CLC889180%2CLC889181%2CLC889182%2CLC889183%2CLC889184%2CLC889185%2CLC889186%2CLC889187%2CLC889188%2CLC889190%2CLC889191%2CLC889192%2CLC889193%2CLC889194%2CLC889195%2CLC889196%2CLC889197%2CLC889198%2CLC889199%2CLC889200%2CLC889201%2CLC889202%2CLC889203%2CLC889204%2CLC889205%2CLC889206%2CLC889207%2CLC889208%2CLC889209%2CLC889210%2CLC889211%2CLC889212%2CLC889213%2CLC889214%2CLC889215%2CLC889216%2CLC889217%2CLC889218%2CLC889219%2CLC889220%2CLC889221%2CLC889222%2CLC889223%2CLC889224%2CLC889225%2CLC889226%2CLC889227%2CLC889228%2CLC889229%2CLC889230%2CLC889231%2CLC889232%2CLC889233%2CLC889234%2CLC889235%2CLC889236%2CLC889238%2CLC889239%2CLC889240%2CLC889241%2CLC889242%2CLC889243%2CLC889244%2CLC889245%2CLC889246%2CLC889247%2CLC889248%2CLC889249%2CLC889250%2CLC889251%2CLC889252%2CLC889253%2CLC889254%2CLC889255%2CLC889256%2CLC889257%2CLC889258%2CLC889259%2CLC889260%2CLC889261%2CLC889262%2CLC889263%2CLC889264%2CLC889265%2CLC889266%2CLC889267%2CLC889268%2CLC889269%2CLC889270%2CLC889271&rettype=gb&retmode=text",
+      "path": "data/sources/waki2026/references.gb",
+      "sha256": "53847daed29dbeb789d76bb299f532c0cf04a0a02b9b557a08a662a5196682e1",
+      "cache_reused": "true",
+      "retrieved_or_cached_file_mtime_utc": "2026-10-05T02:18:15.343267+00:00"
+    }
+  ],
+  "selection": "98 unique LC889 accessions in supplement plus eight explicit article accessions",
+  "record_count": 106,
+  "marker_counts": {
+    "28S": 25,
+    "COI": 70,
+    "ITS2": 11
+  },
+  "host_counts": {
+    "Coryphaena hippurus": 38,
+    "Canthidermis maculata": 2,
+    "Aluterus scriptus": 2,
+    "Lagocephalus cheesemanii": 2,
+    "Lagocephalus spadiceus": 4,
+    "Physalia utriculus": 26,
+    "Exocoetidae sp.": 1,
+    "Chaetognatha sp.": 2,
+    "Scomber japonicus": 7,
+    "Urashimea globosa": 7,
+    "Aurelia coerulea": 3,
+    "Clytia sp.": 2,
+    "Chrysaora pacifica": 6,
+    "Echeneis naucrates": 1,
+    "Arothron firmamentum": 1,
+    "Elagatis bipinnulata": 1,
+    "Velella velella": 1
+  },
+  "output_sha256": {
+    "S0022149X25100989sup001.xlsx": "e591d82bbbd510d5b7e9df3b8f4695df8965eafafa92b4fcb5ab81fdab902ab8",
+    "references.gb": "53847daed29dbeb789d76bb299f532c0cf04a0a02b9b557a08a662a5196682e1",
+    "references.fasta": "17ead28020e9a7996a3aed1e1d488219165503ba1625fdaed9e82b7205b2861d",
+    "reference_metadata.tsv": "9da4548c5aec5325ab7fe9fd0b731e96b8808cdf5b825118ca357d542ac456bc",
+    "reference_features.json": "565a947a5e4322aedebb9bd7cee9738d416427e919b6eafac9827c858783337a",
+    "supplement_accessions.tsv": "a6e8c1de4f187b6bacbebebf9e91d7a7386a731be5f7bc2bee505382cb403500",
+    "supplement_unaccessioned.tsv": "36c47314a2874c84d392e63702b433d3480da29d95277682385d1565273fea46"
+  },
+  "limitations": [
+    "No 18S sequences are deposited in this study reference set.",
+    "ITS2 records span 5.8S/ITS2/28S; their internal boundaries are not annotated.",
+    "Unaccessioned supplement rows are preserved separately, not invented as sequences.",
+    "Specimen-specific GenBank hosts and life stages are preserved without inferring other hosts."
+  ]
+}

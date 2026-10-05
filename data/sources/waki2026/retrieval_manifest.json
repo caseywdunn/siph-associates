@@ -1,0 +1,74 @@
+{
+  "status": "complete",
+  "publication_doi": "10.1017/S0022149X25100989",
+  "generated_utc": "2026-10-05T03:18:32.298528+00:00",
+  "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python scripts/waki_comparison/retrieve_waki_references.py",
+  "script_sha256": "d813de4e5d598d8c6f3602a74a27ea35a1a33d184abe398e3156a2512ae21725",
+  "python": "3.11.0",
+  "biopython": "1.81",
+  "sources": [
+    {
+      "url": "https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0022149X25100989/resource/name/S0022149X25100989sup001.xlsx",
+      "path": "data/sources/waki2026/S0022149X25100989sup001.xlsx",
+      "sha256": "e591d82bbbd510d5b7e9df3b8f4695df8965eafafa92b4fcb5ab81fdab902ab8",
+      "cache_reused": "true",
+      "retrieved_or_cached_file_mtime_utc": "2026-10-05T01:52:36.123148+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=nuccore&id=41424079&retmode=json",
+      "path": "data/sources/waki2026/pubmed_nuccore_links.json",
+      "sha256": "6f07c78f67025dc8947d33c283437730b6a1044d127697b3c8fd654c1c20f2fc",
+      "cache_reused": "true",
+      "retrieved_or_cached_file_mtime_utc": "2026-10-05T03:10:59.092671+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=3141504475%2C3141504474%2C3141504472%2C3141504471%2C3141504470%2C3141504469%2C3141504468%2C3141504467%2C3141504466%2C3141504465%2C3141504464%2C3141504462%2C3141504461%2C3141504460%2C3141504459%2C3141504458%2C3141504456%2C3141504454%2C3141504452%2C3141504450%2C3141504449%2C3141504447%2C3141504445%2C3141504444%2C3141504443%2C3141504442%2C3141504441%2C3141504440%2C3141504439%2C3141504438%2C3141504437%2C3141504436%2C3141504435%2C3141504434%2C3141504433%2C3141504432%2C3141504431%2C3141504430%2C3141504429%2C3141504427%2C3141504425%2C3141504423%2C3141504421%2C3141504419%2C3141504417%2C3141504415%2C3141504413%2C3141504411%2C3141504410%2C3141504409%2C3141504407%2C3141504405%2C3141504403%2C3141504401%2C3141504400%2C3141504398%2C3141504397%2C3141504396%2C3141504395%2C3141504394%2C3141504393%2C3141504392%2C3141504391%2C3141504390%2C3141504388%2C3141504386%2C3141504384%2C3141504383%2C3141504382%2C3141504381%2C3141504380%2C3141504379%2C3141504378%2C3141504377%2C3141504376%2C3141504375%2C3141504374%2C3141504373%2C3141504371%2C3141504369%2C3141504367%2C3141504365%2C3141504364%2C3141504363%2C3141504362%2C3141504361%2C3141504360%2C3141504359%2C3141504358%2C3141504357%2C3141504356%2C3141504355%2C3141504354%2C3141504353%2C3141504352%2C3141504351%2C3141504350%2C3141504349%2C3141504348%2C3141504347%2C3141504346%2C3141504345%2C3141504344%2C3141504343%2C3141504342%2C3141504341%2C3141504340%2C3141504339&rettype=gb&retmode=text",
+      "path": "data/sources/waki2026/references.gb",
+      "sha256": "b4bd4b2e3b640bc036d3ca1d40f5d454edba32669903b7b5257f189f08fd76f7",
+      "cache_reused": "true",
+      "retrieved_or_cached_file_mtime_utc": "2026-10-05T03:15:32.418990+00:00"
+    }
+  ],
+  "selection": "108 NCBI sequences linked to PMID41424079:98 supplement accessions,eight additional printed article accessions,and two database-only accessions; every record cites the article title",
+  "record_count": 108,
+  "marker_counts": {
+    "28S": 26,
+    "COI": 71,
+    "ITS2": 11
+  },
+  "host_counts": {
+    "Coryphaena hippurus": 39,
+    "Canthidermis maculata": 2,
+    "Aluterus scriptus": 2,
+    "Lagocephalus cheesemanii": 2,
+    "Lagocephalus spadiceus": 4,
+    "Physalia utriculus": 27,
+    "Exocoetidae sp.": 1,
+    "Chaetognatha sp.": 2,
+    "Scomber japonicus": 7,
+    "Urashimea globosa": 7,
+    "Aurelia coerulea": 3,
+    "Clytia sp.": 2,
+    "Chrysaora pacifica": 6,
+    "Echeneis naucrates": 1,
+    "Arothron firmamentum": 1,
+    "Elagatis bipinnulata": 1,
+    "Velella velella": 1
+  },
+  "output_sha256": {
+    "S0022149X25100989sup001.xlsx": "e591d82bbbd510d5b7e9df3b8f4695df8965eafafa92b4fcb5ab81fdab902ab8",
+    "pubmed_nuccore_links.json": "6f07c78f67025dc8947d33c283437730b6a1044d127697b3c8fd654c1c20f2fc",
+    "references.gb": "b4bd4b2e3b640bc036d3ca1d40f5d454edba32669903b7b5257f189f08fd76f7",
+    "references.fasta": "2aa5f9208cabee80f5b60278ed163ea011a1b359444dd6d724b195bba5430501",
+    "reference_metadata.tsv": "f7800d04a74f517a40120c698d506b94018b9ae46dad5fa7dab8b881e38e8703",
+    "reference_features.json": "39069084c24cb51d57c243a9fab3456c3bd01d0f941d4bfc9037fc52ce5bbcb9",
+    "supplement_accessions.tsv": "a6e8c1de4f187b6bacbebebf9e91d7a7386a731be5f7bc2bee505382cb403500",
+    "supplement_unaccessioned.tsv": "36c47314a2874c84d392e63702b433d3480da29d95277682385d1565273fea46"
+  },
+  "limitations": [
+    "No 18S sequences are deposited in this study reference set.",
+    "ITS2 records span 5.8S/ITS2/28S; their internal boundaries are not annotated.",
+    "Unaccessioned supplement rows are preserved separately, not invented as sequences.",
+    "Specimen-specific GenBank hosts and life stages are preserved without inferring other hosts."
+  ]
+}

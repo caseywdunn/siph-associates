@@ -957,3 +957,62 @@ reproduces the updated manifest. The scorer is idempotent and protects explicit
 point, interval and unparsed depth records. Metadata tests (23), plus statistics
 and eukaryote regressions (six), passed; all original biological result tables
 remain unchanged. Only the bounded cohort export is refreshed.
+
+
+## 2026-10-04 — Descriptive collection-context analyses
+
+The user authorized the proposed depth/host overview, focused DT-68 comparison
+and tissue-aware regional descriptions. Added `scripts/analyze_collection_context.py`
+and `figures/plot_collection_context.py`, with outputs and provenance under
+`figures/collection_context/`. The existing Snakemake publication rules now
+include explicit table and plotting targets. All 205 libraries remain;
+136 single-flowcell libraries are flagged separately. No new significance
+tests, sequence processing, source-metadata changes or cluster jobs were needed.
+
+Commands were run from this repository with the existing Python environment:
+`/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python scripts/analyze_collection_context.py`
+and the same interpreter for `figures/plot_collection_context.py`, using
+`MPLCONFIGDIR=/tmp/siph-associates-matplotlib`. Exact actual commands, versions,
+source hashes and original working states are in the producer manifests.
+Source base is `7cac98ca4c82f1e8c76c8bd714f6510b753416b1`; these are subsequent
+working-tree additions. The detailed scope and selected findings are recorded
+in `docs/collection_context_analysis.md`.
+
+Nine scientific tests and Ruff passed. Fresh temporary execution reproduced
+all ten scientific table/summary outputs byte-for-byte. Independent review
+recomputed original-input counts and verified all 112 within-P. utriculus
+regional rows. A reporting correction distinguishes DT-68 validated presence
+from the high-confidence assembly criterion: WS7 retains 2,288 subthreshold
+assembly-support bases. All three figures passed visual and numerical review.
+The normal bounded Snakemake dry run was up to date; forced preview contained
+exactly two reporting jobs. Two actual rulegraph generations were identical.
+The manuscript explicitly copies reviewed PDF/table assets with checksums and
+reports these post hoc descriptions without changing the prior inferential tests.
+
+
+## 2026-10-04: direct Waki marker comparison and figure balance
+
+Casey Dunn explicitly requested direct comparison with Waki et al.'s sequences
+and a manuscript figure set proportionate to the full biological scope.
+The targeted marker analysis uses eight existing trematode-positive specimen
+assemblies, 108 Waki records and 113 external references from their supplement.
+It retains original read/SSU presence grades and does not rerun the cohort
+analysis or reassemble reads. Reproduction, immutable search receipts,
+subsequent summary checks and interpretation are recorded in
+`docs/waki_sequence_comparison.md` and `data/sources/waki2026/README.md`.
+
+`figures/plot_associate_overview.py` adds a study overview with explicitly
+labelled Physalia/Nanomia septata photograph placeholders, a broad
+bacterial/archaeal host-distribution figure, and a eukaryote matrix grouped
+by host with species labels. The three PDFs and five supporting TSVs are in
+`figures/overview/`, with exact source/input/output hashes and runtime in
+`manifest.json`. All 205 libraries remain in descriptive denominators;
+the eukaryote matrix preserves 61 detections/39 libraries/42 cells with both
+read and assembly support. Figures were inspected at 160 mm width (minimum
+font 7.27 pt), and their source tables independently match accepted totals.
+Original cohort exports and Mycoplasmatales outputs are preserved.
+
+Both the bounded search and plotting used the existing compute allocation
+11793267 on r209u08n04, with one CPU. No new full-cohort jobs were submitted.
+The original analysis base revision remains 7cac98c; these additions are
+uncommitted.

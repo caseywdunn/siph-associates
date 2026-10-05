@@ -1,11 +1,11 @@
 {
   "status": "complete",
-  "run_utc": "2026-10-04T02:05:23.043511+00:00",
+  "run_utc": "2026-10-05T03:20:49.579970+00:00",
   "slurm_job_id": "11793267",
-  "source_revision": "0a7c3e85a0e8f4856a16e5fc75e6a0ec73ba7b19",
+  "source_revision": "7cac98ca4c82f1e8c76c8bd714f6510b753416b1",
   "source_snapshot": "figures/mycoplasmatales/provenance/plot_mycoplasmatales_figures.py",
-  "script_sha256": "a991238a6cf5dc46b7c67c1371b6f5675ca683f343d2df53cb7dd549d0d8ae50",
-  "command": "python workflow/scripts/plot_mycoplasmatales_figures.py",
+  "script_sha256": "b51afcaa3afa13e340cd7849065aed1d14702a11d2284aa3e44bd3d82fcfe034",
+  "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python workflow/scripts/plot_mycoplasmatales_figures.py",
   "environment": {
     "python": "3.11.0",
     "biopython": "1.81",
@@ -19,10 +19,10 @@
     "data/results/mycoplasmatales_phylogeny/tree_labels.tsv": "16674cab12f998ab3dc3c3ba8633ebe7089a585a67a6009e63ab233ec292e344"
   },
   "outputs_sha256": {
-    "figures/mycoplasmatales/gene_functions.pdf": "c8d60b070da61b9165d680c1b3c26e3e9d9f84fde13bbe0db0faed60ced2857b",
-    "figures/mycoplasmatales/phylogeny_focus.pdf": "9360503461216c5b045696275c3b93044e04e19d1c01a4a2a4931533a3d102ff",
+    "figures/mycoplasmatales/gene_functions.pdf": "90e0b32b9e68d0486de79bf82327d4fb8c72eee45b7a6bf06385e102f2810b56",
+    "figures/mycoplasmatales/phylogeny_focus.pdf": "0814be1d65584fee38670169dcc7b49c2f1e73823631c9bd182387e0c57d25dc",
     "figures/mycoplasmatales/gene_functions.png": "42d7df976b520916cfdfa68fe3fd7e909683fcf2f62900240b2b292d513d5165",
-    "figures/mycoplasmatales/phylogeny_focus.png": "49b600ec8a8258f84ec3549794eba77e194841caed45a744a7e9da79fc49e1d3",
+    "figures/mycoplasmatales/phylogeny_focus.png": "0c842c05c742424aab13b906fb3bd5c55383571a858a53d4adcd521dbcd2f92f",
     "figures/mycoplasmatales/source_gene_functions.tsv": "759cf3186e0ca850245281bd1c6697f94881d2435605f4726c8919cfe1e55e48",
     "figures/mycoplasmatales/source_phylogeny_focus.tsv": "fb3f21ab599a806d16ede22a8ceded33a5b8fd0af238e5eae93d1225d5879b10"
   },

@@ -1,0 +1,6745 @@
+[
+  {
+    "accession_version": "AY222191.1",
+    "type": "source",
+    "location_biopython": "[0:1137](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1137,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prosogonotrema bilabiatum"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "host": [
+        "Caesio cuning"
+      ],
+      "db_xref": [
+        "taxon:73091"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Australia"
+      ]
+    }
+  },
+  {
+    "accession_version": "AY222191.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1137](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1137,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ],
+      "note": [
+        "large subunit ribosomal RNA; D1-D3"
+      ]
+    }
+  },
+  {
+    "accession_version": "AY222202.1",
+    "type": "source",
+    "location_biopython": "[0:1213](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1213,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus longisinus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:116840"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "Jamaica"
+      ]
+    }
+  },
+  {
+    "accession_version": "AY222202.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1213](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1213,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ],
+      "note": [
+        "large subunit ribosomal RNA; D1-D3"
+      ]
+    }
+  },
+  {
+    "accession_version": "FJ788491.1",
+    "type": "source",
+    "location_biopython": "[0:1310](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1310,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Opechona kahawai"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "host": [
+        "Arripis trutta"
+      ],
+      "specimen_voucher": [
+        "BMNH:2003.7.23.34-35"
+      ],
+      "db_xref": [
+        "taxon:681655"
+      ],
+      "geo_loc_name": [
+        "Australia: Tasmania"
+      ]
+    }
+  },
+  {
+    "accession_version": "FJ788491.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1310](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1310,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S large subunit ribosomal RNA"
+      ],
+      "note": [
+        "partial D1-D3"
+      ]
+    }
+  },
+  {
+    "accession_version": "FJ788493.1",
+    "type": "source",
+    "location_biopython": "[0:1333](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1333,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum keyam"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "host": [
+        "Monodactylus argenteus"
+      ],
+      "db_xref": [
+        "taxon:681656"
+      ],
+      "geo_loc_name": [
+        "Australia: Stradbroke Island"
+      ]
+    }
+  },
+  {
+    "accession_version": "FJ788493.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1333](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1333,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S large subunit ribosomal RNA"
+      ],
+      "note": [
+        "partial D1-D3"
+      ]
+    }
+  },
+  {
+    "accession_version": "KC985232.1",
+    "type": "source",
+    "location_biopython": "[0:2837](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 2837,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Hirudinella ventricosa"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "host": [
+        "Acanthocybium solandri"
+      ],
+      "db_xref": [
+        "taxon:1389722"
+      ],
+      "geo_loc_name": [
+        "USA: Gulf of Mexico"
+      ]
+    }
+  },
+  {
+    "accession_version": "KC985232.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:339](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 339,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "18S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "KC985232.1",
+    "type": "misc_RNA",
+    "location_biopython": "[339:1142](+)",
+    "start_zero_based": 339,
+    "end_exclusive": 1142,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "internal transcribed spacer 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "KC985232.1",
+    "type": "rRNA",
+    "location_biopython": "[1142:1298](+)",
+    "start_zero_based": 1142,
+    "end_exclusive": 1298,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "5.8S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "KC985232.1",
+    "type": "misc_RNA",
+    "location_biopython": "[1298:1643](+)",
+    "start_zero_based": 1298,
+    "end_exclusive": 1643,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "internal transcribed spacer 2"
+      ]
+    }
+  },
+  {
+    "accession_version": "KC985232.1",
+    "type": "rRNA",
+    "location_biopython": "[1643:>2837](+)",
+    "start_zero_based": 1643,
+    "end_exclusive": 2837,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "KU341979.1",
+    "type": "source",
+    "location_biopython": "[0:2616](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 2616,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Didymocystis scomberomori"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolation_source": [
+        "viscera"
+      ],
+      "host": [
+        "Scomberomorus maculatus"
+      ],
+      "db_xref": [
+        "taxon:1819802"
+      ],
+      "dev_stage": [
+        "adult"
+      ],
+      "geo_loc_name": [
+        "USA: Gulf of Mexico, off Dauphin Island, Alabama"
+      ],
+      "lat_lon": [
+        "30.20 N 88.15 W"
+      ]
+    }
+  },
+  {
+    "accession_version": "KU341979.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:40](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 40,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "18S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "KU341979.1",
+    "type": "misc_RNA",
+    "location_biopython": "[40:897](+)",
+    "start_zero_based": 40,
+    "end_exclusive": 897,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "internal transcribed spacer 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "KU341979.1",
+    "type": "rRNA",
+    "location_biopython": "[897:1054](+)",
+    "start_zero_based": 897,
+    "end_exclusive": 1054,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "5.8S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "KU341979.1",
+    "type": "misc_RNA",
+    "location_biopython": "[1054:1409](+)",
+    "start_zero_based": 1054,
+    "end_exclusive": 1409,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "internal transcribed spacer 2"
+      ]
+    }
+  },
+  {
+    "accession_version": "KU341979.1",
+    "type": "rRNA",
+    "location_biopython": "[1409:>2616](+)",
+    "start_zero_based": 1409,
+    "end_exclusive": 2616,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "KU527431.1",
+    "type": "source",
+    "location_biopython": "[0:2720](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 2720,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prosogonotrema bilabiatum"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "1 DNA-2519"
+      ],
+      "host": [
+        "Rhomboplites aurorubens"
+      ],
+      "db_xref": [
+        "taxon:73091"
+      ],
+      "geo_loc_name": [
+        "USA"
+      ],
+      "lat_lon": [
+        "29.8992 N 88.2634 W"
+      ]
+    }
+  },
+  {
+    "accession_version": "KU527431.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:979](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 979,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 18S ribosomal RNA and internal transcribed spacer 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "KU527431.1",
+    "type": "rRNA",
+    "location_biopython": "[979:1136](+)",
+    "start_zero_based": 979,
+    "end_exclusive": 1136,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "5.8S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "KU527431.1",
+    "type": "misc_RNA",
+    "location_biopython": "[1136:1462](+)",
+    "start_zero_based": 1136,
+    "end_exclusive": 1462,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "internal transcribed spacer 2"
+      ]
+    }
+  },
+  {
+    "accession_version": "KU527431.1",
+    "type": "rRNA",
+    "location_biopython": "[1462:>2720](+)",
+    "start_zero_based": 1462,
+    "end_exclusive": 2720,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC586089.1",
+    "type": "source",
+    "location_biopython": "[0:1152](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1152,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Derogenes lacustris"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "2020-KT01"
+      ],
+      "host": [
+        "Galaxias maculatus"
+      ],
+      "db_xref": [
+        "taxon:2807614"
+      ],
+      "geo_loc_name": [
+        "Argentina"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC586089.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1152](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1152,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC586090.1",
+    "type": "source",
+    "location_biopython": "[0:1152](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1152,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Derogenes lacustris"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "2020-KT02"
+      ],
+      "host": [
+        "Galaxias maculatus"
+      ],
+      "db_xref": [
+        "taxon:2807614"
+      ],
+      "geo_loc_name": [
+        "Argentina"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC586090.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1152](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1152,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC655695.1",
+    "type": "source",
+    "location_biopython": "[0:2711](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 2711,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Hirudinella ventricosa"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "KGGa13"
+      ],
+      "isolation_source": [
+        "skeletal muscle of fish"
+      ],
+      "host": [
+        "Seriola dumerili"
+      ],
+      "db_xref": [
+        "taxon:1389722"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2013-09-12"
+      ],
+      "collected_by": [
+        "Soetsu Yanagi"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC655695.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:291](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 291,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "18S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC655695.1",
+    "type": "misc_RNA",
+    "location_biopython": "[291:1094](+)",
+    "start_zero_based": 291,
+    "end_exclusive": 1094,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "internal transcribed spacer 1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC655695.1",
+    "type": "rRNA",
+    "location_biopython": "[1094:1250](+)",
+    "start_zero_based": 1094,
+    "end_exclusive": 1250,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "5.8S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC655695.1",
+    "type": "misc_RNA",
+    "location_biopython": "[1250:1595](+)",
+    "start_zero_based": 1250,
+    "end_exclusive": 1595,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "internal transcribed spacer 2"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC655695.1",
+    "type": "rRNA",
+    "location_biopython": "[1595:>2711](+)",
+    "start_zero_based": 1595,
+    "end_exclusive": 2711,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805299.1",
+    "type": "source",
+    "location_biopython": "[0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_RfD065"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type A"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805299.1",
+    "type": "gene",
+    "location_biopython": "[<0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805299.1",
+    "type": "CDS",
+    "location_biopython": "[<0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72632.1"
+      ],
+      "translation": [
+        "GWGVDFLMFSLHLAGVSSLLSSINFICTIYSASSDYTSSRHSIIVWAYLFTSILLLVSLPVLAAGITMLLFDRNFGSSFFDPSGGGDPVLFQHLFWFFGHPEVYVLILPAFGIISHICVSLSNNDSLFGYQGLVSAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRLSDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVVTGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYVLNCVSTLGALLSAVSGFFLIFILWESVVSGNRLISCWGSSSTVLNSVVVPTPYHSIYISSPCFVVSGLSG"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805301.1",
+    "type": "source",
+    "location_biopython": "[0:1134](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1134,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_RfD094"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type A"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805301.1",
+    "type": "gene",
+    "location_biopython": "[<0:1134](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1134,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805301.1",
+    "type": "CDS",
+    "location_biopython": "[<0:1134](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1134,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72634.1"
+      ],
+      "translation": [
+        "VDFLMFSLHLAGVSSLLSSINFICTIYSASSDYTSSRHSIIVWAYLFTSILLLVSLPVLAAGITMLLFDRNFGSSFFDPSGGGDPVLFQHLFWFFGHPEVYVLILPAFGIISHICVSLSNNDSLFGYQGLVSAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGISRCRLSDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVVTGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYVLNCVSTLGALLSAVSGFFLIFILWESVVSGNRLISCWGSSSTVLNSVVVPTPYHSIYISSPCFVVSGLSG"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805303.1",
+    "type": "source",
+    "location_biopython": "[0:819](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 819,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_RfD123"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type B"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805303.1",
+    "type": "gene",
+    "location_biopython": "[<0:819](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 819,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805303.1",
+    "type": "CDS",
+    "location_biopython": "[<0:819](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 819,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72636.1"
+      ],
+      "translation": [
+        "PAFGIISHICVSLSNNDSLFGYHGLISAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRLGDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVITGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYVLNCVSTLGALLSAVSGFFLIFVVWESVASGNRLISCWGSSATVLNSVVVPTPYHSIYISSPCFVVSGLSE"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805306.1",
+    "type": "source",
+    "location_biopython": "[0:1134](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1134,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_RfD132"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type A"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805306.1",
+    "type": "gene",
+    "location_biopython": "[<0:1134](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1134,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805306.1",
+    "type": "CDS",
+    "location_biopython": "[<0:1134](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1134,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72639.1"
+      ],
+      "translation": [
+        "VDFLMFSLHLAGVSSLLSSINFICTIYSASSDYTSSRHSIIVWAYLFTSILLLVSLPVLAAGITMLLFDRNFGSSFFDPSGGGDPVLFQHLFWFFGHPEVYVLILPAFGIISHICVSLSNNDSLFGYQGLVSAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRLSDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVVTGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYVLNCVSTLGALLSAVSGFFLIFILWESVVSGNRLISCWGSSSTVLNSVVVPTPYHSIYISSPCFVVSGLSG"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805307.1",
+    "type": "source",
+    "location_biopython": "[0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_RfD133"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type A"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805307.1",
+    "type": "gene",
+    "location_biopython": "[<0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805307.1",
+    "type": "CDS",
+    "location_biopython": "[<0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72640.1"
+      ],
+      "translation": [
+        "GWGVDFLMFSLHLAGVSSLLSSINFICTIYSASSDYTSSRHSIIVWAYLFTSILLLVSLPVLAAGITMLLFDRNFGSSFFDPSGGGDPVLFQHLFWFFGHPEVYVLILPAFGIISHICVSLSNNDSLFGYQGLVSAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGISRCRLSDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVVTGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYVLNCVSTLGALLSAVSGFFLIFILWESVVSGNRLISCWGSSSTVLNSVVVPTPYHSIYISSPCFVVSGLSG"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805309.1",
+    "type": "source",
+    "location_biopython": "[0:1134](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1134,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_RfD158"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type B"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805309.1",
+    "type": "gene",
+    "location_biopython": "[<0:1134](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1134,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805309.1",
+    "type": "CDS",
+    "location_biopython": "[<0:1134](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1134,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72642.1"
+      ],
+      "translation": [
+        "VDFLMFSLHLAGVSSLLSSINFICTIYSASSDYTSSRHSIVVWAYLFTSILLLVSLPVLAAGITMLLFDRNFGSSFFDPSGGGDPVLFQHLFWFFGHPEVYVLILPAFGIISHICVSLSNNDSLFGYHGLISAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRLGDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVITGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYLLNCVSTLGALLSAVSGFFLIFVVWESVASGNRLISCWGSSATVLNSVVVPTPYHSIYISSPCFVVSGLSE"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805311.1",
+    "type": "source",
+    "location_biopython": "[0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_RfD160"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type A"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805311.1",
+    "type": "gene",
+    "location_biopython": "[<0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805311.1",
+    "type": "CDS",
+    "location_biopython": "[<0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72644.1"
+      ],
+      "translation": [
+        "GWGVDFLMFSLHLAGVSSLLSSINFICTIYSASSDYTSSRHSIIVWAYLFTSILLLVSLPVLAAGITMLLFDRNFGSSFFDPSGGGDPVLFQHLFWFFGHPEVYVLILPAFGIISHICVSLSNNDSLFGYQGLVSAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRFSDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVVTGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYVLNCVSTIGALLSAVSGFFLIFILWESVVSGNRLISCWGSSSTVLNSVVVPTPYHSIYISSPCFVVSGLSG"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805313.1",
+    "type": "source",
+    "location_biopython": "[0:804](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 804,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_Seq008"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type B"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805313.1",
+    "type": "gene",
+    "location_biopython": "[<0:804](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 804,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805313.1",
+    "type": "CDS",
+    "location_biopython": "[<0:804](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 804,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72646.1"
+      ],
+      "translation": [
+        "ISHICVSLSNNDSLFGYHGLISAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRLGDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVITGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYLLNCVSTLGALLSAVSGFFLIFVVWESVASGNRLISCWGSSATVLNSVVVPTPYHSIYISSPCFVVSGLSE"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805315.1",
+    "type": "source",
+    "location_biopython": "[0:1128](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1128,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_Seq025"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type B"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805315.1",
+    "type": "gene",
+    "location_biopython": "[<0:1128](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1128,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805315.1",
+    "type": "CDS",
+    "location_biopython": "[<0:1128](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1128,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72648.1"
+      ],
+      "translation": [
+        "FLMFSLHLAGVSSLLSSINFICTIYSASSDYTSSRHSIVVWAYLFTSILLLVSLPVLAAGITMLLFDRNFGSSFFDPSGGGDPVLFQHLFWFFGHPEVYVLILPAFGIISHICVSLSNNDSLFGYHGLISAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRLGDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVITGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYLLNCVSTLGALLSAVSGFFLIFVVWESVASGNRLISCWGSSSTVLNSVVVPTPYHSIYISSPCFVVSGLSE"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805317.1",
+    "type": "source",
+    "location_biopython": "[0:1131](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1131,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_Seq063"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type A"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805317.1",
+    "type": "gene",
+    "location_biopython": "[<0:1131](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1131,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805317.1",
+    "type": "CDS",
+    "location_biopython": "[<0:1131](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1131,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72650.1"
+      ],
+      "translation": [
+        "DFLMFSLHLAGVSSLLSSINFICTIYSASSDYTSSRHSIIVWAYLFTSILLLVSLPVLAAGITMLLFDRNFGSSFFDPSGGGDPVLFQHLFWFFGHPEVYVLILPAFGIISHICVSLSNNDSLFGYQGLVSAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGISRCRFSDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVVTGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYVLNCVSTLGALLSAVSGFFLIFIVWESVVSGNRLISCWGSSSIVLNSVVVPTPYHSIYISSPSFVVSGLSG"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805327.1",
+    "type": "source",
+    "location_biopython": "[0:1134](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1134,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_Seq192"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type B"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805327.1",
+    "type": "gene",
+    "location_biopython": "[<0:1134](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1134,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805327.1",
+    "type": "CDS",
+    "location_biopython": "[<0:1134](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1134,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72660.1"
+      ],
+      "translation": [
+        "VDFLMFSLHLAGVSSLLSSINFICTIYSASSDYTSSRHSIIVWAYLFTSILLLVSLPVLAAGITMLLFDRNFGSSFFDPSGGGDPVLFQHLFWFFGHPEVYVLILPAFGIISHICVSLSNNDSLFGYHGLISAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSCCRLGDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVITGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYVLNCVSTLGALLSAVSGFFLIFVVWESVASGNRLISCWGSSATVLNSVVVPTPYHSIYISSPCFVVSGLSE"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805329.1",
+    "type": "source",
+    "location_biopython": "[0:1146](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1146,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_Seq210"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type A"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805329.1",
+    "type": "gene",
+    "location_biopython": "[<0:1146](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1146,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805329.1",
+    "type": "CDS",
+    "location_biopython": "[<0:1146](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1146,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72662.1"
+      ],
+      "translation": [
+        "SGWGVDFLMFSLHLAGVSSLLSSINFICTIYSASSDYTSSRHSIIVWAYLFTSILLLVSLPVLAAGITMLLFDRNFGSSFFDPSGGGDPVLFQHLFWFFGHPEVYVLILPAFGIISHICVSLSNNDSLFGYQGLVSAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRLSDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVVTGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYVLNCVSTLGALLSAVSGFFLIFILWESVVSGNRLISCWGSSSTVLNSVVVPTPYHSIYISSPCFVVSGLSG"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805330.1",
+    "type": "source",
+    "location_biopython": "[0:1146](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1146,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_Seq217"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type A"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805330.1",
+    "type": "gene",
+    "location_biopython": "[<0:1146](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1146,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805330.1",
+    "type": "CDS",
+    "location_biopython": "[<0:1146](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1146,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72663.1"
+      ],
+      "translation": [
+        "SGWGVDFLMFSLHLAGVSSLLSSINFICTIYSASSDYTSSRHSIIVWAYLFTSILLLVSLPVLAAGITMLLFDRNFGSSFFDPSGGGDPVLFQHLFWFFGHPEVYVLILPAFGIISHICVSLSNNDSLFGYQGLVSAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRLSDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVVTGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYVLNCVSTLGALLSAVSGFFLIFILWESVVSGNRLISCWGSSSTVLNSVVVPTPYHSIYISSPCFVVSGLSG"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805332.1",
+    "type": "source",
+    "location_biopython": "[0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_Seq222"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type A"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805332.1",
+    "type": "gene",
+    "location_biopython": "[<0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805332.1",
+    "type": "CDS",
+    "location_biopython": "[<0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72665.1"
+      ],
+      "translation": [
+        "GWGVDFLMFSLHLAGVSSLLSSINFICTIYSASSDYTSSRHSIIVWAYLFTSILLLVSLPVLAAGITMLLFDRNFGSSFFDPSGGGDPVLFQHLFWFFGHPEVYVLILPAFGIISHICVSLSNNDSLFGYQGLVSAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRLSDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVVTGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYVLNCVSTLGALLSAVSGFFLIFILWESVVSGNRLISCWGSSSTVLNSVVVPTPYHSIYISSPCFVVSGLSG"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805333.1",
+    "type": "source",
+    "location_biopython": "[0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Genarchopsis goppo"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Der_Seq234"
+      ],
+      "db_xref": [
+        "taxon:1162931"
+      ],
+      "geo_loc_name": [
+        "Japan"
+      ],
+      "collection_date": [
+        "2023"
+      ],
+      "note": [
+        "Type A"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805333.1",
+    "type": "gene",
+    "location_biopython": "[<0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC805333.1",
+    "type": "CDS",
+    "location_biopython": "[<0:1143](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1143,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "BFI72666.1"
+      ],
+      "translation": [
+        "GWGVDFLMFSLHLAGVSSLLSSINFICTIYSASSDYTSSRHSIIVWAYLFTSILLLVSLPVLAAGITMLLFDRNFGSSFFDPSGGGDPVLFQHLFWFFGHPEVYVLILPAFGIISHICVSLSNNDSLFGYQGLVSAMFAIVCLGSVVWGHHMFMVGFDLNTAVFFSSVTMVIGVPTGIKVFSWLYMLGISRCRLSDVVVWWIIGFIVLFTIGGVTGIVLSASVLDMVLHDTWFVVAHFHYVLSLGSYSAVVISLIWWWPVVTGYSLNVSLLRGHWVCSMLGFNLCFFPMHYLGLCGLPRRVCCYDPSFYVLNCVSTLGALLSAVSGFFLIFILWESVVSGNRLISCWGSSSTVLNSVVVPTPYHSIYISSPCFVVSGLSG"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC856701.1",
+    "type": "source",
+    "location_biopython": "[0:1620](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1620,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Sekine23"
+      ],
+      "host": [
+        "Purpuradusta gracilis"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "dev_stage": [
+        "sporocyst"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2024-07-07"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC856701.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1620](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1620,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC856702.1",
+    "type": "source",
+    "location_biopython": "[0:1524](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1524,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "TW1039"
+      ],
+      "host": [
+        "Purpuradusta gracilis"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "dev_stage": [
+        "sporocyst"
+      ],
+      "geo_loc_name": [
+        "Japan:Chiba"
+      ],
+      "collection_date": [
+        "2024-07-07"
+      ]
+    }
+  },
+  {
+    "accession_version": "LC856702.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1524](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1524,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MH157073.1",
+    "type": "source",
+    "location_biopython": "[0:1340](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1340,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Opechona austrobacillaris"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC17543"
+      ],
+      "host": [
+        "Pomatomus saltatrix"
+      ],
+      "db_xref": [
+        "taxon:2219235"
+      ],
+      "geo_loc_name": [
+        "Australia: Moreton Bay, QLD"
+      ]
+    }
+  },
+  {
+    "accession_version": "MH157073.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1340](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1340,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MH157074.1",
+    "type": "source",
+    "location_biopython": "[0:1341](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1341,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum keyam"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC17236"
+      ],
+      "host": [
+        "Monodactylus argenteus"
+      ],
+      "db_xref": [
+        "taxon:681656"
+      ],
+      "geo_loc_name": [
+        "Australia: Moreton Bay, QLD"
+      ]
+    }
+  },
+  {
+    "accession_version": "MH157074.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1341](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1341,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "28S large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MH628313.1",
+    "type": "source",
+    "location_biopython": "[0:1033](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1033,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Allogenarchopsis problematica"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Allog"
+      ],
+      "db_xref": [
+        "taxon:1405812"
+      ]
+    }
+  },
+  {
+    "accession_version": "MH628313.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1033](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1033,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT299625.1",
+    "type": "source",
+    "location_biopython": "[0:1193](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1193,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "specimen_voucher": [
+        "P1"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT299625.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1193](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1193,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT299626.1",
+    "type": "source",
+    "location_biopython": "[0:1193](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1193,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "specimen_voucher": [
+        "P4"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT299626.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1193](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1193,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT303947.1",
+    "type": "source",
+    "location_biopython": "[0:1191](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1191,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Opechona olssoni"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "specimen_voucher": [
+        "O1"
+      ],
+      "db_xref": [
+        "taxon:2725052"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT303947.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1191](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1191,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT303948.1",
+    "type": "source",
+    "location_biopython": "[0:1191](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1191,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum alaskense"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "specimen_voucher": [
+        "P5"
+      ],
+      "db_xref": [
+        "taxon:2725053"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT303948.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1191](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1191,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT303949.1",
+    "type": "source",
+    "location_biopython": "[0:1191](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1191,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum alaskense"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "specimen_voucher": [
+        "P2"
+      ],
+      "db_xref": [
+        "taxon:2725053"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT303949.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1191](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1191,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT303950.1",
+    "type": "source",
+    "location_biopython": "[0:1191](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1191,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum alaskense"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "specimen_voucher": [
+        "P3"
+      ],
+      "db_xref": [
+        "taxon:2725053"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT303950.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1191](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1191,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT303951.1",
+    "type": "source",
+    "location_biopython": "[0:1191](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1191,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum alaskense"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "specimen_voucher": [
+        "P8"
+      ],
+      "db_xref": [
+        "taxon:2725053"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT303951.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1191](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1191,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422320.1",
+    "type": "source",
+    "location_biopython": "[0:858](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 858,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bunocotyle progenetica"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "86.2_18B-14_SU"
+      ],
+      "host": [
+        "Peringia ulvae"
+      ],
+      "db_xref": [
+        "taxon:368073"
+      ],
+      "dev_stage": [
+        "redia"
+      ],
+      "geo_loc_name": [
+        "Russia: White Sea"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422320.1",
+    "type": "gene",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422320.1",
+    "type": "CDS",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ],
+      "EC_number": [
+        "7.1.1.9"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "QRW33546.1"
+      ],
+      "translation": [
+        "CMNVSNQDSLFGYQGLVFAMFAIVCLGSVVWGHHMFMVGMDIKTAVFFSSVTMIIGVPTGIKIFSWLYMLGAGFYHLGNIIVWWILGFIFLFTVGGVTGIILSASILDTILHDTWFVVAHFHYVLSLGSYSAVVISIIWWWPVITGYSLNLNLLRGHFFCSMLGFNLCFFPMHYVGACGLPRRVCSYDPAFQVFNTCSTIGGLLSAVSGVFMLYILWESIASDNKIIGAWGSGSTVLNTLVLPTPYHSIYFSGCNRFFV"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422320.1",
+    "type": "tRNA",
+    "location_biopython": "[782:847](+)",
+    "start_zero_based": 782,
+    "end_exclusive": 847,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "tRNA-Thr"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422320.1",
+    "type": "rRNA",
+    "location_biopython": "[847:>858](+)",
+    "start_zero_based": 847,
+    "end_exclusive": 858,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "16S large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422321.1",
+    "type": "source",
+    "location_biopython": "[0:858](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 858,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bunocotyle progenetica"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "86.3_18B-15_SU"
+      ],
+      "host": [
+        "Peringia ulvae"
+      ],
+      "db_xref": [
+        "taxon:368073"
+      ],
+      "dev_stage": [
+        "redia"
+      ],
+      "geo_loc_name": [
+        "Russia: White Sea"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422321.1",
+    "type": "gene",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422321.1",
+    "type": "CDS",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ],
+      "EC_number": [
+        "7.1.1.9"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "QRW33547.1"
+      ],
+      "translation": [
+        "CMSISNQDSLFGYQGLVFAMFAIVCLGSVVWGHHMFMVGMDIKTAVFFSSVTMIIGVPTGIKIFSWLYMLGAGFYHLGNIIVWWILGFIFLFTVGGVTGIILSASILDTILHDTWFVVAHFHYVLSLGSYSAVVISIIWWWPVITGYSLNLNLLRGHFFCSMLGFNLCFFPMHYVGACGLPRRVCSYDPAFQVFNTCSTIGGLLSAVSGVFMLYILWESIASDNKIIGAWGSGSTVLNTLVLPTPYHSIYFSGCNRFFV"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422321.1",
+    "type": "tRNA",
+    "location_biopython": "[782:847](+)",
+    "start_zero_based": 782,
+    "end_exclusive": 847,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "tRNA-Thr"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422321.1",
+    "type": "rRNA",
+    "location_biopython": "[847:>858](+)",
+    "start_zero_based": 847,
+    "end_exclusive": 858,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "16S large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422323.1",
+    "type": "source",
+    "location_biopython": "[0:859](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 859,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bunocotyle progenetica"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "86.5_18B-18_SU"
+      ],
+      "host": [
+        "Peringia ulvae"
+      ],
+      "db_xref": [
+        "taxon:368073"
+      ],
+      "dev_stage": [
+        "redia"
+      ],
+      "geo_loc_name": [
+        "Russia: White Sea"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422323.1",
+    "type": "gene",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422323.1",
+    "type": "CDS",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ],
+      "EC_number": [
+        "7.1.1.9"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "QRW33549.1"
+      ],
+      "translation": [
+        "CMNISNQDSLFGYQGLVFAMFAIVCLGSVVWGHHMFMVGMDIKTAVFFSSVTMIIGVPTGIKIFSWLYMLGAGFYHLGNIIVWWILGFIFLFTVGGVTGIILSASILDTILHDTWFVVAHFHYVLSLGSYSAVVISIIWWWPVITGYSLNLNLLRGHFFCSMLGFNLCFFPMHYVGACGLPRRVCSYDPAFQVFNTCSTIGGLLSAVSGVFMLYILWESIASDNKIIGAWGSGSTVLNILVLPTPYHSIYFSGCNRFFV"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422323.1",
+    "type": "tRNA",
+    "location_biopython": "[782:847](+)",
+    "start_zero_based": 782,
+    "end_exclusive": 847,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "tRNA-Thr"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422323.1",
+    "type": "rRNA",
+    "location_biopython": "[847:>859](+)",
+    "start_zero_based": 847,
+    "end_exclusive": 859,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "16S large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422324.1",
+    "type": "source",
+    "location_biopython": "[0:860](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 860,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bunocotyle progenetica"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "86.6_18B-19_SU"
+      ],
+      "host": [
+        "Peringia ulvae"
+      ],
+      "db_xref": [
+        "taxon:368073"
+      ],
+      "dev_stage": [
+        "redia"
+      ],
+      "geo_loc_name": [
+        "Russia: White Sea"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422324.1",
+    "type": "gene",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422324.1",
+    "type": "CDS",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ],
+      "EC_number": [
+        "7.1.1.9"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "QRW33550.1"
+      ],
+      "translation": [
+        "CMNISNQDSLFGYQGLVFAMFAIVCLGSVVWGHHMFMVGMDIKTAVFFSSVTMIIGVPTGIKIFSWLYMLGAGFYHLGNIIVWWILGFIFLFTVGGVTGIILSASILDTILHDTWFVVAHFHYVLSLGSYSAVVISIIWWWPVITGYSLNLNLLRGHFFCSMLGFNLCFFPMHYVGACGLPRRVCSYDPAFQVFNTCSTIGGLLSAVSGVFMLYILWESIASDNKIIGAWGSGSTVLNILVLPTPYHSIYFSGCNRFFV"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422324.1",
+    "type": "tRNA",
+    "location_biopython": "[782:847](+)",
+    "start_zero_based": 782,
+    "end_exclusive": 847,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "tRNA-Thr"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422324.1",
+    "type": "rRNA",
+    "location_biopython": "[847:>860](+)",
+    "start_zero_based": 847,
+    "end_exclusive": 860,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "16S large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422327.1",
+    "type": "source",
+    "location_biopython": "[0:860](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 860,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bunocotyle progenetica"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "86.9_18B-34_LB"
+      ],
+      "host": [
+        "Peringia ulvae"
+      ],
+      "db_xref": [
+        "taxon:368073"
+      ],
+      "dev_stage": [
+        "redia"
+      ],
+      "geo_loc_name": [
+        "Russia: White Sea"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422327.1",
+    "type": "gene",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422327.1",
+    "type": "CDS",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ],
+      "EC_number": [
+        "7.1.1.9"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "QRW33553.1"
+      ],
+      "translation": [
+        "CMNISNQDSLFGYQGLVFAMFAIVCLGSVVWGHHMFMVGMDIKTAVFFSSVTMIIGVPTGIKIFSWLYMLGAGFYHLGNIIVWWILGFIFLFTVGGVTGIILSASILDTILHDTWFVVAHFHYVLSLGSYSAVVISIIWWWPVITGYSLNLNLLRGHFFCSMLGFNLCFFPMHYVGACGLPRRVCSYDPAFQVFNTCSTIGGLLSAVSGVFMLYILWESIASDNKIIGAWGSGSTVLNILVLPTPYHSIYFSGCNRFFV"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422327.1",
+    "type": "tRNA",
+    "location_biopython": "[782:847](+)",
+    "start_zero_based": 782,
+    "end_exclusive": 847,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "tRNA-Thr"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422327.1",
+    "type": "rRNA",
+    "location_biopython": "[847:>860](+)",
+    "start_zero_based": 847,
+    "end_exclusive": 860,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "16S large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422331.1",
+    "type": "source",
+    "location_biopython": "[0:859](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 859,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bunocotyle progenetica"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "86.14_18B-39_LB"
+      ],
+      "host": [
+        "Peringia ulvae"
+      ],
+      "db_xref": [
+        "taxon:368073"
+      ],
+      "dev_stage": [
+        "redia"
+      ],
+      "geo_loc_name": [
+        "Russia: White Sea"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422331.1",
+    "type": "gene",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422331.1",
+    "type": "CDS",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ],
+      "EC_number": [
+        "7.1.1.9"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "QRW33557.1"
+      ],
+      "translation": [
+        "CMNISNQDSLFGYQGLVFAMFAIVCLGSVVWGHHMFMVGMDIKTAVFFSSVTMIIGVPTGIKIFSWLYMLGAGFYHLGNIIVWWILGFIFLFTVGGVTGIILSASILDTILHDTWFVVAHFHYVLSLGSYSAVVISIIWWWPVITGYSLNLNLLRGHFFCSMLGFNLCFFPMHYVGACGLPRRVCSYDPAFQVFNTCSTIGGLLSAVSGVFMLYILWESIASDNKIIGAWGSGSTVLNILVLPTPYHSIYFSGCNRFFV"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422331.1",
+    "type": "tRNA",
+    "location_biopython": "[782:847](+)",
+    "start_zero_based": 782,
+    "end_exclusive": 847,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "tRNA-Thr"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422331.1",
+    "type": "rRNA",
+    "location_biopython": "[847:>859](+)",
+    "start_zero_based": 847,
+    "end_exclusive": 859,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "16S large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422334.1",
+    "type": "source",
+    "location_biopython": "[0:860](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 860,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bunocotyle progenetica"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "86.18_18B-43_SU"
+      ],
+      "host": [
+        "Peringia ulvae"
+      ],
+      "db_xref": [
+        "taxon:368073"
+      ],
+      "dev_stage": [
+        "redia"
+      ],
+      "geo_loc_name": [
+        "Russia: White Sea"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422334.1",
+    "type": "gene",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422334.1",
+    "type": "CDS",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ],
+      "EC_number": [
+        "7.1.1.9"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "QRW33560.1"
+      ],
+      "translation": [
+        "CMNISNQDSLFGYQGLVFAMFAIVCLGSVVWGHHMFMVGMDIKTAVFFSSVTMIIGVPTGIKIFSWLYMLGAGFYHLGNIIVWWILGFIFLFTVGGVTGIILSASILDTILHDTWFVVAHFHYVLSLGSYSAVVISIIWWWPVITGYSLNLNLLRGHFFCSMLGFNLCFFPMHYVGACGLPRRVCSYDPAFQVFNTCSTIGGLLSAVSGVFMLYILWESIASDNKIIGAWGSGSTVLNILVLPTPYHSIYFSGCNRFFV"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422334.1",
+    "type": "tRNA",
+    "location_biopython": "[782:847](+)",
+    "start_zero_based": 782,
+    "end_exclusive": 847,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "tRNA-Thr"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422334.1",
+    "type": "rRNA",
+    "location_biopython": "[847:>860](+)",
+    "start_zero_based": 847,
+    "end_exclusive": 860,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "16S large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422338.1",
+    "type": "source",
+    "location_biopython": "[0:854](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 854,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Bunocotyle progenetica"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "86.23_17B-1_LNed"
+      ],
+      "host": [
+        "Peringia ulvae"
+      ],
+      "db_xref": [
+        "taxon:368073"
+      ],
+      "dev_stage": [
+        "redia"
+      ],
+      "geo_loc_name": [
+        "Russia: White Sea"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422338.1",
+    "type": "gene",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422338.1",
+    "type": "CDS",
+    "location_biopython": "[<0:781](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 781,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "cox1"
+      ],
+      "EC_number": [
+        "7.1.1.9"
+      ],
+      "codon_start": [
+        "2"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome oxidase subunit 1"
+      ],
+      "protein_id": [
+        "QRW33564.1"
+      ],
+      "translation": [
+        "CMNVSNQDSLFGYQGLVFAMFAIVCLGSVVWGHHMFMVGMDIKTAVFFSSVTMIIGVPTGIKIFSWLYMLGAGFYHLGNIIVWWILGFIFLFTVGGVTGIILSASILDTILHDTWFVVAHFHYVLSLGSYSAVVISIIWWWPVITGYSLNLNLLRGHFFCSMLGFNLCFFPMHYVGACGLPRRVCSYDPAFQVFNTCSTIGGLLSAVSGVFMLYILWESIASDNKIIGAWGSGSTVLNTLVLPTPYHSIYFSGCNRFFV"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422338.1",
+    "type": "tRNA",
+    "location_biopython": "[782:847](+)",
+    "start_zero_based": 782,
+    "end_exclusive": 847,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "tRNA-Thr"
+      ]
+    }
+  },
+  {
+    "accession_version": "MT422338.1",
+    "type": "rRNA",
+    "location_biopython": "[847:>854](+)",
+    "start_zero_based": 847,
+    "end_exclusive": 854,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "16S large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MW507469.1",
+    "type": "source",
+    "location_biopython": "[0:1054](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1054,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Progonus muelleri"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "specimen_voucher": [
+        "56-2"
+      ],
+      "db_xref": [
+        "taxon:2804722"
+      ]
+    }
+  },
+  {
+    "accession_version": "MW507469.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1054](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1054,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MW507470.1",
+    "type": "source",
+    "location_biopython": "[0:1054](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1054,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Progonus muelleri"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "specimen_voucher": [
+        "56-3"
+      ],
+      "db_xref": [
+        "taxon:2804722"
+      ]
+    }
+  },
+  {
+    "accession_version": "MW507470.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1054](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1054,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "MW507471.1",
+    "type": "source",
+    "location_biopython": "[0:1054](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1054,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Progonus muelleri"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "specimen_voucher": [
+        "A283"
+      ],
+      "db_xref": [
+        "taxon:2804722"
+      ]
+    }
+  },
+  {
+    "accession_version": "MW507471.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1054](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1054,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OP458333.1",
+    "type": "source",
+    "location_biopython": "[0:1252](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1252,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus euthynni"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "CP5"
+      ],
+      "host": [
+        "Auxis thazard"
+      ],
+      "db_xref": [
+        "taxon:2979280"
+      ],
+      "geo_loc_name": [
+        "Brazil"
+      ]
+    }
+  },
+  {
+    "accession_version": "OP458333.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1252](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1252,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OP458340.1",
+    "type": "source",
+    "location_biopython": "[0:663](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 663,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus euthynni"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "CP5"
+      ],
+      "host": [
+        "Auxis thazard"
+      ],
+      "db_xref": [
+        "taxon:2979280"
+      ],
+      "geo_loc_name": [
+        "Brazil"
+      ]
+    }
+  },
+  {
+    "accession_version": "OP458340.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>663](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 663,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OP793498.1",
+    "type": "source",
+    "location_biopython": "[0:516](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 516,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Metadidymozoon branchiale"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolation_source": [
+        "gill lamellae"
+      ],
+      "host": [
+        "Istiophorus platypterus"
+      ],
+      "specimen_voucher": [
+        "Mbranchiale_Iplaty20671_H246"
+      ],
+      "db_xref": [
+        "taxon:2993831"
+      ]
+    }
+  },
+  {
+    "accession_version": "OP793498.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>516](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 516,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OP793499.1",
+    "type": "source",
+    "location_biopython": "[0:516](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 516,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Metadidymozoon branchiale"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolation_source": [
+        "gill lamellae"
+      ],
+      "host": [
+        "Istiophorus platypterus"
+      ],
+      "specimen_voucher": [
+        "Mbranchiale_Iplaty20671_H247"
+      ],
+      "db_xref": [
+        "taxon:2993831"
+      ]
+    }
+  },
+  {
+    "accession_version": "OP793499.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>516](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 516,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OP793500.1",
+    "type": "source",
+    "location_biopython": "[0:516](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 516,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Metadidymozoon branchiale"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolation_source": [
+        "gill lamellae"
+      ],
+      "host": [
+        "Istiophorus platypterus"
+      ],
+      "specimen_voucher": [
+        "Mbranchiale_Iplaty20671_H248"
+      ],
+      "db_xref": [
+        "taxon:2993831"
+      ]
+    }
+  },
+  {
+    "accession_version": "OP793500.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>516](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 516,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR141858.1",
+    "type": "source",
+    "location_biopython": "[0:779](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 779,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Derogenes ruber"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "108"
+      ],
+      "host": [
+        "Trigloporus lastoviza"
+      ],
+      "specimen_voucher": [
+        "108_COI"
+      ],
+      "db_xref": [
+        "taxon:3016994"
+      ],
+      "geo_loc_name": [
+        "Algeria"
+      ],
+      "collection_date": [
+        "2019"
+      ],
+      "collected_by": [
+        "Kamelia Gharbi"
+      ],
+      "identified_by": [
+        "Chahinez Bouguerche"
+      ],
+      "PCR_primers": [
+        "fwd_name: JB3, fwd_seq: ttttttgggcatcctgaggtttat, rev_name: COI R-Trema, rev_seq: caacaaatcatgatgcaaaagg"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR141858.1",
+    "type": "gene",
+    "location_biopython": "[<0:>779](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 779,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR141858.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>779](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 779,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "3"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WIW78659.1"
+      ],
+      "translation": [
+        "ISHICIQLSNNDSLFGYHGLVFAIFAIVCLGSVVWAHHMFMVGLDVKTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRLDEVIIWWIIGFIVLFTIGGVTGIVLSASVLDMILHDTWFVVAHFHYVLSLGSYSTVVMSFIWWWPIITGYSLNTILLQGHYCSSMLGFNLCFFPMHYLGLCGLPRRVCCYDPAFYGLNSISNVGGILSVLSGFFFIFILWESAASGNKIISSWGSSSNILNVVILPTPYHSIYISSPS"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR141859.1",
+    "type": "source",
+    "location_biopython": "[0:754](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 754,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Derogenes ruber"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "107"
+      ],
+      "host": [
+        "Trigloporus lastoviza"
+      ],
+      "specimen_voucher": [
+        "107_COI"
+      ],
+      "db_xref": [
+        "taxon:3016994"
+      ],
+      "geo_loc_name": [
+        "Algeria"
+      ],
+      "collection_date": [
+        "2019"
+      ],
+      "collected_by": [
+        "Kamelia Gharbi"
+      ],
+      "identified_by": [
+        "Chahinez Bouguerche"
+      ],
+      "PCR_primers": [
+        "fwd_name: JB3, fwd_seq: ttttttgggcatcctgaggtttat, rev_name: COI R-Trema, rev_seq: caacaaatcatgatgcaaaagg"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR141859.1",
+    "type": "gene",
+    "location_biopython": "[<0:>754](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 754,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR141859.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>754](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 754,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "3"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WIW78660.1"
+      ],
+      "translation": [
+        "HICIQLSNNDSLFGYHGLVFAIFAIVCLGSVVWAHHMFMVGLDVKTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRLDEVIIWWIIGFIVLFTIGGVTGIVLSASVLDMILHDTWFVVAHFHYVLSLGSYSTVVMSFIWWWPIITGYSLNTILLQGHYCSSMLGFNLCFFPMHYLGLCGLPRRVCCYDPAFYGLNSISNVGGILSVLSGFFFIFILWESAASGNKIIASWGSSSNILNVVILPTPYHS"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR245386.1",
+    "type": "source",
+    "location_biopython": "[0:752](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 752,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Derogenes ruber"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "GKB1 (SMNH-218785)"
+      ],
+      "host": [
+        "Trigloporus lastoviza"
+      ],
+      "specimen_voucher": [
+        "SMNH-218785"
+      ],
+      "db_xref": [
+        "taxon:3016994"
+      ],
+      "geo_loc_name": [
+        "Algeria"
+      ],
+      "collection_date": [
+        "26-Oct-2021"
+      ],
+      "collected_by": [
+        "Kamilia Gharbi"
+      ],
+      "identified_by": [
+        "Chahinez Bouguerche"
+      ],
+      "PCR_primers": [
+        "fwd_name: JB3, fwd_seq: ttttttgggcatcctgaggtttat, rev_name: COI R-Trema, rev_seq: caacaaatcatgatgcaaaagg"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR245386.1",
+    "type": "gene",
+    "location_biopython": "[<0:>752](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 752,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR245386.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>752](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 752,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "3"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WKA69993.1"
+      ],
+      "translation": [
+        "HICIQLSNNDSLFGYHGLVFAIFAIVCLGSVVWAHHMFMVGLDVKTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRLDEVIIWWIIGFIVLFTIGGVTGIVLSASVLDMILHDTWFVVAHFHYVLSLGSYSTVVMSFIWWWPIITGYSLNTILLQGHYCSSMLGFNLCFFPMHYLGLCGLPRRVCCYDPAFYGLNSISNVGGILSVLSGFFFIFILWESAASGNKIIASWGSSSNILNVVILPTPYHS"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR245546.1",
+    "type": "source",
+    "location_biopython": "[0:780](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 780,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Derogenes ruber"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "GKB2 (SMNH-218786)"
+      ],
+      "host": [
+        "Trigloporus lastoviza"
+      ],
+      "specimen_voucher": [
+        "SMNH-218786"
+      ],
+      "db_xref": [
+        "taxon:3016994"
+      ],
+      "geo_loc_name": [
+        "Algeria"
+      ],
+      "collection_date": [
+        "26-Oct-2021"
+      ],
+      "collected_by": [
+        "Kamilia Gharbi"
+      ],
+      "identified_by": [
+        "Chahinez Bouguerche"
+      ],
+      "PCR_primers": [
+        "fwd_name: JB3, fwd_seq: ttttttgggcatcctgaggtttat, rev_name: COI R-Trema, rev_seq: caacaaatcatgatgcaaaagg"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR245546.1",
+    "type": "gene",
+    "location_biopython": "[<0:>780](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 780,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR245546.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>780](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 780,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "3"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WKB06525.1"
+      ],
+      "translation": [
+        "ISHICIQLSNNDSLFGYHGLVFAIFAIVCLGSVVWAHHMFMVGLDVKTAVFFSSVTMVIGVPTGIKVFSWLYMLGTSRCRLDEVIIWWIIGFIVLFTIGGVTGIVLSASVLDMILHDTWFVVAHFHYVLSLGSYSTVVMSFIWWWPIITGYSLNTILLQGHYCSSMLGFNLCFFPMHYLGLCGLPRRVCCYDPAFYGLNSISNVGGILSVLSGFFFIFILWESAASGNKIISSWGSSSNILNVVILPTPYHSIYISSPS"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804297.1",
+    "type": "source",
+    "location_biopython": "[0:577](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 577,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Gatl44_3_H17_MB"
+      ],
+      "host": [
+        "Glaucus atlanticus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804297.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>577](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 577,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804298.1",
+    "type": "source",
+    "location_biopython": "[0:651](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 651,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Pphy19_1_H13_MB"
+      ],
+      "host": [
+        "Physalia physalis"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804298.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>651](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 651,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804299.1",
+    "type": "source",
+    "location_biopython": "[0:582](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 582,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Pphy33_1_H4_MB"
+      ],
+      "host": [
+        "Physalia physalis"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804299.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>582](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 582,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804300.1",
+    "type": "source",
+    "location_biopython": "[0:651](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 651,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Chip20018_x_lng-ecs_1_H159_x"
+      ],
+      "host": [
+        "Coryphaena hippurus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804300.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>651](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 651,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804301.1",
+    "type": "source",
+    "location_biopython": "[0:577](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 577,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Gatl50_1_whl_MB"
+      ],
+      "host": [
+        "Glaucus atlanticus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804301.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>577](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 577,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804303.1",
+    "type": "source",
+    "location_biopython": "[0:651](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 651,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Jjan15_3_H68_MB"
+      ],
+      "host": [
+        "Janthina janthina"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804303.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>651](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 651,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804304.1",
+    "type": "source",
+    "location_biopython": "[0:677](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 677,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Vvel39_1_MB"
+      ],
+      "host": [
+        "Velella velella"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804304.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>677](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 677,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804307.1",
+    "type": "source",
+    "location_biopython": "[0:584](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 584,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Pphy28_2_H10_MB"
+      ],
+      "host": [
+        "Physalia physalis"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804307.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>584](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 584,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804311.1",
+    "type": "source",
+    "location_biopython": "[0:656](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 656,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Gatl66_3_H48_MB"
+      ],
+      "host": [
+        "Glaucus atlanticus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804311.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>656](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 656,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804312.1",
+    "type": "source",
+    "location_biopython": "[0:651](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 651,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Ppor32_2_whl_MB"
+      ],
+      "host": [
+        "Porpita porpita"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804312.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>651](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 651,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804314.1",
+    "type": "source",
+    "location_biopython": "[0:664](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 664,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Pphy65_3_hemi_MB"
+      ],
+      "host": [
+        "Physalia physalis"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804314.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>664](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 664,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804315.1",
+    "type": "source",
+    "location_biopython": "[0:659](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 659,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Gatl44_2_whl_MB"
+      ],
+      "host": [
+        "Glaucus atlanticus"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804315.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>659](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 659,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804317.1",
+    "type": "source",
+    "location_biopython": "[0:650](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 650,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Hemiuridae sp. A RY-2023"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Ppor32_1_whl_MB"
+      ],
+      "host": [
+        "Porpita porpita"
+      ],
+      "db_xref": [
+        "taxon:3095062"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804317.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>650](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 650,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804319.1",
+    "type": "source",
+    "location_biopython": "[0:650](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 650,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Hemiuridae sp. A RY-2023"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Jjan1_2_whl_MB"
+      ],
+      "host": [
+        "Janthina janthina"
+      ],
+      "db_xref": [
+        "taxon:3095062"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804319.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>650](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 650,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804325.1",
+    "type": "source",
+    "location_biopython": "[0:521](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 521,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Sclerodistomidae sp. A RY-2023"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Pporpita48_1_sclerodistomid_whole"
+      ],
+      "host": [
+        "Porpita porpita"
+      ],
+      "db_xref": [
+        "taxon:3095066"
+      ],
+      "geo_loc_name": [
+        "Australia: North Stradbroke Island, Queensland"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR804325.1",
+    "type": "misc_RNA",
+    "location_biopython": "[<0:>521](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 521,
+    "strand": 1,
+    "qualifiers": {
+      "note": [
+        "contains 5.8S ribosomal RNA, internal transcribed spacer 2, and large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814155.1",
+    "type": "source",
+    "location_biopython": "[0:948](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 948,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "H15"
+      ],
+      "host": [
+        "Glaucus atlanticus"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "geo_loc_name": [
+        "Australia: QLD, North Stradbroke Island"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814155.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>948](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 948,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814156.1",
+    "type": "source",
+    "location_biopython": "[0:952](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 952,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Tetrochetus coryphaenae"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "H9"
+      ],
+      "host": [
+        "Physalia physalis"
+      ],
+      "db_xref": [
+        "taxon:3095058"
+      ],
+      "geo_loc_name": [
+        "Australia: QLD, North Stradbroke Island"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814156.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>952](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 952,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814162.1",
+    "type": "source",
+    "location_biopython": "[0:1113](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1113,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "H4"
+      ],
+      "host": [
+        "Physalia physalis"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: QLD, North Stradbroke Island"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814162.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1113](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1113,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814163.1",
+    "type": "source",
+    "location_biopython": "[0:1099](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1099,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Dinurus tornatus"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Ve39_1_mayw"
+      ],
+      "host": [
+        "Velella velella"
+      ],
+      "db_xref": [
+        "taxon:3095054"
+      ],
+      "geo_loc_name": [
+        "Australia: QLD, North Stradbroke Island"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814163.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1099](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1099,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814164.1",
+    "type": "source",
+    "location_biopython": "[0:1113](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1113,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Hemiuridae sp. A CL-2023"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Po32_sw_1"
+      ],
+      "host": [
+        "Porpita porpita"
+      ],
+      "db_xref": [
+        "taxon:3095162"
+      ],
+      "geo_loc_name": [
+        "Australia: QLD, North Stradbroke Island"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814164.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1113](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1113,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814165.1",
+    "type": "source",
+    "location_biopython": "[0:1194](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1194,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Hemiuridae sp. A CL-2023"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Po48_3_hem"
+      ],
+      "host": [
+        "Porpita porpita"
+      ],
+      "db_xref": [
+        "taxon:3095162"
+      ],
+      "geo_loc_name": [
+        "Australia: QLD, North Stradbroke Island"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814165.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1194](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1194,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814166.1",
+    "type": "source",
+    "location_biopython": "[0:1194](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1194,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Sclerodistomidae sp. A CL-2023"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Po48_1_scle"
+      ],
+      "host": [
+        "Porpita porpita"
+      ],
+      "db_xref": [
+        "taxon:3095163"
+      ],
+      "geo_loc_name": [
+        "Australia: QLD, North Stradbroke Island"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814166.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1194](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1194,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814167.1",
+    "type": "source",
+    "location_biopython": "[0:1203](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1203,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Sclerodistomidae sp. A CL-2023"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Ve59_2_scle"
+      ],
+      "host": [
+        "Velella velella"
+      ],
+      "db_xref": [
+        "taxon:3095163"
+      ],
+      "geo_loc_name": [
+        "Australia: QLD, North Stradbroke Island"
+      ]
+    }
+  },
+  {
+    "accession_version": "OR814167.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1203](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1203,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239552.1",
+    "type": "source",
+    "location_biopython": "[0:1336](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1336,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC20670D"
+      ],
+      "host": [
+        "Scomber australasicus"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "geo_loc_name": [
+        "Australia: Off North Stradbroke Island, Queensland"
+      ],
+      "collection_date": [
+        "2021"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239552.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1336](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1336,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239553.1",
+    "type": "source",
+    "location_biopython": "[0:1336](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1336,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC18716F"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "geo_loc_name": [
+        "Japan: Minabe, Wakayama Prefecture"
+      ],
+      "collection_date": [
+        "2017"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239553.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1336](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1336,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239555.1",
+    "type": "source",
+    "location_biopython": "[0:1334](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1334,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Opechona cf. olssoni"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC20670G"
+      ],
+      "host": [
+        "Scomber australasicus"
+      ],
+      "db_xref": [
+        "taxon:3118157"
+      ],
+      "geo_loc_name": [
+        "Australia: Off North Stradbroke Island, Queensland"
+      ],
+      "collection_date": [
+        "2021"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239555.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1334](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1334,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239556.1",
+    "type": "source",
+    "location_biopython": "[0:1334](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1334,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Opechona kahawai"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "DCH18A"
+      ],
+      "host": [
+        "Arripis trutta"
+      ],
+      "db_xref": [
+        "taxon:681655"
+      ],
+      "geo_loc_name": [
+        "Australia: Off Stanley, Tasmania"
+      ],
+      "collection_date": [
+        "2020"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239556.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1334](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1334,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239557.1",
+    "type": "source",
+    "location_biopython": "[0:1334](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1334,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC18716CC"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "geo_loc_name": [
+        "Japan: Minabe, Wakayama Prefecture"
+      ],
+      "collection_date": [
+        "2017"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239557.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1334](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1334,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239558.1",
+    "type": "source",
+    "location_biopython": "[0:1334](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1334,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC18716C"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "geo_loc_name": [
+        "Japan: Minabe, Wakayama Prefecture"
+      ],
+      "collection_date": [
+        "2017"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239558.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1334](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1334,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239559.1",
+    "type": "source",
+    "location_biopython": "[0:1334](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1334,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC18716E"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "geo_loc_name": [
+        "Japan: Minabe, Wakayama Prefecture"
+      ],
+      "collection_date": [
+        "2017"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP239559.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1334](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1334,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP249923.1",
+    "type": "source",
+    "location_biopython": "[0:1003](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1003,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prosogonotrema bilabiatum"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "Rio de Janeiro"
+      ],
+      "host": [
+        "Chaetodipterus faber"
+      ],
+      "db_xref": [
+        "taxon:73091"
+      ],
+      "geo_loc_name": [
+        "Brazil"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP249923.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1003](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1003,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270097.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC20670A"
+      ],
+      "host": [
+        "Scomber australasicus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "geo_loc_name": [
+        "Australia: Off North Stradbroke Island, Queensland"
+      ],
+      "collection_date": [
+        "2021"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270097.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270097.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61404.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270100.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC-BW171020-1.2"
+      ],
+      "host": [
+        "Aldersladia magnificus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "geo_loc_name": [
+        "Australia: Off southeast Queensland"
+      ],
+      "collection_date": [
+        "2020"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270100.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270100.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61407.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270101.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC-SW250920-5.1"
+      ],
+      "host": [
+        "Chrysaora pentastoma"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "geo_loc_name": [
+        "Australia: Off southeast Queensland"
+      ],
+      "collection_date": [
+        "2020"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270101.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270101.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61408.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270102.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC-SW271120-2.1"
+      ],
+      "host": [
+        "Aldersladia magnificus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "geo_loc_name": [
+        "Australia: Off southeast Queensland"
+      ],
+      "collection_date": [
+        "2020"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270102.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270102.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61409.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270103.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC20670C"
+      ],
+      "host": [
+        "Scomber australasicus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "geo_loc_name": [
+        "Australia: Off North Stradbroke Island, Queensland"
+      ],
+      "collection_date": [
+        "2021"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270103.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270103.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61410.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270104.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC-B15-2AB"
+      ],
+      "host": [
+        "Geryonia proboscidalis"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "geo_loc_name": [
+        "Australia: Off southeast Queensland"
+      ],
+      "collection_date": [
+        "2020"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270104.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270104.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61411.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270105.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC-INV-B16-3A"
+      ],
+      "host": [
+        "Aequorea sp."
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "geo_loc_name": [
+        "Australia: Off southeast Queensland"
+      ],
+      "collection_date": [
+        "2020"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270105.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270105.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61412.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270106.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC18716F"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "geo_loc_name": [
+        "Japan: Minabe, Wakayama Prefecture"
+      ],
+      "collection_date": [
+        "2017"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270106.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270106.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61413.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270107.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC18716B"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "geo_loc_name": [
+        "Japan: Minabe, Wakayama Prefecture"
+      ],
+      "collection_date": [
+        "2017"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270107.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270107.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61414.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270108.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC18716H"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "geo_loc_name": [
+        "Japan: Minabe, Wakayama Prefecture"
+      ],
+      "collection_date": [
+        "2017"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270108.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270108.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61415.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270109.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC18716EE"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "geo_loc_name": [
+        "Japan: Minabe, Wakayama Prefecture"
+      ],
+      "collection_date": [
+        "2017"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270109.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270109.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61416.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270110.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum orientale"
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC18716A"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:2065100"
+      ],
+      "geo_loc_name": [
+        "Japan: Minabe, Wakayama Prefecture"
+      ],
+      "collection_date": [
+        "2017"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270110.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270110.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61417.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKVISRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270111.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC-INV2021-B9-1.15A"
+      ],
+      "host": [
+        "Hormiphora sp."
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "geo_loc_name": [
+        "Australia: Off southeast Queensland"
+      ],
+      "collection_date": [
+        "2020"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270111.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270111.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61418.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKIVGRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270112.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC-BW161020-1.18"
+      ],
+      "host": [
+        "Aldersladia magnificus"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "geo_loc_name": [
+        "Australia: Off southeast Queensland"
+      ],
+      "collection_date": [
+        "2020"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270112.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270112.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61419.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPFLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRNKIVGRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270113.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC-INV_B26-1-N1"
+      ],
+      "host": [
+        "Aldersladia magnificus"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "geo_loc_name": [
+        "Australia: Off southeast Queensland"
+      ],
+      "collection_date": [
+        "2020"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270113.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270113.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61420.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKIVGRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270114.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC-SW111120-5.2"
+      ],
+      "host": [
+        "Aldersladia magnificus"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "geo_loc_name": [
+        "Australia: Off southeast Queensland"
+      ],
+      "collection_date": [
+        "2020"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270114.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270114.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61421.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKIVGRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270115.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC20670D"
+      ],
+      "host": [
+        "Scomber australasicus"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "geo_loc_name": [
+        "Australia: Off North Stradbroke Island, Queensland"
+      ],
+      "collection_date": [
+        "2021"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270115.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270115.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61422.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKIVGRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270116.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC-BW161020-1.9"
+      ],
+      "host": [
+        "Aldersladia magnificus"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "geo_loc_name": [
+        "Australia: Off southeast Queensland"
+      ],
+      "collection_date": [
+        "2020"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270116.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270116.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61423.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISLIGGAGVGWTFYPPLSGGDYSGWGTDFLLFSLHMAGVSSVFGSLNFICTIVGAMRSKIVGRCSIIVWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270119.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC18716CC"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "geo_loc_name": [
+        "Japan: Minabe, Wakayama Prefecture"
+      ],
+      "collection_date": [
+        "2017"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270119.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270119.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61426.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISMIGGAGVGWTFYPPLSGGDYAGWGTDFLLFSLHLAGVSSVFGSLNFICTIVGTMRDKTVKRCSIIIWAYLFTSILLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270120.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC18716HH"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "geo_loc_name": [
+        "Japan: Minabe, Wakayama Prefecture"
+      ],
+      "collection_date": [
+        "2017"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270120.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270120.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61427.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISMIGGAGVGWTFYPPLSGGDYAGWGTDFLLFSLHLAGVSSVFGSLNFICTIVGTMRDKTVKRCSIIIWAYLFTSVLLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270121.1",
+    "type": "source",
+    "location_biopython": "[0:474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Prodistomum sp."
+      ],
+      "organelle": [
+        "mitochondrion"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "THC18716AA"
+      ],
+      "host": [
+        "Scomber japonicus"
+      ],
+      "db_xref": [
+        "taxon:3118159"
+      ],
+      "geo_loc_name": [
+        "Japan: Minabe, Wakayama Prefecture"
+      ],
+      "collection_date": [
+        "2017"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270121.1",
+    "type": "gene",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP270121.1",
+    "type": "CDS",
+    "location_biopython": "[<0:>474](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 474,
+    "strand": 1,
+    "qualifiers": {
+      "gene": [
+        "COX1"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "9"
+      ],
+      "product": [
+        "cytochrome c oxidase subunit I"
+      ],
+      "protein_id": [
+        "WVN61428.1"
+      ],
+      "translation": [
+        "VLIGGFGNYLLPLLLGLPDLNLPRLNALSAWLMLPSSVCLCISMIGGAGVGWTFYPPLSGGDYAGWGTDFLLFSLHLAGVSSVFGSLNFICTIVGTMRDKTVKRCSIIIWAYLFTSVLLILSLPVLAAAITMLLFDRNFSASFFDPLGGGDPVLFQHM"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP768943.1",
+    "type": "source",
+    "location_biopython": "[0:1335](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1335,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Opechona sp."
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "O-RB09"
+      ],
+      "host": [
+        "Rastrelliger brachysoma"
+      ],
+      "db_xref": [
+        "taxon:3145024"
+      ],
+      "geo_loc_name": [
+        "Thailand: Chon buri"
+      ]
+    }
+  },
+  {
+    "accession_version": "PP768943.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1335](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1335,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "PV359504.1",
+    "type": "source",
+    "location_biopython": "[0:1111](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1111,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Thometrema patagonicum"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "SG29B1"
+      ],
+      "host": [
+        "Steindachneridion scriptum"
+      ],
+      "db_xref": [
+        "taxon:3320541"
+      ],
+      "geo_loc_name": [
+        "Brazil: Paranapanema River, Salto Grande, Sao Paulo"
+      ],
+      "collection_date": [
+        "12-Oct-2022"
+      ]
+    }
+  },
+  {
+    "accession_version": "PV359504.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1111](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1111,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "PV359505.1",
+    "type": "source",
+    "location_biopython": "[0:1115](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1115,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Thometrema patagonicum"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "SG29B2"
+      ],
+      "host": [
+        "Steindachneridion scriptum"
+      ],
+      "db_xref": [
+        "taxon:3320541"
+      ],
+      "geo_loc_name": [
+        "Brazil: Paranapanema River, Salto Grande, Sao Paulo"
+      ],
+      "collection_date": [
+        "12-Oct-2022"
+      ]
+    }
+  },
+  {
+    "accession_version": "PV359505.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1115](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1115,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  },
+  {
+    "accession_version": "PV818719.1",
+    "type": "source",
+    "location_biopython": "[0:1284](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1284,
+    "strand": 1,
+    "qualifiers": {
+      "organism": [
+        "Opechona sp."
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "isolate": [
+        "19.27_SAF366_1"
+      ],
+      "host": [
+        "Pachymetopon blochii"
+      ],
+      "db_xref": [
+        "taxon:3145024"
+      ],
+      "geo_loc_name": [
+        "South Africa: Cape Town Harbour"
+      ],
+      "collection_date": [
+        "Apr-2018"
+      ],
+      "note": [
+        "PCR_primers=fwd_name: LSU5, rev_name: 1500R"
+      ]
+    }
+  },
+  {
+    "accession_version": "PV818719.1",
+    "type": "rRNA",
+    "location_biopython": "[<0:>1284](+)",
+    "start_zero_based": 0,
+    "end_exclusive": 1284,
+    "strand": 1,
+    "qualifiers": {
+      "product": [
+        "large subunit ribosomal RNA"
+      ]
+    }
+  }
+]
