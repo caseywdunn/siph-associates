@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-09T21:55:05.265494+00:00",
+  "command": "python3 scripts/summarize_mdb_revision.py",
+  "python": "3.11.13",
+  "source_base_git_revision": "653ab0be33f408f0847773a5580714f3a54fad0e",
+  "script_sha256": "b1f55237e2a7f036bc71c147fedab8081d767017cccde586eac91bdc7bb3d803",
+  "inputs_sha256": {
+    "figures/collection_context/library_context.tsv": "d8a3ef8ec4a175593a2ad034eb84097a931d7aa17cb9fc0f34921a3ce6761dbc",
+    "figures/cohort/bacterial_detections.tsv": "8629c51f2a10c4250bcb2e012eee254d8962398f015aaf3d0b13580056498d14",
+    "data/results/mycoplasmatales_gene_content/summary/genome_stats.tsv": "87c8a246b3e8123ceedfd33646a82dfeb819e2e2157de446ea0362bc197dd189",
+    "data/results/mycoplasmatales_gene_content/summary/focal_functions.tsv": "cde2963f022410c2e182e9637be4c88d68706a5e3711f20eeb6888e131f41b00",
+    "data/results/mycoplasmatales_gene_content/summary/module_completeness_strict.tsv": "4642f0f461ffff6a9460e6613e86ee4863e4cd47487cb831ab015d5bb5d9c013",
+    "data/results/mycoplasmatales_gene_content/summary/module_completeness.tsv": "2680ca13de65387ef17e26a8ea8ee0dfd9f8c372820986e888d212bd32fa565a",
+    "data/results/phase6_analysis/v2/primary/phage_host_links.tsv": "9cb17570905d32ab430449a7f25c175952ab9b29b0e5991c3d4213c9ae7c87d0"
+  },
+  "outputs_sha256": {
+    "figures/mdb_revision/amino_acid_modules.tsv": "9dac0e0b6af0669b2444634e473f8f873b93e07aeb4169e15ce37453e68a42b6",
+    "figures/mdb_revision/cooccurrence.tsv": "7a86c13627a0bf938e9b5ea2c522a88b9591fa0b167081324b381b86a4cd0697",
+    "figures/mdb_revision/cooccurrence_results.tex": "5173f86201d2ac21d55b1393356ae3558d9de95c6349460c4cdec1ea7ff0d6dd",
+    "figures/mdb_revision/cooccurrence_strata.tsv": "20d456ec27648bfcecd0094fa58239873807f3f056fcf4cef159fb4ad3ee31d3",
+    "figures/mdb_revision/cooccurrence_table.tex": "fbdc8fa75903903e4b27833553d1d074f7e9a5280c39ca60ecbd90ed52e62068",
+    "figures/mdb_revision/defense_chitin_genes.tsv": "619676b6131aa7d935290df67d728f42114a91cb891a675bbd1b97a5a0ab814b",
+    "figures/mdb_revision/genome_quality.tsv": "c069c632eb61b95995b6a19a37a1387b557d99203826c6cfcdddc6481a06e559",
+    "figures/mdb_revision/nutrition_defense_table.tex": "6c03428424c0c571393e0f378ec73c9a8a8bd5b7541312b04db6fcf4c88feac1",
+    "figures/mdb_revision/phage_summary.tex": "94f2871d2785fe3822e1655c31ef72949439af125f94c9ea1178d85a21ed975b",
+    "figures/mdb_revision/specimens.tsv": "601f2d13cab714ea7993a31b54fbe7bb132f85668c39274d55931f0ba1f54ee5"
+  },
+  "scope": "Descriptive summaries of saved results; no new significance tests, reannotation or sequence processing."
+}

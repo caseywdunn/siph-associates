@@ -1,0 +1,155 @@
+genome	lineage	near_complete	tier	module	name	completeness	status	missing_ko
+MAGSP0005	siphonophore clade A	True	strict	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0005	siphonophore clade A	True	strict	M00017	Methionine biosynthesis, aspartate => homoserine => methionine		not_returned	
+MAGSP0005	siphonophore clade A	True	strict	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0005	siphonophore clade A	True	strict	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0005	siphonophore clade A	True	strict	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0005	siphonophore clade A	True	strict	M00026	Histidine biosynthesis, PRPP => histidine	5.56	reported	K00013,K00765,K00817,K01496,K01523,K01693,K01814,K02500,K02501
+MAGSP0005	siphonophore clade A	True	strict	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0005	siphonophore clade A	True	strict	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0005	siphonophore clade A	True	strict	M00609	Cysteine biosynthesis, methionine => cysteine	33.33	reported	K07173,K17216,K17217,K17462
+MAGSP0005	siphonophore clade A	True	strict	M00844	Arginine biosynthesis, ornithine => arginine	33.33	reported	K01755,K01940
+MAGSP0005	siphonophore clade A	True	strict	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	
+MAGSP0007	siphonophore clade B	True	strict	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0007	siphonophore clade B	True	strict	M00017	Methionine biosynthesis, aspartate => homoserine => methionine	14.29	reported	K00003,K00133,K00548,K00651,K00928,K01739
+MAGSP0007	siphonophore clade B	True	strict	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0007	siphonophore clade B	True	strict	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0007	siphonophore clade B	True	strict	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0007	siphonophore clade B	True	strict	M00026	Histidine biosynthesis, PRPP => histidine	5.56	reported	K00013,K00765,K00817,K01496,K01523,K01693,K01814,K02500,K02501
+MAGSP0007	siphonophore clade B	True	strict	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0007	siphonophore clade B	True	strict	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0007	siphonophore clade B	True	strict	M00609	Cysteine biosynthesis, methionine => cysteine	33.33	reported	K07173,K17216,K17217,K17462
+MAGSP0007	siphonophore clade B	True	strict	M00844	Arginine biosynthesis, ornithine => arginine		not_returned	
+MAGSP0007	siphonophore clade B	True	strict	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	
+MAGSP0010	siphonophore clade B	True	strict	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0010	siphonophore clade B	True	strict	M00017	Methionine biosynthesis, aspartate => homoserine => methionine	14.29	reported	K00003,K00133,K00548,K00651,K00928,K01739
+MAGSP0010	siphonophore clade B	True	strict	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0010	siphonophore clade B	True	strict	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0010	siphonophore clade B	True	strict	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0010	siphonophore clade B	True	strict	M00026	Histidine biosynthesis, PRPP => histidine	5.56	reported	K00013,K00765,K00817,K01496,K01523,K01693,K01814,K02500,K02501
+MAGSP0010	siphonophore clade B	True	strict	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0010	siphonophore clade B	True	strict	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0010	siphonophore clade B	True	strict	M00609	Cysteine biosynthesis, methionine => cysteine	33.33	reported	K07173,K17216,K17217,K17462
+MAGSP0010	siphonophore clade B	True	strict	M00844	Arginine biosynthesis, ornithine => arginine		not_returned	
+MAGSP0010	siphonophore clade B	True	strict	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	strict	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	strict	M00017	Methionine biosynthesis, aspartate => homoserine => methionine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	strict	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	strict	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	strict	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	strict	M00026	Histidine biosynthesis, PRPP => histidine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	strict	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	strict	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	strict	M00609	Cysteine biosynthesis, methionine => cysteine	33.33	reported	K07173,K17216,K17217,K17462
+MAGSP0011	Nanomia/Resomia DT-68	True	strict	M00844	Arginine biosynthesis, ornithine => arginine	33.33	reported	K01755,K01940
+MAGSP0011	Nanomia/Resomia DT-68	True	strict	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	strict	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	strict	M00017	Methionine biosynthesis, aspartate => homoserine => methionine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	strict	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	strict	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	strict	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	strict	M00026	Histidine biosynthesis, PRPP => histidine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	strict	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	strict	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	strict	M00609	Cysteine biosynthesis, methionine => cysteine	16.67	reported	K01243,K07173,K17216,K17217,K17462
+MAGSP0012	Nanomia Mycoplasma_K	True	strict	M00844	Arginine biosynthesis, ornithine => arginine	33.33	reported	K01755,K01940
+MAGSP0012	Nanomia Mycoplasma_K	True	strict	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	
+MAGSP0029	siphonophore clade B	False	strict	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0029	siphonophore clade B	False	strict	M00017	Methionine biosynthesis, aspartate => homoserine => methionine		not_returned	
+MAGSP0029	siphonophore clade B	False	strict	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0029	siphonophore clade B	False	strict	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0029	siphonophore clade B	False	strict	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0029	siphonophore clade B	False	strict	M00026	Histidine biosynthesis, PRPP => histidine	5.56	reported	K00013,K00765,K00817,K01496,K01523,K01693,K01814,K02500,K02501
+MAGSP0029	siphonophore clade B	False	strict	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0029	siphonophore clade B	False	strict	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0029	siphonophore clade B	False	strict	M00609	Cysteine biosynthesis, methionine => cysteine	16.67	reported	K01243,K07173,K17216,K17217,K17462
+MAGSP0029	siphonophore clade B	False	strict	M00844	Arginine biosynthesis, ornithine => arginine		not_returned	
+MAGSP0029	siphonophore clade B	False	strict	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	
+MAGSP0031	siphonophore clade B	False	strict	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0031	siphonophore clade B	False	strict	M00017	Methionine biosynthesis, aspartate => homoserine => methionine	14.29	reported	K00003,K00133,K00548,K00651,K00928,K01739
+MAGSP0031	siphonophore clade B	False	strict	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0031	siphonophore clade B	False	strict	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0031	siphonophore clade B	False	strict	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0031	siphonophore clade B	False	strict	M00026	Histidine biosynthesis, PRPP => histidine	5.56	reported	K00013,K00765,K00817,K01496,K01523,K01693,K01814,K02500,K02501
+MAGSP0031	siphonophore clade B	False	strict	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0031	siphonophore clade B	False	strict	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0031	siphonophore clade B	False	strict	M00609	Cysteine biosynthesis, methionine => cysteine	33.33	reported	K07173,K17216,K17217,K17462
+MAGSP0031	siphonophore clade B	False	strict	M00844	Arginine biosynthesis, ornithine => arginine		not_returned	
+MAGSP0031	siphonophore clade B	False	strict	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	
+MAGSP0005	siphonophore clade A	True	relaxed	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0005	siphonophore clade A	True	relaxed	M00017	Methionine biosynthesis, aspartate => homoserine => methionine	14.29	reported	K00003,K00133,K00548,K00651,K00928,K01739
+MAGSP0005	siphonophore clade A	True	relaxed	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0005	siphonophore clade A	True	relaxed	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0005	siphonophore clade A	True	relaxed	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0005	siphonophore clade A	True	relaxed	M00026	Histidine biosynthesis, PRPP => histidine	11.11	reported	K00013,K00765,K01496,K01523,K01693,K01814,K02500,K02501
+MAGSP0005	siphonophore clade A	True	relaxed	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0005	siphonophore clade A	True	relaxed	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0005	siphonophore clade A	True	relaxed	M00609	Cysteine biosynthesis, methionine => cysteine	33.33	reported	K07173,K17216,K17217,K17462
+MAGSP0005	siphonophore clade A	True	relaxed	M00844	Arginine biosynthesis, ornithine => arginine	33.33	reported	K01755,K01940
+MAGSP0005	siphonophore clade A	True	relaxed	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	
+MAGSP0007	siphonophore clade B	True	relaxed	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0007	siphonophore clade B	True	relaxed	M00017	Methionine biosynthesis, aspartate => homoserine => methionine	14.29	reported	K00003,K00133,K00548,K00651,K00928,K01739
+MAGSP0007	siphonophore clade B	True	relaxed	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0007	siphonophore clade B	True	relaxed	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0007	siphonophore clade B	True	relaxed	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0007	siphonophore clade B	True	relaxed	M00026	Histidine biosynthesis, PRPP => histidine	5.56	reported	K00013,K00765,K00817,K01496,K01523,K01693,K01814,K02500,K02501
+MAGSP0007	siphonophore clade B	True	relaxed	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0007	siphonophore clade B	True	relaxed	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0007	siphonophore clade B	True	relaxed	M00609	Cysteine biosynthesis, methionine => cysteine	33.33	reported	K07173,K17216,K17217,K17462
+MAGSP0007	siphonophore clade B	True	relaxed	M00844	Arginine biosynthesis, ornithine => arginine		not_returned	
+MAGSP0007	siphonophore clade B	True	relaxed	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	
+MAGSP0010	siphonophore clade B	True	relaxed	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0010	siphonophore clade B	True	relaxed	M00017	Methionine biosynthesis, aspartate => homoserine => methionine	14.29	reported	K00003,K00133,K00548,K00651,K00928,K01739
+MAGSP0010	siphonophore clade B	True	relaxed	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0010	siphonophore clade B	True	relaxed	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0010	siphonophore clade B	True	relaxed	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0010	siphonophore clade B	True	relaxed	M00026	Histidine biosynthesis, PRPP => histidine	5.56	reported	K00013,K00765,K00817,K01496,K01523,K01693,K01814,K02500,K02501
+MAGSP0010	siphonophore clade B	True	relaxed	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0010	siphonophore clade B	True	relaxed	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0010	siphonophore clade B	True	relaxed	M00609	Cysteine biosynthesis, methionine => cysteine	33.33	reported	K07173,K17216,K17217,K17462
+MAGSP0010	siphonophore clade B	True	relaxed	M00844	Arginine biosynthesis, ornithine => arginine		not_returned	
+MAGSP0010	siphonophore clade B	True	relaxed	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	relaxed	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	relaxed	M00017	Methionine biosynthesis, aspartate => homoserine => methionine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	relaxed	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	relaxed	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	relaxed	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	relaxed	M00026	Histidine biosynthesis, PRPP => histidine	8.33	reported	K00013,K00765,K01089,K01496,K01523,K01814,K02500,K02501
+MAGSP0011	Nanomia/Resomia DT-68	True	relaxed	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	relaxed	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0011	Nanomia/Resomia DT-68	True	relaxed	M00609	Cysteine biosynthesis, methionine => cysteine	33.33	reported	K07173,K17216,K17217,K17462
+MAGSP0011	Nanomia/Resomia DT-68	True	relaxed	M00844	Arginine biosynthesis, ornithine => arginine	33.33	reported	K01755,K01940
+MAGSP0011	Nanomia/Resomia DT-68	True	relaxed	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	relaxed	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	relaxed	M00017	Methionine biosynthesis, aspartate => homoserine => methionine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	relaxed	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	relaxed	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	relaxed	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	relaxed	M00026	Histidine biosynthesis, PRPP => histidine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	relaxed	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	relaxed	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0012	Nanomia Mycoplasma_K	True	relaxed	M00609	Cysteine biosynthesis, methionine => cysteine	16.67	reported	K01243,K07173,K17216,K17217,K17462
+MAGSP0012	Nanomia Mycoplasma_K	True	relaxed	M00844	Arginine biosynthesis, ornithine => arginine	33.33	reported	K01755,K01940
+MAGSP0012	Nanomia Mycoplasma_K	True	relaxed	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	
+MAGSP0029	siphonophore clade B	False	relaxed	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0029	siphonophore clade B	False	relaxed	M00017	Methionine biosynthesis, aspartate => homoserine => methionine	14.29	reported	K00003,K00133,K00548,K00651,K00928,K01739
+MAGSP0029	siphonophore clade B	False	relaxed	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0029	siphonophore clade B	False	relaxed	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0029	siphonophore clade B	False	relaxed	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0029	siphonophore clade B	False	relaxed	M00026	Histidine biosynthesis, PRPP => histidine	5.56	reported	K00013,K00765,K00817,K01496,K01523,K01693,K01814,K02500,K02501
+MAGSP0029	siphonophore clade B	False	relaxed	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0029	siphonophore clade B	False	relaxed	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0029	siphonophore clade B	False	relaxed	M00609	Cysteine biosynthesis, methionine => cysteine	16.67	reported	K01243,K07173,K17216,K17217,K17462
+MAGSP0029	siphonophore clade B	False	relaxed	M00844	Arginine biosynthesis, ornithine => arginine		not_returned	
+MAGSP0029	siphonophore clade B	False	relaxed	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	
+MAGSP0031	siphonophore clade B	False	relaxed	M00016	Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0031	siphonophore clade B	False	relaxed	M00017	Methionine biosynthesis, aspartate => homoserine => methionine	14.29	reported	K00003,K00133,K00548,K00651,K00928,K01739
+MAGSP0031	siphonophore clade B	False	relaxed	M00020	Serine biosynthesis, glycerate-3P => serine		not_returned	
+MAGSP0031	siphonophore clade B	False	relaxed	M00021	Cysteine biosynthesis, serine => cysteine		not_returned	
+MAGSP0031	siphonophore clade B	False	relaxed	M00023	Tryptophan biosynthesis, chorismate => tryptophan		not_returned	
+MAGSP0031	siphonophore clade B	False	relaxed	M00026	Histidine biosynthesis, PRPP => histidine	5.56	reported	K00013,K00765,K00817,K01496,K01523,K01693,K01814,K02500,K02501
+MAGSP0031	siphonophore clade B	False	relaxed	M00525	Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine		not_returned	
+MAGSP0031	siphonophore clade B	False	relaxed	M00570	Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine		not_returned	
+MAGSP0031	siphonophore clade B	False	relaxed	M00609	Cysteine biosynthesis, methionine => cysteine	33.33	reported	K07173,K17216,K17217,K17462
+MAGSP0031	siphonophore clade B	False	relaxed	M00844	Arginine biosynthesis, ornithine => arginine		not_returned	
+MAGSP0031	siphonophore clade B	False	relaxed	M00845	Arginine biosynthesis, glutamate => acetylcitrulline => arginine		not_returned	

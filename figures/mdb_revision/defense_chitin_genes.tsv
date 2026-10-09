@@ -1,0 +1,25 @@
+function	ko	definition	assignment	MAGSP0005	MAGSP0007	MAGSP0010	MAGSP0011	MAGSP0012	MAGSP0029	MAGSP0031
+chitinase / chitobiase	K01183	chitinase [EC:3.2.1.14]	relaxed	0	0	0	0	0	0	0
+chitinase / chitobiase	K01183	chitinase [EC:3.2.1.14]	strict	0	0	0	0	0	0	0
+chitinase / chitobiase	K12373	hexosaminidase [EC:3.2.1.52]	relaxed	0	0	0	0	0	0	0
+chitinase / chitobiase	K12373	hexosaminidase [EC:3.2.1.52]	strict	0	0	0	0	0	0	0
+chitinase / chitobiase	K01207	beta-N-acetylhexosaminidase [EC:3.2.1.52]	relaxed	0	0	0	0	0	0	0
+chitinase / chitobiase	K01207	beta-N-acetylhexosaminidase [EC:3.2.1.52]	strict	0	0	0	0	0	0	0
+CRISPR-Cas (cas1, cas2, cas9, csn2)	K15342	CRISP-associated protein Cas1	relaxed	0	0	0	0	0	0	0
+CRISPR-Cas (cas1, cas2, cas9, csn2)	K15342	CRISP-associated protein Cas1	strict	0	0	0	0	0	0	0
+CRISPR-Cas (cas1, cas2, cas9, csn2)	K09951	CRISPR-associated protein Cas2	relaxed	0	0	0	0	0	0	0
+CRISPR-Cas (cas1, cas2, cas9, csn2)	K09951	CRISPR-associated protein Cas2	strict	0	0	0	0	0	0	0
+CRISPR-Cas (cas1, cas2, cas9, csn2)	K09952	CRISPR-associated endonuclease Csn1 [EC:3.1.-.-]	relaxed	0	0	0	0	0	0	0
+CRISPR-Cas (cas1, cas2, cas9, csn2)	K09952	CRISPR-associated endonuclease Csn1 [EC:3.1.-.-]	strict	0	0	0	0	0	0	0
+CRISPR-Cas (cas1, cas2, cas9, csn2)	K19137	CRISPR-associated protein Csn2	relaxed	0	0	0	0	0	0	0
+CRISPR-Cas (cas1, cas2, cas9, csn2)	K19137	CRISPR-associated protein Csn2	strict	0	0	0	0	0	0	0
+type I/II/III restriction-modification (hsdR, hsdM, hsdS, mod, res)	K01153	type I restriction enzyme, R subunit [EC:3.1.21.3]	relaxed	0	0	1	0	0	0	0
+type I/II/III restriction-modification (hsdR, hsdM, hsdS, mod, res)	K01153	type I restriction enzyme, R subunit [EC:3.1.21.3]	strict	0	0	1	0	0	0	0
+type I/II/III restriction-modification (hsdR, hsdM, hsdS, mod, res)	K03427	type I restriction enzyme M protein [EC:2.1.1.72]	relaxed	0	0	1	0	0	0	0
+type I/II/III restriction-modification (hsdR, hsdM, hsdS, mod, res)	K03427	type I restriction enzyme M protein [EC:2.1.1.72]	strict	0	0	1	0	0	0	0
+type I/II/III restriction-modification (hsdR, hsdM, hsdS, mod, res)	K01154	type I restriction enzyme, S subunit [EC:3.1.21.3]	relaxed	0	0	1	0	0	0	0
+type I/II/III restriction-modification (hsdR, hsdM, hsdS, mod, res)	K01154	type I restriction enzyme, S subunit [EC:3.1.21.3]	strict	0	0	0	0	0	0	0
+type I/II/III restriction-modification (hsdR, hsdM, hsdS, mod, res)	K07316	adenine-specific DNA-methyltransferase [EC:2.1.1.72]	relaxed	0	1	0	0	0	0	0
+type I/II/III restriction-modification (hsdR, hsdM, hsdS, mod, res)	K07316	adenine-specific DNA-methyltransferase [EC:2.1.1.72]	strict	0	1	0	0	0	0	0
+type I/II/III restriction-modification (hsdR, hsdM, hsdS, mod, res)	K01156	type III restriction enzyme [EC:3.1.21.5]	relaxed	0	1	0	0	0	0	0
+type I/II/III restriction-modification (hsdR, hsdM, hsdS, mod, res)	K01156	type III restriction enzyme [EC:3.1.21.5]	strict	0	1	0	0	0	0	0

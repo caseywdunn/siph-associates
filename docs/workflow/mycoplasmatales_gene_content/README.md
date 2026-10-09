@@ -43,6 +43,8 @@ a parameter. These file reads are not separate graph edges. The KOfam URLs are m
 retained download checksums identify the analyzed release. The graph shares genome
 selection with the phylogeny but does not require the final tree to be rebuilt.
 Publication plots consume the completed summary tables.
+The [MDB manuscript-review summary](../../mdb_revision.md) also reuses these
+tables for selected nutritional and defense annotations without reannotation.
 
 ## Preview, launch and rule graph
 

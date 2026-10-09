@@ -1,0 +1,1121 @@
+scope	stratum	group	partner	n	group_positive	group_negative	both	group_only	partner_only	neither	partner_fraction_group_positive	partner_fraction_group_negative	median_read_pairs_group_positive	median_read_pairs_group_negative
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	Vibrio	4	4	0	1	3	0	0	0.25		131707016.5	
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	Pseudoalteromonas	4	4	0	0	4	0	0	0.0		131707016.5	
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	Alteromonas	4	4	0	0	4	0	0	0.0		131707016.5	
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	Photobacterium	4	4	0	0	4	0	0	0.0		131707016.5	
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	any_candidate_genus	4	4	0	1	3	0	0	0.25		131707016.5	
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	clade A	Vibrio	4	3	1	1	2	0	1	0.3333333333333333	0.0	128680152	134733881
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	clade A	Pseudoalteromonas	4	3	1	0	3	0	1	0.0	0.0	128680152	134733881
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	clade A	Alteromonas	4	3	1	0	3	0	1	0.0	0.0	128680152	134733881
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	clade A	Photobacterium	4	3	1	0	3	0	1	0.0	0.0	128680152	134733881
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	clade A	any_candidate_genus	4	3	1	1	2	0	1	0.3333333333333333	0.0	128680152	134733881
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	clade B	Vibrio	4	3	1	1	2	0	1	0.3333333333333333	0.0	134733881	128153778
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	clade B	Pseudoalteromonas	4	3	1	0	3	0	1	0.0	0.0	134733881	128153778
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	clade B	Alteromonas	4	3	1	0	3	0	1	0.0	0.0	134733881	128153778
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	clade B	Photobacterium	4	3	1	0	3	0	1	0.0	0.0	134733881	128153778
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	clade B	any_candidate_genus	4	3	1	1	2	0	1	0.3333333333333333	0.0	134733881	128153778
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	DT-68	Vibrio	4	0	4	0	0	1	3		0.25		131707016.5
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	DT-68	Pseudoalteromonas	4	0	4	0	0	0	4		0.0		131707016.5
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	DT-68	Alteromonas	4	0	4	0	0	0	4		0.0		131707016.5
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	DT-68	Photobacterium	4	0	4	0	0	0	4		0.0		131707016.5
+Physalia_single_flowcell	Physalia megalista | E Indian | unknown | LH00309:19:2273H5LT3	DT-68	any_candidate_genus	4	0	4	0	0	1	3		0.25		131707016.5
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Vibrio	1	0	1	0	0	1	0		1.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	0	1		0.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	1	0		1.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	clade A	Vibrio	1	0	1	0	0	1	0		1.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	clade A	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	clade A	any_candidate_genus	1	0	1	0	0	1	0		1.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	clade B	Vibrio	1	0	1	0	0	1	0		1.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	clade B	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	clade B	any_candidate_genus	1	0	1	0	0	1	0		1.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	DT-68	Vibrio	1	0	1	0	0	1	0		1.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	DT-68	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		167270365
+Physalia_single_flowcell	Physalia megalista | SE Pacific | tentacle | LH00309:40:22CMVKLT3	DT-68	any_candidate_genus	1	0	1	0	0	1	0		1.0		167270365
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	Vibrio	5	5	0	0	5	0	0	0.0		126229657	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	Pseudoalteromonas	5	5	0	0	5	0	0	0.0		126229657	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	Alteromonas	5	5	0	0	5	0	0	0.0		126229657	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	Photobacterium	5	5	0	0	5	0	0	0.0		126229657	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	any_candidate_genus	5	5	0	0	5	0	0	0.0		126229657	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	Vibrio	5	4	1	0	4	0	1	0.0	0.0	125846276.5	126229657
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	Pseudoalteromonas	5	4	1	0	4	0	1	0.0	0.0	125846276.5	126229657
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	Alteromonas	5	4	1	0	4	0	1	0.0	0.0	125846276.5	126229657
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	Photobacterium	5	4	1	0	4	0	1	0.0	0.0	125846276.5	126229657
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	any_candidate_genus	5	4	1	0	4	0	1	0.0	0.0	125846276.5	126229657
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	Vibrio	5	5	0	0	5	0	0	0.0		126229657	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	Pseudoalteromonas	5	5	0	0	5	0	0	0.0		126229657	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	Alteromonas	5	5	0	0	5	0	0	0.0		126229657	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	Photobacterium	5	5	0	0	5	0	0	0.0		126229657	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	any_candidate_genus	5	5	0	0	5	0	0	0.0		126229657	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	Vibrio	5	0	5	0	0	0	5		0.0		126229657
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	Pseudoalteromonas	5	0	5	0	0	0	5		0.0		126229657
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	Alteromonas	5	0	5	0	0	0	5		0.0		126229657
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	Photobacterium	5	0	5	0	0	0	5		0.0		126229657
+Physalia_single_flowcell	Physalia megalista | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	any_candidate_genus	5	0	5	0	0	0	5		0.0		126229657
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	Vibrio	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	Alteromonas	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	Photobacterium	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	any_candidate_genus	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	clade A	Vibrio	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	clade A	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	clade A	Alteromonas	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	clade A	Photobacterium	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	clade A	any_candidate_genus	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	clade B	Vibrio	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	clade B	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	clade B	Alteromonas	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	clade B	Photobacterium	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	clade B	any_candidate_genus	1	1	0	0	1	0	0	0.0		190158822	
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		190158822
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		190158822
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		190158822
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		190158822
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:19:2273H5LT3	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		190158822
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	Metamycoplasmataceae	Vibrio	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	clade A	Vibrio	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	clade B	Vibrio	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	clade B	any_candidate_genus	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:308:22GYWYLT4	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		98239843
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	Metamycoplasmataceae	Vibrio	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	Metamycoplasmataceae	Pseudoalteromonas	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	Metamycoplasmataceae	Alteromonas	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	Metamycoplasmataceae	Photobacterium	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	Metamycoplasmataceae	any_candidate_genus	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	clade A	Vibrio	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	clade A	Pseudoalteromonas	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	clade A	Alteromonas	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	clade A	Photobacterium	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	clade A	any_candidate_genus	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	clade B	Vibrio	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	clade B	Pseudoalteromonas	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	clade B	Alteromonas	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	clade B	Photobacterium	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	clade B	any_candidate_genus	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	DT-68	Vibrio	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	DT-68	Pseudoalteromonas	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	DT-68	Alteromonas	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	DT-68	Photobacterium	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | SW Pacific | unknown | LH00309:311:22GMLFLT4	DT-68	any_candidate_genus	7	0	7	0	0	0	7		0.0		113985626
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Vibrio	1	1	0	0	1	0	0	0.0		107734869	
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		107734869	
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Alteromonas	1	1	0	0	1	0	0	0.0		107734869	
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Photobacterium	1	1	0	0	1	0	0	0.0		107734869	
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	any_candidate_genus	1	1	0	0	1	0	0	0.0		107734869	
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	clade A	Vibrio	1	0	1	0	0	0	1		0.0		107734869
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		107734869
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		107734869
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		107734869
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		107734869
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	clade B	Vibrio	1	1	0	0	1	0	0	0.0		107734869	
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	clade B	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		107734869	
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	clade B	Alteromonas	1	1	0	0	1	0	0	0.0		107734869	
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	clade B	Photobacterium	1	1	0	0	1	0	0	0.0		107734869	
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	clade B	any_candidate_genus	1	1	0	0	1	0	0	0.0		107734869	
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		107734869
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		107734869
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		107734869
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		107734869
+Physalia_single_flowcell	Physalia megalista | W Indian | tentacle | A00124:710:HMFVWDSX7	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		107734869
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Vibrio	2	2	0	0	2	0	0	0.0		62091549.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Pseudoalteromonas	2	2	0	0	2	0	0	0.0		62091549.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Alteromonas	2	2	0	0	2	0	0	0.0		62091549.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Photobacterium	2	2	0	0	2	0	0	0.0		62091549.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	any_candidate_genus	2	2	0	0	2	0	0	0.0		62091549.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	clade A	Vibrio	2	1	1	0	1	0	1	0.0	0.0	60435790	63747309
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	clade A	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	60435790	63747309
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	clade A	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	60435790	63747309
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	clade A	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	60435790	63747309
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	clade A	any_candidate_genus	2	1	1	0	1	0	1	0.0	0.0	60435790	63747309
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	clade B	Vibrio	2	1	1	0	1	0	1	0.0	0.0	63747309	60435790
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	clade B	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	63747309	60435790
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	clade B	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	63747309	60435790
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	clade B	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	63747309	60435790
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	clade B	any_candidate_genus	2	1	1	0	1	0	1	0.0	0.0	63747309	60435790
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	DT-68	Vibrio	2	0	2	0	0	0	2		0.0		62091549.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	DT-68	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		62091549.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	DT-68	Alteromonas	2	0	2	0	0	0	2		0.0		62091549.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	DT-68	Photobacterium	2	0	2	0	0	0	2		0.0		62091549.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:624:HWVLCDSX5	DT-68	any_candidate_genus	2	0	2	0	0	0	2		0.0		62091549.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	Metamycoplasmataceae	Vibrio	1	1	0	0	1	0	0	0.0		52936896	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	Metamycoplasmataceae	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		52936896	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	Metamycoplasmataceae	Alteromonas	1	1	0	0	1	0	0	0.0		52936896	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	Metamycoplasmataceae	Photobacterium	1	1	0	0	1	0	0	0.0		52936896	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	Metamycoplasmataceae	any_candidate_genus	1	1	0	0	1	0	0	0.0		52936896	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	clade A	Vibrio	1	1	0	0	1	0	0	0.0		52936896	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	clade A	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		52936896	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	clade A	Alteromonas	1	1	0	0	1	0	0	0.0		52936896	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	clade A	Photobacterium	1	1	0	0	1	0	0	0.0		52936896	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	clade A	any_candidate_genus	1	1	0	0	1	0	0	0.0		52936896	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	clade B	Vibrio	1	0	1	0	0	0	1		0.0		52936896
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		52936896
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		52936896
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		52936896
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	clade B	any_candidate_genus	1	0	1	0	0	0	1		0.0		52936896
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		52936896
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		52936896
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		52936896
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		52936896
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:638:H5N7GDSX7	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		52936896
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Vibrio	2	2	0	0	2	0	0	0.0		122719213.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Pseudoalteromonas	2	2	0	0	2	0	0	0.0		122719213.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Alteromonas	2	2	0	0	2	0	0	0.0		122719213.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Photobacterium	2	2	0	0	2	0	0	0.0		122719213.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	any_candidate_genus	2	2	0	0	2	0	0	0.0		122719213.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Vibrio	2	2	0	0	2	0	0	0.0		122719213.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Pseudoalteromonas	2	2	0	0	2	0	0	0.0		122719213.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Alteromonas	2	2	0	0	2	0	0	0.0		122719213.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Photobacterium	2	2	0	0	2	0	0	0.0		122719213.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	any_candidate_genus	2	2	0	0	2	0	0	0.0		122719213.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Vibrio	2	0	2	0	0	0	2		0.0		122719213.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		122719213.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Alteromonas	2	0	2	0	0	0	2		0.0		122719213.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Photobacterium	2	0	2	0	0	0	2		0.0		122719213.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	any_candidate_genus	2	0	2	0	0	0	2		0.0		122719213.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Vibrio	2	0	2	0	0	0	2		0.0		122719213.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		122719213.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Alteromonas	2	0	2	0	0	0	2		0.0		122719213.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Photobacterium	2	0	2	0	0	0	2		0.0		122719213.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	any_candidate_genus	2	0	2	0	0	0	2		0.0		122719213.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	Vibrio	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	Pseudoalteromonas	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	Alteromonas	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	Photobacterium	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	any_candidate_genus	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	Vibrio	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	Pseudoalteromonas	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	Alteromonas	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	Photobacterium	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	any_candidate_genus	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	Vibrio	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	Pseudoalteromonas	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	Alteromonas	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	Photobacterium	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	any_candidate_genus	2	2	0	0	2	0	0	0.0		140989070.5	
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	Vibrio	2	0	2	0	0	0	2		0.0		140989070.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		140989070.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	Alteromonas	2	0	2	0	0	0	2		0.0		140989070.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	Photobacterium	2	0	2	0	0	0	2		0.0		140989070.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	any_candidate_genus	2	0	2	0	0	0	2		0.0		140989070.5
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	Vibrio	2	1	1	0	1	0	1	0.0	0.0	112181688	109283910
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	112181688	109283910
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	112181688	109283910
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	112181688	109283910
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	any_candidate_genus	2	1	1	0	1	0	1	0.0	0.0	112181688	109283910
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	Vibrio	2	0	2	0	0	0	2		0.0		110732799.0
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		110732799.0
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	Alteromonas	2	0	2	0	0	0	2		0.0		110732799.0
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	Photobacterium	2	0	2	0	0	0	2		0.0		110732799.0
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	any_candidate_genus	2	0	2	0	0	0	2		0.0		110732799.0
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	Vibrio	2	1	1	0	1	0	1	0.0	0.0	112181688	109283910
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	112181688	109283910
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	112181688	109283910
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	112181688	109283910
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	any_candidate_genus	2	1	1	0	1	0	1	0.0	0.0	112181688	109283910
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	Vibrio	2	0	2	0	0	0	2		0.0		110732799.0
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		110732799.0
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	Alteromonas	2	0	2	0	0	0	2		0.0		110732799.0
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	Photobacterium	2	0	2	0	0	0	2		0.0		110732799.0
+Physalia_single_flowcell	Physalia minuta | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	any_candidate_genus	2	0	2	0	0	0	2		0.0		110732799.0
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Vibrio	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	clade A	Vibrio	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	clade B	Vibrio	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	clade B	any_candidate_genus	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia minuta | SW Pacific | zooid | A00124:672:HGYTLDSX7	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		128832589
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Vibrio	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Alteromonas	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Photobacterium	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	any_candidate_genus	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	clade A	Vibrio	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	clade A	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	clade A	Alteromonas	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	clade A	Photobacterium	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	clade A	any_candidate_genus	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	clade B	Vibrio	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	clade B	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	clade B	Alteromonas	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	clade B	Photobacterium	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	clade B	any_candidate_genus	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	DT-68	Vibrio	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	DT-68	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	DT-68	Alteromonas	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	DT-68	Photobacterium	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A00124:624:HWVLCDSX5	DT-68	any_candidate_genus	2	0	2	0	0	0	2		0.0		55400549.5
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Vibrio	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Pseudoalteromonas	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Alteromonas	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Photobacterium	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	any_candidate_genus	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	clade A	Vibrio	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	clade A	Pseudoalteromonas	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	clade A	Alteromonas	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	clade A	Photobacterium	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	clade A	any_candidate_genus	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	clade B	Vibrio	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	clade B	Pseudoalteromonas	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	clade B	Alteromonas	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	clade B	Photobacterium	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	clade B	any_candidate_genus	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	DT-68	Vibrio	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	DT-68	Pseudoalteromonas	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	DT-68	Alteromonas	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	DT-68	Photobacterium	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | Gulf of Mexico | tentacle | A01519:271:HWW7GDSX5	DT-68	any_candidate_genus	5	0	5	0	0	0	5		0.0		81902636
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Vibrio	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	clade A	Vibrio	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	clade A	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	clade A	Photobacterium	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	clade A	any_candidate_genus	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	clade B	Vibrio	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	clade B	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	clade B	Photobacterium	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	clade B	any_candidate_genus	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	DT-68	Vibrio	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	DT-68	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	DT-68	Photobacterium	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | A00124:710:HMFVWDSX7	DT-68	any_candidate_genus	1	0	1	0	0	1	0		1.0		153474343
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	Vibrio	4	0	4	0	0	0	4		0.0		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	Pseudoalteromonas	4	0	4	0	0	0	4		0.0		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	Alteromonas	4	0	4	0	0	1	3		0.25		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	Photobacterium	4	0	4	0	0	0	4		0.0		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	any_candidate_genus	4	0	4	0	0	1	3		0.25		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	clade A	Vibrio	4	0	4	0	0	0	4		0.0		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	clade A	Pseudoalteromonas	4	0	4	0	0	0	4		0.0		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	clade A	Alteromonas	4	0	4	0	0	1	3		0.25		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	clade A	Photobacterium	4	0	4	0	0	0	4		0.0		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	clade A	any_candidate_genus	4	0	4	0	0	1	3		0.25		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	clade B	Vibrio	4	0	4	0	0	0	4		0.0		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	clade B	Pseudoalteromonas	4	0	4	0	0	0	4		0.0		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	clade B	Alteromonas	4	0	4	0	0	1	3		0.25		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	clade B	Photobacterium	4	0	4	0	0	0	4		0.0		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	clade B	any_candidate_genus	4	0	4	0	0	1	3		0.25		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	DT-68	Vibrio	4	0	4	0	0	0	4		0.0		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	DT-68	Pseudoalteromonas	4	0	4	0	0	0	4		0.0		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	DT-68	Alteromonas	4	0	4	0	0	1	3		0.25		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	DT-68	Photobacterium	4	0	4	0	0	0	4		0.0		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:19:2273H5LT3	DT-68	any_candidate_genus	4	0	4	0	0	1	3		0.25		175550826.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	Metamycoplasmataceae	Vibrio	3	1	2	0	1	0	2	0.0	0.0	166481102	166812832.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	Metamycoplasmataceae	Pseudoalteromonas	3	1	2	0	1	0	2	0.0	0.0	166481102	166812832.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	Metamycoplasmataceae	Alteromonas	3	1	2	0	1	0	2	0.0	0.0	166481102	166812832.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	Metamycoplasmataceae	Photobacterium	3	1	2	0	1	0	2	0.0	0.0	166481102	166812832.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	Metamycoplasmataceae	any_candidate_genus	3	1	2	0	1	0	2	0.0	0.0	166481102	166812832.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	clade A	Vibrio	3	0	3	0	0	0	3		0.0		166481102
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	clade A	Pseudoalteromonas	3	0	3	0	0	0	3		0.0		166481102
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	clade A	Alteromonas	3	0	3	0	0	0	3		0.0		166481102
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	clade A	Photobacterium	3	0	3	0	0	0	3		0.0		166481102
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	clade A	any_candidate_genus	3	0	3	0	0	0	3		0.0		166481102
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	clade B	Vibrio	3	1	2	0	1	0	2	0.0	0.0	166481102	166812832.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	clade B	Pseudoalteromonas	3	1	2	0	1	0	2	0.0	0.0	166481102	166812832.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	clade B	Alteromonas	3	1	2	0	1	0	2	0.0	0.0	166481102	166812832.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	clade B	Photobacterium	3	1	2	0	1	0	2	0.0	0.0	166481102	166812832.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	clade B	any_candidate_genus	3	1	2	0	1	0	2	0.0	0.0	166481102	166812832.0
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	DT-68	Vibrio	3	0	3	0	0	0	3		0.0		166481102
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	DT-68	Pseudoalteromonas	3	0	3	0	0	0	3		0.0		166481102
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	DT-68	Alteromonas	3	0	3	0	0	0	3		0.0		166481102
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	DT-68	Photobacterium	3	0	3	0	0	0	3		0.0		166481102
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:22:22CMVLLT3	DT-68	any_candidate_genus	3	0	3	0	0	0	3		0.0		166481102
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Vibrio	1	0	1	0	0	1	0		1.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	0	1		0.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	1	0		1.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	Vibrio	1	0	1	0	0	1	0		1.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	any_candidate_genus	1	0	1	0	0	1	0		1.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	Vibrio	1	0	1	0	0	1	0		1.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	any_candidate_genus	1	0	1	0	0	1	0		1.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	Vibrio	1	0	1	0	0	1	0		1.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		143590741
+Physalia_single_flowcell	Physalia physalis | NE Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	any_candidate_genus	1	0	1	0	0	1	0		1.0		143590741
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	Metamycoplasmataceae	Vibrio	4	1	3	0	1	0	3	0.0	0.0	344905418	278556070
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	Metamycoplasmataceae	Pseudoalteromonas	4	1	3	0	1	0	3	0.0	0.0	344905418	278556070
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	Metamycoplasmataceae	Alteromonas	4	1	3	0	1	0	3	0.0	0.0	344905418	278556070
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	Metamycoplasmataceae	Photobacterium	4	1	3	0	1	0	3	0.0	0.0	344905418	278556070
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	Metamycoplasmataceae	any_candidate_genus	4	1	3	0	1	0	3	0.0	0.0	344905418	278556070
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	clade A	Vibrio	4	0	4	0	0	0	4		0.0		299936343.5
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	clade A	Pseudoalteromonas	4	0	4	0	0	0	4		0.0		299936343.5
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	clade A	Alteromonas	4	0	4	0	0	0	4		0.0		299936343.5
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	clade A	Photobacterium	4	0	4	0	0	0	4		0.0		299936343.5
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	clade A	any_candidate_genus	4	0	4	0	0	0	4		0.0		299936343.5
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	clade B	Vibrio	4	1	3	0	1	0	3	0.0	0.0	344905418	278556070
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	clade B	Pseudoalteromonas	4	1	3	0	1	0	3	0.0	0.0	344905418	278556070
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	clade B	Alteromonas	4	1	3	0	1	0	3	0.0	0.0	344905418	278556070
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	clade B	Photobacterium	4	1	3	0	1	0	3	0.0	0.0	344905418	278556070
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	clade B	any_candidate_genus	4	1	3	0	1	0	3	0.0	0.0	344905418	278556070
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	DT-68	Vibrio	4	0	4	0	0	0	4		0.0		299936343.5
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	DT-68	Pseudoalteromonas	4	0	4	0	0	0	4		0.0		299936343.5
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	DT-68	Alteromonas	4	0	4	0	0	0	4		0.0		299936343.5
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	DT-68	Photobacterium	4	0	4	0	0	0	4		0.0		299936343.5
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:569:HCTNWDSX5	DT-68	any_candidate_genus	4	0	4	0	0	0	4		0.0		299936343.5
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Vibrio	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	clade A	Vibrio	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	clade A	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	clade A	Photobacterium	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	clade A	any_candidate_genus	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	clade B	Vibrio	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	clade B	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	clade B	Photobacterium	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	clade B	any_candidate_genus	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	DT-68	Vibrio	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	DT-68	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	DT-68	Photobacterium	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A00124:624:HWVLCDSX5	DT-68	any_candidate_genus	1	0	1	0	0	1	0		1.0		76049548
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Vibrio	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	clade A	Vibrio	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	clade B	Vibrio	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	clade B	any_candidate_genus	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | A01519:271:HWW7GDSX5	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		68760656
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	Vibrio	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	Pseudoalteromonas	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	Alteromonas	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	Photobacterium	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	any_candidate_genus	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	clade A	Vibrio	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	clade A	Pseudoalteromonas	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	clade A	Alteromonas	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	clade A	Photobacterium	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	clade A	any_candidate_genus	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	clade B	Vibrio	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	clade B	Pseudoalteromonas	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	clade B	Alteromonas	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	clade B	Photobacterium	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	clade B	any_candidate_genus	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	DT-68	Vibrio	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	DT-68	Pseudoalteromonas	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	DT-68	Alteromonas	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	DT-68	Photobacterium	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:109:22CJLFLT3	DT-68	any_candidate_genus	6	0	6	0	0	0	6		0.0		78691042.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	Vibrio	3	0	3	0	0	3	0		1.0		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	Pseudoalteromonas	3	0	3	0	0	1	2		0.3333333333333333		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	Alteromonas	3	0	3	0	0	1	2		0.3333333333333333		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	Photobacterium	3	0	3	0	0	2	1		0.6666666666666666		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	any_candidate_genus	3	0	3	0	0	3	0		1.0		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	clade A	Vibrio	3	0	3	0	0	3	0		1.0		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	clade A	Pseudoalteromonas	3	0	3	0	0	1	2		0.3333333333333333		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	clade A	Alteromonas	3	0	3	0	0	1	2		0.3333333333333333		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	clade A	Photobacterium	3	0	3	0	0	2	1		0.6666666666666666		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	clade A	any_candidate_genus	3	0	3	0	0	3	0		1.0		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	clade B	Vibrio	3	0	3	0	0	3	0		1.0		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	clade B	Pseudoalteromonas	3	0	3	0	0	1	2		0.3333333333333333		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	clade B	Alteromonas	3	0	3	0	0	1	2		0.3333333333333333		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	clade B	Photobacterium	3	0	3	0	0	2	1		0.6666666666666666		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	clade B	any_candidate_genus	3	0	3	0	0	3	0		1.0		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	DT-68	Vibrio	3	0	3	0	0	3	0		1.0		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	DT-68	Pseudoalteromonas	3	0	3	0	0	1	2		0.3333333333333333		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	DT-68	Alteromonas	3	0	3	0	0	1	2		0.3333333333333333		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	DT-68	Photobacterium	3	0	3	0	0	2	1		0.6666666666666666		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:19:2273H5LT3	DT-68	any_candidate_genus	3	0	3	0	0	3	0		1.0		131097055
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Vibrio	2	1	1	0	1	0	1	0.0	0.0	154663510	174801674
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	154663510	174801674
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	154663510	174801674
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	154663510	174801674
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	any_candidate_genus	2	1	1	0	1	0	1	0.0	0.0	154663510	174801674
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	Vibrio	2	0	2	0	0	0	2		0.0		164732592.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		164732592.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	Alteromonas	2	0	2	0	0	0	2		0.0		164732592.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	Photobacterium	2	0	2	0	0	0	2		0.0		164732592.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	any_candidate_genus	2	0	2	0	0	0	2		0.0		164732592.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	Vibrio	2	1	1	0	1	0	1	0.0	0.0	154663510	174801674
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	154663510	174801674
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	154663510	174801674
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	154663510	174801674
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	any_candidate_genus	2	1	1	0	1	0	1	0.0	0.0	154663510	174801674
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	Vibrio	2	0	2	0	0	0	2		0.0		164732592.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		164732592.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	Alteromonas	2	0	2	0	0	0	2		0.0		164732592.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	Photobacterium	2	0	2	0	0	0	2		0.0		164732592.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	any_candidate_genus	2	0	2	0	0	0	2		0.0		164732592.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	Metamycoplasmataceae	Vibrio	2	1	1	0	1	1	0	0.0	1.0	319874984	437442538
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	Metamycoplasmataceae	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	319874984	437442538
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	Metamycoplasmataceae	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	319874984	437442538
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	Metamycoplasmataceae	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	319874984	437442538
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	Metamycoplasmataceae	any_candidate_genus	2	1	1	0	1	1	0	0.0	1.0	319874984	437442538
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	clade A	Vibrio	2	0	2	0	0	1	1		0.5		378658761.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	clade A	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		378658761.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	clade A	Alteromonas	2	0	2	0	0	0	2		0.0		378658761.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	clade A	Photobacterium	2	0	2	0	0	0	2		0.0		378658761.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	clade A	any_candidate_genus	2	0	2	0	0	1	1		0.5		378658761.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	clade B	Vibrio	2	1	1	0	1	1	0	0.0	1.0	319874984	437442538
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	clade B	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	319874984	437442538
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	clade B	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	319874984	437442538
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	clade B	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	319874984	437442538
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	clade B	any_candidate_genus	2	1	1	0	1	1	0	0.0	1.0	319874984	437442538
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	DT-68	Vibrio	2	0	2	0	0	1	1		0.5		378658761.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	DT-68	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		378658761.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	DT-68	Alteromonas	2	0	2	0	0	0	2		0.0		378658761.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	DT-68	Photobacterium	2	0	2	0	0	0	2		0.0		378658761.0
+Physalia_single_flowcell	Physalia physalis | NW Atlantic | unknown | LH00309:212:22CMLKLT3	DT-68	any_candidate_genus	2	0	2	0	0	1	1		0.5		378658761.0
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	Metamycoplasmataceae	Vibrio	1	1	0	1	0	0	0	1.0		310823762	
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	Metamycoplasmataceae	Pseudoalteromonas	1	1	0	1	0	0	0	1.0		310823762	
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	Metamycoplasmataceae	Alteromonas	1	1	0	1	0	0	0	1.0		310823762	
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	Metamycoplasmataceae	Photobacterium	1	1	0	0	1	0	0	0.0		310823762	
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	Metamycoplasmataceae	any_candidate_genus	1	1	0	1	0	0	0	1.0		310823762	
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade A	Vibrio	1	1	0	1	0	0	0	1.0		310823762	
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade A	Pseudoalteromonas	1	1	0	1	0	0	0	1.0		310823762	
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade A	Alteromonas	1	1	0	1	0	0	0	1.0		310823762	
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade A	Photobacterium	1	1	0	0	1	0	0	0.0		310823762	
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade A	any_candidate_genus	1	1	0	1	0	0	0	1.0		310823762	
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade B	Vibrio	1	0	1	0	0	1	0		1.0		310823762
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade B	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		310823762
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade B	Alteromonas	1	0	1	0	0	1	0		1.0		310823762
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		310823762
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade B	any_candidate_genus	1	0	1	0	0	1	0		1.0		310823762
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	DT-68	Vibrio	1	0	1	0	0	1	0		1.0		310823762
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	DT-68	Pseudoalteromonas	1	0	1	0	0	1	0		1.0		310823762
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	DT-68	Alteromonas	1	0	1	0	0	1	0		1.0		310823762
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		310823762
+Physalia_single_flowcell	Physalia sp1 | Central Pacific | unknown | LH00309:325:22HLVMLT4	DT-68	any_candidate_genus	1	0	1	0	0	1	0		1.0		310823762
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Vibrio	1	0	1	0	0	1	0		1.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	1	0		1.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	1	0		1.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	clade A	Vibrio	1	0	1	0	0	1	0		1.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	clade A	Photobacterium	1	0	1	0	0	1	0		1.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	clade A	any_candidate_genus	1	0	1	0	0	1	0		1.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	clade B	Vibrio	1	0	1	0	0	1	0		1.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	clade B	Photobacterium	1	0	1	0	0	1	0		1.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	clade B	any_candidate_genus	1	0	1	0	0	1	0		1.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	DT-68	Vibrio	1	0	1	0	0	1	0		1.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	DT-68	Photobacterium	1	0	1	0	0	1	0		1.0		158402847
+Physalia_single_flowcell	Physalia sp1 | Gulf of California | tentacle | LH00309:40:22CMVKLT3	DT-68	any_candidate_genus	1	0	1	0	0	1	0		1.0		158402847
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Vibrio	1	1	0	0	1	0	0	0.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Alteromonas	1	1	0	0	1	0	0	0.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Photobacterium	1	1	0	1	0	0	0	1.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	any_candidate_genus	1	1	0	1	0	0	0	1.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade A	Vibrio	1	1	0	0	1	0	0	0.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade A	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade A	Alteromonas	1	1	0	0	1	0	0	0.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade A	Photobacterium	1	1	0	1	0	0	0	1.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade A	any_candidate_genus	1	1	0	1	0	0	0	1.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade B	Vibrio	1	1	0	0	1	0	0	0.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade B	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade B	Alteromonas	1	1	0	0	1	0	0	0.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade B	Photobacterium	1	1	0	1	0	0	0	1.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade B	any_candidate_genus	1	1	0	1	0	0	0	1.0		158283324	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		158283324
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		158283324
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		158283324
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	DT-68	Photobacterium	1	0	1	0	0	1	0		1.0		158283324
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | A00124:710:HMFVWDSX7	DT-68	any_candidate_genus	1	0	1	0	0	1	0		1.0		158283324
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	Vibrio	1	1	0	0	1	0	0	0.0		74462768	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		74462768	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	Alteromonas	1	1	0	0	1	0	0	0.0		74462768	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	Photobacterium	1	1	0	0	1	0	0	0.0		74462768	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	any_candidate_genus	1	1	0	0	1	0	0	0.0		74462768	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade A	Vibrio	1	0	1	0	0	0	1		0.0		74462768
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		74462768
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		74462768
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		74462768
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		74462768
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade B	Vibrio	1	1	0	0	1	0	0	0.0		74462768	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade B	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		74462768	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade B	Alteromonas	1	1	0	0	1	0	0	0.0		74462768	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade B	Photobacterium	1	1	0	0	1	0	0	0.0		74462768	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade B	any_candidate_genus	1	1	0	0	1	0	0	0.0		74462768	
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		74462768
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		74462768
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		74462768
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		74462768
+Physalia_single_flowcell	Physalia sp1 | NW Pacific | tentacle | LH00309:109:22CJLFLT3	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		74462768
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Vibrio	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Pseudoalteromonas	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Alteromonas	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	Photobacterium	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	Metamycoplasmataceae	any_candidate_genus	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	clade A	Vibrio	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	clade A	Pseudoalteromonas	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	clade A	Alteromonas	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	clade A	Photobacterium	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	clade A	any_candidate_genus	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	clade B	Vibrio	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	clade B	Pseudoalteromonas	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	clade B	Alteromonas	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	clade B	Photobacterium	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	clade B	any_candidate_genus	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	DT-68	Vibrio	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	DT-68	Pseudoalteromonas	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	DT-68	Alteromonas	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	DT-68	Photobacterium	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:624:HWVLCDSX5	DT-68	any_candidate_genus	3	0	3	0	0	0	3		0.0		68067007
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Vibrio	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Vibrio	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Vibrio	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	any_candidate_genus	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		121108532
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	Vibrio	1	1	0	0	1	0	0	0.0		126934990	
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		126934990	
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	Alteromonas	1	1	0	0	1	0	0	0.0		126934990	
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	Photobacterium	1	1	0	0	1	0	0	0.0		126934990	
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	any_candidate_genus	1	1	0	0	1	0	0	0.0		126934990	
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	Vibrio	1	0	1	0	0	0	1		0.0		126934990
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		126934990
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		126934990
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		126934990
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		126934990
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	Vibrio	1	1	0	0	1	0	0	0.0		126934990	
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		126934990	
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	Alteromonas	1	1	0	0	1	0	0	0.0		126934990	
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	Photobacterium	1	1	0	0	1	0	0	0.0		126934990	
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	any_candidate_genus	1	1	0	0	1	0	0	0.0		126934990	
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		126934990
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		126934990
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		126934990
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		126934990
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		126934990
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Vibrio	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Pseudoalteromonas	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Alteromonas	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Photobacterium	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	any_candidate_genus	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	clade A	Vibrio	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	clade A	Pseudoalteromonas	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	clade A	Alteromonas	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	clade A	Photobacterium	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	clade A	any_candidate_genus	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	clade B	Vibrio	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	clade B	Pseudoalteromonas	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	clade B	Alteromonas	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	clade B	Photobacterium	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	clade B	any_candidate_genus	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	DT-68	Vibrio	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	DT-68	Pseudoalteromonas	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	DT-68	Alteromonas	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	DT-68	Photobacterium	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | A01519:271:HWW7GDSX5	DT-68	any_candidate_genus	5	0	5	0	0	0	5		0.0		78222031
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	Vibrio	2	1	1	0	1	0	1	0.0	0.0	161420127	183416077
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	161420127	183416077
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	161420127	183416077
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	161420127	183416077
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	Metamycoplasmataceae	any_candidate_genus	2	1	1	0	1	0	1	0.0	0.0	161420127	183416077
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	clade A	Vibrio	2	0	2	0	0	0	2		0.0		172418102.0
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	clade A	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		172418102.0
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	clade A	Alteromonas	2	0	2	0	0	0	2		0.0		172418102.0
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	clade A	Photobacterium	2	0	2	0	0	0	2		0.0		172418102.0
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	clade A	any_candidate_genus	2	0	2	0	0	0	2		0.0		172418102.0
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	clade B	Vibrio	2	1	1	0	1	0	1	0.0	0.0	161420127	183416077
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	clade B	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	161420127	183416077
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	clade B	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	161420127	183416077
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	clade B	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	161420127	183416077
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	clade B	any_candidate_genus	2	1	1	0	1	0	1	0.0	0.0	161420127	183416077
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	DT-68	Vibrio	2	0	2	0	0	0	2		0.0		172418102.0
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	DT-68	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		172418102.0
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	DT-68	Alteromonas	2	0	2	0	0	0	2		0.0		172418102.0
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	DT-68	Photobacterium	2	0	2	0	0	0	2		0.0		172418102.0
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:19:2273H5LT3	DT-68	any_candidate_genus	2	0	2	0	0	0	2		0.0		172418102.0
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	Metamycoplasmataceae	Vibrio	2	0	2	0	0	2	0		1.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	Metamycoplasmataceae	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	Metamycoplasmataceae	Alteromonas	2	0	2	0	0	0	2		0.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	Metamycoplasmataceae	Photobacterium	2	0	2	0	0	0	2		0.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	Metamycoplasmataceae	any_candidate_genus	2	0	2	0	0	2	0		1.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	clade A	Vibrio	2	0	2	0	0	2	0		1.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	clade A	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	clade A	Alteromonas	2	0	2	0	0	0	2		0.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	clade A	Photobacterium	2	0	2	0	0	0	2		0.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	clade A	any_candidate_genus	2	0	2	0	0	2	0		1.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	clade B	Vibrio	2	0	2	0	0	2	0		1.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	clade B	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	clade B	Alteromonas	2	0	2	0	0	0	2		0.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	clade B	Photobacterium	2	0	2	0	0	0	2		0.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	clade B	any_candidate_genus	2	0	2	0	0	2	0		1.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	DT-68	Vibrio	2	0	2	0	0	2	0		1.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	DT-68	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	DT-68	Alteromonas	2	0	2	0	0	0	2		0.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	DT-68	Photobacterium	2	0	2	0	0	0	2		0.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | tentacle | LH00309:22:22CMVLLT3	DT-68	any_candidate_genus	2	0	2	0	0	2	0		1.0		155819873.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	Metamycoplasmataceae	Vibrio	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	clade A	Vibrio	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	clade B	Vibrio	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	clade B	any_candidate_genus	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:259:22CWK3LT4	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		111987621
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	Metamycoplasmataceae	Vibrio	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade A	Vibrio	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade B	Vibrio	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	clade B	any_candidate_genus	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | unknown | LH00309:325:22HLVMLT4	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		193780382
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Vibrio	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	clade A	Vibrio	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	clade B	Vibrio	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	clade B	any_candidate_genus	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | A00124:672:HGYTLDSX7	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		120298479
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	Metamycoplasmataceae	Vibrio	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	Metamycoplasmataceae	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	Metamycoplasmataceae	Alteromonas	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	Metamycoplasmataceae	Photobacterium	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	Metamycoplasmataceae	any_candidate_genus	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	clade A	Vibrio	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	clade A	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	clade A	Alteromonas	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	clade A	Photobacterium	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	clade A	any_candidate_genus	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	clade B	Vibrio	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	clade B	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	clade B	Alteromonas	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	clade B	Photobacterium	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	clade B	any_candidate_genus	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	DT-68	Vibrio	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	DT-68	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	DT-68	Alteromonas	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	DT-68	Photobacterium	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | Central Pacific | whole body | LH00309:19:2273H5LT3	DT-68	any_candidate_genus	2	0	2	0	0	0	2		0.0		113362199.5
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	Metamycoplasmataceae	Vibrio	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	clade A	Vibrio	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	clade B	Vibrio	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	clade B	any_candidate_genus	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | corm | A01519:212:HHKVKDSX5	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		670929213
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	Metamycoplasmataceae	Vibrio	2	1	1	1	0	0	1	1.0	0.0	248533295	252221313
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	Metamycoplasmataceae	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	248533295	252221313
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	Metamycoplasmataceae	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	248533295	252221313
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	Metamycoplasmataceae	Photobacterium	2	1	1	1	0	0	1	1.0	0.0	248533295	252221313
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	Metamycoplasmataceae	any_candidate_genus	2	1	1	1	0	0	1	1.0	0.0	248533295	252221313
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	clade A	Vibrio	2	0	2	0	0	1	1		0.5		250377304.0
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	clade A	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		250377304.0
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	clade A	Alteromonas	2	0	2	0	0	0	2		0.0		250377304.0
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	clade A	Photobacterium	2	0	2	0	0	1	1		0.5		250377304.0
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	clade A	any_candidate_genus	2	0	2	0	0	1	1		0.5		250377304.0
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	clade B	Vibrio	2	1	1	1	0	0	1	1.0	0.0	248533295	252221313
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	clade B	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	248533295	252221313
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	clade B	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	248533295	252221313
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	clade B	Photobacterium	2	1	1	1	0	0	1	1.0	0.0	248533295	252221313
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	clade B	any_candidate_genus	2	1	1	1	0	0	1	1.0	0.0	248533295	252221313
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	DT-68	Vibrio	2	0	2	0	0	1	1		0.5		250377304.0
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	DT-68	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		250377304.0
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	DT-68	Alteromonas	2	0	2	0	0	0	2		0.0		250377304.0
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	DT-68	Photobacterium	2	0	2	0	0	1	1		0.5		250377304.0
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:569:HCTNWDSX5	DT-68	any_candidate_genus	2	0	2	0	0	1	1		0.5		250377304.0
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Vibrio	2	2	0	1	1	0	0	0.5		114624520.5	
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Pseudoalteromonas	2	2	0	0	2	0	0	0.0		114624520.5	
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Alteromonas	2	2	0	0	2	0	0	0.0		114624520.5	
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Photobacterium	2	2	0	0	2	0	0	0.0		114624520.5	
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	any_candidate_genus	2	2	0	1	1	0	0	0.5		114624520.5	
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Vibrio	2	1	1	0	1	1	0	0.0	1.0	106712136	122536905
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	106712136	122536905
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	106712136	122536905
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	106712136	122536905
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	any_candidate_genus	2	1	1	0	1	1	0	0.0	1.0	106712136	122536905
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Vibrio	2	2	0	1	1	0	0	0.5		114624520.5	
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Pseudoalteromonas	2	2	0	0	2	0	0	0.0		114624520.5	
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Alteromonas	2	2	0	0	2	0	0	0.0		114624520.5	
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Photobacterium	2	2	0	0	2	0	0	0.0		114624520.5	
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	any_candidate_genus	2	2	0	1	1	0	0	0.5		114624520.5	
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Vibrio	2	0	2	0	0	1	1		0.5		114624520.5
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		114624520.5
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Alteromonas	2	0	2	0	0	0	2		0.0		114624520.5
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Photobacterium	2	0	2	0	0	0	2		0.0		114624520.5
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	any_candidate_genus	2	0	2	0	0	1	1		0.5		114624520.5
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	Vibrio	2	1	1	0	1	1	0	0.0	1.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	Metamycoplasmataceae	any_candidate_genus	2	1	1	0	1	1	0	0.0	1.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	Vibrio	2	1	1	0	1	1	0	0.0	1.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	clade A	any_candidate_genus	2	1	1	0	1	1	0	0.0	1.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	Vibrio	2	1	1	0	1	1	0	0.0	1.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	Pseudoalteromonas	2	1	1	0	1	0	1	0.0	0.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	Alteromonas	2	1	1	0	1	0	1	0.0	0.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	Photobacterium	2	1	1	0	1	0	1	0.0	0.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	clade B	any_candidate_genus	2	1	1	0	1	1	0	0.0	1.0	164638811	136012902
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	Vibrio	2	0	2	0	0	1	1		0.5		150325856.5
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	Pseudoalteromonas	2	0	2	0	0	0	2		0.0		150325856.5
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	Alteromonas	2	0	2	0	0	0	2		0.0		150325856.5
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	Photobacterium	2	0	2	0	0	0	2		0.0		150325856.5
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:673:HFG3JDSX7	DT-68	any_candidate_genus	2	0	2	0	0	1	1		0.5		150325856.5
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Vibrio	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade A	Vibrio	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade B	Vibrio	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	clade B	any_candidate_genus	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A00124:710:HMFVWDSX7	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		177771144
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	Metamycoplasmataceae	Vibrio	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	clade A	Vibrio	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	clade B	Vibrio	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	clade B	any_candidate_genus	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:212:HHKVKDSX5	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		286006759
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Vibrio	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Pseudoalteromonas	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Alteromonas	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	Photobacterium	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	Metamycoplasmataceae	any_candidate_genus	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	clade A	Vibrio	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	clade A	Pseudoalteromonas	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	clade A	Alteromonas	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	clade A	Photobacterium	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	clade A	any_candidate_genus	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	clade B	Vibrio	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	clade B	Pseudoalteromonas	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	clade B	Alteromonas	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	clade B	Photobacterium	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	clade B	any_candidate_genus	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	DT-68	Vibrio	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	DT-68	Pseudoalteromonas	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	DT-68	Alteromonas	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	DT-68	Photobacterium	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | A01519:271:HWW7GDSX5	DT-68	any_candidate_genus	3	0	3	0	0	0	3		0.0		71868159
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	Vibrio	5	2	3	0	2	0	3	0.0	0.0	55170304.0	52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	Pseudoalteromonas	5	2	3	0	2	0	3	0.0	0.0	55170304.0	52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	Alteromonas	5	2	3	0	2	0	3	0.0	0.0	55170304.0	52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	Photobacterium	5	2	3	0	2	1	2	0.0	0.3333333333333333	55170304.0	52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	Metamycoplasmataceae	any_candidate_genus	5	2	3	0	2	1	2	0.0	0.3333333333333333	55170304.0	52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade A	Vibrio	5	0	5	0	0	0	5		0.0		52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade A	Pseudoalteromonas	5	0	5	0	0	0	5		0.0		52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade A	Alteromonas	5	0	5	0	0	0	5		0.0		52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade A	Photobacterium	5	0	5	0	0	1	4		0.2		52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade A	any_candidate_genus	5	0	5	0	0	1	4		0.2		52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade B	Vibrio	5	2	3	0	2	0	3	0.0	0.0	55170304.0	52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade B	Pseudoalteromonas	5	2	3	0	2	0	3	0.0	0.0	55170304.0	52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade B	Alteromonas	5	2	3	0	2	0	3	0.0	0.0	55170304.0	52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade B	Photobacterium	5	2	3	0	2	1	2	0.0	0.3333333333333333	55170304.0	52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	clade B	any_candidate_genus	5	2	3	0	2	1	2	0.0	0.3333333333333333	55170304.0	52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	DT-68	Vibrio	5	0	5	0	0	0	5		0.0		52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	DT-68	Pseudoalteromonas	5	0	5	0	0	0	5		0.0		52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	DT-68	Alteromonas	5	0	5	0	0	0	5		0.0		52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	DT-68	Photobacterium	5	0	5	0	0	1	4		0.2		52835261
+Physalia_single_flowcell	Physalia utriculus | NW Pacific | tentacle | LH00309:109:22CJLFLT3	DT-68	any_candidate_genus	5	0	5	0	0	1	4		0.2		52835261
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Vibrio	1	1	0	0	1	0	0	0.0		169544103	
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		169544103	
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Alteromonas	1	1	0	0	1	0	0	0.0		169544103	
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Photobacterium	1	1	0	0	1	0	0	0.0		169544103	
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	Metamycoplasmataceae	any_candidate_genus	1	1	0	0	1	0	0	0.0		169544103	
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	Vibrio	1	1	0	0	1	0	0	0.0		169544103	
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		169544103	
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	Alteromonas	1	1	0	0	1	0	0	0.0		169544103	
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	Photobacterium	1	1	0	0	1	0	0	0.0		169544103	
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade A	any_candidate_genus	1	1	0	0	1	0	0	0.0		169544103	
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	Vibrio	1	0	1	0	0	0	1		0.0		169544103
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		169544103
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		169544103
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		169544103
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	clade B	any_candidate_genus	1	0	1	0	0	0	1		0.0		169544103
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		169544103
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		169544103
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		169544103
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		169544103
+Physalia_single_flowcell	Physalia utriculus | SW Atlantic | tentacle | LH00309:40:22CMVKLT3	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		169544103
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Vibrio	7	4	3	0	4	1	2	0.0	0.3333333333333333	144702709.5	107842809
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Pseudoalteromonas	7	4	3	0	4	0	3	0.0	0.0	144702709.5	107842809
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Alteromonas	7	4	3	0	4	0	3	0.0	0.0	144702709.5	107842809
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	Photobacterium	7	4	3	0	4	1	2	0.0	0.3333333333333333	144702709.5	107842809
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	Metamycoplasmataceae	any_candidate_genus	7	4	3	0	4	1	2	0.0	0.3333333333333333	144702709.5	107842809
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Vibrio	7	3	4	0	3	1	3	0.0	0.25	128365246	112274704.0
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Pseudoalteromonas	7	3	4	0	3	0	4	0.0	0.0	128365246	112274704.0
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Alteromonas	7	3	4	0	3	0	4	0.0	0.0	128365246	112274704.0
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	Photobacterium	7	3	4	0	3	1	3	0.0	0.25	128365246	112274704.0
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade A	any_candidate_genus	7	3	4	0	3	1	3	0.0	0.25	128365246	112274704.0
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Vibrio	7	3	4	0	3	1	3	0.0	0.25	161040173	112274704.0
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Pseudoalteromonas	7	3	4	0	3	0	4	0.0	0.0	161040173	112274704.0
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Alteromonas	7	3	4	0	3	0	4	0.0	0.0	161040173	112274704.0
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	Photobacterium	7	3	4	0	3	1	3	0.0	0.25	161040173	112274704.0
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	clade B	any_candidate_genus	7	3	4	0	3	1	3	0.0	0.25	161040173	112274704.0
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Vibrio	7	0	7	0	0	1	6		0.14285714285714285		116706599
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Pseudoalteromonas	7	0	7	0	0	0	7		0.0		116706599
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Alteromonas	7	0	7	0	0	0	7		0.0		116706599
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	Photobacterium	7	0	7	0	0	1	6		0.14285714285714285		116706599
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | A00124:672:HGYTLDSX7	DT-68	any_candidate_genus	7	0	7	0	0	1	6		0.14285714285714285		116706599
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	Vibrio	1	1	0	1	0	0	0	1.0		155920906	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		155920906	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	Alteromonas	1	1	0	1	0	0	0	1.0		155920906	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	Photobacterium	1	1	0	0	1	0	0	0.0		155920906	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	Metamycoplasmataceae	any_candidate_genus	1	1	0	1	0	0	0	1.0		155920906	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	Vibrio	1	0	1	0	0	1	0		1.0		155920906
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		155920906
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	Alteromonas	1	0	1	0	0	1	0		1.0		155920906
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		155920906
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade A	any_candidate_genus	1	0	1	0	0	1	0		1.0		155920906
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	Vibrio	1	1	0	1	0	0	0	1.0		155920906	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		155920906	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	Alteromonas	1	1	0	1	0	0	0	1.0		155920906	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	Photobacterium	1	1	0	0	1	0	0	0.0		155920906	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	clade B	any_candidate_genus	1	1	0	1	0	0	0	1.0		155920906	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	Vibrio	1	0	1	0	0	1	0		1.0		155920906
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		155920906
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	Alteromonas	1	0	1	0	0	1	0		1.0		155920906
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		155920906
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | tentacle | LH00309:204:227MGJLT4	DT-68	any_candidate_genus	1	0	1	0	0	1	0		1.0		155920906
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	Metamycoplasmataceae	Vibrio	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	Metamycoplasmataceae	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	Metamycoplasmataceae	Alteromonas	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	Metamycoplasmataceae	Photobacterium	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	Metamycoplasmataceae	any_candidate_genus	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	clade A	Vibrio	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	clade B	Vibrio	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	clade B	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	clade B	Alteromonas	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	clade B	Photobacterium	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	clade B	any_candidate_genus	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | A00152:671:HKTT5DRX2	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		393864449
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	Vibrio	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	Alteromonas	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	Photobacterium	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	Metamycoplasmataceae	any_candidate_genus	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	clade A	Vibrio	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	clade A	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	clade A	Alteromonas	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	clade A	Photobacterium	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	clade A	any_candidate_genus	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	clade B	Vibrio	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	clade B	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	clade B	Alteromonas	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	clade B	Photobacterium	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	clade B	any_candidate_genus	1	1	0	0	1	0	0	0.0		179893462	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		179893462
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		179893462
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		179893462
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		179893462
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:19:2273H5LT3	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		179893462
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Vibrio	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Alteromonas	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	Metamycoplasmataceae	Photobacterium	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	Metamycoplasmataceae	any_candidate_genus	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	clade A	Vibrio	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	clade A	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	clade A	Alteromonas	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	clade A	Photobacterium	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	clade A	any_candidate_genus	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	clade B	Vibrio	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	clade B	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	clade B	Alteromonas	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	clade B	Photobacterium	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	clade B	any_candidate_genus	1	1	0	0	1	0	0	0.0		197086730	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		197086730
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		197086730
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		197086730
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		197086730
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | LH00309:40:22CMVKLT3	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		197086730
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	Metamycoplasmataceae	Vibrio	1	1	0	0	1	0	0	0.0		1184426675	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	Metamycoplasmataceae	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		1184426675	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	Metamycoplasmataceae	Alteromonas	1	1	0	0	1	0	0	0.0		1184426675	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	Metamycoplasmataceae	Photobacterium	1	1	0	0	1	0	0	0.0		1184426675	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	Metamycoplasmataceae	any_candidate_genus	1	1	0	0	1	0	0	0.0		1184426675	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	clade A	Vibrio	1	0	1	0	0	0	1		0.0		1184426675
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	clade A	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		1184426675
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	clade A	Alteromonas	1	0	1	0	0	0	1		0.0		1184426675
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	clade A	Photobacterium	1	0	1	0	0	0	1		0.0		1184426675
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	clade A	any_candidate_genus	1	0	1	0	0	0	1		0.0		1184426675
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	clade B	Vibrio	1	1	0	0	1	0	0	0.0		1184426675	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	clade B	Pseudoalteromonas	1	1	0	0	1	0	0	0.0		1184426675	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	clade B	Alteromonas	1	1	0	0	1	0	0	0.0		1184426675	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	clade B	Photobacterium	1	1	0	0	1	0	0	0.0		1184426675	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	clade B	any_candidate_genus	1	1	0	0	1	0	0	0.0		1184426675	
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	DT-68	Vibrio	1	0	1	0	0	0	1		0.0		1184426675
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	DT-68	Pseudoalteromonas	1	0	1	0	0	0	1		0.0		1184426675
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	DT-68	Alteromonas	1	0	1	0	0	0	1		0.0		1184426675
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	DT-68	Photobacterium	1	0	1	0	0	0	1		0.0		1184426675
+Physalia_single_flowcell	Physalia utriculus | SW Pacific | unknown | ST-E00199:415:HYGF2CCXY	DT-68	any_candidate_genus	1	0	1	0	0	0	1		0.0		1184426675
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Vibrio	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Pseudoalteromonas	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Alteromonas	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	Photobacterium	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	Metamycoplasmataceae	any_candidate_genus	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	clade A	Vibrio	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	clade A	Pseudoalteromonas	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	clade A	Alteromonas	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	clade A	Photobacterium	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	clade A	any_candidate_genus	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	clade B	Vibrio	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	clade B	Pseudoalteromonas	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	clade B	Alteromonas	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	clade B	Photobacterium	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	clade B	any_candidate_genus	4	4	0	0	4	0	0	0.0		173066318.5	
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	DT-68	Vibrio	4	0	4	0	0	0	4		0.0		173066318.5
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	DT-68	Pseudoalteromonas	4	0	4	0	0	0	4		0.0		173066318.5
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	DT-68	Alteromonas	4	0	4	0	0	0	4		0.0		173066318.5
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	DT-68	Photobacterium	4	0	4	0	0	0	4		0.0		173066318.5
+Physalia_single_flowcell	Physalia utriculus | W Indian | tentacle | A00124:710:HMFVWDSX7	DT-68	any_candidate_genus	4	0	4	0	0	0	4		0.0		173066318.5
