@@ -1,0 +1,61 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "cassiopea_16s", color = "0.60 0.6 0.85", style="rounded"];
+	1[label = "summarize_cassiopea_matches", color = "0.53 0.6 0.85", style="rounded"];
+	2[label = "denoise_amplicons_vsearch", color = "0.58 0.6 0.85", style="rounded"];
+	3[label = "merge_amplicon_pairs_vsearch", color = "0.59 0.6 0.85", style="rounded"];
+	4[label = "download_cassiopea_reads", color = "0.08 0.6 0.85", style="rounded"];
+	5[label = "match_cassiopea_16s_vsearch", color = "0.32 0.6 0.85", style="rounded"];
+	6[label = "extract_mycoplasmatales_16s", color = "0.22 0.6 0.85", style="rounded"];
+	7[label = "build_mag_catalog", color = "0.45 0.6 0.85", style="rounded"];
+	8[label = "select_mags", color = "0.14 0.6 0.85", style="rounded"];
+	9[label = "summarize_assemblies", color = "0.19 0.6 0.85", style="rounded"];
+	10[label = "assemble_contigs_megahit", color = "0.18 0.6 0.85", style="rounded"];
+	11[label = "phase3_prepare_cohort_input", color = "0.58 0.6 0.85", style="rounded"];
+	12[label = "trim_reads", color = "0.43 0.6 0.85", style="rounded"];
+	13[label = "snapshot_run_configuration", color = "0.03 0.6 0.85", style="rounded"];
+	14[label = "index_host_reference", color = "0.62 0.6 0.85", style="rounded"];
+	15[label = "find_rrna_barrnap", color = "0.42 0.6 0.85", style="rounded"];
+	16[label = "identify_viruses_genomad", color = "0.36 0.6 0.85", style="rounded"];
+	17[label = "assess_viruses_checkv", color = "0.11 0.6 0.85", style="rounded"];
+	18[label = "bin_contigs_metabat2", color = "0.43 0.6 0.85", style="rounded"];
+	19[label = "assess_bins_checkm2", color = "0.44 0.6 0.85", style="rounded"];
+	20[label = "classify_mags_gtdbtk", color = "0.30 0.6 0.85", style="rounded"];
+	21[label = "prepare_gtdbtk_reference", color = "0.29 0.6 0.85", style="rounded"];
+	22[label = "compare_mags_skani", color = "0.21 0.6 0.85", style="rounded"];
+	1 -> 0
+	5 -> 1
+	2 -> 1
+	3 -> 2
+	4 -> 3
+	6 -> 5
+	4 -> 5
+	2 -> 5
+	7 -> 6
+	8 -> 7
+	20 -> 7
+	22 -> 7
+	9 -> 8
+	15 -> 9
+	16 -> 9
+	18 -> 9
+	19 -> 9
+	10 -> 9
+	17 -> 9
+	11 -> 10
+	14 -> 11
+	12 -> 11
+	13 -> 12
+	13 -> 14
+	10 -> 15
+	10 -> 16
+	16 -> 17
+	11 -> 18
+	10 -> 18
+	18 -> 19
+	8 -> 20
+	21 -> 20
+	8 -> 22
+}            

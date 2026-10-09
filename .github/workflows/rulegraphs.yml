@@ -1,0 +1,39 @@
+name: Rule graph freshness
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  trusted-source:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require a trusted branch before using the data runner
+        env:
+          IS_FORK: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository }}
+        run: |
+          if [ "$IS_FORK" = true ]; then
+            echo 'Review this fork change and bring it onto a trusted branch before running graph generation.' >&2
+            exit 1
+          fi
+  rulegraphs:
+    needs: trusted-source
+    runs-on: [self-hosted, linux, x64, siph-associates-rulegraphs]
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check generated graphs with the pinned data-access environment
+        env:
+          SNAKEMAKE: /gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/snakemake
+          DOT: /usr/bin/dot
+          PYTHONHASHSEED: '0'
+        run: |
+          export PATH=/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin:$PATH
+          export XDG_CACHE_HOME="$RUNNER_TEMP/siph-rulegraph-cache"
+          ./scripts/update_rulegraphs.py --check --require-tracked

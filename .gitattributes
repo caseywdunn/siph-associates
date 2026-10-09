@@ -1,3 +1,5 @@
 # Preserve downloaded GenBank formatting and rectangular TSVs with empty final fields.
 *.gb whitespace=-blank-at-eol,-blank-at-eof
 *.tsv whitespace=-blank-at-eol
+# Preserve Snakemake's exact generated DOT output, including closing-line spaces.
+docs/workflow/graphs/*.dot whitespace=-blank-at-eol

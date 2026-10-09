@@ -1,0 +1,22 @@
+{
+  "readiness": {"config": "config/config.yaml", "targets": ["all"]},
+  "smoke": {"config": "tests/config.fixture.yaml", "targets": ["phase1_ready", "phase1_smoke"]},
+  "screening": {"config": "config/config.yaml", "targets": ["screen_pilot", "screen_cohort"]},
+  "benchmark": {"config": "config/config.yaml", "targets": ["phase3_benchmark"]},
+  "inputs": {"config": "config/config.yaml", "targets": ["phase3_inputs"]},
+  "assembly": {"config": "config/config.yaml", "targets": ["phase3_assembly"]},
+  "recovered_catalog": {"config": "config/config.yaml", "targets": ["phase3_catalog"]},
+  "mapping_catalog": {"config": "config/config.yaml", "targets": ["phase4_catalog"]},
+  "mapping": {"config": "config/config.yaml", "targets": ["phase5_pilot", "phase5_mapping"]},
+  "analysis": {"config": "config/config.yaml", "targets": ["phase6_analysis"]},
+  "eukaryotes": {"config": "config/config.yaml", "targets": ["eukaryote_evidence", "eukaryote_gate"]},
+  "phylogeny": {"config": "config/config.yaml", "targets": ["mycoplasmatales_phylogeny"]},
+  "gene_content": {"config": "config/config.yaml", "targets": ["mycoplasmatales_gene_content"]},
+  "cnidarian": {"config": "config/config.yaml", "targets": ["cnidarian_16s"]},
+  "cassiopea": {"config": "config/config.yaml", "targets": ["cassiopea_16s"]},
+  "publication": {
+    "config": "config/config.yaml",
+    "targets": ["publication_cohort_figures", "publication_mycoplasmatales_figures", "publication_collection_context_figures"],
+    "allowed_rules": ["publication_cohort_figures", "publication_mycoplasmatales_figures", "collection_context_tables", "publication_collection_context_figures"]
+  }
+}

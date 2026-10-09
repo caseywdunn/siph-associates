@@ -1,0 +1,176 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "phase6_analysis", color = "0.07 0.6 0.85", style="rounded"];
+	1[label = "validate_phase6", color = "0.37 0.6 0.85", style="rounded"];
+	2[label = "grade_presences", color = "0.41 0.6 0.85", style="rounded"];
+	3[label = "aggregate_mapping", color = "0.00 0.6 0.85", style="rounded"];
+	4[label = "summarize_bacterial_coverage_coverm", color = "0.05 0.6 0.85", style="rounded"];
+	5[label = "map_reads_bacterial_bwa", color = "0.09 0.6 0.85", style="rounded"];
+	6[label = "trim_reads_for_mapping", color = "0.15 0.6 0.85", style="rounded"];
+	7[label = "snapshot_run_configuration", color = "0.03 0.6 0.85", style="rounded"];
+	8[label = "index_bacterial_catalog_bwa", color = "0.61 0.6 0.85", style="rounded"];
+	9[label = "build_bacterial_catalog", color = "0.06 0.6 0.85", style="rounded"];
+	10[label = "nominate_references", color = "0.29 0.6 0.85", style="rounded"];
+	11[label = "collect_reference_genomes", color = "0.27 0.6 0.85", style="rounded"];
+	12[label = "fetch_oceandna_archive", color = "0.18 0.6 0.85", style="rounded"];
+	13[label = "check_references_ncbi", color = "0.40 0.6 0.85", style="rounded"];
+	14[label = "fetch_ncbi_substitutes", color = "0.20 0.6 0.85", style="rounded"];
+	15[label = "assess_references_checkm2", color = "0.02 0.6 0.85", style="rounded"];
+	16[label = "classify_oceandna_gtdbtk", color = "0.24 0.6 0.85", style="rounded"];
+	17[label = "prepare_gtdbtk_reference", color = "0.29 0.6 0.85", style="rounded"];
+	18[label = "build_mag_catalog", color = "0.45 0.6 0.85", style="rounded"];
+	19[label = "select_mags", color = "0.14 0.6 0.85", style="rounded"];
+	20[label = "summarize_assemblies", color = "0.19 0.6 0.85", style="rounded"];
+	21[label = "assemble_contigs_megahit", color = "0.18 0.6 0.85", style="rounded"];
+	22[label = "phase3_prepare_cohort_input", color = "0.58 0.6 0.85", style="rounded"];
+	23[label = "trim_reads", color = "0.43 0.6 0.85", style="rounded"];
+	24[label = "index_host_reference", color = "0.62 0.6 0.85", style="rounded"];
+	25[label = "find_rrna_barrnap", color = "0.42 0.6 0.85", style="rounded"];
+	26[label = "identify_viruses_genomad", color = "0.36 0.6 0.85", style="rounded"];
+	27[label = "assess_viruses_checkv", color = "0.11 0.6 0.85", style="rounded"];
+	28[label = "bin_contigs_metabat2", color = "0.43 0.6 0.85", style="rounded"];
+	29[label = "assess_bins_checkm2", color = "0.44 0.6 0.85", style="rounded"];
+	30[label = "classify_mags_gtdbtk", color = "0.30 0.6 0.85", style="rounded"];
+	31[label = "compare_mags_skani", color = "0.21 0.6 0.85", style="rounded"];
+	32[label = "compare_catalog_genomes_skani", color = "0.55 0.6 0.85", style="rounded"];
+	33[label = "summarize_viral_coverage_coverm", color = "0.07 0.6 0.85", style="rounded"];
+	34[label = "map_reads_viral_bwa", color = "0.56 0.6 0.85", style="rounded"];
+	35[label = "index_viral_catalog_bwa", color = "0.66 0.6 0.85", style="rounded"];
+	36[label = "build_viral_catalog", color = "0.66 0.6 0.85", style="rounded"];
+	37[label = "build_votu_catalog", color = "0.30 0.6 0.85", style="rounded"];
+	38[label = "cluster_votus_checkv", color = "0.51 0.6 0.85", style="rounded"];
+	39[label = "flag_endogenous_viruses", color = "0.13 0.6 0.85", style="rounded"];
+	40[label = "select_viruses", color = "0.54 0.6 0.85", style="rounded"];
+	41[label = "align_viruses_host_minimap2", color = "0.47 0.6 0.85", style="rounded"];
+	42[label = "align_assembly_catalog_minimap2", color = "0.57 0.6 0.85", style="rounded"];
+	43[label = "index_catalog_minimap2", color = "0.35 0.6 0.85", style="rounded"];
+	44[label = "test_contamination_flowcell", color = "0.46 0.6 0.85", style="rounded"];
+	45[label = "normalize_phase6_metadata", color = "0.06 0.6 0.85", style="rounded"];
+	46[label = "test_nanomia_contamination_flowcell", color = "0.39 0.6 0.85", style="rounded"];
+	47[label = "analyze_presence_threshold", color = "0.50 0.6 0.85", style="rounded"];
+	48[label = "match_spacers_votus_blastn", color = "0.15 0.6 0.85", style="rounded"];
+	49[label = "call_crispr_spacers_minced", color = "0.38 0.6 0.85", style="rounded"];
+	50[label = "summarize_incidence", color = "0.28 0.6 0.85", style="rounded"];
+	51[label = "fit_physalia_models_lme4", color = "0.37 0.6 0.85", style="rounded"];
+	52[label = "compare_sensitivity_analyses", color = "0.49 0.6 0.85", style="rounded"];
+	53[label = "summarize_sensitivity_coverage_coverm", color = "0.04 0.6 0.85", style="rounded"];
+	54[label = "map_reads_sensitivity_bwa", color = "0.53 0.6 0.85", style="rounded"];
+	55[label = "trim_reads_uncapped", color = "0.55 0.6 0.85", style="rounded"];
+	1 -> 0
+	44 -> 1
+	2 -> 1
+	45 -> 1
+	52 -> 1
+	47 -> 1
+	50 -> 1
+	51 -> 1
+	46 -> 1
+	37 -> 2
+	3 -> 2
+	9 -> 2
+	10 -> 2
+	42 -> 2
+	18 -> 2
+	6 -> 3
+	4 -> 3
+	9 -> 3
+	33 -> 3
+	34 -> 3
+	5 -> 3
+	5 -> 4
+	6 -> 5
+	8 -> 5
+	22 -> 5
+	7 -> 6
+	9 -> 8
+	11 -> 9
+	14 -> 9
+	16 -> 9
+	15 -> 9
+	10 -> 9
+	32 -> 9
+	13 -> 9
+	18 -> 9
+	10 -> 11
+	12 -> 11
+	11 -> 13
+	13 -> 14
+	11 -> 15
+	14 -> 15
+	11 -> 16
+	17 -> 16
+	19 -> 18
+	30 -> 18
+	31 -> 18
+	20 -> 19
+	25 -> 20
+	26 -> 20
+	28 -> 20
+	29 -> 20
+	21 -> 20
+	27 -> 20
+	22 -> 21
+	24 -> 22
+	23 -> 22
+	7 -> 23
+	7 -> 24
+	21 -> 25
+	21 -> 26
+	26 -> 27
+	22 -> 28
+	21 -> 28
+	28 -> 29
+	19 -> 30
+	17 -> 30
+	19 -> 31
+	11 -> 32
+	14 -> 32
+	18 -> 32
+	34 -> 33
+	6 -> 34
+	35 -> 34
+	22 -> 34
+	36 -> 35
+	37 -> 36
+	38 -> 37
+	39 -> 37
+	39 -> 38
+	40 -> 39
+	41 -> 39
+	20 -> 40
+	40 -> 41
+	43 -> 42
+	21 -> 42
+	9 -> 43
+	2 -> 44
+	45 -> 44
+	2 -> 46
+	45 -> 46
+	48 -> 47
+	2 -> 47
+	3 -> 47
+	45 -> 47
+	36 -> 48
+	9 -> 48
+	49 -> 48
+	9 -> 49
+	44 -> 50
+	2 -> 50
+	48 -> 50
+	2 -> 51
+	3 -> 51
+	45 -> 51
+	2 -> 52
+	3 -> 52
+	9 -> 52
+	10 -> 52
+	53 -> 52
+	54 -> 53
+	6 -> 54
+	8 -> 54
+	35 -> 54
+	55 -> 54
+	7 -> 55
+}            

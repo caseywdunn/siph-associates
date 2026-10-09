@@ -1,0 +1,75 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "mycoplasmatales_gene_content", color = "0.12 0.6 0.85", style="rounded"];
+	1[label = "summarize_gene_content", color = "0.31 0.6 0.85", style="rounded"];
+	2[label = "collect_gene_content_genomes", color = "0.12 0.6 0.85", style="rounded"];
+	3[label = "select_phylogeny_genomes", color = "0.26 0.6 0.85", style="rounded"];
+	4[label = "fetch_mycoplasmatales_external", color = "0.24 0.6 0.85", style="rounded"];
+	5[label = "assess_external_mollicutes_checkm2", color = "0.03 0.6 0.85", style="rounded"];
+	6[label = "classify_external_mollicutes_gtdbtk", color = "0.02 0.6 0.85", style="rounded"];
+	7[label = "prepare_gtdbtk_reference", color = "0.29 0.6 0.85", style="rounded"];
+	8[label = "build_mag_catalog", color = "0.45 0.6 0.85", style="rounded"];
+	9[label = "select_mags", color = "0.14 0.6 0.85", style="rounded"];
+	10[label = "summarize_assemblies", color = "0.19 0.6 0.85", style="rounded"];
+	11[label = "assemble_contigs_megahit", color = "0.18 0.6 0.85", style="rounded"];
+	12[label = "phase3_prepare_cohort_input", color = "0.58 0.6 0.85", style="rounded"];
+	13[label = "trim_reads", color = "0.43 0.6 0.85", style="rounded"];
+	14[label = "snapshot_run_configuration", color = "0.03 0.6 0.85", style="rounded"];
+	15[label = "index_host_reference", color = "0.62 0.6 0.85", style="rounded"];
+	16[label = "find_rrna_barrnap", color = "0.42 0.6 0.85", style="rounded"];
+	17[label = "identify_viruses_genomad", color = "0.36 0.6 0.85", style="rounded"];
+	18[label = "assess_viruses_checkv", color = "0.11 0.6 0.85", style="rounded"];
+	19[label = "bin_contigs_metabat2", color = "0.43 0.6 0.85", style="rounded"];
+	20[label = "assess_bins_checkm2", color = "0.44 0.6 0.85", style="rounded"];
+	21[label = "classify_mags_gtdbtk", color = "0.30 0.6 0.85", style="rounded"];
+	22[label = "compare_mags_skani", color = "0.21 0.6 0.85", style="rounded"];
+	23[label = "assess_gene_content_genomes_checkm2", color = "0.19 0.6 0.85", style="rounded"];
+	24[label = "predict_genes_pyrodigal", color = "0.21 0.6 0.85", style="rounded"];
+	25[label = "annotate_proteins_kofamscan", color = "0.31 0.6 0.85", style="rounded"];
+	26[label = "download_kofam_profiles", color = "0.44 0.6 0.85", style="rounded"];
+	1 -> 0
+	2 -> 1
+	23 -> 1
+	25 -> 1
+	24 -> 1
+	26 -> 1
+	7 -> 2
+	3 -> 2
+	8 -> 3
+	5 -> 3
+	4 -> 3
+	6 -> 3
+	4 -> 5
+	7 -> 6
+	4 -> 6
+	9 -> 8
+	21 -> 8
+	22 -> 8
+	10 -> 9
+	16 -> 10
+	17 -> 10
+	19 -> 10
+	20 -> 10
+	11 -> 10
+	18 -> 10
+	12 -> 11
+	15 -> 12
+	13 -> 12
+	14 -> 13
+	14 -> 15
+	11 -> 16
+	11 -> 17
+	17 -> 18
+	12 -> 19
+	11 -> 19
+	19 -> 20
+	9 -> 21
+	7 -> 21
+	9 -> 22
+	2 -> 23
+	2 -> 24
+	26 -> 25
+	24 -> 25
+}            

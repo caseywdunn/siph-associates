@@ -6,6 +6,12 @@ parasites, and prey** — from whole-genome shotgun data of siphonophores
 pools three WGS datasets and analyzes them under one symmetric pipeline in which
 each study is a first-class covariate, not a hierarchy.
 
+To audit the implementation, start with the
+[analysis workflow guide](docs/workflow/README.md). It indexes descriptive READMEs
+for all 19 rule files, with generated rule graphs, inputs/outputs, interpretation
+limits and explicit preview/launch commands. Viewing and regenerating those
+graphs does not execute analyses.
+
 | Study | Data | Role |
 |-------|------|------|
 | Church et al. 2025, *Curr. Biol.* ([10.1016/j.cub.2025.05.066](https://doi.org/10.1016/j.cub.2025.05.066)) | 151 *Physalia* libraries (5 spp.) + chromosome-scale *P. physalis* genome | Physalia sampling; a host reference |
@@ -109,16 +115,12 @@ python3 scripts/validate_manifest.py --freeze data/metadata/manifest.freeze.sha2
 
 ## Status
 
-Phases 0--2 and the Phase-3 strategy benchmark are complete. The 205-library manifest and normalized input
-metadata are validated and checksum-frozen, and all 205 libraries passed the
-universal fastp, Kraken2/Bracken, sylph, and phyloFlash screen. The accepted
-Phase-2 aggregation contains 2,282,231 nomination-only rows; these are not
-presence claims. Phase 3 is active: the accepted benchmark selects reference
-depletion for reference-bearing hosts and deterministic 25 M-pair trimmed-read
-inputs for reference-free hosts. All 205 cohort inputs are prepared; 195
-libraries meet the 175,000-pair assembly floor and are frozen in
-`config/phase3_assembly.tsv`. The per-library assembly stage (`phase3_assembly`)
-is implemented and fixture-tested; see `WORKFLOW.md`.
+Accepted v2 catalogs, cohort mapping, downstream statistics and eukaryote
+reporting are complete, with publication and comparative-context outputs as
+described above. Historical phase gates and execution details remain in
+`RUNLOG.md` and the linked decision records. The
+[workflow audit guide](docs/workflow/README.md) describes the current rule files
+and distinguishes the older test routes from the accepted cohort methods.
 The manuscript (LaTeX) lives in a separate repository and cites this one.
 
 ## Citation / license

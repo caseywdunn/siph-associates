@@ -1,0 +1,11 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "publication_collection_context_figures", color = "0.00 0.6 0.85", style="rounded"];
+	1[label = "collection_context_tables", color = "0.50 0.6 0.85", style="rounded"];
+	2[label = "publication_cohort_figures", color = "0.17 0.6 0.85", style="rounded"];
+	3[label = "publication_mycoplasmatales_figures", color = "0.33 0.6 0.85", style="rounded"];
+	1 -> 0
+	2 -> 1
+}            

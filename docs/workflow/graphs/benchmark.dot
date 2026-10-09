@@ -1,0 +1,65 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "phase3_benchmark", color = "0.48 0.6 0.85", style="rounded"];
+	1[label = "aggregate_phase3_benchmark", color = "0.54 0.6 0.85", style="rounded"];
+	2[label = "benchmark_assembly", color = "0.50 0.6 0.85", style="rounded"];
+	3[label = "kraken_bracken", color = "0.59 0.6 0.85", style="rounded"];
+	4[label = "trim_reads", color = "0.43 0.6 0.85", style="rounded"];
+	5[label = "snapshot_run_configuration", color = "0.03 0.6 0.85", style="rounded"];
+	6[label = "benchmark_reference_depleted_reads", color = "0.25 0.6 0.85", style="rounded"];
+	7[label = "benchmark_trim_reads", color = "0.11 0.6 0.85", style="rounded"];
+	8[label = "screen_cohort", color = "0.10 0.6 0.85", style="rounded"];
+	9[label = "validate_screen_sample", color = "0.00 0.6 0.85", style="rounded"];
+	10[label = "sylph_screen", color = "0.33 0.6 0.85", style="rounded"];
+	11[label = "phyloflash_screen", color = "0.60 0.6 0.85", style="rounded"];
+	12[label = "aggregate_phase2", color = "0.42 0.6 0.85", style="rounded"];
+	13[label = "index_host_reference", color = "0.62 0.6 0.85", style="rounded"];
+	14[label = "benchmark_fixed_effort_reads", color = "0.49 0.6 0.85", style="rounded"];
+	15[label = "benchmark_markers", color = "0.04 0.6 0.85", style="rounded"];
+	16[label = "benchmark_viruses", color = "0.09 0.6 0.85", style="rounded"];
+	17[label = "benchmark_binning", color = "0.16 0.6 0.85", style="rounded"];
+	18[label = "benchmark_checkm2", color = "0.01 0.6 0.85", style="rounded"];
+	19[label = "benchmark_host_carryover", color = "0.51 0.6 0.85", style="rounded"];
+	1 -> 0
+	15 -> 1
+	17 -> 1
+	2 -> 1
+	18 -> 1
+	19 -> 1
+	16 -> 1
+	14 -> 2
+	6 -> 2
+	3 -> 2
+	4 -> 3
+	5 -> 4
+	7 -> 6
+	13 -> 6
+	8 -> 7
+	9 -> 8
+	12 -> 8
+	11 -> 9
+	3 -> 9
+	10 -> 9
+	4 -> 9
+	4 -> 10
+	4 -> 11
+	9 -> 12
+	11 -> 12
+	3 -> 12
+	10 -> 12
+	5 -> 13
+	7 -> 14
+	2 -> 15
+	2 -> 16
+	14 -> 17
+	6 -> 17
+	3 -> 17
+	2 -> 17
+	17 -> 18
+	14 -> 19
+	6 -> 19
+	3 -> 19
+	13 -> 19
+}            

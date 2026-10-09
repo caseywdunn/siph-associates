@@ -1,0 +1,58 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "cnidarian_16s", color = "0.36 0.6 0.85", style="rounded"];
+	1[label = "summarize_matching_asv_hosts", color = "0.25 0.6 0.85", style="rounded"];
+	2[label = "match_asvs_mycoplasmatales_vsearch", color = "0.08 0.6 0.85", style="rounded"];
+	3[label = "export_cnidarian_asvs_phyloseq", color = "0.35 0.6 0.85", style="rounded"];
+	4[label = "fetch_cnidarian_16s_library", color = "0.23 0.6 0.85", style="rounded"];
+	5[label = "extract_mycoplasmatales_16s", color = "0.22 0.6 0.85", style="rounded"];
+	6[label = "build_mag_catalog", color = "0.45 0.6 0.85", style="rounded"];
+	7[label = "select_mags", color = "0.14 0.6 0.85", style="rounded"];
+	8[label = "summarize_assemblies", color = "0.19 0.6 0.85", style="rounded"];
+	9[label = "assemble_contigs_megahit", color = "0.18 0.6 0.85", style="rounded"];
+	10[label = "phase3_prepare_cohort_input", color = "0.58 0.6 0.85", style="rounded"];
+	11[label = "trim_reads", color = "0.43 0.6 0.85", style="rounded"];
+	12[label = "snapshot_run_configuration", color = "0.03 0.6 0.85", style="rounded"];
+	13[label = "index_host_reference", color = "0.62 0.6 0.85", style="rounded"];
+	14[label = "find_rrna_barrnap", color = "0.42 0.6 0.85", style="rounded"];
+	15[label = "identify_viruses_genomad", color = "0.36 0.6 0.85", style="rounded"];
+	16[label = "assess_viruses_checkv", color = "0.11 0.6 0.85", style="rounded"];
+	17[label = "bin_contigs_metabat2", color = "0.43 0.6 0.85", style="rounded"];
+	18[label = "assess_bins_checkm2", color = "0.44 0.6 0.85", style="rounded"];
+	19[label = "classify_mags_gtdbtk", color = "0.30 0.6 0.85", style="rounded"];
+	20[label = "prepare_gtdbtk_reference", color = "0.29 0.6 0.85", style="rounded"];
+	21[label = "compare_mags_skani", color = "0.21 0.6 0.85", style="rounded"];
+	1 -> 0
+	2 -> 1
+	4 -> 1
+	5 -> 2
+	3 -> 2
+	4 -> 3
+	6 -> 5
+	7 -> 6
+	19 -> 6
+	21 -> 6
+	8 -> 7
+	14 -> 8
+	15 -> 8
+	17 -> 8
+	18 -> 8
+	9 -> 8
+	16 -> 8
+	10 -> 9
+	13 -> 10
+	11 -> 10
+	12 -> 11
+	12 -> 13
+	9 -> 14
+	9 -> 15
+	15 -> 16
+	10 -> 17
+	9 -> 17
+	17 -> 18
+	7 -> 19
+	20 -> 19
+	7 -> 21
+}            

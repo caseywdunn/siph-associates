@@ -1,0 +1,120 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "phase5_mapping", color = "0.56 0.6 0.85", style="rounded"];
+	1[label = "validate_mapping", color = "0.13 0.6 0.85", style="rounded"];
+	2[label = "aggregate_mapping", color = "0.00 0.6 0.85", style="rounded"];
+	3[label = "summarize_bacterial_coverage_coverm", color = "0.05 0.6 0.85", style="rounded"];
+	4[label = "map_reads_bacterial_bwa", color = "0.09 0.6 0.85", style="rounded"];
+	5[label = "trim_reads_for_mapping", color = "0.15 0.6 0.85", style="rounded"];
+	6[label = "snapshot_run_configuration", color = "0.03 0.6 0.85", style="rounded"];
+	7[label = "index_bacterial_catalog_bwa", color = "0.61 0.6 0.85", style="rounded"];
+	8[label = "build_bacterial_catalog", color = "0.06 0.6 0.85", style="rounded"];
+	9[label = "nominate_references", color = "0.29 0.6 0.85", style="rounded"];
+	10[label = "collect_reference_genomes", color = "0.27 0.6 0.85", style="rounded"];
+	11[label = "fetch_oceandna_archive", color = "0.18 0.6 0.85", style="rounded"];
+	12[label = "check_references_ncbi", color = "0.40 0.6 0.85", style="rounded"];
+	13[label = "fetch_ncbi_substitutes", color = "0.20 0.6 0.85", style="rounded"];
+	14[label = "assess_references_checkm2", color = "0.02 0.6 0.85", style="rounded"];
+	15[label = "classify_oceandna_gtdbtk", color = "0.24 0.6 0.85", style="rounded"];
+	16[label = "prepare_gtdbtk_reference", color = "0.29 0.6 0.85", style="rounded"];
+	17[label = "build_mag_catalog", color = "0.45 0.6 0.85", style="rounded"];
+	18[label = "select_mags", color = "0.14 0.6 0.85", style="rounded"];
+	19[label = "summarize_assemblies", color = "0.19 0.6 0.85", style="rounded"];
+	20[label = "assemble_contigs_megahit", color = "0.18 0.6 0.85", style="rounded"];
+	21[label = "phase3_prepare_cohort_input", color = "0.58 0.6 0.85", style="rounded"];
+	22[label = "trim_reads", color = "0.43 0.6 0.85", style="rounded"];
+	23[label = "index_host_reference", color = "0.62 0.6 0.85", style="rounded"];
+	24[label = "find_rrna_barrnap", color = "0.42 0.6 0.85", style="rounded"];
+	25[label = "identify_viruses_genomad", color = "0.36 0.6 0.85", style="rounded"];
+	26[label = "assess_viruses_checkv", color = "0.11 0.6 0.85", style="rounded"];
+	27[label = "bin_contigs_metabat2", color = "0.43 0.6 0.85", style="rounded"];
+	28[label = "assess_bins_checkm2", color = "0.44 0.6 0.85", style="rounded"];
+	29[label = "classify_mags_gtdbtk", color = "0.30 0.6 0.85", style="rounded"];
+	30[label = "compare_mags_skani", color = "0.21 0.6 0.85", style="rounded"];
+	31[label = "compare_catalog_genomes_skani", color = "0.55 0.6 0.85", style="rounded"];
+	32[label = "summarize_viral_coverage_coverm", color = "0.07 0.6 0.85", style="rounded"];
+	33[label = "map_reads_viral_bwa", color = "0.56 0.6 0.85", style="rounded"];
+	34[label = "index_viral_catalog_bwa", color = "0.66 0.6 0.85", style="rounded"];
+	35[label = "build_viral_catalog", color = "0.66 0.6 0.85", style="rounded"];
+	36[label = "build_votu_catalog", color = "0.30 0.6 0.85", style="rounded"];
+	37[label = "cluster_votus_checkv", color = "0.51 0.6 0.85", style="rounded"];
+	38[label = "flag_endogenous_viruses", color = "0.13 0.6 0.85", style="rounded"];
+	39[label = "select_viruses", color = "0.54 0.6 0.85", style="rounded"];
+	40[label = "align_viruses_host_minimap2", color = "0.47 0.6 0.85", style="rounded"];
+	41[label = "phase5_pilot", color = "0.62 0.6 0.85", style="rounded"];
+	1 -> 0
+	2 -> 1
+	34 -> 1
+	8 -> 1
+	5 -> 2
+	3 -> 2
+	8 -> 2
+	32 -> 2
+	33 -> 2
+	4 -> 2
+	4 -> 3
+	5 -> 4
+	7 -> 4
+	21 -> 4
+	6 -> 5
+	8 -> 7
+	10 -> 8
+	13 -> 8
+	15 -> 8
+	14 -> 8
+	9 -> 8
+	31 -> 8
+	12 -> 8
+	17 -> 8
+	9 -> 10
+	11 -> 10
+	10 -> 12
+	12 -> 13
+	10 -> 14
+	13 -> 14
+	10 -> 15
+	16 -> 15
+	18 -> 17
+	29 -> 17
+	30 -> 17
+	19 -> 18
+	24 -> 19
+	25 -> 19
+	27 -> 19
+	28 -> 19
+	20 -> 19
+	26 -> 19
+	21 -> 20
+	23 -> 21
+	22 -> 21
+	6 -> 22
+	6 -> 23
+	20 -> 24
+	20 -> 25
+	25 -> 26
+	21 -> 27
+	20 -> 27
+	27 -> 28
+	18 -> 29
+	16 -> 29
+	18 -> 30
+	10 -> 31
+	13 -> 31
+	17 -> 31
+	33 -> 32
+	5 -> 33
+	34 -> 33
+	21 -> 33
+	35 -> 34
+	36 -> 35
+	37 -> 36
+	38 -> 36
+	38 -> 37
+	39 -> 38
+	40 -> 38
+	19 -> 39
+	39 -> 40
+	1 -> 41
+}            

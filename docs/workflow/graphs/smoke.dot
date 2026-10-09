@@ -1,0 +1,34 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "phase1_smoke", color = "0.48 0.6 0.85", style="rounded"];
+	1[label = "validate_sample", color = "0.46 0.6 0.85", style="rounded"];
+	2[label = "trim_reads", color = "0.43 0.6 0.85", style="rounded"];
+	3[label = "make_fixture_fastq", color = "0.39 0.6 0.85", style="rounded"];
+	4[label = "snapshot_run_configuration", color = "0.03 0.6 0.85", style="rounded"];
+	5[label = "kraken_bracken", color = "0.59 0.6 0.85", style="rounded"];
+	6[label = "sylph_screen", color = "0.33 0.6 0.85", style="rounded"];
+	7[label = "phyloflash_screen", color = "0.60 0.6 0.85", style="rounded"];
+	8[label = "host_handling", color = "0.57 0.6 0.85", style="rounded"];
+	9[label = "index_host_reference", color = "0.62 0.6 0.85", style="rounded"];
+	10[label = "make_fixture_reference", color = "0.52 0.6 0.85", style="rounded"];
+	11[label = "phase1_ready", color = "0.22 0.6 0.85", style="rounded"];
+	1 -> 0
+	5 -> 1
+	7 -> 1
+	6 -> 1
+	2 -> 1
+	8 -> 1
+	3 -> 2
+	4 -> 2
+	2 -> 5
+	2 -> 6
+	2 -> 7
+	5 -> 8
+	9 -> 8
+	2 -> 8
+	4 -> 9
+	10 -> 9
+	4 -> 11
+}            

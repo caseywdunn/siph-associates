@@ -1,0 +1,40 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "phase3_assembly", color = "0.47 0.6 0.85", style="rounded"];
+	1[label = "validate_assemblies", color = "0.27 0.6 0.85", style="rounded"];
+	2[label = "summarize_assemblies", color = "0.19 0.6 0.85", style="rounded"];
+	3[label = "assemble_contigs_megahit", color = "0.18 0.6 0.85", style="rounded"];
+	4[label = "phase3_prepare_cohort_input", color = "0.58 0.6 0.85", style="rounded"];
+	5[label = "trim_reads", color = "0.43 0.6 0.85", style="rounded"];
+	6[label = "snapshot_run_configuration", color = "0.03 0.6 0.85", style="rounded"];
+	7[label = "index_host_reference", color = "0.62 0.6 0.85", style="rounded"];
+	8[label = "find_rrna_barrnap", color = "0.42 0.6 0.85", style="rounded"];
+	9[label = "identify_viruses_genomad", color = "0.36 0.6 0.85", style="rounded"];
+	10[label = "assess_viruses_checkv", color = "0.11 0.6 0.85", style="rounded"];
+	11[label = "bin_contigs_metabat2", color = "0.43 0.6 0.85", style="rounded"];
+	12[label = "assess_bins_checkm2", color = "0.44 0.6 0.85", style="rounded"];
+	13[label = "aggregate_phase3_inputs", color = "0.23 0.6 0.85", style="rounded"];
+	1 -> 0
+	13 -> 1
+	2 -> 1
+	8 -> 2
+	9 -> 2
+	11 -> 2
+	12 -> 2
+	3 -> 2
+	10 -> 2
+	4 -> 3
+	7 -> 4
+	5 -> 4
+	6 -> 5
+	6 -> 7
+	3 -> 8
+	3 -> 9
+	9 -> 10
+	4 -> 11
+	3 -> 11
+	11 -> 12
+	4 -> 13
+}            

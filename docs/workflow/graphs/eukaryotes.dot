@@ -1,0 +1,53 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "eukaryote_gate", color = "0.20 0.6 0.85", style="rounded"];
+	1[label = "validate_eukaryote_gate", color = "0.45 0.6 0.85", style="rounded"];
+	2[label = "grade_eukaryotes", color = "0.34 0.6 0.85", style="rounded"];
+	3[label = "aggregate_ssu_read_lineages", color = "0.65 0.6 0.85", style="rounded"];
+	4[label = "classify_ssu_reads_minimap2", color = "0.26 0.6 0.85", style="rounded"];
+	5[label = "extract_phyloflash_ssu", color = "0.41 0.6 0.85", style="rounded"];
+	6[label = "index_eukaryote_ssu_reference_minimap2", color = "0.10 0.6 0.85", style="rounded"];
+	7[label = "build_eukaryote_ssu_reference", color = "0.52 0.6 0.85", style="rounded"];
+	8[label = "collect_eukaryote_assembled", color = "0.63 0.6 0.85", style="rounded"];
+	9[label = "classify_assembled_ssu_minimap2", color = "0.33 0.6 0.85", style="rounded"];
+	10[label = "find_rrna_barrnap", color = "0.42 0.6 0.85", style="rounded"];
+	11[label = "assemble_contigs_megahit", color = "0.18 0.6 0.85", style="rounded"];
+	12[label = "phase3_prepare_cohort_input", color = "0.58 0.6 0.85", style="rounded"];
+	13[label = "trim_reads", color = "0.43 0.6 0.85", style="rounded"];
+	14[label = "snapshot_run_configuration", color = "0.03 0.6 0.85", style="rounded"];
+	15[label = "index_eukaryote_ssu_reference_asm20", color = "0.16 0.6 0.85", style="rounded"];
+	16[label = "index_host_reference", color = "0.62 0.6 0.85", style="rounded"];
+	17[label = "verify_eukaryotes_ncbi", color = "0.17 0.6 0.85", style="rounded"];
+	18[label = "eukaryote_evidence", color = "0.61 0.6 0.85", style="rounded"];
+	1 -> 0
+	2 -> 1
+	17 -> 1
+	8 -> 1
+	8 -> 2
+	17 -> 2
+	3 -> 2
+	4 -> 3
+	6 -> 4
+	7 -> 4
+	5 -> 4
+	7 -> 6
+	5 -> 7
+	9 -> 8
+	5 -> 8
+	10 -> 9
+	15 -> 9
+	5 -> 9
+	7 -> 9
+	11 -> 9
+	11 -> 10
+	12 -> 11
+	16 -> 12
+	13 -> 12
+	14 -> 13
+	7 -> 15
+	14 -> 16
+	8 -> 17
+	3 -> 18
+}            
