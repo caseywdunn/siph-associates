@@ -10,7 +10,8 @@ processing, mapping or statistical inference.
 ## Inputs and products
 
 Inputs are accepted v2 bacterial/viral grades, eukaryote grades, flowcell metadata,
-the manifest, catalog tables, and the completed Mycoplasmatales tree/gene summaries.
+the manifest and publication host-name metadata, catalog tables, and the completed
+Mycoplasmatales tree/gene summaries.
 The [figure guide](../../../figures/README.md) records export formats, source tables
 and provenance. Outputs are in `figures/cohort/`, `figures/mycoplasmatales/` and
 `figures/collection_context/`.
@@ -35,13 +36,12 @@ paths, beyond the files declared in the rules. Their provenance manifests identi
 actual consumed inputs. Small reviewed assets are copied to the separate manuscript
 repository; the manuscript is not built by these rules.
 
-The newer broad overview figures are made by
+The broad host-distribution and eukaryote figures are made by
 [figures/plot_associate_overview.py](../../../figures/plot_associate_overview.py),
 which is **not** a rule in this file. Its outputs and explicit command are in
 [the figure guide](../../../figures/README.md#biological-overview-figures).
-The direct Waki marker analysis is also outside this graph. The existing
-[two-rule collection-context graph](../../../figures/collection_context/rulegraph.svg)
-is a narrower historical reporting view; the graph below covers all four rules.
+The direct Waki marker analysis is also outside this graph; see its
+[methods and reproduction guide](../../waki_sequence_comparison.md).
 
 ## Preview, launch and rule graph
 

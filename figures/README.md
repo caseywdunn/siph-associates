@@ -1,116 +1,76 @@
-# Publication figures
+# Figures and supporting data for the paper
 
-Figures are generated here from the analysis repository's accepted results.
-Keep scripts, source tables and provenance together; copy selected small PDF
-exports to the manuscript repository with its `scripts/sync_assets.py` helper.
-The manuscript TeX build does not read from this repository.
+These figures and small data tables summarize the organisms detected with
+siphonophores and the relationships and predicted functions of their bacteria.
+The [paper-to-analysis index](../README.md#finding-analyses-from-the-paper)
+connects them to the Results sections. Figure numbers below refer to the current
+manuscript and its separate supplement.
 
-## Builds
+Figure 1 is an explanatory methods drawing maintained with the manuscript.
+It is separate from the generated [Snakemake rule graphs](../docs/workflow/README.md#read-the-graphs),
+which describe computational dependencies. The manuscript builds from selected
+copies of figures and tables; it does not read files from this repository at
+compilation time.
 
-The bounded downstream correction/figure workflow can be submitted through
-the existing persistent SLURM controller:
+## Selected figures and source tables
 
-```bash
-bash scripts/submit_review_corrections.sh
-```
-
-Inside an existing compute allocation (at least one CPU and 5 GB), run:
-
-```bash
-bash scripts/run_review_corrections.sh --dry-run
-bash scripts/run_review_corrections.sh
-```
-
-These entry points whitelist downstream statistics, eukaryote reporting and
-publication figure rules. Existing assembly and mapping products are inputs;
-missing upstream files cause failure rather than sequence reanalysis.
-On 2026-10-03, the workflow ran inside allocation 11793267 on r209u08n04,
-using one CPU and a 4-GB workflow memory budget. Source base revision was
-`0a7c3e85a0e8f4856a16e5fc75e6a0ec73ba7b19`, with review corrections preserved
-as working-tree snapshots because Git metadata was read-only.
-
-## Exports
-
-| Export | Build script | Inputs and interpretation |
+| Paper figure | Figure file | Supporting data |
 | --- | --- | --- |
-| `cohort/sampling.pdf` | `build_cohort.py` | Deduplicated manifest; all 205 libraries and all 37 host labels |
-| `cohort/mycoplasmatales_incidence.pdf` | `build_cohort.py` | Catalog v2 and unchanged primary grades; full descriptive denominators |
-| `cohort/eukaryote_evidence.pdf` | `build_cohort.py` | Corrected eukaryote reporting; 61 nonredundant detections, not species richness |
-| `mycoplasmatales/phylogeny_focus.pdf` | `../workflow/scripts/plot_mycoplasmatales_figures.py` | Existing bac120 tree and labels; branch lengths and local support preserved |
-| `mycoplasmatales/gene_functions.pdf` | same | Existing KO tables; strict and relaxed-only assignments distinguished |
-| `collection_context/depth_host_overview.pdf` | `plot_collection_context.py` | All 205 specimens; recorded/assigned depth, host and separate domain detection fractions |
-| `collection_context/dt68_depth_context.pdf` | same | All Nanomia and Resomia, DT-68 evidence grade, depth and collection context |
-| `collection_context/tissue_context.pdf` | same | Tissue denominators and within-tentacle Physalia regional descriptions |
-| `overview/study_overview.pdf` | `plot_associate_overview.py` | All 205 specimens; host sampling, supported detections and study exposition, with explicit photograph placeholders |
-| `overview/microbial_host_distribution.pdf` | same | Bacterial and archaeal detections across all 37 recorded host labels, with counts and full-cohort denominators |
-| `overview/eukaryote_evidence.pdf` | same | The same 61 retained detections in 39 libraries, grouped and labelled by host |
+| Figure 2: bacteria and archaea across hosts | [Microbial distributions](overview/microbial_host_distribution.pdf) | [Host counts and denominators](overview/microbial_host_distribution.tsv), [genome assignments](overview/microbial_display_assignments.tsv) |
+| Figure 3: bacterial relationships | [Metamycoplasmataceae tree](mycoplasmatales/phylogeny_focus.pdf) | [Tree data and labels](mycoplasmatales/source_phylogeny_focus.tsv) |
+| Figure 4: eukaryotic associates | [Eukaryote evidence](overview/eukaryote_evidence.pdf) | [Displayed evidence](overview/eukaryote_display.tsv), [full evidence table](cohort/eukaryote_evidence.tsv) |
+| Figure S1: host sampling | [Samples by host](cohort/sampling.pdf) | [Sampling counts](cohort/host_sampling.tsv), [sample metadata](cohort/sample_metadata.tsv) |
+| Figure S2: collection depth | [Depth and host context](collection_context/depth_host_overview.pdf) | [Specimen records](collection_context/library_context.tsv), [depth summaries](collection_context/depth_summary.tsv) |
+| Figure S3: DT-68 occurrence | [Nanomia and Resomia comparison](collection_context/dt68_depth_context.pdf) | [Specimen records](collection_context/dt68_specimens.tsv), [depth summaries](collection_context/dt68_depth_summary.tsv) |
+| Figure S4: tissue and region | [Tissue and regional context](collection_context/tissue_context.pdf) | [Tissue counts](collection_context/tissue_summary.tsv), [regional counts](collection_context/tissue_region_incidence.tsv) |
+| Figure S5: recurrent mycoplasmas | [Mycoplasmatales incidence](cohort/mycoplasmatales_incidence.pdf) | [Positive and total specimens](cohort/mycoplasmatales_incidence.tsv) |
+| Figure S6: predicted functions | [Gene functions](mycoplasmatales/gene_functions.pdf) | [Function assignments](mycoplasmatales/source_gene_functions.tsv) |
 
-PDFs are vector exports with embedded TrueType fonts. PNG files are review
-previews. `cohort/source_checksums.tsv` and `cohort/source_revision.txt` identify
-the inputs and plotting code. `mycoplasmatales/manifest.json` also records
-runtime package versions and output checksums; its `provenance/` directory
-contains the exact plotting script. The manuscript copy manifest additionally
-records hashes of every copied artifact and exact dirty-source snapshots.
+PDFs are vector figures; PNG files alongside them are previews. The
+[cohort tables](cohort/) retain all 205 libraries, including those with no
+accepted detection. The microbial-distribution cells count each specimen once
+per displayed group. The eukaryote figure shows only the 39 positive specimens;
+its broad taxonomic groups are not comparable measures of species richness.
+[Collection-context methods](../docs/collection_context_analysis.md) explain the
+recorded versus assigned depths and the overlap of host, tissue and geography.
 
-All libraries, including those sequenced on multiple flowcells, contribute to
-descriptive exports. Only flowcell-based inference uses the explicitly
-identified single-flowcell subset. The separate figure directory README records
-Mycoplasmatales interpretation and visual checks.
+Table 1 uses the [domain summary](overview/domain_summary.tsv).
+[Selected nutritional and defense annotations](../docs/mdb_revision.md) and
+[co-detection counts](mdb_revision/cooccurrence.tsv) support Tables S2 and S3.
+The other supplementary tables summarize detection-threshold sensitivity
+(Table S1) and inventory the accompanying data (Table S4); their manuscript
+formatting is maintained with the supplement. See the
+[statistical methods](../docs/workflow/phase6_analysis/README.md) for sensitivity
+outputs and the [trematode comparison](../docs/waki_sequence_comparison.md) for
+additional marker evidence.
 
-## Collection-context descriptions
+## Rebuild figures from accepted results
 
-The collection-depth and tissue comparisons use accepted cohort tables and
-curated metadata. See [analysis scope and interpretation](../docs/collection_context_analysis.md).
-The table producer uses Python standard library only. The existing plotting
-environment supplies Python 3.11.4, Matplotlib 3.7.1 and NumPy 1.24.2; provenance
-records actual versions. With the existing Snakemake 7.24.0 environment on PATH,
-preview this bounded target from the repository root:
+Use the [publication workflow guide](../docs/workflow/publication_figures/README.md)
+for the canonical environment, separate dry-run and launch commands, and embedded
+rule graph. Its four reporting rules produce cohort figures, the bacterial tree
+and function panels, and collection-context tables and plots. It restricts
+execution to those reporting rules and requires completed upstream results.
+It does not run sequence assembly, mapping or statistical inference.
 
-```bash
-XDG_CACHE_HOME=/tmp/siph-associates-snakemake-cache snakemake \
-  publication_collection_context_figures --cores 1 --dry-run \
-  --allowed-rules collection_context_tables publication_collection_context_figures
-```
+The figure producers are:
 
-Remove `--dry-run` to execute the same target. This scope includes only the two
-new lightweight producers; missing cohort inputs fail instead of triggering
-upstream analyses. Their actual commands, hashes and code snapshots are in
-`collection_context/provenance.json` and `collection_context/plot_manifest.json`.
-The source study, host, depth, region and tissue overlap, so these are descriptive
-comparisons. No new statistical tests or sequence analyses were run.
+- [build_cohort.py](build_cohort.py): sample metadata, sampling, detections and
+  Mycoplasmatales incidence. Publication host names are applied to the frozen
+  analysis metadata while the original study names are retained.
+- [plot_mycoplasmatales_figures.py](../workflow/scripts/plot_mycoplasmatales_figures.py):
+  the focused bacterial tree and predicted functions.
+- [analyze_collection_context.py](../scripts/analyze_collection_context.py) and
+  [plot_collection_context.py](plot_collection_context.py): depth, tissue and
+  regional summaries and figures.
 
-![Bounded collection-context reporting rules](collection_context/rulegraph.svg)
+### Biological overview figures
 
-The graph is generated from the same target and allowed rules (Snakemake
-7.24.0, Graphviz 2.40.1). Check its freshness from the repository root:
-
-```bash
-set -o pipefail
-export XDG_CACHE_HOME=/tmp/siph-associates-snakemake-cache
-export PYTHONHASHSEED=0
-snakemake publication_collection_context_figures --snakefile Snakefile \
-  --cores 1 --rulegraph \
-  --allowed-rules collection_context_tables publication_collection_context_figures \
-  | dot -Tsvg > /tmp/collection-context-rulegraph.svg
-cmp figures/collection_context/rulegraph.svg /tmp/collection-context-rulegraph.svg
-```
-
-After a reviewed rule change, replace the SVG with the generated file.
-Two generations were verified byte-identical; the normal dry run was up to
-date and a forced dry run contained exactly the two reporting jobs. There
-is no repository CI configuration; this freshness command is the local
-pre-merge check.
-
-## Biological overview figures
-
-The four main-figure selection comprises the study overview, broad microbial
-distribution, existing focused Mycoplasmatales phylogeny, and the eukaryote
-matrix with host labels. The separate Mycoplasmatales incidence and gene-function
-figures remain available for supplementary use. This changes figure selection
-and presentation without changing the accepted evidence thresholds.
-
-From the repository root, inside the existing compute allocation, generate the
-three new overview figures with the existing plotting environment:
+Figures 2 and 4 are generated by the standalone
+[plot_associate_overview.py](plot_associate_overview.py), outside the reporting
+rule graph. First generate the cohort and collection-context tables with the
+publication workflow above. Then, from the analysis repository root, use the
+existing Yale plotting environment:
 
 ```bash
 MPLCONFIGDIR=/tmp/siph-associates-matplotlib \
@@ -118,59 +78,26 @@ MPLCONFIGDIR=/tmp/siph-associates-matplotlib \
   figures/plot_associate_overview.py
 ```
 
-The script consumes the accepted `cohort/sample_metadata.tsv`, bacterial,
-viral and eukaryote detection tables, and the collection-context host summary.
-It verifies the 205-library join, accepted grades, 61 retained eukaryotic
-detections in 39 libraries, and agreement of independently collapsed domain
-counts with the accepted host summary. No read processing, assembly, mapping
-or statistical inference is rerun. The final plotting run used one CPU and
-a 4-GB budget in allocation `11793267`; generation took approximately four
-seconds. Python, Matplotlib and NumPy versions, command, exact code snapshot,
-input hashes and output hashes are retained in `overview/manifest.json`.
+This reads the accepted sample metadata, bacterial, viral and eukaryote detections,
+and host summaries. It writes figures and source tables under `figures/overview/`.
+The recorded plotting environment uses Python 3.11.4, Matplotlib 3.7.1 and NumPy
+1.24.2; manifests record the runtime used for each export. Large sequence inputs
+are not needed for these plots, but the accepted upstream tables are required.
+There is no separate dry-run mode for this plotting script.
 
-Supporting tables have these meanings:
+## Source identity and checks
 
-- `study_sampling.tsv`: all specimens by study and the three displayed host
-  groupings, Physalia, Nanomia and other siphonophores.
-- `domain_summary.tsv`: specimens with at least one supported detection in
-  each domain. These are detection counts, not estimates of comparable
-  sampling sensitivity or organism abundance across domains.
-- `microbial_host_distribution.tsv`: host-specific positive counts and
-  denominators for each displayed lineage.
-- `microbial_display_assignments.tsv`: the display category assigned to
-  each retained genome-target detection, preserving its original taxonomy.
-  Metamycoplasmataceae is retained as a whole, followed by seven common
-  identified bacterial groups, remaining bacteria and archaea. Categories
-  partition genome targets, but a specimen can contain several categories.
-  The adjacent "any bacteria" bar collapses all bacterial categories per
-  specimen; it excludes archaea. Colour is a fraction, and cell numbers are
-  positive specimens, so single-specimen hosts remain visible as such.
-- `eukaryote_display.tsv`: unchanged reporting unit, grade and specimen,
-  joined to the current host identification and its displayed row.
-  Rows retain all 39 positive libraries and are grouped by host;
-  the other 166 specimens provide the cohort denominator but have no
-  retained eukaryote cell. Eukaryote groups run across the top, matching
-  the host-by-associate orientation of the microbial figure. Bars at right
-  count detected groups per library, retaining the original evidence grades.
-  Broad reporting units can include several
-  sequences or organisms, including both trematodes and cestodes.
+[Cohort checksums](cohort/source_checksums.tsv), the
+[tree/function manifest](mycoplasmatales/manifest.json),
+[collection-table provenance](collection_context/provenance.json),
+[collection-plot manifest](collection_context/plot_manifest.json), and
+[overview manifest](overview/manifest.json) identify the inputs, producing code
+and outputs. The manuscript's transfer record identifies the selected copied
+assets and their checksums. This separates figure presentation from sequence
+processing and preserves the source of reported results.
 
-The two photograph panels are explicitly empty placeholders for Physalia
-and Nanomia septata. No specimen illustration or photograph is invented.
-Vector PDFs use embedded TrueType fonts. The final PDFs were rendered and
-visually inspected at a manuscript width of 160 mm: study overview and
-microbial distribution are 168.2 mm high, and the eukaryote matrix is
-160 mm high. The smallest font is 7.27 pt at that width; all text remains
-within the PDF bounds. PNG files are review previews. Ruff formatting and
-linting passed for the new script.
-
-The retained main phylogeny was also resized for this figure package. At
-160 mm width, its smallest text is 7.13 pt, its tip labels are 7.92 pt and
-its height is 153.2 mm. The full source tree and
-`mycoplasmatales/source_phylogeny_focus.tsv` were verified byte-identical
-before and after the visualization change, preserving all 21 tips, branch
-lengths and 19 node-support labels. The gene-function PNG and supporting
-table were likewise byte-identical. Both exports were regenerated through
-their existing script in the same allocation, updating
-`mycoplasmatales/manifest.json` and its exact source snapshot; no phylogenetic
-inference or annotation was rerun.
+The repository's [graph-freshness CI workflow](../.github/workflows/rulegraphs.yml)
+checks the generated workflow graphs in its configured data-access environment.
+[Graph regeneration and checks](../docs/workflow/README.md#regenerate-and-check-the-graphs)
+use the same generator locally. These checks concern dependency diagrams;
+figure and scientific-result validation are recorded in the producer manifests.

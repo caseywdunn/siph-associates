@@ -14,9 +14,12 @@ by exact hashes and source snapshots, rather than the base revision alone.
 
 ## Inputs, outputs and interpretation
 
-`scripts/analyze_collection_context.py` joins `manifest.csv` to accepted
-exports in `figures/cohort/`: bacterial, viral and eukaryote detections,
+`scripts/analyze_collection_context.py` joins the publication sample metadata
+in `figures/cohort/sample_metadata.tsv` to accepted exports in the same directory:
+bacterial, viral and eukaryote detections,
 physical-flowcell metadata and the verified Mycoplasmatales species mapping.
+The publication metadata derive from the frozen manifest with the reviewed host-name
+overlay applied by `figures/build_cohort.py`; the original analysis manifest is preserved.
 It validates a one-to-one library join and keeps libraries with zero accepted
 detections. All outputs are in `figures/collection_context/`:
 

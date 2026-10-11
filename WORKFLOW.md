@@ -2,7 +2,7 @@
 
 For current stage-by-stage methods, input/output descriptions, complete target
 coverage and generated rule graphs, use the
-[workflow audit guide](docs/workflow/README.md). The operational and historical
+[analysis methods and rule graphs](docs/workflow/README.md). The operational and historical
 gate instructions below remain useful for execution and controller recovery;
 their early target list is not the complete set of analyses.
 

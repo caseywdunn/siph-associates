@@ -1,18 +1,19 @@
-# Analysis workflow audit guide
+# Analysis methods and rule graphs
 
-Start here to follow the analyses from the original sequencing libraries to
-the reported figures. Each of the 19 rule files has a descriptive README below,
-with inputs, products, scientific steps, exact rule names, preview/launch commands
-and a generated dependency graph. The guides describe the current implementation;
-the linked decision records explain the accepted scientific choices.
+Follow DNA from the original sequencing libraries to the paper's figures and
+supporting tables. The [paper-to-analysis index](../../README.md#finding-analyses-from-the-paper)
+connects Results headings to these methods. The guides below cover all 19 rule
+files: each explains the biological purpose, inputs, outputs and interpretation,
+and places a generated rule graph beside its preview and run commands.
 
-The source workflow, analysis configurations and accepted results are unchanged
-by this documentation. Viewing or regenerating the graphs does not run analyses.
-Production `all` means **input readiness only**, not the full paper workflow.
+Read screening and assembly are complementary branches. All libraries can be
+compared with shared microbial sequences, including those without an assembly.
+A rule graph shows how computational steps depend on one another; it does not
+show that a run completed or imply that every sample yielded a genome.
 
 ## Follow the data
 
-| Stage / rule file | What to audit | Guide |
+| Stage / rule file | What it explains | Methods and graph |
 | --- | --- | --- |
 | `common.smk` | Sample membership, read routes, configuration and default target | [Shared decisions](common/README.md) |
 | `preprocess.smk` | Read cap, adapter/quality filtering and small test inputs | [Read preparation](preprocess/README.md) |
@@ -70,7 +71,7 @@ The operational details and recovery procedure remain in
 Original FASTQs and large databases are external to Git. Their locations are
 recorded in [`config/samples.tsv`](../../config/samples.tsv),
 [`config/config.yaml`](../../config/config.yaml) and the stage JSON files.
-See the [project manifest guide](../../README.md#the-manifest) and
+See the [sample and input overview](../../README.md#data-and-interpretation) and
 [`data/metadata/`](../../data/metadata) for input inventory and provenance.
 Fresh execution requires access to those files and the configured databases;
 the small smoke test also draws reads from real source libraries. Some later
@@ -81,6 +82,37 @@ Each stage guide gives a copyable dry run and a separate cluster launch command.
 Most targets can construct missing upstream products. The publication guide
 instead uses an explicit list of permitted reporting rules, matching the
 existing controller's supported bounded-execution mechanism.
+
+### Rebuild the sample manifest
+
+The retained manifest is the starting input for the analyses. To reconstruct it,
+use [build_manifest.py](../../scripts/build_manifest.py), which combines the
+source-study tables, reads sequencing headers from the original FASTQs, and
+applies the [reviewed metadata overlay](../../data/metadata/sample_metadata_updates.tsv).
+This requires access to the recorded sequencing paths. Resource inventory also
+requires the configured reference databases. From the repository root in the
+environment above:
+
+```bash
+python3 scripts/build_manifest.py
+python3 scripts/inventory_phase0_resources.py
+python3 scripts/summarize_phase0.py
+python3 scripts/validate_manifest.py
+```
+
+These commands write `manifest.csv` and inventory, provenance, summary and
+validation tables in `data/metadata/`. They do not run sequence analyses and
+have no dry-run mode. Check the regenerated inputs against the recorded freeze:
+
+```bash
+python3 scripts/validate_manifest.py --freeze data/metadata/manifest.freeze.sha256
+```
+
+If intentionally establishing a new accepted input version after reviewing the
+differences, `python3 scripts/freeze_manifest.py` records new checksums. Replacing
+the freeze does not demonstrate reproduction of the original inputs. The
+[metadata source review](../../data/metadata/enrichment/2026-10-04/README.md)
+documents the retained collection records and unresolved discrepancies.
 
 ## Read the graphs
 
@@ -119,14 +151,15 @@ every reported output is built by Snakemake:
   assembly-membership freeze use separate scripts and reviewed source tables.
 - The direct Waki marker comparison has its own
   [methods and reproduction guide](../waki_sequence_comparison.md).
-- The current study overview and broad host-distribution figures use the explicit
+- The broad host-distribution and eukaryote figures use the explicit
   [overview plotting command](../../figures/README.md#biological-overview-figures).
-- Selected assets are copied to `../manuscript_siph_associates`; manuscript
-  compilation and editorial changes happen in that separate repository.
+- Selected assets are copied to the separate manuscript repository. Compilation
+  and the explanatory methods drawing (Figure 1) are maintained there; they
+  are not outputs of these rule files.
 
-The [run log](../../RUNLOG.md), [figure provenance](../../figures/README.md) and
-stage decision records identify completed, accepted outputs. Older v1 outputs
-and historical plan sections are retained; current mapping and inference use v2.
+The [figure guide](../../figures/README.md) identifies selected outputs and
+their source tables. Current mapping and inference use catalog v2. Detailed
+execution evidence is retained in the [run log](../../RUNLOG.md) and stage records.
 
 ## Regenerate and check the graphs
 

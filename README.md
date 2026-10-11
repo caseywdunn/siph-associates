@@ -1,128 +1,123 @@
-# siph_associates
+# Organisms associated with siphonophores
 
-Cross-study mining of non-host sequence — **bacteria, viruses, eukaryotic
-parasites, and prey** — from whole-genome shotgun data of siphonophores
-(Cnidaria: Hydrozoa). This is the public analysis repository for the paper; it
-pools three WGS datasets and analyzes them under one symmetric pipeline in which
-each study is a first-class covariate, not a hierarchy.
+This repository contains the analyses accompanying:
 
-To audit the implementation, start with the
-[analysis workflow guide](docs/workflow/README.md). It indexes descriptive READMEs
-for all 19 rule files, with generated rule graphs, inputs/outputs, interpretation
-limits and explicit preview/launch commands. Viewing and regenerating those
-graphs does not execute analyses.
+**Organisms associated with siphonophores revealed by short-read whole-genome sequencing**
 
-| Study | Data | Role |
-|-------|------|------|
-| Church et al. 2025, *Curr. Biol.* ([10.1016/j.cub.2025.05.066](https://doi.org/10.1016/j.cub.2025.05.066)) | 151 *Physalia* libraries (5 spp.) + chromosome-scale *P. physalis* genome | Physalia sampling; a host reference |
-| Ahuja et al. 2024, *GBE* ([10.1093/gbe/evae048](https://doi.org/10.1093/gbe/evae048)) | 32-species genome skim across the siphonophore phylogeny | phylogenetic breadth |
-| Ahuja et al. 2026, *PLoS One* ([10.1371/journal.pone.0351247](https://doi.org/10.1371/journal.pone.0351247)) | *Nanomia* population set + chromosome-scale *N. septata* genome | Nanomia sampling; a host reference |
+*Manuscript citation and public link to be added.*
 
-## Publication preparation (2026-10-03)
+We examine DNA from bacteria, archaea, viruses, prey and parasites captured
+alongside siphonophore DNA during genome sequencing. The study uses 205 specimens:
+151 *Physalia*, 22 *Nanomia* and 32 other siphonophores. It concentrates on the
+first two genera, with exploratory comparisons across other hosts. Start with
+the tables below to connect the paper to its methods and supporting data;
+understanding the analyses does not require running the code.
 
-Catalog v2, cohort mapping, corrected downstream statistics and eukaryote
-reporting have completed validation. Publication figures are generated in
-[`figures/`](figures/README.md), with source tables and checksums. The manuscript
-and separate supplement are in `../manuscript_siph_associates`.
+## Source studies
 
-All 205 libraries remain in descriptive analyses. Only flowcell-based inference
-uses the single-physical-flowcell subset (136 libraries overall; 122 Physalia;
-12 Nanomia). The genus-wide Nanomia count is 22, including one library from
-Ahuja2024 and 21 from Ahuja2026. See the corrected decision records in `docs/`
-and the latest RUNLOG entry. Earlier implementation-status sections below are
-historical and should not override the accepted versioned outputs.
+Each specimen is represented by one sequencing library. Counts below are the
+unique libraries assigned to each primary study in this analysis; samples reused
+across publications are counted once. The [library provenance table](data/metadata/library_provenance.tsv)
+retains their relationships to all source studies.
 
-Collection metadata were enriched on 2026-10-04 from supplied specimen sheets
-and 185 public BioSamples. Coordinates now cover all 205 specimens and 169
-have tissue descriptions. Depths or intervals cover 202 specimens after
-scoring Physalia without an explicit depth record as 0 m, as instructed by
-the user. The 150 assigned zeros are distinguished from the 52 source-record
-depths by `collection_depth_basis`; see the
-[depth convention](docs/metadata_depth_conventions.md).
-Existing values and all biological results are preserved. See the
-[metadata review](data/metadata/enrichment/2026-10-04/README.md) for source
-discrepancies, coverage and reproduction. Manifest rebuilds apply the accepted
-`data/metadata/sample_metadata_updates.tsv` overlay.
+| Study | Samples in this analysis | Data | Role |
+| --- | ---: | --- | --- |
+| Ahuja et al. 2024, *Genome Biology and Evolution* ([paper](https://doi.org/10.1093/gbe/evae048)) | 33 | Genome skimming across siphonophore species | Broad sampling across the siphonophore phylogeny |
+| Church et al. 2025, *Current Biology* ([paper](https://doi.org/10.1016/j.cub.2025.05.066)) | 151 | *Physalia* population samples and a chromosome-scale *P. physalis* genome | Intensive *Physalia* sampling and a host reference |
+| Ahuja et al. 2026, *PLOS One* ([paper](https://doi.org/10.1371/journal.pone.0351247)) | 21 | *Nanomia* samples and a chromosome-scale *N. septata* genome | Intensive *Nanomia* sampling and a host reference |
+| **Total** | **205** | | |
 
-## Direct trematode comparison and revised figures
+One *Nanomia* library comes from Ahuja et al. 2024, giving 22 across studies.
+The [sample metadata](figures/cohort/sample_metadata.tsv) provide host names,
+collection locations, tissues, depths and sequencing accessions.
 
-A targeted comparison of the eight trematode-positive specimens against
-Waki et al.'s deposited markers and their external comparison references
-recovers Dinurus-like ITS2-containing and COI sequences and
-Prodistomum-like 28S sequences. The comparison retains competing hits and
-marker-linkage limits; it does not change the original cohort presence grades.
-See [methods, results and reproduction](docs/waki_sequence_comparison.md) and
-[reference retrieval](data/sources/waki2026/README.md).
+## Finding analyses from the paper
 
-The main-figure set now opens with a study overview and host-photo placeholders,
-followed by broad bacterial/archaeal distributions, one focused bacterial
-phylogeny, and eukaryotic evidence with host-species labels. Detailed
-Mycoplasmatales incidence and gene functions remain available for the
-manuscript supplement. See [figure builds and source data](figures/README.md).
+The rows follow the current manuscript's Results headings in order. Figure and
+table numbers refer to the manuscript and its separate supplementary materials.
+Each guide explains the methods and links to their implementation; the data links
+point to small tables retained in this repository.
 
-## Repository layout
+| Results section in the paper | Figures and tables | Analyses and files |
+| --- | --- | --- |
+| Genome sequencing reveals a broad assemblage of associated organisms | Figure 1; Figures S1–S2; Table 1 | [Workflow overview](docs/workflow/README.md), [sample metadata](figures/cohort/sample_metadata.tsv), [sampling](figures/cohort/host_sampling.tsv), and [evidence summary](figures/overview/domain_summary.tsv) |
+| Bacterial associates include diverse proteobacteria and recurrent Metamycoplasmataceae | Figure 2; Figure S5 | [Genome recovery](docs/workflow/phase3_assembly/README.md), [genome selection](docs/workflow/phase3_catalog/README.md), [detection criteria](docs/workflow/phase6_analysis/README.md), and [host distributions](figures/overview/microbial_host_distribution.tsv) |
+| *Vibrio* diversity extends across *Physalia* and *Nanomia* | Text results | [Read mapping](docs/workflow/phase5_mapping/README.md), [assembly support](docs/workflow/phase6_analysis/README.md), and [bacterial detections](figures/cohort/bacterial_detections.tsv) |
+| Metamycoplasmataceae have relatives in other marine animals | Figure 3; Figures S3 and S5 | [Genome phylogeny](docs/workflow/mycoplasmatales_phylogeny/README.md), [cnidarian marker comparisons](docs/workflow/cnidarian_16s/README.md), [Cassiopea comparisons](docs/workflow/cassiopea_16s/README.md), [tree data](figures/mycoplasmatales/source_phylogeny_focus.tsv), and [host incidence](figures/cohort/mycoplasmatales_incidence.tsv) |
+| Metamycoplasmataceae differ in predicted ways of obtaining energy | Figure S6; Table S2 | [Gene functions](docs/workflow/mycoplasmatales_gene_content/README.md), [figure source data](figures/mycoplasmatales/source_gene_functions.tsv), and [nutritional annotations](figures/mdb_revision/amino_acid_modules.tsv) |
+| Three bacterial lineages are frequent in southwestern Pacific and Indian Ocean samples | Figure S4; Table S1 | [Regional tests and sensitivity analyses](docs/workflow/phase6_analysis/README.md), [depth and tissue comparisons](docs/collection_context_analysis.md), and [regional detection counts](figures/collection_context/tissue_region_incidence.tsv) |
+| One archaeal lineage recurs in *Physalia* and *Nanomia* | Figure 2; Table 1 | [Detection methods](docs/workflow/phase6_analysis/README.md), [bacterial/archaeal detections](figures/cohort/bacterial_detections.tsv), and [host distributions](figures/overview/microbial_host_distribution.tsv) |
+| Viral diversity includes viruses of associated bacteria | Table 1 | [Viral recovery and selection](docs/workflow/phase3_catalog/README.md), [predicted microbial hosts](docs/workflow/phase4_catalog/README.md), and [viral detections](figures/cohort/viral_detections.tsv) |
+| Eukaryotic associates include prey and parasite lineages | Figure 4; Table 1 | [Ribosomal-marker analysis](docs/workflow/eukaryote_gate/README.md), [eukaryote evidence](figures/cohort/eukaryote_evidence.tsv), and [direct trematode comparison](docs/waki_sequence_comparison.md) |
 
-```
-README.md              this file
-PLAN.md                the analysis plan — symmetric pipeline (S0–S9) + locked parameters
-EXECUTION_PLAN.md      goal-ready phase gates, acceptance tests, and SLURM recovery model
-WORKFLOW.md            workflow targets, validation, submission, and recovery commands
-manifest.csv           unified deduplicated manifest (205 libraries; the S0 input)
-data/metadata/         paired FASTQs, provenance, resources, checksums, validation
-scripts/
-  build_manifest.py    reproducibly builds manifest.csv from data/sources/
-workflow/              modular Snakemake rules and atomic rule scripts
-config/                production configuration and 205-library sample table
-profiles/slurm/         persistent controller/worker submission profile
-envs/                   pinned portable software definitions
-data/sources/          source supplements from the three studies (provenance)
-data/results/          analysis outputs (not tracked)
-figures/               publication PDFs, previews, source tables and provenance
-```
+[Co-detection summaries](figures/mdb_revision/cooccurrence.tsv) support Table S3
+and the Discussion. Table S4 in the supplement inventories the accompanying data.
+Figure 1 is an explanatory methods drawing maintained with the manuscript;
+the executable workflow's generated rule graphs are linked below.
 
-## The manifest
+## Following the analysis steps
 
-[`manifest.csv`](manifest.csv) is the single source of truth: **one row per
-unique sequencing library** (the analysis unit), with `specimen_id` identifying
-the physical animal. It carries taxonomy, collection data, exact depth, explicit
-FASTQ lists, true Illumina instrument/run/flowcell/lane batches, and inclusion
-state. There are **205 libraries**:
-Church 2025 (151 primary rows), Ahuja 2024 (33), and Ahuja 2026 (21). The
-study-to-library relationship is normalized separately in
-[`data/metadata/library_provenance.tsv`](data/metadata/library_provenance.tsv):
-Church YPM-IZ-104465/Ahuja NA22 is one library with two provenance records;
-CWD16 and NA19 are distinct Ahuja 2024 libraries both reused by Ahuja 2026.
+Reads are the short DNA sequences produced by sequencing. Assembly joins them
+into longer sequences. Read screening and assembly provide parallel evidence:
+every library is screened and compared with shared microbial catalogs, even if
+it produces no assembled microbial genome. Both host-depleted and other libraries
+contribute assemblies. Host-read removal uses the *Physalia* reference for 151
+libraries and the *N. septata* reference for ten; the other 44 use no host reference.
 
-Explicit selected mate pairs and sequencing batches parsed from FASTQ headers are in
-[`data/metadata/raw_files.tsv`](data/metadata/raw_files.tsv). Phase-0 resources,
-host-reference audits, validation, and the checksum freeze are in the same
-directory. Twenty-one of the 151 published Church libraries were submitted to
-PRJNA1092115 but are **not yet released by NCBI**, so
-their `sra_run` is left blank (reads held locally; release pending). The only
-field not fully resolved is per-specimen *Nanomia* CO1 species for the 7
-Rhode-Island / Hawai'i congeners (marked `Nanomia sp.`; needs Ahuja's CO1 calls).
+| Analysis step | What it does | Methods and rule graphs |
+| --- | --- | --- |
+| Prepare reads | Quality-filter sequences; choose host-depleted reads or a smaller read subset for assembly | [Read preparation](docs/workflow/preprocess/README.md), [assembly inputs](docs/workflow/phase3_cohort/README.md), [graph](docs/workflow/graphs/inputs.svg) |
+| Screen unassembled reads | Find candidate organisms and ribosomal markers before host-read removal | [Screening guide](docs/workflow/screens/README.md), [graph](docs/workflow/graphs/screening.svg) |
+| Assemble and recover genomes | Reconstruct longer DNA sequences, microbial genomes and viral candidates from individual libraries | [Assembly guide](docs/workflow/phase3_assembly/README.md), [graph](docs/workflow/graphs/assembly.svg) |
+| Build shared catalogs | Select recovered sequences, group close relatives and add nominated public microbial genomes | [Recovered sequences](docs/workflow/phase3_catalog/README.md), [shared catalogs](docs/workflow/phase4_catalog/README.md), [graph](docs/workflow/graphs/mapping_catalog.svg) |
+| Detect associates across libraries | Map unassembled reads to the catalogs and assess support from the same specimen's assemblies | [Mapping](docs/workflow/phase5_mapping/README.md), [detection criteria](docs/workflow/phase6_analysis/README.md), [mapping graph](docs/workflow/graphs/mapping.svg) |
+| Identify other eukaryotes | Compare ribosomal-marker reads and assembled markers with reference sequences | [Eukaryote guide](docs/workflow/eukaryote_gate/README.md), [graph](docs/workflow/graphs/eukaryotes.svg), [trematode comparison](docs/waki_sequence_comparison.md) |
+| Compare bacterial relationships and functions | Infer a genome tree, search earlier marker surveys and compare predicted gene functions | [Phylogeny](docs/workflow/mycoplasmatales_phylogeny/README.md), [tree graph](docs/workflow/graphs/phylogeny.svg), [gene functions](docs/workflow/mycoplasmatales_gene_content/README.md), [function graph](docs/workflow/graphs/gene_content.svg) |
+| Compare distributions and assess sensitivity | Describe host and tissue patterns, test regional variation and assess sequencing-batch effects | [Statistical methods](docs/workflow/phase6_analysis/README.md), [graph](docs/workflow/graphs/analysis.svg), [collection context](docs/collection_context_analysis.md) |
+| Produce figures and supporting tables | Summarize accepted results for the paper | [Reporting guide](docs/workflow/publication_figures/README.md), [graph](docs/workflow/graphs/publication.svg), [figure and data index](figures/README.md) |
 
-Rebuild it with:
+The [full workflow guide](docs/workflow/README.md) covers all 19 rule files and
+16 generated graphs. Each stage guide embeds its graph beside preview and run
+commands. Graph arrows show computational dependencies; repeated sample jobs
+are collapsed into one box per rule. Some reviewed inputs and standalone
+analyses are documented separately, so the graphs do not represent every handoff.
 
-```bash
-python3 scripts/build_manifest.py
-python3 scripts/inventory_phase0_resources.py
-python3 scripts/summarize_phase0.py
-python3 scripts/validate_manifest.py
-python3 scripts/freeze_manifest.py
-python3 scripts/validate_manifest.py --freeze data/metadata/manifest.freeze.sha256
-```
+## Data and interpretation
 
-## Status
+The [sample metadata](figures/cohort/sample_metadata.tsv) and
+[detection tables](figures/cohort/) are starting points for exploring the results.
+The [input manifest](manifest.csv), [read inventory](data/metadata/raw_files.tsv)
+and [source-study records](data/sources/) document the original inputs.
+Publication metadata retain updated host names alongside the names used in the
+source studies. [Depth conventions](docs/metadata_depth_conventions.md) distinguish
+recorded depths from assigned surface values.
 
-Accepted v2 catalogs, cohort mapping, downstream statistics and eukaryote
-reporting are complete, with publication and comparative-context outputs as
-described above. Historical phase gates and execution details remain in
-`RUNLOG.md` and the linked decision records. The
-[workflow audit guide](docs/workflow/README.md) describes the current rule files
-and distinguishes the older test routes from the accepted cohort methods.
-The manuscript (LaTeX) lives in a separate repository and cites this one.
+All 205 libraries contribute to descriptive summaries. Tests accounting for
+sequencing batch use a smaller subset: 136 libraries sequenced on one physical
+flowcell, including 122 *Physalia*. Sampling, tissue, host reference availability,
+geography and source study overlap. A detection establishes sequence evidence;
+it does not by itself establish infection, symbiosis or host specificity.
 
-## Citation / license
+## Reproducing an analysis
 
-TBD (add Zenodo DOI on release).
+Start with the relevant stage guide above and its
+[environment and input instructions](docs/workflow/README.md#environment-and-inputs).
+The workflow uses Snakemake to connect analysis steps and their files. Each guide
+provides a separate **dry run** (a preview that executes no analysis jobs), a
+launch command and a generated rule graph. Instructions for Yale's computing
+cluster and job recovery are in the [operation guide](WORKFLOW.md).
+The default Snakemake target checks input readiness; it does not run the whole paper.
+
+This repository retains code, settings, small source files, figures and supporting
+tables. Large sequencing files, reference databases and most sequence-analysis
+outputs are stored separately; accessions and configured locations are described
+in the input instructions. Some libraries lack public run accessions in the
+recorded metadata, and some steps require reviewed intermediate inputs. A clone
+alone is therefore insufficient for a complete rerun. The stage guides identify
+these requirements and where outputs are written.
+
+## Citation and development
+
+The manuscript citation, public supplementary-material link and versioned archive
+DOI will be added when available. [Workflow documentation checks](dev_docs/workflow-documentation.md)
+and [execution records](RUNLOG.md) are maintained separately from the methods guides.
