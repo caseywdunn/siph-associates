@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "source_revision": "00a629cd917440a97a8a5562b70e6837a5115d83",
+  "source_note": "Working-tree reporting changes are identified by script and input checksums.",
+  "script_sha256": "770b11a5dc4de39e391c7d3dfb6cdc687aa484c9494cc07a6a2195c2e48e727c",
+  "inputs_sha256": {
+    "figures/cohort/sample_metadata.tsv": "d76e347a06bcbe050886f84fd9f35561f3548b9a17d1973a8b5c10bf334b2e54",
+    "figures/collection_context/library_context.tsv": "06f39d2f3637d8938243a1dd580605210b4bfab00e6864932bad99ba5799b44e",
+    "config/publication_host_names.tsv": "5b595dde7a71c2aba438a581f10051663d239bb069359d3077bc09a4fbfe0f8c",
+    "config/samples.tsv": "727e749ac2e2218989de237401bfc89abcf4fd8f63b7ec2d152c4dc2e2b0be9f",
+    "data/results/phase3_catalog/mags/mag_catalog.tsv": "571be5903599c802ff7a88cb1a9a9cf24c378b37b1ab1049d4aff9365e234c20",
+    "data/results/phase3_cohort/assembly_summary.tsv": "a1e70e4725db96a6ea1fa65069426cd3c067c4ee783dceea67c78b2c54cb1018"
+  },
+  "outputs_sha256": {
+    "figures/dalila_revision/host_species_summary.tsv": "bf16ecd65b011ac3a05784c3d43b4621c78f0dd99f42fa43f38b0ed85e46ace9",
+    "figures/dalila_revision/values.tex": "04d60f71306c2244044efd86e2b17c34e2bb2150327e1f98427f7745d0712410",
+    "figures/dalila_revision/clade_a_regions.tsv": "f095156033080a208fed1e9a67d20c7a7adbcb5886ec62a7c978f9047dd7af4c",
+    "figures/dalila_revision/assembly_routes.tsv": "0f703a500bdb4ea19933fbfff93e22d39429c1d3b1a19ed9092cad442f1ceaee",
+    "figures/dalila_revision/recorded_life_stages.tsv": "a2a19f132d7eb53a8a1bdb325635642592cd6f98a8d14af96eeaf6e4fa53ca26",
+    "figures/dalila_revision/summary.json": "aa6b3f72ec57fbaca772a44570806fc52cb440ff9c561ac922c5884ebf02823a"
+  }
+}

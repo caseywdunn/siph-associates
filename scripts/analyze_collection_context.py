@@ -38,7 +38,7 @@ COUNTS = {
 }
 FOCAL = ("MAGSP0005", "MAGSP0007", "MAGSP0010", "Vibrio")
 INPUTS = {
-    "manifest": "manifest.csv",
+    "manifest": "figures/cohort/sample_metadata.tsv",
     "bacteria": "figures/cohort/bacterial_detections.tsv",
     "viruses": "figures/cohort/viral_detections.tsv",
     "eukaryotes": "figures/cohort/eukaryote_evidence.tsv",

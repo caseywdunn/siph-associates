@@ -9,6 +9,16 @@ Physalia megalista	Photobacterium	0	26	0.0
 Physalia megalista	Alteromonas	0	26	0.0
 Physalia megalista	Remaining bacteria	10	26	0.38461538461538464
 Physalia megalista	Archaea	2	26	0.07692307692307693
+Physalia mikazuki	Metamycoplasmataceae	3	5	0.6
+Physalia mikazuki	Cognatishimia	3	5	0.6
+Physalia mikazuki	Vibrio	2	5	0.4
+Physalia mikazuki	CAKMZU01	0	5	0.0
+Physalia mikazuki	Pseudoalteromonas	1	5	0.2
+Physalia mikazuki	Cutibacterium	0	5	0.0
+Physalia mikazuki	Photobacterium	2	5	0.4
+Physalia mikazuki	Alteromonas	1	5	0.2
+Physalia mikazuki	Remaining bacteria	2	5	0.4
+Physalia mikazuki	Archaea	0	5	0.0
 Physalia minuta	Metamycoplasmataceae	17	19	0.8947368421052632
 Physalia minuta	Cognatishimia	0	19	0.0
 Physalia minuta	Vibrio	1	19	0.05263157894736842
@@ -29,16 +39,6 @@ Physalia physalis	Photobacterium	5	37	0.13513513513513514
 Physalia physalis	Alteromonas	2	37	0.05405405405405406
 Physalia physalis	Remaining bacteria	2	37	0.05405405405405406
 Physalia physalis	Archaea	0	37	0.0
-Physalia sp1	Metamycoplasmataceae	3	5	0.6
-Physalia sp1	Cognatishimia	3	5	0.6
-Physalia sp1	Vibrio	2	5	0.4
-Physalia sp1	CAKMZU01	0	5	0.0
-Physalia sp1	Pseudoalteromonas	1	5	0.2
-Physalia sp1	Cutibacterium	0	5	0.0
-Physalia sp1	Photobacterium	2	5	0.4
-Physalia sp1	Alteromonas	1	5	0.2
-Physalia sp1	Remaining bacteria	2	5	0.4
-Physalia sp1	Archaea	0	5	0.0
 Physalia utriculus	Metamycoplasmataceae	29	64	0.453125
 Physalia utriculus	Cognatishimia	22	64	0.34375
 Physalia utriculus	Vibrio	8	64	0.125

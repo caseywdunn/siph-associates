@@ -53,6 +53,21 @@ def save(fig, name):
 
 
 manifest = read("manifest.csv", ",")
+# Publication taxonomy overlay: retain the frozen analysis manifest and historical names.
+name_updates = read("config/publication_host_names.tsv")
+by_library = {r["library_id"]: r for r in manifest}
+seen_updates = set()
+for update in name_updates:
+    library = update["library_id"]
+    if library in seen_updates or library not in by_library:
+        raise ValueError(f"Duplicate or unknown taxonomy update: {library}")
+    row = by_library[library]
+    if row["species_current"] != update["previous_name"]:
+        raise ValueError(f"Unexpected previous host name: {library}")
+    if update["assignment"] not in row["notes"].split("; "):
+        raise ValueError(f"Host assignment not supported: {library}")
+    row["species_current"] = update["publication_name"]
+    seen_updates.add(library)
 meta = {r["library_id"].replace(":", "__", 1): r for r in manifest}
 assert len(meta) == 205, "Review figure scope if cohort membership changes"
 bac = read("data/results/phase6_analysis/v2/grades/bacterial_grades.tsv")

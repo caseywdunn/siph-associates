@@ -1,0 +1,21 @@
+{
+  "PhysaliaN": 151,
+  "NanomiaN": 22,
+  "OtherN": 32,
+  "NamedSpecimens": 193,
+  "NamedSpecies": 31,
+  "UnresolvedSpecimens": 12,
+  "UnresolvedGroups": 6,
+  "MycoHostSpecies": 8,
+  "MycoUnresolvedSpecimens": 0,
+  "RecordedJuveniles": 5,
+  "MissingLifeStage": 200,
+  "PacificCladeA": 28,
+  "PacificPhysalia": 96,
+  "IndianCladeA": 15,
+  "IndianPhysalia": 17,
+  "AtlanticCladeA": 1,
+  "AtlanticPhysalia": 38,
+  "HostDepletedMAGs": 99,
+  "OtherMAGs": 8
+}

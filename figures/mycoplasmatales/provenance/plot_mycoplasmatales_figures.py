@@ -313,7 +313,7 @@ def focus_tree(
     fig.text(
         0.025,
         0.965,
-        "Phylogenomic context of the siphonophore lineages",
+        "Relationships of siphonophore-associated bacteria",
         fontsize=12,
         weight="bold",
         va="top",
@@ -328,7 +328,7 @@ def focus_tree(
     handles = [
         Patch(facecolor=color, label=label)
         for color, label in [
-            (source_colors["study"], "Siphonophore MAG"),
+            (source_colors["study"], "Bacterial MAG (this study)"),
             (source_colors["external"], "External host-associated genome"),
             (source_colors["GTDB"], "GTDB r220 reference"),
         ]
