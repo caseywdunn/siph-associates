@@ -1,0 +1,22 @@
+{
+  "manifest.csv": {
+    "sha256": "926bcbf2c6dffc18d9da0faa1877bd67349d057599aead88ba4472c40279b72d",
+    "mtime_ns": 1791151617758398524
+  },
+  "config/samples.tsv": {
+    "sha256": "727e749ac2e2218989de237401bfc89abcf4fd8f63b7ec2d152c4dc2e2b0be9f",
+    "mtime_ns": 1788017838393194000
+  },
+  "data/metadata/manifest.freeze.sha256": {
+    "sha256": "6a127f1b2376786b9921669f9db54b94abceca53a7ab4a70ce2bfa3615d34178",
+    "mtime_ns": 1791151689827573000
+  },
+  "data/metadata/phase1.freeze.sha256": {
+    "sha256": "9b09206f2278558a2ae4c7d74f171dfa73d30c7efce2e6850f7eebef665885a9",
+    "mtime_ns": 1788019728456515587
+  },
+  "data/metadata/sample_metadata_updates.tsv": {
+    "sha256": "7c5ea70abf78e6b0c6f2cb26cf9ce0638cdfba14dbd7a5f2dd56d783aa73d1e3",
+    "mtime_ns": 1791151617761915168
+  }
+}

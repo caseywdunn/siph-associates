@@ -11,6 +11,7 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 import subprocess
+import sys
 
 import matplotlib
 matplotlib.use("Agg")
@@ -20,6 +21,9 @@ from matplotlib.patches import Patch
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+from export_sample_metadata import INPUTS as METADATA_INPUTS, export_metadata  # noqa: E402
+
 OUT = ROOT / "figures/cohort"
 OUT.mkdir(parents=True, exist_ok=True)
 SOURCES = []
@@ -52,22 +56,8 @@ def save(fig, name):
     plt.close(fig)
 
 
-manifest = read("manifest.csv", ",")
-# Publication taxonomy overlay: retain the frozen analysis manifest and historical names.
-name_updates = read("config/publication_host_names.tsv")
-by_library = {r["library_id"]: r for r in manifest}
-seen_updates = set()
-for update in name_updates:
-    library = update["library_id"]
-    if library in seen_updates or library not in by_library:
-        raise ValueError(f"Duplicate or unknown taxonomy update: {library}")
-    row = by_library[library]
-    if row["species_current"] != update["previous_name"]:
-        raise ValueError(f"Unexpected previous host name: {library}")
-    if update["assignment"] not in row["notes"].split("; "):
-        raise ValueError(f"Host assignment not supported: {library}")
-    row["species_current"] = update["publication_name"]
-    seen_updates.add(library)
+manifest = export_metadata(OUT)
+SOURCES.extend(ROOT / path for path in [*METADATA_INPUTS, "scripts/export_sample_metadata.py"])
 meta = {r["library_id"].replace(":", "__", 1): r for r in manifest}
 assert len(meta) == 205, "Review figure scope if cohort membership changes"
 bac = read("data/results/phase6_analysis/v2/grades/bacterial_grades.tsv")
@@ -90,13 +80,6 @@ host_rows = [{"host": h, "libraries": host_counts[h],
               **{s: sum(r["species_current"] == h and r["study"] == s for r in manifest)
                  for s in studies}} for h in hosts]
 write("host_sampling.tsv", host_rows)
-public_fields = ["library_id", "specimen_id", "study", "study_memberships", "species_current",
-                 "species_as_published", "ocean_region", "locality", "latitude", "longitude",
-                 "collection_date", "depth_m", "depth_min_m", "depth_max_m", "depth_original",
-                 "collection_depth_source", "collection_depth_basis", "biosample", "collection_method", "tissue",
-                 "life_stage", "country", "specimen_voucher", "sra_run", "bioproject", "sequencing_batches",
-                 "read_pairs", "include_primary", "notes"]
-write("sample_metadata.tsv", manifest, public_fields)
 write("library_flowcells.tsv", flow)
 write("bacterial_detections.tsv", bp)
 write("viral_detections.tsv", vp, list(vir[0]))

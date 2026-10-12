@@ -3,7 +3,12 @@
 rule publication_cohort_figures:
     input:
         script="figures/build_cohort.py",
+        metadata_script="scripts/export_sample_metadata.py",
         manifest="manifest.csv",
+        samples="config/samples.tsv",
+        host_names="config/publication_host_names.tsv",
+        analysis_metadata="data/metadata/sample_metadata_updates.tsv",
+        publication_metadata="data/metadata/publication_metadata_updates.tsv",
         assembly="config/phase3_assembly.tsv",
         bacterial=f"{P6V}/grades/bacterial_grades.tsv",
         viral=f"{P6V}/grades/viral_grades.tsv",
@@ -12,6 +17,10 @@ rule publication_cohort_figures:
         mags=f"{WORK}/phase3_catalog/mags/mag_catalog.tsv",
         catalog=f"{P6_CATALOG}/bacterial_catalog.manifest.tsv",
     output:
+        metadata="figures/cohort/sample_metadata.tsv",
+        metadata_sources="figures/cohort/sample_metadata_provenance.tsv",
+        metadata_missing="figures/cohort/sample_metadata_missing.tsv",
+        metadata_export="figures/cohort/sample_metadata_export.json",
         sampling="figures/cohort/sampling.pdf",
         incidence="figures/cohort/mycoplasmatales_incidence.pdf",
         eukaryotes="figures/cohort/eukaryote_evidence.pdf",
@@ -58,7 +67,7 @@ rule publication_mycoplasmatales_figures:
 rule collection_context_tables:
     input:
         script="scripts/analyze_collection_context.py",
-        manifest="manifest.csv",
+        manifest="figures/cohort/sample_metadata.tsv",
         bacterial="figures/cohort/bacterial_detections.tsv",
         viral="figures/cohort/viral_detections.tsv",
         eukaryotes="figures/cohort/eukaryote_evidence.tsv",

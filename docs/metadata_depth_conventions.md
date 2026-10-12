@@ -27,3 +27,13 @@ Future depth summaries should show the source basis and retain collection
 intervals. Sensitivity analyses can omit assigned depths; any comparison
 between Physalia and deeper-collected taxa combines habitat with host identity
 and study design. No depth-association test is established by this scoring step.
+
+## Publication interval midpoints, 2026-10-12
+
+The user subsequently requested a point value equal to the average of minimum
+and maximum when no point depth is recorded. The publication metadata export
+applies this to 14 libraries and labels the basis `interval_midpoint`, retaining
+both bounds and the original depth text. Recorded point depths, including zero,
+take precedence. NA19, WS5 and WS6 remain unresolved. This convention is applied
+only in the [publication metadata](sample_metadata.md); the frozen manifest and
+previously generated analyses are unchanged.

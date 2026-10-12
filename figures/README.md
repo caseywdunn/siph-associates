@@ -6,6 +6,11 @@ The [paper-to-analysis index](../README.md#finding-analyses-from-the-paper)
 connects them to the Results sections. Figure numbers below refer to the current
 manuscript and its separate supplement.
 
+The [sample metadata guide](../docs/sample_metadata.md) defines museum, BioSample,
+collecting-event, tissue-sample, and analysis identifiers. It also links the
+remaining metadata gaps and describes how to update this table independently
+of sequence analyses.
+
 Figure 1 is an explanatory methods drawing maintained with the manuscript.
 It is separate from the generated [Snakemake rule graphs](../docs/workflow/README.md#read-the-graphs),
 which describe computational dependencies. The manuscript builds from selected

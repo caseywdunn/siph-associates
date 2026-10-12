@@ -10,11 +10,17 @@ processing, mapping or statistical inference.
 ## Inputs and products
 
 Inputs are accepted v2 bacterial/viral grades, eukaryote grades, flowcell metadata,
-the manifest and publication host-name metadata, catalog tables, and the completed
+the frozen manifest, workflow sample handles, reviewed publication metadata and
+host-name updates, catalog tables, and the completed
 Mycoplasmatales tree/gene summaries.
 The [figure guide](../../../figures/README.md) records export formats, source tables
 and provenance. Outputs are in `figures/cohort/`, `figures/mycoplasmatales/` and
 `figures/collection_context/`.
+
+To update only the sample metadata, use
+`python3 scripts/export_sample_metadata.py`. This standalone command reads no
+sequence results and runs no workflow jobs. The [metadata guide](../../sample_metadata.md)
+defines the identifiers, depth midpoint convention, curation file, and remaining gaps.
 
 | Rule | Purpose | Principal outputs |
 | --- | --- | --- |

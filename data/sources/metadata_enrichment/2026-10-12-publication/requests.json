@@ -1,0 +1,126 @@
+[
+  {
+    "file": "nanomia_tree.json",
+    "url": "https://api.github.com/repos/dunnlab/nanomia_genome/git/trees/main?recursive=1",
+    "resolved_url": "https://api.github.com/repos/dunnlab/nanomia_genome/git/trees/main?recursive=1",
+    "sha256": "60d0998e7f83799fcc6ac1253bd68cd48df154898d1015588c860c93f30189bb",
+    "retrieved_utc": "2026-10-12T13:13:00.219863+00:00"
+  },
+  {
+    "file": "physalia_tree.json",
+    "url": "https://api.github.com/repos/shchurch/Physalia_population_genomics/git/trees/main?recursive=1",
+    "resolved_url": "https://api.github.com/repos/shchurch/Physalia_population_genomics/git/trees/main?recursive=1",
+    "sha256": "3e4f3447f47dda751c37f804ce85cbd19bffa62ab17a499fceadb835e600bb06",
+    "retrieved_utc": "2026-10-12T13:13:00.532599+00:00"
+  },
+  {
+    "file": "ypm_35024.html",
+    "url": "https://collections.peabody.yale.edu/search/Record/YPM-IZ-035024",
+    "resolved_url": "https://peabody.collections.yale.edu/view/object/b4fbcffb-3f0c-4fe2-a4d6-725277fc787d",
+    "sha256": "99e07aaa62d9905591f79d552d74f0d5149888741657371af4622fde5cff27db",
+    "retrieved_utc": "2026-10-12T13:13:01.001327+00:00"
+  },
+  {
+    "file": "ahuja2026_s008.xlsx",
+    "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0351247.s008&type=supplementary",
+    "resolved_url": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0351247/1/pone.0351247.s008.xlsx?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=wombat-sa%40plos-prod.iam.gserviceaccount.com%2F20261012%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261012T125311Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=924edfcfd761c78d57f60eadd0338540f1ad4a92fa580bb84b9a84065d3a8cada944a09eaafb7b11b4417a0af7da21e2a1b1ea90f6220b4dc41fa5dd4d7b177a761d942335fe8a1f01e5a4c9a27b2db9e74cabaac6e50e0cf9371f327476ef58e7b3be00f5d2cbd286f989c5f28adf2a4a6ec9a766eab3ee54d9a855a9fad5d6f76d871c24576a5aefdb486a943def7c3597d948390a2025c5e08bccafa024c667d0691c811496eef9ce80041531a63b8020dd6d7786b5cff92523ad29f6782b27237cbdd8b2f9cc6b7783f6b803d949c20924589450ccfea350db40a115906afd5dd2b8e0f2006db01656c3554523ef0f87f66df645ed8cd2b6b1f325dee8a4",
+    "sha256": "e5c12cb8931b78e74d5eef616d59d1514bcc44699f72b31538397b91b5ed4446",
+    "retrieved_utc": "2026-10-12T13:13:01.281765+00:00"
+  },
+  {
+    "file": "physalia_metadata.tsv",
+    "url": "https://raw.githubusercontent.com/shchurch/Physalia_population_genomics/679ac669b4c44f64384373ca7adf15954f055231/data/metadata.tsv",
+    "resolved_url": "https://raw.githubusercontent.com/shchurch/Physalia_population_genomics/679ac669b4c44f64384373ca7adf15954f055231/data/metadata.tsv",
+    "sha256": "65108ec9a0612f775cf26f1e0d5c58e141b1dbac58ba4e3823587b3ab9846714",
+    "retrieved_utc": "2026-10-12T13:14:13.050573+00:00"
+  },
+  {
+    "file": "physalia_sample_ids.tsv",
+    "url": "https://raw.githubusercontent.com/shchurch/Physalia_population_genomics/679ac669b4c44f64384373ca7adf15954f055231/data/sample_ids.tsv",
+    "resolved_url": "https://raw.githubusercontent.com/shchurch/Physalia_population_genomics/679ac669b4c44f64384373ca7adf15954f055231/data/sample_ids.tsv",
+    "sha256": "87add2f971c001130a3f730f918d643cab77d175cb425b67e270a26cb96e4d71",
+    "retrieved_utc": "2026-10-12T13:14:13.210779+00:00"
+  },
+  {
+    "file": "physalia_specimen_information.qmd",
+    "url": "https://raw.githubusercontent.com/shchurch/Physalia_population_genomics/679ac669b4c44f64384373ca7adf15954f055231/manuscript_files/SI_specimen_information.qmd",
+    "resolved_url": "https://raw.githubusercontent.com/shchurch/Physalia_population_genomics/679ac669b4c44f64384373ca7adf15954f055231/manuscript_files/SI_specimen_information.qmd",
+    "sha256": "2f949fa563991adae73855cf626278195baeec9791559239aae5e164ff8ee56b",
+    "retrieved_utc": "2026-10-12T13:14:13.344024+00:00"
+  },
+  {
+    "file": "nanomia_sra_metadata.xlsx",
+    "url": "https://raw.githubusercontent.com/dunnlab/nanomia_genome/37adb9787e64e1372d21c07d1db77972e24c8ee5/supplement/SRA_metadata_nanomia.xlsx",
+    "resolved_url": "https://raw.githubusercontent.com/dunnlab/nanomia_genome/37adb9787e64e1372d21c07d1db77972e24c8ee5/supplement/SRA_metadata_nanomia.xlsx",
+    "sha256": "3647dc1da6d62d71e39affbf8e3746a482082df7807c2ea2dac30022a45f9402",
+    "retrieved_utc": "2026-10-12T13:14:13.541745+00:00"
+  },
+  {
+    "file": "skimming_tree.json",
+    "url": "https://api.github.com/repos/dunnlab/siph_skimming/git/trees/master?recursive=1",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "ypm_app.js",
+    "url": "https://collections.peabody.yale.edu/assets/index-BfbEddXX.js",
+    "resolved_url": "https://peabody.collections.yale.edu/",
+    "sha256": "99e07aaa62d9905591f79d552d74f0d5149888741657371af4622fde5cff27db",
+    "retrieved_utc": "2026-10-12T13:14:13.975716+00:00"
+  },
+  {
+    "file": "skimming_tree.json",
+    "url": "https://api.github.com/repos/dunnlab/siph_skimming/git/trees/main?recursive=1",
+    "resolved_url": "https://api.github.com/repos/dunnlab/siph_skimming/git/trees/main?recursive=1",
+    "sha256": "c53dc5ca3be4b3d145138555aee0c3f683f0b0ea0dd4e5fb24cffce6d8b0185d",
+    "retrieved_utc": "2026-10-12T13:15:37.347832+00:00"
+  },
+  {
+    "file": "physalia_biosample_search.json",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=PRJNA1092115&retmax=500&retmode=json",
+    "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=PRJNA1092115&retmax=500&retmode=json",
+    "sha256": "33ac7fcd6d28e320376952fe33a5aa99918354b21617f4d9e17c74d42c14cbe5",
+    "retrieved_utc": "2026-10-12T13:15:37.456522+00:00"
+  },
+  {
+    "file": "skimming_supplementary_table_1.xlsx",
+    "url": "https://raw.githubusercontent.com/dunnlab/siph_skimming/4e3337a25a2ed0e9819bc694446385ba36ed6ad5/supplement/Supplementary_Table_1.xlsx",
+    "resolved_url": "https://raw.githubusercontent.com/dunnlab/siph_skimming/4e3337a25a2ed0e9819bc694446385ba36ed6ad5/supplement/Supplementary_Table_1.xlsx",
+    "sha256": "9ab7c6256babe09ae243949580248d6c040fd1fdd6d325d33fc89ea4f56f6a47",
+    "retrieved_utc": "2026-10-12T13:18:49.912520+00:00"
+  },
+  {
+    "file": "physalia_README.md",
+    "url": "https://raw.githubusercontent.com/shchurch/Physalia_population_genomics/679ac669b4c44f64384373ca7adf15954f055231/README.md",
+    "resolved_url": "https://raw.githubusercontent.com/shchurch/Physalia_population_genomics/679ac669b4c44f64384373ca7adf15954f055231/README.md",
+    "sha256": "f240f9a90320330e2cabd51d6accf248caf80c28f5d31121c682a580fc7a08ee",
+    "retrieved_utc": "2026-10-12T13:18:50.037947+00:00"
+  },
+  {
+    "file": "physalia_sra_search.json",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1092115&retmax=500&retmode=json",
+    "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA1092115&retmax=500&retmode=json",
+    "sha256": "206e7a3ad46bfa61d2817d39d2fc62742ef46825b693fa51effd99e9badf46ce",
+    "retrieved_utc": "2026-10-12T13:18:50.121431+00:00"
+  },
+  {
+    "file": "ypm_111839_biosample_search.json",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=YPM-IZ-111839&retmax=20&retmode=json",
+    "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=YPM-IZ-111839&retmax=20&retmode=json",
+    "sha256": "ed41eaab8e05607b851676023e459199f135af7cff3f51ae81df60918e2b590e",
+    "retrieved_utc": "2026-10-12T13:18:50.201574+00:00"
+  },
+  {
+    "file": "physalia_sra_1.xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&retmode=xml&id=36744030,36744029,36744028,36744027,36744026,36744025,36744024,36744023,36744022,36744021,36744020,36744019,36744018,36744017,36744016,36744015,36744014,36744013,33326648,33326647,32409017,32409016,32409015,32408959,32408958,33326656,33326655,33326654,33326653,33326652,33326651,33326650,33326649,33326646,33326645,32409014,32409013,32409012,32409011,32409010,32409009,32409008,32409007,32409006,32409005,32409004,32409003,32409002,32409001,32409000,32408999,32408998,32408997,32408996,32408995,32408994,32408993,32408992,32408991,32408990,32408989,32408988,32408987,32408986,32408985,32408984,32408983,32408982,32408981,32408980,32408979,32408978,32408977,32408976,32408975",
+    "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&retmode=xml&id=36744030,36744029,36744028,36744027,36744026,36744025,36744024,36744023,36744022,36744021,36744020,36744019,36744018,36744017,36744016,36744015,36744014,36744013,33326648,33326647,32409017,32409016,32409015,32408959,32408958,33326656,33326655,33326654,33326653,33326652,33326651,33326650,33326649,33326646,33326645,32409014,32409013,32409012,32409011,32409010,32409009,32409008,32409007,32409006,32409005,32409004,32409003,32409002,32409001,32409000,32408999,32408998,32408997,32408996,32408995,32408994,32408993,32408992,32408991,32408990,32408989,32408988,32408987,32408986,32408985,32408984,32408983,32408982,32408981,32408980,32408979,32408978,32408977,32408976,32408975",
+    "sha256": "65ea3b674b7eaf47961c25e5387613529925fec15085cf3d9f3a5407046950c2",
+    "retrieved_utc": "2026-10-12T13:19:24.900996+00:00"
+  },
+  {
+    "file": "physalia_sra_2.xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&retmode=xml&id=32408974,32408973,32408972,32408971,32408970,32408969,32408968,32408967,32408966,32408965,32408964,32408963,32408962,32408961,32408960,32408957,32408956,32408955,32408954,32408953,32408952,32408951,32408950,32408949,32408948,32408947,32408946,32408945,32408944,32408943,32408942,32408941,32408940,32408939,32408938,32408937,32408936,32408935,32408934,32408933,32408932,32408931,32408930,32408929,32408928,32408927,32408926,32408925,32408924,32408923,32408922,32408921,32408920,32408919,32408918,32408917,32408916,32408915,32408914,32408913,32408912,32408911,32408910,32408909,32408908,32408907,32408906,32408905,32408904,32408903,32408902,32408901,32408900",
+    "resolved_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&retmode=xml&id=32408974,32408973,32408972,32408971,32408970,32408969,32408968,32408967,32408966,32408965,32408964,32408963,32408962,32408961,32408960,32408957,32408956,32408955,32408954,32408953,32408952,32408951,32408950,32408949,32408948,32408947,32408946,32408945,32408944,32408943,32408942,32408941,32408940,32408939,32408938,32408937,32408936,32408935,32408934,32408933,32408932,32408931,32408930,32408929,32408928,32408927,32408926,32408925,32408924,32408923,32408922,32408921,32408920,32408919,32408918,32408917,32408916,32408915,32408914,32408913,32408912,32408911,32408910,32408909,32408908,32408907,32408906,32408905,32408904,32408903,32408902,32408901,32408900",
+    "sha256": "2705a87ffd0232b0e4fb426211f96d3ff38caf9fe2b721e289653bbad35540b6",
+    "retrieved_utc": "2026-10-12T13:19:26.182657+00:00"
+  }
+]

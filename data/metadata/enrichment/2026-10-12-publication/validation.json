@@ -1,0 +1,31 @@
+{
+  "libraries": 205,
+  "protected_analysis_files_unchanged_in_content_and_mtime": [
+    "manifest.csv",
+    "config/samples.tsv",
+    "data/metadata/manifest.freeze.sha256",
+    "data/metadata/phase1.freeze.sha256",
+    "data/metadata/sample_metadata_updates.tsv"
+  ],
+  "analysis_identifiers_and_detection_joins_preserved": true,
+  "recorded_coordinates_dates_depths_and_host_names_preserved": true,
+  "changed_existing_fields_notes_compared_with_analysis_notes": {
+    "specimen_voucher": 148,
+    "biosample": 18,
+    "tissue": 18,
+    "country": 16,
+    "sra_run": 18,
+    "notes": 18,
+    "depth_m": 14,
+    "collection_depth_basis": 14
+  },
+  "midpoints": 14,
+  "tests": {
+    "command": "python -m pytest -q tests/test_publication_metadata.py tests/test_sample_metadata.py tests/test_review_sample_metadata.py tests/test_collection_context.py",
+    "passed": 47
+  },
+  "publication_rulegraph_check": "passed; topology unchanged",
+  "sequence_analysis_jobs_run": 0,
+  "python_for_export": "3.11.13",
+  "output_sha256": "3a0988d96a824975546f1bf734fa3bc9765a1bb87f4e2218cda1074351aa4e6c"
+}

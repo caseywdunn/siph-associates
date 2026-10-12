@@ -125,6 +125,19 @@ def test_surface_assignment_is_explicit_and_not_a_nonphysalia_rule():
         context.depth_context({**row, "species_current": "Nanomia septata"})
 
 
+def test_publication_midpoint_is_derived_and_full_range_defines_stratum():
+    row = specimen(
+        depth_m="15",
+        depth_min_m="0",
+        depth_max_m="30",
+        collection_depth_basis="interval_midpoint",
+    )
+    assert context.depth_context(row) == {
+        "depth_status": "range_with_derived_midpoint",
+        "depth_group": "non_Physalia_crosses20m",
+    }
+
+
 def test_vibrio_genus_is_not_all_vibrionaceae_and_archaea_stay_separate():
     data = inputs([specimen()])
     data["bacteria"] = [

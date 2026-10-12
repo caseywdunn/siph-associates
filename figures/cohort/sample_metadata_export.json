@@ -1,0 +1,35 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "scripts/export_sample_metadata.py"
+  ],
+  "python": "3.11.13",
+  "libraries": 205,
+  "missing": {
+    "collection_id": 11,
+    "sample_id": 17,
+    "voucher_id": 13,
+    "biosample": 2,
+    "tissue": 18,
+    "depth_m": 3
+  },
+  "depth_basis": {
+    "curator_assigned_surface": 150,
+    "source_record": 38,
+    "": 3,
+    "interval_midpoint": 14
+  },
+  "inputs_sha256": {
+    "manifest.csv": "926bcbf2c6dffc18d9da0faa1877bd67349d057599aead88ba4472c40279b72d",
+    "config/samples.tsv": "727e749ac2e2218989de237401bfc89abcf4fd8f63b7ec2d152c4dc2e2b0be9f",
+    "config/publication_host_names.tsv": "5b595dde7a71c2aba438a581f10051663d239bb069359d3077bc09a4fbfe0f8c",
+    "data/metadata/sample_metadata_updates.tsv": "7c5ea70abf78e6b0c6f2cb26cf9ce0638cdfba14dbd7a5f2dd56d783aa73d1e3",
+    "data/metadata/publication_metadata_updates.tsv": "8174f4fc234da3e9ab0abf7bacdf79229c53b720ba463004dffee27e32323757",
+    "scripts/export_sample_metadata.py": "6c1070fbdf4053e2bcc67749a2c7b44d7c050a5591d7ae8cab57e719eb9ba008"
+  },
+  "outputs_sha256": {
+    "sample_metadata.tsv": "3a0988d96a824975546f1bf734fa3bc9765a1bb87f4e2218cda1074351aa4e6c",
+    "sample_metadata_provenance.tsv": "47f31d1632fd7551258e28e3e3653be8fae0d7e93f85a47a6521417d689b1531",
+    "sample_metadata_missing.tsv": "839d9d9f4a436beb519740a1f5ddf0a99a3133da20d5561e67984aec9a5f6ff0"
+  }
+}
