@@ -57,12 +57,12 @@ the executable workflow's generated rule graphs are linked below.
 
 ## Following the analysis steps
 
-Reads are the short DNA sequences produced by sequencing. Assembly joins them
-into longer sequences. Read screening and assembly provide parallel evidence:
-every library is screened and compared with shared microbial catalogs, even if
-it produces no assembled microbial genome. Both host-depleted and other libraries
-contribute assemblies. Host-read removal uses the *Physalia* reference for 151
-libraries and the *N. septata* reference for ten; the other 44 use no host reference.
+Read screening and assembly provide parallel evidence: every library is screened
+and compared with shared microbial catalogs, even if it produces no assembled
+microbial genome. Both host-depleted and other libraries contribute assemblies.
+Host-read removal uses the *Physalia physalis* reference for all 151 *Physalia*
+libraries and the *N. septata* reference for all ten *N. septata* libraries;
+the other 44 use no host reference.
 
 | Analysis step | What it does | Methods and rule graphs |
 | --- | --- | --- |
