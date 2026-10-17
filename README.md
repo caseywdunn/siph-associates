@@ -1,5 +1,7 @@
 # Organisms associated with siphonophores
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23441460.svg)](https://doi.org/10.5281/zenodo.23441460)
+
 This repository contains the analyses accompanying:
 
 **Organisms associated with siphonophores revealed by short-read whole-genome sequencing**
@@ -8,9 +10,8 @@ This repository contains the analyses accompanying:
 
 We examine DNA from bacteria, archaea, viruses, prey and parasites captured
 alongside siphonophore DNA during genome sequencing. The study uses 205 specimens:
-151 *Physalia*, 22 *Nanomia* and 32 other siphonophores. It concentrates on the
-first two genera, with exploratory comparisons across other hosts. Start with
-the tables below to connect the paper to its methods and supporting data;
+151 *Physalia*, 22 *Nanomia* and 32 other siphonophores. Start with the tables
+below to connect the paper to its methods and supporting data;
 understanding the analyses does not require running the code.
 
 ## Source studies
@@ -118,6 +119,8 @@ these requirements and where outputs are written.
 
 ## Citation and development
 
-The manuscript citation, public supplementary-material link and versioned archive
-DOI will be added when available. [Workflow documentation checks](dev_docs/workflow-documentation.md)
+Releases of this analysis repository are archived on Zenodo at
+[doi:10.5281/zenodo.23441460](https://doi.org/10.5281/zenodo.23441460).
+The manuscript citation and public supplementary-material link will be added when
+available. [Workflow documentation checks](dev_docs/workflow-documentation.md)
 and [execution records](RUNLOG.md) are maintained separately from the methods guides.
