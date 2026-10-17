@@ -1,0 +1,10 @@
+control	regex_pair	whole_12s_pair
+motif_R1	1	1
+motif_reverse_R2	1	1
+fish_away_from_motif	0	1
+cartilaginous_motif_variant	0	1
+frog	1	1
+quality_only	0	0
+negative	0	0
+poly_G	0	0
+ATTT_repeat	0	0

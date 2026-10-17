@@ -1,0 +1,6 @@
+accession	organism	genome_length	exact_motif_matches	matched_sequences
+NC_012920.1	Homo sapiens	16569	0	
+NC_005089.1	Mus musculus	16299	0	
+NC_006853.1	Bos taurus	16338	0	
+NC_001323.1	Gallus gallus	16775	0	
+NC_001573.1	Xenopus laevis	17553	1	ACAAACTGGGATTAGATACCCCACTATGC

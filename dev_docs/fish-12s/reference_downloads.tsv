@@ -1,0 +1,5 @@
+filename	url	retrieved_date	bytes	sha256
+tables.tar	https://mitofish.aori.u-tokyo.ac.jp/download/tables/2026/09/tables.tar	2026-10-17	44861440	816837e3e3fa040140955376b39b661f9f43e33a739d13aad837bde002a2674b
+mitofishdb.fa.gz	https://mitofish.aori.u-tokyo.ac.jp/download/fullseq/2026/09/mitofishdb.fa.gz	2026-10-17	216966655	2f4eda53f3302989ecf669833c0a77fceabf15caf1413765e461fc9a50e108e5
+nonfish_controls.gb	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_012920.1,NC_005089.1,NC_006853.1,NC_001323.1,NC_001573.1&rettype=gbwithparts&retmode=text	2026-10-17	248858	db078901a150cb269ea848bea193472202d37586a04fddbdeeff5c2993b09904
+fish_spotchecks.gb	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=MT326614,AP012190,AJ404477,OL825614,MF489922,PZ315335&rettype=gbwithparts&retmode=text	2026-10-17	222664	d77a647d2dbcf0485436a9332a820dfd0793d11f84a8d8dead9c887a5b086e6d

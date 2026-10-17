@@ -1,0 +1,7 @@
+analysis_sample_id	pairs_screened	motif_reads	motif_pairs	whole_12s_kmer_pairs	both_pairs	motif_only_pairs	kmer_only_pairs	zgrep_seconds	zgrep_C_seconds	seqkit_seconds	bbduk_seconds	masked_kmer_pairs
+Ahuja2024__CWD131	1000000	0	0	0	0	0	0	3.534	3.525	16.667	4.272	0
+Ahuja2026__NA31	1000000	0	0	2	0	0	2	3.631	3.633	16.993	9.666	0
+Church2025__FM-16644	1000000	0	0	0	0	0	0	3.325	3.311	18.067	6.146	0
+Church2025__WAM-Z97917	1000000	0	0	0	0	0	0	3.31	3.304	16.394	4.165	0
+Church2025__YPM-IZ-110931	1000000	0	0	0	0	0	0	3.511	3.512	16.767	5.857	0
+Church2025__YPM-IZ-111158	1000000	0	0	0	0	0	0	3.375	5.55	16.378	4.104	0

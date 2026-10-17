@@ -1,0 +1,36 @@
+{
+  "started_utc": "2026-10-17T23:20:19.566738+00:00",
+  "completed_utc": "2026-10-17T23:20:39.572182+00:00",
+  "command": [
+    "scripts/fish_12s/assess_reference.py",
+    "--reference-dir",
+    "data/results/fish_12s/reference/2026-10-17",
+    "--output-dir",
+    "data/results/fish_12s/assessment/2026-10-17"
+  ],
+  "python": "3.10.8 (main, Apr 25 2024, 11:42:48) [GCC 12.2.0]",
+  "numpy": "1.24.2",
+  "pyarrow": "16.1.0",
+  "script_sha256": "080a776602c4a58ca7e3307745f78660c7225470acfbfbed07fe9b23020c5e2a",
+  "motif": "ACAAAC..GGATT..ATACCCC..TATGC",
+  "reference_release": "MitoFish 2026.09",
+  "selection": "genome >=14000 nt; annotated 12S >=700 nt; ACGT only; unique sequence per species",
+  "excluded": {
+    "duplicate_species_sequence": 5502,
+    "ambiguous_12s": 251,
+    "unresolved_group": 8
+  },
+  "inputs": {
+    "data/results/fish_12s/reference/2026-10-17/mitofishdb.fa.gz": "2f4eda53f3302989ecf669833c0a77fceabf15caf1413765e461fc9a50e108e5",
+    "data/results/fish_12s/reference/2026-10-17/seq_annotation.parquet": "9fe1fb6cc5112470d4d1a5935bdf8f759e9fd5fd77deccc3e2fb0e9105919b7f",
+    "data/results/fish_12s/reference/2026-10-17/seq_taxonid.parquet": "2175fcce1b10d156583124a136ffe37fcf7415bfb515cff22cbb49d3be325095",
+    "data/results/fish_12s/reference/2026-10-17/speciesid_lineageid.parquet": "7250942b632a89945716e59422184bb036e3a7d21fca6dd46d026808821b9f5f",
+    "data/results/fish_12s/reference/2026-10-17/taxonid_name.parquet": "62d54ea5660edb4dac9d47fe3405bb85e527a7df401acb13d81e58664dd0ce40",
+    "data/results/fish_12s/reference/2026-10-17/taxonid_speciesid.parquet": "e742c973fee01bf117a2f8e59b0235fce9e9db0f416440866f108438419d160d"
+  },
+  "outputs": {
+    "data/results/fish_12s/assessment/2026-10-17/fish_12s.fasta": "d59a1cc6af5c6ca1b47f8b5aab8d739ef8ebf27049f5ec080b9caa473831e9e7",
+    "data/results/fish_12s/assessment/2026-10-17/reference_matches.tsv": "e297a038e94660ea1909dfeeb2db6dddfba754792e3bb6a4130dcf2f0cc190aa",
+    "data/results/fish_12s/assessment/2026-10-17/coverage_summary.tsv": "8adc32c1a4cbd97e3cbecac344c8c3bde0c3e529f07011a95ffa6b59c1c393c3"
+  }
+}
