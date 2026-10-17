@@ -99,7 +99,6 @@ ax.invert_yaxis()
 ax.set_xlim(0, max(left) * 1.1)
 ax.set_xlabel("Sequencing libraries (one specimen per library)")
 ax.legend(frameon=False, loc="lower right")
-ax.set_title("205 libraries across 37 host labels", loc="left", fontweight="bold", pad=12)
 fig.tight_layout()
 save(fig, "sampling")
 
@@ -129,7 +128,6 @@ for i, h in enumerate(focal_hosts):
 ax.set_yticks(range(len(focal_hosts)), focal_hosts, fontstyle="italic")
 ax.set_xticks(range(len(myco)), [f"{g['genome_id']}\n{lineages[g['genome_id']]}" for g in myco],
               rotation=45, ha="right", rotation_mode="anchor")
-ax.set_title("Mycoplasmatales detection across the full sampled host groups", loc="left", pad=12)
 fig.colorbar(im, ax=ax, label="Fraction of libraries with validated presence", shrink=.7)
 fig.tight_layout()
 save(fig, "mycoplasmatales_incidence")

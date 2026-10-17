@@ -78,8 +78,8 @@ def write_tsv(name: str, rows: list[dict[str, object]]) -> Path:
 
 def save_figure(fig: plt.Figure, name: str) -> list[Path]:
     paths = [OUT / f"{name}.pdf", OUT / f"{name}.png"]
-    fig.savefig(paths[0], metadata={"CreationDate": None, "ModDate": None})
-    fig.savefig(paths[1], dpi=180)
+    fig.savefig(paths[0], bbox_inches="tight", metadata={"CreationDate": None, "ModDate": None})
+    fig.savefig(paths[1], dpi=180, bbox_inches="tight")
     plt.close(fig)
     return paths
 
@@ -437,34 +437,12 @@ def draw_microbes(
         if y and host_key(host)[0] != host_key(hosts[y - 1])[0]:
             ax.axhline(y - 0.5, color=DARK, linewidth=1)
             totals.axhline(y - 0.5, color=DARK, linewidth=1)
-    fig.suptitle(
-        "Bacteria and archaea across sampled siphonophores",
-        fontsize=13,
-        fontweight="bold",
-        x=0.055,
-        ha="left",
-        y=0.975,
-    )
-    fig.text(
-        0.055,
-        0.929,
-        "All 205 specimens retained • host sample sizes in parentheses",
-        fontsize=9,
-    )
     color_ax = fig.add_axes([0.31, 0.12, 0.37, 0.017])
     cbar = fig.colorbar(
         im, cax=color_ax, orientation="horizontal", ticks=[0, 0.25, 0.5, 0.75, 1]
     )
     cbar.set_label("Fraction of specimens with a supported detection", fontsize=9)
     cbar.ax.tick_params(labelsize=9)
-    fig.text(
-        0.055,
-        0.025,
-        "Numbers inside cells: positive specimens. Empty cells: no retained detection.\n"
-        "Selected bacterial lineages are shown separately; remaining bacteria are pooled.",
-        fontsize=9,
-        linespacing=1.45,
-    )
     data = [
         {
             "host": host,
@@ -613,20 +591,6 @@ def draw_eukaryotes(
         va="bottom",
         fontsize=12,
     )
-    fig.suptitle(
-        "Eukaryotic sequences across siphonophore hosts",
-        x=0.035,
-        ha="left",
-        y=0.975,
-        fontsize=13,
-        fontweight="bold",
-    )
-    fig.text(
-        0.035,
-        0.933,
-        "61 eukaryote group detections in 39 of 205 libraries",
-        fontsize=12,
-    )
     fig.legend(
         handles=[
             Patch(color="#56B4E9", label="Read or assembly support"),
@@ -645,14 +609,6 @@ def draw_eukaryotes(
         ncol=3,
         frameon=False,
         fontsize=12,
-    )
-    fig.text(
-        0.035,
-        0.025,
-        "Rows show the 39 libraries with retained eukaryotic evidence, grouped by host.\n"
-        "Grey cells indicate no retained detection; broad groups may contain more than one organism.",
-        fontsize=12,
-        linespacing=1.5,
     )
     return save_figure(fig, "eukaryote_evidence") + [
         write_tsv("eukaryote_display.tsv", display_rows)

@@ -1,9 +1,9 @@
 {
   "command": [
-    "/usr/bin/python3",
-    "scripts/export_sample_metadata.py"
+    "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+    "figures/build_cohort.py"
   ],
-  "python": "3.11.13",
+  "python": "3.11.0",
   "libraries": 205,
   "missing": {
     "collection_id": 11,

@@ -155,19 +155,11 @@ def gene_functions(focal: list[dict], genomes: list[dict], output: Path) -> None
         spine.set_visible(False)
     for boundary in [2.5, 3.5, 9.5, 12.5]:
         ax.axhline(boundary, color="#87969A", lw=0.8)
-    fig.text(0.025, 0.965, "Predicted functions in siphonophore Mycoplasmatales",
-             fontsize=12, weight="bold", va="top")
-    fig.text(0.025, 0.915, "Conserved ortholog assignments; strict and relaxed thresholds",
-             fontsize=9, color="#48565C")
     legend = [Patch(facecolor=COLORS["strict"], label="Strict (also relaxed)"),
               Patch(facecolor=COLORS["relaxed"], label="Relaxed only"),
               Patch(facecolor=COLORS["not_detected"], label="Not detected")]
     fig.legend(handles=legend, loc="lower left", bbox_to_anchor=(0.02, 0.035),
                ncol=3, frameon=False, fontsize=8)
-    fig.text(0.025, 0.025,
-             "* Presence-only MAGs: incomplete or contamination-flagged. Numbers: relaxed-tier copies >1.\n"
-             "Family bars show strict (teal) and all relaxed (orange) assignments; no phenotype is measured.",
-             fontsize=7.5, va="top")
     save_figure(fig, output, "gene_functions")
 
 
@@ -310,21 +302,6 @@ def focus_tree(
     ax.text(
         scale / 2, -1.12, "0.1 substitutions/site", fontsize=9, ha="center", va="top"
     )
-    fig.text(
-        0.025,
-        0.965,
-        "Relationships of siphonophore-associated bacteria",
-        fontsize=12,
-        weight="bold",
-        va="top",
-    )
-    fig.text(
-        0.025,
-        0.916,
-        "Metamycoplasmataceae: 21-tip clade from the 483-tip bac120 tree; branch lengths retained",
-        fontsize=9,
-        color="#48565C",
-    )
     handles = [
         Patch(facecolor=color, label=label)
         for color, label in [
@@ -340,14 +317,6 @@ def focus_tree(
         ncol=3,
         frameon=False,
         fontsize=9,
-    )
-    fig.text(
-        0.025,
-        0.048,
-        "Node labels: FastTree local support, not bootstrap percentages. Root support = 0.999.\n"
-        "[dup.] The same assembly GCA_929200685.1 occurs as both an external input and a GTDB reference.",
-        fontsize=9,
-        va="top",
     )
     save_figure(fig, output, "phylogeny_focus")
     write_rows(output / "source_phylogeny_focus.tsv", rows)

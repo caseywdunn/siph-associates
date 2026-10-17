@@ -150,19 +150,6 @@ def plot_depth_overview(
     ax = fig.add_axes((0.29, 0.10, 0.32, 0.80))
     unknown_ax = fig.add_axes((0.62, 0.10, 0.065, 0.80), sharey=ax)
     values_ax = fig.add_axes((0.71, 0.10, 0.27, 0.80), sharey=ax)
-    fig.text(
-        0.025,
-        0.97,
-        "Collection depth and associate detections across all 205 specimens",
-        fontsize=12,
-        weight="bold",
-    )
-    fig.text(
-        0.025,
-        0.938,
-        "Depth marks show individual specimens below the Physalia host-group summaries; fractions show accepted detections.",
-        fontsize=9,
-    )
     for host in hosts:
         y = y_by_host[host]
         rows = sorted(
@@ -216,10 +203,9 @@ def plot_depth_overview(
     ax.set_ylim(nrows - 0.35, -1.6)
     depth_axis(ax, 1600)
     ax.text(
-        0, -1.1, "Physalia: all 151 at 0 m", fontsize=10, color=ORANGE, weight="bold"
+        0, -1.1, "Physalia", fontsize=10, color=ORANGE, weight="bold"
     )
-    ax.text(0, 5.0, "150 assigned surface; 1 recorded", fontsize=9, color=ORANGE)
-    ax.text(0, 5.6, "Other siphonophores: 54 specimens", fontsize=9, weight="bold")
+    ax.text(0, 5.6, "Other siphonophores", fontsize=9, weight="bold")
     unknown_ax.set_xlim(0, 1)
     unknown_ax.set_xticks([])
     unknown_ax.text(
@@ -262,12 +248,6 @@ def plot_depth_overview(
         frameon=False,
         fontsize=9,
     )
-    fig.text(
-        0.025,
-        0.015,
-        "Depth intervals are shown without imputed midpoints. Detection categories use different reference catalogs and are not comparable richness estimates.",
-        fontsize=9,
-    )
     return save_figure(fig, out, "depth_host_overview")
 
 
@@ -277,19 +257,6 @@ def plot_dt68(rows: list[dict[str, str]], out: Path) -> list[Path]:
     ax = fig.add_axes((0.285, 0.16, 0.295, 0.70))
     unknown_ax = fig.add_axes((0.585, 0.16, 0.06, 0.70), sharey=ax)
     context_ax = fig.add_axes((0.655, 0.16, 0.325, 0.70), sharey=ax)
-    fig.text(
-        0.025,
-        0.965,
-        "DT-68 detections in Nanomia and Resomia",
-        fontsize=15,
-        weight="bold",
-    )
-    fig.text(
-        0.025,
-        0.925,
-        "All 24 specimens, including three with unresolved collection depths",
-        fontsize=11,
-    )
     last_species = None
     for y, row in enumerate(rows):
         if row["species_current"] != last_species:
@@ -385,18 +352,6 @@ def plot_dt68(rows: list[dict[str, str]], out: Path) -> list[Path]:
         frameon=False,
         fontsize=9,
     )
-    fig.text(
-        0.025,
-        0.047,
-        "Both detection grades satisfy read-mapping criteria; high-confidence detections also satisfy same-library assembly criteria.",
-        fontsize=9,
-    )
-    fig.text(
-        0.025,
-        0.025,
-        "Depth intervals have no imputed midpoint. All libraries are shown; flowcell-based inference requires one physical flowcell.",
-        fontsize=9,
-    )
     return save_figure(fig, out, "dt68_depth_context")
 
 
@@ -420,15 +375,8 @@ def plot_tissue_context(
     heat_ax = fig.add_axes((0.235, 0.16, 0.73, 0.30))
     fig.text(
         0.025,
-        0.966,
-        "Sampled tissues and regional Mycoplasmatales detections",
-        fontsize=15,
-        weight="bold",
-    )
-    fig.text(
-        0.025,
         0.91,
-        "A  Tissue sampling across all 205 specimens",
+        "A",
         fontsize=12,
         weight="bold",
     )
@@ -477,7 +425,6 @@ def plot_tissue_context(
     values_ax.tick_params(axis="x", length=0, pad=8)
     values_ax.tick_params(axis="y", left=False, labelleft=False)
     values_ax.spines[:].set_visible(False)
-    fig.text(0.63, 0.887, "Specimens with detections / specimens sampled", fontsize=10)
     selected = [
         r
         for r in incidence_rows
@@ -542,15 +489,9 @@ def plot_tissue_context(
     fig.text(
         0.025,
         0.54,
-        "B  Regional detections among Physalia: all tissues and tentacles only",
+        "B",
         fontsize=12,
         weight="bold",
-    )
-    fig.text(
-        0.235,
-        0.49,
-        "Fractions give detected specimens / sampled specimens; all 151 Physalia contribute to the all-tissue rows.",
-        fontsize=10,
     )
     colorbar_ax = fig.add_axes((0.73, 0.058, 0.23, 0.012))
     fig.colorbar(
@@ -559,18 +500,6 @@ def plot_tissue_context(
         orientation="horizontal",
         ticks=[0, 0.5, 1],
         label="Fraction detected",
-    )
-    fig.text(
-        0.025,
-        0.07,
-        "A dash indicates no sampled specimen in that tissue–region group.",
-        fontsize=9,
-    )
-    fig.text(
-        0.025,
-        0.043,
-        "These are descriptive comparisons; host species and collection conditions also vary among regions.",
-        fontsize=9,
     )
     return save_figure(fig, out, "tissue_context")
 

@@ -1,10 +1,10 @@
 {
   "status": "complete",
-  "run_utc": "2026-10-11T16:39:05.830542+00:00",
-  "slurm_job_id": "13008841",
-  "source_revision": "00a629cd917440a97a8a5562b70e6837a5115d83",
+  "run_utc": "2026-10-17T22:51:27.677285+00:00",
+  "slurm_job_id": "13489566",
+  "source_revision": "868dd90accbf7888cc7539b4a63ffbc915dcd17c",
   "source_snapshot": "figures/mycoplasmatales/provenance/plot_mycoplasmatales_figures.py",
-  "script_sha256": "6bda48807e2ab6ae8dff1900f798e037a0aaf3108ac4c6d41d99d1bf3c4f7f63",
+  "script_sha256": "f855f179c72b3ecf64e50297d4847a8384403bb9adfdae72beb7bddae920374a",
   "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python workflow/scripts/plot_mycoplasmatales_figures.py",
   "environment": {
     "python": "3.11.0",
@@ -19,10 +19,10 @@
     "data/results/mycoplasmatales_phylogeny/tree_labels.tsv": "16674cab12f998ab3dc3c3ba8633ebe7089a585a67a6009e63ab233ec292e344"
   },
   "outputs_sha256": {
-    "figures/mycoplasmatales/gene_functions.pdf": "c8b22fb89a17b0ad2cc6fb1489a4ec0a6ca83e257005f8cf0b602633145618ea",
-    "figures/mycoplasmatales/phylogeny_focus.pdf": "b0383e1c3f8a7a837360bcf47f86196e79f86e5dc5f9c18bb684e049a485d582",
-    "figures/mycoplasmatales/gene_functions.png": "42d7df976b520916cfdfa68fe3fd7e909683fcf2f62900240b2b292d513d5165",
-    "figures/mycoplasmatales/phylogeny_focus.png": "f7705626e69676c8cbbe7d1431ef0e89d75ff8883a19f16a134f53c92f69cc7a",
+    "figures/mycoplasmatales/gene_functions.pdf": "a8bd2d6d74ac9da22c490aae818953925d2fc191c3eef81014606a0e6376b6a4",
+    "figures/mycoplasmatales/phylogeny_focus.pdf": "120e73a335f08610ade1d89b72112782f3ced99e9796d5efe6aca2200ec2cfd8",
+    "figures/mycoplasmatales/gene_functions.png": "906523f271289bd08c420df93014dffb3b58ad54f62841a73d40017371d0b982",
+    "figures/mycoplasmatales/phylogeny_focus.png": "ee9bbb0869b8b93615dfd46f285c74fa96629e20793abcf0b34a04637f6655c6",
     "figures/mycoplasmatales/source_gene_functions.tsv": "759cf3186e0ca850245281bd1c6697f94881d2435605f4726c8919cfe1e55e48",
     "figures/mycoplasmatales/source_phylogeny_focus.tsv": "fb3f21ab599a806d16ede22a8ceded33a5b8fd0af238e5eae93d1225d5879b10"
   },
