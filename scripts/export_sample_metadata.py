@@ -99,6 +99,23 @@ CHECK_FIELDS = [
     "location",
     "tissue",
 ]
+# Provenance also covers optional fields added during museum-record review.
+# The missing-field checklist remains focused on the required sample metadata.
+PROVENANCE_FIELDS = [
+    *CHECK_FIELDS,
+    "collection_site",
+    "collection_date",
+    "collection_method",
+    "country",
+    "depth_min_m",
+    "depth_max_m",
+    "depth_original",
+    "collection_depth_source",
+    "collection_depth_basis",
+    "tissue_tube_id",
+    "life_stage",
+    "notes",
+]
 MISSING = {
     "",
     "na",
@@ -283,9 +300,18 @@ def export_metadata(output_dir: Path) -> list[dict[str, str]]:
             sources[(record["library_id"], record["field"])].append(record)
     audit, gaps = [], []
     for row in rows:
-        for field in CHECK_FIELDS:
+        for field in PROVENANCE_FIELDS:
             value = row.get(field, "")
             evidence = sources.get((row["library_id"], field), [])
+            if field == "notes":
+                evidence = [
+                    *evidence,
+                    {
+                        "source": "scripts/export_sample_metadata.py",
+                        "source_locator": f"human_notes;library_id={row['library_id']}",
+                        "notes": "Generated explanations of missing fields and depth conventions supplement any sourced notes.",
+                    },
+                ]
             if (
                 field == "depth_m"
                 and row.get("collection_depth_basis") == "interval_midpoint"
@@ -317,7 +343,7 @@ def export_metadata(output_dir: Path) -> list[dict[str, str]]:
                         },
                     }
                 )
-            if missing(value):
+            if field in CHECK_FIELDS and missing(value):
                 gaps.append(
                     {
                         "library_id": row["library_id"],

@@ -102,10 +102,9 @@ DNA-row matches supply the identifiers; RNA samples and out-of-cohort records
 remain excluded. The additional Nanomia repository SRA workbook concerns genome
 and other assays and supplied no new cohort values.
 
-The current Peabody catalog requests returned an application shell rather than
-specimen records. No metadata were inferred from that response. Museum voucher
-numbers here are supported by the study sources; this export does not claim a
-fresh museum-catalog verification of each specimen.
+The initial enrichment's direct Peabody catalog requests returned an application
+shell rather than specimen records. That enrichment used study sources. The
+subsequent LUX catalog audit and metadata comparison are described below.
 
 The update adds 18 BioSample/run accessions and 18 explicit tentacle records from
 SRA. Coverage is 192/205 vouchers, 203/205 BioSamples, 194/205 collection IDs,
@@ -127,3 +126,35 @@ Church S7 TSV was extracted from its retained workbook using openpyxl 3.1.5.
 The accepted proposal, source-join audit, prior publication table, and checks
 are retained in
 [`data/metadata/enrichment/2026-10-12-publication/`](../data/metadata/enrichment/2026-10-12-publication/).
+
+## October 17 LUX comparison
+
+A fresh public-record audit again verified 148 of the 168 YPM vouchers in LUX.
+The same 20 vouchers remained unconfirmed, including all the previously missing
+NA28–NA38 and WS2–WS10 records. GBIF returned no exact matches. These are dated
+search findings, not conclusions about internal museum access restrictions.
+The [audit](../data/metadata/enrichment/2026-10-17-public-vouchers/summary.json)
+retains requests, responses, and positive controls.
+
+The [museum comparison](../data/metadata/enrichment/2026-10-17-lux/README.md)
+reviews those 148 specimens and their 106 linked locality records. It adds 49
+collection-site descriptions and corresponding location refinements, 26 explicit
+country/territory entries, 22 collection methods/platforms, and depth bounds for
+19 specimens. Existing point depths are retained; these additions create no new
+midpoints. Museum voucher and matching sample/event labels gain corroborating
+provenance. Optional fields, depth bounds, and human-facing notes are now included
+in the exported cell-provenance table as well as the durable overlay.
+
+Fourteen date disagreements, ten coordinate discrepancies, two depth
+disagreements, six alternate field labels, and one inconsistent country/locality
+combination are retained in a [review table](../data/metadata/enrichment/2026-10-17-lux/review_needed.tsv).
+The existing study measurements and identifiers remain unchanged. Museum field
+numbers and personal specimen numbers are not automatically reinterpreted as
+missing event or tissue labels; museum locality numbers such as `IZS.34871` are
+also kept out of `collection_id`. Locality polygons are checked for compatibility
+with study coordinates, never converted to substitute point coordinates.
+
+The original missing-field counts remain unchanged. The museum records do not
+resolve NA19's conflicting depth or provide the still-missing tissue/BioSample
+information. All frozen analysis inputs and their modification times are
+preserved. Only the metadata export is rebuilt in this update.

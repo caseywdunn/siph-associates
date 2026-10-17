@@ -1,0 +1,15 @@
+{
+  "applied_proposal_rows": 443,
+  "replaced_overlay_rows": 0,
+  "changed_cells_by_field": {
+    "location": 49,
+    "collection_site": 49,
+    "country": 26,
+    "notes": 38,
+    "depth_min_m": 19,
+    "depth_max_m": 19,
+    "collection_method": 22
+  },
+  "source_review_summary": "review_summary.json",
+  "overlay_sha256": "86e7f1653842477ff8b5ba71fc5216c61970d4fa6045878228af2ec901c3983d"
+}

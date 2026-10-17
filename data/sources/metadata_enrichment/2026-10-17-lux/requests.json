@@ -1,0 +1,744 @@
+[
+  {
+    "url": "https://lux.collections.yale.edu/data/place/0d4c91a1-b352-421e-a640-375326fd3c69",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/0d4c91a1-b352-421e-a640-375326fd3c69",
+    "file": "raw/dc29cb61c05972742d2a8b77ef41ffe904681f7d057bcad11a92fca798180d90.json",
+    "retrieved_utc": "2026-10-17T14:48:20.993204+00:00",
+    "sha256": "259de6a1e5562061abfb50ba59115e68c248b32ea8a47ceb627e9c3245c500d8"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/0df96fcb-3477-40ac-8878-ae9199156cfc",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/0df96fcb-3477-40ac-8878-ae9199156cfc",
+    "file": "raw/30071f7e75a365fe985f1d8bfa1b49a491248ab63bf7f0a50870350cba473306.json",
+    "retrieved_utc": "2026-10-17T14:48:21.007345+00:00",
+    "sha256": "94db154f76b8e51b32d898f321a03003224d623138b6faa40a5d14bb6656bdc4"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/1007c177-f874-4ab4-884d-6707fc6a8f81",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/1007c177-f874-4ab4-884d-6707fc6a8f81",
+    "file": "raw/0a8d4e909fa398ff51fbdc2fe9a3071ec631525f6fd6fb538911af7a8b9963e4.json",
+    "retrieved_utc": "2026-10-17T14:48:20.958292+00:00",
+    "sha256": "6e59a400e19340430baaef934c9ad4d7872fd19d1b55922b3ae4a9e37a7803fc"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/158fa9a0-5cec-41e2-8938-5bde1a31dd99",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/158fa9a0-5cec-41e2-8938-5bde1a31dd99",
+    "file": "raw/24797564f3dc63e410d81ccad5b52afa6bc83a5c9378b3fd6e913181cb376258.json",
+    "retrieved_utc": "2026-10-17T14:48:21.235296+00:00",
+    "sha256": "cbe268badcf4f6203f03662b6db5788993d908ac7197011339ee1733c48df4f5"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/17ed20a8-ea45-4a56-b9c6-fa145498200d",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/17ed20a8-ea45-4a56-b9c6-fa145498200d",
+    "file": "raw/1e4d35ac89b1e006640885a7f69aeae13127b73c850873981035ae10efaa08a5.json",
+    "retrieved_utc": "2026-10-17T14:48:21.222390+00:00",
+    "sha256": "a1e1790871bd3c9d7cd8085b77a160d684c36c8bcb1779304b1a826b70829784"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/1b94956c-458a-41c5-b8c6-c01ca4dbb757",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/1b94956c-458a-41c5-b8c6-c01ca4dbb757",
+    "file": "raw/96f2262960ea091459144768a6074e56e599b4f90ab01ab7f5b6c773ae3756dc.json",
+    "retrieved_utc": "2026-10-17T14:48:21.242076+00:00",
+    "sha256": "f6e39208cdb2e3ec0e79e541c640913d66e22b62c16763752840034254cd174e"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/21437812-4590-457f-8511-e20b27c1fc7c",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/21437812-4590-457f-8511-e20b27c1fc7c",
+    "file": "raw/aa03d9035bc550ea22b3c06282b33f47807db1faf3110cc7a7cdd4156edaa8b8.json",
+    "retrieved_utc": "2026-10-17T14:48:21.391490+00:00",
+    "sha256": "aa7e15bcac05f70f83017bd1162b87c48261c9526654e1922b7c5d090f166cc9"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/24c44b8c-661e-4789-adff-e5a8eba97098",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/24c44b8c-661e-4789-adff-e5a8eba97098",
+    "file": "raw/7c362694000de107b0f1575c18f51099ee48b9c6d03f4ec9a7cbec3080cb6067.json",
+    "retrieved_utc": "2026-10-17T14:48:21.417107+00:00",
+    "sha256": "8aeed14add7f9a42bb218c5975c50c83b40b258d5622329ba6d6c0a4824aaf68"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/27d364ee-16f0-4295-8d41-7c1205ffd150",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/27d364ee-16f0-4295-8d41-7c1205ffd150",
+    "file": "raw/ef3acef00a2f375a7b635a3146a5f09c35e85ceed325f3ad169fd08591efc25b.json",
+    "retrieved_utc": "2026-10-17T14:48:21.410891+00:00",
+    "sha256": "83071efb03b43d2caebb54166e9e52ca3292d9a245f3a8b4d0f7a968eaada172"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/28887e09-a444-441c-adf4-2d07b5303360",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/28887e09-a444-441c-adf4-2d07b5303360",
+    "file": "raw/e77b8e93ba9a8520ddb76b02f13d1552931e35200978d868aef49070e20e1586.json",
+    "retrieved_utc": "2026-10-17T14:48:21.543739+00:00",
+    "sha256": "c5c6e9039a2dcbaf462f748f2e663f6beeee97d243d538b353fbcf43204c220a"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/304fe50d-4a0c-4ff6-8f3c-7ceb99754a40",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/304fe50d-4a0c-4ff6-8f3c-7ceb99754a40",
+    "file": "raw/fcc96a6f8fd7ab712d73d572a920660fe4428c5c4ec9059fa55906a34b342b22.json",
+    "retrieved_utc": "2026-10-17T14:48:21.536572+00:00",
+    "sha256": "9eebbb99b7641aa779633e19c5454a4ed1c9dddc533619df87d147597c4b25c6"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/307eb6df-c969-4f97-8e03-12374b483f51",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/307eb6df-c969-4f97-8e03-12374b483f51",
+    "file": "raw/ba4ab822d47aace4a4c53d7181059aed1daa7375dfb6b6445fd2f4471515ffb4.json",
+    "retrieved_utc": "2026-10-17T14:48:21.523126+00:00",
+    "sha256": "3c41ed5f1214494e27f6ea18513b774a3713486bdac8b0cf5ef65633bdcd4c0f"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/325ac75c-b12e-441e-8dc8-a069f2992cd9",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/325ac75c-b12e-441e-8dc8-a069f2992cd9",
+    "file": "raw/55961c63ae37c9c4047b12670f9cf49e150e6c9e43235b1aa5b41ca5c951d943.json",
+    "retrieved_utc": "2026-10-17T14:48:21.642840+00:00",
+    "sha256": "f89f2586af04b99bd0069b069b1f4e4703fbcc61221fa59c34d8f29cd647b622"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/33d272fb-759e-44d5-91c8-ca44f7bf2413",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/33d272fb-759e-44d5-91c8-ca44f7bf2413",
+    "file": "raw/60533251770f9f1fc912e325b1f1ca456941d3383bb516936aadf5fadce3ba39.json",
+    "retrieved_utc": "2026-10-17T14:48:21.653338+00:00",
+    "sha256": "083d6c79a9b6bc9167bb2a4ca03cb21d6aeaa91d981565d972e6243b92a91b50"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/375a4b7d-3a3c-43a7-9f7d-b6f7eef8befb",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/375a4b7d-3a3c-43a7-9f7d-b6f7eef8befb",
+    "file": "raw/6703d4172826d542d6ee47a8203694cb9839f5c05f1b50482a403248ae24c2f5.json",
+    "retrieved_utc": "2026-10-17T14:48:21.665713+00:00",
+    "sha256": "ced989e9e0acce3051ae29487aff0860630692cc289f02540a05ad49364b09c0"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/38b732a2-e83f-45a3-a60a-68aa48bed19d",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/38b732a2-e83f-45a3-a60a-68aa48bed19d",
+    "file": "raw/36c47ca1238ab8b4775ef1567b5697fe6ec6770f651d7d8f8d5c7f106b6e14a8.json",
+    "retrieved_utc": "2026-10-17T14:48:21.903719+00:00",
+    "sha256": "b9ed390e0dce265e1df4e592e02594386412b67daed20a936e1e2fba1a1d5805"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/39a4acf2-67d8-4ae9-9675-40cd9a799d23",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/39a4acf2-67d8-4ae9-9675-40cd9a799d23",
+    "file": "raw/1ea0695d068abff5b0ed1bdb2d8e20d5b9e2424ff86cad8e952058d4f7f808fe.json",
+    "retrieved_utc": "2026-10-17T14:48:21.888811+00:00",
+    "sha256": "a6bed7d5e8bf24e4fed1c795555fea8c7a2a88ce676140cb96e7082236f54bff"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/39da80af-8a75-4dc7-b17e-67dc879279a3",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/39da80af-8a75-4dc7-b17e-67dc879279a3",
+    "file": "raw/6f7b5641ca2fe47786d66608b34ab6e86b5a68b7938fd94d041424818ef08357.json",
+    "retrieved_utc": "2026-10-17T14:48:21.917285+00:00",
+    "sha256": "a026cde5a336b78d5b25bb0c086cefb4c17ced295e50cf3065d0b7b658b717a3"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/3b7ee3c1-b1ea-4681-9ef3-e7686f3d4d49",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/3b7ee3c1-b1ea-4681-9ef3-e7686f3d4d49",
+    "file": "raw/95b2a713b3c821bdce19e969d9d41abb121e09477a8c66b2c20a5da881417b0f.json",
+    "retrieved_utc": "2026-10-17T14:48:22.080260+00:00",
+    "sha256": "aa51ba129d8c46604f51511f045fb3c0b37a3ecea9980fdbfc16e2be0ff2fb3e"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/3f925a7f-499a-4c73-a4b0-f1b11583727a",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/3f925a7f-499a-4c73-a4b0-f1b11583727a",
+    "file": "raw/4e8aa3fbd9be185872098c6d2d353f672d18c009cc95d0b327c57e1433dca7b8.json",
+    "retrieved_utc": "2026-10-17T14:48:22.089742+00:00",
+    "sha256": "5e7e3c51e87006cd46ba44c1062474e78c96d7001df2dcfbf949af16d48dd5fe"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/43065f12-738f-4880-b52c-51203b3841f2",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/43065f12-738f-4880-b52c-51203b3841f2",
+    "file": "raw/b0c0fe433f287c049c21346cb28ee61eeb390c875d1031c94edb564e12780e5f.json",
+    "retrieved_utc": "2026-10-17T14:48:22.067171+00:00",
+    "sha256": "972ff37d62aecda0beb7bdd5afa47b14a7184e91a5b6ea8ed6cd30bba671f0bb"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/468a92a8-61fb-4358-901d-a5c78283b05b",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/468a92a8-61fb-4358-901d-a5c78283b05b",
+    "file": "raw/892330dfc2c06548c63eac62edb809813df8f4ba569c824544ab11a0c1d68b43.json",
+    "retrieved_utc": "2026-10-17T14:48:22.199925+00:00",
+    "sha256": "fbbe9bf6307a1d4e9e728cf67aab848a92732e12b37b77542f6391d7325556e1"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/497ec784-bfa4-4b23-89ec-5d482a697799",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/497ec784-bfa4-4b23-89ec-5d482a697799",
+    "file": "raw/1eb51c547417dbe72762836ad55fe8c00378cbe8b32c0eeff09d9c788a8e1890.json",
+    "retrieved_utc": "2026-10-17T14:48:22.228337+00:00",
+    "sha256": "9e7ebc588ff51c5fd31fd44f21dddda5c926ecc3dd93dd2bb23d277691b034c0"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/4ac266ff-8aa9-4d28-a96b-87537ce5d929",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/4ac266ff-8aa9-4d28-a96b-87537ce5d929",
+    "file": "raw/cf8efc022e74730b2fc0f73f27b235bd6b450ed9a4ee4adf74f458cd59cae990.json",
+    "retrieved_utc": "2026-10-17T14:48:22.185884+00:00",
+    "sha256": "a42b34fba9fb7a0aa99106df9f961c093b0b7572df3eda65bc33d71f73fdb020"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/4d21b34f-21d0-457a-b62c-7c407e31f8a9",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/4d21b34f-21d0-457a-b62c-7c407e31f8a9",
+    "file": "raw/9da373a3c4cd23135187fa4acc4a5ed5e408182ce3d730c90b58c05a958e8234.json",
+    "retrieved_utc": "2026-10-17T14:48:22.359782+00:00",
+    "sha256": "b1de20ed139d9bd1dca07d4c15c7ef47c8d125367b04988f9447f5d9e31244af"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/4f348643-4766-45a1-a1f3-6e37eb4d91fd",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/4f348643-4766-45a1-a1f3-6e37eb4d91fd",
+    "file": "raw/31489a1a2af0efbb5dc45b5f5b3b178fc21a57bc841a6a9c9c3c0a5c45b46817.json",
+    "retrieved_utc": "2026-10-17T14:48:22.376102+00:00",
+    "sha256": "d7ac70614394daf879483e79d619aa521d7bbfd9df71b9cc59eafe15b7aec706"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/4f619b97-ff2e-4b14-8a83-e4268231dd83",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/4f619b97-ff2e-4b14-8a83-e4268231dd83",
+    "file": "raw/cae0b093769c3dd7abe196a66c4740bf47ee636b38f79a4ec3787e67bcc9d556.json",
+    "retrieved_utc": "2026-10-17T14:48:22.384580+00:00",
+    "sha256": "f6d5d32a1b8d9bcc44fd65eececfd4d23b10a78163687ba71ba9133cbb4d052f"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/51abf843-ac4a-4ee0-8b30-b4d97b227fd8",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/51abf843-ac4a-4ee0-8b30-b4d97b227fd8",
+    "file": "raw/8d662898e9807ac3732664d9ea90e76ef4cb261697bb8d7d8fa9dda40ccc81fd.json",
+    "retrieved_utc": "2026-10-17T14:48:22.522740+00:00",
+    "sha256": "49572e882ab9ca01ac0ebc0d1fd84214edde32ee1c777bcadd822558c9d6535d"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/545caefa-d9e3-4dbe-bd15-04a3b5154ba9",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/545caefa-d9e3-4dbe-bd15-04a3b5154ba9",
+    "file": "raw/f7971da218f1ef91de3f482af12d44336c4f2c465bfe9054533b1d71ca1e1085.json",
+    "retrieved_utc": "2026-10-17T14:48:22.477216+00:00",
+    "sha256": "3b580785908d5bb637cd658cdc1f22cc26d162b61bd48ea13770f9a182ef8ae4"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/562c7df6-6117-44c2-95b4-c4a66ed4ce2a",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/562c7df6-6117-44c2-95b4-c4a66ed4ce2a",
+    "file": "raw/7df4d7fbc5e2c6ac7d87e548a4c5b400c47c26895d23c551a4de9e0957b36061.json",
+    "retrieved_utc": "2026-10-17T14:48:22.535828+00:00",
+    "sha256": "dcf7f98443c4f1dee5ea140235247d072d8798abfd6cc525411da1fc1b4661e3"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/57f20fc7-8e8c-4bea-a46d-cce9fe3ddecb",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/57f20fc7-8e8c-4bea-a46d-cce9fe3ddecb",
+    "file": "raw/87670b32bdc0917d497f196a01636a04e17458b25f4758bafe7e7a6a1692b73f.json",
+    "retrieved_utc": "2026-10-17T14:48:22.613911+00:00",
+    "sha256": "2ea7095ad2d13de8d80740dc41468917e61dde2323d593f8051baa2b58434e06"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/5a37cab8-f70a-4f3f-827f-7b7865be9660",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/5a37cab8-f70a-4f3f-827f-7b7865be9660",
+    "file": "raw/df8aa3a20fd28972b84dc93326eeeb97a7564e03d56ec73a2e2cc4e401616496.json",
+    "retrieved_utc": "2026-10-17T14:48:22.698411+00:00",
+    "sha256": "7072b59eb9ea8e43aa81cc4f623937ab3f5650e8e12bb405c21ea6d22bc293a0"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/5b7aed62-b0c3-4323-aad5-22a1929e7415",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/5b7aed62-b0c3-4323-aad5-22a1929e7415",
+    "file": "raw/e1be7b8daa4f979a36e6083516dd27635869fbe76acbeeb52511a76feb6f0135.json",
+    "retrieved_utc": "2026-10-17T14:48:22.715793+00:00",
+    "sha256": "239e627eaa4f00712648d1ce00903e836d6058343db64d4d70aa27c18a093fb4"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/5d936fcd-1d2a-48fc-9162-b9b6eaa10f5a",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/5d936fcd-1d2a-48fc-9162-b9b6eaa10f5a",
+    "file": "raw/dfcf4eb51d9cd172e7b735ad8cf00010a31347af2f963610038d99d3f0830450.json",
+    "retrieved_utc": "2026-10-17T14:48:22.763499+00:00",
+    "sha256": "6fc6abfeea1b5775e405f5378de68152058e7b03447b3b077339cccc60727b79"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/5eeb22aa-8205-4bf3-afb0-8c163a5c498f",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/5eeb22aa-8205-4bf3-afb0-8c163a5c498f",
+    "file": "raw/7ca4d9e8300886de8de9dcbe87693ef617cc717342c6481fdcebe2e9e7eb33c6.json",
+    "retrieved_utc": "2026-10-17T14:48:22.806103+00:00",
+    "sha256": "16177390bca0c03133d91a180a96593815d94cff490129662aebab5d41a546c4"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/5f0baf23-d54e-4290-8ac8-f8bcf6ed4898",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/5f0baf23-d54e-4290-8ac8-f8bcf6ed4898",
+    "file": "raw/732266b6f1fb923d2d8ec833267b3793b129778dbf05cb62215dccdab9f84f45.json",
+    "retrieved_utc": "2026-10-17T14:48:22.894893+00:00",
+    "sha256": "7cbd27c8e90919dbe7ce495d277a853bc52d87428c7690a5da7683f5424f79f1"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/6032e38c-f7d3-4ced-8edb-3f16efc39426",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/6032e38c-f7d3-4ced-8edb-3f16efc39426",
+    "file": "raw/762da96fdcb3000fbbc7e0dbbf499205f00e9156c0513bc5365ae09b5e81474c.json",
+    "retrieved_utc": "2026-10-17T14:48:22.908242+00:00",
+    "sha256": "7dcf85c9c3b955c7ee046b67389ff098c2756245293dbc9bc96ccd742cbdbd43"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/606393d5-40f6-4eea-bf3b-b5785fe742ce",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/606393d5-40f6-4eea-bf3b-b5785fe742ce",
+    "file": "raw/74fce1b9926122c47b059ec19743d1d822a83632e28889bc7506e7b9aff38be1.json",
+    "retrieved_utc": "2026-10-17T14:48:22.845637+00:00",
+    "sha256": "889c6f64ec43f464528b497613eaf06363fb023cca4f5bffd5bff1e1cb783989"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/62cc07cb-faec-4a89-b462-29953c693379",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/62cc07cb-faec-4a89-b462-29953c693379",
+    "file": "raw/c99051171eb27b14d544f3acd5d6064aec3bafcc78f1b283277273099988098c.json",
+    "retrieved_utc": "2026-10-17T14:48:22.998160+00:00",
+    "sha256": "7a7fd85e2465326791a91dad78d698ed24dcb5337240291fec19c2f46a46e904"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/64291c85-f495-47c7-9df9-609847f471c2",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/64291c85-f495-47c7-9df9-609847f471c2",
+    "file": "raw/3f37fd3d46a26337642f91cf0c3bdad7392e06a96e0441d6fa1b846e69e7002e.json",
+    "retrieved_utc": "2026-10-17T14:48:23.009654+00:00",
+    "sha256": "fdc094c629e406bc1a2e8eb4ffd737de09bfde1740394962f2e6e18330dc86e6"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/656000c9-c09f-4601-9c18-61382e801d27",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/656000c9-c09f-4601-9c18-61382e801d27",
+    "file": "raw/f71a13df8d18a8a189bc7818caf5f79c498a4dc9bcc8ee0d3fc4adbefecbbf85.json",
+    "retrieved_utc": "2026-10-17T14:48:23.044569+00:00",
+    "sha256": "a862cbaf80600ef2ba82e5002b3843bc83ffc1bc987374e34dcfae667351f519"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/69300eb1-c328-4bbf-8d53-347c7aff46b7",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/69300eb1-c328-4bbf-8d53-347c7aff46b7",
+    "file": "raw/d237dd00adec556c3c23dabe329ea980371b8f9f29ebbf60ffe23730886d1108.json",
+    "retrieved_utc": "2026-10-17T14:48:23.179236+00:00",
+    "sha256": "43a31592fd462804d3ba972e66b66bbd01f4d94507f6ec2c14f15c39458be2ae"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/6ea25974-e3be-4444-8d16-802948da34be",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/6ea25974-e3be-4444-8d16-802948da34be",
+    "file": "raw/6cc598e231d863686649f589ab10b710362a3b157d84f5e016fddde7047c09d8.json",
+    "retrieved_utc": "2026-10-17T14:48:23.195794+00:00",
+    "sha256": "4f7ee0c08280336b493331a0b13e6cbceecc5e123bd3cbf26281ea9a3df504fc"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/703c25da-8d97-485b-9bfa-e9bbfe6a9b20",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/703c25da-8d97-485b-9bfa-e9bbfe6a9b20",
+    "file": "raw/36a665abf46c67f4e3e79c1deb8e70c4f804c7c324d0b84cf176c709c7c1403d.json",
+    "retrieved_utc": "2026-10-17T14:48:23.204062+00:00",
+    "sha256": "219e59d0230b3f0b029bccf77ce70e5f3050207cd759a6dffe60a956b3bd63ea"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/70ef19b8-8321-4c12-bb40-92953f502963",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/70ef19b8-8321-4c12-bb40-92953f502963",
+    "file": "raw/497f6b92b894019d523c0aa9538a7eea76db437a3cb5e3e528b9cb278da14a34.json",
+    "retrieved_utc": "2026-10-17T14:48:23.336550+00:00",
+    "sha256": "5febd1b4e7eee36a68b01bdf899eab5f051051bbc66be442be4aa2c81e4b5320"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/77e60198-85ee-49b3-964c-fe12fe6152c3",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/77e60198-85ee-49b3-964c-fe12fe6152c3",
+    "file": "raw/1ade97254b845675b80cdffc94cc72d7dba2331aef99ab38b677f880f98dcc34.json",
+    "retrieved_utc": "2026-10-17T14:48:23.291825+00:00",
+    "sha256": "9d5224c3be60033d23b3fb3493e9fc78973a53c060e8131bfa6eac0d40fc014b"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/783ac869-c890-4515-9008-aa2bb01b69a7",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/783ac869-c890-4515-9008-aa2bb01b69a7",
+    "file": "raw/e85275f36a6d70022dbe79a6ae2860282917e5e9987912819853079664f51d54.json",
+    "retrieved_utc": "2026-10-17T14:48:23.307177+00:00",
+    "sha256": "25612329be4b7bc978f410e38300d105c265521b1b66477003d3a8351f714750"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/7b6d1c9f-887e-49f2-b213-ed3d1384d796",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/7b6d1c9f-887e-49f2-b213-ed3d1384d796",
+    "file": "raw/43fa91943ab79b66b47749a1b203ebc006167fe420fd71016c460658e0a9fc7c.json",
+    "retrieved_utc": "2026-10-17T14:48:23.459720+00:00",
+    "sha256": "8e6233ceed0b1ce086bece16465faa8d470b01e036e9213ce4ca45b9e5b6ca82"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/7ba3a46d-5465-4379-839d-b41293646ec0",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/7ba3a46d-5465-4379-839d-b41293646ec0",
+    "file": "raw/7a40b85b6120dd27e68260cfae4d81578d1d5552e3f500863736c997cf29f3b7.json",
+    "retrieved_utc": "2026-10-17T14:48:23.443696+00:00",
+    "sha256": "55826fec74787776e9fa63d0c8d900fdd8c9161380eb6fd03fed3786cac35f69"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/7bf9f0db-cd8c-4db4-b20c-502e2b3629fe",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/7bf9f0db-cd8c-4db4-b20c-502e2b3629fe",
+    "file": "raw/9637c3ef495bfe9cbf45f33f4e93f4a98b8879766eefca1d2b99865972aaf843.json",
+    "retrieved_utc": "2026-10-17T14:48:23.466263+00:00",
+    "sha256": "4033d51d405947bf8691af97f7e1e4c3c88993b9031358b8300845f128c8cbc3"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/7e578b95-94ff-4cd3-93c5-5b1d86afb0bf",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/7e578b95-94ff-4cd3-93c5-5b1d86afb0bf",
+    "file": "raw/d15ffe843ada21185ff93868856794b36792a850ba89ed6a4c54fb1962568048.json",
+    "retrieved_utc": "2026-10-17T14:48:23.639731+00:00",
+    "sha256": "75ed5693dc3cfa91487c25eb8d1b9191f80525b3a1a5f00b4a9ff0f84bad5ab4"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/7ea15786-dfb0-417e-8ca0-11656ebfa846",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/7ea15786-dfb0-417e-8ca0-11656ebfa846",
+    "file": "raw/3a0b8b311bc42c73a428017150363e9fcc52a35f7eb8674d647df7cbd59370c5.json",
+    "retrieved_utc": "2026-10-17T14:48:23.655892+00:00",
+    "sha256": "570716c95d1f491cdd330dfdd4dea5eecb8c00d6bfae1587c95b461cd8f55636"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/7f9af87f-c329-4ddf-809e-d417d50f3ec0",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/7f9af87f-c329-4ddf-809e-d417d50f3ec0",
+    "file": "raw/8a883ade776f308b4ce2ce6be6c1d00310a635fb6b5c99c46cbbd3a9864c71f3.json",
+    "retrieved_utc": "2026-10-17T14:48:23.662015+00:00",
+    "sha256": "c717c43a06a0bfef810c098dcf4b6abb4862b5c9e39a19585dadea79528a509f"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/8239ab30-a6f1-4466-8b99-063a6478461e",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/8239ab30-a6f1-4466-8b99-063a6478461e",
+    "file": "raw/3af6fef7cff7c0a14df735c6ee9ce69ae767c1d2c48e6400751493df15ae3f90.json",
+    "retrieved_utc": "2026-10-17T14:48:23.824987+00:00",
+    "sha256": "749f9bc015240f9d7c9f756a3f3922d7bdff09ff6ff8592f297e55b0d35c117f"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/8971e91f-de63-46f2-97bf-2b694bf13436",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/8971e91f-de63-46f2-97bf-2b694bf13436",
+    "file": "raw/f5a50d8635ee6e48a0610a27b5649290514f822ddf28cf45864f1c13b4d75112.json",
+    "retrieved_utc": "2026-10-17T14:48:23.758523+00:00",
+    "sha256": "8969d9a15c0414050b9952d4ef61b6a8bd020a4152fb046a824ca63f1f14231e"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/8bcc35e0-7ed7-4848-852b-18e713bbfa14",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/8bcc35e0-7ed7-4848-852b-18e713bbfa14",
+    "file": "raw/6c378ee43d0749a43ddb0aec40a47b6a9f18cb423635ccf4524b0aa5aa5d185e.json",
+    "retrieved_utc": "2026-10-17T14:48:23.818802+00:00",
+    "sha256": "78e80624b23038ecb4e9011b01f1551e92af042b993fde22ee71908ebdde0eb7"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/8ee28d05-817e-46c6-863b-e453b6737ad9",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/8ee28d05-817e-46c6-863b-e453b6737ad9",
+    "file": "raw/9481f8a3d2ad75e5e3da84a5ecc97aed449ecb749703b042d132e538f49d4cae.json",
+    "retrieved_utc": "2026-10-17T14:48:23.805291+00:00",
+    "sha256": "d2863de400f3251fe4cca05dcbba2714ce9e542a5e59f35951fb044ed205c5dc"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/8f0aee26-e167-49ee-bc32-65858b3fd79c",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/8f0aee26-e167-49ee-bc32-65858b3fd79c",
+    "file": "raw/cb458c46f61f217c0dc8d1eaef09c83e62ebcd83927a4eb9d4852196dd212f03.json",
+    "retrieved_utc": "2026-10-17T14:48:24.003540+00:00",
+    "sha256": "1582f0283f6db7bcdf5a83ea742726e51fca2d974aea06cabf7e92cb609a23e2"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/9231cf25-42c1-436b-b328-4a694fe099ce",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/9231cf25-42c1-436b-b328-4a694fe099ce",
+    "file": "raw/127dc86579d9c50756114adf522670d4c07a4c0961486f48d71b9151ef132cc6.json",
+    "retrieved_utc": "2026-10-17T14:48:24.011117+00:00",
+    "sha256": "40fd2b39dd788ffa227225aa7067a5812a81557e840289ffd1b3bc98314d9768"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/94f741b4-079a-45e1-9689-29856f57b6b4",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/94f741b4-079a-45e1-9689-29856f57b6b4",
+    "file": "raw/1ed68e7e37fe31314098f30d966d2f719a106d09c011f08602c900d64fb279d9.json",
+    "retrieved_utc": "2026-10-17T14:48:24.021812+00:00",
+    "sha256": "d0b8d44d4afb08f9962186440c150245ea586a17baca4c7a14db4bcbc7ced5c0"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/a3552bf8-3132-4dc0-b455-d0ae217e6c06",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/a3552bf8-3132-4dc0-b455-d0ae217e6c06",
+    "file": "raw/769e4384aed2b61d02f6ddcb6bf0628bc8406004b86fdb0d8e02112d76fe14b6.json",
+    "retrieved_utc": "2026-10-17T14:48:24.164624+00:00",
+    "sha256": "bee46bfbfb8fb94f8e241a481f87955b956c4a2f19069686309a78203a9ee9b8"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/a45ef4a0-47a5-4165-8a31-da94ce7e1b19",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/a45ef4a0-47a5-4165-8a31-da94ce7e1b19",
+    "file": "raw/a89fbbe60c3af1f968bfa5678b859cca72130d01fd466c6bd113af7cc93b1c88.json",
+    "retrieved_utc": "2026-10-17T14:48:24.112756+00:00",
+    "sha256": "5ef17d84e6b4743111bab002a4bbdfca260816d77a68243e4bce0650041d06ee"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/a50a7a14-5979-45ea-ae9d-ea71f70ee01d",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/a50a7a14-5979-45ea-ae9d-ea71f70ee01d",
+    "file": "raw/420c77cb7391991efba3f33f5cf6cd2363a497a9634e7ab698f3f770146d7710.json",
+    "retrieved_utc": "2026-10-17T14:48:24.173475+00:00",
+    "sha256": "aca163bf2b0fc7fa97e8babcb0677d81a0ca2306f08a9af5464fa1e6fb09fbfa"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/a51d827b-5994-44a4-abc7-4bdd29e0d3d3",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/a51d827b-5994-44a4-abc7-4bdd29e0d3d3",
+    "file": "raw/f63af02f4fbcbe4ed696b212eadcd08872cce7e2e76370ac1e9b1e5a8f9e042c.json",
+    "retrieved_utc": "2026-10-17T14:48:24.219326+00:00",
+    "sha256": "02f023083dcb583c9fee80b6b238b8aaea2eab763a6e40b855d4854a760243f0"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/a5e011cd-0b73-450b-ae4a-7ea3e31bfa03",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/a5e011cd-0b73-450b-ae4a-7ea3e31bfa03",
+    "file": "raw/bff086f66fe0bad88af53e3f08a2addce308c1d2c8f64949108516e3a0507e6a.json",
+    "retrieved_utc": "2026-10-17T14:48:24.268427+00:00",
+    "sha256": "b5ef115d7fd028566d8b4e7f6288e3b9d829344d67be1dcada4b8d2719f9a546"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/a72dd7e3-9906-4f7c-af09-bbf3a3ec79db",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/a72dd7e3-9906-4f7c-af09-bbf3a3ec79db",
+    "file": "raw/b20096809c3dfc5f5884d31d1725e5a8493814eb968c5c76a0e113e598c6f7dd.json",
+    "retrieved_utc": "2026-10-17T14:48:24.311729+00:00",
+    "sha256": "ca280ee5a94ca057d01f9f5b68636275a57ed92e7fcb4e58fedba7d42dcc891e"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/ab21dd22-d24e-4ccd-ae14-b98429dca44d",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/ab21dd22-d24e-4ccd-ae14-b98429dca44d",
+    "file": "raw/f2966a2996a9bc61c3dad091081acfba23a247f7fe72a742f3bd91c8d5f4dfbe.json",
+    "retrieved_utc": "2026-10-17T14:48:24.324170+00:00",
+    "sha256": "75b05f51040ee9531c137cbdb1e1b41400ccd7ee65edab5719f3563510c7e8a8"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/acb8c631-3803-41eb-9a99-a13a15befd8e",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/acb8c631-3803-41eb-9a99-a13a15befd8e",
+    "file": "raw/163b8cd55e9ad93470d394ac7633e083ac2032a3622f9a704008e6cc7d46d44c.json",
+    "retrieved_utc": "2026-10-17T14:48:24.369361+00:00",
+    "sha256": "0b845c2c20f8176174d806d8f92168d75247f8f0041f844c29c7da8d393f494b"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/adf7682d-8c8a-45f0-b80b-5e2516906a06",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/adf7682d-8c8a-45f0-b80b-5e2516906a06",
+    "file": "raw/9c3d2bce49400e503140f530a692fb0d3dfac35ec72665f8ac117b9b43ceb4b0.json",
+    "retrieved_utc": "2026-10-17T14:48:24.417986+00:00",
+    "sha256": "658941b9a4d7b178ed0a21cfeacf36336c83800369c419e035fae2f0b72f2a8d"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/aff41863-0345-4203-99d7-196780d9bef3",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/aff41863-0345-4203-99d7-196780d9bef3",
+    "file": "raw/ca2142a2cfe9e78b0868b6191e9e482dc1815afc9b6a3e4115baa90d35580a86.json",
+    "retrieved_utc": "2026-10-17T14:48:24.432136+00:00",
+    "sha256": "a1f307fcc65b20d97678406ed99439a47f66eaa1daca2294eeda399b63fdb629"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/b3484963-9ab2-4d87-8dcf-e3f7035287bc",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/b3484963-9ab2-4d87-8dcf-e3f7035287bc",
+    "file": "raw/7524dae459834f3a32a842ec30412fd5ffd9ea4b9fa996b55a0617e6f4c0c1db.json",
+    "retrieved_utc": "2026-10-17T14:48:24.469230+00:00",
+    "sha256": "70d88f289cdde08430b229f3397a4716f23a844f60a1e476700ffc15060ee729"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/b3a50aa7-f3aa-4ed9-8851-8af6ba683c1e",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/b3a50aa7-f3aa-4ed9-8851-8af6ba683c1e",
+    "file": "raw/329b4eacdf607162d06717dc172f331a144d9b20571267cf0fbe6ddad84e990d.json",
+    "retrieved_utc": "2026-10-17T14:48:24.536300+00:00",
+    "sha256": "e406acdfec74ad00adf7e09b29f498e09c00a8d164225ec81da6d0ecedab2c18"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/b657d9df-1019-40f8-9a5d-d782d5981b3b",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/b657d9df-1019-40f8-9a5d-d782d5981b3b",
+    "file": "raw/afa3590805000841fd82c4eb182fa144991be4489bca92973c171b952f8b0196.json",
+    "retrieved_utc": "2026-10-17T14:48:24.542692+00:00",
+    "sha256": "482e6add2d219c3aeba0bad80caffb5c12eb7076e99e6003b470de0d236c6fad"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/b81c0f0d-04fe-4374-a44b-04dcca5033ed",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/b81c0f0d-04fe-4374-a44b-04dcca5033ed",
+    "file": "raw/bc41d385eb8cd2b6b1f0dee9bedc5d8b624b5cc88b73e0e70db70e2a9757b14c.json",
+    "retrieved_utc": "2026-10-17T14:48:24.575915+00:00",
+    "sha256": "d79a58afc7f3806fadc247f41b62befe881935bab6e6f31bb2f8726f8f10fa81"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/b84bffd8-a32c-42e5-917a-13205902c908",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/b84bffd8-a32c-42e5-917a-13205902c908",
+    "file": "raw/7e7d287bf105a9f614dc274c65823ddabb3360373c443cdaec6f7d5e9e50a291.json",
+    "retrieved_utc": "2026-10-17T14:48:24.712403+00:00",
+    "sha256": "ff971172bfc1fbb95e87b67789b9e3a1a2a19f4ab8358c737387659f3d64b77a"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/bad71ab1-d8cd-46fa-bb14-894e787f9898",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/bad71ab1-d8cd-46fa-bb14-894e787f9898",
+    "file": "raw/6a2c25dfa400aab972a11e4141c3085b33687a960831c2edff4a78bb3a609019.json",
+    "retrieved_utc": "2026-10-17T14:48:24.733316+00:00",
+    "sha256": "45c3c7d271e86d803557deebe497a458ac4956eca242752ed801785a7ba025b8"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/baea6d68-2621-498b-ae45-f133c39b9b4f",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/baea6d68-2621-498b-ae45-f133c39b9b4f",
+    "file": "raw/9ea5c0d6adb313a97762fd0716ac0996e1f3b378d6b5b6f9606efc0a5cc22007.json",
+    "retrieved_utc": "2026-10-17T14:48:24.740834+00:00",
+    "sha256": "c9888ae9cb5fe0609347b98f01a044f5576d223c6355dbe7cf5d7126b33482ad"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/bb9d7f05-5d0e-49ce-8391-a03ab42c59a3",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/bb9d7f05-5d0e-49ce-8391-a03ab42c59a3",
+    "file": "raw/9bd90182547cfca48c738473935293ba3962d0d835a95fc67db10f7b4e56c048.json",
+    "retrieved_utc": "2026-10-17T14:48:24.872150+00:00",
+    "sha256": "c5b932e4478cc9330c3f8b76aae63ac780c503fbc0dd016dad9bf4492f804474"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/becbfe68-9979-4e36-970b-aa70c79bb326",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/becbfe68-9979-4e36-970b-aa70c79bb326",
+    "file": "raw/1f953fe9f98388d83b1808ed7c927bfdf85776d36a180b1732cd5d98f4b2f45d.json",
+    "retrieved_utc": "2026-10-17T14:48:24.887413+00:00",
+    "sha256": "ae94524f9bf5ca17ffc9bfa2f3141a3f5795811e957235707d071531da156a60"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/bf064f5a-e100-4857-ba6d-d003d92fb5f5",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/bf064f5a-e100-4857-ba6d-d003d92fb5f5",
+    "file": "raw/28375cb249a991bc6fd1634c427e5f798da0b2e62ac707b39130deb2744d3c66.json",
+    "retrieved_utc": "2026-10-17T14:48:24.938989+00:00",
+    "sha256": "39dc008bc0f4de220c3f90156e748d5c0c42b6c1a8f46a56058192018e9fde51"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/c4f8ee04-13cd-42b3-a82b-2c2549513480",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/c4f8ee04-13cd-42b3-a82b-2c2549513480",
+    "file": "raw/194be6fe2f1c18322ee728db922c9c329333abaf944a1b0276b6cc96a6ec9042.json",
+    "retrieved_utc": "2026-10-17T14:48:24.983624+00:00",
+    "sha256": "d814e6dfb833e537a31468217114f9aa56ebc6fa43b8768bf707c2affedcb0fe"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/ca93afa1-4036-4a4c-9030-548555e3a91d",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/ca93afa1-4036-4a4c-9030-548555e3a91d",
+    "file": "raw/e29f3e56d8aad3c500c33e75bd5bef913b13abd0cc84b392fa7ef486347c66a8.json",
+    "retrieved_utc": "2026-10-17T14:48:25.119229+00:00",
+    "sha256": "1e528a2eca9fc250f9f804fabccf6e6be3fee287975b67665d4b4c38b7092139"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/cae16577-bb84-4fe3-a19c-80b45bb2e056",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/cae16577-bb84-4fe3-a19c-80b45bb2e056",
+    "file": "raw/8f255e1a3beeec18172a01683d36492545d52b93a742ba20ae7e5893e097faec.json",
+    "retrieved_utc": "2026-10-17T14:48:25.151392+00:00",
+    "sha256": "304f960cb6a470cab056f1564009588952a3a34809cc581ff43e88e598ff3ceb"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/cba5b5e1-d49b-4a9b-bd89-3861466d10d7",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/cba5b5e1-d49b-4a9b-bd89-3861466d10d7",
+    "file": "raw/6766a3838d613ddfa84895ecef75ff96e59a7ed66f1094841427f45867dc7004.json",
+    "retrieved_utc": "2026-10-17T14:48:25.160758+00:00",
+    "sha256": "e5388bc1cf602e688183b9683f1abc8240f821cfea2eb0bef800abebcc6165b0"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/cd8327ff-ddc7-45cd-9028-3d87e17116e7",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/cd8327ff-ddc7-45cd-9028-3d87e17116e7",
+    "file": "raw/97a3a212a65beeee66c8221b1eac6dd49bddecdbec0cc941f1d1195368994333.json",
+    "retrieved_utc": "2026-10-17T14:48:25.280540+00:00",
+    "sha256": "1102c06b5a15c9fa5eb7812db11ffbbf4429f8c86c0e3aac223c4d2ba3024db2"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/cddd7198-d002-4557-b739-5b647dc6d759",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/cddd7198-d002-4557-b739-5b647dc6d759",
+    "file": "raw/e20a5c09cc32eee57520099b1ce48b632cc5945a26b04db6f00db8f5c56d6f63.json",
+    "retrieved_utc": "2026-10-17T14:48:25.321777+00:00",
+    "sha256": "e34b1651d1b5595cecd8b511122b387e46ef35336767576fe414ade58a88ee0b"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/cded133f-6ee1-41cd-90ee-a4465c399581",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/cded133f-6ee1-41cd-90ee-a4465c399581",
+    "file": "raw/8975a9bbff7a8af3b5aa80974681e96e7cfa2d0257442bd8dc837e3bfc49fd5e.json",
+    "retrieved_utc": "2026-10-17T14:48:25.312286+00:00",
+    "sha256": "cb78a03f3053567cab75707a59d4dd1d6efd384b3f62727ecf3abdf7e599d319"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/d4555b5d-29b5-4b7a-a5a8-0263430b3cf4",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/d4555b5d-29b5-4b7a-a5a8-0263430b3cf4",
+    "file": "raw/4d93f51f501bd795d17926f533cb52b2c83c951aec8c5671224cc95fc7615f4f.json",
+    "retrieved_utc": "2026-10-17T14:48:25.467574+00:00",
+    "sha256": "ffd18f6f47cf567c2deb1fc136ac575d421bf48b0da7d5a95e7af62f6144b60c"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/d6111f49-b3cc-497d-bf79-d95fe83e3a89",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/d6111f49-b3cc-497d-bf79-d95fe83e3a89",
+    "file": "raw/ff95503d96897b8e3b7795994f8170b33a3eab6549a8ba679030fc230668682c.json",
+    "retrieved_utc": "2026-10-17T14:48:25.487135+00:00",
+    "sha256": "0ccd362165100d3d2fde95324f23b584ba3f25a97864b0a9c878080a6c18664a"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/d6f95f57-2fe6-4301-b0ec-a16f6dde003a",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/d6f95f57-2fe6-4301-b0ec-a16f6dde003a",
+    "file": "raw/6ff0d0e5d7df769c818e9bbdbe52c86eb1d4326972fed2f9f6d1d378e8c61e50.json",
+    "retrieved_utc": "2026-10-17T14:48:25.478571+00:00",
+    "sha256": "fa9381cb58e8e1f40b3de85e4e3e982f919d7482e42891b4e3f185fa9dc2a2d2"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/dcc5cf54-727a-41ad-b746-9a227fe3d3f7",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/dcc5cf54-727a-41ad-b746-9a227fe3d3f7",
+    "file": "raw/bd9c140f89a978524c3d4ce9e1417630edb2f71c7fb4ad04c928018a77794584.json",
+    "retrieved_utc": "2026-10-17T14:48:25.629596+00:00",
+    "sha256": "da89b2da062f79406713412225a1fa138889cb21c9ab0e9fd147a6d5a5edb293"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/de0ed4f1-b470-473e-a40e-cd56669f27be",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/de0ed4f1-b470-473e-a40e-cd56669f27be",
+    "file": "raw/f5f5b710a333c623ed955241a0aa2a2ca652f67439b85a4f67caf8dfde93409f.json",
+    "retrieved_utc": "2026-10-17T14:48:25.643273+00:00",
+    "sha256": "3fc3b08bdbdb4c255eff35e82b259e3fbd764bb83422b82a138a875b3bbdb49f"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/de8d954b-6413-474a-8311-70fe51d60e7e",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/de8d954b-6413-474a-8311-70fe51d60e7e",
+    "file": "raw/8d5ea9eb579a73541d4d91439a8670835f75860daa48735e1b90aa5bf47eae4e.json",
+    "retrieved_utc": "2026-10-17T14:48:25.651969+00:00",
+    "sha256": "6b7a0eb68f61812852e683d72cefe3f84bf16b150286301b76ac977a16437a0c"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/e4c94056-2c31-43a4-b2dc-4887e165d443",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/e4c94056-2c31-43a4-b2dc-4887e165d443",
+    "file": "raw/a39f588dae08389855abc010b624694a3dff942a74540adc34d902a22ed2c7f8.json",
+    "retrieved_utc": "2026-10-17T14:48:25.752070+00:00",
+    "sha256": "8f4b463b615923e5cce2cfce3ef161125338cbd786e65700194337a5130402f5"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/e695a770-de9e-49ad-91c1-e18cf9e6883b",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/e695a770-de9e-49ad-91c1-e18cf9e6883b",
+    "file": "raw/fd8e762a9d8515a9a59c8b6fa78131adf15d95b8ad93797cc8b87f48746e932c.json",
+    "retrieved_utc": "2026-10-17T14:48:25.814411+00:00",
+    "sha256": "44c60265f59e42f51ebcb9fa30a4f51fe7f6d37e9e2d621afb92e840e4f10458"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/e82dceb6-b716-4325-9558-b2a1e4ec3ed5",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/e82dceb6-b716-4325-9558-b2a1e4ec3ed5",
+    "file": "raw/475cc471fe600d8fc96d0fb20734a9a70a11830117f34f2e73e9fddf88d29c83.json",
+    "retrieved_utc": "2026-10-17T14:48:25.763457+00:00",
+    "sha256": "7b92a7e0c5181e4815a614c97c78e0a885c8616434ebc3bf242c0b34c9eff2f2"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/e83a5b57-a372-4f51-b02a-3ec636f39c6e",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/e83a5b57-a372-4f51-b02a-3ec636f39c6e",
+    "file": "raw/90c992721d6516884286669909ae2dd9acf94f9ccb9a15862419dec21683e047.json",
+    "retrieved_utc": "2026-10-17T14:48:25.924236+00:00",
+    "sha256": "a0cf68f8c72d91270f6a44caa61185226198dacee9f2ca20eb2c85b90644c7eb"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/e8a8d09d-75d9-4790-ba14-c9d9659a2d66",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/e8a8d09d-75d9-4790-ba14-c9d9659a2d66",
+    "file": "raw/f4a8dc94c2c7af0a53ed118b98123dc1e9ba7b8396b639ac06f88adfbd4ce601.json",
+    "retrieved_utc": "2026-10-17T14:48:25.981324+00:00",
+    "sha256": "ca5cbf3d121e7db8fb56adbd3368000c41fd8f0b605c140f27f2de662c298101"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/e8b40ca8-28ef-4d23-93d6-a09329fe7464",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/e8b40ca8-28ef-4d23-93d6-a09329fe7464",
+    "file": "raw/1286b48ab8babce42474b33295cf21de3d4ac8fc02e12aa90fdd941c3a454844.json",
+    "retrieved_utc": "2026-10-17T14:48:26.016535+00:00",
+    "sha256": "d0fae74e87b5331c6f70ac9df47c8d2bcf7b13f94af5f77f4125402ebd1300be"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/f0730683-51c1-49c0-aed3-31b840cd095d",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/f0730683-51c1-49c0-aed3-31b840cd095d",
+    "file": "raw/48423b69e508378d28be5fb916597532a8694c294f88e68f3d1362f90dbebd42.json",
+    "retrieved_utc": "2026-10-17T14:48:26.083375+00:00",
+    "sha256": "8fe68f686d1dcfab46ff70e40747aa994ca78d1970d9c5e9782a798ba91f5431"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/f16cad1a-82c5-44dd-8e1d-fa66c8d810aa",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/f16cad1a-82c5-44dd-8e1d-fa66c8d810aa",
+    "file": "raw/897ded4f2fe3abea7f96a0fa2ac6df3dc580ee8623203f9b63fb386845bcf348.json",
+    "retrieved_utc": "2026-10-17T14:48:26.133041+00:00",
+    "sha256": "941bc357f402950dfb41f64b333913841493d8b2f025b185321ab0d18cd109d6"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/f3920ef4-4c94-4d71-99e9-a37cfd4e640e",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/f3920ef4-4c94-4d71-99e9-a37cfd4e640e",
+    "file": "raw/5f6081bd81cf7cc68ca067a9b80de31ccafe71f388f340f49a08e1b59c7a8f5c.json",
+    "retrieved_utc": "2026-10-17T14:48:26.158228+00:00",
+    "sha256": "d0187b3c22a267479c017808c21a299b3154783cbe15f92c9800936e2e7c157b"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/f6877f12-836a-42ff-bee7-0f30475df903",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/f6877f12-836a-42ff-bee7-0f30475df903",
+    "file": "raw/ddd2d7c828bc799156bb1f33ff5e14820ce9b5fefaedbb0a7d6c30d49cc586f9.json",
+    "retrieved_utc": "2026-10-17T14:48:26.251147+00:00",
+    "sha256": "5ade913c97f2b0b60789027c1cec11916d39482149da9643ef7bed26bc93e6cd"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/fc26ed96-0da3-4804-a9f3-181dbf8d9c16",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/fc26ed96-0da3-4804-a9f3-181dbf8d9c16",
+    "file": "raw/6b501168a14b0b4f22a133fea2186d29c3415e676e1e61867a3de95072ac815d.json",
+    "retrieved_utc": "2026-10-17T14:48:26.280321+00:00",
+    "sha256": "36ae7378e2eed5945b1f4f50f090d94b86412f0c88b32c881a73c493ebd98125"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/fd5b6c82-3cc4-4e1d-ac8b-df9d85b1b057",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/fd5b6c82-3cc4-4e1d-ac8b-df9d85b1b057",
+    "file": "raw/df865fc90b62a9af8f413e6ec65ec047a30ad20cdaa9b085a8e8c1c24a172d3e.json",
+    "retrieved_utc": "2026-10-17T14:48:26.310251+00:00",
+    "sha256": "61758d48e8b98876747f0ea9bb67cf7638c0b99b31425a958658c10becf28a56"
+  },
+  {
+    "url": "https://lux.collections.yale.edu/data/place/fe3241a1-be43-4143-87c1-d7300de587e9",
+    "resolved_url": "https://lux.collections.yale.edu/data/place/fe3241a1-be43-4143-87c1-d7300de587e9",
+    "file": "raw/6350cdfbf2be9ae6f69ce96c4a05c1f90f9a6d0e15ab63255b57fd362636f8d1.json",
+    "retrieved_utc": "2026-10-17T14:48:26.410016+00:00",
+    "sha256": "9524f3e9e9570b200fb0b90fb2b14008760ae97a92cb5bb5b4a367db949a80b6"
+  }
+]

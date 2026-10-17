@@ -1,0 +1,50 @@
+{
+  "libraries": 205,
+  "protected_fields_unchanged": [
+    "library_id",
+    "analysis_sample_id",
+    "specimen_id",
+    "voucher_id",
+    "sample_id",
+    "collection_id",
+    "biosample",
+    "sra_run",
+    "latitude",
+    "longitude",
+    "depth_m",
+    "collection_date",
+    "tissue",
+    "species_current",
+    "analysis_notes"
+  ],
+  "frozen_input_checksums_and_mtimes": "unchanged",
+  "accepted_proposals": 443,
+  "all_proposals_have_cell_provenance": true,
+  "verified_source_responses": 419,
+  "changed_cells": {
+    "location": 49,
+    "collection_site": 49,
+    "country": 26,
+    "notes": 38,
+    "depth_min_m": 19,
+    "depth_max_m": 19,
+    "collection_method": 22
+  },
+  "required_metadata_gaps": {
+    "collection_id": 11,
+    "sample_id": 17,
+    "voucher_id": 13,
+    "biosample": 2,
+    "tissue": 18,
+    "depth_m": 3
+  },
+  "public_lux_vouchers": 148,
+  "previously_unconfirmed_newly_found": 0,
+  "tests": "28 passed: test_lux_metadata.py, test_publication_metadata.py, test_collection_context.py",
+  "sequence_jobs_executed": 0,
+  "publication_dry_run_jobs": [
+    "publication_cohort_figures",
+    "collection_context_tables",
+    "publication_collection_context_figures"
+  ]
+}

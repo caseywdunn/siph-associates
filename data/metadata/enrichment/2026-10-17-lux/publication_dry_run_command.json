@@ -1,0 +1,22 @@
+[
+  "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/snakemake",
+  "--snakefile",
+  "Snakefile",
+  "--configfile",
+  "config/config.yaml",
+  "--cores",
+  "1",
+  "--dry-run",
+  "--nolock",
+  "--rerun-triggers",
+  "mtime",
+  "--allowed-rules",
+  "publication_cohort_figures",
+  "publication_mycoplasmatales_figures",
+  "collection_context_tables",
+  "publication_collection_context_figures",
+  "--",
+  "publication_cohort_figures",
+  "publication_mycoplasmatales_figures",
+  "publication_collection_context_figures"
+]

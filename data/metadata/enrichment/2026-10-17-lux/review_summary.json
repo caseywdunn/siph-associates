@@ -1,0 +1,37 @@
+{
+  "vouchers_reviewed": 148,
+  "comparison_status": {
+    "confirmed": 148,
+    "not_comparable": 44,
+    "agrees": 228,
+    "other_identifier": 68,
+    "candidate_addition": 81,
+    "within_locality_envelope": 94,
+    "outside_locality_envelope": 10,
+    "label_matches": 73,
+    "retained_source_description": 95,
+    "disagrees": 16,
+    "compatible": 19,
+    "alternate_field_label": 6,
+    "internally_inconsistent_locality": 1
+  },
+  "proposals_by_field": {
+    "voucher_id": 148,
+    "collection_site": 49,
+    "location": 49,
+    "country": 26,
+    "collection_id": 49,
+    "sample_id": 24,
+    "collection_method": 22,
+    "depth_min_m": 19,
+    "depth_max_m": 19,
+    "notes": 38
+  },
+  "inputs_sha256": {
+    "data/metadata/enrichment/2026-10-17-lux/sample_metadata_before.tsv": "3a0988d96a824975546f1bf734fa3bc9765a1bb87f4e2218cda1074351aa4e6c",
+    "data/metadata/enrichment/2026-10-17-lux/overlay_before.tsv": "8174f4fc234da3e9ab0abf7bacdf79229c53b720ba463004dffee27e32323757",
+    "data/metadata/enrichment/2026-10-17-public-vouchers/requests.json": "52fcc1988eb0760b710d11ef241b593eede81779804e856ebb288bd171edc31d",
+    "data/sources/metadata_enrichment/2026-10-17-lux/requests.json": "78c8e8d7f0bc23e570dcd8691e3c43a6bacd6fde32eca4506fdc3d6dc9917044",
+    "/gpfs/ycga/work/dunn/cwd7/siph_associates/scripts/review_lux_metadata.py": "7c0277b48787d9ac26e29c24235393ee7bbb63498fc8fd8dcc3f079f7fad226d"
+  }
+}

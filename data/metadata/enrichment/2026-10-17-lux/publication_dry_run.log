@@ -1,0 +1,56 @@
+Config file config/config.yaml is extended by additional config specified via the command line.
+Building DAG of jobs...
+Job stats:
+job                                       count    min threads    max threads
+--------------------------------------  -------  -------------  -------------
+collection_context_tables                     1              1              1
+publication_cohort_figures                    1              1              1
+publication_collection_context_figures        1              1              1
+total                                         3              1              1
+
+
+[Sat Oct 17 11:01:58 2026]
+rule publication_cohort_figures:
+    input: figures/build_cohort.py, scripts/export_sample_metadata.py, manifest.csv, config/samples.tsv, config/publication_host_names.tsv, data/metadata/sample_metadata_updates.tsv, data/metadata/publication_metadata_updates.tsv, config/phase3_assembly.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/phase6_analysis/v2/grades/bacterial_grades.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/phase6_analysis/v2/grades/viral_grades.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/phase6_analysis/v2/primary/library_flowcells.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/eukaryote_gate/eukaryote_grades.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/phase3_catalog/mags/mag_catalog.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/phase4_catalog/v2/bacterial_catalog.manifest.tsv
+    output: figures/cohort/sample_metadata.tsv, figures/cohort/sample_metadata_provenance.tsv, figures/cohort/sample_metadata_missing.tsv, figures/cohort/sample_metadata_export.json, figures/cohort/sampling.pdf, figures/cohort/mycoplasmatales_incidence.pdf, figures/cohort/eukaryote_evidence.pdf, figures/cohort/summary.json, figures/cohort/source_checksums.tsv, figures/cohort/bacterial_detections.tsv, figures/cohort/viral_detections.tsv, figures/cohort/eukaryote_evidence.tsv, figures/cohort/library_flowcells.tsv, figures/cohort/mycoplasmatales_incidence.tsv
+    log: logs/figures/cohort.log
+    jobid: 2
+    reason: Updated input files: scripts/export_sample_metadata.py, data/metadata/publication_metadata_updates.tsv, figures/build_cohort.py
+    resources: tmpdir=/tmp, mem_mb=4000, mem_mib=3815, runtime=15, partition=day
+
+
+[Sat Oct 17 11:01:58 2026]
+rule collection_context_tables:
+    input: scripts/analyze_collection_context.py, figures/cohort/sample_metadata.tsv, figures/cohort/bacterial_detections.tsv, figures/cohort/viral_detections.tsv, figures/cohort/eukaryote_evidence.tsv, figures/cohort/library_flowcells.tsv, figures/cohort/mycoplasmatales_incidence.tsv
+    output: figures/collection_context/library_context.tsv, figures/collection_context/associate_detections.tsv, figures/collection_context/host_detection_summary.tsv, figures/collection_context/depth_summary.tsv, figures/collection_context/tissue_summary.tsv, figures/collection_context/dt68_specimens.tsv, figures/collection_context/dt68_depth_summary.tsv, figures/collection_context/tissue_region_incidence.tsv, figures/collection_context/tissue_region_host_incidence.tsv, figures/collection_context/summary.json, figures/collection_context/provenance.json, figures/collection_context/provenance/analyze_collection_context.py
+    log: logs/figures/collection_context_tables.log
+    jobid: 1
+    reason: Input files updated by another job: figures/cohort/library_flowcells.tsv, figures/cohort/eukaryote_evidence.tsv, figures/cohort/viral_detections.tsv, figures/cohort/mycoplasmatales_incidence.tsv, figures/cohort/bacterial_detections.tsv, figures/cohort/sample_metadata.tsv
+    resources: tmpdir=/tmp, mem_mb=1000, mem_mib=954, runtime=5, partition=day
+
+
+[Sat Oct 17 11:01:58 2026]
+rule publication_collection_context_figures:
+    input: figures/plot_collection_context.py, figures/collection_context/library_context.tsv, figures/collection_context/host_detection_summary.tsv, figures/collection_context/dt68_specimens.tsv, figures/collection_context/tissue_summary.tsv, figures/collection_context/tissue_region_incidence.tsv, figures/collection_context/provenance.json
+    output: figures/collection_context/depth_host_overview.pdf, figures/collection_context/dt68_depth_context.pdf, figures/collection_context/tissue_context.pdf, figures/collection_context/depth_host_overview.png, figures/collection_context/dt68_depth_context.png, figures/collection_context/tissue_context.png, figures/collection_context/plot_manifest.json, figures/collection_context/provenance/plot_collection_context.py
+    log: logs/figures/collection_context_plots.log
+    jobid: 0
+    reason: Input files updated by another job: figures/collection_context/provenance.json, figures/collection_context/tissue_region_incidence.tsv, figures/collection_context/host_detection_summary.tsv, figures/collection_context/dt68_specimens.tsv, figures/collection_context/library_context.tsv, figures/collection_context/tissue_summary.tsv
+    resources: tmpdir=/tmp, mem_mb=2000, mem_mib=1908, runtime=5, partition=day
+
+Job stats:
+job                                       count    min threads    max threads
+--------------------------------------  -------  -------------  -------------
+collection_context_tables                     1              1              1
+publication_cohort_figures                    1              1              1
+publication_collection_context_figures        1              1              1
+total                                         3              1              1
+
+Reasons:
+    (check individual jobs above for details)
+    input files updated by another job:
+        collection_context_tables, publication_collection_context_figures
+    updated input files:
+        publication_cohort_figures
+
+This was a dry-run (flag -n). The order of jobs does not reflect the order of execution.
