@@ -1,0 +1,7 @@
+stage	control	min_identity_percent	libraries_with_pairs	max_pairs	libraries_at_presence_threshold
+initial_phyloflash	Insecta	97	182	561	43
+competitive_host_aware	Insecta	97	22	36	0
+initial_phyloflash	Embryophyta	97	60	88	2
+competitive_host_aware	Embryophyta	97	33	13	0
+initial_phyloflash	Mammalia	97	57	108	7
+competitive_host_aware	Mammalia	97	27	18	0
