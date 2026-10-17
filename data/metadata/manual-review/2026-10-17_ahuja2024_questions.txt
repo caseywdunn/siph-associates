@@ -1,0 +1,83 @@
+Subject: Specimen metadata questions for the Ahuja 2024 study
+
+We are finalizing the specimen metadata for our comparative analysis. Please help resolve the items below using collection notebooks, extraction records, submission records, or other specimen-specific evidence. This request concerns metadata curation; the existing sequence-analysis identifiers remain fixed.
+
+We distinguish four identifiers: museum voucher number (including institution/collection), NCBI BioSample accession, field collecting-event ID, and tissue/sample label. A separate tissue-tube label can also be recorded. Please say explicitly when an identifier was never assigned or information was not recorded. Unknown values are acceptable when their status is documented.
+
+For each answer, please give the sample or voucher ID, the supported value, the evidence (URL, notebook page, spreadsheet row, or named person's confirmation and date), and a brief explanation where sources disagree. If one answer applies to a group, specify every specimen it covers. Coordinates should be signed decimal degrees; dates should be YYYY-MM-DD when a full date is known. Give depth units and distinguish an actual collection depth from a range. We will calculate a midpoint only when a range is all that is available, and will not average conflicting point measurements.
+
+There are 24 field-level review entries for 19 libraries: 11 missing vouchers and 13 catalog comparisons. The worksheet is keyed to our stable library labels. CWD16 and NA19 are shared between the 2024 and 2026 studies: CWD16's answer belongs in the 2024 worksheet, and NA19's answer belongs in the 2026 worksheet. Each should be answered once.
+
+1. Were museum vouchers deposited for these 11 samples?
+
+Please provide institution, collection, and catalog number, or confirm that no voucher was deposited/assigned. These samples have field and tissue/sample labels, but a field label by itself does not establish a museum voucher.
+
+- CWD104: field event Tib596SS12; Bargmannia elongata; BioSample SAMN32803034.
+- CWD116: field event MBARI071903BW; Agalma elegans; BioSample SAMN32803030.
+- NA10: field event T987-D2; Resomia ornicephala; BioSample SAMN32803055.
+- NA11: field event T845-D3; Resomia ornicephala; BioSample SAMN32803056.
+- NA2: field event D1399-D4; Physonectae; BioSample SAMN32803052.
+- NA3: field event D1399-D5; Forskalia; BioSample SAMN32803042.
+- NA4: field event D1398-SS11; Praya; BioSample SAMN32803053.
+- NA5: field event D1399-D12; Apolemia rubriversa; BioSample SAMN32803032.
+- NA6: field event V4355-SS6; Craseoa lathetica; BioSample SAMN32803039.
+- NA7: field event V4355-D3; Lilyopsis fluoracantha; BioSample SAMN32803048.
+- NA9: field event D199-SS8; Frillagalma vityazi; BioSample SAMN32803043.
+
+2. Which collection dates are correct for CWD131, CWD144, and CWD146?
+
+- CWD131 (YPM:IZ:35355): current 2003-03-15; LUX 1999-03-15; current event BW415May03GOC#59.
+  Source: https://lux.collections.yale.edu/data/object/51a9efdc-b7e0-4c7b-9342-fec273f5a2cb
+- CWD144 (YPM:IZ:35360): current 2000-01-13; LUX 2003-01-13; current event Tib105SS8.
+  Source: https://lux.collections.yale.edu/data/object/1633145b-4939-4f39-9249-0b63438fa430
+- CWD146 (YPM:IZ:35362): current 2003-03-13; LUX 2002-03-22; current event 531D3.
+  Source: https://lux.collections.yale.edu/data/object/14d66d4e-ccf3-49c1-ae92-5e3b0761bb30
+
+For CWD131, please check the full date against the field log: the study event label also contains 'May03', whereas both listed dates are in March. That text is a reason to check the record, not an inferred replacement date.
+
+3. Are these six pairs of collection-event labels synonyms, or does one contain an error?
+
+Please confirm the event identity and preferred documented label, retaining any valid alternate label as an alias. In particular, CWD19 differs by an extra final digit, so it may not be only a punctuation change.
+
+- CWD101 (YPM:IZ:35090): current 'Tib595D1'; LUX 'T595-D1'.
+  Source: https://lux.collections.yale.edu/data/object/21381f85-5601-459a-90ff-16f70b35c780
+- CWD11 (YPM:IZ:35076): current 'JSL3272D1'; LUX 'JSLII3272-D1'.
+  Source: https://lux.collections.yale.edu/data/object/2311aefd-95c6-4064-bede-e449596920b5
+- CWD131 (YPM:IZ:35355): current 'BW415May03GOC#59'; LUX 'BW415 GOC#59'.
+  Source: https://lux.collections.yale.edu/data/object/51a9efdc-b7e0-4c7b-9342-fec273f5a2cb
+- CWD144 (YPM:IZ:35360): current 'Tib105SS8'; LUX 'T105-SS8'.
+  Source: https://lux.collections.yale.edu/data/object/1633145b-4939-4f39-9249-0b63438fa430
+- CWD146 (YPM:IZ:35362): current '531D3'; LUX 'T531-D3'.
+  Source: https://lux.collections.yale.edu/data/object/14d66d4e-ccf3-49c1-ae92-5e3b0761bb30
+- CWD19 (YPM:IZ:35346): current 'MBARI03129'; LUX 'MBARI031299'.
+  Source: https://lux.collections.yale.edu/data/object/eaa9b243-e5b9-4b5c-9fbc-81f65d1a22aa
+
+4. What were the collection coordinates for CWD11?
+
+- CWD11 (event JSL3272D1): current latitude=40.31; longitude=-68.13. Museum mapped extent: latitude 40.500038 to 40.533358; longitude -68.238535 to -68.194865. Museum locality: Atlantic Ocean. Off USA. Oceanographer Canyon. [JSLII3272-D1].
+  Source: https://lux.collections.yale.edu/data/place/bb9d7f05-5d0e-49ce-8391-a03ab42c59a3
+
+The current collection date is 2002-07-03 and the museum locality is Oceanographer Canyon. Could the source notation 40.31 / 68.13 mean 40 degrees 31 minutes N, 68 degrees 13 minutes W rather than decimal degrees? That interpretation would be approximately latitude 40.516667, longitude -68.216667, which is consistent with the museum extent. This is a hypothesis to check against the original log, not a correction we have applied. Please provide the original coordinate notation and the correct signed decimal-degree values.
+
+5. Can you resolve the depth records for CWD16 and NA8?
+
+- CWD16 (YPM:IZ:35039; event OC379-11-7; current date 2002-06-08): the 2024 supplement has 10 meters at Invertebrate.1.0!P37, and BioSample SAMN32803050 also reports 10 meters. The 2026 Table S8 has 0-20 m at Sheet1!I2. LUX gives 0-50 meters. Our table retains 10 m with the reported 0-20 m bounds. Was 10 m an actual specimen collection depth, or a representative/derived value? Which range applies to this specimen, and does either range instead describe the dive or site? Please provide the original collection record. This question also applies to the 2026 reuse of CWD16.
+  BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN32803050
+  LUX: https://lux.collections.yale.edu/data/place/6ea25974-e3be-4444-8d16-802948da34be
+- NA8 (YPM:IZ:110226; event D1398-D1; current date 2021-10-29): our current depth is 1299 m; LUX reports 1289.68-1289.68 meters. Which depth is supported by the dive/sampler record, and what exactly does it measure?
+  LUX: https://lux.collections.yale.edu/data/place/f6877f12-836a-42ff-bee7-0f30475df903
+
+6. What locality and country/jurisdiction should be recorded for CWD131?
+
+CWD131 (YPM:IZ:35355; event BW415May03GOC#59) currently has latitude 24.32, longitude -109.2, and broad location Pacific Ocean. The LUX locality combines 'Gulf of California' with 'USA'. We have left country unresolved rather than assigning it from that internally inconsistent description. Please confirm the collection locality and the appropriate country/jurisdiction, or state if that field is not applicable for the offshore site. This should be checked together with its date and event label above.
+Source: https://lux.collections.yale.edu/data/place/acb8c631-3803-41eb-9a99-a13a15befd8e
+
+7. Shared specimen NA19: please answer in the Ahuja 2026 worksheet.
+
+NA19 (YPM:IZ:111744; event V3698-D2) appears in both studies. The 2024 supplement (Invertebrate.1.0!P36) and BioSample SAMN32803049 report 297 m, while the 2026 supplement (Sheet1!I23) reports 296. Its canonical row is Ahuja2026:NA19, so this question is counted in the 2026 packet rather than duplicated among the 24 entries here. Please establish the depth from the original record and explain the 1 m difference if possible.
+
+Tissue, BioSample, field-event labels, and tissue/sample labels are already populated for the libraries assigned to the 2024 worksheet. We need the missing vouchers and the specific comparisons above, rather than a new submission of every existing value.
+
+You can reply directly to these numbered questions or fill in 2026-10-17_ahuja2024_review.tsv. The worksheet has four response columns: decision, reviewed_value, evidence, and review_notes. For decision, use set_value (supply/correct a value), keep_current (confirm the existing value), not_assigned (identifier never assigned), or unresolved (cannot establish an answer). Leave the identifying and comparison columns unchanged. Import identifiers as text when opening the TSV in a spreadsheet.
+
+These comparisons describe the retained source records reviewed on October 17, 2026. Please use the original records to decide which value is supported.

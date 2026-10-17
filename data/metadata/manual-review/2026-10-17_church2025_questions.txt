@@ -1,0 +1,140 @@
+Subject: Specimen metadata questions for the Church study (Church2025)
+
+We are finalizing the specimen metadata for our comparative analysis. Please help resolve the items below using collection notebooks, extraction records, submission records, or other specimen-specific evidence. This request concerns metadata curation; the existing sequence-analysis identifiers remain fixed.
+
+We distinguish four identifiers: museum voucher number (including institution/collection), NCBI BioSample accession, field collecting-event ID, and tissue/sample label. A separate tissue-tube label can also be recorded. Please say explicitly when an identifier was never assigned or information was not recorded. Unknown values are acceptable when their status is documented.
+
+For each answer, please give the sample or voucher ID, the supported value, the evidence (URL, notebook page, spreadsheet row, or named person's confirmation and date), and a brief explanation where sources disagree. If one answer applies to a group, specify every specimen it covers. Coordinates should be signed decimal degrees; dates should be YYYY-MM-DD when a full date is known. Give depth units and distinguish an actual collection depth from a range. We will calculate a midpoint only when a range is all that is available, and will not average conflicting point measurements.
+
+There are 70 field-level review entries for 59 libraries: 50 missing values and 20 catalog comparisons. The questions below group these entries so that one supported answer can resolve several related rows.
+
+1. What tissue was actually used for the 18 specimens below?
+
+We did not find a specimen-level tissue description in the reviewed study tables and NCBI records. Please identify the tissue or material that was extracted for sequencing, with any mixed tissue, whole-colony, or specimen-specific exceptions stated explicitly. A general extraction protocol alone does not establish the tissue used for a particular specimen.
+
+The 16 WAM specimens are:
+
+- WAM-Z88480; field event not recorded; tissue/sample label Z88480; BioSample SAMN40621283.
+- WAM-Z97900; field event WA 1; tissue/sample label Z97900; BioSample SAMN40621284.
+- WAM-Z97901; field event WA 2; tissue/sample label Z97901; BioSample SAMN40621285.
+- WAM-Z97902; field event WA 3; tissue/sample label Z97902; BioSample SAMN40621286.
+- WAM-Z97903; field event WA 4; tissue/sample label Z97903; BioSample SAMN40621287.
+- WAM-Z97906; field event WA 7; tissue/sample label Z97906; BioSample SAMN40621288.
+- WAM-Z97907; field event WA 8; tissue/sample label Z97907; BioSample SAMN40621289.
+- WAM-Z97908; field event WA 9; tissue/sample label Z97908; BioSample SAMN40621290.
+- WAM-Z97910; field event WA 11; tissue/sample label Z97910; BioSample SAMN40621291.
+- WAM-Z97911; field event WA 12; tissue/sample label Z97911; BioSample SAMN40621292.
+- WAM-Z97914; field event WA 15; tissue/sample label Z97914; BioSample SAMN40621293.
+- WAM-Z97916; field event WA 17; tissue/sample label Z97916; BioSample SAMN40621294.
+- WAM-Z97917; field event NSW n.1; tissue/sample label Z97917; BioSample SAMN40621295.
+- WAM-Z97920; field event NSW l.p.; tissue/sample label Z97920; BioSample SAMN40621296.
+- WAM-Z97921; field event 1; tissue/sample label Z97921; BioSample SAMN40621297.
+- WAM-Z97923; field event QLD d.b3; tissue/sample label Z97923; BioSample SAMN40621298.
+
+The other two are OA-190531-1 and OA-Bluebottle. Their additional identification questions are grouped next.
+
+2. Can you complete the identifiers and tissue information for the two OA specimens?
+
+- OA-190531-1: current field event 190531; current sample/tissue-tube label 1. We need the museum voucher (institution, collection, and number), BioSample accession, and tissue used. Please confirm if no voucher or BioSample was assigned.
+- OA-Bluebottle: current field event GON10891; no separate tissue/sample label is recorded. We need the museum voucher, BioSample accession, tissue/sample label if one exists, and tissue used. Please distinguish GON10891's event role from any tissue identifier.
+
+If a submission cannot be located by specimen name, the associated SRA run/experiment or original submission sample name would help us match it. We need the BioSample accession itself, rather than only a BioProject or run accession.
+
+3. Were field collecting-event identifiers assigned to these 11 specimens?
+
+Please supply the field event/station/dive-sampler identifier, or confirm that none was assigned or retained. These identifiers may differ from the museum number and the extraction/tissue label.
+
+- FM-16644; existing sample label FM16644; BioSample SAMN40621277.
+- TMAG-K5632; existing sample label KM5632; BioSample SAMN40621278.
+- TMAG-K5633; existing sample label KM5633; BioSample SAMN40621279.
+- TMAG-K5634; existing sample label KM5634; BioSample SAMN40621280.
+- TMAG-K5635; existing sample label KM5635; BioSample SAMN40621281.
+- TMAG-K5636; existing sample label KM5636; BioSample SAMN40621282.
+- WAM-Z88480; existing sample label Z88480; BioSample SAMN40621283.
+- YPM-IZ-110694; existing sample label 110694; BioSample SAMN40621349.
+- YPM-IZ-110906; existing sample label 110906; BioSample SAMN40621373.
+- YPM-IZ-110907; existing sample label 110907; BioSample SAMN40621374.
+- YPM-IZ-111163; existing sample label not recorded; BioSample SAMN41900823.
+
+4. Is there a separate tissue/sample label for these 17 specimens?
+
+For this field we have used the source YCGA_ID when present, or diss_tube_ID when the sequencing-center label is absent. Please supply those labels, or another documented tissue/sample label, and identify its role. If both a sequencing-center label and a separate tissue-tube label exist, please provide both. A museum number or general specimen_ID should be reused here only if it actually served as the tissue/sample label.
+
+- NIWA-173304; field event CWDNZ24_035; BioSample SAMN41900828.
+- NIWA-173305; field event CWDNZ24_036; BioSample SAMN41900829.
+- OA-Bluebottle; field event GON10891; BioSample not recorded.
+- YPM-IZ-110434; field event KBW-03; BioSample SAMN46053585.
+- YPM-IZ-110436; field event CP-02; BioSample SAMN46053586.
+- YPM-IZ-111156; field event 1; BioSample SAMN41900818.
+- YPM-IZ-111157; field event 2; BioSample SAMN41900819.
+- YPM-IZ-111158; field event 3; BioSample SAMN41900820.
+- YPM-IZ-111159; field event 4; BioSample SAMN41900821.
+- YPM-IZ-111160; field event 5; BioSample SAMN41900822.
+- YPM-IZ-111163; field event not recorded; BioSample SAMN41900823.
+- YPM-IZ-111207; field event CWDNZ24_031; BioSample SAMN41900824.
+- YPM-IZ-111208; field event CWDNZ24_032; BioSample SAMN41900825.
+- YPM-IZ-111209; field event CWDNZ24_033; BioSample SAMN41900826.
+- YPM-IZ-111210; field event CWDNZ24_034; BioSample SAMN41900827.
+- YPM-IZ-111839; field event S238-015-NT; BioSample SAMN46053601.
+- YPM-IZ-111840; field event S238-013-NT; BioSample SAMN46053602.
+
+5. Which collection dates are supported for these 11 specimens?
+
+The dates currently in our table differ from dates in the retained LUX object labels. Please check the original collecting record and give the supported date, including whether the catalog date describes a different event. For the August/November discrepancies, please check the original date notation rather than assuming a month/day interpretation.
+
+- YPM-IZ-110268; event SHC09: current 2022-11-04; LUX 2022-11-01.
+  Source: https://lux.collections.yale.edu/data/object/48cc9ecc-6a97-4d5a-b899-c07ffc588e5c
+- YPM-IZ-110269; event SHC10: current 2022-11-04; LUX 2022-11-01.
+  Source: https://lux.collections.yale.edu/data/object/73cba7e0-0a8b-4fea-9f82-672c8358d8ef
+- YPM-IZ-110460; event Kailua-1: current 2022-11-14; LUX 2022-08-14.
+  Source: https://lux.collections.yale.edu/data/object/2cb042c2-77c9-4a00-989d-9d2be585d16a
+- YPM-IZ-110878; event GoCBW1: current 2006-06-09; LUX 2006-06-06.
+  Source: https://lux.collections.yale.edu/data/object/32491ebb-4a22-4b74-97cc-73720853f5d9
+- YPM-IZ-111006; event 1: current 2023-08-08; LUX 2023-11-08.
+  Source: https://lux.collections.yale.edu/data/object/a0448f36-b199-411f-a8d6-87bc7ee806a9
+- YPM-IZ-111007; event 2: current 2023-08-08; LUX 2023-11-08.
+  Source: https://lux.collections.yale.edu/data/object/17cde29a-9ca1-45f2-befa-a398d7d583f2
+- YPM-IZ-111008; event 3: current 2023-08-08; LUX 2023-11-08.
+  Source: https://lux.collections.yale.edu/data/object/93e12233-a58c-4a58-bd37-113cbca2382f
+- YPM-IZ-111009; event 4: current 2023-08-08; LUX 2023-11-08.
+  Source: https://lux.collections.yale.edu/data/object/1e3f5d55-5b85-4f59-beac-a5d0cb903e17
+- YPM-IZ-111010; event 5: current 2023-08-08; LUX 2023-11-08.
+  Source: https://lux.collections.yale.edu/data/object/9b3e46e3-31ef-4934-8828-8042b8b5d94f
+- YPM-IZ-111241; event CWDNZ24_009: current 2024-03-15; LUX 2024-03-13.
+  Source: https://lux.collections.yale.edu/data/object/97b1f429-e655-4707-a7c4-6f320183276b
+- YPM-IZ-111243; event CWDNZ24_011: current 2024-03-15; LUX 2024-03-13.
+  Source: https://lux.collections.yale.edu/data/object/4392e961-898f-4570-883e-f4361838d8a8
+
+6. Can you confirm the collection coordinates and named locality for these nine specimens?
+
+The current point lies outside the catalog locality's mapped extent. The museum values below are bounding ranges of a polygon, rounded to six decimal places for readability; they are not replacement specimen coordinates. Please provide the original specimen collection coordinates and locality, or confirm the current values, and explain whether the catalog represents a broader locality or a different position along a collection event.
+
+- YPM-IZ-106954 (event Bermuda_94, P13): current latitude=32.367233; longitude=-64.71455. Museum mapped extent: latitude 32.366447 to 32.399830; longitude -64.621895 to -64.582545. Museum locality: Atlantic Ocean. Bermuda. Approx. 2.85 miles NE of Little HEad.
+  Source: https://lux.collections.yale.edu/data/place/38b732a2-e83f-45a3-a60a-68aa48bed19d
+- YPM-IZ-110264 (event SHC05): current latitude=22.069018; longitude=-159.316685. Museum mapped extent: latitude 22.072301 to 22.105733; longitude -159.334624 to -159.298746. Museum locality: Pacific Ocean. North America. USA. Hawaii. Kauaii. Kapa'a.
+  Source: https://lux.collections.yale.edu/data/place/8bcc35e0-7ed7-4848-852b-18e713bbfa14
+- YPM-IZ-110268 (event SHC09): current latitude=22.069018; longitude=-159.316685. Museum mapped extent: latitude 22.072301 to 22.105733; longitude -159.334624 to -159.298746. Museum locality: Pacific Ocean. North America. USA. Hawaii. Kauaii. Kapa'a.
+  Source: https://lux.collections.yale.edu/data/place/f3920ef4-4c94-4d71-99e9-a37cfd4e640e
+- YPM-IZ-110269 (event SHC10): current latitude=22.069018; longitude=-159.316685. Museum mapped extent: latitude 22.072301 to 22.105733; longitude -159.334624 to -159.298746. Museum locality: Pacific Ocean. North America. USA. Hawaii. Kauaii. Kapa'a.
+  Source: https://lux.collections.yale.edu/data/place/f3920ef4-4c94-4d71-99e9-a37cfd4e640e
+- YPM-IZ-110613 (event KP008): current latitude=-30.745087; longitude=152.995494. Museum mapped extent: latitude -30.900768 to -30.867377; longitude 153.047233 to 153.085955. Museum locality: Pacific Ocean. Oceania. Australia. New South Wales. Arakoon Beach.
+  Source: https://lux.collections.yale.edu/data/place/5b7aed62-b0c3-4323-aad5-22a1929e7415
+- YPM-IZ-110631 (event EB-01): current latitude=41.34625; longitude=-71.67831. Museum mapped extent: latitude 41.329581 to 41.362914; longitude 71.656188 to 71.700432. Museum locality: Atlantic Ocean. North America. USA. Rhode Island. Washington County. Charlestown. East Beach. Washed up on beach, O.6 miles east of parking area.
+  Source: https://lux.collections.yale.edu/data/place/a72dd7e3-9906-4f7c-af09-bbf3a3ec79db
+- YPM-IZ-110667 (event CWD-MK1): current latitude=40.85742; longitude=-71.77992. Museum mapped extent: latitude 40.840750 to 40.874086; longitude 71.757961 to 71.801879. Museum locality: Atlantic Ocean. North America. USA. New York. Montauk. Approximately 25 miles SE of Montauk, floating on surface.
+  Source: https://lux.collections.yale.edu/data/place/8f0aee26-e167-49ee-bc32-65858b3fd79c
+- YPM-IZ-110906 (event not recorded): current latitude=26.723056; longitude=-164.766667. Museum mapped extent: latitude 26.449682 to 26.483095; longitude -164.788565 to -164.751435. Museum locality: Pacific Ocean. North America. USA. Hawaii. NW Hawaiian Islands. 437 miles NE of Kauai Island.
+  Source: https://lux.collections.yale.edu/data/place/5f0baf23-d54e-4290-8ac8-f8bcf6ed4898
+- YPM-IZ-110907 (event not recorded): current latitude=26.08; longitude=-176.47. Museum mapped extent: latitude 25.988101 to 26.021516; longitude -176.281682 to -176.244698. Museum locality: Pacific Ocean. North America. USA. Hawaii. NW Hawaiian Islands. 164 miles SSE of Midway Atoll.
+  Source: https://lux.collections.yale.edu/data/place/a5e011cd-0b73-450b-ae4a-7ea3e31bfa03
+
+Two targeted checks may make this easier:
+
+- YPM-IZ-110631 (EB-01) and YPM-IZ-110667 (CWD-MK1): the museum geometry has positive/eastern longitudes while its locality names describe Rhode Island and waters off Montauk. This looks like a possible longitude-sign error in the museum data. Please confirm the west/negative longitude from the original record; we have retained the study values.
+- YPM-IZ-110906 and YPM-IZ-110907: if the points describe different positions along a trawl, please identify which position represents the sequenced specimen and provide the missing field-event ID from question 3.
+
+All Church rows currently have coordinates, location, and a depth value. Depth 0 m is an explicit Physalia surface convention where no specimen-specific measured depth was recorded; it should not be described as a measurement. The outstanding gaps are the identifiers and tissues listed above, plus the date/coordinate comparisons.
+
+You can reply directly to these numbered questions or fill in 2026-10-17_church2025_review.tsv. The worksheet has four response columns: decision, reviewed_value, evidence, and review_notes. For decision, use set_value (supply/correct a value), keep_current (confirm the existing value), not_assigned (identifier never assigned), or unresolved (cannot establish an answer). Leave the identifying and comparison columns unchanged. Import identifiers as text when opening the TSV in a spreadsheet.
+
+These comparisons describe the retained source records reviewed on October 17, 2026. Please use the original records to decide which value is supported.

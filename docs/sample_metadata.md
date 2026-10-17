@@ -54,6 +54,68 @@ a separate name. These are not evidence about missing specimen metadata.
 
 ## Review and update
 
+### Manual review worksheet
+
+Use the study-specific worksheets below to supply corrections and decisions.
+Each has an accompanying plain-text question draft that can be forwarded with
+the worksheet to the study author. The drafts name every affected specimen,
+give the existing and conflicting values, and describe the evidence needed.
+
+| Study | Missing values | Catalog comparisons | Questions to forward | Worksheet to edit |
+| --- | ---: | ---: | --- | --- |
+| Church2025 | 50 | 20 | [Church questions](../data/metadata/manual-review/2026-10-17_church2025_questions.txt) | [70 review entries](../data/metadata/manual-review/2026-10-17_church2025_review.tsv) |
+| Ahuja2024 | 11 | 13 | [Ahuja 2024 questions](../data/metadata/manual-review/2026-10-17_ahuja2024_questions.txt) | [24 review entries](../data/metadata/manual-review/2026-10-17_ahuja2024_review.tsv) |
+| Ahuja2026 | 3 | 0 | [Ahuja 2026 questions](../data/metadata/manual-review/2026-10-17_ahuja2026_questions.txt) | [3 review entries](../data/metadata/manual-review/2026-10-17_ahuja2026_review.tsv) |
+
+These are exact partitions of the [original October 17 review worksheet](../data/metadata/manual-review/2026-10-17_metadata_review.tsv):
+64 missing-field entries and 33 flagged museum comparisons across 81 libraries,
+prepared from the metadata at commit `cdd047c`. Keep that combined worksheet as
+the initial checklist; enter responses in the study-specific files to avoid
+maintaining two copies of an answer. The worksheets are human review documents,
+not workflow inputs, and the exporter does not read them automatically.
+
+CWD16 and NA19 occur in both Ahuja studies. Both question drafts cross-reference
+them, but each has one response location: CWD16 in the Ahuja2024 worksheet and
+NA19 in the Ahuja2026 worksheet. The Ahuja2026 draft also lists the 20 known YPM
+vouchers whose public availability remained unconfirmed in the October 17 audit.
+That catalog-release follow-up is separate from the three depth entries; public
+URLs or dated status updates can be returned in prose.
+
+Open it as a tab-separated table, importing identifiers as text. Edit these four
+columns and retain the other columns as the record of what was reviewed:
+
+| Column | What to enter |
+| --- | --- |
+| `decision` | `set_value` for an addition/correction; `keep_current` when the existing value is supported; `not_assigned` when an identifier was never assigned; `unresolved` when the available evidence cannot settle the question. Blank means not yet reviewed. |
+| `reviewed_value` | The supported value for `set_value`. Otherwise leave blank. For coordinates, give both latitude and longitude with labels. For depth, give units and distinguish an actual depth from a reported range. |
+| `evidence` | A record URL, notebook page, spreadsheet row, or named person's confirmation with date. For a group confirmation, specify which specimens it covers. |
+| `review_notes` | A short explanation, including why a value remains unknown, why one source is preferred, or whether two event labels refer to the same event. |
+
+Across the three worksheets, 64 entries concern missing values. Prioritize
+tissue for the 16 WAM and two OA specimens, BioSample accessions for the two OA
+specimens, and depth for NA19, WS5, and WS6. The other gaps concern voucher,
+collection-event, and tissue/sample identifiers. The other 33 entries compare
+existing study metadata with museum records. A point outside a museum locality
+polygon is a discrepancy to
+review, not proof that the study coordinates are wrong. An alternate event label
+can be a valid synonym rather than an error.
+
+Keep missing values blank rather than inserting guessed identifiers or the word
+`unknown` as a biological value. A documented unresolved or never-assigned value
+is a valid review outcome. Dates should be unambiguous (`YYYY-MM-DD` when a full
+date is known), coordinates should use signed decimal degrees, and depth should
+include units. If only a depth range is supported, report that range and let
+curation calculate its midpoint. Do not average conflicting point depths.
+
+After review, reconcile the decisions into the durable publication overlay,
+preserve evidence for superseded values, update human-facing notes, and rebuild
+the export as described below. In particular, the overlay's `original_value`
+must refer to the frozen baseline rather than the worksheet's current value.
+The generated publication table and the dated source-audit files are references,
+not the place to enter review decisions.
+
+### Durable updates and export
+
 The [missing-field list](../figures/cohort/sample_metadata_missing.tsv) identifies
 each unresolved value among voucher, BioSample, event, sample, coordinates,
 depth, location, and tissue. Blank sample/event/voucher fields can represent

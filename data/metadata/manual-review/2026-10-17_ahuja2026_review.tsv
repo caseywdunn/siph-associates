@@ -1,0 +1,4 @@
+library_id	field	decision	reviewed_value	evidence	review_notes	issue_type	current_value	alternative_value	voucher_id	sample_id	collection_id	species_current	context_notes	comparison_source	comparison_source_locator
+Ahuja2026:NA19	depth_m					not_recorded_or_unresolved			YPM:IZ:111744	NA19	V3698-D2	Nanomia septata	Depth left blank because sources disagree (296 versus 297 m).		
+Ahuja2026:WS5	depth_m					not_recorded_or_unresolved			YPM:IZ:111736	WS5	D325-SS12, #9	Nanomia septata	Depth left blank because the meaning and units of the source value 2854.16 have not been confirmed.		
+Ahuja2026:WS6	depth_m					not_recorded_or_unresolved			YPM:IZ:111737	WS6	D326-SS1, #28	Nanomia septata	Depth left blank because the meaning and units of the source value 2563.33 have not been confirmed.		

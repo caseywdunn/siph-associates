@@ -1,0 +1,61 @@
+Subject: Collection-depth questions and public-voucher follow-up for the Ahuja 2026 study
+
+We are finalizing the specimen metadata for our comparative analysis. Please help resolve the items below using collection notebooks, extraction records, submission records, or other specimen-specific evidence. This request concerns metadata curation; the existing sequence-analysis identifiers remain fixed.
+
+We distinguish four identifiers: museum voucher number (including institution/collection), NCBI BioSample accession, field collecting-event ID, and tissue/sample label. A separate tissue-tube label can also be recorded. Please say explicitly when an identifier was never assigned or information was not recorded. Unknown values are acceptable when their status is documented.
+
+For each answer, please give the sample or voucher ID, the supported value, the evidence (URL, notebook page, spreadsheet row, or named person's confirmation and date), and a brief explanation where sources disagree. If one answer applies to a group, specify every specimen it covers. Coordinates should be signed decimal degrees; dates should be YYYY-MM-DD when a full date is known. Give depth units and distinguish an actual collection depth from a range. We will calculate a midpoint only when a range is all that is available, and will not average conflicting point measurements.
+
+There are three missing-depth review entries: NA19, WS5, and WS6. All other required identifier, tissue, coordinate, and location fields are populated for libraries assigned to this study. CWD16 is shared with the 2024 study; its additional depth comparison is described below and should be answered in the 2024 worksheet.
+
+1. What is the supported collection depth for NA19: 296 m, 297 m, or another documented value?
+
+Identifiers: NA19; voucher YPM:IZ:111744; event V3698-D2; current collection date 2013-02-11; BioSample SAMN32803049; SRA run SRR23143273.
+
+The retained 2024 supplementary workbook reports '297 meters' at Invertebrate.1.0!P36, and BioSample SAMN32803049 reports the same value. The 2026 Table S8 reports '296' at Sheet1!I23. The available LUX locality record does not supply a depth that resolves this. We have left depth blank pending a decision. Please check the original dive/sampler or collection record, provide the correct depth and units, and explain whether the difference reflects rounding, a transcription error, or different measurements. We will not average the two numbers.
+BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN32803049
+
+NA19 occurs in both the 2024 and 2026 studies; one answer in the Ahuja2026:NA19 worksheet row will cover both uses.
+
+2. What do the WS5 and WS6 source depth values represent, and what are their units?
+
+- WS5: voucher YPM:IZ:111736; event D325-SS12, #9; current date 2011-12-02; BioSample SAMN48043645; SRA run SRR33215985. The 2026 Table S8, Sheet1!I3, and the retained BioSample record give 2854.16.
+  BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN48043645
+- WS6: voucher YPM:IZ:111737; event D326-SS1, #28; current date 2011-12-03; BioSample SAMN48043646; SRA run SRR33215984. The 2026 Table S8, Sheet1!I4, and the retained BioSample record give 2563.33.
+  BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN48043646
+
+For each, please confirm whether the number is the depth at which the specimen was collected, another depth such as the seafloor/dive depth, or a different quantity. Please establish the original units and give the specimen collection depth in metres if available, supported by the MBARI dive/sampler log or equivalent record. If only minimum and maximum collection depths are known, give both and say that no point depth was recorded. We have not assumed a unit or converted these values, and the numeric depth fields remain blank.
+Supplement: https://doi.org/10.1371/journal.pone.0351247.s008
+
+3. Shared specimen CWD16: please answer in the Ahuja 2024 worksheet.
+
+CWD16 (YPM:IZ:35039; event OC379-11-7) has 10 meters in the 2024 supplement and BioSample SAMN32803050, 0-20 m in the 2026 Table S8 (Sheet1!I2), and 0-50 meters in LUX. Please establish whether 10 m is a measured collection depth and which range describes this specimen. The canonical row is Ahuja2024:CWD16, so its review entry is in the 2024 worksheet and is not counted among the three missing-depth entries here.
+
+4. Separate follow-up: are public catalog links available for these 20 known YPM vouchers?
+
+The voucher numbers below are already recorded; they are not missing identifiers. In our October 17, 2026 audit we could not confirm exact public LUX or GBIF records for them. Casey has already requested their public release. If you or the museum have public record URLs or a release-status update, please provide them, preferably with the date checked. A failure to find a record does not establish that it is private. This follow-up is separate from the three-row depth worksheet, and a reply listing specimen, voucher, URL/status, and date is sufficient.
+
+- NA28: YPM:IZ:110451.
+- NA29: YPM:IZ:111733.
+- NA30: YPM:IZ:111732.
+- NA31: YPM:IZ:111742.
+- NA32: YPM:IZ:111740.
+- NA33: YPM:IZ:111741.
+- NA34: YPM:IZ:111164.
+- NA35: YPM:IZ:111165.
+- NA36: YPM:IZ:111166.
+- NA37: YPM:IZ:111590.
+- NA38: YPM:IZ:111591.
+- WS2: YPM:IZ:110216.
+- WS3: YPM:IZ:111734.
+- WS4: YPM:IZ:111735.
+- WS5: YPM:IZ:111736.
+- WS6: YPM:IZ:111737.
+- WS7: YPM:IZ:111738.
+- WS8: YPM:IZ:111739.
+- WS9: YPM:IZ:107008.
+- WS10: YPM:IZ:111745.
+
+You can reply directly to these numbered questions or fill in 2026-10-17_ahuja2026_review.tsv. The worksheet has four response columns: decision, reviewed_value, evidence, and review_notes. For decision, use set_value (supply/correct a value), keep_current (confirm the existing value), not_assigned (identifier never assigned), or unresolved (cannot establish an answer). Leave the identifying and comparison columns unchanged. Import identifiers as text when opening the TSV in a spreadsheet.
+
+These comparisons describe the retained source records reviewed on October 17, 2026. Please use the original records to decide which value is supported.
