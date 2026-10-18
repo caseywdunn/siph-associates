@@ -1,0 +1,51 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "pilot", color = "0.32 0.6 0.85", style="rounded"];
+	1[label = "check_coi_controls", color = "0.18 0.6 0.85", style="rounded"];
+	2[label = "make_coi_controls", color = "0.39 0.6 0.85", style="rounded"];
+	3[label = "finalize_coi_panel", color = "0.00 0.6 0.85", style="rounded"];
+	4[label = "validate_coi_barcode_frames", color = "0.14 0.6 0.85", style="rounded"];
+	5[label = "annotated_coi_proteins", color = "0.04 0.6 0.85", style="rounded"];
+	6[label = "coi_frame_anchors", color = "0.63 0.6 0.85", style="rounded"];
+	7[label = "extract_coi", color = "0.35 0.6 0.85", style="rounded"];
+	8[label = "fetch_coi_references", color = "0.25 0.6 0.85", style="rounded"];
+	9[label = "summarize_coi", color = "0.28 0.6 0.85", style="rounded"];
+	10[label = "competitive_coi_alignment", color = "0.46 0.6 0.85", style="rounded"];
+	11[label = "collect_coi_candidates", color = "0.49 0.6 0.85", style="rounded"];
+	12[label = "nucleotide_coi_recruitment", color = "0.07 0.6 0.85", style="rounded"];
+	13[label = "mask_coi_seeds", color = "0.11 0.6 0.85", style="rounded"];
+	14[label = "translated_coi_recruitment", color = "0.21 0.6 0.85", style="rounded"];
+	15[label = "index_target_coi_proteins", color = "0.42 0.6 0.85", style="rounded"];
+	16[label = "index_competitive_coi", color = "0.56 0.6 0.85", style="rounded"];
+	9 -> 0
+	1 -> 0
+	9 -> 1
+	2 -> 1
+	3 -> 2
+	4 -> 3
+	7 -> 3
+	7 -> 4
+	5 -> 4
+	6 -> 5
+	7 -> 6
+	8 -> 7
+	3 -> 9
+	11 -> 9
+	10 -> 9
+	11 -> 10
+	16 -> 10
+	14 -> 11
+	2 -> 11
+	12 -> 11
+	2 -> 12
+	1 -> 12
+	13 -> 12
+	3 -> 13
+	2 -> 14
+	1 -> 14
+	15 -> 14
+	3 -> 15
+	3 -> 16
+}            

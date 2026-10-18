@@ -1,0 +1,6 @@
+analysis_sample_id	pairs_screened	regex_pairs	bbduk25_pairs	bbduk31_pairs	bbduk25_seconds	regex_seconds	aligner_status	bowtie2_mapped_pairs	sortmerna_retained_pairs	bowtie2_seconds	sortmerna_seconds
+Church2025__WAM-Z97917	4099010	1	16	13	16.1	53.952	complete	15	15	35.332	143.529
+Church2025__YPM-IZ-110906	2277089	1	2	1	7.891	31.191	complete	1	1	21.468	113.734
+Church2025__YPM-IZ-110907	2804499	6	23	19	9.464	38.211	complete	21	21	25.74	143.968
+Church2025__YPM-IZ-111156	571417	0	16	0	3.009	7.546	complete	0	0	5.472	51.912
+Church2025__YPM-IZ-111158	428053	0	2	0	2.508	5.315	complete	0	0	3.446	35.49

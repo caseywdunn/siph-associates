@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Recover 12S candidates from complete lanes selected as positive controls."""
+"""Recover 12S candidates from complete paired inputs selected for the pilot."""
 
 import argparse
 import csv
@@ -38,7 +38,7 @@ def main() -> None:
         "command": sys.argv,
         "python": sys.version,
         "input": row,
-        "raw_input_stat": {
+        "input_stat": {
             str(p): {"size": p.stat().st_size, "mtime_ns": p.stat().st_mtime_ns}
             for p in inputs
         },
@@ -184,6 +184,8 @@ def main() -> None:
         match = re.search(r"Input:\s+(\d+) reads", (out / "bbduk25.log").read_text())
         if match is None or int(match[1]) % 2:
             raise ValueError("Cannot recover the paired input count from BBDuk's log")
+        if "pairs" in row and int(match[1]) // 2 != int(row["pairs"]):
+            raise ValueError("Screened pair count differs from the input manifest")
         summary = {
             "analysis_sample_id": row["analysis_sample_id"],
             "read_pair_id": row["read_pair_id"],

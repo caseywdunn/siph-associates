@@ -45,7 +45,7 @@ def main() -> None:
             p.name: digest(p)
             for p in args.bowtie_index.parent.glob(args.bowtie_index.name + ".*.bt2")
         },
-        "raw_input_stat": {
+        "input_stat": {
             row[f"r{m}_path"]: {
                 "size": Path(row[f"r{m}_path"]).stat().st_size,
                 "mtime_ns": Path(row[f"r{m}_path"]).stat().st_mtime_ns,

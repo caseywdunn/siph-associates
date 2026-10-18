@@ -28,7 +28,7 @@ def graph_command(spec: dict, snakemake: str, mode: str) -> list[str]:
         snakemake,
         *spec["targets"],
         "--snakefile",
-        "Snakefile",
+        spec.get("snakefile", "Snakefile"),
         "--configfile",
         spec["config"],
         "--cores",

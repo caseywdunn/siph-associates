@@ -1,0 +1,6 @@
+analysis_sample_id	bowtie2_equals_sortmerna	aligner_only_pairs	bbduk_only_pairs
+Church2025__WAM-Z97917	True	0	1
+Church2025__YPM-IZ-110906	True	0	1
+Church2025__YPM-IZ-110907	True	1	3
+Church2025__YPM-IZ-111156	True	0	16
+Church2025__YPM-IZ-111158	True	0	2

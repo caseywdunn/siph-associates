@@ -6,6 +6,10 @@ stage tests the proposed regex and compares candidate-read filters. It does not
 yet report fish identifications or run the full cohort. Existing sequence
 analyses, metadata identifiers, and manuscript results are unchanged.
 
+The current pilot uses complete retained host-depleted *Physalia* libraries;
+the earlier raw-lane pilot below is superseded. See the
+[revised input policy and launch commands](prey_marker_screen.md).
+
 ## Does the original regex cover fishes broadly?
 
 The two alternatives are exact reverse complements. The motif spans 29 bases,
