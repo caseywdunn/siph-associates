@@ -1,0 +1,47 @@
+[
+  {
+    "job_id": "13500312",
+    "exit_code": 0,
+    "started": "Sun Oct 18 01:40:56 UTC 2026",
+    "finished": "Sun Oct 18 01:44:03 UTC 2026",
+    "git_head": "f5b968ba1debecda3f821310dee8e5e97adb046a",
+    "source_archive": "data/results/crustacean_coi/executions/13500312/source.tar.gz",
+    "source_sha256": "4c6fb29c697053d3db73e3f4fb3c973ea3d26696ae2f989a69269eefe365b53c"
+  },
+  {
+    "job_id": "13500387",
+    "exit_code": 0,
+    "started": "Sun Oct 18 01:50:16 UTC 2026",
+    "finished": "Sun Oct 18 01:52:08 UTC 2026",
+    "git_head": "f5b968ba1debecda3f821310dee8e5e97adb046a",
+    "source_archive": "data/results/crustacean_coi/executions/13500387/source.tar.gz",
+    "source_sha256": "38828e9990b718f32de7e90f93ba9f6cfdc812dd933182afc01e907cd756a2c8"
+  },
+  {
+    "job_id": "13500468",
+    "exit_code": 0,
+    "started": "Sun Oct 18 01:54:06 UTC 2026",
+    "finished": "Sun Oct 18 01:55:04 UTC 2026",
+    "git_head": "f5b968ba1debecda3f821310dee8e5e97adb046a",
+    "source_archive": "data/results/crustacean_coi/executions/13500468/source.tar.gz",
+    "source_sha256": "12f1fb722db027f2c5450f64cf0ec7ab581c5e10cbed3b4f5ef8a7816963e9d7"
+  },
+  {
+    "job_id": "13500629",
+    "exit_code": 0,
+    "started": "Sun Oct 18 01:57:52 UTC 2026",
+    "finished": "Sun Oct 18 01:57:57 UTC 2026",
+    "git_head": "f5b968ba1debecda3f821310dee8e5e97adb046a",
+    "source_archive": "data/results/crustacean_coi/executions/13500629/source.tar.gz",
+    "source_sha256": "4f1cd1c92dd879fe7a0022ba6a9ac835a728f048353720041de5a3d8c536585e"
+  },
+  {
+    "job_id": "13500343",
+    "exit_code": 0,
+    "started": "Sun Oct 18 01:45:39 UTC 2026",
+    "finished": "Sun Oct 18 02:05:20 UTC 2026",
+    "git_head": "f5b968ba1debecda3f821310dee8e5e97adb046a",
+    "source_script": "data/results/crustacean_coi/executions/13500343/batch_nr_audit.sh",
+    "source_sha256": "59f17afaaf6509a98012b16eaf09b0c9f0de2bf114f51a82b2a25f650e24bc2e"
+  }
+]

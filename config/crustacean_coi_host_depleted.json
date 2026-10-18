@@ -1,0 +1,14 @@
+{
+  "manifest": "config/prey_marker_host_depleted.tsv",
+  "reuse_manifest": "config/crustacean_coi_pilot.tsv",
+  "reuse_run": "data/results/crustacean_coi/host_depleted/2026-10-17",
+  "panel": "data/results/crustacean_coi/panel/2026-10-17",
+  "run": "data/results/crustacean_coi/cohort_host_depleted/2026-10-18",
+  "verification_config": "config/crustacean_coi_verification.json",
+  "verification_run": "data/results/crustacean_coi/verification/2026-10-18",
+  "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+  "diamond": "/vast/palmer/apps/avx2/software/DIAMOND/2.1.24-GCC-13.3.0/bin/diamond",
+  "blast_bin": "/vast/palmer/apps/avx2/software/BLAST+/2.15.0-gompi-2022b/bin",
+  "bbtools_bin": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/phyloflash_env/bin",
+  "seqkit": "/vast/palmer/apps/avx2/software/SeqKit/2.8.1/bin/seqkit"
+}

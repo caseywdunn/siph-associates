@@ -31,6 +31,10 @@ superseded. Their completed results and execution records are preserved.
 
 ## Expansion and sensitivity
 
+The [COI validation](../dev_docs/crustacean-coi/validation.md) supports sensitive
+recruitment but exposes unreliable taxonomic assignments when close references
+are missing. Resolve the verification criteria before scaling the survey.
+
 After the controls and pilot comparison establish a working search, apply both
 panels to every library. Use all existing host-depleted pairs where available.
 For the other 44 libraries, use full quality-filtered inputs under the original
@@ -56,6 +60,69 @@ and post-depletion count separately. Host-depleted and undepleted pair counts
 are different denominators and should not be treated as equal sequencing effort.
 Reference coverage, competitive identification, and the number of independent
 supporting fragments also affect sensitivity and interpretation.
+
+## All host-depleted libraries
+
+[The cohort manifest](../config/prey_marker_host_depleted.tsv) contains all 161
+libraries and 416,741,747 retained pairs. Generate it with
+`python scripts/prey_marker_inputs.py --all-host-depleted`; this leaves the pilot
+manifests unchanged. Both marker panels use every retained pair. The manifest
+also preserves the post-QC, pre-depletion counts as a separate denominator.
+
+The COI entry point reuses recruitment and nucleotide alignments for all ten
+*N. septata* libraries, adds searches for the 151 *Physalia* libraries, and applies
+the same competitive verification to all 161. Its reference audit includes
+bacterial/archaeal oxidases and quarantines doubtful source labels. A failed
+verification check prevents new library scans.
+
+The fish entry point reuses the five completed *Physalia* pilots and searches
+the other 156 libraries with the tested regex, BBDuk, Bowtie2 and SortMeRNA
+implementations. It retains both original mates from the union, checks pair
+counts/synchronization, and applies the same competitive mitochondrial BLAST
+comparison. Recruitment counts remain candidate counts until those alignments
+are reviewed. The control test includes a frog candidate that must be excluded
+from fish identifications by competitive verification.
+
+```bash
+snakemake host_depleted --snakefile workflow/crustacean_coi_host_depleted.smk \
+  --cores 32 --dry-run --rerun-triggers mtime
+snakemake host_depleted --snakefile workflow/fish_12s_host_depleted.smk \
+  --cores 24 --dry-run --rerun-triggers mtime
+
+# After COI verification has completed and passed:
+sbatch scripts/crustacean_coi/batch_host_depleted.sh
+sbatch scripts/fish_12s/batch_host_depleted.sh
+```
+
+COI outputs are under
+`data/results/crustacean_coi/cohort_host_depleted/2026-10-18/`, with per-library
+`verified/` reports. Fish outputs are under
+`data/results/fish_12s/cohort_host_depleted/2026-10-18/`, with `screen/`,
+`aligners/` and `union/` directories. The completed pilots remain in their original
+directories. These bounded workflows have no rules for host depletion, assembly,
+catalog construction or manuscript analyses. External references and completed
+pilots must already exist.
+
+The fish cohort workflow can be tested on the nine existing synthetic pairs:
+
+```bash
+sbatch --cpus-per-task=8 --mem=20G --time=00:30:00 \
+  scripts/fish_12s/batch_host_depleted.sh config/fish_12s_cohort_validation.json
+```
+
+The same workflow and scripts run the test and the cohort; the test configuration
+changes the manifest and output root and requests the known-answer checks.
+Execution records are retained in each marker's `executions/{SLURM_JOB_ID}/`.
+See the [expansion execution notes](../dev_docs/prey-marker-expansion.md) for the
+submitted source snapshots and current job identities.
+
+![COI host-depleted cohort](workflow/graphs/coi_host_depleted.svg)
+
+![Fish host-depleted cohort](workflow/graphs/fish_host_depleted.svg)
+
+These graphs use the entry points and configurations above. Generate/check them
+with `scripts/update_rulegraphs.py coi_host_depleted fish_host_depleted`.
+The existing rule-graph CI check includes both.
 
 ## Running the pilot
 

@@ -10,12 +10,12 @@ On 2026-10-17 Casey requested all retained host-depleted pairs for reference-bea
 hosts, with initial fish 12S screening in *Physalia* and COI in *N. septata*.
 `config/crustacean_coi_pilot.tsv` now contains all ten *N. septata* libraries,
 2,152,939 pairs in total. No new read filtering, host mapping or subsampling occurs.
-Job **13499718** runs references, synthetic controls and these inputs; real reads
-depend on the control gate passing. Submission is not completion: consult
+Job **13499718** completed references, synthetic controls and these inputs; real reads
+depended on the control gate passing. Execution evidence is retained in
 `data/results/crustacean_coi/executions/13499718/` and per-library `summary.json`.
 
-The reference build and all twelve end-to-end paired controls passed. The live
-job then entered real-library screening. [Control results](control_results.json)
+The reference build and all twelve end-to-end paired controls passed.
+[Control results](control_results.json)
 show that host, fish and insect COI can be recruited by both methods but are
 correctly assigned as non-target during competitive alignment. The synonymous
 copepod control is recovered by both methods; it does not demonstrate a
@@ -61,3 +61,11 @@ existing copepod SSU evidence. No real-read screening completed for that design.
 The main workflow, specimen identifiers and accepted manuscript results were
 not changed. Raw full-depth reference-free reads will be considered only after
 the revised pilot works and resource use is assessed.
+
+## Completed pilot and follow-up
+
+Job 13499718 completed in 15:04 with exit 0, screening 2,152,939 pairs and
+recruiting 92 candidate pairs. Its original 28 non-target, 62 unresolved, one
+ambiguous and one provisional crustacean labels are preserved. Subsequent
+[validation](validation.md) identified a ranking artifact and questionable
+reference labels; those initial categories are not accepted prey detections.

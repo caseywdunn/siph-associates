@@ -1,0 +1,18 @@
+[
+  {
+    "path": "data/results/crustacean_coi/validation/2026-10-17/source_records/suspect_barcodes.gb",
+    "sha256": "3e7d75c347636c1e60e391e6f65719d5cec7666e3f575a4a3bb4cb0bfad8ff80"
+  },
+  {
+    "path": "data/results/crustacean_coi/validation/2026-10-17/source_records/receipt.json",
+    "sha256": "a4718205e94bbbe57c9fe9e77182b1534229da8e0d938ad4bd7d12620e4f0579"
+  },
+  {
+    "path": "data/results/crustacean_coi/validation/2026-10-17/source_records/swissprot_matches.gp",
+    "sha256": "99c3fed483f0e3f6ab9c5e6e799131454b7744c0202043e4667393f2ffe4fa2a"
+  },
+  {
+    "path": "data/results/crustacean_coi/validation/2026-10-17/source_records/swissprot_receipt.json",
+    "sha256": "02f8b8d0f70ac01b7b19e78ded739a14a562e75007ba841f7e64abfd7b9af287"
+  }
+]

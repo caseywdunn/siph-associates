@@ -1,0 +1,125 @@
+{
+  "pilot": {
+    "pairs": 92,
+    "classifications": {
+      "bacterial_or_archaeal_oxidase": 39,
+      "ambiguous": 15,
+      "unresolved_candidate": 37,
+      "other_eukaryote_supported": 1
+    }
+  },
+  "controls": {
+    "pairs": 10,
+    "classifications": {
+      "crustacean_supported": 3,
+      "unresolved_candidate": 2,
+      "other_eukaryote_supported": 5
+    },
+    "positive_classifications": {
+      "crustacean_supported": 3,
+      "unresolved_candidate": 2
+    },
+    "negative_classifications": {
+      "other_eukaryote_supported": 5,
+      "not_recruited": 2
+    },
+    "by_group": {
+      "crustacean": {
+        "crustacean_supported": 3,
+        "unresolved_candidate": 2
+      },
+      "non_target": {
+        "other_eukaryote_supported": 5
+      },
+      "negative": {
+        "not_recruited": 2
+      }
+    }
+  },
+  "heldout": {
+    "pairs": 120,
+    "classifications": {
+      "ambiguous": 92,
+      "crustacean_supported": 3,
+      "unresolved_candidate": 20,
+      "other_eukaryote_supported": 5
+    },
+    "positive_classifications": {
+      "ambiguous": 92,
+      "crustacean_supported": 3,
+      "unresolved_candidate": 20
+    },
+    "negative_classifications": {
+      "other_eukaryote_supported": 5,
+      "not_recruited": 2
+    },
+    "by_group": {
+      "Amphipoda": {
+        "ambiguous": 18,
+        "crustacean_supported": 1,
+        "unresolved_candidate": 6
+      },
+      "Copepoda": {
+        "ambiguous": 19,
+        "unresolved_candidate": 5,
+        "crustacean_supported": 1
+      },
+      "Decapoda": {
+        "ambiguous": 20,
+        "crustacean_supported": 1,
+        "unresolved_candidate": 4
+      },
+      "Euphausiacea": {
+        "ambiguous": 7,
+        "unresolved_candidate": 3
+      },
+      "Lophogastrida": {
+        "ambiguous": 5
+      },
+      "Mysida": {
+        "ambiguous": 10
+      },
+      "Ostracoda": {
+        "ambiguous": 13,
+        "unresolved_candidate": 2
+      },
+      "negative": {
+        "other_eukaryote_supported": 5,
+        "not_recruited": 2
+      }
+    }
+  },
+  "reference_audit": {
+    "audited": 108778,
+    "quarantined": 34829,
+    "quarantine_reasons": {
+      "crustacean_origin_not_resolved_by_annotated_anchors": 34768,
+      "prokaryotic_oxidase_among_best_anchors": 57,
+      "independent_source_record_and_bacterial_homology_audit": 4
+    },
+    "manual_quarantine_included": [
+      "MZG_Amphipoda_2488",
+      "MZG_Amphipoda_6928",
+      "MZG_Amphipoda_6933",
+      "MZG_Decapoda_56382"
+    ],
+    "assignment_proteins_by_origin": {
+      "other_eukaryote": 17112,
+      "crustacean": 74088,
+      "prokaryote": 42947
+    },
+    "recruitment": "Original broad panel unchanged; all recruited pairs retained"
+  },
+  "gates": {
+    "both_known_bacterial_pairs_recognized": true,
+    "all_92_pilot_pairs_preserved": true,
+    "original_positive_controls_include_supported_match": true,
+    "controls_positives_recruited_and_not_rejected": true,
+    "controls_negatives_not_called_crustacean": true,
+    "heldout_positives_recruited_and_not_rejected": true,
+    "heldout_negatives_not_called_crustacean": true,
+    "four_flagged_barcodes_quarantined": true
+  },
+  "passed": true,
+  "limitations": "Control retention tests reference divergence, not all natural prey or all sequencing errors. Broad recruitment retains false candidates. Short conserved COI often remains unresolved. Supported calls are marker evidence, not species or dietary assignments."
+}

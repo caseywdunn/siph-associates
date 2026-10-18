@@ -1,0 +1,54 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "validation", color = "0.42 0.6 0.85", style="rounded"];
+	1[label = "report_coi_validation", color = "0.40 0.6 0.85", style="rounded"];
+	2[label = "summarize_coi", color = "0.35 0.6 0.85", style="rounded"];
+	3[label = "competitive_coi_alignment", color = "0.52 0.6 0.85", style="rounded"];
+	4[label = "collect_coi_candidates", color = "0.54 0.6 0.85", style="rounded"];
+	5[label = "prepare_heldout_coi_panel", color = "0.32 0.6 0.85", style="rounded"];
+	6[label = "nucleotide_coi_recruitment", color = "0.10 0.6 0.85", style="rounded"];
+	7[label = "mask_coi_seeds", color = "0.17 0.6 0.85", style="rounded"];
+	8[label = "translated_coi_recruitment", color = "0.22 0.6 0.85", style="rounded"];
+	9[label = "index_target_coi_proteins", color = "0.47 0.6 0.85", style="rounded"];
+	10[label = "index_competitive_coi", color = "0.62 0.6 0.85", style="rounded"];
+	11[label = "audit_whole_mitochondria_blastn", color = "0.64 0.6 0.85", style="rounded"];
+	12[label = "prepare_pilot_audit", color = "0.00 0.6 0.85", style="rounded"];
+	13[label = "audit_swissprot_diamond", color = "0.27 0.6 0.85", style="rounded"];
+	14[label = "revise_pilot_classification", color = "0.02 0.6 0.85", style="rounded"];
+	15[label = "local_origin_validation", color = "0.05 0.6 0.85", style="rounded"];
+	16[label = "audit_bacterial_catalog_bwa", color = "0.20 0.6 0.85", style="rounded"];
+	17[label = "audit_na35_assembly_blastn", color = "0.15 0.6 0.85", style="rounded"];
+	18[label = "report_local_origin_audit", color = "0.49 0.6 0.85", style="rounded"];
+	1 -> 0
+	14 -> 1
+	2 -> 1
+	5 -> 1
+	11 -> 1
+	13 -> 1
+	5 -> 2
+	4 -> 2
+	3 -> 2
+	4 -> 3
+	10 -> 3
+	5 -> 4
+	8 -> 4
+	6 -> 4
+	5 -> 6
+	7 -> 6
+	5 -> 7
+	5 -> 8
+	9 -> 8
+	5 -> 9
+	5 -> 10
+	12 -> 11
+	12 -> 13
+	18 -> 15
+	16 -> 15
+	17 -> 15
+	12 -> 16
+	12 -> 17
+	14 -> 18
+	16 -> 18
+}            

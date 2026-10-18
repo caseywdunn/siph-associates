@@ -1,0 +1,5 @@
+query	reference	genome_id	taxonomy	strand	position	mapping_quality	cigar	aligned_nt	edit_distance	identity_percent	alignment_score
+Ahuja2026__NA35__c00000008_1	BAC00224|NZ_JAAAWO010000004.1	GCF_010500895.1	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Alteromonadaceae;g__Alteromonas;s__Alteromonas genovensis	+	306706	60	151M	151	4	97.351	131
+Ahuja2026__NA35__c00000008_2	BAC00224|NZ_JAAAWO010000004.1	GCF_010500895.1	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Alteromonadaceae;g__Alteromonas;s__Alteromonas genovensis	-	307030	60	136M15S	136	10	92.647	86
+Ahuja2026__NA35__c00000016_1	BAC00325|NZ_AP025484.1	GCF_024347455.1	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio echinoideorum	-	427482	49	151M	151	2	98.675	143
+Ahuja2026__NA35__c00000016_2	BAC00325|NZ_AP025484.1	GCF_024347455.1	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio echinoideorum	+	427292	41	151M	151	2	98.675	141

@@ -19,7 +19,7 @@ trap 'code=$?; date -u > "$run_record/finished.txt"; printf "%s\n" "$code" > "$r
 date -u > "$run_record/started.txt"
 git rev-parse HEAD > "$run_record/git_head.txt"
 git status --short > "$run_record/git_status.txt"
-tar -czf "$run_record/source.tar.gz" scripts/crustacean_coi workflow/crustacean_coi.smk config/crustacean_coi*
+tar -czf "$run_record/source.tar.gz" scripts/crustacean_coi workflow/crustacean_coi.smk workflow/rules/crustacean_coi_search.smk config/crustacean_coi*
 sha256sum "$run_record/source.tar.gz" > "$run_record/source.sha256"
 /gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python - "$run_record" <<'PY'
 import csv

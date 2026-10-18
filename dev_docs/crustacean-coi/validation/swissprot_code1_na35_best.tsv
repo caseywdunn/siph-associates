@@ -1,0 +1,13 @@
+qseqid	sseqid	pident	length	mismatch	gapopen	qstart	qend	sstart	send	evalue	bitscore	stitle
+Ahuja2026__NA35__c00000008_1	P26856.2	66.0	50	17	0	150	1	161	210	6.93e-14	66.2	P26856.2 RecName: Full=Cytochrome c oxidase subunit 1; AltName: Full=Cytochrome c oxidase polypeptide I
+Ahuja2026__NA35__c00000008_1	Q35101.1	68.0	50	16	0	150	1	160	209	6.93e-14	66.2	Q35101.1 RecName: Full=Cytochrome c oxidase subunit 1; AltName: Full=Cytochrome c oxidase polypeptide I
+Ahuja2026__NA35__c00000008_1	P31833.1	68.0	50	16	0	150	1	185	234	6.93e-14	66.2	P31833.1 RecName: Full=Cytochrome c oxidase subunit 1; AltName: Full=Cytochrome aa3 subunit 1; AltName: Full=Cytochrome c oxidase polypeptide I
+Ahuja2026__NA35__c00000008_2	O79548.1	53.1	49	22	1	8	151	49	97	3.94e-09	52.8	O79548.1 RecName: Full=Cytochrome c oxidase subunit 1; AltName: Full=Cytochrome c oxidase polypeptide I
+Ahuja2026__NA35__c00000008_2	P31833.1	54.2	48	21	1	11	151	74	121	3.94e-09	52.8	P31833.1 RecName: Full=Cytochrome c oxidase subunit 1; AltName: Full=Cytochrome aa3 subunit 1; AltName: Full=Cytochrome c oxidase polypeptide I
+Ahuja2026__NA35__c00000016_1	P80440.1	63.0	46	17	0	145	8	148	193	2.95e-12	61.6	P80440.1 RecName: Full=Cytochrome c oxidase subunit 1; AltName: Full=Cytochrome c oxidase polypeptide I
+Ahuja2026__NA35__c00000016_1	P98002.1	60.9	46	18	0	145	8	178	223	2.95e-12	61.6	P98002.1 RecName: Full=Cytochrome c oxidase subunit 1-beta; AltName: Full=Cytochrome aa3 subunit 1-beta; AltName: Full=Cytochrome c oxidase polypeptide I-beta
+Ahuja2026__NA35__c00000016_2	P48887.1	64.4	45	16	0	5	139	73	117	2.23e-15	70.5	P48887.1 RecName: Full=Cytochrome c oxidase subunit 1; AltName: Full=Cytochrome c oxidase polypeptide I
+REF__MZG_Amphipoda_2488	P31833.1	56.5	232	94	4	3	677	32	263	7.56e-83	259	P31833.1 RecName: Full=Cytochrome c oxidase subunit 1; AltName: Full=Cytochrome aa3 subunit 1; AltName: Full=Cytochrome c oxidase polypeptide I
+REF__MZG_Amphipoda_6928	Q08855.1	59.1	232	87	4	3	674	29	260	1.24e-86	269	Q08855.1 RecName: Full=Cytochrome c oxidase subunit 1; AltName: Full=Cytochrome aa3 subunit 1; AltName: Full=Cytochrome c oxidase polypeptide I
+REF__MZG_Amphipoda_6933	P31833.1	56.5	232	94	5	3	677	32	263	5.17e-80	252	P31833.1 RecName: Full=Cytochrome c oxidase subunit 1; AltName: Full=Cytochrome aa3 subunit 1; AltName: Full=Cytochrome c oxidase polypeptide I
+REF__MZG_Decapoda_56382	Q08855.1	57.6	231	91	4	3	674	30	260	8.01e-81	254	Q08855.1 RecName: Full=Cytochrome c oxidase subunit 1; AltName: Full=Cytochrome aa3 subunit 1; AltName: Full=Cytochrome c oxidase polypeptide I

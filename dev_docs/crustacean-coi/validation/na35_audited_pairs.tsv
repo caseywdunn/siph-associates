@@ -1,0 +1,3 @@
+sample	candidate_id	read_pair_id	nucleotide_panel_label	audited_label	evidence	interpretation
+Ahuja2026__NA35	c00000008	LH00309:136:223TNKLT4:8:2141:50921:25219	crustacean	non_target_bacterial	Both mates map in compatible orientation on the same Alteromonas catalog contig; see na35_bacterial_matches.tsv	False positive for crustacean prey; no species-level bacterial claim
+Ahuja2026__NA35	c00000016	LH00309:140:223JTMLT4:7:1244:38135:24351	unresolved	non_target_bacterial	Both mates map in compatible orientation on the same Vibrio catalog contig; see na35_bacterial_matches.tsv	False positive for crustacean prey; no species-level bacterial claim

@@ -1,0 +1,17 @@
+{
+  "sources": "config/crustacean_coi_sources.json",
+  "manifest": "config/crustacean_coi_pilot.tsv",
+  "reference_dir": "data/results/crustacean_coi/reference/2026-10-17",
+  "panel": "data/results/crustacean_coi/panel/2026-10-17",
+  "run": "data/results/crustacean_coi/host_depleted/2026-10-17",
+  "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+  "diamond": "/vast/palmer/apps/avx2/software/DIAMOND/2.1.24-GCC-13.3.0/bin/diamond",
+  "blast_bin": "/vast/palmer/apps/avx2/software/BLAST+/2.15.0-gompi-2022b/bin",
+  "bbtools_bin": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/phyloflash_env/bin",
+  "seqkit": "/vast/palmer/apps/avx2/software/SeqKit/2.8.1/bin/seqkit",
+  "source_panel": "data/results/crustacean_coi/panel/2026-10-17",
+  "pilot_run": "data/results/crustacean_coi/host_depleted/2026-10-17",
+  "validation_run": "data/results/crustacean_coi/validation/2026-10-17",
+  "mito_db": "data/results/fish_12s/positive_references/2026-10-17/competitive",
+  "swissprot_db": "/gpfs/ycga/work/dunn/cwd7/databases/diamond/swissprot.dmnd"
+}

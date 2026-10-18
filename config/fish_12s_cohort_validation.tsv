@@ -1,0 +1,2 @@
+analysis_sample_id	read_pair_id	r1_path	r2_path	r1_bytes	r2_bytes	pairs
+synthetic	host_depleted	data/results/fish_12s/controls/2026-10-17-masked/input_R1.fastq	data/results/fish_12s/controls/2026-10-17-masked/input_R2.fastq	2902	2902	9

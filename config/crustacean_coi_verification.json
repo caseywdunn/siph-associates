@@ -1,0 +1,19 @@
+{
+  "source_panel": "data/results/crustacean_coi/panel/2026-10-17",
+  "pilot_run": "data/results/crustacean_coi/host_depleted/2026-10-17",
+  "validation_run": "data/results/crustacean_coi/validation/2026-10-17",
+  "run": "data/results/crustacean_coi/verification/2026-10-18",
+  "uniprot_query": "(taxonomy_id:2 OR taxonomy_id:2157) AND (xref:pfam-PF00115 OR gene_exact:coxA OR gene_exact:ccoN OR gene_exact:ctaD OR gene_exact:cyoB OR protein_name:\"cytochrome c oxidase subunit 1\" OR protein_name:\"cytochrome c oxidase subunit I\")",
+  "mitochondrial_genbank": "data/results/crustacean_coi/reference/2026-10-17/mitochondrion.1.genomic.gbff.gz",
+  "manual_quarantine": "dev_docs/crustacean-coi/validation/reference_review.tsv",
+  "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+  "diamond": "/vast/palmer/apps/avx2/software/DIAMOND/2.1.24-GCC-13.3.0/bin/diamond",
+  "blast_bin": "/vast/palmer/apps/avx2/software/BLAST+/2.15.0-gompi-2022b/bin",
+  "reference_near_best_fraction": 0.95,
+  "read_near_best_fraction": 0.95,
+  "minimum_protein_identity": 80,
+  "minimum_protein_alignment_aa": 40,
+  "minimum_protein_query_coverage": 80,
+  "minimum_nucleotide_identity": 90,
+  "minimum_nucleotide_alignment_nt": 120
+}

@@ -1,0 +1,9 @@
+qseqid	sseqid	pident	length	mismatch	gapopen	qstart	qend	sstart	send	evalue	bitscore	qlen	slen	stitle
+Ahuja2026__NA35__c00000008_1	ref|NC_031213.1|	79.787	94	17	2	58	150	14202	14110	4.88e-13	77.9	151	15425	Turritopsis dohrnii isolate BP mitochondrion, complete genome
+Ahuja2026__NA35__c00000008_2	ref|NC_033522.1|	82.540	63	10	1	89	151	6077	6138	3.75e-08	61.7	151	15708	Diadema setosum mitochondrion, complete genome
+Ahuja2026__NA35__c00000016_2	ref|NC_054334.1|	78.652	89	19	0	5	93	268	356	1.70e-12	76.1	151	36162	Eucampia zodiacus strain CNS00060 mitochondrion, complete genome
+REF__MZG_Amphipoda_2488	ref|NC_020322.1|	73.064	297	74	6	410	703	432	725	1.21e-35	154	703	13931	Phyxioschema suthepium mitochondrion, complete genome
+REF__MZG_Amphipoda_2488	ref|NC_022256.1|	73.551	276	65	5	432	703	511	782	1.21e-35	154	703	38543	Nannochloropsis limnetica strain CCMP505 mitochondrion, complete genome
+REF__MZG_Amphipoda_6928	ref|NC_086476.1|	72.727	275	69	2	429	700	35556	35827	1.20e-35	155	700	38143	Malassezia arunalokei culture CBS:13387 strain CBS13387 mitochondrion, complete genome
+REF__MZG_Amphipoda_6933	ref|NC_007685.1|	66.862	513	146	11	204	703	17742	18243	1.38e-28	132	703	31617	Dictyota dichotoma mitochondrion, complete genome
+REF__MZG_Decapoda_56382	ref|NC_042491.1|	70.438	274	73	4	428	697	1182	913	8.62e-25	119	697	41858	Picocystis salinarum culture CCMP:1897 mitochondrion, complete genome

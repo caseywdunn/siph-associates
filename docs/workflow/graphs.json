@@ -1,4 +1,9 @@
 {
+  "coi_host_depleted": {"snakefile": "workflow/crustacean_coi_host_depleted.smk", "config": "config/crustacean_coi_host_depleted.json", "targets": ["host_depleted"]},
+  "fish_host_depleted": {"snakefile": "workflow/fish_12s_host_depleted.smk", "config": "config/fish_12s_host_depleted_cohort.json", "targets": ["host_depleted"]},
+  "coi_verification": {"snakefile": "workflow/crustacean_coi_verification.smk", "config": "config/crustacean_coi_verification.json", "targets": ["verification"]},
+  "coi_protein_validation": {"snakefile": "workflow/crustacean_coi_validation.smk", "config": "config/crustacean_coi_validation.json", "targets": ["protein_validation", "protein_validation_all_near_best"]},
+  "coi_validation": {"snakefile": "workflow/crustacean_coi_validation.smk", "config": "config/crustacean_coi_validation.json", "targets": ["validation", "local_origin_validation"]},
   "crustacean_coi": {"snakefile": "workflow/crustacean_coi.smk", "config": "config/crustacean_coi.json", "targets": ["pilot"]},
   "readiness": {"config": "config/config.yaml", "targets": ["all"]},
   "smoke": {"config": "tests/config.fixture.yaml", "targets": ["phase1_ready", "phase1_smoke"]},

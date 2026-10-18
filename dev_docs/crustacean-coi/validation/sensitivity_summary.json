@@ -1,0 +1,72 @@
+{
+  "Amphipoda": {
+    "pairs": 25,
+    "bbduk": 24,
+    "diamond": 25,
+    "union": 25,
+    "crustacean": 17,
+    "ambiguous": 4,
+    "non_target": 3,
+    "unresolved": 1
+  },
+  "Copepoda": {
+    "pairs": 25,
+    "bbduk": 23,
+    "diamond": 25,
+    "union": 25,
+    "crustacean": 14,
+    "ambiguous": 4,
+    "unresolved": 5,
+    "non_target": 2
+  },
+  "Decapoda": {
+    "pairs": 25,
+    "bbduk": 25,
+    "diamond": 25,
+    "union": 25,
+    "crustacean": 22,
+    "ambiguous": 3
+  },
+  "Euphausiacea": {
+    "pairs": 10,
+    "bbduk": 10,
+    "diamond": 10,
+    "union": 10,
+    "crustacean": 6,
+    "ambiguous": 4
+  },
+  "Lophogastrida": {
+    "pairs": 5,
+    "bbduk": 5,
+    "diamond": 5,
+    "union": 5,
+    "non_target": 2,
+    "ambiguous": 3
+  },
+  "Mysida": {
+    "pairs": 10,
+    "bbduk": 10,
+    "diamond": 10,
+    "union": 10,
+    "ambiguous": 6,
+    "non_target": 4
+  },
+  "Ostracoda": {
+    "pairs": 15,
+    "bbduk": 15,
+    "diamond": 15,
+    "union": 15,
+    "ambiguous": 4,
+    "non_target": 7,
+    "crustacean": 3,
+    "unresolved": 1
+  },
+  "negative": {
+    "pairs": 7,
+    "bbduk": 5,
+    "diamond": 5,
+    "union": 5,
+    "non_target": 5,
+    "not_recruited": 2
+  }
+}

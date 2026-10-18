@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": {
+    "both_known_bacterial_pairs_recognized": true,
+    "all_92_pilot_pairs_preserved": true,
+    "original_positive_controls_include_supported_match": true,
+    "controls_positives_recruited_and_not_rejected": true,
+    "controls_negatives_not_called_crustacean": true,
+    "heldout_positives_recruited_and_not_rejected": true,
+    "heldout_negatives_not_called_crustacean": true,
+    "four_flagged_barcodes_quarantined": true
+  }
+}

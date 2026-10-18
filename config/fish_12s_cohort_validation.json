@@ -1,0 +1,6 @@
+{
+  "manifest": "config/fish_12s_cohort_validation.tsv",
+  "reuse_manifest": null,
+  "run": "data/results/fish_12s/cohort_validation/2026-10-18",
+  "synthetic_validation": true
+}

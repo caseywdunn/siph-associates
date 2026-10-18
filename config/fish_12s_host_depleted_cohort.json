@@ -1,0 +1,11 @@
+{
+  "manifest": "config/prey_marker_host_depleted.tsv",
+  "reuse_manifest": "config/fish_12s_host_depleted.tsv",
+  "reuse_screen": "data/results/fish_12s/host_depleted/2026-10-17",
+  "reuse_aligners": "data/results/fish_12s/host_depleted_aligners/2026-10-17",
+  "run": "data/results/fish_12s/cohort_host_depleted/2026-10-18",
+  "reference": "data/results/fish_12s/masked_reference/2026-10-17/fish_12s_masked.fasta",
+  "reference_root": "data/results/fish_12s/positive_references/2026-10-17",
+  "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+  "sortmerna": "data/results/fish_12s/software/sortmerna_env/bin/sortmerna"
+}

@@ -4,7 +4,7 @@ digraph snakemake_dag {
     edge[penwidth=2, color=grey];
 	0[label = "pilot", color = "0.32 0.6 0.85", style="rounded"];
 	1[label = "check_coi_controls", color = "0.18 0.6 0.85", style="rounded"];
-	2[label = "make_coi_controls", color = "0.39 0.6 0.85", style="rounded"];
+	2[label = "make_coi_controls", color = "0.42 0.6 0.85", style="rounded"];
 	3[label = "finalize_coi_panel", color = "0.00 0.6 0.85", style="rounded"];
 	4[label = "validate_coi_barcode_frames", color = "0.14 0.6 0.85", style="rounded"];
 	5[label = "annotated_coi_proteins", color = "0.04 0.6 0.85", style="rounded"];
@@ -17,7 +17,7 @@ digraph snakemake_dag {
 	12[label = "nucleotide_coi_recruitment", color = "0.07 0.6 0.85", style="rounded"];
 	13[label = "mask_coi_seeds", color = "0.11 0.6 0.85", style="rounded"];
 	14[label = "translated_coi_recruitment", color = "0.21 0.6 0.85", style="rounded"];
-	15[label = "index_target_coi_proteins", color = "0.42 0.6 0.85", style="rounded"];
+	15[label = "index_target_coi_proteins", color = "0.39 0.6 0.85", style="rounded"];
 	16[label = "index_competitive_coi", color = "0.56 0.6 0.85", style="rounded"];
 	9 -> 0
 	1 -> 0

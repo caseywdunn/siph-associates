@@ -88,6 +88,13 @@ analyses are documented separately, so the graphs do not represent every handoff
 Separate [prey-marker pilots](docs/prey_marker_screen.md) screen retained
 host-depleted reads for fish 12S in *Physalia* and crustacean COI in *N. septata*.
 They have their own outputs and do not contribute to the manuscript results above.
+[COI validation](dev_docs/crustacean-coi/validation.md) tests reference divergence
+and audits uncertain candidate identifications before expansion.
+[The origin audit](dev_docs/crustacean-coi/verification.md) adds bacterial
+competitors; [conditional cohort jobs](dev_docs/prey-marker-expansion.md) extend
+both panels to all 161 host-depleted libraries when its checks pass.
+Crustacean work is now **paused on `crustacean-coi-screen`**; its cohort job was
+cancelled and outputs retained. See the [pause record](dev_docs/crustacean-coi/verification.md#paused-on-a-separate-branch-2026-10-18).
 
 The [sample metadata](figures/cohort/sample_metadata.tsv) and
 [detection tables](figures/cohort/) are starting points for exploring the results.

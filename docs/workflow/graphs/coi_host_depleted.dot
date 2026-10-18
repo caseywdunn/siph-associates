@@ -1,0 +1,30 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "host_depleted", color = "0.39 0.6 0.85", style="rounded"];
+	1[label = "report_host_depleted_coi", color = "0.22 0.6 0.85", style="rounded"];
+	2[label = "verify_candidate_origins_diamond", color = "0.17 0.6 0.85", style="rounded"];
+	3[label = "validate_coi_expansion", color = "0.11 0.6 0.85", style="rounded"];
+	4[label = "collect_coi_candidates", color = "0.06 0.6 0.85", style="rounded"];
+	5[label = "nucleotide_coi_recruitment", color = "0.44 0.6 0.85", style="rounded"];
+	6[label = "mask_coi_seeds", color = "0.50 0.6 0.85", style="rounded"];
+	7[label = "translated_coi_recruitment", color = "0.00 0.6 0.85", style="rounded"];
+	8[label = "index_target_coi_proteins", color = "0.56 0.6 0.85", style="rounded"];
+	9[label = "competitive_coi_alignment", color = "0.61 0.6 0.85", style="rounded"];
+	10[label = "index_competitive_coi", color = "0.28 0.6 0.85", style="rounded"];
+	1 -> 0
+	4 -> 1
+	2 -> 1
+	9 -> 1
+	4 -> 2
+	3 -> 2
+	7 -> 4
+	5 -> 4
+	3 -> 5
+	6 -> 5
+	3 -> 7
+	8 -> 7
+	4 -> 9
+	10 -> 9
+}            

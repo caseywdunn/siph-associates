@@ -28,9 +28,16 @@ def main():
     parser.add_argument("--r2", type=Path, required=True)
     parser.add_argument("--bbduk", type=Path, required=True)
     parser.add_argument("--diamond", type=Path, nargs=2, required=True)
-    parser.add_argument("--expected-pairs", type=int, required=True)
+    counts = parser.add_mutually_exclusive_group(required=True)
+    counts.add_argument("--expected-pairs", type=int)
+    counts.add_argument(
+        "--expected-pairs-json", type=Path, help="Paired control truth list"
+    )
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
+    expected_pairs = args.expected_pairs
+    if args.expected_pairs_json:
+        expected_pairs = len(json.loads(args.expected_pairs_json.read_text()))
     nucleotide = {pair_id(r[0]) for r in fastq(args.bbduk)}
     translated = set()
     for path in args.diamond:
@@ -63,9 +70,9 @@ def main():
             writer.writerow([cid, rid, int(rid in nucleotide), int(rid in translated)])
             for mate, record in enumerate([r1, r2], 1):
                 fasta.write(f">{cid}_{mate}\n{record[1]}\n")
-    if count != args.expected_pairs or seen != wanted:
+    if count != expected_pairs or seen != wanted:
         raise ValueError(
-            f"Pair accounting failed: {count}/{args.expected_pairs}; {len(wanted - seen)} missing candidates"
+            f"Pair accounting failed: {count}/{expected_pairs}; {len(wanted - seen)} missing candidates"
         )
     (args.output / "recruitment.json").write_text(
         json.dumps(

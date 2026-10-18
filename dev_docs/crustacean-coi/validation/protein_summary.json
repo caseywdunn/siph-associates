@@ -1,0 +1,139 @@
+{
+  "60": {
+    "Amphipoda": {
+      "pairs": 25,
+      "crustacean": 20,
+      "ambiguous": 5
+    },
+    "Copepoda": {
+      "pairs": 25,
+      "ambiguous": 8,
+      "crustacean": 17
+    },
+    "Decapoda": {
+      "pairs": 25,
+      "crustacean": 14,
+      "ambiguous": 11
+    },
+    "Euphausiacea": {
+      "pairs": 10,
+      "ambiguous": 3,
+      "crustacean": 7
+    },
+    "Lophogastrida": {
+      "pairs": 5,
+      "crustacean": 4,
+      "ambiguous": 1
+    },
+    "Mysida": {
+      "pairs": 10,
+      "ambiguous": 6,
+      "crustacean": 3,
+      "non_target": 1
+    },
+    "Ostracoda": {
+      "pairs": 15,
+      "crustacean": 4,
+      "ambiguous": 9,
+      "non_target": 2
+    },
+    "negative": {
+      "pairs": 7,
+      "non_target": 4,
+      "ambiguous": 1,
+      "not_recruited": 2
+    }
+  },
+  "70": {
+    "Amphipoda": {
+      "pairs": 25,
+      "crustacean": 20,
+      "ambiguous": 4,
+      "non_target": 1
+    },
+    "Copepoda": {
+      "pairs": 25,
+      "ambiguous": 8,
+      "crustacean": 17
+    },
+    "Decapoda": {
+      "pairs": 25,
+      "crustacean": 14,
+      "ambiguous": 11
+    },
+    "Euphausiacea": {
+      "pairs": 10,
+      "ambiguous": 3,
+      "crustacean": 7
+    },
+    "Lophogastrida": {
+      "pairs": 5,
+      "crustacean": 4,
+      "ambiguous": 1
+    },
+    "Mysida": {
+      "pairs": 10,
+      "ambiguous": 6,
+      "crustacean": 3,
+      "non_target": 1
+    },
+    "Ostracoda": {
+      "pairs": 15,
+      "crustacean": 4,
+      "ambiguous": 9,
+      "non_target": 2
+    },
+    "negative": {
+      "pairs": 7,
+      "non_target": 4,
+      "ambiguous": 1,
+      "not_recruited": 2
+    }
+  },
+  "80": {
+    "Amphipoda": {
+      "pairs": 25,
+      "crustacean": 20,
+      "ambiguous": 4,
+      "non_target": 1
+    },
+    "Copepoda": {
+      "pairs": 25,
+      "ambiguous": 7,
+      "crustacean": 18
+    },
+    "Decapoda": {
+      "pairs": 25,
+      "crustacean": 14,
+      "ambiguous": 11
+    },
+    "Euphausiacea": {
+      "pairs": 10,
+      "ambiguous": 3,
+      "crustacean": 7
+    },
+    "Lophogastrida": {
+      "pairs": 5,
+      "crustacean": 4,
+      "ambiguous": 1
+    },
+    "Mysida": {
+      "pairs": 10,
+      "ambiguous": 3,
+      "crustacean": 5,
+      "non_target": 2
+    },
+    "Ostracoda": {
+      "pairs": 15,
+      "crustacean": 6,
+      "ambiguous": 7,
+      "non_target": 2
+    },
+    "negative": {
+      "pairs": 7,
+      "non_target": 4,
+      "ambiguous": 1,
+      "not_recruited": 2
+    }
+  }
+}

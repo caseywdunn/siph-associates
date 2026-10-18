@@ -8,22 +8,26 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 
-def classify(hits, metadata):
-    """Require >=90 aligned nt and >=80% identity; retain near-best competitors."""
-    passing = [h for h in hits if h["length"] >= 90 and h["identity"] >= 80]
-    if not passing:
+def classify(hits, metadata, max_hits=200):
+    """Rank all competitors before applying the minimum evidence thresholds."""
+    if not hits:
         return "unresolved", [], []
-    best = max(h["bitscore"] for h in passing)
-    near = [h for h in passing if h["bitscore"] >= 0.99 * best]
+    best = max(h["bitscore"] for h in hits)
+    near = [h for h in hits if h["bitscore"] >= 0.99 * best]
     ids = sorted({h["reference_id"] for h in near})
     target = {metadata[r]["target"] == "1" for r in ids}
     groups = sorted({metadata[r]["group"] for r in ids})
     # A full result list cannot establish that other near-best competitors were absent.
     truncated_near_best = (
-        len(hits) >= 200 and min(h["bitscore"] for h in hits) >= 0.99 * best
+        max_hits is not None
+        and len(hits) >= max_hits
+        and min(h["bitscore"] for h in hits) >= 0.99 * best
     )
     if truncated_near_best or len(target) > 1:
         return "ambiguous", groups, ids
+    # A short, weaker match must not replace a stronger divergent competitor.
+    if any(h["length"] < 90 or h["identity"] < 80 for h in near):
+        return "unresolved", groups, ids
     return ("crustacean" if True in target else "non_target"), groups, ids
 
 
@@ -38,8 +42,13 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--directory", type=Path, required=True)
     parser.add_argument("--metadata", type=Path, required=True)
+    parser.add_argument(
+        "--output", type=Path, help="Separate revised reports from preserved alignments"
+    )
     args = parser.parse_args()
     root = args.directory
+    output = args.output or root
+    output.mkdir(parents=True, exist_ok=True)
     with args.metadata.open() as handle:
         metadata = {
             r["reference_id"]: r for r in csv.DictReader(handle, delimiter="\t")
@@ -71,7 +80,7 @@ def main():
         "near_best_species",
         "near_best_references",
     ]
-    with (root / "classified_pairs.tsv").open("w") as handle:
+    with (output / "classified_pairs.tsv").open("w") as handle:
         writer = csv.DictWriter(handle, fields, delimiter="\t", lineterminator="\n")
         writer.writeheader()
         for row in candidates:
@@ -100,13 +109,14 @@ def main():
         classification_by_method=dict(counts),
         interpretation="Provisional COI similarity evidence, not validated species identification or proof of predation.",
         thresholds={
+            "ranking": "All hits ranked before minimum length/identity filtering",
             "minimum_aligned_nt": 90,
             "minimum_identity_percent": 80,
             "near_best_bitscore_fraction": 0.99,
             "max_target_sequences": 200,
         },
     )
-    (root / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
+    (output / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
 
 
 if __name__ == "__main__":
