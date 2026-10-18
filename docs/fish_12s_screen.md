@@ -85,15 +85,53 @@ outside the motif. Negative reads and quality-only matches are rejected; the
 masked reference also rejects poly-G and ATTT repeats. These controls establish
 implementation behavior, not sensitivity to fish absent from the reference.
 
-## Recommended next stage
+## Positive-control assessment
 
-Use the masked whole-12S filter across all libraries, retaining complete read
-pairs, names, qualities, source lane, and original analysis sample ID. Keep the
-original regex as a comparison applied to the candidates. Before biological
-reporting, compare candidate alignments against fish and non-fish references,
-resolve ambiguous assignments, inspect duplicates and support outside conserved
-sites, and evaluate sequencing-batch contamination. The SSU analysis's 37-pair
-threshold has not been calibrated for this marker and should not be transferred.
+Before expanding to all libraries, test recovery in libraries with previous fish
+evidence. Casey's pilot regex recovered fish 12S from YPM-IZ-110906 and
+YPM-IZ-110907. The comparison set includes these two and three other libraries
+with retained fish SSU detections: WAM-Z97917, YPM-IZ-111156, and YPM-IZ-111158.
+YPM-IZ-110907 also has retained fish SSU evidence (131 read pairs and an assembled
+SSU); YPM-IZ-110906 has only a trace vertebrate SSU signal (20 pairs). These are
+selection criteria, not new 12S results. Nuclear SSU evidence does not guarantee
+that mitochondrial 12S reads will be recovered.
+
+[The manifest](../config/fish_12s_known_positive.tsv) lists every lane for these
+five libraries: nine paired entries, 98.03 GB compressed. The first assessment
+uses complete lanes, with independent sequence-only searches for the original
+regex and exact 25-mers from the masked whole-12S reference. Both mates are kept
+for BBDuk candidates. Exact 31-mer membership is then assessed on the 25-mer
+candidates: every exact 31-mer necessarily contains exact 25-mers, so this gives
+the same retained pairs as scanning the original inputs with k=31. Its timing
+measures only the candidate recheck, not full-input k=31 throughput. Regex-only
+reads retain their headers and qualities; their unmatched mates are not included
+unless BBDuk recovered the pair.
+
+Bowtie2 (`--very-sensitive-local`) and SortMeRNA independently search the complete
+L003 lane of each of YPM-IZ-110906 and YPM-IZ-110907 against the same masked 12S
+reference. They receive raw inputs, not BBDuk-selected reads. SortMeRNA retains
+both mates when either aligns. Bowtie2's SAM records preserve aligned-read
+evidence, including alternative-species ambiguity in MAPQ; a single reported
+alignment is not a taxonomic assignment. Synthetic checks recover four fish
+examples and the homologous frog example with both methods, while rejecting
+random, quality-only, and repetitive negative controls.
+
+Candidates from the regex/BBDuk union are compared by BLASTN with unmasked
+MitoFish 12S sequences and the complete
+[NCBI mitochondrial RefSeq collection](https://ftp.ncbi.nlm.nih.gov/refseq/release/mitochondrion/),
+file `mitochondrion.1.1.genomic.fna.gz` dated 2026-09-03. This adds mitochondrial
+sequences from other organisms. It is not an unrestricted search of all NCBI
+nucleotide records, and closest reference matches should not automatically be
+reported as prey species. Alignment checks use word size 11, DUST, E-value
+1e-8, one HSP per subject, and up to 200 subjects per query. The query-ID table
+connects every candidate to its original read, mate, lane, and filter membership.
+
+The full-cohort method remains undecided pending positive-control recovery,
+reference-held-out sensitivity tests, and comparisons of computational cost.
+Before biological reporting, resolve ambiguous assignments, inspect duplicates
+and support outside conserved sites, and evaluate sequencing-batch contamination.
+The SSU analysis's 37-pair threshold has not been calibrated for this marker and
+should not be transferred.
 
 The main speed improvements are a single read pass, recovery of mates during that
 pass, and modest parallelism across lane files. The streaming filters need far
@@ -143,3 +181,46 @@ Java PATH failure is retained separately from the successful retry.
 
 The reference assessment and standalone pilots have no dependencies on the
 existing Snakemake targets and cannot schedule earlier sequence analyses.
+
+## Run the positive-control assessment
+
+Run from the repository root on McCleary. These commands consume the existing
+MitoFish reference and masked derivative described above. They are separate from
+the main Snakemake workflow. Select fresh output directories for repeated runs;
+the scripts fail if their output directories already exist.
+
+SortMeRNA 7.1.0 was installed in an isolated environment under the ignored
+`data/results/fish_12s/software/` directory. Its exact package specification is
+[sortmerna_environment.txt](../dev_docs/fish-12s/sortmerna_environment.txt):
+
+```bash
+module load miniconda/24.7.1
+conda create --prefix data/results/fish_12s/software/sortmerna_env \
+  --file dev_docs/fish-12s/sortmerna_environment.txt
+```
+
+Download the mitochondrial RefSeq file into
+`data/results/fish_12s/reference/refseq_mito_2026-09-03/` using the filename above;
+the pilot's download headers and hashes are retained with the run. The directory
+listing is mutable, so check the archived input checksum before reproducing this
+specific run with a later download. The reference-preparation job uses Bowtie2
+2.5.1 and BLAST+ 2.15.0 cluster modules. The read screens use BBTools 39.01 and
+SeqKit v2.8.0 as above; launchers set their module and environment paths.
+
+```bash
+mkdir -p logs/fish_12s
+sbatch scripts/fish_12s/prepare_positive_references.sbatch
+sbatch scripts/fish_12s/screen_positive.sbatch
+# After reference preparation completes:
+sbatch scripts/fish_12s/compare_aligners.sbatch
+# After both reference preparation and the read screens complete:
+sbatch scripts/fish_12s/align_positive_candidates.sbatch
+```
+
+To run the same implementation on a small control, supply a manifest with paired
+fixture paths and their byte sizes, set `--array=0`, and pass a fresh output root
+as the second script argument. See
+[the execution record](../dev_docs/fish-12s/positive_pilot.md) for the actual jobs,
+dependencies, checks, and output paths. Candidate FASTQ files, alignments, source
+snapshots, and execution logs are retained under `data/results/fish_12s/` and are
+excluded from Git. This pilot changes no sample IDs or existing analysis targets.
