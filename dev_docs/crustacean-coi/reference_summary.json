@@ -1,9 +1,0 @@
-{
-  "target_records": 108778,
-  "competitor_records": 36459,
-  "rejected_barcodes": {
-    "stop_or_short_translation": 76,
-    "no_supported_coi_frame": 768
-  },
-  "frame_validation": "DIAMOND >=50aa, >=50% identity, >=80% query coverage; no internal stop; code 5"
-}

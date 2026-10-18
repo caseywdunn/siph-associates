@@ -85,9 +85,11 @@ analyses are documented separately, so the graphs do not represent every handoff
 
 ## Data and interpretation
 
-Separate [prey-marker pilots](docs/prey_marker_screen.md) screen retained
-host-depleted reads for fish 12S in *Physalia* and crustacean COI in *N. septata*.
-They have their own outputs and do not contribute to the manuscript results above.
+The separate [fish 12S screen](docs/prey_marker_screen.md) uses all retained
+host-depleted reads from 151 *Physalia* and ten *N. septata* libraries.
+Its [completed cohort review](dev_docs/fish-12s/positive_pilot.md#completed-host-depleted-cohort-review-2026-10-18)
+remains separate from the manuscript results above. Crustacean COI work is paused
+and preserved on branch `crustacean-coi-screen`.
 
 The [sample metadata](figures/cohort/sample_metadata.tsv) and
 [detection tables](figures/cohort/) are starting points for exploring the results.

@@ -44,6 +44,75 @@ changed. Screening and verification tasks 1, 2 and 3 had completed; their output
 is retained. Both direct raw-read aligner tasks 13499330_2,5 had completed and are
 also retained. Raw-lane analyses below describe that superseded execution.
 
+## Completed host-depleted cohort review, 2026-10-18
+
+Job 13501886 completed successfully in 1:59:40. Together with the five
+preserved fish pilots, this covers all 151
+Physalia and ten Nanomia septata libraries: 416,741,747 retained pairs. All 625
+new-workflow steps completed. No original analyses were rerun.
+
+The four filters retained 1,021 candidate pairs. A first descriptive review of
+the existing competitive mitochondrial alignments gives 32 long, close fish
+matches in eight Physalia libraries, 20 additional pairs with weaker or
+ambiguous fish similarity, and 969 other/no-hit candidates. No Nanomia library
+has a long, close fish match or a fish reference within the defined near-best
+score range. These are review categories, not validated presence thresholds or
+final species/diet assignments.
+
+| Physalia specimen | Long, close pairs | Best-matching fish names, grouped for review |
+| --- | ---: | --- |
+| YPM-IZ-110907 | 18 | Beryx (17), Cubiceps (1) |
+| WAM-Z97917 | 8 | Engraulis (6), Sardinops (1), Enneapterygius (1) |
+| YPM-IZ-110906 | 1 | Vinciguerria |
+| YPM-IZ-110471 | 1 | Synodus |
+| YPM-IZ-110557 | 1 | Arripis |
+| YPM-IZ-110842 | 1 | Apogon |
+| YPM-IZ-111016 | 1 | Scomberesox |
+| WAM-Z97906 | 1 | Pseudocaranx |
+
+BBDuk k=25 recovered all 32 close-matching pairs; Bowtie2 and SortMeRNA each
+recovered 31; the regex recovered seven, in YPM110906 and YPM110907. The
+BBDuk-only Synodus pair matches NC_007228.1 at 100% over 147 nt, positions
+987–1133; whole mitochondrial references retain evidence across marker
+boundaries. Counts refer to sequencing read pairs, without molecular duplicate
+removal. They are not counts of prey individuals or independent original DNA
+molecules.
+
+The other-fish-similarity category includes seven pairs in WAM-Z97917, three in
+YPM110907, six in YPM104460, and four in YPM111495. The latter two libraries have
+no long, close match under this review rule; their more divergent or shorter
+fish similarities remain available for examination. Initial non-fish hits
+include human, siphonophore, plant and other mitochondrial references; a best
+reference name alone is not a biological identification of those organisms.
+
+See the [161-library summary](cohort_sample_summary.tsv) and
+[all candidate-pair evidence](cohort_pair_review.tsv). The report script
+`scripts/fish_12s/summarize_cohort.py` reads existing outputs only. A long, close
+match has a top alignment of at least 100 nt and 95% identity, only fish
+references within 5% of its best bit score, and a hit-list tail below that range
+when the 200-reference limit is reached. At least one mate must qualify and a
+strong competing non-fish mate prevents this classification. Annotated
+MitoFish references establish fish membership; RefSeq membership is inferred
+from names sharing genera with that panel. This is a transparent preliminary
+name-based review, not a final taxonomy pipeline. Whole-mitochondrial hits can
+include sequence flanking the recruited 12S marker. Similar fish references
+often tie or nearly tie, so the table avoids final species assignments.
+
+Reproduce the summary, without read searches, with the existing Snakemake
+Python environment:
+
+```bash
+/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python \
+    scripts/fish_12s/summarize_cohort.py \
+    --output data/results/fish_12s/cohort_review/2026-10-18
+```
+
+The report's `run.json` records its source, runtime, command, input hashes and
+output hashes. Checks confirmed all 161 manifest rows, both mates of every
+candidate pair, no duplicated mate mappings, and the expected score-ranking,
+competitor-tie, length, identity and truncated-hit-list behavior. Existing
+alignments were unchanged.
+
 ## Original raw-lane pilot
 
 Started 2026-10-17 on branch `fish-12s-screen`, following Casey's identification

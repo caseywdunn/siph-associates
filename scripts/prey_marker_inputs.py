@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Freeze existing host-depleted pairs as inputs to the revised prey pilots."""
+"""Freeze existing host-depleted pairs as inputs to the fish 12S screen."""
 
+import argparse
 import csv
 import json
 from pathlib import Path
@@ -12,6 +13,13 @@ def read_table(path: str) -> list[dict]:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--all-host-depleted",
+        action="store_true",
+        help="Prepare the fish manifest for all 161 retained libraries",
+    )
+    args = parser.parse_args()
     metadata = {
         r["analysis_sample_id"]: r
         for r in read_table("figures/cohort/sample_metadata.tsv")
@@ -21,11 +29,18 @@ def main() -> None:
         for r in read_table("config/fish_12s_known_positive.tsv")
     }
     root = Path("data/results/phase3_cohort/inputs").resolve()
-    fish, crustacean = [], []
+    fish, cohort = [], []
     for record in read_table("config/phase3_assembly.tsv"):
         sample = record["sample_id"]
-        if record["host_route"] == "N_septata":
-            target, basis = crustacean, "all_N_septata_libraries"
+        if args.all_host_depleted and record["host_route"] in {
+            "P_physalis",
+            "N_septata",
+        }:
+            # Preserve the original cohort-selection label in the frozen manifest.
+            # Crustacean screening has moved to its own branch.
+            target, basis = cohort, "both_fish_12S_and_crustacean_COI"
+        elif args.all_host_depleted:
+            continue
         elif record["host_route"] == "P_physalis" and sample in positive:
             target, basis = fish, positive[sample]
         else:
@@ -49,13 +64,21 @@ def main() -> None:
                 raise ValueError(f"Missing retained input: {path}")
             row[f"r{mate}_path"] = str(path)
             row[f"r{mate}_bytes"] = path.stat().st_size
+        if args.all_host_depleted:
+            row["post_qc_pre_depletion_pairs"] = metrics["input_pairs"]
         target.append(row)
-    if len(fish) != len(positive) or len(crustacean) != 10:
+    if args.all_host_depleted:
+        if (
+            len(cohort) != 161
+            or sum(r["host_route"] == "N_septata" for r in cohort) != 10
+        ):
+            raise ValueError("Unexpected host-depleted cohort membership")
+        outputs = [("prey_marker_host_depleted.tsv", cohort)]
+    elif len(fish) != len(positive):
         raise ValueError("Unexpected pilot cohort membership")
-    for name, rows in [
-        ("fish_12s_host_depleted.tsv", fish),
-        ("crustacean_coi_pilot.tsv", crustacean),
-    ]:
+    else:
+        outputs = [("fish_12s_host_depleted.tsv", fish)]
+    for name, rows in outputs:
         with Path("config", name).open("w") as handle:
             writer = csv.DictWriter(
                 handle, list(rows[0]), delimiter="\t", lineterminator="\n"
