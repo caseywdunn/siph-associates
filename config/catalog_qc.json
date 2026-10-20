@@ -1,0 +1,732 @@
+{
+  "source_repository": "/gpfs/ycga/work/dunn/cwd7/siph_associates",
+  "run": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/catalog_qc/2026-10-20/domain",
+  "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+  "diamond": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/genomad_env/bin/diamond",
+  "gtdbtk_prefix": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/gtdbtk_r220_env",
+  "gtdbtk_data": "/gpfs/ycga/work/dunn/cwd7/databases/gtdbtk_r220/release220",
+  "nr_database": "/gpfs/ycga/work/dunn/cwd7/databases/diamond/nr.dmnd",
+  "swissprot_url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz",
+  "swissprot_release_url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/reldate.txt",
+  "taxonomy_url": "https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump.tar.gz",
+  "tile_length": 1000,
+  "tile_step": 500,
+  "minimum_alignment_aa": 50,
+  "maximum_evalue": 1e-05,
+  "near_best_fraction": 0.95,
+  "bins": [
+    {
+      "bin_id": "Ahuja2024__CWD1__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD1__bin.4.fa",
+      "sha256": "661424233eab599ab18e0eecd047edff3583de6c8056f4a53752a1fa6d0308d5"
+    },
+    {
+      "bin_id": "Ahuja2024__CWD101__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD101__bin.1.fa",
+      "sha256": "d1b15921ea7b65ef3bf96978eeda5a983b5343764adbcc02a5ee58b3ef2d4469"
+    },
+    {
+      "bin_id": "Ahuja2024__CWD11__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD11__bin.1.fa",
+      "sha256": "d4c0daf99fe47510225171d301f8a4852b5eab1bf6ff9a680b09040d4acc87cc"
+    },
+    {
+      "bin_id": "Ahuja2024__CWD117__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD117__bin.3.fa",
+      "sha256": "0e29ac99d769986fa72f103832722fb2dc2236f62d97e75982e73e16f6188bcd"
+    },
+    {
+      "bin_id": "Ahuja2024__CWD121__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD121__bin.4.fa",
+      "sha256": "30e5c28bb7c240bcb2351f390fa1fc6f5e07ee5709f276119f9b7757a30deca4"
+    },
+    {
+      "bin_id": "Ahuja2024__CWD141__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD141__bin.1.fa",
+      "sha256": "4060e7f2105264e1057afabcba0cd3c6edae28df71c20b6876717a7debba28f1"
+    },
+    {
+      "bin_id": "Ahuja2024__CWD141__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD141__bin.2.fa",
+      "sha256": "b976e02f4481613feb94b592778671ab17ef842c9868a8a54901e03a13c4a92a"
+    },
+    {
+      "bin_id": "Ahuja2024__CWD141__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD141__bin.4.fa",
+      "sha256": "df0453495c236b62318133b516360889780ef6b3234666955f3bc8c0d8f71eb0"
+    },
+    {
+      "bin_id": "Ahuja2024__CWD144__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD144__bin.2.fa",
+      "sha256": "f78179661e3bed32dfcbd7a04f0dc3a71d2f581900f692d4e0f647d833b11622"
+    },
+    {
+      "bin_id": "Ahuja2024__CWD144__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD144__bin.4.fa",
+      "sha256": "050202ad5f473e136a28c5385d30c5c6d18d9e932c9deca6479d5fa656dca315"
+    },
+    {
+      "bin_id": "Ahuja2024__CWD144__bin.9",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD144__bin.9.fa",
+      "sha256": "f19bd900fdd2a9a1e8678f8abc0c2220cc5f5252137d9080fe4611c8c0925add"
+    },
+    {
+      "bin_id": "Ahuja2024__CWD20__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD20__bin.4.fa",
+      "sha256": "67e40190f80daccab952ae3fdb2e6f167041d505af984a6cc909075bfad8e057"
+    },
+    {
+      "bin_id": "Ahuja2024__CWD3__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD3__bin.4.fa",
+      "sha256": "032a4f64969410af765152939efef8fb98691faa084fbb1599f0960dd4361ed1"
+    },
+    {
+      "bin_id": "Ahuja2024__CWD3__bin.6",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__CWD3__bin.6.fa",
+      "sha256": "533cd8e91410f5cef3647ee419970018422acae53bf30bad0e55bc87898d24d5"
+    },
+    {
+      "bin_id": "Ahuja2024__NA1__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__NA1__bin.2.fa",
+      "sha256": "16a382008c76430a6f3227d987ae830e3aa1cd19be2baaa2317b0cc7536fe2a6"
+    },
+    {
+      "bin_id": "Ahuja2024__NA10__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__NA10__bin.1.fa",
+      "sha256": "4774d35a40f470a9493f402b5aa13ec0f565386bc3ec0c10d4f8bcb577d5ad94"
+    },
+    {
+      "bin_id": "Ahuja2024__NA10__bin.6",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__NA10__bin.6.fa",
+      "sha256": "f9a45dac78c98e351d6515415365440144965ffa2d87c98825f503833e3e73ec"
+    },
+    {
+      "bin_id": "Ahuja2024__NA11__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__NA11__bin.1.fa",
+      "sha256": "a5cb760cbf8d3ac6be17cdaed04b4a5d325eea90e16bc5e308ad1267dfb1c39f"
+    },
+    {
+      "bin_id": "Ahuja2024__NA11__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__NA11__bin.3.fa",
+      "sha256": "1f75745df89858a7c3eec006ec68ef3d2716b60c8fb48787b60d4a900bc448d6"
+    },
+    {
+      "bin_id": "Ahuja2024__NA2__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__NA2__bin.4.fa",
+      "sha256": "7bbb98ff469e7208d2e5d7119363c4d16ce17b68662abe9be96392bb275b45d7"
+    },
+    {
+      "bin_id": "Ahuja2024__NA3__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__NA3__bin.2.fa",
+      "sha256": "398d21f1f0edb571110567444dbdd761dd6f8d7231b1046a4bedd105b6eedef7"
+    },
+    {
+      "bin_id": "Ahuja2024__NA8__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__NA8__bin.4.fa",
+      "sha256": "77f0c284699669327e1adccf7fb3c849b94c8399aec2e21db2f1a5692a05044e"
+    },
+    {
+      "bin_id": "Ahuja2024__NA9__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2024__NA9__bin.2.fa",
+      "sha256": "2621b8356d978524a0de204de9ee60e08d84bf4c2c8f5d56b08903e99a5b8902"
+    },
+    {
+      "bin_id": "Ahuja2026__NA31__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2026__NA31__bin.1.fa",
+      "sha256": "807cd2327d1796df72871aeedb07075d28c8d2a456c07a706a1e0ef3601f550f"
+    },
+    {
+      "bin_id": "Ahuja2026__NA31__bin.10",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2026__NA31__bin.10.fa",
+      "sha256": "f568adb9abedf3a5d755ff9b30706dad64c9431f579561614967e1524e1b6a8a"
+    },
+    {
+      "bin_id": "Ahuja2026__NA31__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2026__NA31__bin.4.fa",
+      "sha256": "33b898b62bf3c9ae3e2e87508dedd84a64b0cd04bbc93767166a478f54737185"
+    },
+    {
+      "bin_id": "Ahuja2026__NA31__bin.5",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2026__NA31__bin.5.fa",
+      "sha256": "b05ba5609ff1c51ec1e3271986c00c547030b534f076e3572089221593f9e941"
+    },
+    {
+      "bin_id": "Ahuja2026__NA31__bin.6",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2026__NA31__bin.6.fa",
+      "sha256": "20c4657c558bbd30ff8fd26e306a17b764e6bfb11e1d24bd39e0c65588b5e032"
+    },
+    {
+      "bin_id": "Ahuja2026__WS6__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Ahuja2026__WS6__bin.2.fa",
+      "sha256": "fa6eb6cca088f3fb1306f9854cddca9bb135a8d42c3d59ee0cc2eafc94371a7a"
+    },
+    {
+      "bin_id": "Church2025__NIWA-173304__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__NIWA-173304__bin.1.fa",
+      "sha256": "c06fdad03f9abf368e1946dc5468a5e258b770126cbced260f426214554b2df3"
+    },
+    {
+      "bin_id": "Church2025__NIWA-173304__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__NIWA-173304__bin.2.fa",
+      "sha256": "02f9dfdb6884dcf142743c3d7d6dc58504c29ef3b946639a8d1e3a11319913a4"
+    },
+    {
+      "bin_id": "Church2025__NIWA-173304__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__NIWA-173304__bin.4.fa",
+      "sha256": "dce329a0b9677dd9a953417e1306504a79a4ae92a24f0a77cc2574e5af91199b"
+    },
+    {
+      "bin_id": "Church2025__NIWA-173305__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__NIWA-173305__bin.2.fa",
+      "sha256": "0128687ebad77672b9a44b9c9bb2a910bc72ab9fccce068c64166fa82ec2ba9f"
+    },
+    {
+      "bin_id": "Church2025__OA-190531-1__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__OA-190531-1__bin.4.fa",
+      "sha256": "0c4d509d61990c6334fa38874a2982c359c7973f0e4b39523a1a2375b4b45884"
+    },
+    {
+      "bin_id": "Church2025__OA-190531-1__bin.5",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__OA-190531-1__bin.5.fa",
+      "sha256": "838e6fd2d31852d4bb72459506cad658f77c29290eed42d889363b504cf2bb82"
+    },
+    {
+      "bin_id": "Church2025__TMAG-K5632__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__TMAG-K5632__bin.1.fa",
+      "sha256": "1ef69f97f9cedf8aa771bc1d9b1e8602b9667b5d47e5916e2cb369474710a752"
+    },
+    {
+      "bin_id": "Church2025__TMAG-K5632__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__TMAG-K5632__bin.2.fa",
+      "sha256": "e5b36fc1aeca61ebd94cc41e9b22e8444741414ff9d1cca223caa367fbc363ab"
+    },
+    {
+      "bin_id": "Church2025__TMAG-K5633__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__TMAG-K5633__bin.1.fa",
+      "sha256": "9a299294bba677f223bfcf25edef5254ee354486d3258c2da973e0b5c6ef7176"
+    },
+    {
+      "bin_id": "Church2025__TMAG-K5635__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__TMAG-K5635__bin.1.fa",
+      "sha256": "5b00e6501f56bbb3245cab6bfdb0bfe0e1e3be737abba28e620b2f905fb1111e"
+    },
+    {
+      "bin_id": "Church2025__TMAG-K5635__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__TMAG-K5635__bin.4.fa",
+      "sha256": "b30f351e0ba45c152ab5ad9e414d58f9c7309a5e8b768b2cb507610e2d03bbb0"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97900__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97900__bin.2.fa",
+      "sha256": "2f66b5fe3d93ec6d8e96ae3a2e2dad4fa4ba7552d56a2a7e8f451cc914067ca2"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97901__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97901__bin.2.fa",
+      "sha256": "8fe871611cc32011bed2850588fdd270d1882bb95f26e9d351771792f310e130"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97901__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97901__bin.3.fa",
+      "sha256": "ef42048eef53ecd6bf507dc91fbb404930e27ecd75cedd5918298ebda63a8925"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97902__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97902__bin.1.fa",
+      "sha256": "b93c18d760fecd501523e38e6ee625b06eeb06fbb5ad267b11649d0b4e979037"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97902__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97902__bin.3.fa",
+      "sha256": "20460bc3ed6bb8a343f5700f28a7b542b798c163e5e7abac59521e201fdc09d5"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97902__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97902__bin.4.fa",
+      "sha256": "08bc2657198179970883efe34c30fc5203168f842756c1ad1c95767024394f5c"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97903__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97903__bin.3.fa",
+      "sha256": "a99f183348fa14c40813e3b1af8eef6c228a8f4f40d57e96389115dec5ac5799"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97906__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97906__bin.1.fa",
+      "sha256": "feef16bbf46159c9eda91e4e793696264083a6e7be7d2f231f597f286baea984"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97907__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97907__bin.2.fa",
+      "sha256": "a37f835f36806bc36157fd41fd0d60a6530f7152490af5c1663cd729b2c0a943"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97908__bin.6",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97908__bin.6.fa",
+      "sha256": "83f5d2a0c0e62883ece8fc0b7867a047acc81693c12a01bc02fddd0c0f8425b9"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97910__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97910__bin.1.fa",
+      "sha256": "4d1a0c35cd1a75e08eb027b0838e88a595853097552ea4dee0e696272dea84c1"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97910__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97910__bin.3.fa",
+      "sha256": "b44f5909fa6c4bd49a4b7f1e25727b728e454c9dfc4a30b7f92b10f0da465857"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97911__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97911__bin.1.fa",
+      "sha256": "7082c50b2c739326de03da8d46ccda7df9cf5eb3149ffacd4a9002864cb2de37"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97911__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97911__bin.3.fa",
+      "sha256": "ee2bf33aaed9e5d28b3e276f76394ad2b219cd88026d311734558953ee42ba0b"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97916__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97916__bin.2.fa",
+      "sha256": "84580df3d3d8e7d231538d12e1693f663dde622d5df7e4df98229958dac4923a"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97916__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97916__bin.3.fa",
+      "sha256": "946a667fad3f8fbfda8ceb90df67269ddacb75b8c899193c962634ce93d87c58"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97917__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97917__bin.2.fa",
+      "sha256": "c3bfc58528283e8687c048c0131bccf7fcbd4b9be87db0943f712d189735da9d"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97917__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97917__bin.3.fa",
+      "sha256": "72bc64eb904d26a28800c0ae14f930ac6e5f6af8510026311a60e5716db0ef60"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97917__bin.5",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97917__bin.5.fa",
+      "sha256": "e00b2ddc977259ff0610621ca423086fd899e06e1e838e5c4fdabc130ee8a4f7"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97920__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97920__bin.2.fa",
+      "sha256": "fe7cbf6c925f1044b79804f53f934f3e8a195f37bf593443741f5d8b34bd039c"
+    },
+    {
+      "bin_id": "Church2025__WAM-Z97923__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__WAM-Z97923__bin.1.fa",
+      "sha256": "386f5a608b1a111ddb469eaf9c4e4d246b581b1d6c5dafd26e3ae81180f082c5"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-104464__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-104464__bin.2.fa",
+      "sha256": "2860c10f314c516d9310c2e59f9b36b8d8b0f7f6e9b17e36627134e4113ecbb6"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-106919__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-106919__bin.1.fa",
+      "sha256": "71a1804b18d049ed023d37f965b73c0cfdda21ba48abecbab0a7e59206271ce4"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-106919__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-106919__bin.2.fa",
+      "sha256": "e007dce054c3add62501e39d3c31e3d34815e9d6d50f0d89cef0a5c00bca263a"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-106923__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-106923__bin.2.fa",
+      "sha256": "9c7a8b82ff51ec07227d04ee0c3d23f4d7653f220735b38a08d76bd9ee7b3c87"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-106954__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-106954__bin.1.fa",
+      "sha256": "3647911917fe58b56ba3483f2ea7885f2efe0dc9dff63a4fb47c158fb67ed6a3"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110468__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110468__bin.1.fa",
+      "sha256": "c385560c3c4b18a693d23ee9d9b2bde4e8b3e0baf098b5ccd8d3da87d538879b"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110469__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110469__bin.2.fa",
+      "sha256": "2177988a884aeea1cda368e31d2586c3956b349e69172746472db71ade18f712"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110469__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110469__bin.4.fa",
+      "sha256": "9d575e34f539719bbf9049acdc21ae42c3c5a7262bc876aa8ce056377be8aa81"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110515__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110515__bin.2.fa",
+      "sha256": "b0be42314149b74b19543a06e908317ee36ae657674ad6c56f6363480ec77b74"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110515__bin.5",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110515__bin.5.fa",
+      "sha256": "77d3b398954e62fa37e2f76e753504041016401355e8e7005753b7323fc14e83"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110520__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110520__bin.1.fa",
+      "sha256": "dd74ac2300fb638fed19dfeac66f7047739791622bbc47b456113a4005580474"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110520__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110520__bin.2.fa",
+      "sha256": "fb63ef1351480afb10757661c1da45ae2818fcfcec959bb72311894e13c00b69"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110557__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110557__bin.1.fa",
+      "sha256": "f0378ec6f7640aad302847de876f8a6cc9feec765f2121bb74126c6faace323a"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110558__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110558__bin.1.fa",
+      "sha256": "3c85e150640196a3e4437dfed7778968af3d849196f9e941e9ccf7446241870d"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110566__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110566__bin.3.fa",
+      "sha256": "ecb42c6269aeb68796d24abc83485fb33896c40e68a2c154341bf5eecd439a82"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110569__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110569__bin.1.fa",
+      "sha256": "29a7ad89660ad893aed87def754d15b09297528b65dd3704c65ec35462f3b134"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110569__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110569__bin.3.fa",
+      "sha256": "0f7628851a5fbfe8f906cb0f540ebf8fc004c929ecc5a51cac879d6d20f6e8b4"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110602__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110602__bin.3.fa",
+      "sha256": "43a479eb17cba984082d2f16066a6767ecbecec42fc77b0ef1c733e0640c26fa"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110613__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110613__bin.1.fa",
+      "sha256": "6c3681397954d7af20b00b401e9108ff64fbd56eff1f35d55fdf8e078ae5475d"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110613__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110613__bin.4.fa",
+      "sha256": "8215aa885d7e20fdff4c2271ba87190da7412b805f5f87981f07aa7d876d820d"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110616__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110616__bin.4.fa",
+      "sha256": "974b5234c4c3f79d6c2b96ad05f8aa2ef909372f545e1efe3cad959c4f793845"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110616__bin.7",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110616__bin.7.fa",
+      "sha256": "c6edf0addb229666e6bc236fe8c779b0296e9d4a4bf5184e673609e38efbb164"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110694__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110694__bin.1.fa",
+      "sha256": "4a29f024a041a1838d5118c18c03a6a80c3f1f2086b989c21049ce85fd8f9cb2"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110780__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110780__bin.1.fa",
+      "sha256": "44dda6b26e69d7653896684129db0b0a3318f4dc9ebbef7302d64988fc1423fe"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110785__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110785__bin.1.fa",
+      "sha256": "e4e03110920515c0a16bcdab0f30a23977e41e100bf3f5c818f3798aea64be79"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110785__bin.5",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110785__bin.5.fa",
+      "sha256": "69ce79119db263112b25c7bac8f8ac2b287ee2861cdc51e7b2cb00e03adde594"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110785__bin.7",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110785__bin.7.fa",
+      "sha256": "73f137368f2f3a9f602d19e913c76e46d01f9680bba121379a0b2b8e5b0325a8"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110828__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110828__bin.3.fa",
+      "sha256": "cbffc68179752a241f9ebeb9646979be97a1082706bc3f637a9053c705af5875"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110829__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110829__bin.1.fa",
+      "sha256": "1b4b5598521430b4c8f3aa3f8456a1d4572713a9ee7719d549fed23d3c7ce18a"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110830__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110830__bin.2.fa",
+      "sha256": "51f12a77163482752107ae20d665fca4a4a8f4f3f7a57dc4e84c57a43c5d9a8a"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110842__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110842__bin.1.fa",
+      "sha256": "521b9a1f3c8bfc9b8a765f60299fa54737666e676e34289ad42ffbd821d65828"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110844__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110844__bin.1.fa",
+      "sha256": "681a0f612c2058eced75f60cc77e25ef551d8ec55dffe635edc383bea7d94a57"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110907__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110907__bin.1.fa",
+      "sha256": "a7ab93674660bad0e3bf6a9d633f9621a8dd346a5466b4bf919ba6df80c4b494"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110930__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110930__bin.1.fa",
+      "sha256": "25fdfab43e0393729a79f658bcb669cf702f43398a8763987a32435d61b34ccf"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110931__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110931__bin.1.fa",
+      "sha256": "02acd4d499f8dde57c73e2eeb23f3b3c084fd27bc2e09cf62535bd51189d891c"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110931__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110931__bin.2.fa",
+      "sha256": "fa6d2fd7afcd59b35523f21fbb334df2501385e7dda94e559ab64a2292d52511"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110931__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110931__bin.4.fa",
+      "sha256": "949ff30a1fbf10fea672a2da13cf0c305048c38c48d6a551dfe78b01309eaa95"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110931__bin.5",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110931__bin.5.fa",
+      "sha256": "9fa71fc88e19650fd45dc13e154d8a6d205e280f161b7f50593dd4e1f1ac4f2c"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110938__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110938__bin.2.fa",
+      "sha256": "04981aa5fe76fc3a34140b225c5abfbb338527370834fdaa03bf552a2c581fda"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110943__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110943__bin.1.fa",
+      "sha256": "73a5fdb3bdd5c89c8e070ac2ea5ca6a83d1e1e61c220544b2b8066f7fb5fa9e1"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110972__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110972__bin.3.fa",
+      "sha256": "99c6081a2d8073d0342bb24a04ccd5fe1ae9dd18dc60795c55582aa5902293bf"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-110972__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-110972__bin.4.fa",
+      "sha256": "ffccb49e55e34b6373e0ee6140ef37e4589ba312c1b2fc9049f74a94f9dd1967"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111016__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111016__bin.1.fa",
+      "sha256": "531b753a626f6c1790d54560bff0a61e9fe3683fe45c3baf01cda58d88fe19d8"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111156__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111156__bin.1.fa",
+      "sha256": "face1d6b2f0bb3e674daa4b8bb7c649e857c517102ce0e5c9de953c34174063a"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111156__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111156__bin.2.fa",
+      "sha256": "ebc145a7a6f19e07ddbd8d7b846be3fa8d98bccc631c4a3c2dcbf64b1b6e8a84"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111156__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111156__bin.3.fa",
+      "sha256": "05f30f215b5d7d0200efe2271cc5b7b53fb96d306aaa35b05b03467ad9160485"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111157__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111157__bin.3.fa",
+      "sha256": "525e58c527d4592fc54effca504bc2c08aba1d425aff9d43f5c46590af451a38"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111159__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111159__bin.1.fa",
+      "sha256": "2509ae8bcfb2f1cd57fd0305bb58a48ec0fa9efb01ba42d7dfe9708ef8936f4c"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111160__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111160__bin.2.fa",
+      "sha256": "79cecccedb517d640232a6e9abda4c5b8ea2f51dab9bb7a456397403df03c41d"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111163__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111163__bin.2.fa",
+      "sha256": "73726dd1d871aabc99a7e60efeae0465aea61d2265aa9c40514d869e27f4c1f8"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111163__bin.6",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111163__bin.6.fa",
+      "sha256": "a05418bfaacd984730623c41049c89bed688bc2e39052d98cc1f417bd7ab387d"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111207__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111207__bin.4.fa",
+      "sha256": "0ecfc8d02d28e6908ac06360e11dd064e3561cfdef81f8cf6692e42a07e66b4c"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111207__bin.5",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111207__bin.5.fa",
+      "sha256": "d205375693b9e462ccf71f0330293c5b6e4e2cfb131ff152691db891dacf6c79"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111207__bin.6",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111207__bin.6.fa",
+      "sha256": "d190351ea57ce618b064909c79927163c8406c5aeabf89e83b1bf7a84a010ebb"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111208__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111208__bin.2.fa",
+      "sha256": "13ab764cfa1841ee4f6e6d5ee742dca567e6a117337220d21aada1f745c4f9b9"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111208__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111208__bin.3.fa",
+      "sha256": "cc6534fb8d5b6ef2f1175b767575b89fcfa5d3a55ac15265210e26ffc87269f0"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111209__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111209__bin.1.fa",
+      "sha256": "69a77ac7497ef18229d3cb918d172c85d0aff44bb033ca0c9b773e84b0545b8c"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111209__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111209__bin.2.fa",
+      "sha256": "e2598837f446ba98e2bd332ab6c35739232ec46b903afa934f4b7a4bbb3a8b2b"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111210__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111210__bin.1.fa",
+      "sha256": "e7ca7d5e4eb1d8e2de49d0bf5dfaf17455b76c69d065c396fcedc43e8e823b69"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111210__bin.3",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111210__bin.3.fa",
+      "sha256": "3fc7369d8bcb2e12419b7ee440587efcbee3c163ca324191f8e398c6cc5059ac"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111210__bin.4",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111210__bin.4.fa",
+      "sha256": "59b0b4db1ef2448f79a6c1c999cb24bdb8bcebeeceedd7516ca848e4c457ed5a"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111210__bin.5",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111210__bin.5.fa",
+      "sha256": "51f0e1f49ad43563e47f860f208d0b3da41b4701aa2da7a8b51c3f8c8410f517"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111210__bin.6",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111210__bin.6.fa",
+      "sha256": "d5664095b05547907142b17f2987b7bcec345f232d728c605e62979b851a16f9"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111241__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111241__bin.1.fa",
+      "sha256": "e3b5bd65818b300590ec50f507a64d1031a24751a2cbeb88f3194d27fa47049d"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111243__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111243__bin.1.fa",
+      "sha256": "7fb6a3192b7674b4eeed802f55e81963adea883627eb022110853379b4e99907"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111513__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111513__bin.1.fa",
+      "sha256": "16599fbc98f04113454219762bc1dfe27414201b821f943eaff4ce3fcd2f1d76"
+    },
+    {
+      "bin_id": "Church2025__YPM-IZ-111839__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Church2025__YPM-IZ-111839__bin.1.fa",
+      "sha256": "d0b49aae0c97bca0aabcb3ea87fdff3b524b424b5616de48f55eb0b8b754e16f"
+    },
+    {
+      "bin_id": "Manko2026__D669-SS5__bin.1",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Manko2026__D669-SS5__bin.1.fa",
+      "sha256": "8551eb26b96198ac12dd454c66f80659210aff40a57aeb43d37b9e023e987dfd"
+    },
+    {
+      "bin_id": "Manko2026__D669-SS5__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Manko2026__D669-SS5__bin.2.fa",
+      "sha256": "dfd2ebc632cb8030fad5140abcea8924d131f6d3fda828ead2b267a9a2c4f514"
+    },
+    {
+      "bin_id": "Manko2026__D961-D3__bin.2",
+      "fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/qc/candidates/Manko2026__D961-D3__bin.2.fa",
+      "sha256": "e781fabb4c228d7d4e3d6727cccc8d034e1aca0d6321558cdb14bce221d225e7"
+    }
+  ],
+  "archaeal_marker_ids": [
+    "PF00410.20",
+    "PF00466.21",
+    "PF00687.22",
+    "PF00827.18",
+    "PF00900.21",
+    "PF01000.27",
+    "PF01015.19",
+    "PF01090.20",
+    "PF01200.19",
+    "PF01280.21",
+    "PF04919.13",
+    "PF07541.13",
+    "TIGR00037",
+    "TIGR00064",
+    "TIGR00111",
+    "TIGR00134",
+    "TIGR00279",
+    "TIGR00291",
+    "TIGR00323",
+    "TIGR00335",
+    "TIGR00373",
+    "TIGR00405",
+    "TIGR00448",
+    "TIGR00483",
+    "TIGR00491",
+    "TIGR00522",
+    "TIGR00967",
+    "TIGR00982",
+    "TIGR01008",
+    "TIGR01012",
+    "TIGR01018",
+    "TIGR01020",
+    "TIGR01028",
+    "TIGR01046",
+    "TIGR01052",
+    "TIGR01171",
+    "TIGR01213",
+    "TIGR01952",
+    "TIGR02236",
+    "TIGR02338",
+    "TIGR02389",
+    "TIGR02390",
+    "TIGR03626",
+    "TIGR03627",
+    "TIGR03628",
+    "TIGR03629",
+    "TIGR03670",
+    "TIGR03671",
+    "TIGR03672",
+    "TIGR03673",
+    "TIGR03674",
+    "TIGR03676",
+    "TIGR03680"
+  ],
+  "settings_path": "config/catalog_qc.json",
+  "reference_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference",
+  "screening_design": "Swiss-Prot proteins and translated DNA for all candidates; nr follow-up for unresolved or conflicting evidence, retaining the completed nr evidence for known eukaryotic controls."
+}

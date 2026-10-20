@@ -1,0 +1,13 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "nr_review", color = "0.33 0.6 0.85", style="rounded"];
+	1[label = "report_audit_assignments", color = "0.50 0.6 0.85", style="rounded"];
+	2[label = "select_discordant_genes", color = "0.17 0.6 0.85", style="rounded"];
+	3[label = "search_mag_genes_nr_diamond", color = "0.00 0.6 0.85", style="rounded"];
+	1 -> 0
+	3 -> 1
+	2 -> 1
+	2 -> 3
+}            

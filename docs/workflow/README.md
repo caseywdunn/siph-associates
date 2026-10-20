@@ -116,7 +116,7 @@ documents the retained collection records and unresolved discrepancies.
 
 ## Read the graphs
 
-The 16 distinct scope graphs are generated directly with `snakemake --rulegraph`
+The scope graphs are generated directly with `snakemake --rulegraph`
 and rendered with Graphviz. The preprocessing, host and initial-validation guides
 share the same three-library fixture graph; screening and Phase 2 share the
 pilot/cohort graph. `common.smk` contains no rules, so its guide shows the readiness
@@ -143,6 +143,10 @@ edge does not mean the underlying scientific evidence was independent. Consult
 the source rules, scripts and accepted provenance when checking an individual claim.
 
 ## Analyses outside these rule files
+
+The bounded [expanded-catalog QC workflows](../catalog_qc.md) have separate
+entry points and generated graphs. They review all prospective genomes, new
+reference nominations and viral boundaries before the held full-cohort mapping.
 
 The guides cover all current `workflow/rules/*.smk` files. They do not imply that
 every reported output is built by Snakemake:

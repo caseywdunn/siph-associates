@@ -39,6 +39,7 @@ rule validate_screen_sample:
 
 rule aggregate_phase2:
     input:
+        parser="workflow/scripts/screen_nominations.py",
         validations=lambda wildcards: phase2_validation_paths(phase2_scope_samples(wildcards)),
         genus=lambda wildcards: expand(f"{WORK}/screens/bracken/{{sample}}.G.tsv", sample=phase2_scope_samples(wildcards)),
         species=lambda wildcards: expand(f"{WORK}/screens/bracken/{{sample}}.S.tsv", sample=phase2_scope_samples(wildcards)),

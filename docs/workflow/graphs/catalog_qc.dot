@@ -1,0 +1,31 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "domain_screen", color = "0.33 0.6 0.85", style="rounded"];
+	1[label = "report_audit_assignments", color = "0.27 0.6 0.85", style="rounded"];
+	2[label = "collect_audit_genes", color = "0.40 0.6 0.85", style="rounded"];
+	3[label = "identify_mag_markers_gtdbtk", color = "0.47 0.6 0.85", style="rounded"];
+	4[label = "prepare_audit_inputs", color = "0.00 0.6 0.85", style="rounded"];
+	5[label = "search_mag_genes_swissprot_diamond", color = "0.13 0.6 0.85", style="rounded"];
+	6[label = "validate_audit_controls", color = "0.60 0.6 0.85", style="rounded"];
+	7[label = "search_audit_controls_diamond", color = "0.07 0.6 0.85", style="rounded"];
+	8[label = "search_mag_tiles_swissprot_diamond", color = "0.53 0.6 0.85", style="rounded"];
+	9[label = "summarize_domain_evidence", color = "0.20 0.6 0.85", style="rounded"];
+	9 -> 0
+	6 -> 0
+	1 -> 0
+	5 -> 1
+	2 -> 1
+	4 -> 1
+	8 -> 1
+	3 -> 2
+	4 -> 3
+	2 -> 5
+	6 -> 5
+	7 -> 6
+	4 -> 8
+	6 -> 8
+	3 -> 9
+	1 -> 9
+}            

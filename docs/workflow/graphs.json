@@ -139,12 +139,16 @@
   "assembly_completion": {
     "snakefile": "workflow/assembly_completion.smk",
     "config": "config/assembly_completion.json",
-    "targets": ["assemblies"]
+    "targets": [
+      "assemblies"
+    ]
   },
   "post_expansion_preparation": {
     "snakefile": "workflow/post_expansion_preparation.smk",
     "config": "config/assembly_completion.json",
-    "targets": ["qc_preparation"]
+    "targets": [
+      "qc_preparation"
+    ]
   },
   "host_depletion_report": {
     "snakefile": "workflow/host_depletion_report.smk",
@@ -158,6 +162,41 @@
     "config": "config/halistemma.json",
     "targets": [
       "halistemma"
+    ]
+  },
+  "catalog_qc": {
+    "snakefile": "workflow/catalog_qc.smk",
+    "config": "config/catalog_qc.json",
+    "targets": [
+      "domain_screen"
+    ]
+  },
+  "catalog_nr_review": {
+    "snakefile": "workflow/catalog_nr_review.smk",
+    "config": "config/catalog_nr_review.json",
+    "targets": [
+      "nr_review"
+    ]
+  },
+  "post_expansion_catalog": {
+    "snakefile": "workflow/post_expansion_catalog.smk",
+    "config": "config/post_expansion_catalog.json",
+    "targets": [
+      "catalog_evidence"
+    ]
+  },
+  "expanded_references": {
+    "snakefile": "workflow/expanded_references.smk",
+    "config": "config/post_expansion_catalog.json",
+    "targets": [
+      "new_reference_evidence"
+    ]
+  },
+  "viral_catalog_qc": {
+    "snakefile": "workflow/viral_catalog_qc.smk",
+    "config": "config/post_expansion_catalog.json",
+    "targets": [
+      "viral_evidence"
     ]
   }
 }

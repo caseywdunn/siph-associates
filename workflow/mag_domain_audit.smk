@@ -17,9 +17,9 @@ configfile: "config/mag_domain_audit.json"
 ROOT = config["run"]
 PYTHON = config["python"]
 DIAMOND = config["diamond"]
-CONFIG = "config/mag_domain_audit.json"
+CONFIG = config.get("settings_path", "config/mag_domain_audit.json")
 SCRIPT = "scripts/mag_domain_audit"
-REF = f"{ROOT}/reference"
+REF = config.get("reference_root", f"{ROOT}/reference")
 OUTPUT_FIELDS = "qseqid sseqid pident length qstart qend sstart send evalue bitscore qlen slen stitle"
 REPORTS = ["genes_swissprot", "tiles_swissprot", "genes_nr"]
 
@@ -71,8 +71,8 @@ rule prepare_audit_references:
     input:
         script=f"{SCRIPT}/prepare.py",
         settings=CONFIG,
-        fasta=rules.retrieve_audit_references.output.fasta,
-        taxonomy=rules.retrieve_audit_references.output.taxonomy,
+        fasta=f"{REF}/uniprot_sprot.fasta.gz",
+        taxonomy=f"{REF}/taxonomy",
     output:
         metadata=f"{REF}/swissprot_metadata.tsv",
         controls=f"{REF}/controls.faa",
@@ -89,7 +89,7 @@ rule prepare_audit_references:
 
 rule identify_mag_markers_gtdbtk:
     input:
-        bins=rules.prepare_audit_inputs.output.bins,
+        bins=f"{ROOT}/inputs",
         database=ancient(config["gtdbtk_data"]),
     output: directory(f"{ROOT}/gtdb_identify")
     params: tools=config["gtdbtk_prefix"] + "/bin"
@@ -107,7 +107,7 @@ rule collect_audit_genes:
     input:
         script=f"{SCRIPT}/prepare.py",
         settings=CONFIG,
-        identify=rules.identify_mag_markers_gtdbtk.output,
+        identify=f"{ROOT}/gtdb_identify",
     output:
         proteins=f"{ROOT}/genes.faa",
         metadata=f"{ROOT}/genes.tsv",
@@ -119,8 +119,8 @@ rule collect_audit_genes:
 
 rule search_audit_controls_diamond:
     input:
-        query=rules.prepare_audit_references.output.controls,
-        database=rules.prepare_audit_references.output.database,
+        query=f"{REF}/controls.faa",
+        database=f"{REF}/swissprot.dmnd",
     output: f"{ROOT}/controls/hits.tsv"
     threads: 4
     resources: mem_mb=4000
@@ -133,9 +133,9 @@ rule validate_audit_controls:
         script=f"{SCRIPT}/classify.py",
         helper=f"{SCRIPT}/prepare.py",
         settings=CONFIG,
-        queries=rules.prepare_audit_references.output.control_table,
-        hits=rules.search_audit_controls_diamond.output,
-        metadata=rules.prepare_audit_references.output.metadata,
+        queries=f"{REF}/controls.tsv",
+        hits=f"{ROOT}/controls/hits.tsv",
+        metadata=f"{REF}/swissprot_metadata.tsv",
     output:
         table=f"{ROOT}/controls/assignments.tsv",
         passed=f"{ROOT}/controls/CONTROLS_PASSED",
@@ -146,9 +146,9 @@ rule validate_audit_controls:
 
 rule search_mag_genes_swissprot_diamond:
     input:
-        query=rules.collect_audit_genes.output.proteins,
-        database=rules.prepare_audit_references.output.database,
-        controls=rules.validate_audit_controls.output.passed,
+        query=f"{ROOT}/genes.faa",
+        database=f"{REF}/swissprot.dmnd",
+        controls=f"{ROOT}/controls/CONTROLS_PASSED",
     output: f"{ROOT}/hits/genes_swissprot.tsv"
     log: f"{ROOT}/logs/genes_swissprot.log"
     priority: 10
@@ -160,9 +160,9 @@ rule search_mag_genes_swissprot_diamond:
 
 rule search_mag_tiles_swissprot_diamond:
     input:
-        query=rules.prepare_audit_inputs.output.tiles,
-        database=rules.prepare_audit_references.output.database,
-        controls=rules.validate_audit_controls.output.passed,
+        query=f"{ROOT}/tiles.fna",
+        database=f"{REF}/swissprot.dmnd",
+        controls=f"{ROOT}/controls/CONTROLS_PASSED",
     output: f"{ROOT}/hits/tiles_swissprot.tsv"
     log: f"{ROOT}/logs/tiles_swissprot.log"
     priority: 10
@@ -182,19 +182,23 @@ rule record_nr_reference:
 
 rule search_mag_genes_nr_diamond:
     input:
-        query=rules.collect_audit_genes.output.proteins,
+        query=f"{ROOT}/genes.faa",
         database=config["nr_database"],
-        reference_hash=rules.record_nr_reference.output,
-        controls=rules.validate_audit_controls.output.passed,
+        reference_hash=f"{REF}/nr_sha256.txt",
+        controls=f"{ROOT}/controls/CONTROLS_PASSED",
     output: f"{ROOT}/hits/genes_nr.tsv"
     log: f"{ROOT}/logs/genes_nr.log"
+    params:
+        sensitivity=config.get("nr_sensitivity", "--very-sensitive"),
+        block_size=config.get("nr_block_size", 2),
+        index_chunks=config.get("nr_index_chunks", 4),
     threads: 16
     resources: mem_mb=48000
     shell:
         r"""
         {DIAMOND:q} blastp --query {input.query:q} --db {input.database:q} --out {output:q} \
-          --threads {threads} --very-sensitive --evalue 1e-5 --top 10 --max-hsps 1 \
-          --block-size 2 --index-chunks 4 --tmpdir "${{TMPDIR:-/tmp}}" \
+          --threads {threads} {params.sensitivity} --evalue 1e-5 --top 10 --max-hsps 1 \
+          --block-size {params.block_size} --index-chunks {params.index_chunks} --tmpdir "${{TMPDIR:-/tmp}}" \
           --outfmt 6 {OUTPUT_FIELDS} > {log:q} 2>&1
         """
 
@@ -206,9 +210,9 @@ rule report_audit_assignments:
         settings=CONFIG,
         queries=lambda w: f"{ROOT}/{'tiles' if w.review == 'tiles_swissprot' else 'genes'}.tsv",
         hits=f"{ROOT}/hits/{{review}}.tsv",
-        markers=rules.collect_audit_genes.output.markers,
-        metadata=rules.prepare_audit_references.output.metadata,
-        taxonomy=rules.retrieve_audit_references.output.taxonomy,
+        markers=f"{ROOT}/archaeal_marker_hits.tsv",
+        metadata=f"{REF}/swissprot_metadata.tsv",
+        taxonomy=f"{REF}/taxonomy",
     output:
         table=f"{ROOT}/review/{{review}}.tsv",
         counts=f"{ROOT}/review/{{review}}.counts.tsv",
@@ -223,5 +227,5 @@ rule report_audit_assignments:
 rule all:
     input:
         expand(f"{ROOT}/review/{{review}}.counts.tsv", review=REPORTS),
-        rules.validate_audit_controls.output.passed,
+        f"{ROOT}/controls/CONTROLS_PASSED",
     default_target: True

@@ -52,11 +52,11 @@ def classify_hits(
     return next(iter(labels)), near
 
 
-def annotate_subjects(hits: list[dict], root: Path, source: str) -> None:
+def annotate_subjects(hits: list[dict], reference: Path, source: str) -> None:
     if source == "swissprot":
         wanted = {h["subject_id"] for h in hits}
         metadata = {}
-        with (root / "reference/swissprot_metadata.tsv").open() as handle:
+        with (reference / "swissprot_metadata.tsv").open() as handle:
             for row in csv.DictReader(handle, delimiter="\t"):
                 for key in [row["subject_id"], row["accession"]]:
                     if key in wanted:
@@ -73,9 +73,9 @@ def annotate_subjects(hits: list[dict], root: Path, source: str) -> None:
         names = re.findall(r"\[([^\[\]]+)\]", hit["title"])
         hit["organisms"] = ";".join(names)
         wanted.update(names)
-    parents = read_parents(root / "reference/taxonomy/nodes.dmp")
+    parents = read_parents(reference / "taxonomy/nodes.dmp")
     name_taxids = defaultdict(set)
-    with (root / "reference/taxonomy/names.dmp").open() as handle:
+    with (reference / "taxonomy/names.dmp").open() as handle:
         for line in handle:
             fields = [f.strip() for f in line.split("|")]
             if fields[1] in wanted:
@@ -107,7 +107,9 @@ def report(
     if any(h["query_id"] not in query_ids or None in h for h in hits):
         raise ValueError("Alignment columns or query IDs disagree with metadata")
     root = Path(config["run"])
-    annotate_subjects(hits, root, source)
+    annotate_subjects(
+        hits, Path(config.get("reference_root", root / "reference")), source
+    )
     by_query = defaultdict(list)
     for hit in hits:
         by_query[hit["query_id"]].append(hit)
