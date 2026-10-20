@@ -1,0 +1,42 @@
+source_row	Specimen_ID	Catalog	Species	16S	COI	18S	28S	Mitogenome	Raw reads	BioSample	Source
+2	D669-SS5	YPM-IZ-112143	Bargmannia amoena	PX623017	PX999708	PX623025	PZ711842	PX764183	SRR36270055	SAMN53250490	This study
+3	SQ19_16S_362E		Bargmannia elongata		PP409331.1						GenBank
+4	D196-D8	FEG312	Bargmannia elongata						SRR1548344		Munro et al. 2018
+5	T676-SS3	YPM-IZ-11936	Bargmannia elongata	PX623016	PX999707	PX623024		PX764188	SRR36270054	SAMN53250491	This study
+6	SQ19_16S_815E.1		Bargmannia elongata	PP356927.1							GenBank
+7	MBARI334		Bargmannia elongata	PX644937							This study
+8			Bargmannia elongata	AY935321.1							Dunn et al. 2005
+9	T1109-D2		Bargmannia elongata	PX644939							This study
+10	D198-SS10	FEG296	Bargmannia elongata						SRR1548347		Munro et al. 2018
+11	SQ19_16S_198E		Bargmannia elongata		PP409291.1						GenBank
+12	T596-SS12	YPM-IZ-111936	Bargmannia elongata					OQ957202.1	SRR23143279		Ahuja et al. 2024
+13	SQ19_16S_848E.1		Bargmannia elongata	PP356928.1							GenBank
+14	M120-SS3	MKM personal collection	Bargmannia elongata	PX623019	PX999710	PX623027	PZ711844	PX764186	SRR36270053	SAMN53250492	This study
+15	T598-SS1	YPM-IZ-112096	Bargmannia pyrosa	PX644938							This study
+16			Bargmannia pyrosa	AY935292.1							Dunn et al. 2005
+17	D611-D6	YPM-IZ-107003	Bargmannia pyrosa	PX623020	PX999711	PX623028	PZ711845	PX764181	SRR36270052	SAMN53250493	This study
+18	T411-SS2	YPM-IZ-112093	Bargmannia pyrosa	PX623021	PX999712	PX623029	PZ711846	PX764187	SRR36270051	SAMN53250494	This study
+19	Hy040.1.1		Bargmannia stenotes		GQ119958						GenBank
+20	D666-D10	YPM-IZ-112210	Bargmannia stenotes	PX623022	PX999713	PX623030	PZ711847	PX764182	SRR36270050	SAMN53250495	This study
+21	D961-D3	YPM-IZ-112204	Bargmannia profunda	PX623023	PX999714	PX623031	PZ711848	PX764185	SRR36270049	SAMN53250496	This study
+22	D1449-D2	YPM-IZ-112077	Bargmannia marlena		PX626438						This study
+23	D725-D8	YPM-IZ-112078	Bargmannia marlena	PX623018	PX999709	PX623026	PZ711843	PX764184	SRR36270048	SAMN53250497	This study
+24	Hy040.3.1		Bargmannia marlena		GQ119957						GenBank
+25	D1398-D1	YPM-IZ-110226	Bargmannia lata					OQ957216.1	SRR23143264		Ahuja et al. 2024
+26	D26-SS12		Bargmannia lata	PX644936							This study
+27	SQ19_16S_825E.1		Rudjakovia sp.	PP356949.1							GenBank
+28	D1399-D12		Apolemia rubriversa					OQ957214.1	SRR23143267		Ahuja et al. 2024
+29	Tib595-D1		Apolemia sp. 3					OQ957201.1	SRR23143290		Ahuja et al. 2024
+30		YPM-IZ-111207	Physalia minuta						SRR29478743		Church et al. 2025
+31		YPM-IZ-111158	Physalia megalista						SRR29478747		Church et al. 2025
+32	BW415May03GOC#59	YPM-IZ-35355	Rhizophysa eysenhardtii					OQ957206	SRR23143257		Ahuja et al. 2024
+33	OQ957220.1	YPM-IZ-104465	Physalia sp.						SRR23143271		Ahuja et al. 2024
+34											
+35											
+36	*Accessions in bold show sequencing data generated here										
+37											
+38											
+39											
+40											
+41											
+45											

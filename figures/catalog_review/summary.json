@@ -1,0 +1,11 @@
+{
+  "RepresentativeProteins": 3615,
+  "EukaryoticProteins": 2518,
+  "ArchaealProteins": 0,
+  "PerkinselaProteins": 2412,
+  "EukaryoticMarkers": 29,
+  "ExcludedBins": 4,
+  "RetainedMags": 103,
+  "MagClusters": 31,
+  "NearCompleteMags": 55
+}

@@ -1,0 +1,13 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "qc_preparation", color = "0.00 0.6 0.85", style="rounded"];
+	1[label = "report_catalog_qc_inputs", color = "0.33 0.6 0.85", style="rounded"];
+	2[label = "select_mags_for_qc", color = "0.50 0.6 0.85", style="rounded"];
+	3[label = "stage_cohort_for_qc", color = "0.17 0.6 0.85", style="rounded"];
+	1 -> 0
+	3 -> 1
+	2 -> 1
+	3 -> 2
+}            

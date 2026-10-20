@@ -1,5 +1,28 @@
 """Small publication exports built directly from accepted result tables."""
 
+rule apply_catalog_domain_review:
+    input:
+        script="scripts/apply_catalog_domain_review.py",
+        exclusions="config/catalog_domain_exclusions.tsv",
+        mags=f"{WORK}/phase3_catalog/mags/mag_catalog.tsv",
+        catalog=f"{P6_CATALOG}/bacterial_catalog.manifest.tsv",
+        genes=f"{WORK}/mag_domain_audit/2026-10-18/review/genes_nr.tsv",
+        counts=f"{WORK}/mag_domain_audit/2026-10-18/review/genes_nr.counts.tsv",
+        markers=f"{WORK}/mag_domain_audit/2026-10-18/review/genes_nr.archaeal_markers.tsv",
+    output:
+        mags="figures/catalog_review/mag_catalog.tsv",
+        catalog="figures/catalog_review/bacterial_catalog.manifest.tsv",
+        counts="figures/catalog_review/gene_domain_counts.tsv",
+        markers="figures/catalog_review/marker_domain_counts.tsv",
+        summary="figures/catalog_review/summary.json",
+        values="figures/catalog_review/values.tex",
+        provenance="figures/catalog_review/provenance.json",
+    threads: 1
+    resources:
+        mem_mb=2000,
+    shell:
+        "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python {input.script:q}"
+
 rule publication_cohort_figures:
     input:
         script="figures/build_cohort.py",
@@ -14,8 +37,8 @@ rule publication_cohort_figures:
         viral=f"{P6V}/grades/viral_grades.tsv",
         flowcells=f"{P6V}/primary/library_flowcells.tsv",
         eukaryotes=f"{WORK}/eukaryote_gate/eukaryote_grades.tsv",
-        mags=f"{WORK}/phase3_catalog/mags/mag_catalog.tsv",
-        catalog=f"{P6_CATALOG}/bacterial_catalog.manifest.tsv",
+        mags="figures/catalog_review/mag_catalog.tsv",
+        catalog="figures/catalog_review/bacterial_catalog.manifest.tsv",
     output:
         metadata="figures/cohort/sample_metadata.tsv",
         metadata_sources="figures/cohort/sample_metadata_provenance.tsv",

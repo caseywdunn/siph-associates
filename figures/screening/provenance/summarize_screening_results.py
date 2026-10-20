@@ -146,7 +146,7 @@ def main() -> None:
         "data/results/phase4_catalog/nomination_evidence/gtdb_uncorroborated.tsv"
     )
 
-    catalog = read("data/results/phase4_catalog/v2/bacterial_catalog.manifest.tsv")
+    catalog = read("figures/catalog_review/bacterial_catalog.manifest.tsv")
     representatives = {
         row["catalog_id"]: row
         for row in catalog

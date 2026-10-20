@@ -1,0 +1,280 @@
+{
+  "reports": [
+    {
+      "accession": "GCA_987347065.1",
+      "current_accession": "GCA_987347065.1",
+      "source_database": "SOURCE_DATABASE_GENBANK",
+      "organism": {
+        "tax_id": 316183,
+        "organism_name": "Halistemma rubrum"
+      },
+      "assembly_info": {
+        "assembly_level": "Chromosome",
+        "assembly_status": "current",
+        "assembly_name": "jhHalRubr1.1",
+        "assembly_type": "haploid",
+        "bioproject_lineage": [
+          {
+            "bioprojects": [
+              {
+                "accession": "PRJEB123269",
+                "title": "Halistemma rubrum, genomic assembly, jhHalRubr1",
+                "parent_accessions": [
+                  "PRJEB123267"
+                ]
+              },
+              {
+                "accession": "PRJEB123267",
+                "title": "Genomic data for Halistemma rubrum",
+                "parent_accessions": [
+                  "PRJEB64126"
+                ]
+              },
+              {
+                "accession": "PRJEB64126",
+                "title": "ATLASea : An Atlas of eukaryotic marine genomes",
+                "parent_accessions": [
+                  "PRJNA489243",
+                  "PRJNA533106",
+                  "PRJEB43510"
+                ]
+              },
+              {
+                "accession": "PRJNA489243",
+                "title": "Vertebrate Genomes Project",
+                "parent_accessions": [
+                  "PRJNA533106"
+                ]
+              },
+              {
+                "accession": "PRJNA533106",
+                "title": "Earth BioGenome Project (EBP)"
+              },
+              {
+                "accession": "PRJEB43510",
+                "title": "The European Reference Genome Atlas (ERGA)",
+                "parent_accessions": [
+                  "PRJNA533106"
+                ]
+              }
+            ]
+          }
+        ],
+        "bioproject_accession": "PRJEB123269",
+        "release_date": "2026-09-08",
+        "submitter": "Genoscope",
+        "refseq_category": "reference genome",
+        "sequencing_tech": "PacBio,Arima",
+        "assembly_method": "Hifiasm,Purge_dups,Yahs",
+        "biosample": {
+          "accession": "SAMEA123276814",
+          "last_updated": "2026-08-03T10:00:29.000",
+          "publication_date": "2026-08-03T00:00:00.000",
+          "submission_date": "2026-08-04T15:06:54.160",
+          "sample_ids": [
+            {
+              "db": "SRA",
+              "value": "ERS31025342"
+            }
+          ],
+          "description": {
+            "title": "sample of Halistemma rubrum collected during the ATLASea program",
+            "organism": {
+              "tax_id": 316183,
+              "organism_name": "Halistemma rubrum"
+            }
+          },
+          "owner": {
+            "name": "EBI"
+          },
+          "models": [
+            "Generic"
+          ],
+          "package": "Generic.1.0",
+          "attributes": [
+            {
+              "name": "ENA first public",
+              "value": "2026-08-03"
+            },
+            {
+              "name": "ENA-CHECKLIST",
+              "value": "ERC000053"
+            },
+            {
+              "name": "GAL_sample_id",
+              "value": "DKB_AGDX"
+            },
+            {
+              "name": "INSDC center name",
+              "value": "Genoscope CEA"
+            },
+            {
+              "name": "INSDC status",
+              "value": "public"
+            },
+            {
+              "name": "Submitter Id",
+              "value": "A-S326IBOK1"
+            },
+            {
+              "name": "collected_by",
+              "value": "Lucas Lecl\u00e8re"
+            },
+            {
+              "name": "collecting institution",
+              "value": "CNRS"
+            },
+            {
+              "name": "collection_date",
+              "value": "2024-03-20"
+            },
+            {
+              "name": "confirmation of the taxonomic hypothesis",
+              "value": "molecular barcoding"
+            },
+            {
+              "name": "geo_loc_name",
+              "value": "Mediterranean Sea"
+            },
+            {
+              "name": "geographic location (region and locality)",
+              "value": "France | Villefranche-sur-Mer"
+            },
+            {
+              "name": "geographic_location_latitude",
+              "value": "43.6692"
+            },
+            {
+              "name": "geographic_location_longitude",
+              "value": "7.3129"
+            },
+            {
+              "name": "habitat",
+              "value": "Surface water"
+            },
+            {
+              "name": "identified_by",
+              "value": "Maciej Manko"
+            },
+            {
+              "name": "identifier_affiliation",
+              "value": "University of Gda\u0144sk"
+            },
+            {
+              "name": "latitude_end",
+              "value": "43.6826"
+            },
+            {
+              "name": "latitude_start",
+              "value": "43.6692"
+            },
+            {
+              "name": "life_stage",
+              "value": "adult"
+            },
+            {
+              "name": "longitude_end",
+              "value": "7.3209"
+            },
+            {
+              "name": "longitude_start",
+              "value": "7.3129"
+            },
+            {
+              "name": "tissue",
+              "value": "Siphosome"
+            },
+            {
+              "name": "project_name",
+              "value": "ATLASea"
+            },
+            {
+              "name": "samp_collect_method",
+              "value": "Plankton net"
+            },
+            {
+              "name": "sample coordinator",
+              "value": "Lucas Lecl\u00e8re"
+            },
+            {
+              "name": "sample_name",
+              "value": "A-S326IBOK1"
+            },
+            {
+              "name": "description",
+              "value": "Halistemma rubrum sample"
+            },
+            {
+              "name": "sampling campaign",
+              "value": "AMB"
+            },
+            {
+              "name": "scientific_name",
+              "value": "Halistemma rubrum"
+            },
+            {
+              "name": "sex",
+              "value": "hermaphrodite_monoecious"
+            },
+            {
+              "name": "specimen_id",
+              "value": "A-S326IBOK1"
+            },
+            {
+              "name": "specimen_voucher",
+              "value": "not collected"
+            },
+            {
+              "name": "storage method",
+              "value": "Flash frozen (no preservative)"
+            }
+          ],
+          "status": {
+            "status": "live",
+            "when": "2026-08-04T16:06:35.327"
+          },
+          "collected_by": "Lucas Lecl\u00e8re",
+          "collection_date": "2024-03-20",
+          "geo_loc_name": "Mediterranean Sea",
+          "identified_by": "Maciej Manko",
+          "project_name": "ATLASea",
+          "sample_name": "A-S326IBOK1",
+          "sex": "hermaphrodite_monoecious",
+          "tissue": "Siphosome"
+        },
+        "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_987347065.1",
+        "comments": "The assembly of Halistemma rubrum (jhHalRubr1) is based on 29.46X PacBio HiFi data from an amplified DNA library and 120.34X Arima Hi-C data generated as part of the ATLASea programme (https://www.atlasea.fr). The assembly process included the following steps: initial PacBio assembly generation with Hifiasm, removal of contaminant sequences using Context, removal of haplotypic duplications using purge_dups, and Hi-C-based scaffolding with YaHS. In total, 45 contigs were identified as contaminants (bacterial, archaeal, or viral), totaling 1.959 Mb (with the largest being 0.281 Mb). Additionally, 6713 regions totaling 548.201 Mb (with the largest being 1.449 Mb) were identified as haplotypic duplications and removed. Mitochondrial genome was assembled using OATK. Finally, the primary assembly was analyzed and manually improved using Pretext. During manual curation, 56 haplotypic regions were removed, totaling 44.507Mb (with the largest being 2.185Mb). Chromosome-scale scaffolds confirmed by Hi-C data were named in order of size."
+      },
+      "assembly_stats": {
+        "total_number_of_chromosomes": 16,
+        "total_sequence_length": "4378693217",
+        "total_ungapped_length": "4378181817",
+        "number_of_contigs": 10271,
+        "contig_n50": 1082000,
+        "contig_l50": 1152,
+        "number_of_scaffolds": 5466,
+        "scaffold_n50": 215332904,
+        "scaffold_l50": 9,
+        "number_of_component_sequences": 5466,
+        "atgc_count": "4378181817",
+        "gc_count": "1590430773",
+        "gc_percent": 36.5,
+        "genome_coverage": "29",
+        "number_of_organelles": 1
+      },
+      "organelle_info": [
+        {
+          "description": "Mitochondrion",
+          "total_seq_length": "13934",
+          "submitter": "Genoscope"
+        }
+      ],
+      "wgs_info": {
+        "wgs_project_accession": "CFXQPH01",
+        "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/CFXQPH000000000.1",
+        "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/CFXQPH01"
+      }
+    }
+  ],
+  "total_count": 1
+}

@@ -1,5 +1,9 @@
 # Prepare accepted assembly inputs and determine eligibility
 
+**Historical cohort:** the 175,000-pair cutoff described here was withdrawn on
+2026-10-20. [Assembly completion](../../assembly_completion.md) attempts all
+remaining inputs without a read-count cutoff and preserves the original records.
+
 [Workflow index](../README.md) · [Source rules](../../../workflow/rules/phase3_cohort.smk)
 
 Apply the selected input strategy to every included library, then record whether

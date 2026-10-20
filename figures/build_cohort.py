@@ -64,8 +64,8 @@ bac = read("data/results/phase6_analysis/v2/grades/bacterial_grades.tsv")
 vir = read("data/results/phase6_analysis/v2/grades/viral_grades.tsv")
 euk = read("data/results/eukaryote_gate/eukaryote_grades.tsv")
 assert all("count_as_detection" in r for r in euk), "Rebuild corrected eukaryote grades first"
-mags = read("data/results/phase3_catalog/mags/mag_catalog.tsv")
-catalog = read("data/results/phase4_catalog/v2/bacterial_catalog.manifest.tsv")
+mags = read("figures/catalog_review/mag_catalog.tsv")
+catalog = read("figures/catalog_review/bacterial_catalog.manifest.tsv")
 assembly = read("config/phase3_assembly.tsv")
 flow = read("data/results/phase6_analysis/v2/primary/library_flowcells.tsv")
 bp = [r for r in bac if r["grade"] in VALID and r["role"] != "decoy"]

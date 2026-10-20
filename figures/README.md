@@ -11,6 +11,12 @@ collecting-event, tissue-sample, and analysis identifiers. It also links the
 remaining metadata gaps and describes how to update this table independently
 of sequence analyses.
 
+The [host-depletion mapping table](host_depletion/mapping_stats.md)
+([TSV](host_depletion/mapping_stats.tsv)) gives input reads, percent removed,
+and retained reads for each reference-bearing sample. See the
+[reporting workflow](../docs/host_depletion_report.md) to rebuild it from the
+existing mapping summaries.
+
 Figure 1 is an explanatory methods drawing maintained with the manuscript.
 It is separate from the generated [Snakemake rule graphs](../docs/workflow/README.md#read-the-graphs),
 which describe computational dependencies. The manuscript builds from selected
@@ -21,7 +27,7 @@ compilation time.
 
 | Paper figure | Figure file | Supporting data |
 | --- | --- | --- |
-| Figure 2: bacteria and archaea across hosts | [Microbial distributions](overview/microbial_host_distribution.pdf) | [Host counts and denominators](overview/microbial_host_distribution.tsv), [genome assignments](overview/microbial_display_assignments.tsv) |
+| Figure 2: bacteria across hosts | [Microbial distributions](overview/microbial_host_distribution.pdf) | [Host counts and denominators](overview/microbial_host_distribution.tsv), [genome assignments](overview/microbial_display_assignments.tsv) |
 | Figure 3: bacterial relationships | [Metamycoplasmataceae tree](mycoplasmatales/phylogeny_focus.pdf) | [Tree data and labels](mycoplasmatales/source_phylogeny_focus.tsv) |
 | Figure 4: eukaryotic associates | [Eukaryote evidence](overview/eukaryote_evidence.pdf) | [Displayed evidence](overview/eukaryote_display.tsv), [full evidence table](cohort/eukaryote_evidence.tsv) |
 | Figure S1: host sampling | [Samples by host](cohort/sampling.pdf) | [Sampling counts](cohort/host_sampling.tsv), [sample metadata](cohort/sample_metadata.tsv) |

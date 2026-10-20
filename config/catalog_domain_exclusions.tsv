@@ -1,0 +1,2 @@
+catalog_id	species_cluster	bin_ids	reviewed_domain	reviewed_affinity	reason
+BAC00006	MAGSP0026	Church2025__TMAG-K5632__bin.2;Church2025__YPM-IZ-110469__bin.2;Church2025__YPM-IZ-110785__bin.5;Church2025__YPM-IZ-111208__bin.3	Eukaryota	Perkinsela-related	Protein-domain audit 13526694: representative has 2518 eukaryotic protein assignments and no unambiguous archaeal assignment in nr; all 29 GTDB archaeal-marker hits match Perkinsela proteins. Exclude from prokaryotic counts; retain original sequence and mapping evidence for eukaryotic review.

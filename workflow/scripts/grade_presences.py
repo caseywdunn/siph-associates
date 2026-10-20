@@ -20,6 +20,7 @@ parser.add_argument("--votus", required=True, nargs="+")
 parser.add_argument("--support-dir", required=True, type=Path)
 parser.add_argument("--out-bacterial", required=True, type=Path)
 parser.add_argument("--out-viral", required=True, type=Path)
+parser.add_argument("--domain-exclusions", default="config/catalog_domain_exclusions.tsv")
 args = parser.parse_args()
 
 presence = json.loads(Path(args.presence).read_text())
@@ -100,9 +101,12 @@ def bacterial_grade(breadth, reads, supported, threshold):
     return "trace" if breadth >= bac["trace"]["min_breadth"] else "none"
 
 
+excluded_targets = {r["catalog_id"] for r in rows(args.domain_exclusions)}
 records = []
 for row in rows(args.bacterial):
     sample, target = row["sample_id"], row["target_id"]
+    if target in excluded_targets:
+        continue
     breadth, reads, length = float(row["covered_fraction"]), int(row["read_count"]), int(row["length"])
     depth = reads * READ_LENGTH / length if length else 0.0
     expected = 1 - math.exp(-depth)

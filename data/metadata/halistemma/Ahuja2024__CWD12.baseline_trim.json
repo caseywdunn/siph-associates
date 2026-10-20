@@ -1,0 +1,69 @@
+{
+  "command": {
+    "cap": null,
+    "fastp": [
+      "/gpfs/ycga/work/dunn/cwd7/siph_associates/.snakemake/conda/cbe0d0a496d8fe0073ac0e5b47349786_/bin/fastp",
+      "-i",
+      "data/results/fish_12s/full_reads/2026-10-18/trimmed/trim.Ahuja2024__CWD12.mj3arddd/input_R1.fastq.gz",
+      "-I",
+      "data/results/fish_12s/full_reads/2026-10-18/trimmed/trim.Ahuja2024__CWD12.mj3arddd/input_R2.fastq.gz",
+      "-o",
+      "data/results/fish_12s/full_reads/2026-10-18/trimmed/trim.Ahuja2024__CWD12.mj3arddd/trimmed_R1.fastq.gz",
+      "-O",
+      "data/results/fish_12s/full_reads/2026-10-18/trimmed/trim.Ahuja2024__CWD12.mj3arddd/trimmed_R2.fastq.gz",
+      "--thread",
+      "8",
+      "--detect_adapter_for_pe",
+      "--dont_eval_duplication",
+      "--json",
+      "data/results/fish_12s/full_reads/2026-10-18/trimmed/trim.Ahuja2024__CWD12.mj3arddd/fastp.json",
+      "--html",
+      "data/results/fish_12s/full_reads/2026-10-18/trimmed/trim.Ahuja2024__CWD12.mj3arddd/fastp.html"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "/gpfs/ycga/work/dunn/sequences/illumina/Novaseq_siphgenomes/Sample_CWD12_098_095/CWD12_098_095_S118_L004_R1_001.fastq.gz",
+      "sha256": "4e2789eeaf55763bd4aa3ea76a937b7f6d8f472b6bb0e5e520d67cc804ed7d5e",
+      "size_bytes": 4919754258
+    },
+    {
+      "path": "/gpfs/ycga/work/dunn/sequences/illumina/Novaseq_siphgenomes/Sample_CWD12_098_095/CWD12_098_095_S8_L001_R1_001.fastq.gz",
+      "sha256": "c343da4056511cdcdee4ac6464366bc48b367883f26ccf9dfc5bab92506f5567",
+      "size_bytes": 3480272681
+    },
+    {
+      "path": "/gpfs/ycga/work/dunn/sequences/illumina/Novaseq_siphgenomes/Sample_CWD12_098_095/CWD12_098_095_S118_L004_R2_001.fastq.gz",
+      "sha256": "059fd42cdd6a3135b877eb642948e5264223742a1f632c188e18fb9dc1e5d174",
+      "size_bytes": 5179550354
+    },
+    {
+      "path": "/gpfs/ycga/work/dunn/sequences/illumina/Novaseq_siphgenomes/Sample_CWD12_098_095/CWD12_098_095_S8_L001_R2_001.fastq.gz",
+      "sha256": "92432b9fdf3c047c69c1cce1dc5b5905d8f39528a505090e30a20e6b5a64b496",
+      "size_bytes": 3634048576
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/results/fish_12s/full_reads/2026-10-18/trimmed/Ahuja2024__CWD12_R1.fastq.gz",
+      "sha256": "3ce90b995ec8bdc96dac9b37e25ea90ab4515dc4276b363cac7ff921cca16916",
+      "size_bytes": 7464203629
+    },
+    {
+      "path": "data/results/fish_12s/full_reads/2026-10-18/trimmed/Ahuja2024__CWD12_R2.fastq.gz",
+      "sha256": "57cc06aed729a9c817421057bd41bcc93c2524945c45fb33bbfbcfba2b4ef7fa",
+      "size_bytes": 7834027052
+    }
+  ],
+  "pairs_after_fastp": 100871052,
+  "pairs_entering_fastp": 103993703,
+  "parameters": {
+    "cap_method": "not_capped",
+    "cap_pairs": 200000000,
+    "cap_seed": 20260829
+  },
+  "raw_pairs_expected": 103993703,
+  "run_snapshot_sha256": "5d379687e8516659004e4fb31e03c2ff2578845958536036ac18e70f4cd5115a",
+  "sample_id": "Ahuja2024__CWD12",
+  "software": "fastp 0.23.2"
+}

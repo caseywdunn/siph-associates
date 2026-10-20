@@ -1,0 +1,39 @@
+{
+  "status": "staged_for_qc",
+  "mapping_authorized": false,
+  "samples": 213,
+  "assembly_statuses": {
+    "assembled": 213
+  },
+  "mapping_input_availability": {
+    "regenerate_trimmed_reads_when_mapping_is_authorized": 42,
+    "ready": 171
+  },
+  "source_summary_sha256": {
+    "data/results/phase3_cohort/assembly_summary.tsv": "a1e70e4725db96a6ea1fa65069426cd3c067c4ee783dceea67c78b2c54cb1018",
+    "data/results/assembly_completion/2026-10-20/phase3_cohort/assembly_summary.tsv": "0655390072284558b225f9f49e0d5fab678703acee08973445abe7297f75ad3a",
+    "data/results/bargmannia/2026-10-19/phase3_cohort/assembly_summary.tsv": "0c393b2bce323adac2a4bd069e29825911a51184bb9e01eae7e47a60dba29750"
+  },
+  "generated_utc": "2026-10-20T21:31:50.845837+00:00",
+  "candidate_bins": 131,
+  "known_eukaryotic_controls": 4,
+  "candidates_requiring_domain_qc": 127,
+  "catalog_approved": false,
+  "pending_reviews": [
+    "Broad-domain gene classification of every candidate, including existing bins",
+    "Contig-level taxonomic coherence and host/eukaryotic contamination",
+    "GTDB marker support and classification conflicts",
+    "CheckM2 quality in light of verified domain identity",
+    "Viral hallmarks, CheckV, and endogenous/host-sequence evidence",
+    "Final deduplication and catalog review before mapping authorization"
+  ],
+  "input_sha256": {
+    "config/post_expansion_samples.tsv": "f885a88271c9991fbfd0af6538bf61c86f56854059e5741fc26080648b75d238",
+    "config/assembly_completion.json": "904df6fe991365a518c6c82859ded3af39deb3434eea136aea114eb34cf8940a",
+    "config/phase3_catalog.json": "8b3f492da8e429b4df5660b4ffcf70258c70877a6da38bda5ca681c511746eaa",
+    "config/catalog_domain_exclusions.tsv": "3e7d0e3d47598ee736f5de05d9548070212eb661a7ee87169d0d4a5f7e1c1dbe",
+    "config/post_expansion_remapping.json": "cc712b87dbaea6a004679b285674b0b1a66b3f7dc81033655aec1b66262b37f2",
+    "scripts/prepare_mapping_review.py": "fa969d33ae409354c2f250725ca01c176ecbefc6f79302b2a910725ba410f4f2",
+    "data/results/post_expansion/2026-10-20/qc/candidates.tsv": "6fff15e64940988adf6be28e144812b7f3d1de7f17dbc3ac336bc19dac9ed3ba"
+  }
+}

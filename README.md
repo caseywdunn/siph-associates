@@ -1,6 +1,15 @@
 # Organisms associated with siphonophores
 
+Current expansion: Bargmannia processing and both Halistemma host-depletion
+mappings are complete. [Assembly completion](docs/assembly_completion.md)
+attempts every remaining input without a read-count cutoff and prepares a
+213-library source inventory. **Full-cohort mapping is on hold pending
+[additional MAG and viral QC](docs/catalog_qc.md), final catalog review, and
+explicit authorization.**
+
 The [completed fish 12S screen](docs/fish_12s_results.md) covers all 205 original libraries.
+The [Bargmannia expansion](docs/bargmannia.md) adds eight newly public libraries
+from Mańko et al. (2026), including B. marlena and B. pyrosa.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23441460.svg)](https://doi.org/10.5281/zenodo.23441460)
 
@@ -10,7 +19,7 @@ This repository contains the analyses accompanying:
 
 *Manuscript citation and public link to be added.*
 
-We examine DNA from bacteria, archaea, viruses, prey and parasites captured
+We examine DNA from bacteria, viruses, prey and parasites captured
 alongside siphonophore DNA during genome sequencing. The study uses 205 specimens:
 151 *Physalia*, 22 *Nanomia* and 32 other siphonophores. Start with the tables
 below to connect the paper to its methods and supporting data;
@@ -33,6 +42,11 @@ retains their relationships to all source studies.
 One *Nanomia* library comes from Ahuja et al. 2024, giving 22 across studies.
 The [sample metadata](figures/cohort/sample_metadata.tsv) provide host names,
 collection locations, tissues, depths and sequencing accessions.
+The [host-depletion table](figures/host_depletion/mapping_stats.md)
+([TSV](figures/host_depletion/mapping_stats.tsv)) reports reads ingested,
+percent removed, and reads remaining for every library with a host reference,
+including the Halistemma expansion. Its [rebuild guide](docs/host_depletion_report.md)
+uses the completed mapping summaries.
 
 ## Finding analyses from the paper
 
@@ -49,7 +63,7 @@ point to small tables retained in this repository.
 | Metamycoplasmataceae have relatives in other marine animals | Figure 3; Figures S3 and S5 | [Genome phylogeny](docs/workflow/mycoplasmatales_phylogeny/README.md), [cnidarian marker comparisons](docs/workflow/cnidarian_16s/README.md), [Cassiopea comparisons](docs/workflow/cassiopea_16s/README.md), [tree data](figures/mycoplasmatales/source_phylogeny_focus.tsv), and [host incidence](figures/cohort/mycoplasmatales_incidence.tsv) |
 | Metamycoplasmataceae differ in predicted ways of obtaining energy | Figure S6; Table S2 | [Gene functions](docs/workflow/mycoplasmatales_gene_content/README.md), [figure source data](figures/mycoplasmatales/source_gene_functions.tsv), and [nutritional annotations](figures/mdb_revision/amino_acid_modules.tsv) |
 | Three bacterial lineages are frequent in southwestern Pacific and Indian Ocean samples | Figure S4; Table S1 | [Regional tests and sensitivity analyses](docs/workflow/phase6_analysis/README.md), [depth and tissue comparisons](docs/collection_context_analysis.md), and [regional detection counts](figures/collection_context/tissue_region_incidence.tsv) |
-| One archaeal lineage recurs in *Physalia* and *Nanomia* | Figure 2; Table 1 | [Detection methods](docs/workflow/phase6_analysis/README.md), [bacterial/archaeal detections](figures/cohort/bacterial_detections.tsv), and [host distributions](figures/overview/microbial_host_distribution.tsv) |
+| A putative archaeal MAG was reclassified as a Perkinsela-related eukaryotic bin | Domain-review tables | [Audit methods](docs/mag_domain_audit.md) and [reviewed catalog](figures/catalog_review/) |
 | Viral diversity includes viruses of associated bacteria | Table 1 | [Viral recovery and selection](docs/workflow/phase3_catalog/README.md), [predicted microbial hosts](docs/workflow/phase4_catalog/README.md), and [viral detections](figures/cohort/viral_detections.tsv) |
 | Eukaryotic associates include prey and parasite lineages | Figure 4; Table 1 | [Ribosomal-marker analysis](docs/workflow/eukaryote_gate/README.md), [eukaryote evidence](figures/cohort/eukaryote_evidence.tsv), and [direct trematode comparison](docs/waki_sequence_comparison.md) |
 

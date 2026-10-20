@@ -181,6 +181,7 @@ rule summarize_sensitivity_coverage_coverm:
 rule grade_presences:
     input:
         script="workflow/scripts/grade_presences.py",
+        exclusions="config/catalog_domain_exclusions.tsv",
         presence=str(ROOT / "config" / "phase5_presence.json"),
         analysis=str(PHASE6_CONFIG_PATH),
         bacterial=f"{P6_COHORT}/bacterial_coverage.tsv",
@@ -208,7 +209,7 @@ rule grade_presences:
           --bacterial {input.bacterial:q} --viral {input.viral:q} --manifest {input.manifest:q} \
           --nominated {input.nominated:q} --mags {input.mags:q} --votus {input.votus:q} \
           --support-dir {params.support_dir:q} --out-bacterial {output.bacterial:q} \
-          --out-viral {output.viral:q} > {log:q} 2>&1
+          --out-viral {output.viral:q} --domain-exclusions {input.exclusions:q} > {log:q} 2>&1
         """
 
 
@@ -338,6 +339,7 @@ rule fit_physalia_models_lme4:
 rule compare_sensitivity_analyses:
     input:
         script="workflow/scripts/compare_sensitivity.py",
+        exclusions="config/catalog_domain_exclusions.tsv",
         presence=str(ROOT / "config" / "phase5_presence.json"),
         subsets=str(ROOT / "config" / "phase6_subsets.tsv"),
         grades=f"{P6V}/grades/bacterial_grades.tsv",
@@ -367,7 +369,8 @@ rule compare_sensitivity_analyses:
           --grades {input.grades:q} --cohort-viral {input.cohort_viral:q} --nominated {input.nominated:q} \
           --catalog {input.catalog:q} --manifest {input.manifest:q} --sensitivity-dir {params.sensitivity_dir:q} \
           --out-thresholds {output.thresholds:q} --out-host-handling {output.host_handling:q} \
-          --out-capping {output.capping:q} --out-loso {output.loso:q} > {log:q} 2>&1
+          --out-capping {output.capping:q} --out-loso {output.loso:q} \
+          --domain-exclusions {input.exclusions:q} > {log:q} 2>&1
         """
 
 

@@ -1,5 +1,9 @@
 # Assemble eligible libraries and recover candidate genomes
 
+The expanded cohort now attempts every library without a read-count cutoff;
+see [assembly completion](../../assembly_completion.md). The original frozen
+membership described below remains a historical execution record.
+
 [Workflow index](../README.md) · [Source rules](../../../workflow/rules/phase3_assembly.smk)
 
 Turn each eligible library's prepared reads into longer sequences, ribosomal

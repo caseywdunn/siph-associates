@@ -20,6 +20,7 @@ parser.add_argument("--out-thresholds", required=True, type=Path)
 parser.add_argument("--out-host-handling", required=True, type=Path)
 parser.add_argument("--out-capping", required=True, type=Path)
 parser.add_argument("--out-loso", required=True, type=Path)
+parser.add_argument("--domain-exclusions", default="config/catalog_domain_exclusions.tsv")
 args = parser.parse_args()
 presence = json.loads(Path(args.presence).read_text())
 PRESENT = ("validated", "high_confidence")
@@ -85,10 +86,11 @@ for r in grades:
 for r in rows(args.cohort_viral):
     cohort["viral"][r["sample_id"]][r["target_id"]] = (float(r["covered_fraction"]), int(r["read_count"]))
 decoys = {r["target_id"] for r in grades if r["role"] == "decoy"}
+excluded_targets = {r["catalog_id"] for r in rows(args.domain_exclusions)}
 
 
 def compare(sample, kind, a, b, label_a, label_b, analysis):
-    targets = set(a) | set(b)
+    targets = (set(a) | set(b)) - (excluded_targets if kind == "bacterial" else set())
     in_a = {t for t in targets if t not in decoys and called(kind, *a.get(t, (0, 0)))}
     in_b = {t for t in targets if t not in decoys and called(kind, *b.get(t, (0, 0)))}
     union = in_a | in_b

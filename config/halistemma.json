@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "config_path": "config/halistemma.json",
+  "samples": "config/halistemma_samples.tsv",
+  "manifest": "manifest.csv",
+  "work_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/halistemma/2026-10-19",
+  "scratch_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/halistemma/2026-10-19/retained",
+  "fixture_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/halistemma/2026-10-19/fixtures",
+  "fixture_enabled": false,
+  "cleanup_trimmed_after_validation": false,
+  "assembly_gate": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/halistemma/2026-10-19/phase3_cohort/membership.tsv",
+  "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+  "baseline_trim_root": "data/metadata/halistemma",
+  "pilot_pairs": 1000000,
+  "pilot_seed": 20261019,
+  "pilot_minimum_host_pair_fraction": 0.5,
+  "host_reference": {
+    "accession": "GCA_987347065.1",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/987/347/065/GCA_987347065.1_jhHalRubr1.1/GCA_987347065.1_jhHalRubr1.1_genomic.fna.gz",
+    "md5": "426abab65262788e3d06703719f6ef4e",
+    "dataset_report": "data/sources/halistemma/GCA_987347065.1.dataset_report.json",
+    "assembly_report": "data/sources/halistemma/GCA_987347065.1_jhHalRubr1.1_assembly_report.txt"
+  }
+}

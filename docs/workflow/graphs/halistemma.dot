@@ -1,0 +1,61 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "halistemma", color = "0.00 0.6 0.85", style="rounded"];
+	1[label = "validate_assemblies", color = "0.37 0.6 0.85", style="rounded"];
+	2[label = "summarize_assemblies", color = "0.05 0.6 0.85", style="rounded"];
+	3[label = "review_halistemma_assembly_inputs", color = "0.62 0.6 0.85", style="rounded"];
+	4[label = "aggregate_phase3_inputs", color = "0.15 0.6 0.85", style="rounded"];
+	5[label = "phase3_prepare_cohort_input", color = "0.22 0.6 0.85", style="rounded"];
+	6[label = "trim_reads", color = "0.44 0.6 0.85", style="rounded"];
+	7[label = "freeze_halistemma_inputs", color = "0.35 0.6 0.85", style="rounded"];
+	8[label = "index_host_reference", color = "0.52 0.6 0.85", style="rounded"];
+	9[label = "fetch_halistemma_reference", color = "0.54 0.6 0.85", style="rounded"];
+	10[label = "review_halistemma_pilots", color = "0.25 0.6 0.85", style="rounded"];
+	11[label = "summarize_halistemma_pilot", color = "0.07 0.6 0.85", style="rounded"];
+	12[label = "sample_halistemma_pilot", color = "0.02 0.6 0.85", style="rounded"];
+	13[label = "verify_halistemma_trim", color = "0.42 0.6 0.85", style="rounded"];
+	14[label = "map_halistemma_pilot", color = "0.40 0.6 0.85", style="rounded"];
+	15[label = "assemble_contigs_megahit", color = "0.64 0.6 0.85", style="rounded"];
+	16[label = "find_rrna_barrnap", color = "0.32 0.6 0.85", style="rounded"];
+	17[label = "identify_viruses_genomad", color = "0.12 0.6 0.85", style="rounded"];
+	18[label = "assess_viruses_checkv", color = "0.30 0.6 0.85", style="rounded"];
+	19[label = "bin_contigs_metabat2", color = "0.47 0.6 0.85", style="rounded"];
+	20[label = "assess_bins_checkm2", color = "0.49 0.6 0.85", style="rounded"];
+	1 -> 0
+	4 -> 1
+	3 -> 1
+	2 -> 1
+	16 -> 2
+	17 -> 2
+	19 -> 2
+	20 -> 2
+	3 -> 2
+	15 -> 2
+	18 -> 2
+	4 -> 3
+	5 -> 4
+	10 -> 5
+	8 -> 5
+	6 -> 5
+	7 -> 6
+	7 -> 8
+	9 -> 8
+	11 -> 10
+	14 -> 11
+	12 -> 11
+	13 -> 12
+	6 -> 12
+	6 -> 13
+	12 -> 14
+	8 -> 14
+	3 -> 15
+	5 -> 15
+	15 -> 16
+	15 -> 17
+	17 -> 18
+	5 -> 19
+	15 -> 19
+	19 -> 20
+}            

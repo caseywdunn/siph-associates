@@ -1,5 +1,13 @@
 # Phase-3 MAG and viral quality decisions
 
+**Domain-review correction (2026-10-19):** four bins previously assigned to
+Thermoproteota belong to the Perkinsela-related MAGSP0026 cluster. They are
+excluded from the reviewed prokaryotic catalog, leaving 103 bacterial MAGs in
+31 clusters. The historical decisions and counts below are retained as execution
+history; current status is in [the domain review](../dev_docs/mag-domain-audit/run.md)
+and [reviewed catalog tables](../figures/catalog_review/).
+
+
 Approved by Casey Dunn on 2026-09-26, after the per-library cohort assembly
 was accepted and before catalog construction. The machine-readable thresholds
 are in `config/phase3_catalog.json`. Every number below is regenerated from

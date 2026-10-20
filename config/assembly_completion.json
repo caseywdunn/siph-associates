@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "decision_date": "2026-10-20",
+  "assembly_policy": "Attempt assembly for every library, without a retained-read-count cutoff; no contigs is a valid result.",
+  "minimum_assembly_input_pairs": 0,
+  "empty_assembly_is_valid": true,
+  "expected_completion_samples": 12,
+  "expected_cohort_samples": 213,
+  "original_samples": "config/samples.tsv",
+  "original_membership": "config/phase3_assembly.tsv",
+  "original_metadata": "figures/cohort/sample_metadata.tsv",
+  "original_root": "data/results",
+  "halistemma_samples": "config/halistemma_samples.tsv",
+  "halistemma_root": "data/results/halistemma/2026-10-19",
+  "bargmannia_samples": "config/bargmannia_samples.tsv",
+  "bargmannia_metadata": "data/metadata/manko2026/sample_metadata.tsv",
+  "bargmannia_root": "data/results/bargmannia/2026-10-19",
+  "membership": "config/assembly_completion.tsv",
+  "cohort": "config/post_expansion_samples.tsv",
+  "work_root": "data/results/assembly_completion/2026-10-20",
+  "preparation_root": "data/results/post_expansion/2026-10-20",
+  "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python"
+}

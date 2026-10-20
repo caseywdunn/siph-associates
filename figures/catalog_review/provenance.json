@@ -1,0 +1,19 @@
+{
+  "inputs_sha256": {
+    "config/catalog_domain_exclusions.tsv": "3e7d0e3d47598ee736f5de05d9548070212eb661a7ee87169d0d4a5f7e1c1dbe",
+    "/gpfs/ycga/work/dunn/cwd7/siph_associates/scripts/apply_catalog_domain_review.py": "c62635a885358d2b32f446d4d59eb3e6ba67f25df05a3ba7ee322c2b0d98848a",
+    "data/results/phase4_catalog/v2/bacterial_catalog.manifest.tsv": "7410de301b70753304c1326141b8ee2a981f77f16ffe4b1e6794291cf672ef0a",
+    "data/results/phase3_catalog/mags/mag_catalog.tsv": "571be5903599c802ff7a88cb1a9a9cf24c378b37b1ab1049d4aff9365e234c20",
+    "data/results/mag_domain_audit/2026-10-18/review/genes_nr.counts.tsv": "5940ae1aceb1ab156d9bca1af2445f6c4aabe8ed4037fd5e1652a9177c61d69e",
+    "data/results/mag_domain_audit/2026-10-18/review/genes_nr.archaeal_markers.tsv": "9d4c77d195a92b46c2649471ef43dffe2e934b278b10f24ff0860d51c5e8f6f5",
+    "data/results/mag_domain_audit/2026-10-18/review/genes_nr.tsv": "547ea889c1534d98bf908fedd543e629fca9fbdb7bb7b8948e9e3546048110d2"
+  },
+  "outputs_sha256": {
+    "bacterial_catalog.manifest.tsv": "73569d110377143521336c4ff023e51d1636d57ad0dc2c95bf1671f2735e79cd",
+    "mag_catalog.tsv": "e64a529fbd2a8d527623270493905d7fbe6070dfe103f3dae6e98693ac6de380",
+    "values.tex": "498e2ee8d7b9c606dafd6e7dcb7e6ee994c3a3a9dc53f8f70d81799bd89a7f4a",
+    "marker_domain_counts.tsv": "0346fe48fa75bfb4d81d6fed270b50b9546ab3ff12280daa49a2296b1c617a9b",
+    "summary.json": "8c1a3a0a3bb3cfc656fdad07bf0f3d97dee7eec585f785e14418bdad1d4cc8e5",
+    "gene_domain_counts.tsv": "1b56a1700d5693697c56d471147f2956d1af54455ef9cef5fcc5f13e7526bcb5"
+  }
+}

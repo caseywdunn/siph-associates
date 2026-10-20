@@ -1,0 +1,79 @@
+{
+  "command": {
+    "cap": null,
+    "fastp": [
+      "/gpfs/ycga/work/dunn/cwd7/siph_associates/.snakemake/conda/cbe0d0a496d8fe0073ac0e5b47349786_/bin/fastp",
+      "-i",
+      "data/results/fish_12s/full_reads/2026-10-18/trimmed/trim.Ahuja2024__CWD17.qz5ve3d_/input_R1.fastq.gz",
+      "-I",
+      "data/results/fish_12s/full_reads/2026-10-18/trimmed/trim.Ahuja2024__CWD17.qz5ve3d_/input_R2.fastq.gz",
+      "-o",
+      "data/results/fish_12s/full_reads/2026-10-18/trimmed/trim.Ahuja2024__CWD17.qz5ve3d_/trimmed_R1.fastq.gz",
+      "-O",
+      "data/results/fish_12s/full_reads/2026-10-18/trimmed/trim.Ahuja2024__CWD17.qz5ve3d_/trimmed_R2.fastq.gz",
+      "--thread",
+      "8",
+      "--detect_adapter_for_pe",
+      "--dont_eval_duplication",
+      "--json",
+      "data/results/fish_12s/full_reads/2026-10-18/trimmed/trim.Ahuja2024__CWD17.qz5ve3d_/fastp.json",
+      "--html",
+      "data/results/fish_12s/full_reads/2026-10-18/trimmed/trim.Ahuja2024__CWD17.qz5ve3d_/fastp.html"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "/gpfs/ycga/work/dunn/sequences/illumina/Novaseq_siphgenomes/Sample_CWD17_181_012/CWD17_181_012_S119_L004_R1_001.fastq.gz",
+      "sha256": "18167e4b194b807f3a0f9d303bac725f0047f5e85013b0560fb33828b4db7fa2",
+      "size_bytes": 5052059797
+    },
+    {
+      "path": "/gpfs/ycga/work/dunn/sequences/illumina/Novaseq_siphgenomes/Sample_CWD17_181_012/CWD17_181_012_S35_L002_R1_001.fastq.gz",
+      "sha256": "1f042f0a8c146041b30d1874483b0995bf777b11c105503e26e0953466865f2b",
+      "size_bytes": 4313784572
+    },
+    {
+      "path": "/gpfs/ycga/work/dunn/sequences/illumina/Novaseq_siphgenomes/Sample_CWD17_181_012/CWD17_181_012_S9_L001_R1_001.fastq.gz",
+      "sha256": "d3992f495da5512636d303d1a029d5eb181c96184cfa16eb99e2005bf071d33a",
+      "size_bytes": 4097048493
+    },
+    {
+      "path": "/gpfs/ycga/work/dunn/sequences/illumina/Novaseq_siphgenomes/Sample_CWD17_181_012/CWD17_181_012_S119_L004_R2_001.fastq.gz",
+      "sha256": "a0f5d959297fd864c72fbc38d74211c34f37377da4fa14d5cc1ee6dc76f4ef54",
+      "size_bytes": 5263143773
+    },
+    {
+      "path": "/gpfs/ycga/work/dunn/sequences/illumina/Novaseq_siphgenomes/Sample_CWD17_181_012/CWD17_181_012_S35_L002_R2_001.fastq.gz",
+      "sha256": "9173ac5ce6de683ed45f5985ff122111186e26606b6e80874e10c0e199687b76",
+      "size_bytes": 4506137264
+    },
+    {
+      "path": "/gpfs/ycga/work/dunn/sequences/illumina/Novaseq_siphgenomes/Sample_CWD17_181_012/CWD17_181_012_S9_L001_R2_001.fastq.gz",
+      "sha256": "34bcc6481fff4d143c5f05a12b6b59d2cd93bd2e3ae68fbd42695a611ccdece0",
+      "size_bytes": 4243874057
+    }
+  ],
+  "outputs": [
+    {
+      "path": "data/results/fish_12s/full_reads/2026-10-18/trimmed/Ahuja2024__CWD17_R1.fastq.gz",
+      "sha256": "600ec37d4c436f22a93c6ef8af520a83ef4ccfccbba2e97b5c3bb520bc4eb9fd",
+      "size_bytes": 11568660053
+    },
+    {
+      "path": "data/results/fish_12s/full_reads/2026-10-18/trimmed/Ahuja2024__CWD17_R2.fastq.gz",
+      "sha256": "9774a8c6ad176be61b085f7453b8b0c9f79dbaa1de25d3c3fef64d8bf20a1a6b",
+      "size_bytes": 12054480606
+    }
+  ],
+  "pairs_after_fastp": 165797762,
+  "pairs_entering_fastp": 171500636,
+  "parameters": {
+    "cap_method": "not_capped",
+    "cap_pairs": 200000000,
+    "cap_seed": 20260829
+  },
+  "raw_pairs_expected": 171500636,
+  "run_snapshot_sha256": "5d379687e8516659004e4fb31e03c2ff2578845958536036ac18e70f4cd5115a",
+  "sample_id": "Ahuja2024__CWD17",
+  "software": "fastp 0.23.2"
+}

@@ -1,0 +1,198 @@
+Config file config/mag_domain_audit.json is extended by additional config specified via the command line.
+Building DAG of jobs...
+Job stats:
+job                                   count    min threads    max threads
+----------------------------------  -------  -------------  -------------
+all                                       1              1              1
+collect_audit_genes                       1              1              1
+identify_mag_markers_gtdbtk               1              8              8
+prepare_audit_inputs                      1              1              1
+prepare_audit_references                  1              4              4
+record_nr_reference                       1              1              1
+report_audit_assignments                  3              1              1
+retrieve_audit_references                 1              1              1
+search_audit_controls_diamond             1              4              4
+search_mag_genes_nr_diamond               1             16             16
+search_mag_genes_swissprot_diamond        1              8              8
+search_mag_tiles_swissprot_diamond        1              8              8
+validate_audit_controls                   1              1              1
+total                                    15              1             16
+
+
+[Sun Oct 18 18:46:18 2026]
+rule record_nr_reference:
+    input: /gpfs/ycga/work/dunn/cwd7/databases/diamond/nr.dmnd
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/nr_sha256.txt
+    jobid: 14
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/nr_sha256.txt
+    resources: tmpdir=/tmp, mem_mb=1000, mem_mib=954
+
+
+[Sun Oct 18 18:46:18 2026]
+rule prepare_audit_inputs:
+    input: scripts/mag_domain_audit/prepare.py, config/mag_domain_audit.json, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/phase3_catalog/mags/candidates/Church2025__TMAG-K5632__bin.2.fa, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/phase3_catalog/mags/candidates/Church2025__YPM-IZ-110469__bin.2.fa, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/phase3_catalog/mags/candidates/Church2025__YPM-IZ-110785__bin.5.fa, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/phase3_catalog/mags/candidates/Church2025__YPM-IZ-111208__bin.3.fa
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/inputs, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/tiles.fna, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/tiles.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/contigs.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/inputs.json
+    jobid: 4
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/tiles.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/inputs, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/tiles.fna
+    resources: tmpdir=/tmp, mem_mb=2000, mem_mib=1908
+
+
+[Sun Oct 18 18:46:18 2026]
+rule retrieve_audit_references:
+    input: config/mag_domain_audit.json
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/uniprot_sprot.fasta.gz, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/uniprot_release.txt, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/taxonomy, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/download_sha256.txt
+    jobid: 7
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/uniprot_sprot.fasta.gz, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/taxonomy
+    resources: tmpdir=/tmp, mem_mb=2000, mem_mib=1908
+
+
+[Sun Oct 18 18:46:18 2026]
+rule prepare_audit_references:
+    input: scripts/mag_domain_audit/prepare.py, config/mag_domain_audit.json, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/uniprot_sprot.fasta.gz, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/taxonomy
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot_metadata.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/controls.faa, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/controls.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot.dmnd
+    jobid: 6
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot.dmnd, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/controls.faa, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/controls.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot_metadata.tsv; Input files updated by another job: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/uniprot_sprot.fasta.gz, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/taxonomy
+    threads: 4
+    resources: tmpdir=/tmp, mem_mb=8000, mem_mib=7630
+
+
+[Sun Oct 18 18:46:18 2026]
+rule identify_mag_markers_gtdbtk:
+    input: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/inputs, /gpfs/ycga/work/dunn/cwd7/databases/gtdbtk_r220/release220
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/gtdb_identify
+    log: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/logs/gtdb_identify.log
+    jobid: 3
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/gtdb_identify; Input files updated by another job: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/inputs
+    threads: 8
+    resources: tmpdir=/tmp, mem_mb=16000, mem_mib=15259
+
+
+[Sun Oct 18 18:46:18 2026]
+rule search_audit_controls_diamond:
+    input: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/controls.faa, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot.dmnd
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/hits.tsv
+    jobid: 9
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/hits.tsv; Input files updated by another job: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot.dmnd, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/controls.faa
+    threads: 4
+    resources: tmpdir=/tmp, mem_mb=4000, mem_mib=3815
+
+
+[Sun Oct 18 18:46:18 2026]
+rule collect_audit_genes:
+    input: scripts/mag_domain_audit/prepare.py, config/mag_domain_audit.json, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/gtdb_identify
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/genes.faa, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/genes.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/archaeal_marker_hits.tsv
+    jobid: 2
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/archaeal_marker_hits.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/genes.faa, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/genes.tsv; Input files updated by another job: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/gtdb_identify
+    resources: tmpdir=/tmp, mem_mb=2000, mem_mib=1908
+
+
+[Sun Oct 18 18:46:18 2026]
+rule validate_audit_controls:
+    input: scripts/mag_domain_audit/classify.py, scripts/mag_domain_audit/prepare.py, config/mag_domain_audit.json, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/controls.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/hits.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot_metadata.tsv
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/assignments.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/CONTROLS_PASSED
+    jobid: 8
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/CONTROLS_PASSED; Input files updated by another job: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/hits.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/controls.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot_metadata.tsv
+    resources: tmpdir=/tmp, mem_mb=4000, mem_mib=3815
+
+
+[Sun Oct 18 18:46:18 2026]
+rule search_mag_tiles_swissprot_diamond:
+    input: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/tiles.fna, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot.dmnd, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/CONTROLS_PASSED
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/hits/tiles_swissprot.tsv
+    log: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/logs/tiles_swissprot.log
+    jobid: 11
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/hits/tiles_swissprot.tsv; Input files updated by another job: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/CONTROLS_PASSED, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot.dmnd, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/tiles.fna
+    priority: 10
+    threads: 8
+    resources: tmpdir=/tmp, mem_mb=12000, mem_mib=11445
+
+
+[Sun Oct 18 18:46:18 2026]
+rule search_mag_genes_nr_diamond:
+    input: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/genes.faa, /gpfs/ycga/work/dunn/cwd7/databases/diamond/nr.dmnd, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/nr_sha256.txt, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/CONTROLS_PASSED
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/hits/genes_nr.tsv
+    log: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/logs/genes_nr.log
+    jobid: 13
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/hits/genes_nr.tsv; Input files updated by another job: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/CONTROLS_PASSED, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/nr_sha256.txt, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/genes.faa
+    threads: 16
+    resources: tmpdir=/tmp, mem_mb=48000, mem_mib=45777
+
+
+[Sun Oct 18 18:46:18 2026]
+rule search_mag_genes_swissprot_diamond:
+    input: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/genes.faa, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot.dmnd, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/CONTROLS_PASSED
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/hits/genes_swissprot.tsv
+    log: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/logs/genes_swissprot.log
+    jobid: 5
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/hits/genes_swissprot.tsv; Input files updated by another job: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/CONTROLS_PASSED, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot.dmnd, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/genes.faa
+    priority: 10
+    threads: 8
+    resources: tmpdir=/tmp, mem_mb=12000, mem_mib=11445
+
+
+[Sun Oct 18 18:46:18 2026]
+rule report_audit_assignments:
+    input: scripts/mag_domain_audit/classify.py, scripts/mag_domain_audit/prepare.py, config/mag_domain_audit.json, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/genes.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/hits/genes_nr.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/archaeal_marker_hits.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot_metadata.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/taxonomy
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/genes_nr.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/genes_nr.counts.tsv
+    jobid: 12
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/genes_nr.counts.tsv; Input files updated by another job: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/taxonomy, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/archaeal_marker_hits.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/genes.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/hits/genes_nr.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot_metadata.tsv
+    wildcards: review=genes_nr
+    priority: 20
+    resources: tmpdir=/tmp, mem_mb=12000, mem_mib=11445
+
+
+[Sun Oct 18 18:46:18 2026]
+rule report_audit_assignments:
+    input: scripts/mag_domain_audit/classify.py, scripts/mag_domain_audit/prepare.py, config/mag_domain_audit.json, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/genes.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/hits/genes_swissprot.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/archaeal_marker_hits.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot_metadata.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/taxonomy
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/genes_swissprot.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/genes_swissprot.counts.tsv
+    jobid: 1
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/genes_swissprot.counts.tsv; Input files updated by another job: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/taxonomy, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/archaeal_marker_hits.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/genes.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/hits/genes_swissprot.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot_metadata.tsv
+    wildcards: review=genes_swissprot
+    priority: 20
+    resources: tmpdir=/tmp, mem_mb=12000, mem_mib=11445
+
+
+[Sun Oct 18 18:46:18 2026]
+rule report_audit_assignments:
+    input: scripts/mag_domain_audit/classify.py, scripts/mag_domain_audit/prepare.py, config/mag_domain_audit.json, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/tiles.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/hits/tiles_swissprot.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/archaeal_marker_hits.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot_metadata.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/taxonomy
+    output: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/tiles_swissprot.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/tiles_swissprot.counts.tsv
+    jobid: 10
+    reason: Missing output files: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/tiles_swissprot.counts.tsv; Input files updated by another job: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/taxonomy, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/archaeal_marker_hits.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/hits/tiles_swissprot.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/tiles.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/reference/swissprot_metadata.tsv
+    wildcards: review=tiles_swissprot
+    priority: 20
+    resources: tmpdir=/tmp, mem_mb=12000, mem_mib=11445
+
+
+[Sun Oct 18 18:46:18 2026]
+localrule all:
+    input: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/genes_swissprot.counts.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/tiles_swissprot.counts.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/genes_nr.counts.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/CONTROLS_PASSED
+    jobid: 0
+    reason: Input files updated by another job: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/genes_swissprot.counts.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/controls/CONTROLS_PASSED, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/tiles_swissprot.counts.tsv, /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/mag_domain_audit/2026-10-18/review/genes_nr.counts.tsv
+    resources: tmpdir=/tmp
+
+Job stats:
+job                                   count    min threads    max threads
+----------------------------------  -------  -------------  -------------
+all                                       1              1              1
+collect_audit_genes                       1              1              1
+identify_mag_markers_gtdbtk               1              8              8
+prepare_audit_inputs                      1              1              1
+prepare_audit_references                  1              4              4
+record_nr_reference                       1              1              1
+report_audit_assignments                  3              1              1
+retrieve_audit_references                 1              1              1
+search_audit_controls_diamond             1              4              4
+search_mag_genes_nr_diamond               1             16             16
+search_mag_genes_swissprot_diamond        1              8              8
+search_mag_tiles_swissprot_diamond        1              8              8
+validate_audit_controls                   1              1              1
+total                                    15              1             16
+
+Reasons:
+    (check individual jobs above for details)
+    input files updated by another job:
+        all, collect_audit_genes, identify_mag_markers_gtdbtk, prepare_audit_references, report_audit_assignments, search_audit_controls_diamond, search_mag_genes_nr_diamond, search_mag_genes_swissprot_diamond, search_mag_tiles_swissprot_diamond, validate_audit_controls
+    missing output files:
+        collect_audit_genes, identify_mag_markers_gtdbtk, prepare_audit_inputs, prepare_audit_references, record_nr_reference, report_audit_assignments, retrieve_audit_references, search_audit_controls_diamond, search_mag_genes_nr_diamond, search_mag_genes_swissprot_diamond, search_mag_tiles_swissprot_diamond, validate_audit_controls
+
+This was a dry-run (flag -n). The order of jobs does not reflect the order of execution.

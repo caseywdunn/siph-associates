@@ -1,0 +1,18 @@
+{
+  "status": "hold",
+  "requested_by": "user",
+  "requested_date": "2026-10-20",
+  "reason": "Complete every per-library assembly without a read-count cutoff and prepare the combined cohort, but do not run full-cohort mapping. Additional MAG identity and contamination QC must precede catalog approval and mapping.",
+  "cohort_libraries": 213,
+  "required_reviews": {
+    "bargmannia": "Eight new Manko2026 libraries: assemblies, genome/viral recovery and final inclusion reviewed.",
+    "halistemma": "Two existing Ahuja2024 libraries: reference mapping, host depletion, assemblies and final inclusion reviewed.",
+    "assembly_completion": "Attempt all ten previously excluded original libraries and both host-depleted Halistemma libraries; accept zero-contig outcomes and preserve one selected assembly per library.",
+    "mag_identity_qc": "Review whole-bin and contig-level gene-domain evidence, eukaryotic/host contamination, taxonomic consistency, marker support and CheckM2 quality for all prospective MAG catalog members; retain the four known Perkinsela-related bins as excluded controls.",
+    "viral_qc": "Review viral hallmarks, CheckV evidence, host-derived/endogenous sequence flags and provenance before inclusion.",
+    "combined_catalog": "Pool reviewed assemblies and reference nominations across all four studies; apply domain exclusions; classify, curate and dereplicate before freezing the revised catalogs."
+  },
+  "automatic_remapping": false,
+  "requires_explicit_mapping_authorization": true,
+  "readme": "docs/halistemma.md"
+}

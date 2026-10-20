@@ -108,7 +108,7 @@ def main() -> None:
     routes = {r["sample_id"]: r["host_route"] for r in samples}
     mags = [
         r
-        for r in read("data/results/phase3_catalog/mags/mag_catalog.tsv")
+        for r in read("figures/catalog_review/mag_catalog.tsv")
         if r["catalog_status"] == "retained"
     ]
     assemblies = read("data/results/phase3_cohort/assembly_summary.tsv")

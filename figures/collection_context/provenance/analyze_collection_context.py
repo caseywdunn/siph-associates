@@ -127,11 +127,18 @@ def depth_context(row: dict[str, str]) -> dict[str, str]:
         status = "unknown"
     elif assigned:
         status = "assigned_surface"
+    elif row.get("collection_depth_basis") == "interval_midpoint":
+        if lower is None or point is None:
+            raise ValueError(
+                "Interval midpoint requires recorded bounds and a point value"
+            )
+        status = "range_with_derived_midpoint"
     elif lower is not None:
         status = "recorded_point_and_range" if point is not None else "recorded_range"
     else:
         status = "recorded_point"
-    # The full interval, when supplied, determines the stratum; no midpoint is imputed.
+    # The full interval determines the stratum, including when the publication
+    # table also supplies a derived midpoint.
     lo, hi = (lower, upper) if lower is not None else (point, point)
     if row["species_current"].startswith("Physalia "):
         if lo != 0 or hi != 0:

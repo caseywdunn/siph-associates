@@ -51,7 +51,6 @@ MICROBIAL_GROUPS = [
     "Photobacterium",
     "Alteromonas",
     "Remaining bacteria",
-    "Archaea",
 ]
 INPUT_NAMES = [
     "figures/cohort/sample_metadata.tsv",

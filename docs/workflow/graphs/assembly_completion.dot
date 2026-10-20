@@ -1,0 +1,30 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "assemblies", color = "0.12 0.6 0.85", style="rounded"];
+	1[label = "validate_assemblies", color = "0.18 0.6 0.85", style="rounded"];
+	2[label = "summarize_assemblies", color = "0.06 0.6 0.85", style="rounded"];
+	3[label = "assemble_contigs_megahit", color = "0.55 0.6 0.85", style="rounded"];
+	4[label = "validate_completion_inputs", color = "0.42 0.6 0.85", style="rounded"];
+	5[label = "find_rrna_barrnap", color = "0.00 0.6 0.85", style="rounded"];
+	6[label = "identify_viruses_genomad", color = "0.30 0.6 0.85", style="rounded"];
+	7[label = "assess_viruses_checkv", color = "0.61 0.6 0.85", style="rounded"];
+	8[label = "bin_contigs_metabat2", color = "0.36 0.6 0.85", style="rounded"];
+	9[label = "assess_bins_checkm2", color = "0.48 0.6 0.85", style="rounded"];
+	1 -> 0
+	4 -> 1
+	2 -> 1
+	5 -> 2
+	6 -> 2
+	8 -> 2
+	9 -> 2
+	3 -> 2
+	7 -> 2
+	4 -> 3
+	3 -> 5
+	3 -> 6
+	6 -> 7
+	3 -> 8
+	8 -> 9
+}            

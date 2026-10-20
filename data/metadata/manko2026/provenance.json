@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-20T01:01:58.797068+00:00",
+  "source_doi": "10.1093/zoolinnean/zlag150",
+  "selection": "Table S2: Source == This study and raw SRR accession present",
+  "inputs_sha256": {
+    "tmp/zlag150_supplementary_data.zip": "69d01ba0e5b8437ed26b125427e494a320b24eb6c2a1f3cd73fc6d1c02edc45f",
+    "tmp/zlag150.pdf": "d42c84b3dadd1d189d30310b3b411f49a09831b9203b70f6ac4eb4f6593301c9",
+    "/gpfs/ycga/work/dunn/cwd7/siph_associates/scripts/bargmannia/prepare_metadata.py": "4b921924cdce859bdf199979b9f221803d5517e55cf51dfe22b823b0baf8d92b",
+    "data/sources/manko2026/SRR36270055.xml": "38c7fec0e87c1de66f061379bd828b063b21d03d3a90b068f0a5fc56efed7899",
+    "data/sources/manko2026/SRR36270054.xml": "e61378ca39472e7b0d9b0e5a0d4d4883da5a768babfc67ad98668104651f6834",
+    "data/sources/manko2026/SRR36270053.xml": "09e889a91acb13b2ca31d347becf40963d1dc17bacc71d2816542a427764d3ef",
+    "data/sources/manko2026/SRR36270052.xml": "c4b77452831fdfe2228ad34aa189ebfe568bdc0ae34ae7435584448e2c31095e",
+    "data/sources/manko2026/SRR36270051.xml": "9a83995d5650107b6e72ee6ce8f7aac83fec7848e1c2b33e56033091e88c8ddf",
+    "data/sources/manko2026/SRR36270050.xml": "9da3bf18de42b361f01a8efa8e9739532de833d10ee361e8a7a128a02f2dc1a1",
+    "data/sources/manko2026/SRR36270049.xml": "115b916d5b33306bbe631b59c8d5801e46f9056fe7dce900c6c2dd8007f403ea",
+    "data/sources/manko2026/SRR36270048.xml": "31c0974962bb672b12470b96e3d969347b89d0b439cc81fe82b80f704f2990ec",
+    "manifest.csv": "926bcbf2c6dffc18d9da0faa1877bd67349d057599aead88ba4472c40279b72d"
+  },
+  "raw_file_identity": "Public NCBI original-upload sizes match local files; MD5 verification required by workflow before processing",
+  "species_authority": "Published Table S2, checked against Table S1; original SRA label retained separately"
+}

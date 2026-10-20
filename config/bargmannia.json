@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "config_path": "config/bargmannia.json",
+  "samples": "config/bargmannia_samples.tsv",
+  "manifest": "manko2026_manifest.csv",
+  "work_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/bargmannia/2026-10-19",
+  "scratch_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/bargmannia/2026-10-19/retained",
+  "fixture_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/bargmannia/2026-10-19/fixtures",
+  "fixture_enabled": false,
+  "cleanup_trimmed_after_validation": false,
+  "assembly_gate": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/bargmannia/2026-10-19/phase3_cohort/membership.tsv",
+  "raw_files": "data/metadata/manko2026/raw_files.tsv",
+  "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+  "reference": "data/results/fish_12s/masked_reference/2026-10-17/fish_12s_masked.fasta",
+  "reference_root": "data/results/fish_12s/positive_references/2026-10-17",
+  "reference_metadata": "data/results/fish_12s/reference_metadata/2026-10-18/references.tsv",
+  "sortmerna": "data/results/fish_12s/software/sortmerna_env/bin/sortmerna",
+  "run": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/bargmannia/2026-10-19/fish_12s",
+  "read_pair_id": "capped_trimmed"
+}

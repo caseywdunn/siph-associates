@@ -26,6 +26,7 @@ rule assemble_contigs_megahit:
     input:
         r1=lambda wildcards: phase3_cohort_input_path(wildcards, 1),
         r2=lambda wildcards: phase3_cohort_input_path(wildcards, 2),
+        gate=lambda wildcards: config.get("assembly_gate", []),
     output:
         contigs=f"{WORK}/phase3_cohort/assemblies/{{sample}}.fasta",
     params:

@@ -1,0 +1,42 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "all", color = "0.21 0.6 0.85", style="rounded"];
+	1[label = "report_audit_assignments", color = "0.26 0.6 0.85", style="rounded"];
+	2[label = "collect_audit_genes", color = "0.41 0.6 0.85", style="rounded"];
+	3[label = "identify_mag_markers_gtdbtk", color = "0.46 0.6 0.85", style="rounded"];
+	4[label = "prepare_audit_inputs", color = "0.00 0.6 0.85", style="rounded"];
+	5[label = "search_mag_genes_swissprot_diamond", color = "0.10 0.6 0.85", style="rounded"];
+	6[label = "prepare_audit_references", color = "0.31 0.6 0.85", style="rounded"];
+	7[label = "retrieve_audit_references", color = "0.51 0.6 0.85", style="rounded"];
+	8[label = "validate_audit_controls", color = "0.62 0.6 0.85", style="rounded"];
+	9[label = "search_audit_controls_diamond", color = "0.05 0.6 0.85", style="rounded"];
+	10[label = "search_mag_tiles_swissprot_diamond", color = "0.56 0.6 0.85", style="rounded"];
+	11[label = "search_mag_genes_nr_diamond", color = "0.15 0.6 0.85", style="rounded"];
+	12[label = "record_nr_reference", color = "0.36 0.6 0.85", style="rounded"];
+	8 -> 0
+	1 -> 0
+	5 -> 1
+	4 -> 1
+	6 -> 1
+	2 -> 1
+	11 -> 1
+	7 -> 1
+	10 -> 1
+	3 -> 2
+	4 -> 3
+	2 -> 5
+	8 -> 5
+	6 -> 5
+	7 -> 6
+	9 -> 8
+	6 -> 8
+	6 -> 9
+	4 -> 10
+	8 -> 10
+	6 -> 10
+	12 -> 11
+	2 -> 11
+	8 -> 11
+}            

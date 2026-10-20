@@ -1,0 +1,15 @@
+{
+  "metadata": "figures/cohort/sample_metadata.tsv",
+  "output_dir": "figures/host_depletion",
+  "sources": [
+    {
+      "samples": "config/samples.tsv",
+      "results": "data/results"
+    },
+    {
+      "samples": "config/halistemma_samples.tsv",
+      "results": "data/results/halistemma/2026-10-19"
+    }
+  ],
+  "allowed_pending_samples": ["Ahuja2024__CWD17"]
+}
