@@ -1,0 +1,22 @@
+{
+  "libraries": 205,
+  "host_depleted_libraries": 161,
+  "full_read_libraries": 44,
+  "pairs_screened": 8146578446,
+  "full_read_pairs_screened": 7729836699,
+  "categories": {
+    "other_or_no_hit": 25761,
+    "long_close_fish_match": 32,
+    "other_fish_similarity": 64
+  },
+  "positive_libraries": 8,
+  "unique_positive_paired_sequences": 32,
+  "identical_positive_pair_groups": 0,
+  "method_recovery": {
+    "regex": 7,
+    "bbduk25": 32,
+    "bowtie2": 31,
+    "sortmerna": 31
+  },
+  "interpretation": "Long, close competitive mitochondrial matches; read-pair counts are not prey individuals or independent molecules. Exact paired-sequence duplication checked; PCR duplicates with sequence errors and sequencing contamination are not excluded. Species identities remain reference-match hypotheses."
+}

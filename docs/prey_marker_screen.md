@@ -29,10 +29,10 @@ execution records are preserved.
 
 ## Expansion and sensitivity
 
-The host-depleted fish cohort and its controls are complete. Review competitive
-alignments before treating recruited candidates as fish identifications. The
-next expansion is fish screening in the remaining libraries. Use all existing
-host-depleted pairs where available.
+The host-depleted fish cohort is complete. The approved expansion screens all
+44 remaining libraries, bringing the survey to all 205 libraries. Review
+competitive alignments before treating recruited candidates as fish identifications.
+Use all existing host-depleted pairs where available.
 For the other 44 libraries, use full quality-filtered inputs under the original
 200-million-pair cap rather than the 25-million-pair assembly subset. This is the
 recommended starting depth, not a claim that 200 million guarantees detection.
@@ -44,12 +44,59 @@ That preparation should not invoke the old assembly, mapping or reporting DAG.
 
 Across these 44 libraries, the inventories contain 12,255,368,962 raw pairs;
 7,939,126,078 pairs remain after the proposed cap but before quality filtering.
-Twenty-eight libraries exceed 200 million raw pairs. Benchmark the pilot first,
-then assess gains across nested read depths (for example 25, 50, 100 and 200
-million pairs) before deciding whether to screen beyond 200 million. All pairs
-are used for libraries below the cap. This depth assessment should summarize
-the candidate evidence from a full search where possible rather than repeat
-every search independently at each depth.
+Twenty-eight libraries exceed 200 million raw pairs. All pairs are used for
+libraries below the cap. The cap is sampled across all lanes with BBTools 38.90,
+seed 20260829, followed by fastp 0.23.2, using the original trimming implementation
+and environment. Input hashes, lane order, settings and retained counts are
+checked against the previous preparation. The old 25-million-pair assembly
+subsets are not used.
+
+## Full-read fish expansion
+
+The [frozen library manifest](../config/fish_12s_full_reads.tsv) selects the 44
+reference-free libraries. The [configuration](../config/fish_12s_full_reads.json)
+records the cap, reference paths and output directory. The entry point shares
+the four search methods and competitive BLAST rules with the completed
+host-depleted screen. It includes no original assembly or microbial analysis rules.
+
+Reference classification uses accession-linked GenBank lineages from the
+2026-09-03 RefSeq mitochondrial release, together with annotated MitoFish 12S
+records. GenBank sequences are checked against the frozen FASTA; CONTIG-only
+records are checked by accession version and length. Reports also give the
+overlap of each best alignment with annotated 12S coordinates. Review categories
+remain preliminary, and whole-mitochondrial matches can include flanking sequence.
+
+The control check verifies competitive alignments as well as recruitment: four
+fish controls must pass, the frog must match a non-fish reference and be rejected,
+and random, quality-only and repetitive controls must not be recruited. Each
+production task reruns this check, so an old recruitment-only success marker is
+insufficient. A two-lane fixture exercises the complete capped and uncapped paths.
+
+```bash
+mkdir -p logs/fish_12s
+# One-time accession-linked annotation; reuses the frozen search databases.
+sbatch scripts/fish_12s/batch_reference_metadata.sh
+# After annotation completes, validate the full raw-read path.
+sbatch scripts/fish_12s/batch_full_reads_validation.sh
+# Inspect and launch after validation succeeds.
+snakemake full_reads --snakefile workflow/fish_12s_full_reads.smk \
+  --configfile config/fish_12s_full_reads.json --cores 16 --dry-run --rerun-triggers mtime
+sbatch --array=0-43%4 scripts/fish_12s/batch_full_reads.sh
+```
+
+Each array task handles one library, with at most four libraries in flight.
+Outputs are under `data/results/fish_12s/full_reads/2026-10-18/`: `trim/` holds
+quality metrics and raw-input provenance, `inputs/` holds prepared-read manifests,
+`screen/` and `aligners/` preserve method-specific evidence, `union/` preserves
+both mates and competitive alignments, and `review/` contains per-library sample
+and candidate tables. Temporary full filtered FASTQs are removed only after all
+four filters and paired candidate recovery finish. Execution records and source
+snapshots are retained under `data/results/fish_12s/executions/`.
+
+![Fish full-read expansion](workflow/graphs/fish_full_reads.svg)
+
+Generate/check this graph with `scripts/update_rulegraphs.py fish_full_reads`
+or the same command with `--check`.
 
 Reports must retain the original processed-library count, post-filtering count
 and post-depletion count separately. Host-depleted and undepleted pair counts

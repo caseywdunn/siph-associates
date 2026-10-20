@@ -1,14 +1,12 @@
 # Fish 12S screen: initial assessment
 
 Work on branch `fish-12s-screen`, started 2026-10-17. The intended cohort is all
-205 libraries, with Physalia diet as the main biological question. This first
-stage tests the proposed regex and compares candidate-read filters. It does not
-yet report fish identifications or run the full cohort. Existing sequence
-analyses, metadata identifiers, and manuscript results are unchanged.
-
-The current pilot uses complete retained host-depleted *Physalia* libraries;
-the earlier raw-lane pilot below is superseded. See the
-[revised input policy and launch commands](prey_marker_screen.md).
+205 libraries, with Physalia diet as the main biological question. The 161-library
+host-depleted screen is complete, and the approved expansion covers the other 44
+libraries with up to 200 million raw pairs each. This page preserves the initial
+method assessments; the [current execution guide](prey_marker_screen.md) documents
+the cohort workflows, controls and preliminary result tables. Earlier raw-lane
+pilots below are superseded by the complete retained host-depleted inputs.
 
 ## Does the original regex cover fishes broadly?
 

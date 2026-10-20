@@ -1,5 +1,74 @@
 # Fish host-depleted expansion and branch separation
 
+## Final reporting assessment, 2026-10-19
+
+Array 13512346 completed all 44 tasks with exit code 0. Final reporting
+reclassified the 161 host-depleted libraries with accession-linked reference
+metadata and combined all 205 libraries without new read searches. All report
+hashes, cohort membership, unique read-pair identities and category totals passed.
+There are no identical paired sequences among the 32 strong matches. Molecular
+independence and sequencing contamination remain unresolved; no species-level
+prey assignments or counts of prey individuals are asserted.
+
+The [final report](../docs/fish_12s_results.md) supersedes the running status
+and preliminary genus-based classification below. Generated results and source
+hashes are in `figures/fish_12s/`. The completed controls and integration fixture
+below remain applicable because sequence-search settings are unchanged.
+
+## Full-read fish expansion, 2026-10-18
+
+Casey approved screening all 44 remaining libraries at up to 200 million raw
+pairs per library, superseding the proposed diet-selected subset. This adds
+7,939,126,078 pairs before QC. Crustacean work remains paused.
+
+`config/fish_12s_full_reads.tsv` freezes the raw paths and lane order from the
+original sequence-analysis inventory. `workflow/fish_12s_full_reads.smk` reuses
+the original `trim_reads.py` and its fastp/BBTools environment, writing only to
+the new fish run directory. It shares the unchanged filter commands and BLAST
+settings with the host-depleted workflow. The regenerated inputs must match
+previous input hashes, settings and post-QC counts before screening.
+
+The previous control checker inspected recruitment but not BLAST evidence.
+It now uses the same competitive classifier as the reports and verifies four
+fish positives and exclusion of the frog. Missing/empty alignments and a frog
+misclassified as fish fail regression tests. Production launchers re-evaluate
+the controls rather than trusting the old marker.
+
+RefSeq classification now uses accession-linked GenBank lineage annotations
+instead of a MitoFish-derived genus list. Reference job 13512182 exposed
+CONTIG-only GenBank records and failed without producing a metadata table;
+job 13512217 completed after adding explicit accession-version/length checks
+for those records. All records with sequence content were checked against the
+frozen FASTA. Metadata, exception accessions and source snapshots are under
+`data/results/fish_12s/reference_metadata/2026-10-18/`.
+
+Validation job 13512256 exercises the production path on two lanes with both a
+forced exact cap and an uncapped input. It completed successfully in 1:50:
+60 pairs entered the capped screen (33 candidates), and all 90 entered the
+uncapped screen (50 candidates). Both retained all represented fish controls
+and rejected the frog at competitive classification. Ten regression tests,
+Ruff, shell syntax and both generated graph freshness checks passed.
+The full production dry run schedules
+44 preparations and 44 instances of each screening/review stage (309 steps
+including the aggregate target). The host-depleted dry run reports nothing to
+do. The original analysis Snakefile and sequence rules are unchanged.
+
+Production array **13512346** was submitted with
+`sbatch --array=0-43%4 scripts/fish_12s/batch_full_reads.sh`. Tasks 0–3 were
+confirmed running and preparing reads; tasks 4–43 wait on the concurrency limit.
+The first four samples are Ahuja2024__CWD146 (Erenna), Ahuja2024__CWD131 and
+Ahuja2024__CWD20 (Rhizophysa), and Ahuja2024__CWD11 (Stephanomia). This ordering
+only prioritizes execution; all 44 libraries remain selected. Source snapshots,
+input identities and completion status are recorded separately for each task.
+The cohort is **running, not yet complete**. Keep computational source and
+configuration stable while the array runs. Logs are
+`logs/fish_12s/full-reads-13512346_{0..43}.log`.
+
+The [execution guide](../docs/prey_marker_screen.md#full-read-fish-expansion)
+contains the canonical launch commands and output layout. The 161-library
+tables below retain their original preliminary classifications; accession-based
+reclassification is a reporting step and does not require new sequence searches.
+
 ## Completed fish cohort
 
 The [cohort manifest](../config/prey_marker_host_depleted.tsv) contains all 151

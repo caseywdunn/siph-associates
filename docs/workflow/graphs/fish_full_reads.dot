@@ -1,0 +1,27 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "full_reads", color = "0.42 0.6 0.85", style="rounded"];
+	1[label = "review_fish_full_reads", color = "0.33 0.6 0.85", style="rounded"];
+	2[label = "align_cohort_fish_candidates_blastn", color = "0.00 0.6 0.85", style="rounded"];
+	3[label = "collect_cohort_fish_pairs", color = "0.17 0.6 0.85", style="rounded"];
+	4[label = "screen_cohort_fish_seeds", color = "0.08 0.6 0.85", style="rounded"];
+	5[label = "prepare_fish_full_reads", color = "0.58 0.6 0.85", style="rounded"];
+	6[label = "inventory_fish_full_reads", color = "0.25 0.6 0.85", style="rounded"];
+	7[label = "screen_cohort_fish_aligners", color = "0.50 0.6 0.85", style="rounded"];
+	1 -> 0
+	6 -> 1
+	2 -> 1
+	3 -> 1
+	3 -> 2
+	5 -> 3
+	7 -> 3
+	4 -> 3
+	6 -> 3
+	5 -> 4
+	6 -> 4
+	5 -> 6
+	5 -> 7
+	6 -> 7
+}            

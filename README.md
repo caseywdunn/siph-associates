@@ -1,5 +1,7 @@
 # Organisms associated with siphonophores
 
+The [completed fish 12S screen](docs/fish_12s_results.md) covers all 205 original libraries.
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23441460.svg)](https://doi.org/10.5281/zenodo.23441460)
 
 This repository contains the analyses accompanying:
@@ -87,6 +89,8 @@ analyses are documented separately, so the graphs do not represent every handoff
 
 The separate [fish 12S screen](docs/prey_marker_screen.md) uses all retained
 host-depleted reads from 151 *Physalia* and ten *N. septata* libraries.
+The [full-read expansion](docs/prey_marker_screen.md#full-read-fish-expansion)
+covers the remaining 44 libraries with up to 200 million raw pairs each.
 Its [completed cohort review](dev_docs/fish-12s/positive_pilot.md#completed-host-depleted-cohort-review-2026-10-18)
 remains separate from the manuscript results above. Crustacean COI work is paused
 and preserved on branch `crustacean-coi-screen`.

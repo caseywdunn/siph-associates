@@ -4,8 +4,8 @@
 These are review bins, not validated presence or species assignments. A long,
 close fish match spans >=100 nt at >=95% identity, with only fish references
 within 5% of the best bit score and no truncated near-best hit list. RefSeq fish
-membership is inferred from genera represented in the annotated MitoFish panel;
-all reference names and competing evidence remain available for manual review.
+membership uses accession-linked GenBank lineage annotations; all reference
+names and competing evidence remain available for manual review.
 Whole mitochondrial references can extend beyond the recruited 12S fragment.
 """
 
@@ -17,6 +17,7 @@ from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+from classify_candidates import evidence, pair_category, read_hits, reference_metadata
 from pilot import digest, read_id, records
 
 
@@ -25,34 +26,13 @@ def table(path: Path) -> list[dict]:
         return list(csv.DictReader(handle, delimiter="\t"))
 
 
-def write_table(path: Path, rows: list[dict]) -> None:
+def write_table(path: Path, rows: list[dict], fields: list[str] | None = None) -> None:
     with path.open("w") as handle:
-        writer = csv.DictWriter(handle, list(rows[0]), delimiter="\t")
+        writer = csv.DictWriter(
+            handle, list(rows[0]) if rows else fields, delimiter="\t"
+        )
         writer.writeheader()
         writer.writerows(rows)
-
-
-def evidence(hits: list[dict]) -> dict:
-    if not hits:
-        return dict(category="no_hit", top={}, near_names=[], truncated=False)
-    hits = sorted(hits, key=lambda h: h["bitscore"], reverse=True)
-    best = hits[0]
-    near = [h for h in hits if h["bitscore"] >= best["bitscore"] * 0.95]
-    truncated = len(hits) >= 200 and hits[-1]["bitscore"] >= best["bitscore"] * 0.95
-    only_fish = all(h["fish"] for h in near)
-    close = best["identity"] >= 95 and best["length"] >= 100
-    if only_fish and close and not truncated:
-        category = "long_close_fish_match"
-    elif any(h["fish"] for h in near):
-        category = "other_fish_similarity"
-    else:
-        category = "other_reference"
-    return dict(
-        category=category,
-        top=best,
-        near_names=sorted({h["name"] for h in near}),
-        truncated=truncated,
-    )
 
 
 def main() -> None:
@@ -61,25 +41,36 @@ def main() -> None:
         "--config", type=Path, default=Path("config/fish_12s_host_depleted_cohort.json")
     )
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--manifest", type=Path)
+    parser.add_argument(
+        "--reference-metadata",
+        type=Path,
+        default=Path(
+            "data/results/fish_12s/reference_metadata/2026-10-18/references.tsv"
+        ),
+    )
     args = parser.parse_args()
     config = json.loads(args.config.read_text())
-    manifest = table(Path(config["manifest"]))
-    reuse = {r["analysis_sample_id"] for r in table(Path(config["reuse_manifest"]))}
-    reference = Path(
-        "data/results/fish_12s/assessment/2026-10-17/reference_matches.tsv"
+    manifest_path = args.manifest or Path(config["manifest"])
+    manifest = table(manifest_path)
+    reuse = (
+        {r["analysis_sample_id"] for r in table(Path(config["reuse_manifest"]))}
+        if config.get("reuse_manifest")
+        else set()
     )
-    meta = {r["reference_id"]: r for r in table(reference)}
-    genera = {r["species"].split()[0] for r in meta.values()}
+    meta = reference_metadata(args.reference_metadata)
     inputs = {
         args.config,
-        Path(config["manifest"]),
-        Path(config["reuse_manifest"]),
-        reference,
+        manifest_path,
+        args.reference_metadata,
+        Path(__file__).with_name("classify_candidates.py"),
     }
+    if reuse:
+        inputs.add(Path(config["reuse_manifest"]))
     pairs, samples = [], []
     for sample in manifest:
         sid = sample["analysis_sample_id"]
-        relative = Path(sid, "host_depleted")
+        relative = Path(sid, sample.get("read_pair_id", "host_depleted"))
         directory = (
             Path(config["reuse_screen"]) / relative
             if sid in reuse
@@ -121,33 +112,11 @@ def main() -> None:
                     methods[rid].update({key: int(row[key]) for key in methods[rid]})
             path = directory / "alignment/hits.tsv"
             inputs.add(path)
-            hits = defaultdict(list)
-            with path.open() as handle:
-                for row in csv.reader(handle, delimiter="\t"):
-                    qid, reference_id = row[:2]
-                    assert qid in queries, (path, qid)
-                    annotation = meta.get(reference_id)
-                    name = (
-                        annotation["species"]
-                        if annotation
-                        else " ".join(row[14].split()[:2])
-                    )
-                    hits[qid].append(
-                        dict(
-                            reference_id=reference_id,
-                            name=name,
-                            fish=bool(annotation) or name.split()[0] in genera,
-                            identity=float(row[2]),
-                            length=int(row[3]),
-                            bitscore=float(row[11]),
-                            query_length=int(row[12]),
-                            subject_start=int(row[8]),
-                            subject_end=int(row[9]),
-                        )
-                    )
+            hits = read_hits(path, meta)
+            assert not (set(hits) - queries.keys()), (path, "unknown query")
             for qid, (rid, mate) in queries.items():
                 assert mate in [1, 2] and mate not in paired[rid], (sid, rid, mate)
-                paired[rid][mate] = evidence(hits[qid])
+                paired[rid][mate] = evidence(hits.get(qid, []))
         if sid in reuse:
             aligners = Path(config["reuse_aligners"]) / relative
             for path in [aligners / "sortmerna.fq", aligners / "bowtie2.sam"]:
@@ -165,20 +134,9 @@ def main() -> None:
         counts, close_methods = Counter(), Counter()
         for rid, mates in paired.items():
             assert set(mates) == {1, 2}, (sid, rid)
-            categories = {m["category"] for m in mates.values()}
-            conflicting = any(
-                m["category"] == "other_reference"
-                and m["top"]["identity"] >= 95
-                and m["top"]["length"] >= 100
-                for m in mates.values()
-            )
-            if "long_close_fish_match" in categories and not conflicting:
-                category = "long_close_fish_match"
+            category = pair_category(mates)
+            if category == "long_close_fish_match":
                 close_methods.update(methods[rid])
-            elif categories & {"long_close_fish_match", "other_fish_similarity"}:
-                category = "other_fish_similarity"
-            else:
-                category = "other_or_no_hit"
             counts[category] += 1
             row = dict(
                 analysis_sample_id=sid,
@@ -196,6 +154,7 @@ def main() -> None:
                     "query_length",
                     "subject_start",
                     "subject_end",
+                    "marker_overlap_nt",
                 ]:
                     row[f"R{mate}_{key}"] = e["top"].get(key, "")
                 row[f"R{mate}_near_best_names"] = ";".join(e["near_names"])
@@ -221,10 +180,38 @@ def main() -> None:
                 },
             )
         )
-    assert len(samples) == len({r["analysis_sample_id"] for r in samples}) == 161
+    assert (
+        len(samples) == len({r["analysis_sample_id"] for r in samples}) == len(manifest)
+    )
     args.output.mkdir(parents=True, exist_ok=True)
     write_table(args.output / "sample_summary.tsv", samples)
-    write_table(args.output / "pair_review.tsv", pairs)
+    fields = [
+        "analysis_sample_id",
+        "read_pair_id",
+        "review_category",
+        "regex",
+        "bbduk25",
+        "bowtie2",
+        "sortmerna",
+    ]
+    for mate in [1, 2]:
+        fields.extend(
+            f"R{mate}_{key}"
+            for key in [
+                "category",
+                "reference_id",
+                "name",
+                "identity",
+                "length",
+                "query_length",
+                "subject_start",
+                "subject_end",
+                "marker_overlap_nt",
+                "near_best_names",
+                "hit_list_truncated",
+            ]
+        )
+    write_table(args.output / "pair_review.tsv", pairs, fields)
     provenance = dict(
         completed_utc=datetime.now(timezone.utc).isoformat(),
         command=sys.argv,
