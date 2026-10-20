@@ -1,0 +1,13 @@
+{
+  "response_entries": 92,
+  "original_review_entries": 70,
+  "decisions": {
+    "set_value": 49,
+    "unresolved": 18,
+    "not_assigned": 8,
+    "keep_current": 17
+  },
+  "affected_libraries": 59,
+  "source_sha256": "52376c3af7e739d2bcb571ad349cb1479c5a55e1f48e62f301bbdfdb9c2af681",
+  "analysis_inputs_changed": false
+}

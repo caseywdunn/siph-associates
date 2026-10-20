@@ -1,0 +1,49 @@
+library_id	field	status	current_value	follow_up
+Church2025:FM-16644	collection_id	unresolved		Collected by others; not known to the study. May be derivable from the holding institution's catalog (Field Museum).
+Church2025:OA-190531-1	voucher_id	unresolved		Unknown. Specimen provided by Ozren and Alex; not confirmed whether a voucher was ever deposited.
+Church2025:OA-190531-1	biosample	unresolved		Unknown. Specimen provided by Ozren and Alex; not confirmed whether a BioSample was ever registered.
+Church2025:OA-190531-1	tissue	unresolved		Unknown. Specimen provided by Ozren and Alex.
+Church2025:OA-Bluebottle	voucher_id	unresolved		Unknown. Specimen provided by Ozren and Alex; not confirmed whether a voucher was ever deposited.
+Church2025:OA-Bluebottle	biosample	unresolved		Unknown. Specimen provided by Ozren and Alex; not confirmed whether a BioSample was ever registered.
+Church2025:OA-Bluebottle	sample_id	unresolved		Unknown. Specimen provided by Ozren and Alex. GON10891 retained as field event; whether it is an event or tissue identifier is unconfirmed.
+Church2025:OA-Bluebottle	tissue	unresolved		Unknown. Specimen provided by Ozren and Alex.
+Church2025:TMAG-K5632	collection_id	unresolved		Collected by others; not known to the study. May be derivable from the holding institution's catalog (TMAG).
+Church2025:TMAG-K5633	collection_id	unresolved		Collected by others; not known to the study. May be derivable from the holding institution's catalog (TMAG).
+Church2025:TMAG-K5634	collection_id	unresolved		Collected by others; not known to the study. May be derivable from the holding institution's catalog (TMAG).
+Church2025:TMAG-K5635	collection_id	unresolved		Collected by others; not known to the study. May be derivable from the holding institution's catalog (TMAG).
+Church2025:TMAG-K5636	collection_id	unresolved		Collected by others; not known to the study. May be derivable from the holding institution's catalog (TMAG).
+Church2025:WAM-Z88480	collection_id	unresolved		Collected by others; not known to the study. May be derivable from the holding institution's catalog (WAM).
+Church2025:YPM-IZ-110694	collection_id	unresolved		No field event ID recorded in any project metadata (specimen_ID/site ID blank). Collector Mary Beth Decker.
+Church2025:YPM-IZ-110906	collection_id	unresolved		No field event ID recorded in any project metadata (specimen_ID/site ID blank). Collectors Jessica Perelman, Andrea Schmidt (permit PMNM-2023-001).
+Church2025:YPM-IZ-110907	collection_id	unresolved		No field event ID recorded in any project metadata (specimen_ID/site ID blank). Collectors Jessica Perelman, Andrea Schmidt (permit PMNM-2023-001).
+Church2025:YPM-IZ-111163	collection_id	unresolved		No field event ID recorded in any project metadata (specimen_ID/site ID blank). Collector Amandine Schaeffer.
+Church2025:YPM-IZ-110460	collection_date	retained_with_limited_support	2022-11-14	Collecting record prioritized over catalog. Not confirmed by collector (C. Simon); spreadsheet notes an email sent to Chris.
+Church2025:YPM-IZ-111241	collection_date	retained_with_limited_support	2024-03-15	Weaker support: no Collecting sheet row; date appears only in the SRA submission sheet. Catalog date may reflect a different collecting day.
+Church2025:YPM-IZ-111243	collection_date	retained_with_limited_support	2024-03-15	Weaker support: no Collecting sheet row; date appears only in the SRA submission sheet. Catalog date may reflect a different collecting day.
+Ahuja2024:CWD104	voucher_id	awaiting_review		No museum voucher number was found in the reviewed source records.
+Ahuja2024:CWD116	voucher_id	awaiting_review		No museum voucher number was found in the reviewed source records.
+Ahuja2024:NA10	voucher_id	awaiting_review		No museum voucher number was found in the reviewed source records.
+Ahuja2024:NA11	voucher_id	awaiting_review		No museum voucher number was found in the reviewed source records.
+Ahuja2024:NA2	voucher_id	awaiting_review		No museum voucher number was found in the reviewed source records.
+Ahuja2024:NA3	voucher_id	awaiting_review		No museum voucher number was found in the reviewed source records.
+Ahuja2024:NA4	voucher_id	awaiting_review		No museum voucher number was found in the reviewed source records.
+Ahuja2024:NA5	voucher_id	awaiting_review		No museum voucher number was found in the reviewed source records.
+Ahuja2024:NA6	voucher_id	awaiting_review		No museum voucher number was found in the reviewed source records.
+Ahuja2024:NA7	voucher_id	awaiting_review		No museum voucher number was found in the reviewed source records.
+Ahuja2024:NA9	voucher_id	awaiting_review		No museum voucher number was found in the reviewed source records.
+Ahuja2024:CWD101	collection_id	awaiting_review	Tib595D1	Museum field label is T595-D1; study collection label Tib595D1 retained.
+Ahuja2024:CWD11	coordinates	awaiting_review	latitude=40.31; longitude=-68.13	Study coordinates fall outside the museum locality's mapped extent; study coordinates retained pending review. Museum field label is JSLII3272-D1; study collection label JSL3272D1 retained.
+Ahuja2024:CWD11	collection_id	awaiting_review	JSL3272D1	Study coordinates fall outside the museum locality's mapped extent; study coordinates retained pending review. Museum field label is JSLII3272-D1; study collection label JSL3272D1 retained.
+Ahuja2024:CWD131	collection_date	awaiting_review	2003-03-15	Collection date differs: study 2003-03-15; museum 1999-03-15. Study date retained pending review. Museum field label is BW415 GOC#59; study collection label BW415May03GOC#59 retained. Museum locality lists both Gulf of California and USA; country left unresolved. Museum gives a 0–50 m depth interval; the study's explicit 10 m point depth is retained.
+Ahuja2024:CWD131	collection_id	awaiting_review	BW415May03GOC#59	Collection date differs: study 2003-03-15; museum 1999-03-15. Study date retained pending review. Museum field label is BW415 GOC#59; study collection label BW415May03GOC#59 retained. Museum locality lists both Gulf of California and USA; country left unresolved. Museum gives a 0–50 m depth interval; the study's explicit 10 m point depth is retained.
+Ahuja2024:CWD131	country	awaiting_review		Collection date differs: study 2003-03-15; museum 1999-03-15. Study date retained pending review. Museum field label is BW415 GOC#59; study collection label BW415May03GOC#59 retained. Museum locality lists both Gulf of California and USA; country left unresolved. Museum gives a 0–50 m depth interval; the study's explicit 10 m point depth is retained.
+Ahuja2024:CWD144	collection_date	awaiting_review	2000-01-13	Collection date differs: study 2000-01-13; museum 2003-01-13. Study date retained pending review. Museum field label is T105-SS8; study collection label Tib105SS8 retained.
+Ahuja2024:CWD144	collection_id	awaiting_review	Tib105SS8	Collection date differs: study 2000-01-13; museum 2003-01-13. Study date retained pending review. Museum field label is T105-SS8; study collection label Tib105SS8 retained.
+Ahuja2024:CWD146	collection_date	awaiting_review	2003-03-13	Collection date differs: study 2003-03-13; museum 2002-03-22. Study date retained pending review. Museum field label is T531-D3; study collection label 531D3 retained.
+Ahuja2024:CWD146	collection_id	awaiting_review	531D3	Collection date differs: study 2003-03-13; museum 2002-03-22. Study date retained pending review. Museum field label is T531-D3; study collection label 531D3 retained.
+Ahuja2024:CWD16	depth_m	awaiting_review	10 m; reported range 0–20 m	Depth differs: study 0–20 m; museum 0-50 meters. Study depth retained pending review.
+Ahuja2024:CWD19	collection_id	awaiting_review	MBARI03129	Museum field label is MBARI031299; study collection label MBARI03129 retained.
+Ahuja2024:NA8	depth_m	awaiting_review	1299	Depth differs: study 1299 m; museum 1289.68-1289.68 meters. Study depth retained pending review.
+Ahuja2026:NA19	depth_m	awaiting_review		Depth left blank because sources disagree (296 versus 297 m).
+Ahuja2026:WS5	depth_m	awaiting_review		Depth left blank because the meaning and units of the source value 2854.16 have not been confirmed.
+Ahuja2026:WS6	depth_m	awaiting_review		Depth left blank because the meaning and units of the source value 2563.33 have not been confirmed.

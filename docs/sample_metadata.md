@@ -20,12 +20,14 @@ and settings used for the completed analyses.
 | `tissue_tube_id` | Additional dissection/tissue-tube label when a study records it separately. |
 | `specimen_voucher` | Compatibility alias of `voucher_id`. |
 
-For Church et al., `sample_id` uses the source `YCGA_ID`, or `diss_tube_ID` when
-the sequencing-center label is absent. Both identify the submitted tissue/sample;
-the original column is retained in the provenance. General `specimen_ID` labels
-are not silently treated as tissue identifiers. Repeated sequencing entries are
-accepted only when their labels agree. The published NIWA and TMAG museum-ID
-corrections are applied when matching source records.
+For Church et al., source `YCGA_ID` and `diss_tube_ID` labels are supplemented
+and corrected by Samuel Church's October 19 author review. His explicitly
+confirmed CWD and S238 tissue labels take precedence; museum-derived submitted
+labels retain the institution prefix. These labels are distinguished from a
+separate tube number in the notes. Eight specimens never had a separate sample
+label; their `sample_id` stays blank and their review decision is `not_assigned`.
+Sequencing-center tracking codes and unconfirmed general specimen labels are
+not substituted. Analysis identifiers remain unchanged.
 
 ## Collection and tissue fields
 
@@ -55,6 +57,16 @@ a separate name. These are not evidence about missing specimen metadata.
 ## Review and update
 
 ### Manual review worksheet
+
+The [October 19 Church responses](../data/metadata/manual-review/church2025-2026-10-19/2026-10-19_church2025_review_response.md)
+have been applied. They fill 24 previously missing values (16 tissues and eight
+sample labels), resolve eight blank labels as never assigned, correct three
+coordinate pairs, confirm 11 collection dates, and correct 22 existing sample
+labels. All 70 original Church worksheet entries now have decisions. The
+[application and remaining-work summary](../data/metadata/manual-review/church2025-2026-10-19/README.md)
+separates 18 still-unresolved Church entries from eight never-assigned labels
+and three retained dates with limited support. The counts in the table below
+describe the original questions, not the current open workload.
 
 Use the study-specific worksheets below to supply corrections and decisions.
 Each has an accompanying plain-text question draft that can be forwarded with

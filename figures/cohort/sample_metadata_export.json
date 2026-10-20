@@ -1,16 +1,16 @@
 {
   "command": [
-    "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
-    "figures/build_cohort.py"
+    "/usr/bin/python3",
+    "scripts/export_sample_metadata.py"
   ],
-  "python": "3.11.0",
+  "python": "3.11.13",
   "libraries": 205,
   "missing": {
     "collection_id": 11,
-    "sample_id": 17,
     "voucher_id": 13,
     "biosample": 2,
-    "tissue": 18,
+    "tissue": 2,
+    "sample_id": 9,
     "depth_m": 3
   },
   "depth_basis": {
@@ -24,12 +24,12 @@
     "config/samples.tsv": "727e749ac2e2218989de237401bfc89abcf4fd8f63b7ec2d152c4dc2e2b0be9f",
     "config/publication_host_names.tsv": "5b595dde7a71c2aba438a581f10051663d239bb069359d3077bc09a4fbfe0f8c",
     "data/metadata/sample_metadata_updates.tsv": "7c5ea70abf78e6b0c6f2cb26cf9ce0638cdfba14dbd7a5f2dd56d783aa73d1e3",
-    "data/metadata/publication_metadata_updates.tsv": "86e7f1653842477ff8b5ba71fc5216c61970d4fa6045878228af2ec901c3983d",
+    "data/metadata/publication_metadata_updates.tsv": "86e62068a969ccb29b09170be70a4fc9f188810c8c9b1dd0204dabb28e8b30ed",
     "scripts/export_sample_metadata.py": "3cba0786a13abd445a12ff8f326bdf64f5a880901eddad8533e15f0f88e1216e"
   },
   "outputs_sha256": {
-    "sample_metadata.tsv": "13daa63154beb21c1d578f401ccd06bda494a40cfa3597aba42ff5e17bfebd7d",
-    "sample_metadata_provenance.tsv": "2ca3ce57ca4f84cbe98cbee7a0d23a80c25df86f618c4d51519d066da90c3741",
-    "sample_metadata_missing.tsv": "839d9d9f4a436beb519740a1f5ddf0a99a3133da20d5561e67984aec9a5f6ff0"
+    "sample_metadata.tsv": "16237dbdf07a07358cdfcdaa19092498e4f98e574dd83349a4929bdd32b7f5f3",
+    "sample_metadata_provenance.tsv": "52b9de5916c422cda6886e13c44c510af1b301d3e184843034d2e69a2a65520b",
+    "sample_metadata_missing.tsv": "0d6c7d6141f8731c25f44d8db4b3a75aa524734492bf9bd6c0426d7d36925b52"
   }
 }
