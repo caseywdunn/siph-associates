@@ -1,8 +1,8 @@
 {
-  "status": "hold",
+  "status": "authorized",
   "requested_by": "user",
   "requested_date": "2026-10-20",
-  "reason": "Complete every per-library assembly without a read-count cutoff and prepare the combined cohort, but do not run full-cohort mapping. Additional MAG identity and contamination QC must precede catalog approval and mapping.",
+  "reason": "User authorized starting the full-cohort microbial and viral remapping round after validated catalog preparation.",
   "cohort_libraries": 213,
   "required_reviews": {
     "bargmannia": "Eight new Manko2026 libraries: assemblies, genome/viral recovery and final inclusion reviewed.",
@@ -14,5 +14,16 @@
   },
   "automatic_remapping": false,
   "requires_explicit_mapping_authorization": true,
-  "readme": "docs/halistemma.md"
+  "readme": "docs/halistemma.md",
+  "authorization": {
+    "requested_by": "user",
+    "requested_date": "2026-10-20",
+    "request": "push. THen if ready start the remapping round",
+    "scope": "213 libraries; microbial and combined viral catalogs; mapping and coverage validation",
+    "catalog_version": "v3",
+    "catalog_readiness_sha256": "1325199ab1a181231310ce050b1e160258cefc47404160337d77f625e33f861e",
+    "catalog_inventory_sha256": "c5e3777d13238b6e9622e8104f81f9a86091a12f1aebb468ad04d9ed9764c273",
+    "mapping_read_inventory_sha256": "e16dcb668c3e0022670df26637874b82b123e0fd6d57d94176ba013717ae32a1",
+    "mapping_policy_sha256": "f068ed57715f6a58cd6b7db69fda1ad12a48706b9b78ecf9856477f36261927b"
+  }
 }

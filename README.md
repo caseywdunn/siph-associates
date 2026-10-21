@@ -6,8 +6,9 @@ are complete, with a 213-library source inventory. The
 [MAG and viral QC review](docs/catalog_qc.md#curated-mapping-targets) records
 fragment curation, updated quality estimates and the revised catalogs. See the
 [catalog v3 record](figures/catalog_qc/catalog_v3/) for membership, identifiers
-and checksums. **Full-cohort mapping remains on hold pending explicit
-authorization.**
+and checksums. **The 213-library microbial and viral remapping round is
+authorized**; the [run guide](docs/cohort_remapping.md) describes its inputs,
+checks and outputs.
 
 The [completed fish 12S screen](docs/fish_12s_results.md) covers all 205 original libraries.
 The [Bargmannia expansion](docs/bargmannia.md) adds eight newly public libraries

@@ -38,5 +38,7 @@ BAC00459. The false archaeal identifiers MAGSP0026 and BAC00006 remain retired.
 The FASTAs and indexes remain on the cluster at
 `data/results/post_expansion/2026-10-20/curated/phase4_catalog/v3/`.
 The microbial and combined viral FASTAs support separate competitive alignments
-in the same planned cohort-remapping round. Full-cohort mapping has not started;
-the existing detection and abundance tables still describe the earlier catalogs.
+in the same cohort-remapping round. This record was created before mapping;
+the subsequent [authorization and run guide](../../../docs/cohort_remapping.md)
+describe the remapping round. Existing detection and abundance tables still
+describe the earlier catalogs until the new results are reviewed.

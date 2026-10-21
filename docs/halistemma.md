@@ -65,21 +65,18 @@ or cohort-wide competitive remapping.
 
 ![Halistemma workflow](workflow/graphs/halistemma.svg)
 
-## Hold on combined remapping
+## Combined remapping
 
-**Do not remap the full cohort until additional MAG/viral QC, catalog review,
-and explicit mapping authorization are complete.** This extends the user's
-2026-10-19 hold with their 2026-10-20 instruction, recorded
-in [post_expansion_remapping.json](../config/post_expansion_remapping.json).
+The additional MAG/viral QC and catalog review are complete. On 2026-10-20 the
+user explicitly authorized the [213-library remapping round](cohort_remapping.md),
+superseding the earlier hold in
+[post_expansion_remapping.json](../config/post_expansion_remapping.json).
 
-Review the eight new Bargmannia libraries and both replacement Halistemma
-assembly inputs together, including domain assignments and possible host
-carryover. Select one assembly input per Halistemma library for the final
-catalog; the original assemblies remain as comparison baselines, not duplicate
-inputs with overlapping contig names. Then build and freeze the pooled microbial and viral catalogs,
-retaining the MAGSP0026 domain exclusion. The [QC plan](catalog_qc.md) precedes
-authorization for one full-cohort remapping of **213** libraries. Halistemma
-changes processing for two existing samples; it does not add samples.
+The reviewed catalog pools the eight new Bargmannia libraries with the original
+cohort, using one selected host-depleted assembly per Halistemma library. The
+original assemblies remain as comparison baselines. Catalog v3 retains the
+MAGSP0026 domain exclusion. Halistemma changes processing for two existing
+samples; it does not add samples.
 
 The current 205-library manuscript remains the reporting baseline until that
 combined analysis passes review. Neither of the active per-library workflows

@@ -18,10 +18,13 @@ Next: the presence rule is locked from MAG positives and decoy negatives, then
 applied in Phase 6.
 """
 
+import shlex
+
 P5 = f"{WORK}/phase5_mapping"
 P5_VERSION = PHASE5["catalog_version"]
 P5V = f"{P5}/{P5_VERSION}"  # catalog-dependent outputs; earlier versions stay on disk
-P5_CATALOG = f"{WORK}/phase4_catalog/{PHASE5['catalog_version']}"
+P5_CATALOG = config.get("mapping_catalog_root", f"{WORK}/phase4_catalog/{PHASE5['catalog_version']}")
+P5_VIRAL_FASTA = config.get("mapping_viral_fasta", f"{P5V}/viral_catalog.fna")
 P5_TOOLS = f"{PHASE5['tool_prefixes']['mapping']}/bin"
 P5_MAP = PHASE5["mapping"]
 P5_COVERAGE = PHASE5["coverage"]
@@ -35,7 +38,8 @@ rule trim_reads_for_mapping:
     input:
         r1=raw_r1,
         r2=raw_r2,
-        run_snapshot=ancient(f"{WORK}/provenance/run/inputs.sha256"),
+        run_snapshot=ancient(config.get("mapping_run_snapshot", f"{WORK}/provenance/run/inputs.sha256")),
+        preflight=config.get("mapping_preflight", []),
     output:
         r1=temp(f"{P5}/trimmed/{{sample}}_R1.fastq.gz"),
         r2=temp(f"{P5}/trimmed/{{sample}}_R2.fastq.gz"),
@@ -92,6 +96,8 @@ rule map_reads_bacterial_bwa:
         r1=lambda wildcards: phase5_reads(wildcards, 1),
         r2=lambda wildcards: phase5_reads(wildcards, 2),
         index=BACTERIAL_INDEX,
+        preflight=config.get("mapping_preflight", []),
+        reads_checked=lambda w: f"{config['mapping_read_checks']}/{w.sample}.json" if w.sample in config.get("mapping_regenerated_samples", []) else [],
     output:
         bam=f"{P5V}/bam/bacterial/{{sample}}.bam",
         bai=f"{P5V}/bam/bacterial/{{sample}}.bam.bai",
@@ -138,7 +144,9 @@ rule map_reads_viral_bwa:
     input:
         r1=lambda wildcards: phase5_reads(wildcards, 1),
         r2=lambda wildcards: phase5_reads(wildcards, 2),
-        index=multiext(f"{P5V}/viral_catalog.fna", ".amb", ".ann", ".bwt", ".pac", ".sa"),
+        index=multiext(P5_VIRAL_FASTA, ".amb", ".ann", ".bwt", ".pac", ".sa"),
+        preflight=config.get("mapping_preflight", []),
+        reads_checked=lambda w: f"{config['mapping_read_checks']}/{w.sample}.json" if w.sample in config.get("mapping_regenerated_samples", []) else [],
     output:
         bam=f"{P5V}/bam/viral/{{sample}}.bam",
         bai=f"{P5V}/bam/viral/{{sample}}.bam.bai",
@@ -247,6 +255,7 @@ rule aggregate_mapping:
         trim=lambda wildcards: [f"{WORK}/provenance/phase5_mapping/trim/{s}.json"
                                 for s in phase5_scope_samples(wildcards) if SAMPLES[s]["host_route"] == "none"],
         manifest=f"{P5_CATALOG}/bacterial_catalog.manifest.tsv",
+        read_inventory=config.get("mapping_read_inventory", []),
     output:
         bacterial=f"{P5V}/{{scope}}/bacterial_coverage.tsv",
         viral=f"{P5V}/{{scope}}/viral_coverage.tsv",
@@ -255,8 +264,9 @@ rule aggregate_mapping:
         samples=phase5_scope_samples,
         results=lambda wildcards, output: str(Path(output.bacterial).parent.parent),
         provenance=f"{WORK}/provenance/phase5_mapping",
-        eligibility=f"{WORK}/phase3_cohort/input_eligibility.tsv",
+        eligibility=config.get("mapping_eligibility", f"{WORK}/phase3_cohort/input_eligibility.tsv"),
         samples_table=config["samples"],
+        inventory_option=lambda w, input: "--read-inventory " + shlex.quote(str(input.read_inventory)) if input.read_inventory else "",
     log:
         f"{WORK}/logs/phase5_mapping/aggregate_{{scope}}.log",
     threads: 1
@@ -268,7 +278,7 @@ rule aggregate_mapping:
         """
         python {input.script:q} --samples {params.samples:q} --results {params.results:q} \
           --provenance {params.provenance:q} --manifest {input.manifest:q} --eligibility {params.eligibility:q} --samples-table {params.samples_table:q} \
-          --bacterial {output.bacterial:q} --viral {output.viral:q} --libraries {output.libraries:q} > {log:q} 2>&1
+          --bacterial {output.bacterial:q} --viral {output.viral:q} --libraries {output.libraries:q} {params.inventory_option} > {log:q} 2>&1
         """
 
 
@@ -279,12 +289,12 @@ rule validate_mapping:
         viral=f"{P5V}/{{scope}}/viral_coverage.tsv",
         libraries=f"{P5V}/{{scope}}/library_mapping.tsv",
         manifest=f"{P5_CATALOG}/bacterial_catalog.manifest.tsv",
-        viral_fasta=f"{P5V}/viral_catalog.fna",
+        viral_fasta=P5_VIRAL_FASTA,
     output:
         f"{WORK}/stages/phase5_mapping_{{scope}}_{P5_VERSION}.done",
     params:
         samples=phase5_scope_samples,
-        library_qc=f"{WORK}/aggregation/cohort/library_qc.tsv",
+        library_qc=config.get("mapping_library_qc", f"{WORK}/aggregation/cohort/library_qc.tsv"),
     log:
         f"{WORK}/logs/phase5_mapping/validate_{{scope}}.log",
     threads: 1

@@ -110,6 +110,7 @@ these files without decompressing original FASTQs.
 
 ![Generated preparation graph](workflow/graphs/post_expansion_preparation.svg)
 
-The [MAG and viral QC plan](catalog_qc.md) defines the next review. The
-[mapping hold](../config/post_expansion_remapping.json) remains active after
-preparation succeeds; full-cohort mapping requires explicit authorization.
+Preparation itself does not authorize mapping. The [MAG and viral QC review](catalog_qc.md)
+subsequently passed, and the user explicitly authorized the
+[213-library remapping round](cohort_remapping.md). The historical preparation
+reports retain the hold that applied when they were created.

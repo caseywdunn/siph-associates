@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Combine per-library CoverM tables into long-form coverage and library accounting tables."""
+
 import argparse
 import csv
 import json
@@ -14,13 +15,22 @@ parser.add_argument("--provenance", required=True, type=Path)
 parser.add_argument("--manifest", required=True)
 parser.add_argument("--eligibility", required=True)
 parser.add_argument("--samples-table", required=True)
+parser.add_argument(
+    "--read-inventory", help="Frozen read-source inventory for reused trimmed libraries"
+)
 parser.add_argument("--bacterial", required=True, type=Path)
 parser.add_argument("--viral", required=True, type=Path)
 parser.add_argument("--libraries", required=True, type=Path)
 args = parser.parse_args()
 
-METRICS = {"Covered Fraction": "covered_fraction", "Read Count": "read_count", "Mean": "mean_depth",
-           "Trimmed Mean": "trimmed_mean_depth", "Covered Bases": "covered_bases", "Length": "length"}
+METRICS = {
+    "Covered Fraction": "covered_fraction",
+    "Read Count": "read_count",
+    "Mean": "mean_depth",
+    "Trimmed Mean": "trimmed_mean_depth",
+    "Covered Bases": "covered_bases",
+    "Length": "length",
+}
 
 
 def rows(path):
@@ -44,19 +54,26 @@ def coverm(path):
 
 def primary_mapped(path):
     text = Path(path).read_text()
-    match = re.search(r"^(\d+) \+ \d+ mapped", text, re.M)
+    match = re.search(r"^(\d+) \+ \d+ mapped", text, re.MULTILINE)
     return int(match.group(1)) if match else 0
 
 
 manifest = {r["catalog_id"]: r for r in rows(args.manifest) if r["catalog_id"]}
 eligibility = {r["sample_id"]: r for r in rows(args.eligibility)}
 route = {r["sample_id"]: r["host_route"] for r in rows(args.samples_table)}
+read_inventory = (
+    {r["sample_id"]: r for r in rows(args.read_inventory)}
+    if args.read_inventory
+    else {}
+)
 
 
 def write(path, fields, records):
     temporary = path.with_name(path.name + ".tmp")
     with temporary.open("w", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields, delimiter="\t", lineterminator="\n")
+        writer = csv.DictWriter(
+            handle, fieldnames=fields, delimiter="\t", lineterminator="\n"
+        )
         writer.writeheader()
         writer.writerows(records)
     os.replace(temporary, path)
@@ -69,26 +86,65 @@ for sample in args.samples:
         if record["target_id"] == "unmapped":
             continue
         entry = manifest.get(record["target_id"], {})
-        bacterial.append({"sample_id": sample, **record, "role": entry.get("role", ""),
-                          "taxonomy": entry.get("taxonomy", "")})
+        bacterial.append(
+            {
+                "sample_id": sample,
+                **record,
+                "role": entry.get("role", ""),
+                "taxonomy": entry.get("taxonomy", ""),
+            }
+        )
     for record in coverm(args.results / "coverage" / "viral" / f"{sample}.tsv"):
         if record["target_id"] != "unmapped":
-            viral.append({"sample_id": sample, **record,
-                          "catalog_class": "associate" if record["target_id"].startswith("VOTU")
-                          else "endogenous_candidate"})
+            viral.append(
+                {
+                    "sample_id": sample,
+                    **record,
+                    "catalog_class": "associate"
+                    if record["target_id"].startswith("VOTU")
+                    else "endogenous_candidate",
+                }
+            )
     if route[sample] == "none":
         trim = json.loads((args.provenance / "trim" / f"{sample}.json").read_text())
         source, pairs = "trimmed_regenerated", int(trim["pairs_after_fastp"])
+        if read_inventory.get(sample, {}).get("availability") == "ready":
+            source = "trimmed_retained"
     else:
         source, pairs = "host_depleted", int(eligibility[sample]["retained_pairs"])
-    libraries.append({
-        "sample_id": sample, "host_route": route[sample], "read_source": source, "input_pairs": pairs,
-        "bacterial_filtered_reads": primary_mapped(args.results / "bam" / "bacterial" / f"{sample}.flagstat.txt"),
-        "viral_filtered_reads": primary_mapped(args.results / "bam" / "viral" / f"{sample}.flagstat.txt"),
-    })
+    libraries.append(
+        {
+            "sample_id": sample,
+            "host_route": route[sample],
+            "read_source": source,
+            "input_pairs": pairs,
+            "bacterial_filtered_reads": primary_mapped(
+                args.results / "bam" / "bacterial" / f"{sample}.flagstat.txt"
+            ),
+            "viral_filtered_reads": primary_mapped(
+                args.results / "bam" / "viral" / f"{sample}.flagstat.txt"
+            ),
+        }
+    )
 
-write(args.bacterial, ["sample_id", "target_id", "role", *METRICS.values(), "taxonomy"], bacterial)
+write(
+    args.bacterial,
+    ["sample_id", "target_id", "role", *METRICS.values(), "taxonomy"],
+    bacterial,
+)
 write(args.viral, ["sample_id", "target_id", "catalog_class", *METRICS.values()], viral)
-write(args.libraries, ["sample_id", "host_route", "read_source", "input_pairs", "bacterial_filtered_reads",
-                       "viral_filtered_reads"], libraries)
-print(f"samples={len(args.samples)} bacterial_rows={len(bacterial)} viral_rows={len(viral)}")
+write(
+    args.libraries,
+    [
+        "sample_id",
+        "host_route",
+        "read_source",
+        "input_pairs",
+        "bacterial_filtered_reads",
+        "viral_filtered_reads",
+    ],
+    libraries,
+)
+print(
+    f"samples={len(args.samples)} bacterial_rows={len(bacterial)} viral_rows={len(viral)}"
+)

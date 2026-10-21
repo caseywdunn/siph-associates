@@ -3,7 +3,9 @@
 The previous Thermoproteota assignment was a Perkinsela-related eukaryotic bin.
 GTDB placement and CheckM2 estimates alone did not establish prokaryotic identity;
 the [domain audit](mag_domain_audit.md) documents the evidence. Every prospective
-MAG catalog member, including previously retained bins, needs further review.
+MAG catalog member, including previously retained bins, was reviewed before
+catalog v3 was frozen. The user subsequently authorized the
+[213-library remapping round](cohort_remapping.md) on 2026-10-20.
 
 [Preparation](assembly_completion.md#prepare-the-combined-cohort-for-qc) preserves
 sequence identities and source assemblies. Known eukaryotic bins stay excluded
@@ -237,7 +239,9 @@ The retained read inventory is
 host-depleted reads, eight Bargmannia libraries have full trimmed reads, and 42
 original reference-free libraries need trimmed reads regenerated when mapping
 is authorized. A 25-million-pair assembly subset is never substituted for the
-full mapping input. Full-cohort mapping remains held for both catalogs.
+full mapping input. Mapping was held for both catalogs at this preparation
+checkpoint; the subsequent [explicit authorization](cohort_remapping.md) starts
+the combined remapping round.
 
 ![Assembly curation evidence](workflow/graphs/catalog_curation.svg)
 

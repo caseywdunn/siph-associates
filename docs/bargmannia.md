@@ -68,19 +68,15 @@ are recorded in [raw_files.tsv](../data/metadata/manko2026/raw_files.tsv).
 
 ## Combined-cohort follow-up
 
-**Full-cohort mapping remains on hold pending assembly completion, additional
-MAG/viral QC, catalog review and explicit authorization**, as requested on
-2026-10-20. See [assembly completion](assembly_completion.md) and the
-[QC plan](catalog_qc.md).
-The hold is recorded in [post_expansion_remapping.json](../config/post_expansion_remapping.json).
+Assembly completion and additional MAG/viral QC are complete, and catalog v3
+is indexed and validated. The user explicitly authorized the
+[213-library remapping round](cohort_remapping.md) on 2026-10-20, superseding the
+earlier hold in [post_expansion_remapping.json](../config/post_expansion_remapping.json).
 
-Once both sets of per-library products pass review, combine the retained original
-assemblies with the new Bargmannia and reviewed Halistemma assemblies, classify
-and dereplicate the pooled genome and viral catalogs, and freeze the next catalog
-version. Apply the MAGSP0026 domain
-exclusion and review questionable domain assignments before accepting new bins.
-After explicit authorization, perform one full remapping of all 213 libraries against the combined catalog and
-regenerate the cohort summaries, treating Manko2026 as the fourth study.
+The pooled catalog combines retained original assemblies with the new Bargmannia
+and reviewed Halistemma assemblies, retaining the MAGSP0026 domain exclusion.
+One full remapping of all 213 libraries will support revised cohort summaries,
+treating Manko2026 as the fourth study.
 Existing assemblies are reusable; existing mappings cannot establish abundance
 against newly added competing targets. The original 205-library manuscript
 tables remain the reporting scope until that combined analysis is complete.

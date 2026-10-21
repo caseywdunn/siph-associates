@@ -212,5 +212,12 @@
     "targets": [
       "catalog_ready"
     ]
+  },
+  "cohort_remapping": {
+    "snakefile": "workflow/cohort_remapping.smk",
+    "config": "config/cohort_remapping.json",
+    "targets": [
+      "remapping"
+    ]
   }
 }

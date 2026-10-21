@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "work_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/remapping",
+  "scratch_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/remapping/scratch",
+  "samples": "config/post_expansion_samples.tsv",
+  "manifest": "manifest.csv",
+  "mapping_read_inventory": "config/post_expansion_mapping_inputs.tsv",
+  "mapping_catalog_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/curated/phase4_catalog/v3",
+  "mapping_viral_fasta": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/curated/phase4_catalog/v3/viral_catalog.fna",
+  "catalog_version": "v3",
+  "mapping_policy": "config/phase5_mapping.json",
+  "authorization": "config/post_expansion_remapping.json",
+  "catalog_readiness": "figures/catalog_qc/catalog_v3/catalog_ready.json",
+  "catalog_inventory": "figures/catalog_qc/catalog_v3/inventory.tsv",
+  "mapping_preflight": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/remapping/preflight.json",
+  "mapping_read_checks": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/remapping/read_checks",
+  "mapping_run_snapshot": "data/results/provenance/run/inputs.sha256",
+  "mapping_eligibility": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/remapping/input_eligibility.tsv",
+  "mapping_library_qc": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/remapping/library_qc.tsv",
+  "parameters": {
+    "cap_pairs": 200000000,
+    "cap_seed": 20260829
+  },
+  "expected_samples": 213,
+  "expected_regenerated_libraries": 42,
+  "expected_host_depleted_libraries": 163,
+  "expected_retained_trimmed_libraries": 8,
+  "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python"
+}
