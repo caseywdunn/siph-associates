@@ -1,11 +1,13 @@
 # Organisms associated with siphonophores
 
-Current expansion: Bargmannia processing and both Halistemma host-depletion
-mappings are complete. [Assembly completion](docs/assembly_completion.md)
-attempts every remaining input without a read-count cutoff and prepares a
-213-library source inventory. **Full-cohort mapping is on hold pending
-[additional MAG and viral QC](docs/catalog_qc.md), final catalog review, and
-explicit authorization.**
+Current expansion: Bargmannia processing, both Halistemma host-depletion
+mappings, and all remaining [assembly attempts](docs/assembly_completion.md)
+are complete, with a 213-library source inventory. The
+[MAG and viral QC review](docs/catalog_qc.md#curated-mapping-targets) records
+fragment curation, updated quality estimates and the revised catalogs. See the
+[catalog v3 record](figures/catalog_qc/catalog_v3/) for membership, identifiers
+and checksums. **Full-cohort mapping remains on hold pending explicit
+authorization.**
 
 The [completed fish 12S screen](docs/fish_12s_results.md) covers all 205 original libraries.
 The [Bargmannia expansion](docs/bargmannia.md) adds eight newly public libraries
@@ -93,8 +95,8 @@ the other 44 use no host reference.
 | Compare distributions and assess sensitivity | Describe host and tissue patterns, test regional variation and assess sequencing-batch effects | [Statistical methods](docs/workflow/phase6_analysis/README.md), [graph](docs/workflow/graphs/analysis.svg), [collection context](docs/collection_context_analysis.md) |
 | Produce figures and supporting tables | Summarize accepted results for the paper | [Reporting guide](docs/workflow/publication_figures/README.md), [graph](docs/workflow/graphs/publication.svg), [figure and data index](figures/README.md) |
 
-The [full workflow guide](docs/workflow/README.md) covers all 19 rule files and
-16 generated graphs. Each stage guide embeds its graph beside preview and run
+The [full workflow guide](docs/workflow/README.md) describes the analysis stages
+and generated graphs. Each stage guide embeds its graph beside preview and run
 commands. Graph arrows show computational dependencies; repeated sample jobs
 are collapsed into one box per rule. Some reviewed inputs and standalone
 analyses are documented separately, so the graphs do not represent every handoff.

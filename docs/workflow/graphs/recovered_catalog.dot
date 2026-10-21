@@ -12,18 +12,18 @@ digraph snakemake_dag {
 	7[label = "snapshot_run_configuration", color = "0.03 0.6 0.85", style="rounded"];
 	8[label = "index_host_reference", color = "0.62 0.6 0.85", style="rounded"];
 	9[label = "find_rrna_barrnap", color = "0.42 0.6 0.85", style="rounded"];
-	10[label = "identify_viruses_genomad", color = "0.36 0.6 0.85", style="rounded"];
+	10[label = "identify_viruses_genomad", color = "0.37 0.6 0.85", style="rounded"];
 	11[label = "assess_viruses_checkv", color = "0.11 0.6 0.85", style="rounded"];
 	12[label = "bin_contigs_metabat2", color = "0.43 0.6 0.85", style="rounded"];
 	13[label = "assess_bins_checkm2", color = "0.44 0.6 0.85", style="rounded"];
 	14[label = "build_mag_catalog", color = "0.45 0.6 0.85", style="rounded"];
 	15[label = "classify_mags_gtdbtk", color = "0.30 0.6 0.85", style="rounded"];
-	16[label = "prepare_gtdbtk_reference", color = "0.29 0.6 0.85", style="rounded"];
+	16[label = "prepare_gtdbtk_reference", color = "0.30 0.6 0.85", style="rounded"];
 	17[label = "compare_mags_skani", color = "0.21 0.6 0.85", style="rounded"];
 	18[label = "select_viruses", color = "0.54 0.6 0.85", style="rounded"];
 	19[label = "flag_endogenous_viruses", color = "0.13 0.6 0.85", style="rounded"];
 	20[label = "align_viruses_host_minimap2", color = "0.47 0.6 0.85", style="rounded"];
-	21[label = "build_votu_catalog", color = "0.30 0.6 0.85", style="rounded"];
+	21[label = "build_votu_catalog", color = "0.31 0.6 0.85", style="rounded"];
 	22[label = "cluster_votus_checkv", color = "0.51 0.6 0.85", style="rounded"];
 	1 -> 0
 	21 -> 1

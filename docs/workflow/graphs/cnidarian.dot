@@ -17,12 +17,12 @@ digraph snakemake_dag {
 	12[label = "snapshot_run_configuration", color = "0.03 0.6 0.85", style="rounded"];
 	13[label = "index_host_reference", color = "0.62 0.6 0.85", style="rounded"];
 	14[label = "find_rrna_barrnap", color = "0.42 0.6 0.85", style="rounded"];
-	15[label = "identify_viruses_genomad", color = "0.36 0.6 0.85", style="rounded"];
+	15[label = "identify_viruses_genomad", color = "0.37 0.6 0.85", style="rounded"];
 	16[label = "assess_viruses_checkv", color = "0.11 0.6 0.85", style="rounded"];
 	17[label = "bin_contigs_metabat2", color = "0.43 0.6 0.85", style="rounded"];
 	18[label = "assess_bins_checkm2", color = "0.44 0.6 0.85", style="rounded"];
 	19[label = "classify_mags_gtdbtk", color = "0.30 0.6 0.85", style="rounded"];
-	20[label = "prepare_gtdbtk_reference", color = "0.29 0.6 0.85", style="rounded"];
+	20[label = "prepare_gtdbtk_reference", color = "0.30 0.6 0.85", style="rounded"];
 	21[label = "compare_mags_skani", color = "0.21 0.6 0.85", style="rounded"];
 	1 -> 0
 	2 -> 1

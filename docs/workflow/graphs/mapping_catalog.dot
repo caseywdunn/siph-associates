@@ -12,7 +12,7 @@ digraph snakemake_dag {
 	7[label = "fetch_ncbi_substitutes", color = "0.20 0.6 0.85", style="rounded"];
 	8[label = "assess_references_checkm2", color = "0.02 0.6 0.85", style="rounded"];
 	9[label = "classify_oceandna_gtdbtk", color = "0.24 0.6 0.85", style="rounded"];
-	10[label = "prepare_gtdbtk_reference", color = "0.29 0.6 0.85", style="rounded"];
+	10[label = "prepare_gtdbtk_reference", color = "0.30 0.6 0.85", style="rounded"];
 	11[label = "build_mag_catalog", color = "0.45 0.6 0.85", style="rounded"];
 	12[label = "select_mags", color = "0.14 0.6 0.85", style="rounded"];
 	13[label = "summarize_assemblies", color = "0.19 0.6 0.85", style="rounded"];
@@ -22,7 +22,7 @@ digraph snakemake_dag {
 	17[label = "snapshot_run_configuration", color = "0.03 0.6 0.85", style="rounded"];
 	18[label = "index_host_reference", color = "0.62 0.6 0.85", style="rounded"];
 	19[label = "find_rrna_barrnap", color = "0.42 0.6 0.85", style="rounded"];
-	20[label = "identify_viruses_genomad", color = "0.36 0.6 0.85", style="rounded"];
+	20[label = "identify_viruses_genomad", color = "0.37 0.6 0.85", style="rounded"];
 	21[label = "assess_viruses_checkv", color = "0.11 0.6 0.85", style="rounded"];
 	22[label = "bin_contigs_metabat2", color = "0.43 0.6 0.85", style="rounded"];
 	23[label = "assess_bins_checkm2", color = "0.44 0.6 0.85", style="rounded"];
@@ -31,13 +31,13 @@ digraph snakemake_dag {
 	26[label = "compare_catalog_genomes_skani", color = "0.55 0.6 0.85", style="rounded"];
 	27[label = "index_bacterial_catalog_bwa", color = "0.61 0.6 0.85", style="rounded"];
 	28[label = "build_viral_catalog", color = "0.66 0.6 0.85", style="rounded"];
-	29[label = "build_votu_catalog", color = "0.30 0.6 0.85", style="rounded"];
+	29[label = "build_votu_catalog", color = "0.31 0.6 0.85", style="rounded"];
 	30[label = "cluster_votus_checkv", color = "0.51 0.6 0.85", style="rounded"];
 	31[label = "flag_endogenous_viruses", color = "0.13 0.6 0.85", style="rounded"];
 	32[label = "select_viruses", color = "0.54 0.6 0.85", style="rounded"];
 	33[label = "align_viruses_host_minimap2", color = "0.47 0.6 0.85", style="rounded"];
 	34[label = "match_spacers_votus_blastn", color = "0.15 0.6 0.85", style="rounded"];
-	35[label = "call_crispr_spacers_minced", color = "0.38 0.6 0.85", style="rounded"];
+	35[label = "call_crispr_spacers_minced", color = "0.39 0.6 0.85", style="rounded"];
 	1 -> 0
 	34 -> 1
 	3 -> 1

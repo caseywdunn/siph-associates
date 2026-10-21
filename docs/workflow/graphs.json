@@ -198,5 +198,19 @@
     "targets": [
       "viral_evidence"
     ]
+  },
+  "catalog_curation": {
+    "snakefile": "workflow/catalog_curation.smk",
+    "config": "config/post_expansion_catalog.json",
+    "targets": [
+      "curation_evidence"
+    ]
+  },
+  "catalog_freeze": {
+    "snakefile": "workflow/catalog_freeze.smk",
+    "config": "config/catalog_freeze.json",
+    "targets": [
+      "catalog_ready"
+    ]
   }
 }

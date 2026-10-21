@@ -3,13 +3,13 @@ digraph snakemake_dag {
     node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
     edge[penwidth=2, color=grey];
 	0[label = "mycoplasmatales_gene_content", color = "0.12 0.6 0.85", style="rounded"];
-	1[label = "summarize_gene_content", color = "0.31 0.6 0.85", style="rounded"];
+	1[label = "summarize_gene_content", color = "0.32 0.6 0.85", style="rounded"];
 	2[label = "collect_gene_content_genomes", color = "0.12 0.6 0.85", style="rounded"];
 	3[label = "select_phylogeny_genomes", color = "0.26 0.6 0.85", style="rounded"];
 	4[label = "fetch_mycoplasmatales_external", color = "0.24 0.6 0.85", style="rounded"];
 	5[label = "assess_external_mollicutes_checkm2", color = "0.03 0.6 0.85", style="rounded"];
 	6[label = "classify_external_mollicutes_gtdbtk", color = "0.02 0.6 0.85", style="rounded"];
-	7[label = "prepare_gtdbtk_reference", color = "0.29 0.6 0.85", style="rounded"];
+	7[label = "prepare_gtdbtk_reference", color = "0.30 0.6 0.85", style="rounded"];
 	8[label = "build_mag_catalog", color = "0.45 0.6 0.85", style="rounded"];
 	9[label = "select_mags", color = "0.14 0.6 0.85", style="rounded"];
 	10[label = "summarize_assemblies", color = "0.19 0.6 0.85", style="rounded"];
@@ -19,7 +19,7 @@ digraph snakemake_dag {
 	14[label = "snapshot_run_configuration", color = "0.03 0.6 0.85", style="rounded"];
 	15[label = "index_host_reference", color = "0.62 0.6 0.85", style="rounded"];
 	16[label = "find_rrna_barrnap", color = "0.42 0.6 0.85", style="rounded"];
-	17[label = "identify_viruses_genomad", color = "0.36 0.6 0.85", style="rounded"];
+	17[label = "identify_viruses_genomad", color = "0.37 0.6 0.85", style="rounded"];
 	18[label = "assess_viruses_checkv", color = "0.11 0.6 0.85", style="rounded"];
 	19[label = "bin_contigs_metabat2", color = "0.43 0.6 0.85", style="rounded"];
 	20[label = "assess_bins_checkm2", color = "0.44 0.6 0.85", style="rounded"];

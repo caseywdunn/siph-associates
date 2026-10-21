@@ -259,6 +259,8 @@ rule compare_catalog_genomes_skani:
 rule build_bacterial_catalog:
     input:
         script="workflow/scripts/build_bacterial_catalog.py",
+        ids="workflow/scripts/catalog_ids.py",
+        previous=lambda w: [config["previous_bacterial_manifest"]] if config.get("previous_bacterial_manifest") else [],
         config=str(PHASE4_CATALOG_CONFIG_PATH),
         references=f"{P4}/references/nominated.tsv",
         decoys=f"{P4}/references/decoy_candidates.tsv",
@@ -276,6 +278,8 @@ rule build_bacterial_catalog:
     output:
         manifest=f"{P4_BACTERIAL}.manifest.tsv",
         fasta=f"{P4_BACTERIAL}.fna",
+    params:
+        previous=lambda w, input: ["--previous-manifest", *input.previous] if input.previous else [],
     log:
         f"{WORK}/logs/phase4_catalog/build_bacterial_catalog.log",
     threads: 1
@@ -289,7 +293,7 @@ rule build_bacterial_catalog:
           --decoys {input.decoys:q} --staged {input.staged:q} --genomes {input.genomes:q} --ncbi {input.ncbi:q} \
           --substitutes {input.substitutes:q} --substitute-genomes {input.substitute_genomes:q} --checkm2 {input.checkm2:q} --oceandna-gtdbtk {input.oceandna:q} --mag-catalog {input.mag_catalog:q} \
           --mag-representatives {input.mags:q} --ani {input.ani:q} --manifest {output.manifest:q} \
-          --fasta {output.fasta:q} > {log:q} 2>&1
+          --fasta {output.fasta:q} {params.previous:q} > {log:q} 2>&1
         """
 
 

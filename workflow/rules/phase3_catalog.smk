@@ -150,6 +150,8 @@ rule compare_mags_skani:
 rule build_mag_catalog:
     input:
         script="workflow/scripts/build_mag_catalog.py",
+        ids="workflow/scripts/catalog_ids.py",
+        previous=lambda w: [config["previous_mag_catalog"]] if config.get("previous_mag_catalog") else [],
         config=str(PHASE3_CATALOG_CONFIG_PATH),
         candidates=f"{CATALOG}/mags/candidates.tsv",
         genomes=f"{CATALOG}/mags/candidates",
@@ -159,6 +161,8 @@ rule build_mag_catalog:
     output:
         catalog=f"{CATALOG}/mags/mag_catalog.tsv",
         representatives=directory(f"{CATALOG}/mags/species_representatives"),
+    params:
+        previous=lambda w, input: ["--previous-catalog", *input.previous] if input.previous else [],
     log:
         f"{WORK}/logs/phase3_catalog/build_mag_catalog.log",
     threads: 1
@@ -170,7 +174,7 @@ rule build_mag_catalog:
         """
         python {input.script:q} --candidates {input.candidates:q} --genomes {input.genomes:q} \
           --gtdbtk {input.bacteria:q} {input.archaea:q} --ani {input.ani:q} --config {input.config:q} \
-          --catalog {output.catalog:q} --representatives {output.representatives:q} > {log:q} 2>&1
+          --catalog {output.catalog:q} --representatives {output.representatives:q} {params.previous:q} > {log:q} 2>&1
         """
 
 
@@ -296,6 +300,8 @@ rule cluster_votus_checkv:
 rule build_votu_catalog:
     input:
         script="workflow/scripts/build_votu_catalog.py",
+        ids="workflow/scripts/catalog_ids.py",
+        previous=lambda w: [config["previous_votu_catalogs"][w.virus_set]] if config.get("previous_votu_catalogs") else [],
         clusters=f"{CATALOG}/votus/{{virus_set}}.clusters.tsv",
         fasta=f"{CATALOG}/viruses/{{virus_set}}.fna",
         classification=f"{CATALOG}/viruses/virus_classification.tsv",
@@ -304,6 +310,7 @@ rule build_votu_catalog:
         representatives=f"{CATALOG}/votus/{{virus_set}}.representatives.fna",
     params:
         prefix=lambda wildcards: VIRUS_SETS[wildcards.virus_set],
+        previous=lambda w, input: ["--previous-catalog", *input.previous] if input.previous else [],
     log:
         f"{WORK}/logs/phase3_catalog/build_votu_catalog.{{virus_set}}.log",
     threads: 1
@@ -315,7 +322,7 @@ rule build_votu_catalog:
         """
         python {input.script:q} --clusters {input.clusters:q} --fasta {input.fasta:q} \
           --classification {input.classification:q} --prefix {params.prefix} \
-          --catalog {output.catalog:q} --representatives {output.representatives:q} > {log:q} 2>&1
+          --catalog {output.catalog:q} --representatives {output.representatives:q} {params.previous:q} > {log:q} 2>&1
         """
 
 

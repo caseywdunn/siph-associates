@@ -2,6 +2,7 @@
 """Select newly nominated genomes, then merge verified old and new reference QC."""
 
 import argparse
+import shutil
 from pathlib import Path
 
 from assembly_completion import sha256, table, unique, write_table
@@ -38,7 +39,19 @@ def link(source: Path, destination: Path, expected: str) -> None:
     destination.symlink_to(source.resolve())
 
 
-def merge() -> None:
+def merge(destination: Path = ROOT) -> None:
+    destination.mkdir(parents=True, exist_ok=True)
+    for kind in ("bac120", "ar53"):
+        source = NEW / "gtdb" / f"gtdbtk.{kind}.summary.tsv"
+        compact = NEW / f"oceandna_gtdbtk.{kind}.summary.tsv"
+        if source.exists():
+            shutil.copyfile(source, compact)
+        else:
+            # GTDB-Tk omits a domain summary when no input genome belongs to it.
+            compact.write_text("user_genome\tclassification\n")
+    for name in ("nominated.tsv", "decoy_candidates.tsv"):
+        if destination != ROOT:
+            shutil.copyfile(ROOT / name, destination / name)
     merged = {}
     for name, key in [
         ("staged.tsv", "genome_id"),
@@ -53,29 +66,29 @@ def merge() -> None:
         unique(combined, key)
         # Empty GTDB domain outputs may have only a user_genome header.
         fields = list((prior or new or [{key: ""}])[0])
-        write_table(ROOT / name, combined, fields)
+        write_table(destination / name, combined, fields)
         merged[name] = combined
     for origin in (OLD, NEW):
         for row in table(origin / "staged.tsv"):
             link(
                 origin / "genomes" / f"{row['genome_id']}.fa",
-                ROOT / "genomes" / f"{row['genome_id']}.fa",
+                destination / "genomes" / f"{row['genome_id']}.fa",
                 row["fasta_sha256"],
             )
         for row in table(origin / "substitutes.tsv"):
             link(
                 origin / "substitutes" / f"{row['substitute_accession']}.fa",
-                ROOT / "substitutes" / f"{row['substitute_accession']}.fa",
+                destination / "substitutes" / f"{row['substitute_accession']}.fa",
                 row["fasta_sha256"],
             )
-    (ROOT / "substitutes").mkdir(exist_ok=True)
+    (destination / "substitutes").mkdir(exist_ok=True)
     required = {
         r["genome_id"]
         for r in table(ROOT / "nominated.tsv") + table(ROOT / "decoy_candidates.tsv")
     }
     assert required <= {r["genome_id"] for r in merged["staged.tsv"]}
     write_table(
-        ROOT / "qc_sources.tsv",
+        destination / "qc_sources.tsv",
         [
             {"source": str(p), "sha256": sha256(p)}
             for origin in (OLD, NEW)
@@ -90,5 +103,9 @@ def merge() -> None:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("stage", choices=("select", "merge"))
+    parser.add_argument("--destination", type=Path, default=ROOT)
     args = parser.parse_args()
-    (select if args.stage == "select" else merge)()
+    if args.stage == "select":
+        select()
+    else:
+        merge(args.destination)

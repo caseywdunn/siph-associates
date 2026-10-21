@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "catalog_version": "v3",
+  "nominated_references": "505",
+  "catalog_genomes": "478",
+  "catalog_mags": "24",
+  "catalog_references": "454",
+  "decoys": "20",
+  "references_excluded": "2",
+  "references_clustered": "49",
+  "mags_clustered": "8",
+  "associate_votus": "407",
+  "endogenous_candidate_votus": "157",
+  "crispr_host_links": "6",
+  "errors": "0",
+  "mapping_status": "held_not_started",
+  "catalog_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/curated/phase4_catalog/v3",
+  "curated_mags": 104,
+  "mag_species": 32,
+  "inventory_sha256": "c5e3777d13238b6e9622e8104f81f9a86091a12f1aebb468ad04d9ed9764c273"
+}

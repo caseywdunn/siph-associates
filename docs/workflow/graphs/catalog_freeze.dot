@@ -1,0 +1,64 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "catalog_ready", color = "0.13 0.6 0.85", style="rounded"];
+	1[label = "record_catalog_readiness", color = "0.16 0.6 0.85", style="rounded"];
+	2[label = "validate_phase4_catalog", color = "0.32 0.6 0.85", style="rounded"];
+	3[label = "merge_reference_evidence", color = "0.38 0.6 0.85", style="rounded"];
+	4[label = "build_bacterial_catalog", color = "0.19 0.6 0.85", style="rounded"];
+	5[label = "build_mag_catalog", color = "0.44 0.6 0.85", style="rounded"];
+	6[label = "accept_curated_mag_quality", color = "0.54 0.6 0.85", style="rounded"];
+	7[label = "prepare_reviewed_mags", color = "0.03 0.6 0.85", style="rounded"];
+	8[label = "reassess_curated_mags_checkm2", color = "0.60 0.6 0.85", style="rounded"];
+	9[label = "compare_mags_skani", color = "0.10 0.6 0.85", style="rounded"];
+	10[label = "compare_catalog_genomes_skani", color = "0.25 0.6 0.85", style="rounded"];
+	11[label = "index_bacterial_catalog_bwa", color = "0.41 0.6 0.85", style="rounded"];
+	12[label = "build_viral_catalog", color = "0.63 0.6 0.85", style="rounded"];
+	13[label = "build_votu_catalog", color = "0.48 0.6 0.85", style="rounded"];
+	14[label = "cluster_votus_checkv", color = "0.06 0.6 0.85", style="rounded"];
+	15[label = "flag_endogenous_viruses", color = "0.35 0.6 0.85", style="rounded"];
+	16[label = "accept_curated_viral_regions", color = "0.29 0.6 0.85", style="rounded"];
+	17[label = "align_viruses_host_minimap2", color = "0.57 0.6 0.85", style="rounded"];
+	18[label = "match_spacers_votus_blastn", color = "0.51 0.6 0.85", style="rounded"];
+	19[label = "call_crispr_spacers_minced", color = "0.22 0.6 0.85", style="rounded"];
+	20[label = "index_combined_viral_catalog", color = "0.00 0.6 0.85", style="rounded"];
+	1 -> 0
+	20 -> 1
+	16 -> 1
+	11 -> 1
+	2 -> 1
+	5 -> 1
+	6 -> 1
+	18 -> 2
+	4 -> 2
+	3 -> 2
+	11 -> 2
+	5 -> 2
+	12 -> 2
+	10 -> 4
+	5 -> 4
+	3 -> 4
+	9 -> 5
+	7 -> 5
+	6 -> 5
+	8 -> 6
+	7 -> 6
+	7 -> 8
+	7 -> 9
+	5 -> 10
+	3 -> 10
+	4 -> 11
+	13 -> 12
+	14 -> 13
+	15 -> 13
+	15 -> 14
+	17 -> 15
+	16 -> 15
+	16 -> 17
+	12 -> 18
+	4 -> 18
+	19 -> 18
+	4 -> 19
+	12 -> 20
+}            

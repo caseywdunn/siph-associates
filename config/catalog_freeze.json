@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "mode": "production",
+  "config_path": "config/config.yaml",
+  "samples": "config/post_expansion_samples.tsv",
+  "manifest": "config/post_expansion_manifest.csv",
+  "manifest_freeze": "data/metadata/manifest.freeze.sha256",
+  "work_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/curated",
+  "scratch_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20/scratch/finalization",
+  "fixture_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/tests/fixtures/generated",
+  "fixture_enabled": false,
+  "fixture_pairs": 50000,
+  "cleanup_trimmed_after_validation": true,
+  "default_target": "phase1_ready",
+  "phase2_pilot_samples": [
+    "Church2025__OA-190531-1",
+    "Church2025__YPM-IZ-110877",
+    "Church2025__YPM-IZ-110926",
+    "Ahuja2024__CWD116",
+    "Ahuja2024__CWD19",
+    "Ahuja2024__CWD2",
+    "Ahuja2026__NA29",
+    "Ahuja2026__WS5"
+  ],
+  "parameters": {
+    "cap_pairs": 200000000,
+    "cap_seed": 20260829,
+    "fastp": {
+      "detect_adapter_for_pe": true,
+      "dont_eval_duplication": true
+    },
+    "kraken2": {
+      "report_minimizer_data": true
+    },
+    "bracken": {
+      "threshold": 10,
+      "read_length": 150,
+      "levels": [
+        "G",
+        "S"
+      ]
+    },
+    "sylph": {
+      "estimate_unknown": true
+    },
+    "phyloflash": {
+      "almosteverything": true
+    },
+    "host_mapping": {
+      "bwa_seed_length": 19,
+      "keep_sam_flag": 12
+    }
+  },
+  "databases": {
+    "kraken2": "/gpfs/gibbs/data/db/kraken2/standard",
+    "sylph": [
+      "/gpfs/ycga/work/dunn/cwd7/databases/sylph_gtdb_r220/gtdb-r220-c200-dbv1.syldb",
+      "/gpfs/ycga/work/dunn/cwd7/databases/sylph_gtdb_r220/OceanDNA-c200-v0.3.syldb"
+    ],
+    "phyloflash": "/gpfs/ycga/work/dunn/cwd7/databases/phyloflash_silva/138.1",
+    "host_references": {
+      "P_physalis": "/gpfs/ycga/work/dunn/cwd7/databases/refgenomes/physalia_physalis/GCA_041430235.2_Physalia_TX2017-38_primary_02_genomic.fna",
+      "N_septata": "/gpfs/ycga/work/dunn/cwd7/databases/refgenomes/nanomia_septata/GCA_048301705.1_ASM4830170v1_genomic.fna",
+      "H_rubrum": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/halistemma/2026-10-19/reference/GCA_987347065.1.fna"
+    }
+  },
+  "tool_prefixes": {
+    "snakemake": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake",
+    "bracken": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/bracken_env",
+    "sylph": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/sylph_env",
+    "phyloflash": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/phyloflash_env",
+    "assembly": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/assembly_env"
+  },
+  "resources": {
+    "trim": {
+      "threads": 8,
+      "mem_mb": 24000,
+      "runtime": 180,
+      "partition": "day"
+    },
+    "kraken_bracken": {
+      "threads": 8,
+      "mem_mb": 104000,
+      "runtime": 360,
+      "partition": "day"
+    },
+    "sylph": {
+      "threads": 4,
+      "mem_mb": 24000,
+      "runtime": 120,
+      "partition": "day"
+    },
+    "phyloflash": {
+      "threads": 8,
+      "mem_mb": 24000,
+      "runtime": 180,
+      "partition": "day"
+    },
+    "host_handling": {
+      "threads": 16,
+      "mem_mb": 32000,
+      "runtime": 720,
+      "partition": "day"
+    },
+    "validation": {
+      "threads": 1,
+      "mem_mb": 1000,
+      "runtime": 60,
+      "partition": "day"
+    },
+    "aggregation": {
+      "threads": 1,
+      "mem_mb": 2000,
+      "runtime": 60,
+      "partition": "day"
+    }
+  },
+  "catalog_version": "v3",
+  "preparation_root": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/post_expansion/2026-10-20",
+  "previous_mag_catalog": "data/results/phase3_catalog/mags/mag_catalog.tsv",
+  "previous_bacterial_manifest": "data/results/phase4_catalog/v2/bacterial_catalog.manifest.tsv",
+  "previous_votu_catalogs": {
+    "associate": "data/results/phase3_catalog/votus/associate.votus.tsv",
+    "endogenous_candidate": "data/results/phase3_catalog/votus/endogenous_candidate.votus.tsv"
+  }
+}
