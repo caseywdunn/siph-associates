@@ -1,6 +1,6 @@
 {
   "status": "complete",
-  "source_revision": "44ade1752cd6f5ac3ac527728eab05af1714c958",
+  "source_revision": "043a2bb99aeca8a7f99aca4ac068e82a70f75405",
   "source_note": "Working-tree reporting changes are identified by script and input checksums.",
   "script_sha256": "e80cc066908feece2bc933230a8f57f7f333a6538ee70233fb10000b25b8b439",
   "inputs_sha256": {

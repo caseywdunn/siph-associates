@@ -1,8 +1,9 @@
-"""Pilot the new H. rubrum reference, deplete both libraries, then recover assemblies.
+"""Pilot the H. rubrum reference and deplete both libraries.
 
-Reuse the cohort's trimming, BWA depletion and assembly/recovery rules. This
-bounded workflow stops at per-library QC; it cannot build a pooled catalog or
-start cohort-wide competitive mapping. Both original full-read assemblies remain.
+The default target reuses the cohort's trimming and BWA depletion rules. Current
+assemblies use assembly_completion.smk without a read-count cutoff. The old
+halistemma target retains its original assembly gate for historical reproduction.
+Neither route builds a pooled catalog or starts cohort-wide competitive mapping.
 """
 
 import csv
@@ -212,6 +213,13 @@ rule halistemma_pilot:
     input: PILOT_GATE
 
 
+rule halistemma_depletion:
+    input:
+        expand(f"{WORK}/phase3_cohort/inputs/{{sample}}_R{{mate}}.fastq.gz", sample=SAMPLE_IDS, mate=[1, 2]),
+        expand(f"{WORK}/phase3_cohort/inputs/{{sample}}.json", sample=SAMPLE_IDS),
+        expand(f"{WORK}/provenance/phase3_cohort/inputs/{{sample}}.json", sample=SAMPLE_IDS),
+    default_target: True
+
+
 rule halistemma:
     input: f"{WORK}/stages/phase3_assembly.done"
-    default_target: True

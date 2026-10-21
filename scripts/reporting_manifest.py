@@ -6,18 +6,21 @@ import csv
 import io
 from pathlib import Path
 
-from export_sample_metadata import export_metadata, read_table
+from export_sample_metadata import export_metadata, read_table, unique_index
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output-dir", type=Path, required=True)
-    args = parser.parse_args()
-    rows = export_metadata(args.output_dir)
-    original = read_table(Path("config/post_expansion_manifest.csv"))
-    fields = list(original[0])
-    metadata = {r["library_id"]: r for r in rows}
-    if set(metadata) != {r["library_id"] for r in original}:
+def build_reporting_manifest(
+    original: list[dict[str, str]],
+    reviewed: list[dict[str, str]],
+    cohort: list[dict[str, str]],
+) -> list[dict[str, str]]:
+    """Join biological metadata and current host routes without changing read identity."""
+    metadata = unique_index(reviewed, "library_id")
+    analysis_metadata = unique_index(reviewed, "analysis_sample_id")
+    samples = unique_index(cohort, "sample_id")
+    if set(metadata) != set(unique_index(original, "library_id")) or set(
+        analysis_metadata
+    ) != set(samples):
         raise ValueError("Reporting and mapping cohorts differ")
     protected = {
         "library_id",
@@ -29,15 +32,33 @@ def main():
         "sequencing_batches",
         "include_primary",
     }
-    for row in original:
-        reviewed = metadata[row["library_id"]]
-        for field in fields:
-            if field in reviewed and field not in protected:
-                row[field] = reviewed[field]
+    rows = [dict(row) for row in original]
+    for row in rows:
+        sample_metadata = metadata[row["library_id"]]
+        for field in row:
+            if field in sample_metadata and field not in protected:
+                row[field] = sample_metadata[field]
+        # The original manifest predates the Halistemma reference. Processing
+        # routes come from the selected cohort, never from biological metadata.
+        row["host_reference"] = samples[sample_metadata["analysis_sample_id"]][
+            "host_route"
+        ]
+    return rows
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output-dir", type=Path, required=True)
+    args = parser.parse_args()
+    rows = build_reporting_manifest(
+        read_table(Path("config/post_expansion_manifest.csv")),
+        export_metadata(args.output_dir),
+        read_table(Path("config/post_expansion_samples.tsv")),
+    )
     buffer = io.StringIO(newline="")
-    writer = csv.DictWriter(buffer, fieldnames=fields, lineterminator="\n")
+    writer = csv.DictWriter(buffer, fieldnames=list(rows[0]), lineterminator="\n")
     writer.writeheader()
-    writer.writerows(original)
+    writer.writerows(rows)
     path = args.output_dir / "manifest.csv"
     content = buffer.getvalue().encode()
     if not path.exists() or path.read_bytes() != content:

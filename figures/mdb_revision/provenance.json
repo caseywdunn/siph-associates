@@ -1,9 +1,9 @@
 {
   "status": "complete",
-  "created_utc": "2026-10-21T20:29:07.611304+00:00",
+  "created_utc": "2026-10-21T21:13:12.937181+00:00",
   "command": "python3 scripts/summarize_mdb_revision.py",
   "python": "3.11.0",
-  "source_base_git_revision": "44ade1752cd6f5ac3ac527728eab05af1714c958",
+  "source_base_git_revision": "043a2bb99aeca8a7f99aca4ac068e82a70f75405",
   "script_sha256": "b546cc2efc78572c97060c30b94a5c30aa9cc16f4aeb224887ceeb815edb02aa",
   "inputs_sha256": {
     "figures/collection_context/library_context.tsv": "5e56dcf858fb2bbc5ea21edcac0f5f7cadf2e65f17ab03556b9ae2f2e82b4b49",

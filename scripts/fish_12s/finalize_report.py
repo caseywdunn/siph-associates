@@ -17,6 +17,19 @@ from summarize_cohort import table, write_table
 digest = cache(file_digest)
 
 
+def select_full_read_libraries(
+    libraries: list[dict], replacements: list[dict]
+) -> list[dict]:
+    """Replace complete library screens without counting either input twice."""
+    original = [r["analysis_sample_id"] for r in libraries]
+    replaced = [r["analysis_sample_id"] for r in replacements]
+    if len(set(original)) != len(original) or len(set(replaced)) != len(replaced):
+        raise ValueError("Duplicate fish-screen library identifiers")
+    if not set(replaced) <= set(original):
+        raise ValueError("Replacement screen has no corresponding full-read library")
+    return [r for r in libraries if r["analysis_sample_id"] not in set(replaced)]
+
+
 def verify_report(path: Path) -> dict:
     record = json.loads((path / "run.json").read_text())
     for filename, expected in record["output_sha256"].items():
@@ -34,17 +47,32 @@ def main() -> None:
     host = Path("data/results/fish_12s/final_review/2026-10-19/host_depleted")
     full = Path("data/results/fish_12s/full_reads/2026-10-18/review")
     libraries = table(Path("config/fish_12s_full_reads.tsv"))
-    directories = [host] + [full / r["analysis_sample_id"] for r in libraries]
     assert len(libraries) == 44
+    replacement_config = Path("config/fish_12s_halistemma_host_depleted.json")
+    replacement_settings = json.loads(replacement_config.read_text())
+    replacement_manifest = Path(replacement_settings["manifest"])
+    replacements = table(replacement_manifest)
+    replacement_ids = {r["analysis_sample_id"] for r in replacements}
+    replacement_root = Path(replacement_settings["run"])
+    libraries = select_full_read_libraries(libraries, replacements)
+    directories = [
+        (host, "host_depleted"),
+        (replacement_root / "review", "host_depleted"),
+    ]
+    directories += [
+        (full / r["analysis_sample_id"], "capped_full_reads") for r in libraries
+    ]
     additions = table(Path("data/metadata/manko2026/sample_metadata.tsv"))
     added_root = Path("data/results/bargmannia/2026-10-19/fish_12s/review")
-    directories += [added_root / r["analysis_sample_id"] for r in additions]
+    directories += [
+        (added_root / r["analysis_sample_id"], "capped_full_reads") for r in additions
+    ]
     assert len(additions) == 8
-    samples, pairs, sources = [], [], {}
-    for directory in directories:
+    samples, pairs = [], []
+    sources = {str(p): digest(p) for p in [replacement_config, replacement_manifest]}
+    for directory, mode in directories:
         verify_report(directory)
         sources[str(directory / "run.json")] = digest(directory / "run.json")
-        mode = "host_depleted" if directory == host else "capped_full_reads"
         samples.extend(
             dict(r, read_source=mode) for r in table(directory / "sample_summary.tsv")
         )
@@ -83,7 +111,9 @@ def main() -> None:
     reuse = {r["analysis_sample_id"] for r in table(Path(config["reuse_manifest"]))}
     for sid in sorted({s for s, _ in wanted}):
         relative = Path(sid, "host_depleted")
-        if sid.startswith("Manko2026__"):
+        if sid in replacement_ids:
+            folders = [replacement_root / "union" / relative]
+        elif sid.startswith("Manko2026__"):
             folders = [added_root.parent / "union" / sid / "capped_trimmed"]
         elif sid in {r["analysis_sample_id"] for r in libraries}:
             folders = [full.parent / "union" / sid / "capped_trimmed"]

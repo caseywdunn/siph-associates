@@ -59,10 +59,12 @@ the reader-facing route is [expanded reporting](../docs/expanded_reporting.md).
   protocol for the formalin-preserved nectophore, without identifying the cause
   of the background. Do not claim that the old maximum of 36 background pairs
   holds across the expanded cohort, or retune the threshold after this result.
-- The 213-library fish screen totals 9,577,330,361 filtered pairs. Strong
+- The 213-library fish screen totals 9,313,145,671 filtered pairs. Strong
   results remain 32 distinct paired sequences in eight Physalia libraries.
-  The eight Bargmannia screens add no strong fish matches. These screens used
-  full reads for Halistemma before its later host-depletion analysis.
+  The eight Bargmannia screens add no strong fish matches. The selected inputs
+  are 163 host-depleted libraries (including both Halistemma) and 50 full-read
+  libraries. Halistemma reruns use all 131,703/2,352,421 retained pairs and yield
+  no qualifying fish matches; they replace the earlier full-read entries.
 - Flowcell-based inference includes 144 libraries, of which 122 are Physalia.
   The primary Physalia community test uses the 91 nonempty communities:
   geographic-region R² = 0.1890813593, P = 0.0001; three of five tested

@@ -217,18 +217,27 @@ rule expanded_publication:
         'figures/expanded_review/summary.json',
         'figures/host_depletion/mapping_stats.tsv',
 
+FISH_HALISTEMMA_CONFIG = 'config/fish_12s_halistemma_host_depleted.json'
+FISH_HALISTEMMA = json.loads(Path(FISH_HALISTEMMA_CONFIG).read_text())
+with open(FISH_HALISTEMMA['manifest']) as handle:
+    FISH_HALISTEMMA_IDS = {r['analysis_sample_id'] for r in csv.DictReader(handle, delimiter='\t')}
+
 rule expanded_fish_summary:
     input:
         code='scripts/fish_12s/finalize_report.py',
         helpers=['scripts/fish_12s/pilot.py', 'scripts/fish_12s/summarize_cohort.py'],
         settings=['config/fish_12s_full_reads.tsv', 'config/fish_12s_host_depleted_cohort.json',
+                  FISH_HALISTEMMA_CONFIG, FISH_HALISTEMMA['manifest'],
                   'data/metadata/manko2026/sample_metadata.tsv'],
         metadata=rules.reporting_metadata.output.tables,
         existing=expand('data/results/fish_12s/final_review/2026-10-19/host_depleted/{name}',
                         name=['run.json', 'sample_summary.tsv', 'pair_review.tsv']),
         originals=expand('data/results/fish_12s/full_reads/2026-10-18/review/{sample}/{name}',
-                         sample=[r['analysis_sample_id'] for r in csv.DictReader(open('config/fish_12s_full_reads.tsv'), delimiter='\t')],
+                         sample=[r['analysis_sample_id'] for r in csv.DictReader(open('config/fish_12s_full_reads.tsv'), delimiter='\t')
+                                 if r['analysis_sample_id'] not in FISH_HALISTEMMA_IDS],
                          name=['run.json', 'sample_summary.tsv', 'pair_review.tsv']),
+        replacement=expand(FISH_HALISTEMMA['run'] + '/review/{name}',
+                           name=['run.json', 'sample_summary.tsv', 'pair_review.tsv']),
         additions=expand('data/results/bargmannia/2026-10-19/fish_12s/review/{sample}/{name}',
                          sample=[s for s in SAMPLE_IDS if s.startswith('Manko2026__')],
                          name=['run.json', 'sample_summary.tsv', 'pair_review.tsv']),

@@ -12,7 +12,9 @@ module load BLAST+/2.15.0-gompi-2022b Bowtie2/2.5.1-GCC-12.2.0 SeqKit/2.8.1
 export PATH=/gpfs/gibbs/project/dunn/cwd7/conda_envs/phyloflash_env/bin:$PATH
 run_record=data/results/fish_12s/executions/${SLURM_JOB_ID}
 fish_config=${1:-config/fish_12s_host_depleted_cohort.json}
+fish_target=${2:-host_depleted}
 fish_root=$(/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python -c 'import json,sys; print(json.load(open(sys.argv[1]))["run"])' "$fish_config")
+fish_manifest=$(/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python -c 'import json,sys; print(json.load(open(sys.argv[1]))["manifest"])' "$fish_config")
 mkdir -p "$run_record"
 exec > >(tee "$run_record/execution.log") 2>&1
 trap 'code=$?; date -u > "$run_record/finished.txt"; printf "%s\n" "$code" > "$run_record/exit_code.txt"' EXIT
@@ -20,7 +22,7 @@ date -u > "$run_record/started.txt"
 pwd > "$run_record/working_directory.txt"
 git rev-parse HEAD > "$run_record/git_head.txt"
 git status --short > "$run_record/git_status.txt"
-tar -czf "$run_record/source.tar.gz" scripts/fish_12s workflow/fish_12s_host_depleted.smk workflow/rules/fish_12s_search.smk config/fish_12s_host_depleted_cohort.json config/fish_12s_host_depleted.tsv config/prey_marker_host_depleted.tsv config/fish_12s_cohort_validation.* "$fish_config"
+tar -czf "$run_record/source.tar.gz" scripts/fish_12s workflow/fish_12s_host_depleted.smk workflow/rules/fish_12s_search.smk config/fish_12s_host_depleted_cohort.json config/fish_12s_host_depleted.tsv config/prey_marker_host_depleted.tsv config/fish_12s_cohort_validation.* "$fish_config" "$fish_manifest"
 sha256sum "$run_record/source.tar.gz" > "$run_record/source.sha256"
 sha256sum data/results/fish_12s/positive_references/2026-10-17/{input_sha256.txt,output_sha256.txt} \
     data/results/fish_12s/masked_reference/2026-10-17/fish_12s_masked.fasta > "$run_record/reference_sha256.txt"
@@ -51,7 +53,7 @@ bowtie2 --version
 seqkit version
 bbduk.sh --version
 data/results/fish_12s/software/sortmerna_env/bin/sortmerna --version
-/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python -m snakemake host_depleted \
+/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python -m snakemake "$fish_target" \
     --snakefile workflow/fish_12s_host_depleted.smk --configfile "$fish_config" --cores "$SLURM_CPUS_PER_TASK" \
     --resources mem_mb=68000 --printshellcmds --rerun-incomplete --rerun-triggers mtime --latency-wait 60
 rg --files -0 "$fish_root/union" | sort -z | xargs -0 sha256sum > "$run_record/union_output_sha256.txt"

@@ -1,23 +1,24 @@
-# Fish 12S screen across the expanded cohort
+# Fish 12S screen across the cohort
 
 All **213 libraries** completed the screen: all retained host-depleted reads for
-151 Physalia and ten Nanomia septata libraries, and up to 200 million raw pairs
-before quality filtering for each of the other 52 libraries. The latter include
-Erenna, Rhizophysa, both Halistemma and the eight new Bargmannia libraries.
-Halistemma fish screening preceded host depletion and used the full read route.
+151 Physalia, ten Nanomia septata and two Halistemma rubrum libraries, and up to
+200 million raw pairs before quality filtering for each of the other 50 libraries.
+All 163 host-depleted libraries use the same search and classification methods.
 
 The [generated summary](../figures/fish_12s/summary.json) and
-[library table](../figures/fish_12s/sample_summary.tsv) combine the original
-cohort and completed Bargmannia reports without repeating searches. The original
-205 libraries contributed 8,146,578,446 screened pairs; Bargmannia adds
-1,430,751,915, for **9,577,330,361 pairs**. Full-read libraries contributed
-9,160,588,614 quality-filtered pairs.
+[library table](../figures/fish_12s/sample_summary.tsv) combine the selected
+per-library reports: **9,313,145,671 pairs** in total, comprising 419,225,871
+host-depleted pairs and 8,893,919,800 quality-filtered full-read pairs.
 
 The 32 long, close competitive fish matches remain confined to eight Physalia
-libraries. The eight Bargmannia libraries add no qualifying pairs, consistent
-with the absence of qualifying pairs in the other original full-read libraries
-and ten N. septata libraries. There are 81 weaker or ambiguous fish-similar pairs
-across the cohort (64 original and 17 Bargmannia); these are not strong matches.
+libraries. No other library has a qualifying pair. There are 81 weaker or
+ambiguous fish-similar pairs across the cohort; these are not strong matches.
+
+Halistemma CWD12 and CWD17 contributed 131,703 and 2,352,421 retained pairs,
+respectively. CWD12 yielded no candidates; CWD17 yielded three candidates, none
+classified as fish similarity. Their prior full-read screens are excluded from
+the combined report. The [execution record](../dev_docs/fish-12s/2026-10-21-halistemma-host-depleted.md)
+preserves the comparison and validation.
 
 The [positive-pair table](../figures/fish_12s/positive_pairs.tsv) retains both
 mates' alignment evidence, near-best reference names, recruitment methods,
@@ -44,9 +45,10 @@ From the repository root, with the existing Snakemake Python environment:
   scripts/fish_12s/finalize_report.py
 ```
 
-This reclassifies preserved host-depleted alignments, verifies report hashes,
-checks cohort membership and pair counts, and combines the 44 full-read reports.
-It performs no new sequence searches. Complete candidate evidence is retained at
-`data/results/fish_12s/final_review/2026-10-19/all_candidate_pairs.tsv`;
+This verifies report hashes, checks cohort membership and pair counts, and
+combines 163 host-depleted and 50 full-read library reports. It selects the two
+Halistemma depleted reports in place of their full-read reports and performs no
+new sequence searches. Complete selected candidate evidence is retained at
+`data/results/post_expansion/2026-10-21/reporting/fish_12s/all_candidate_pairs.tsv`;
 the small reporting bundle and provenance are in `figures/fish_12s/`.
 Failure to recover a qualifying read does not establish that a host never eats fish.

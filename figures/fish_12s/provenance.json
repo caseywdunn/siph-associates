@@ -1,10 +1,13 @@
 {
-  "completed_utc": "2026-10-21T20:26:14.261030+00:00",
+  "completed_utc": "2026-10-21T21:12:15.747920+00:00",
   "command": [
     "scripts/fish_12s/finalize_report.py"
   ],
   "inputs_sha256": {
+    "config/fish_12s_halistemma_host_depleted.json": "792ed9e6b39e1a887a4ac0ce44542fe97bc71831710a9e7cf738973c5b64eb2b",
+    "config/fish_12s_halistemma_host_depleted.tsv": "5b188047e2a2bf1205fe4814952c4e4c67f146dafb4625d156d0efb53d5d561b",
     "data/results/fish_12s/final_review/2026-10-19/host_depleted/run.json": "433aebdf8e4bc86195332b0695c4830f8b766905ca78046f7210d37a1a1848f1",
+    "data/results/fish_12s/halistemma_host_depleted/2026-10-21/review/run.json": "449dbb01376b3c8dc3f60ecf52bd502267fb59bedf2ddcb64aa25ff15e902a3d",
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD146/run.json": "b5da9c661c4e88b60ec7a48b62311aa0b0ebf09a40c292470e14ee36e9280a8a",
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD131/run.json": "c260a9ed38c1a0aaf5d02024deb3d8eca53fcc4e5bc2e7400a6363b31d6299b1",
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD20/run.json": "28c337a7166c01da5fcf22688f1647b6a3ea290ef661969da5f290950f1bf2cb",
@@ -14,13 +17,11 @@
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD104/run.json": "5c884d723661f97a7f5ed4a757cf8b18b20832fc4f7e0b306081106d75bfc5d8",
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD116/run.json": "0b88b58e91e3e3f84223eba27cc70063b8d11b99e265ebae049b5aa44cab0abe",
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD117/run.json": "5c27d8da1716aff1f5c53c39503051eec44765f31f41e5ca6304693631cbc088",
-    "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD12/run.json": "7b2f05f4744249ab2b73dbf767d7fb08eda8f534a6061de2a8a2879317189bab",
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD121/run.json": "76c53df0b8d31b4df009b1f0269d8a424db20913e1c276e630f85cbc1e3d4ad4",
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD122/run.json": "87568f03641ec0d3c4554eb7f03f8670beac02e6f1c8ded792ab1999188c024e",
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD141/run.json": "3c5a57c0b67e979acaf6210a29020465daf722c2bf54afaac4aa14abad3943cf",
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD144/run.json": "bf2f5e59543221e7e887c2268f54a77ec44aaa51ef14f59baac8f7b8dd2dc7c3",
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD16/run.json": "fc6cfcceed1131efd2a84843989a444a2f6cefd059892fe38f080ce576c3e3a3",
-    "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD17/run.json": "920687c35861bf460557e5a8e60cd8255086234a7eb2b432e95ba9665e28b7ac",
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD19/run.json": "ff28a879a7d23983a0fe1718a83c30ccfc1884c72df7ce51670be69e0f8296f6",
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD2/run.json": "197ff6275a9b8a80b90791e7dc6c03c46b98d826ec8e60931c74cc04b399a9b7",
     "data/results/fish_12s/full_reads/2026-10-18/review/Ahuja2024__CWD21/run.json": "24718531857e06484b0348c19186885a4261574946f7ea671121c3851d37dc20",
@@ -66,12 +67,12 @@
     "data/results/fish_12s/host_depleted/2026-10-17/Church2025__YPM-IZ-110907/host_depleted/candidates.fasta": "684c9a45cdda1b0534413280b0b6682bc54e57666d5cd376ed86d2f9aef7008d",
     "data/results/fish_12s/host_depleted_aligner_only/2026-10-17/Church2025__YPM-IZ-110907/host_depleted/candidates.fasta": "5fa47bb59ecffdbfe60382d50aeec87b5e3ef28eed3a1308565877c3212c1cb1",
     "data/results/fish_12s/cohort_host_depleted/2026-10-18/union/Church2025__YPM-IZ-111016/host_depleted/candidates.fasta": "9bd0ec1a3fe8ebf5c688339b6a4dc03a971798e0749ab0d08bd485d390269ad9",
-    "/gpfs/ycga/work/dunn/cwd7/siph_associates/scripts/fish_12s/finalize_report.py": "112977de9e2d531756a64e45b7552fc9d53291bfd31672045f2d4ce91016a354"
+    "/gpfs/ycga/work/dunn/cwd7/siph_associates/scripts/fish_12s/finalize_report.py": "0e87e78bd60d2168fb55fad5a6963774f9f8bab0aa34f4d63fff1d47baa4445f"
   },
   "outputs_sha256": {
     "positive_pairs.tsv": "50ec0fe16937cf2b3ade972e3e6f7b8d00cfebfd6f35c0d7659dd18bb36897bc",
-    "values.tex": "ce6b6acb729c707eeed5a13eecc4af5a1a7f04a1fe16374e34d2a6d71baf9435",
-    "sample_summary.tsv": "e0f54f229d9ba5fdb8c859e73017976b2495177c715ac1f2fede45c797424b2b",
-    "summary.json": "01905d38c19d4f6287ee97aac127c52ff140bc2874148fef86810ddbb953bf05"
+    "values.tex": "75e2d2f5c87029ad3bf87fd65a00bfe2a609e9955cb1a6d5d2a77a7343578388",
+    "sample_summary.tsv": "dfbbb8c78912adbc616b4d1dc932a77947c662616283490a21d7d401d80bd30d",
+    "summary.json": "33d584a47131620bd31fe5278633f5aa1577701fa92c41e4930454a6d8bcf5b8"
   }
 }

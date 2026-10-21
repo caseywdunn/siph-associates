@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-21T20:26:18.848737+00:00",
+  "generated_utc": "2026-10-21T21:12:24.706352+00:00",
   "command": [
     "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
     "scripts/summarize_host_depletion.py",
@@ -8,7 +8,7 @@
     "--require-complete"
   ],
   "python": "3.11.0",
-  "slurm_job_id": "13687331",
+  "slurm_job_id": "13691813",
   "status": "complete",
   "samples": 163,
   "completed_mappings": 163,

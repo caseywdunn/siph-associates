@@ -6,11 +6,13 @@ libraries can contain fish evidence. Crustacean COI work was paused on 2026-10-1
 and preserved on branch `crustacean-coi-screen`; it is not a dependency of this
 fish workflow.
 
-The [current results](fish_12s_results.md) combine 161 host-depleted libraries,
-44 original full-read libraries and eight newly added Bargmannia full-read
-libraries. The original Halistemma fish screens preceded host depletion and
-retain their full-read inputs. The Bargmannia workflow reused retained trimmed
-reads; merging its eight completed reports requires no further FASTQ processing.
+The [current results](fish_12s_results.md) combine 163 host-depleted libraries
+(151 Physalia, ten Nanomia septata and two Halistemma rubrum) and 50 full-read
+libraries. Every retained host-depleted pair is screened. Full-read inputs are
+capped at 200 million raw pairs before quality filtering. Halistemma uses the
+same filters, references and competitive classification as the other
+host-depleted libraries. Its earlier full-read reports are retained as a
+comparison baseline and excluded from the combined result.
 `expanded_fish_summary` in the [reporting workflow](expanded_reporting.md)
 produces the combined tables from all completed per-library reports.
 
@@ -37,6 +39,10 @@ execution records are preserved.
 
 ## Expansion and sensitivity
 
+The following two sections document the frozen 44-library full-read execution;
+its two Halistemma reports are superseded by the host-depleted route below.
+The combined report selects the other 42 plus eight Bargmannia full-read reports.
+
 The original host-depleted and full-read cohorts are complete. The first expansion
 screened all 44 remaining libraries, covering the original 205-library cohort. Review
 competitive alignments before treating recruited candidates as fish identifications.
@@ -62,7 +68,7 @@ subsets are not used.
 ## Full-read fish expansion
 
 The [frozen library manifest](../config/fish_12s_full_reads.tsv) selects the 44
-reference-free libraries. The [configuration](../config/fish_12s_full_reads.json)
+libraries used in that execution. The [configuration](../config/fish_12s_full_reads.json)
 records the cap, reference paths and output directory. The entry point shares
 the four search methods and competitive BLAST rules with the completed
 host-depleted screen. It includes no original assembly or microbial analysis rules.
@@ -112,10 +118,10 @@ are different denominators and should not be treated as equal sequencing effort.
 Reference coverage, competitive identification, and the number of independent
 supporting fragments also affect sensitivity and interpretation.
 
-## All host-depleted libraries
+## Physalia and Nanomia host-depleted libraries
 
-[The cohort manifest](../config/prey_marker_host_depleted.tsv) contains all 161
-libraries and 416,741,747 retained pairs. Generate it with
+[The cohort manifest](../config/prey_marker_host_depleted.tsv) contains the 161
+Physalia/Nanomia libraries and 416,741,747 retained pairs. Generate it with
 `python scripts/prey_marker_inputs.py --all-host-depleted`; this leaves the pilot
 manifests unchanged. The fish screen uses every retained pair. The manifest
 also preserves the post-QC, pre-depletion counts as a separate denominator.
@@ -165,6 +171,43 @@ submitted source snapshots and current job identities.
 This graph uses the entry point and configuration above. Generate/check it
 with `scripts/update_rulegraphs.py fish_host_depleted`.
 The existing rule-graph CI check includes it.
+
+## Halistemma host-depleted libraries
+
+[The Halistemma manifest](../config/fish_12s_halistemma_host_depleted.tsv)
+records all retained pairs from the completed host mappings: 131,703 for CWD12
+and 2,352,421 for CWD17. It preserves the upstream yield-record paths, file sizes,
+post-filtering counts and the `H_rubrum` host route. The inputs are under
+`data/results/halistemma/2026-10-19/phase3_cohort/inputs/`; no further cap or
+subsample is applied. Both mates must have been unmapped to the host reference.
+
+Run from the repository root in the [workflow environment](workflow/README.md#environment-and-inputs):
+
+```bash
+snakemake review_host_depleted_fish --snakefile workflow/fish_12s_host_depleted.smk \
+  --configfile config/fish_12s_halistemma_host_depleted.json \
+  --cores 24 --dry-run --rerun-triggers mtime
+mkdir -p logs/fish_12s
+sbatch --time=04:00:00 scripts/fish_12s/batch_host_depleted.sh \
+  config/fish_12s_halistemma_host_depleted.json review_host_depleted_fish
+```
+
+This uses the shared regex, BBDuk, Bowtie2 and SortMeRNA filters, retains both
+mates of their candidate union, and runs the same competitive mitochondrial
+BLAST/classification. The launcher checks the existing fish/non-fish controls.
+Results are under `data/results/fish_12s/halistemma_host_depleted/2026-10-21/`,
+including `review/sample_summary.tsv`, `review/pair_review.tsv` and their
+provenance. Neither host depletion nor other sequence analyses run here.
+
+![Halistemma fish screen](workflow/graphs/fish_halistemma_host_depleted.svg)
+
+Generate/check this graph with
+`scripts/update_rulegraphs.py fish_halistemma_host_depleted` or the same command
+with `--check`. After the review completes, refresh the combined report through
+`expanded_fish_summary` in the [reporting workflow](expanded_reporting.md).
+The report replaces the two full-read entries and checks unique membership
+across all 213 libraries. [Execution evidence](../dev_docs/fish-12s/2026-10-21-halistemma-host-depleted.md)
+records the input selection, comparison and validation.
 
 ## Running the pilot
 

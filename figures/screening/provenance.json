@@ -1,8 +1,8 @@
 {
   "status": "complete",
-  "created_utc": "2026-10-21T20:26:16.306840+00:00",
+  "created_utc": "2026-10-21T21:12:22.678897+00:00",
   "command": "python3 scripts/summarize_screening_results.py",
-  "source_base_git_revision": "44ade1752cd6f5ac3ac527728eab05af1714c958",
+  "source_base_git_revision": "043a2bb99aeca8a7f99aca4ac068e82a70f75405",
   "script_sha256": "c6c500ef39cae105b8dd5c877a9a36835d1ade69e358f80f3d762b9633894577",
   "source_snapshot": "figures/screening/provenance/summarize_screening_results.py",
   "inputs_sha256": {

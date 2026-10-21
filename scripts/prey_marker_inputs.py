@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Freeze existing host-depleted pairs as inputs to the fish 12S screen."""
+"""Reproduce the original Physalia/Nanomia fish input manifests."""
 
 import argparse
 import csv
@@ -17,7 +17,7 @@ def main() -> None:
     parser.add_argument(
         "--all-host-depleted",
         action="store_true",
-        help="Prepare the fish manifest for all 161 retained libraries",
+        help="Reproduce the frozen 161-library Physalia/Nanomia manifest; Halistemma has a separate manifest",
     )
     args = parser.parse_args()
     metadata = {

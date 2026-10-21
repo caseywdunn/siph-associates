@@ -7,6 +7,9 @@ for the expanded analyses is [post_expansion_samples.tsv](../config/post_expansi
 [reviewed publication metadata](../figures/cohort/sample_metadata.tsv) provide
 biological identifiers and collection information without changing read handles.
 The fourth study uses the published Bargmannia species names.
+The generated reporting manifest takes `host_reference` from the current cohort's
+`host_route`, including `H_rubrum` for both Halistemma libraries; frozen source
+manifests retain their original processing labels.
 
 ## Execution status: 2026-10-21
 
@@ -137,8 +140,9 @@ its original reference panel and eight-specimen scope.
 
 The fish 12S analysis covers **all 213 libraries**. The eight completed
 Manko2026 screens contribute 1,430,751,915 quality-filtered pairs and no additional
-long, close fish matches. Both Halistemma libraries were screened with full reads
-before host depletion; the existing complete screen is retained. See the
+long, close fish matches. All 163 libraries with host references use their
+complete retained host-depleted inputs, including both Halistemma libraries;
+the other 50 use capped full reads. See the
 [fish results](fish_12s_results.md). The paused crustacean pilot is not part of
 this reporting workflow.
 

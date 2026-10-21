@@ -160,6 +160,8 @@ Church2025__YPM-IZ-111539	Physalia megalista	601569	0	0	0	0	0	0	0	0	host_deplete
 Church2025__YPM-IZ-111547	Physalia utriculus	1469775	2	0	0	2	0	0	0	0	host_depleted
 Church2025__YPM-IZ-111839	Physalia mikazuki	3211084	63	0	0	63	0	0	0	0	host_depleted
 Church2025__YPM-IZ-111840	Physalia utriculus	3090553	0	0	0	0	0	0	0	0	host_depleted
+Ahuja2024__CWD12	Halistemma rubrum	131703	0	0	0	0	0	0	0	0	host_depleted
+Ahuja2024__CWD17	Halistemma rubrum	2352421	3	0	0	3	0	0	0	0	host_depleted
 Ahuja2024__CWD146	Erenna sirena	195234863	448	0	2	446	0	0	0	0	capped_full_reads
 Ahuja2024__CWD131	Rhizophysa eysenhardtii	196667372	530	0	0	530	0	0	0	0	capped_full_reads
 Ahuja2024__CWD20	Rhizophysa filiformis	155401920	354	0	0	354	0	0	0	0	capped_full_reads
@@ -169,13 +171,11 @@ Ahuja2024__CWD101	Apolemia sp. 3 CWD-2005	143650326	376	0	0	376	0	0	0	0	capped_f
 Ahuja2024__CWD104	Bargmannia elongata	188007082	624	0	1	623	0	0	0	0	capped_full_reads
 Ahuja2024__CWD116	Agalma elegans	193373898	676	0	0	676	0	0	0	0	capped_full_reads
 Ahuja2024__CWD117	Hippopodius hippopus	194013835	186	0	0	186	0	0	0	0	capped_full_reads
-Ahuja2024__CWD12	Halistemma rubrum	100871052	242	0	0	242	0	0	0	0	capped_full_reads
 Ahuja2024__CWD121	Abylopsis tetragona	103675638	106	0	0	106	0	0	0	0	capped_full_reads
 Ahuja2024__CWD122	Chelophyes appendiculata	196435968	382	0	0	382	0	0	0	0	capped_full_reads
 Ahuja2024__CWD141	Stephalia dilata	194294743	1219	0	0	1219	0	0	0	0	capped_full_reads
 Ahuja2024__CWD144	Gymnopraia lapislazula	194734171	453	0	0	453	0	0	0	0	capped_full_reads
 Ahuja2024__CWD16	Nanomia bijuga	198073553	339	0	0	339	0	0	0	0	capped_full_reads
-Ahuja2024__CWD17	Halistemma rubrum	165797762	344	0	0	344	0	0	0	0	capped_full_reads
 Ahuja2024__CWD19	Praya dubia	192922764	3411	0	6	3405	0	0	0	0	capped_full_reads
 Ahuja2024__CWD2	Agalma elegans	94578786	242	0	0	242	0	0	0	0	capped_full_reads
 Ahuja2024__CWD21	Rosacea flaccida	99145917	290	0	0	290	0	0	0	0	capped_full_reads

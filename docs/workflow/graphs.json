@@ -1,4 +1,11 @@
 {
+  "fish_halistemma_host_depleted": {
+    "snakefile": "workflow/fish_12s_host_depleted.smk",
+    "config": "config/fish_12s_halistemma_host_depleted.json",
+    "targets": [
+      "review_host_depleted_fish"
+    ]
+  },
   "fish_host_depleted": {
     "snakefile": "workflow/fish_12s_host_depleted.smk",
     "config": "config/fish_12s_host_depleted_cohort.json",
@@ -161,7 +168,7 @@
     "snakefile": "workflow/halistemma.smk",
     "config": "config/halistemma.json",
     "targets": [
-      "halistemma"
+      "halistemma_depletion"
     ]
   },
   "catalog_qc": {

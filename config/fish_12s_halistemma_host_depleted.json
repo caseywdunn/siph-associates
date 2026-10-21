@@ -1,0 +1,11 @@
+{
+  "config_path": "config/fish_12s_halistemma_host_depleted.json",
+  "manifest": "config/fish_12s_halistemma_host_depleted.tsv",
+  "reuse_manifest": null,
+  "run": "data/results/fish_12s/halistemma_host_depleted/2026-10-21",
+  "reference": "data/results/fish_12s/masked_reference/2026-10-17/fish_12s_masked.fasta",
+  "reference_root": "data/results/fish_12s/positive_references/2026-10-17",
+  "reference_metadata": "data/results/fish_12s/reference_metadata/2026-10-18/references.tsv",
+  "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+  "sortmerna": "data/results/fish_12s/software/sortmerna_env/bin/sortmerna"
+}

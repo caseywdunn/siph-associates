@@ -45,7 +45,8 @@ Viral changes comprise 13 lost calls on six removed targets, 15 gained calls in
 original libraries, and 99 calls in the added libraries. Of the latter, 86 occur
 in formalin-preserved Bargmannia elongata T676-SS3. Retain this specimen context
 when interpreting the increase. The new fish screens add 1,430,751,915 filtered
-pairs but no strong fish matches; the combined survey contains 9,577,330,361 pairs.
+pairs but no strong fish matches. With the two Halistemma entries selected from
+host-depleted reruns, the combined fish survey contains 9,313,145,671 pairs.
 
 T676-SS3 also has 288 insect and 71 plant SSU pairs at ≥97% identity. It is
 the only library exceeding the locked 37-pair threshold in these predefined

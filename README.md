@@ -79,6 +79,7 @@ The other 50 libraries use no host reference.
 | Build shared catalogs | Select recovered sequences, group close relatives and add nominated public microbial genomes | [Recovered sequences](docs/workflow/phase3_catalog/README.md), [shared catalogs](docs/workflow/phase4_catalog/README.md), [graph](docs/workflow/graphs/mapping_catalog.svg) |
 | Detect associates across libraries | Map unassembled reads to the catalogs and assess support from the same specimen's assemblies | [Current mapping](docs/cohort_remapping.md), [detection criteria](docs/workflow/phase6_analysis/README.md), [mapping graph](docs/workflow/graphs/cohort_remapping.svg) |
 | Identify other eukaryotes | Compare ribosomal-marker reads and assembled markers with reference sequences | [Eukaryote guide](docs/workflow/eukaryote_gate/README.md), [graph](docs/workflow/graphs/expanded_eukaryotes.svg), [trematode comparison](docs/waki_sequence_comparison.md) |
+| Screen for fish prey | Search fish 12S in all 213 libraries: all retained host-depleted pairs for 151 *Physalia*, ten *N. septata* and two *H. rubrum* libraries; up to 200 million raw pairs before quality filtering for the other 50 | [Fish-screen methods and execution](docs/prey_marker_screen.md), [results](docs/fish_12s_results.md), [per-library read sources and counts](figures/fish_12s/sample_summary.tsv) |
 | Compare bacterial relationships and functions | Infer a genome tree, search earlier marker surveys and compare predicted gene functions | [Phylogeny](docs/workflow/mycoplasmatales_phylogeny/README.md), [tree graph](docs/workflow/graphs/phylogeny.svg), [gene functions](docs/workflow/mycoplasmatales_gene_content/README.md), [function graph](docs/workflow/graphs/gene_content.svg) |
 | Compare distributions and assess sensitivity | Describe host and tissue patterns, test regional variation and assess sequencing-batch effects | [Statistical methods](docs/workflow/phase6_analysis/README.md), [graph](docs/workflow/graphs/expanded_statistics.svg), [collection context](docs/collection_context_analysis.md) |
 | Produce figures and supporting tables | Summarize accepted results for the paper | [Current reporting guide](docs/expanded_reporting.md), [graph](docs/workflow/graphs/expanded_publication.svg), [figure and data index](figures/README.md) |
@@ -90,14 +91,6 @@ are collapsed into one box per rule. Some reviewed inputs and standalone
 analyses are documented separately, so the graphs do not represent every handoff.
 
 ## Data and interpretation
-
-The separate [fish 12S screen](docs/prey_marker_screen.md) uses all retained
-host-depleted reads from 151 *Physalia* and ten *N. septata* libraries.
-The [full-read screen](docs/prey_marker_screen.md#full-read-fish-expansion)
-covers the other 52 libraries with up to 200 million raw pairs each.
-The [fish results](docs/fish_12s_results.md) cover all 213 libraries.
-Crustacean COI work is paused
-and preserved on branch `crustacean-coi-screen`.
 
 The [sample metadata](figures/cohort/sample_metadata.tsv) and
 [detection tables](figures/cohort/) are starting points for exploring the results.

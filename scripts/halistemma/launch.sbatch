@@ -22,7 +22,7 @@ tar -czf "$record/source.tar.gz" config workflow scripts profiles envs \
   manifest.csv data/metadata/halistemma data/sources/halistemma
 sha256sum "$record/source.tar.gz" > "$record/source_sha256.txt"
 set -x
-"$python" -m snakemake --snakefile workflow/halistemma.smk halistemma \
+"$python" -m snakemake --snakefile workflow/halistemma.smk "${1:-halistemma_depletion}" \
   --profile profiles/slurm --jobs 3 --cores 10000 --local-cores 1 --nolock \
   --default-resources partition=ycga runtime=120 mem_mb=2000 \
   --resources cap_slots=1 --rerun-triggers mtime --rerun-incomplete
