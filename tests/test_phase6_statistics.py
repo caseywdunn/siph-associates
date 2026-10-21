@@ -36,6 +36,10 @@ def test_lanes_collapse_but_distinct_physical_flowcells_do_not():
     assert physical_flowcells("I:1:F:L002;I:2:G:L001") == ("I:1:F", "I:2:G")
     with pytest.raises(ValueError):
         physical_flowcells("I/1/F/L001")
+    assert physical_flowcells("I:1:F;I:1:F:L002") == ("I:1:F",)
+    assert physical_flowcells("I:1:F;I:2:G") == ("I:1:F", "I:2:G")
+    with pytest.raises(ValueError):
+        physical_flowcells("I:1")
 
 
 def test_normalization_retains_multi_flowcell_libraries(tmp_path):

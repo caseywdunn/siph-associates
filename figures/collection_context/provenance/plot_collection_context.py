@@ -543,8 +543,9 @@ def main() -> None:
         )
     }
     tables = {name: read_tsv(path) for name, path in source_paths.items()}
-    if len(tables["library_context.tsv"]) != 205:
-        raise ValueError("Review figure scope when the 205-library cohort changes")
+    expected = json.loads((ROOT / "config/reporting_sources.json").read_text())["expected_samples"]
+    if len(tables["library_context.tsv"]) != expected:
+        raise ValueError("Collection-context table differs from configured reporting scope")
     outputs = plot_depth_overview(
         tables["library_context.tsv"],
         tables["host_detection_summary.tsv"],
@@ -583,7 +584,7 @@ def main() -> None:
             "matplotlib": matplotlib.__version__,
             "numpy": np.__version__,
         },
-        "scope": "All 205 libraries descriptive; only one-physical-flowcell libraries eligible for flowcell inference.",
+        "scope": f"All {expected} libraries descriptive; only one-physical-flowcell libraries eligible for flowcell inference.",
     }
     (args.output_dir / "plot_manifest.json").write_text(
         json.dumps(manifest, indent=2) + "\n"

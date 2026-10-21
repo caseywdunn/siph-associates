@@ -1,14 +1,15 @@
 {
   "inputs_sha256": {
-    "data/results/phase6_analysis/v2/grades/bacterial_grades.tsv": "573c030329cee3a9a120ae09c5d4175dd0a6575b1bf35117709290af765e6088",
-    "config/samples.tsv": "727e749ac2e2218989de237401bfc89abcf4fd8f63b7ec2d152c4dc2e2b0be9f",
-    "data/results/phase6_analysis/v2/grades/contamination_tests.tsv": "e8afe21112408255336368557cdcfc4b56548b7e64b715497286f824f4cf7791",
-    "data/results/phase6_analysis/v2/sensitivity/breadth_5pct/physalia_permanova.tsv": "24926754ee95bc732205fcd1456109d3750cd0a233c1b1f38a8f850b0dd6c3c9",
-    "data/results/phase6_analysis/v2/sensitivity/breadth_5pct/physalia_region_permutation.tsv": "3519d8f18bc35fc9b62d355233cdf99520efbc0beee06cef92674ec0d88fdb36",
-    "data/results/phase6_analysis/v2/primary/physalia_permanova.tsv": "fa577a6c4af275f896187765b8b90c69cf94818a92e7804afb4e0b5f4eed40ab",
-    "data/results/phase6_analysis/v2/primary/physalia_region_permutation.tsv": "4e2ed7643c280c2bebbbd3472097cf03315161bd70b793b35eccb555b1e65b87",
-    "data/results/phase6_analysis/v2/sensitivity/breadth_20pct/physalia_permanova.tsv": "531659509d7bfff5bc4967d78d6954190036c72eec20519a012702131542cbd8",
-    "data/results/phase6_analysis/v2/sensitivity/breadth_20pct/physalia_region_permutation.tsv": "438ad051740169a9079f48285c7e3b690efb8011ca7ac3157c3073a9e3ce29bd",
-    "/gpfs/ycga/work/dunn/cwd7/siph_associates/scripts/export_domain_review_statistics.py": "de666a9aa9f567d76370415242c2efed4f277fec0841f02b2cc739d45c61163b"
+    "config/reporting_sources.json": "8efe4f1da99e7b41e94403ba175c0272beb89866757e936d9c33dad29cc1408c",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/grades/bacterial_grades.tsv": "a30a016ddb520d21ae54b5429ec995dc468bae2ea0909c161f575e8d6652f36a",
+    "config/post_expansion_samples.tsv": "f885a88271c9991fbfd0af6538bf61c86f56854059e5741fc26080648b75d238",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/grades/contamination_tests.tsv": "7fb0c0632dc5613e3375a6b9acb0dc0521cfecdd64849f7909caf23c5b63d187",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_permanova.tsv": "a765a835a1ff2fc15618928193cb40e97dc41aac8be616fdf225332d600030c4",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_region_permutation.tsv": "3519d8f18bc35fc9b62d355233cdf99520efbc0beee06cef92674ec0d88fdb36",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/physalia_permanova.tsv": "f14be6719f6a9109cb3f9a6b02f764856835666f39a413577062535448ccf417",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/physalia_region_permutation.tsv": "4e2ed7643c280c2bebbbd3472097cf03315161bd70b793b35eccb555b1e65b87",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_permanova.tsv": "04961b93713c62a76d9d4e2772206063ea385ae2facc2dda9217d3ae392f32cc",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_region_permutation.tsv": "438ad051740169a9079f48285c7e3b690efb8011ca7ac3157c3073a9e3ce29bd",
+    "/gpfs/ycga/work/dunn/cwd7/siph_associates/scripts/export_domain_review_statistics.py": "3cabb75785bf697f3c2f5c1537209bb26815488c73b4481c3dda72c004baf232"
   }
 }

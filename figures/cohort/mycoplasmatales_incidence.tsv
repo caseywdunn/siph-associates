@@ -55,6 +55,13 @@ Physalia mikazuki	BAC00028	MAGSP0029	Clade B	1	5
 Physalia mikazuki	BAC00029	MAGSP0031	Clade B	0	5
 Physalia mikazuki	BAC00030	MAGSP0011	DT-68	0	5
 Physalia mikazuki	BAC00031	MAGSP0012	Mycoplasma_K	0	5
+Bargmannia elongata	BAC00025	MAGSP0005	Clade A	0	3
+Bargmannia elongata	BAC00026	MAGSP0007	Clade B	0	3
+Bargmannia elongata	BAC00027	MAGSP0010	Clade B	0	3
+Bargmannia elongata	BAC00028	MAGSP0029	Clade B	0	3
+Bargmannia elongata	BAC00029	MAGSP0031	Clade B	0	3
+Bargmannia elongata	BAC00030	MAGSP0011	DT-68	0	3
+Bargmannia elongata	BAC00031	MAGSP0012	Mycoplasma_K	0	3
 Agalma elegans	BAC00025	MAGSP0005	Clade A	0	2
 Agalma elegans	BAC00026	MAGSP0007	Clade B	0	2
 Agalma elegans	BAC00027	MAGSP0010	Clade B	0	2
@@ -62,6 +69,13 @@ Agalma elegans	BAC00028	MAGSP0029	Clade B	0	2
 Agalma elegans	BAC00029	MAGSP0031	Clade B	0	2
 Agalma elegans	BAC00030	MAGSP0011	DT-68	0	2
 Agalma elegans	BAC00031	MAGSP0012	Mycoplasma_K	0	2
+Bargmannia pyrosa	BAC00025	MAGSP0005	Clade A	0	2
+Bargmannia pyrosa	BAC00026	MAGSP0007	Clade B	0	2
+Bargmannia pyrosa	BAC00027	MAGSP0010	Clade B	0	2
+Bargmannia pyrosa	BAC00028	MAGSP0029	Clade B	0	2
+Bargmannia pyrosa	BAC00029	MAGSP0031	Clade B	0	2
+Bargmannia pyrosa	BAC00030	MAGSP0011	DT-68	0	2
+Bargmannia pyrosa	BAC00031	MAGSP0012	Mycoplasma_K	0	2
 Halistemma rubrum	BAC00025	MAGSP0005	Clade A	0	2
 Halistemma rubrum	BAC00026	MAGSP0007	Clade B	0	2
 Halistemma rubrum	BAC00027	MAGSP0010	Clade B	0	2
@@ -111,13 +125,13 @@ Apolemia sp. 3 CWD-2005	BAC00028	MAGSP0029	Clade B	0	1
 Apolemia sp. 3 CWD-2005	BAC00029	MAGSP0031	Clade B	0	1
 Apolemia sp. 3 CWD-2005	BAC00030	MAGSP0011	DT-68	0	1
 Apolemia sp. 3 CWD-2005	BAC00031	MAGSP0012	Mycoplasma_K	0	1
-Bargmannia elongata	BAC00025	MAGSP0005	Clade A	0	1
-Bargmannia elongata	BAC00026	MAGSP0007	Clade B	0	1
-Bargmannia elongata	BAC00027	MAGSP0010	Clade B	0	1
-Bargmannia elongata	BAC00028	MAGSP0029	Clade B	0	1
-Bargmannia elongata	BAC00029	MAGSP0031	Clade B	0	1
-Bargmannia elongata	BAC00030	MAGSP0011	DT-68	0	1
-Bargmannia elongata	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Bargmannia amoena	BAC00025	MAGSP0005	Clade A	0	1
+Bargmannia amoena	BAC00026	MAGSP0007	Clade B	0	1
+Bargmannia amoena	BAC00027	MAGSP0010	Clade B	0	1
+Bargmannia amoena	BAC00028	MAGSP0029	Clade B	0	1
+Bargmannia amoena	BAC00029	MAGSP0031	Clade B	0	1
+Bargmannia amoena	BAC00030	MAGSP0011	DT-68	0	1
+Bargmannia amoena	BAC00031	MAGSP0012	Mycoplasma_K	0	1
 Bargmannia lata	BAC00025	MAGSP0005	Clade A	0	1
 Bargmannia lata	BAC00026	MAGSP0007	Clade B	0	1
 Bargmannia lata	BAC00027	MAGSP0010	Clade B	0	1
@@ -125,6 +139,27 @@ Bargmannia lata	BAC00028	MAGSP0029	Clade B	0	1
 Bargmannia lata	BAC00029	MAGSP0031	Clade B	0	1
 Bargmannia lata	BAC00030	MAGSP0011	DT-68	0	1
 Bargmannia lata	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Bargmannia marlena	BAC00025	MAGSP0005	Clade A	0	1
+Bargmannia marlena	BAC00026	MAGSP0007	Clade B	0	1
+Bargmannia marlena	BAC00027	MAGSP0010	Clade B	0	1
+Bargmannia marlena	BAC00028	MAGSP0029	Clade B	0	1
+Bargmannia marlena	BAC00029	MAGSP0031	Clade B	0	1
+Bargmannia marlena	BAC00030	MAGSP0011	DT-68	0	1
+Bargmannia marlena	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Bargmannia profunda	BAC00025	MAGSP0005	Clade A	0	1
+Bargmannia profunda	BAC00026	MAGSP0007	Clade B	0	1
+Bargmannia profunda	BAC00027	MAGSP0010	Clade B	0	1
+Bargmannia profunda	BAC00028	MAGSP0029	Clade B	0	1
+Bargmannia profunda	BAC00029	MAGSP0031	Clade B	0	1
+Bargmannia profunda	BAC00030	MAGSP0011	DT-68	0	1
+Bargmannia profunda	BAC00031	MAGSP0012	Mycoplasma_K	0	1
+Bargmannia stenotes	BAC00025	MAGSP0005	Clade A	0	1
+Bargmannia stenotes	BAC00026	MAGSP0007	Clade B	0	1
+Bargmannia stenotes	BAC00027	MAGSP0010	Clade B	0	1
+Bargmannia stenotes	BAC00028	MAGSP0029	Clade B	0	1
+Bargmannia stenotes	BAC00029	MAGSP0031	Clade B	0	1
+Bargmannia stenotes	BAC00030	MAGSP0011	DT-68	0	1
+Bargmannia stenotes	BAC00031	MAGSP0012	Mycoplasma_K	0	1
 Chelophyes appendiculata	BAC00025	MAGSP0005	Clade A	0	1
 Chelophyes appendiculata	BAC00026	MAGSP0007	Clade B	0	1
 Chelophyes appendiculata	BAC00027	MAGSP0010	Clade B	0	1

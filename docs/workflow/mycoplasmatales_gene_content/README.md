@@ -6,6 +6,12 @@ Predict genes in focal Mollicutes genomes and compare their potential functions
 with host-associated and GTDB Metamycoplasmataceae relatives. These annotations
 measure genomic potential, not observed metabolic activity.
 
+This remains a comparison of seven focal Metamycoplasmataceae genomes. Their
+sequences are unchanged in catalog v3, so the accepted gene predictions and
+annotations are reused. The new Tyloplasma-related `MAGSP0033` is included in
+cohort detection tables but was not added to this functional comparison. See
+the [expanded reporting scope](../../expanded_reporting.md).
+
 ## Inputs and products
 
 Inputs are selected genomes/labels from the phylogeny selection stage, GTDB r220

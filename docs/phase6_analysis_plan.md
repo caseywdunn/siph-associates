@@ -1,5 +1,12 @@
 # Phase-6 pre-specified analysis plan
 
+**Current execution:** the [213-library v3 reporting workflow](expanded_reporting.md)
+reuses the accepted grading and statistical policies below. Grades, geographic
+tests, flowcell tests and threshold/nomination sensitivity are recomputed for
+v3. The original v2 read-handling controls retain their original subsets and
+catalog. Historical design counts and dated corrections below are preserved;
+current denominators come from the v3 output tables.
+
 Approved by Casey Dunn on 2026-09-29. It was fixed before any presence result
 was summarized by host, region, study, or batch, as EXECUTION_PLAN.md Phase 6
 requires ("predefine primary and sensitivity analyses before inspecting final

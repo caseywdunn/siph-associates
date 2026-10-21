@@ -7,7 +7,9 @@ data/results/phase4_catalog/nomination_evidence/.
 """
 from __future__ import annotations
 
+import argparse
 import csv
+import json
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -38,13 +40,20 @@ def write(name, header, rows):
         print("\t".join(str(value) for value in row))
 
 
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--reporting-config", type=Path)
+args = parser.parse_args()
+settings = json.loads(args.reporting_config.read_text()) if args.reporting_config else {}
+OUT = ROOT / settings["nomination_evidence"] if settings else OUT
+nomination_path = ROOT / settings["aggregation_root"] / "candidate_nominations.tsv" if settings else RESULTS / "aggregation/cohort/candidate_nominations.tsv"
+mag_path = ROOT / settings["mag_catalog"] if settings else RESULTS / "phase3_catalog/mags/mag_catalog.tsv"
 taxonomy = {}
 for line in TAXONOMY.open():
     accession, lineage = line.rstrip("\n").split("\t")
     taxonomy[accession[3:]] = lineage
 
 sylph, bracken, phyloflash = [], defaultdict(dict), defaultdict(Counter)
-with open(RESULTS / "aggregation" / "cohort" / "candidate_nominations.tsv", newline="") as handle:
+with open(nomination_path, newline="") as handle:
     for row in csv.DictReader(handle, delimiter="\t"):
         if row["source"] == "sylph":
             sylph.append(row)
@@ -92,7 +101,7 @@ write("contaminant_genera.tsv", ["hits", "genomes", "libraries", "genera"],
       [[len(contaminants), len({h["accession"] for h in contaminants}), len({h["sample"] for h in contaminants}),
         ",".join(f"{g}:{n}" for g, n in Counter(h["genus"] for h in contaminants).most_common())]])
 
-with open(RESULTS / "phase3_catalog" / "mags" / "mag_catalog.tsv", newline="") as handle:
+with open(mag_path, newline="") as handle:
     mags = [row for row in csv.DictReader(handle, delimiter="\t")
             if row["catalog_status"] == "retained" and row["mag_id"] == row["representative"]]
 named = [m["gtdb_classification"].split(";")[6] for m in mags if m["gtdb_classification"].split(";")[6] != "s__"]

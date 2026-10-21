@@ -1,8 +1,24 @@
 # Analysis methods and rule graphs
 
+For the current 213-library execution, start with
+[current cohort and downstream reporting](../expanded_reporting.md).
+The original stage guides below explain the shared algorithms and historical
+205-library gates. The accepted expansion uses those same rules through these
+bounded entry points:
+
+| Current operation | Guide | Workflow |
+| --- | --- | --- |
+| Fourth-study reads, screens and assemblies | [Bargmannia](../bargmannia.md) | `workflow/bargmannia.smk` |
+| Halistemma host depletion | [Halistemma](../halistemma.md) | `workflow/halistemma.smk` |
+| Assemble every retained input | [Assembly completion](../assembly_completion.md) | `workflow/assembly_completion.smk` |
+| Genome/viral QC and catalog freeze | [Catalog QC](../catalog_qc.md) | QC, curation and freeze entry points linked in that guide |
+| Completed all-library mapping | [Remapping](../cohort_remapping.md) | `workflow/cohort_remapping.smk` |
+| Grades, statistics, SSU evidence and exports | [Reporting](../expanded_reporting.md) | `workflow/expanded_reporting.smk` |
+
+
 Follow DNA from the original sequencing libraries to the paper's figures and
 supporting tables. The [paper-to-analysis index](../../README.md#finding-analyses-from-the-paper)
-connects Results headings to these methods. The guides below cover all 19 rule
+connects Results headings to these methods. The guides below cover all 21 rule
 files: each explains the biological purpose, inputs, outputs and interpretation,
 and places a generated rule graph beside its preview and run commands.
 
@@ -34,6 +50,8 @@ show that a run completed or imply that every sample yielded a genome.
 | `cnidarian_16s.smk` | Similar markers in other sampled cnidarians | [Cnidarian context](cnidarian_16s/README.md) |
 | `cassiopea_16s.smk` | Independent jellyfish tissue/environment comparison | [Cassiopea context](cassiopea_16s/README.md) |
 | `publication_figures.smk` | Bounded exports from accepted results | [Figures and source tables](publication_figures/README.md) |
+| `fish_12s_search.smk` | Four fish-marker searches and competitive identification | [Fish 12S workflow](../prey_marker_screen.md) |
+| `host_depletion_report.smk` | Per-library input, removal and retained-read counts | [Host-depletion statistics](../host_depletion_report.md) |
 
 A sequencing library is the unit processed by the workflow. A MAG is a
 metagenome-assembled genome recovered by grouping assembled sequences; a vOTU is
@@ -83,9 +101,11 @@ Most targets can construct missing upstream products. The publication guide
 instead uses an explicit list of permitted reporting rules, matching the
 existing controller's supported bounded-execution mechanism.
 
-### Rebuild the sample manifest
+### Rebuild the original sample manifest (historical reconstruction)
 
-The retained manifest is the starting input for the analyses. To reconstruct it,
+The retained 205-library manifest is a frozen input to the original analyses.
+Do not rebuild or replace it for publication-metadata edits or expanded reporting.
+For a deliberate reconstruction of that original input version,
 use [build_manifest.py](../../scripts/build_manifest.py), which combines the
 source-study tables, reads sequencing headers from the original FASTQs, and
 applies the [reviewed metadata overlay](../../data/metadata/sample_metadata_updates.tsv).
@@ -146,7 +166,7 @@ the source rules, scripts and accepted provenance when checking an individual cl
 
 The bounded [expanded-catalog QC workflows](../catalog_qc.md) have separate
 entry points and generated graphs. They review all prospective genomes, new
-reference nominations and viral boundaries before the held full-cohort mapping.
+reference nominations and viral boundaries before the now-completed full-cohort remapping.
 
 The guides cover all current `workflow/rules/*.smk` files. They do not imply that
 every reported output is built by Snakemake:
@@ -155,14 +175,14 @@ every reported output is built by Snakemake:
   assembly-membership freeze use separate scripts and reviewed source tables.
 - The direct Waki marker comparison has its own
   [methods and reproduction guide](../waki_sequence_comparison.md).
-- The broad host-distribution and eukaryote figures use the explicit
-  [overview plotting command](../../figures/README.md#biological-overview-figures).
+- The broad host-distribution and eukaryote figures are now produced by
+  `expanded_overview` in the [reporting entry point](../expanded_reporting.md).
 - Selected assets are copied to the separate manuscript repository. Compilation
   and the explanatory methods drawing (Figure 1) are maintained there; they
   are not outputs of these rule files.
 
 The [figure guide](../../figures/README.md) identifies selected outputs and
-their source tables. Current mapping and inference use catalog v2. Detailed
+their source tables. Current mapping and inference use catalog v3. Detailed
 execution evidence is retained in the [run log](../../RUNLOG.md) and stage records.
 
 ## Regenerate and check the graphs

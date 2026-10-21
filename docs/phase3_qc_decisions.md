@@ -1,11 +1,17 @@
 # Phase-3 MAG and viral quality decisions
 
+**Current v3 inventory (2026-10-21):** expanded assembly and domain/contig review
+retain 104 bacterial MAGs in 32 species clusters. The false archaeal cluster
+remains excluded. See the [current QC record](catalog_qc.md) and
+[v3 tables](../figures/catalog_qc/catalog_v3/). The dated correction below records
+the preceding 103-MAG checkpoint.
+
 **Domain-review correction (2026-10-19):** four bins previously assigned to
 Thermoproteota belong to the Perkinsela-related MAGSP0026 cluster. They are
 excluded from the reviewed prokaryotic catalog, leaving 103 bacterial MAGs in
 31 clusters. The historical decisions and counts below are retained as execution
-history; current status is in [the domain review](../dev_docs/mag-domain-audit/run.md)
-and [reviewed catalog tables](../figures/catalog_review/).
+history; that correction is documented in [the domain review](../dev_docs/mag-domain-audit/run.md)
+and [historical review tables](../figures/catalog_review/).
 
 
 Approved by Casey Dunn on 2026-09-26, after the per-library cohort assembly

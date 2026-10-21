@@ -49,6 +49,9 @@ retain the observed event range. The six source records are preserved in
 This value is a representative event mean, not an interval midpoint or a measured
 depth for the individual sequenced specimen. The collection-context reader
 distinguishes it as `range_with_derived_mean` and uses the full range to assign
-depth strata. All 205 publication-table libraries now have accepted numeric
-depths. Existing analyses and source snapshots retain their previous provenance;
-the metadata export alone does not regenerate those results.
+depth strata. This resolved the last numeric-depth gaps in the original 205
+libraries. With the eight Bargmannia libraries, all 213 now have numeric depths.
+Existing analyses and source snapshots retain their previous provenance;
+the metadata export alone does not regenerate those results. The explicitly
+authorized [expanded reporting refresh](expanded_reporting.md) incorporates
+these reviewed values into current descriptive tables.

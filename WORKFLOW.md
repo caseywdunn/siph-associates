@@ -6,10 +6,17 @@ coverage and generated rule graphs, use the
 gate instructions below remain useful for execution and controller recovery;
 their early target list is not the complete set of analyses.
 
-The root `Snakefile` is the publication workflow. It reads only the normalized
-sample table and locked configuration; no rule reads the exploratory repository.
-Production products are written under `data/results/`, while regenerable trimmed
-reads are written under `/vast/palmer/scratch/dunn/cwd7/siph_associates/`.
+The current four-study cohort and accepted execution paths are documented in
+[current cohort and reporting](docs/expanded_reporting.md). Catalog v3 mapping
+has completed for all 213 libraries. The root `Snakefile` preserves the original
+205-library sequence workflow; the bounded entry points assemble the new study,
+apply Halistemma host depletion, complete omitted assemblies, review catalogs,
+remap the expanded cohort and regenerate reporting outputs using shared rules.
+
+The targets and early gate instructions below describe the original execution.
+The 175,000-pair assembly cutoff was withdrawn on 2026-10-20: assembly has now
+been attempted for every library. Follow the current guide for continuation,
+rather than rebuilding the frozen original sample tables.
 
 ## Targets
 

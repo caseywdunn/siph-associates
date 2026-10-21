@@ -1,5 +1,10 @@
 # Fourth study: Bargmannia
 
+**Current status (2026-10-21):** all eight selected libraries have completed
+trimming, universal screens, assembly and catalog-v3 microbial/viral mapping.
+They enter the [expanded reporting workflow](expanded_reporting.md) as a fourth
+study with the same detection criteria.
+
 The new study is Mańko and colleagues (2026),
 [doi:10.1093/zoolinnean/zlag150](https://doi.org/10.1093/zoolinnean/zlag150).
 Only the eight Table S2 rows marked “This study” with new raw-read accessions
@@ -42,8 +47,9 @@ screening remains paused. Quality-filtered full reads are **retained** for
 subsequent competitive mapping; they are not temporary fish-screen inputs.
 
 The full capped input is 1,451,481,136 pairs before quality filtering. Assembly
-input eligibility is checked against the existing 175,000-pair minimum before
-assembly. No original library is reprocessed by this entry point.
+inputs all exceeded the historical 175,000-pair gate in this completed run.
+The current cohort policy attempts assembly without that cutoff; the gate in
+this historical launcher did not exclude any of the eight libraries. No original library is reprocessed by this entry point.
 
 Use the existing environments and databases described in
 [the main workflow guide](workflow/README.md). From the repository root:
@@ -75,8 +81,31 @@ earlier hold in [post_expansion_remapping.json](../config/post_expansion_remappi
 
 The pooled catalog combines retained original assemblies with the new Bargmannia
 and reviewed Halistemma assemblies, retaining the MAGSP0026 domain exclusion.
-One full remapping of all 213 libraries will support revised cohort summaries,
-treating Manko2026 as the fourth study.
+The full remapping of all 213 libraries passed on 2026-10-21.
+[Downstream reporting](expanded_reporting.md) now treats Manko2026 as the fourth study.
 Existing assemblies are reusable; existing mappings cannot establish abundance
-against newly added competing targets. The original 205-library manuscript
-tables remain the reporting scope until that combined analysis is complete.
+against newly added competing targets. The combined downstream exports are
+complete. The original 205-library manuscript tables await the separate
+manuscript update described in the [handoff](../dev_docs/expanded-manuscript-handoff.md).
+
+## Collection metadata source conflicts
+
+The NCBI XML snapshots retrieved on 2026-10-19 contain five apparent
+cross-event assignments of collection date, depth and coordinates. The current
+metadata retain the published Table S1 values for the identified collecting
+event. Human-facing notes flag the discrepancies; neither sample handles nor
+raw-read assignments are changed. These observations concern the retained
+snapshots, not a fresh check of the live NCBI records.
+
+| Library collecting event | NCBI run | Retained NCBI collection values match Table S1 event |
+| --- | --- | --- |
+| M120-SS3 | SRR36270053 | D725-D8 |
+| D611-D6 | SRR36270052 | D961-D3 |
+| D666-D10 | SRR36270050 | D611-D6 |
+| D961-D3 | SRR36270049 | M120-SS3 |
+| D725-D8 | SRR36270048 | D666-D10 |
+
+The [retained NCBI records](../data/sources/manko2026/) and
+[specimen source table](../data/metadata/manko2026/sample_metadata.tsv) preserve
+both sides. D669-SS5, T676-SS3 and T411-SS2 agree within source rounding. The
+previously noted T676-SS3 and D611-D6 voucher conflicts remain unresolved.

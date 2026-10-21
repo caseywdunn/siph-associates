@@ -1,0 +1,127 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "expanded_publication", color = "0.24 0.6 0.85", style="rounded"];
+	1[label = "validate_phase6", color = "0.15 0.6 0.85", style="rounded"];
+	2[label = "grade_presences", color = "0.33 0.6 0.85", style="rounded"];
+	3[label = "align_assembly_catalog_minimap2", color = "0.30 0.6 0.85", style="rounded"];
+	4[label = "index_catalog_minimap2", color = "0.05 0.6 0.85", style="rounded"];
+	5[label = "test_contamination_flowcell", color = "0.48 0.6 0.85", style="rounded"];
+	6[label = "normalize_phase6_metadata", color = "0.16 0.6 0.85", style="rounded"];
+	7[label = "reporting_metadata", color = "0.41 0.6 0.85", style="rounded"];
+	8[label = "test_nanomia_contamination_flowcell", color = "0.23 0.6 0.85", style="rounded"];
+	9[label = "analyze_presence_threshold", color = "0.03 0.6 0.85", style="rounded"];
+	10[label = "summarize_incidence", color = "0.38 0.6 0.85", style="rounded"];
+	11[label = "fit_physalia_models_lme4", color = "0.18 0.6 0.85", style="rounded"];
+	12[label = "compare_sensitivity_analyses", color = "0.01 0.6 0.85", style="rounded"];
+	13[label = "validate_eukaryote_gate", color = "0.46 0.6 0.85", style="rounded"];
+	14[label = "grade_eukaryotes", color = "0.04 0.6 0.85", style="rounded"];
+	15[label = "aggregate_ssu_read_lineages", color = "0.61 0.6 0.85", style="rounded"];
+	16[label = "classify_ssu_reads_minimap2", color = "0.35 0.6 0.85", style="rounded"];
+	17[label = "index_eukaryote_ssu_reference_minimap2", color = "0.29 0.6 0.85", style="rounded"];
+	18[label = "build_eukaryote_ssu_reference", color = "0.08 0.6 0.85", style="rounded"];
+	19[label = "extract_phyloflash_ssu", color = "0.31 0.6 0.85", style="rounded"];
+	20[label = "collect_eukaryote_assembled", color = "0.50 0.6 0.85", style="rounded"];
+	21[label = "classify_assembled_ssu_minimap2", color = "0.64 0.6 0.85", style="rounded"];
+	22[label = "index_eukaryote_ssu_reference_asm20", color = "0.52 0.6 0.85", style="rounded"];
+	23[label = "verify_eukaryotes_ncbi", color = "0.65 0.6 0.85", style="rounded"];
+	24[label = "publication_collection_context_figures", color = "0.37 0.6 0.85", style="rounded"];
+	25[label = "collection_context_tables", color = "0.63 0.6 0.85", style="rounded"];
+	26[label = "publication_cohort_figures", color = "0.53 0.6 0.85", style="rounded"];
+	27[label = "expanded_overview", color = "0.59 0.6 0.85", style="rounded"];
+	28[label = "expanded_supporting_tables", color = "0.49 0.6 0.85", style="rounded"];
+	29[label = "expanded_screening_summary", color = "0.22 0.6 0.85", style="rounded"];
+	30[label = "expanded_screen_qc", color = "0.54 0.6 0.85", style="rounded"];
+	31[label = "expanded_nomination_evidence", color = "0.57 0.6 0.85", style="rounded"];
+	32[label = "expanded_initial_ssu_evidence", color = "0.45 0.6 0.85", style="rounded"];
+	33[label = "expanded_ssu_controls", color = "0.26 0.6 0.85", style="rounded"];
+	34[label = "expanded_fish_summary", color = "0.56 0.6 0.85", style="rounded"];
+	35[label = "compare_expanded_publication", color = "0.00 0.6 0.85", style="rounded"];
+	36[label = "report_host_depletion", color = "0.11 0.6 0.85", style="rounded"];
+	1 -> 0
+	35 -> 0
+	28 -> 0
+	24 -> 0
+	34 -> 0
+	29 -> 0
+	27 -> 0
+	36 -> 0
+	13 -> 0
+	5 -> 1
+	2 -> 1
+	6 -> 1
+	12 -> 1
+	9 -> 1
+	10 -> 1
+	11 -> 1
+	8 -> 1
+	3 -> 2
+	4 -> 3
+	2 -> 5
+	6 -> 5
+	7 -> 6
+	2 -> 8
+	6 -> 8
+	2 -> 9
+	6 -> 9
+	7 -> 9
+	5 -> 10
+	2 -> 10
+	7 -> 10
+	2 -> 11
+	6 -> 11
+	2 -> 12
+	7 -> 12
+	14 -> 13
+	23 -> 13
+	20 -> 13
+	20 -> 14
+	23 -> 14
+	15 -> 14
+	16 -> 15
+	17 -> 16
+	18 -> 16
+	19 -> 16
+	18 -> 17
+	19 -> 18
+	21 -> 20
+	19 -> 20
+	22 -> 21
+	18 -> 21
+	19 -> 21
+	18 -> 22
+	20 -> 23
+	25 -> 24
+	26 -> 25
+	14 -> 26
+	2 -> 26
+	6 -> 26
+	26 -> 27
+	25 -> 27
+	5 -> 28
+	2 -> 28
+	1 -> 28
+	6 -> 28
+	12 -> 28
+	9 -> 28
+	26 -> 28
+	10 -> 28
+	11 -> 28
+	8 -> 28
+	25 -> 28
+	2 -> 29
+	12 -> 29
+	14 -> 29
+	30 -> 29
+	33 -> 29
+	31 -> 29
+	15 -> 29
+	32 -> 29
+	15 -> 33
+	19 -> 33
+	7 -> 34
+	26 -> 35
+	15 -> 35
+	26 -> 36
+}            

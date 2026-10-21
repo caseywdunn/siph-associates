@@ -3,7 +3,7 @@
 
 The microbial display collapses genome targets to explicitly recorded lineages
 within each specimen. Eukaryotic cells retain the existing reporting units and
-evidence grades. All 205 libraries provide descriptive denominators.
+evidence grades. All accepted libraries provide descriptive denominators.
 """
 
 from __future__ import annotations
@@ -39,8 +39,8 @@ TEAL = "#009E73"
 ORANGE = "#D55E00"
 DARK = "#243647"
 GRAY = "#EDF1F3"
-STUDIES = ["Church2025", "Ahuja2024", "Ahuja2026"]
-STUDY_COLORS = {"Church2025": BLUE, "Ahuja2024": "#E69F00", "Ahuja2026": TEAL}
+STUDIES = ["Church2025", "Ahuja2024", "Ahuja2026", "Manko2026"]
+STUDY_COLORS = {"Church2025": BLUE, "Ahuja2024": "#E69F00", "Ahuja2026": TEAL, "Manko2026": "#CC79A7"}
 MICROBIAL_GROUPS = [
     "Metamycoplasmataceae",
     "Cognatishimia",
@@ -195,7 +195,7 @@ def draw_overview(
         )
 
     sampling = fig.add_subplot(grid[0, 1])
-    panel_title(sampling, "B", "205 specimens in three studies")
+    panel_title(sampling, "B", f"{len(metadata)} specimens in {len(STUDIES)} studies")
     host_groups = ["Physalia", "Nanomia", "Other siphonophores"]
     sample_rows = []
     left = np.zeros(3)
@@ -290,13 +290,13 @@ def draw_overview(
     panel_title(detection, "D", "Recovered across the cohort")
     domain_colors = [BLUE, "#9B6BAC", TEAL, ORANGE]
     for index, (domain, samples) in enumerate(domain_sets.items()):
-        detection.barh(index, 205, color=GRAY, height=0.55)
+        detection.barh(index, len(metadata), color=GRAY, height=0.55)
         detection.barh(index, len(samples), color=domain_colors[index], height=0.55)
-        detection.text(211, index, f"{len(samples)}/205", va="center", fontsize=10)
+        detection.text(len(metadata) + 6, index, f"{len(samples)}/{len(metadata)}", va="center", fontsize=10)
     detection.set_yticks(range(4), list(domain_sets), fontsize=10)
     detection.invert_yaxis()
     detection.set_xlim(0, 270)
-    detection.set_xticks([0, 100, 205])
+    detection.set_xticks([0, 100, len(metadata)])
     detection.set_xlabel("Specimens with supported detections", fontsize=9)
     detection.tick_params(axis="y", length=0)
     detection.spines[["left", "right", "top"]].set_visible(False)
@@ -487,14 +487,8 @@ def draw_eukaryotes(
                 "grade": row["grade"],
             }
         )
-    if (int(np.count_nonzero(matrix)), len(samples), int((matrix == 2).sum())) != (
-        61,
-        39,
-        42,
-    ):
-        raise ValueError(
-            "Review plot scope: expected 61 detections/39 libraries/42 read+assembly cells"
-        )
+    if int(np.count_nonzero(matrix)) != len(retained):
+        raise ValueError("Display must preserve every nonredundant detection exactly once")
     labels = [unit.split(";")[-1] for unit in units]
     if len(set(labels)) != len(labels):
         raise ValueError("Ambiguous shortened eukaryotic labels")
@@ -633,8 +627,9 @@ def main() -> None:
     tables = {Path(name).name: read_tsv(ROOT / name) for name in INPUT_NAMES}
     metadata = tables["sample_metadata.tsv"]
     meta = {specimen_id(row): row for row in metadata}
-    if len(metadata) != 205 or len(meta) != 205:
-        raise ValueError("Expected one metadata row for each of 205 libraries")
+    expected = json.loads((ROOT / "config/reporting_sources.json").read_text())["expected_samples"]
+    if len(metadata) != expected or len(meta) != expected:
+        raise ValueError("Expected one metadata row per configured library")
     bacteria = tables["bacterial_detections.tsv"]
     viruses = tables["viral_detections.tsv"]
     eukaryotes = [
@@ -686,7 +681,7 @@ def main() -> None:
                 {
                     "domain": domain,
                     "positive_libraries": len(samples),
-                    "total_libraries": 205,
+                    "total_libraries": len(metadata),
                 }
                 for domain, samples in domain_sets.items()
             ],
@@ -715,12 +710,12 @@ def main() -> None:
             "matplotlib": matplotlib.__version__,
             "numpy": np.__version__,
         },
-        "scope": "All 205 libraries retained descriptively; no flowcell-based inference or sequence reanalysis.",
+        "scope": "All accepted libraries retained descriptively; no flowcell-based inference or sequence reanalysis.",
         "checks": {
-            "metadata_libraries": 205,
-            "eukaryotic_detections": 61,
-            "eukaryote_positive_libraries": 39,
-            "eukaryote_read_and_assembly_cells": 42,
+            "metadata_libraries": len(metadata),
+            "eukaryotic_detections": len(eukaryotes),
+            "eukaryote_positive_libraries": len(domain_sets["Eukaryotes"]),
+            "eukaryote_read_and_assembly_cells": sum(r["grade"] == "high_confidence" for r in eukaryotes),
             "domain_counts_match_accepted_host_summary": True,
         },
         "microbial_display": "Mutually exclusive target assignments: Metamycoplasmataceae, seven frequent named bacterial groups, remaining bacteria, and archaea; presence deduplicated within each specimen.",

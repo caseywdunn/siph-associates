@@ -133,12 +133,16 @@ def depth_context(row: dict[str, str]) -> dict[str, str]:
                 "Interval midpoint requires recorded bounds and a point value"
             )
         status = "range_with_derived_midpoint"
+    elif row.get("collection_depth_basis") == "event_mean":
+        if lower is None or point is None:
+            raise ValueError("Event mean requires recorded bounds and a point value")
+        status = "range_with_derived_mean"
     elif lower is not None:
         status = "recorded_point_and_range" if point is not None else "recorded_range"
     else:
         status = "recorded_point"
     # The full interval determines the stratum, including when the publication
-    # table also supplies a derived midpoint.
+    # table also supplies a derived midpoint or collection-event mean.
     lo, hi = (lower, upper) if lower is not None else (point, point)
     if row["species_current"].startswith("Physalia "):
         if lo != 0 or hi != 0:
@@ -417,9 +421,10 @@ def run(root: Path, output: Path) -> dict:
     paths = {key: root / relative for key, relative in INPUTS.items()}
     inputs = {key: read_table(path) for key, path in paths.items()}
     context, evidence = derive_context(inputs)
-    if len(context) != 205:
+    expected = {r["sample_id"] for r in read_table(root / "config/post_expansion_samples.tsv")}
+    if len(context) != len(expected) or {r["analysis_sample_id"] for r in inputs["manifest"]} != expected:
         raise ValueError(
-            "Review descriptive scope if the accepted 205-library cohort changes"
+            "Context metadata must match the expanded reporting cohort"
         )
     output.mkdir(parents=True, exist_ok=True)
     tables = {
@@ -465,18 +470,18 @@ def run(root: Path, output: Path) -> dict:
         "tissue_summary": tables["tissue_summary.tsv"],
         "dt68_depth_summary": tables["dt68_depth_summary.tsv"],
         "methods": {
-            "scope": "All 205 libraries descriptive; additional single-physical-flowcell descriptive subsets only; no new tests or models.",
+            "scope": f"All {len(context)} libraries descriptive; additional single-physical-flowcell descriptive subsets only; no new tests or models.",
             "positive_grades": sorted(VALID),
             "eukaryote_selection": "count_as_detection=true in reviewed evidence; no ancestor/descendant double-counting.",
             "units": "Bacterial/archaeal/viral counts are accepted genome targets; eukaryote counts are reviewed reporting groups. They are not equivalent richness measures.",
             "zero_interpretation": "No accepted detection in the reviewed evidence, not established biological absence.",
-            "depth_strata": "Physalia at assigned/recorded surface; other hosts entirely within 0-20 m, entirely below 20 m, crossing 20 m, or unknown. Intervals have no imputed midpoint.",
+            "depth_strata": "Physalia at assigned/recorded surface; other hosts entirely within 0-20 m, entirely below 20 m, crossing 20 m, or unknown. Interval strata use the full recorded bounds; derived midpoint and event-mean values remain in the specimen table.",
             "physalia_depths": "150 curator-assigned surface values and one source-record zero are distinguished.",
             "roles": "Roles are evidence annotations. A library may contain both potential prey and potential parasites.",
             "tissue_groups": "Source tissue descriptions are lowercased; empty values are unknown. No anatomical localization is inferred from DNA presence.",
             "host_tissue_check": "A fixed secondary descriptive subset of Physalia utriculus compares regional incidence within one host species and tissue description; all-library and single-flowcell scopes remain separate.",
             "lifestyle": "Physalia neustonic; Stephalia dilata benthic; remaining taxa broadly pelagic, not depth-derived.",
-            "interpretation": "Post hoc exploratory descriptions; host, depth, region, tissue, sampling time and sequencing batch overlap.",
+            "interpretation": "Descriptive comparisons; host, depth, region, tissue, sampling time and sequencing batch overlap.",
         },
     }
     (output / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")

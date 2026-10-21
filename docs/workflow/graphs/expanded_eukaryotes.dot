@@ -1,0 +1,37 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "expanded_eukaryotes", color = "0.27 0.6 0.85", style="rounded"];
+	1[label = "validate_eukaryote_gate", color = "0.46 0.6 0.85", style="rounded"];
+	2[label = "grade_eukaryotes", color = "0.04 0.6 0.85", style="rounded"];
+	3[label = "aggregate_ssu_read_lineages", color = "0.61 0.6 0.85", style="rounded"];
+	4[label = "classify_ssu_reads_minimap2", color = "0.35 0.6 0.85", style="rounded"];
+	5[label = "index_eukaryote_ssu_reference_minimap2", color = "0.29 0.6 0.85", style="rounded"];
+	6[label = "build_eukaryote_ssu_reference", color = "0.08 0.6 0.85", style="rounded"];
+	7[label = "extract_phyloflash_ssu", color = "0.31 0.6 0.85", style="rounded"];
+	8[label = "collect_eukaryote_assembled", color = "0.50 0.6 0.85", style="rounded"];
+	9[label = "classify_assembled_ssu_minimap2", color = "0.64 0.6 0.85", style="rounded"];
+	10[label = "index_eukaryote_ssu_reference_asm20", color = "0.52 0.6 0.85", style="rounded"];
+	11[label = "verify_eukaryotes_ncbi", color = "0.65 0.6 0.85", style="rounded"];
+	1 -> 0
+	2 -> 1
+	11 -> 1
+	8 -> 1
+	8 -> 2
+	11 -> 2
+	3 -> 2
+	4 -> 3
+	5 -> 4
+	6 -> 4
+	7 -> 4
+	6 -> 5
+	7 -> 6
+	9 -> 8
+	7 -> 8
+	10 -> 9
+	6 -> 9
+	7 -> 9
+	6 -> 10
+	8 -> 11
+}            

@@ -1,5 +1,14 @@
 # Publication-analysis execution plan
 
+**Current state, 2026-10-21:** the expanded cohort has 213 libraries from four
+studies, all selected assemblies are complete, and catalog v3 remapping passed.
+Use [current cohort and reporting](docs/expanded_reporting.md) for accepted paths,
+policy amendments, current analyses and readiness. The original plan below is
+retained as a dated design record; its initial counts, provisional parameters
+and not-yet-started statements do not describe the current execution. The
+2026-10-03 decision in [RUNLOG.md](RUNLOG.md) excludes a costly clean full rerun.
+
+
 Last updated: 2026-08-29.
 
 This document turns the scientific design in `PLAN.md` into a sequence that can

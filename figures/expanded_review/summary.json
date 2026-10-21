@@ -1,0 +1,188 @@
+{
+  "baseline_revision": "44ade17",
+  "baseline_sha256": "d15c8084258701a5ad007f8c34331ab695a1e67531a7ff1e5b5b96e4b890bf07",
+  "libraries": 213,
+  "original_libraries": 205,
+  "added_libraries": 8,
+  "original_metadata_changes": 0,
+  "detection_comparison": {
+    "microbial": {
+      "previous_detections": 557,
+      "previous_units_after_catalog_crosswalk": 557,
+      "current_detections": 568,
+      "current_in_original_libraries": 559,
+      "current_in_added_libraries": 9,
+      "changes": {
+        "grade_change": 4,
+        "gained_detection": 2,
+        "new_library": 9
+      }
+    },
+    "viral": {
+      "previous_detections": 530,
+      "previous_units_after_catalog_crosswalk": 530,
+      "current_detections": 631,
+      "current_in_original_libraries": 532,
+      "current_in_added_libraries": 99,
+      "changes": {
+        "lost_detection": 13,
+        "gained_detection": 15,
+        "new_library": 99
+      }
+    },
+    "eukaryotic": {
+      "previous_detections": 61,
+      "previous_units_after_catalog_crosswalk": 61,
+      "current_detections": 64,
+      "current_in_original_libraries": 61,
+      "current_in_added_libraries": 3,
+      "changes": {
+        "new_library": 3
+      }
+    }
+  },
+  "ssu_background_flagged_libraries": [
+    "Manko2026__T676-SS3"
+  ],
+  "background_sensitivity": [
+    {
+      "domain": "microbial",
+      "scope": "all_libraries",
+      "libraries_in_scope": 213,
+      "detections": 568,
+      "positive_libraries": 140,
+      "detected_targets_or_groups": 189,
+      "high_confidence_detections": 303
+    },
+    {
+      "domain": "microbial",
+      "scope": "excluding_background_flagged_libraries",
+      "libraries_in_scope": 212,
+      "detections": 567,
+      "positive_libraries": 139,
+      "detected_targets_or_groups": 189,
+      "high_confidence_detections": 303
+    },
+    {
+      "domain": "viral",
+      "scope": "all_libraries",
+      "libraries_in_scope": 213,
+      "detections": 631,
+      "positive_libraries": 127,
+      "detected_targets_or_groups": 392,
+      "high_confidence_detections": 442
+    },
+    {
+      "domain": "viral",
+      "scope": "excluding_background_flagged_libraries",
+      "libraries_in_scope": 212,
+      "detections": 545,
+      "positive_libraries": 126,
+      "detected_targets_or_groups": 306,
+      "high_confidence_detections": 356
+    },
+    {
+      "domain": "eukaryotic",
+      "scope": "all_libraries",
+      "libraries_in_scope": 213,
+      "detections": 64,
+      "positive_libraries": 40,
+      "detected_targets_or_groups": 17,
+      "high_confidence_detections": 42
+    },
+    {
+      "domain": "eukaryotic",
+      "scope": "excluding_background_flagged_libraries",
+      "libraries_in_scope": 212,
+      "detections": 61,
+      "positive_libraries": 39,
+      "detected_targets_or_groups": 16,
+      "high_confidence_detections": 42
+    }
+  ],
+  "background_interpretation": "Primary grades and thresholds are unchanged. The predefined SSU background-control lineages flag specimen-specific uncertainty. Omitting flagged libraries is a descriptive sensitivity check, not proof that their microbial or viral detections are false.",
+  "retained_mag_ids_added": [
+    "Church2025__YPM-IZ-111016__bin.1"
+  ],
+  "retained_mag_ids_removed": [],
+  "prior_cohort_summary": {
+    "libraries": 205,
+    "host_labels": 37,
+    "singleton_host_labels": 26,
+    "libraries_by_study": {
+      "Church2025": 151,
+      "Ahuja2024": 33,
+      "Ahuja2026": 21
+    },
+    "assembly_eligible": 195,
+    "retained_mags": 103,
+    "mag_species": 31,
+    "near_complete_mags": 55,
+    "bacterial_detection_rows": 557,
+    "bacterial_detected_targets": 184,
+    "bacterial_positive_libraries": 138,
+    "bacterial_high_confidence_rows": 302,
+    "bacterial_divergent_match_rows": 34,
+    "associate_viral_detection_rows": 530,
+    "associate_viral_targets": 300,
+    "associate_viral_positive_libraries": 122,
+    "eukaryote_validated_evidence_rows": 62,
+    "eukaryote_nonredundant_detection_rows": 61,
+    "eukaryote_positive_libraries": 39,
+    "eukaryote_reporting_units": 16,
+    "eukaryote_high_confidence_rows": 42,
+    "eukaryote_roles": {
+      "prey": 9,
+      "unassigned": 29,
+      "parasite": 12,
+      "endosymbiont of Paramoeba": 11
+    },
+    "physalia_mycoplasmatales_positive_libraries": 67
+  },
+  "current_cohort_summary": {
+    "libraries": 213,
+    "host_labels": 42,
+    "singleton_host_labels": 29,
+    "libraries_by_study": {
+      "Church2025": 151,
+      "Ahuja2024": 33,
+      "Ahuja2026": 21,
+      "Manko2026": 8
+    },
+    "assembly_eligible": 213,
+    "retained_mags": 104,
+    "mag_species": 32,
+    "near_complete_mags": 55,
+    "associate_viral_detection_rows": 631,
+    "associate_viral_targets": 392,
+    "associate_viral_positive_libraries": 127,
+    "eukaryote_validated_evidence_rows": 67,
+    "eukaryote_nonredundant_detection_rows": 64,
+    "eukaryote_positive_libraries": 40,
+    "eukaryote_reporting_units": 17,
+    "eukaryote_high_confidence_rows": 42,
+    "eukaryote_roles": {
+      "prey": 9,
+      "unassigned": 32,
+      "parasite": 12,
+      "endosymbiont of Paramoeba": 11
+    },
+    "physalia_mycoplasmatales_positive_libraries": 67,
+    "microbial_detection_rows": 568,
+    "microbial_detected_targets": 189,
+    "microbial_positive_libraries": 140,
+    "microbial_high_confidence_rows": 303,
+    "microbial_divergent_match_rows": 32,
+    "bacterial_detection_rows": 567,
+    "bacterial_detected_targets": 188,
+    "bacterial_positive_libraries": 140,
+    "bacterial_high_confidence_rows": 303,
+    "bacterial_divergent_match_rows": 32,
+    "archaeal_detection_rows": 1,
+    "archaeal_detected_targets": 1,
+    "archaeal_positive_libraries": 1,
+    "archaeal_high_confidence_rows": 0,
+    "archaeal_divergent_match_rows": 0
+  },
+  "interpretation": "Catalog target IDs use the frozen v3 crosswalk. Changes include reference competition, catalog membership, assembly support and added libraries; read counts are not independent organisms."
+}

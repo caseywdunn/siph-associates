@@ -68,7 +68,8 @@ def controls(relative: str, identity: int) -> dict[str, Counter]:
 
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
-    qc = read("data/results/aggregation/cohort/library_qc.tsv")
+    settings = json.loads(source("config/reporting_sources.json").read_text())
+    qc = read(settings["screen_qc"])
     samples = {row["sample_id"] for row in qc}
     if len(samples) != len(qc) or any(row["status"] != "PASS" for row in qc):
         raise ValueError("Screen scope must contain unique, accepted libraries")
@@ -85,7 +86,7 @@ def main() -> None:
     libraries: dict[tuple[str, str], set[str]] = defaultdict(set)
     sylph = []
     myco_labels = {method: Counter() for method in ("Bracken", "phyloFlash")}
-    with source("data/results/aggregation/cohort/candidate_nominations.tsv").open(
+    with source(settings["aggregation_root"] + "/candidate_nominations.tsv").open(
         newline=""
     ) as handle:
         for row in csv.DictReader(handle, delimiter="\t"):
@@ -122,7 +123,7 @@ def main() -> None:
         if counts[("Bracken", rank)] != sum(int(row[qc_field]) for row in qc):
             raise ValueError("Bracken nomination counts differ from accepted QC")
     nominations = read(
-        "data/results/phase4_catalog/nomination_evidence/sylph_nominations.tsv"
+        settings["nomination_evidence"] + "/sylph_nominations.tsv"
     )
     for group in nominations:
         hits = [
@@ -140,13 +141,13 @@ def main() -> None:
         if observed != tuple(int(group[k]) for k in ("hits", "genomes", "libraries")):
             raise ValueError("Retained sylph summary disagrees with raw nominations")
     corroboration = read(
-        "data/results/phase4_catalog/nomination_evidence/gtdb_corroboration.tsv"
+        settings["nomination_evidence"] + "/gtdb_corroboration.tsv"
     )
     uncorroborated = read(
-        "data/results/phase4_catalog/nomination_evidence/gtdb_uncorroborated.tsv"
+        settings["nomination_evidence"] + "/gtdb_uncorroborated.tsv"
     )
 
-    catalog = read("figures/catalog_review/bacterial_catalog.manifest.tsv")
+    catalog = read(settings["catalog_manifest"])
     representatives = {
         row["catalog_id"]: row
         for row in catalog
@@ -154,7 +155,7 @@ def main() -> None:
     }
     grades = [
         row
-        for row in read("data/results/phase6_analysis/v2/grades/bacterial_grades.tsv")
+        for row in read(settings["analysis_root"] + "/grades/bacterial_grades.tsv")
         if row["role"] != "decoy"
     ]
     keys = {(row["sample_id"], row["target_id"]) for row in grades}
@@ -188,8 +189,10 @@ def main() -> None:
         )
     myco = [row for row in overlap if "f__Metamycoplasmataceae;" in row["taxonomy"]]
     archaea = [row for row in overlap if row["taxonomy"].startswith("d__Archaea;")]
-    if any(row["screen_overlap"] != "MAG_only" for row in myco + archaea):
-        raise ValueError("Focal mycoplasmatacean/archaeal genomes are not all MAG-only")
+    if any(row["screen_overlap"] != "MAG_only" for row in myco):
+        raise ValueError("Focal mycoplasmatacean genomes are not all MAG-only")
+    archaeal_mags = [row for row in archaea if row["role"] == "mag"]
+    archaeal_references = [row for row in archaea if row["role"] == "reference"]
     myco_samples = {row["sample_id"] for row in myco}
     if any(not myco_samples <= set(labels) for labels in myco_labels.values()):
         raise ValueError(
@@ -208,7 +211,7 @@ def main() -> None:
     ]
     mag_presences = sum(row["target_id"] in mag_only for row in accepted)
     dependence = read(
-        "data/results/phase6_analysis/v2/sensitivity/leave_one_study_out.tsv"
+        settings["analysis_root"] + "/sensitivity/leave_one_study_out.tsv"
     )
     prior = next(
         row
@@ -223,9 +226,9 @@ def main() -> None:
             "MAG-only counts disagree with retained nomination-dependence summary"
         )
 
-    before = controls("data/results/eukaryote_gate/read_evidence.tsv", identity)
-    after = controls("data/results/eukaryote_gate/read_lineages.tsv", identity)
-    calibration = read("data/results/eukaryote_gate/calibration/negative_controls.tsv")
+    before = controls(settings["eukaryote_root"] + "/read_evidence.tsv", identity)
+    after = controls(settings["eukaryote_root"] + "/read_lineages.tsv", identity)
+    calibration = read(settings["eukaryote_root"] + "/calibration/negative_controls.tsv")
     control_rows = []
     for name in before:
         for stage, group in (
@@ -259,7 +262,7 @@ def main() -> None:
             int(retained["max_pairs_in_a_library"]),
         ) != (control_rows[-1]["libraries_with_pairs"], control_rows[-1]["max_pairs"]):
             raise ValueError("Competitive controls disagree with retained calibration")
-    euk = read("data/results/eukaryote_gate/eukaryote_grades.tsv")
+    euk = read(settings["eukaryote_root"] + "/eukaryote_grades.tsv")
     euk_accepted = [row for row in euk if row["count_as_detection"] == "true"]
     euk_phyloflash = [
         row for row in euk_accepted if "phyloflash" in row["assembled_sources"]
@@ -318,8 +321,10 @@ def main() -> None:
         "MycoMagLibraries": len(myco_samples),
         "MycoBrackenLibraries": len(myco_samples & set(myco_labels["Bracken"])),
         "MycoPhyloflashLibraries": len(myco_samples & set(myco_labels["phyloFlash"])),
-        "ArchaealMagGenomes": len({row["target_id"] for row in archaea}),
-        "ArchaealMagDetections": len(archaea),
+        "ArchaealMagGenomes": len({row["target_id"] for row in archaeal_mags}),
+        "ArchaealMagDetections": len(archaeal_mags),
+        "ArchaealReferenceGenomes": len({row["target_id"] for row in archaeal_references}),
+        "ArchaealReferenceDetections": len(archaeal_references),
         "InsectsBefore": sum(n > 0 for n in before["Insecta"].values()),
         "InsectsAfter": sum(n > 0 for n in after["Insecta"].values()),
         "InsectMaxAfter": max(after["Insecta"].values()),

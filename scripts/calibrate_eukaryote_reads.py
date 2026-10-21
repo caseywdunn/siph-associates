@@ -7,6 +7,7 @@ to data/results/eukaryote_gate/calibration/.
 """
 from __future__ import annotations
 
+import argparse
 import csv
 import sys
 from collections import Counter, defaultdict
@@ -33,6 +34,13 @@ def write(name, header, rows):
         print("\t".join(str(v) for v in row))
 
 
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--gate-root", type=Path, default=GATE)
+parser.add_argument("--ssu-dir", type=Path, action="append")
+args = parser.parse_args()
+GATE = args.gate_root
+OUT = GATE / "calibration"
+ssu_dirs = args.ssu_dir or [GATE / "ssu"]
 pairs = defaultdict(Counter)  # (sample, unit) -> band -> cumulative read pairs
 kinds = {}
 with open(GATE / "read_lineages.tsv", newline="") as handle:
@@ -57,7 +65,7 @@ background = {band: max([c[band] for (s, u), c in pairs.items() if kinds.get(u) 
 
 # Positives: non-host clades assembled as full-length SSUs in the same library.
 positives = []
-for classification in sorted((GATE / "ssu").glob("*.ssu_classification.csv")):
+for classification in sorted(p for directory in ssu_dirs for p in directory.glob("*.ssu_classification.csv")):
     sample = classification.name.removesuffix(".ssu_classification.csv")
     with classification.open(newline="") as handle:
         for row in csv.DictReader(handle):

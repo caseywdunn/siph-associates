@@ -23,8 +23,11 @@ P6 = f"{WORK}/phase6_analysis"
 P6V = f"{P6}/{PHASE5['catalog_version']}"  # catalog-dependent outputs
 P6_TOOLS = f"{PHASE5['tool_prefixes']['mapping']}/bin"
 P6_STATS = f"{PHASE6['software']['stats_prefix']}/bin"
-P6_CATALOG = f"{WORK}/phase4_catalog/{PHASE5['catalog_version']}"
-P6_COHORT = f"{WORK}/phase5_mapping/{PHASE5['catalog_version']}/cohort"
+P6_CATALOG = config.get("analysis_catalog_root", f"{WORK}/phase4_catalog/{PHASE5['catalog_version']}")
+P6_COHORT = config.get("analysis_mapping_root", f"{WORK}/phase5_mapping/{PHASE5['catalog_version']}/cohort")
+P6_ASSEMBLIES = config.get("analysis_assembly_root", f"{WORK}/phase3_cohort")
+P6_SOURCE = config.get("analysis_catalog_source", WORK)
+P6_READ_CONTROLS = config.get("phase6_read_controls", True)
 
 wildcard_constraints:
     variant="full_reads|uncapped",
@@ -55,7 +58,7 @@ rule index_catalog_minimap2:
 
 rule align_assembly_catalog_minimap2:
     input:
-        contigs=f"{WORK}/phase3_cohort/assemblies/{{sample}}.fasta",
+        contigs=f"{P6_ASSEMBLIES}/assemblies/{{sample}}.fasta",
         index=f"{P6V}/assembly_support/bacterial_catalog.asm5.mmi",
     output:
         f"{P6V}/assembly_support/{{sample}}.paf",
@@ -187,9 +190,9 @@ rule grade_presences:
         bacterial=f"{P6_COHORT}/bacterial_coverage.tsv",
         viral=f"{P6_COHORT}/viral_coverage.tsv",
         manifest=f"{P6_CATALOG}/bacterial_catalog.manifest.tsv",
-        nominated=f"{WORK}/phase4_catalog/references/nominated.tsv",
-        mags=f"{WORK}/phase3_catalog/mags/mag_catalog.tsv",
-        votus=[f"{WORK}/phase3_catalog/votus/{c}.votus.tsv" for c in ("associate", "endogenous_candidate")],
+        nominated=f"{P6_SOURCE}/phase4_catalog/references/nominated.tsv",
+        mags=f"{P6_SOURCE}/phase3_catalog/mags/mag_catalog.tsv",
+        votus=[f"{P6_SOURCE}/phase3_catalog/votus/{c}.votus.tsv" for c in ("associate", "endogenous_candidate")],
         support=expand(f"{P6V}/assembly_support/{{sample}}.paf", sample=ASSEMBLY_IDS),
     output:
         bacterial=f"{P6V}/grades/bacterial_grades.tsv",
@@ -344,18 +347,20 @@ rule compare_sensitivity_analyses:
         subsets=str(ROOT / "config" / "phase6_subsets.tsv"),
         grades=f"{P6V}/grades/bacterial_grades.tsv",
         cohort_viral=f"{P6_COHORT}/viral_coverage.tsv",
-        nominated=f"{WORK}/phase4_catalog/references/nominated.tsv",
+        nominated=f"{P6_SOURCE}/phase4_catalog/references/nominated.tsv",
         catalog=f"{P6_CATALOG}/bacterial_catalog.manifest.tsv",
         manifest=config["manifest"],
         coverage=[f"{P6V}/sensitivity/{v}/coverage/{k}/{s}.tsv" for v, s in PHASE6_SENSITIVITY
-                  for k in ("bacterial", "viral")],
+                  for k in ("bacterial", "viral")] if P6_READ_CONTROLS else [],
     output:
         thresholds=f"{P6V}/sensitivity/threshold_sensitivity.tsv",
-        host_handling=f"{P6V}/sensitivity/host_handling_concordance.tsv",
-        capping=f"{P6V}/sensitivity/capping_concordance.tsv",
+        host_handling=[f"{P6V}/sensitivity/host_handling_concordance.tsv"] if P6_READ_CONTROLS else [],
+        capping=[f"{P6V}/sensitivity/capping_concordance.tsv"] if P6_READ_CONTROLS else [],
         loso=f"{P6V}/sensitivity/leave_one_study_out.tsv",
     params:
         sensitivity_dir=lambda wildcards, output: str(Path(output.thresholds).parent),
+        controls=(f"--out-host-handling {P6V}/sensitivity/host_handling_concordance.tsv --out-capping {P6V}/sensitivity/capping_concordance.tsv"
+                  if P6_READ_CONTROLS else "--skip-read-controls"),
     log:
         f"{WORK}/logs/phase6_analysis/compare_sensitivity.log",
     threads: 1
@@ -368,8 +373,7 @@ rule compare_sensitivity_analyses:
         python {input.script:q} --presence {input.presence:q} --subsets {input.subsets:q} \
           --grades {input.grades:q} --cohort-viral {input.cohort_viral:q} --nominated {input.nominated:q} \
           --catalog {input.catalog:q} --manifest {input.manifest:q} --sensitivity-dir {params.sensitivity_dir:q} \
-          --out-thresholds {output.thresholds:q} --out-host-handling {output.host_handling:q} \
-          --out-capping {output.capping:q} --out-loso {output.loso:q} \
+          --out-thresholds {output.thresholds:q} {params.controls} --out-loso {output.loso:q} \
           --domain-exclusions {input.exclusions:q} > {log:q} 2>&1
         """
 
@@ -432,6 +436,7 @@ rule analyze_presence_threshold:
 rule validate_phase6:
     input:
         script="workflow/scripts/validate_phase6.py",
+        samples=config["samples"],
         bacterial=f"{P6V}/grades/bacterial_grades.tsv",
         viral=f"{P6V}/grades/viral_grades.tsv",
         contamination=f"{P6V}/grades/contamination_tests.tsv",
@@ -444,8 +449,8 @@ rule validate_phase6:
         primary=[f"{P6V}/primary/{name}.tsv" for name in ("bacterial_incidence", "viral_incidence", "grade_summary",
                                                          "phage_host_links", "physalia_design", "physalia_models",
                                                          "physalia_permanova", "physalia_region_permutation")],
-        sensitivity=[f"{P6V}/sensitivity/{name}.tsv" for name in ("threshold_sensitivity", "host_handling_concordance",
-                                                                 "capping_concordance", "leave_one_study_out")],
+        sensitivity=[f"{P6V}/sensitivity/{name}.tsv" for name in (["threshold_sensitivity", "leave_one_study_out"] +
+                     (["host_handling_concordance", "capping_concordance"] if P6_READ_CONTROLS else []))],
     output:
         f"{WORK}/stages/phase6_analysis_{PHASE5['catalog_version']}.done",
     log:
@@ -460,7 +465,7 @@ rule validate_phase6:
         python {input.script:q} --bacterial {input.bacterial:q} --viral {input.viral:q} \
           --contamination {input.contamination:q} --metadata {input.metadata:q} --nanomia {input.nanomia:q} \
           --thresholds {input.thresholds:q} --primary {input.primary:q} \
-          --sensitivity {input.sensitivity:q} --output {output:q} > {log:q} 2>&1
+          --sensitivity {input.sensitivity:q} --samples {input.samples:q} --output {output:q} > {log:q} 2>&1
         """
 
 

@@ -1,10 +1,18 @@
 # Fish 12S screen
 
-The active survey searches fish 12S across host groups, including *Physalia*,
+The completed 213-library survey searches fish 12S across host groups, including *Physalia*,
 *Nanomia* and *Erenna*. Host identity determines read preparation, not which
 libraries can contain fish evidence. Crustacean COI work was paused on 2026-10-18
 and preserved on branch `crustacean-coi-screen`; it is not a dependency of this
 fish workflow.
+
+The [current results](fish_12s_results.md) combine 161 host-depleted libraries,
+44 original full-read libraries and eight newly added Bargmannia full-read
+libraries. The original Halistemma fish screens preceded host depletion and
+retain their full-read inputs. The Bargmannia workflow reused retained trimmed
+reads; merging its eight completed reports requires no further FASTQ processing.
+`expanded_fish_summary` in the [reporting workflow](expanded_reporting.md)
+produces the combined tables from all completed per-library reports.
 
 ## Revised pilot, 2026-10-17
 
@@ -29,21 +37,21 @@ execution records are preserved.
 
 ## Expansion and sensitivity
 
-The host-depleted fish cohort is complete. The approved expansion screens all
-44 remaining libraries, bringing the survey to all 205 libraries. Review
+The original host-depleted and full-read cohorts are complete. The first expansion
+screened all 44 remaining libraries, covering the original 205-library cohort. Review
 competitive alignments before treating recruited candidates as fish identifications.
 Use all existing host-depleted pairs where available.
 For the other 44 libraries, use full quality-filtered inputs under the original
 200-million-pair cap rather than the 25-million-pair assembly subset. This is the
 recommended starting depth, not a claim that 200 million guarantees detection.
 
-Those full trimmed FASTQs were intentionally deleted after earlier screening
-and mapping. The raw reads are retained; full trimmed inputs must be recreated
-in the new screening workflow, using the established filtering and seeded cap.
-That preparation should not invoke the old assembly, mapping or reporting DAG.
+Those full trimmed FASTQs had been deleted after earlier screening and mapping.
+The completed fish expansion recreated them from retained raw reads using the
+established filtering and seeded cap, without invoking the old assembly or
+microbial mapping DAG. Its temporary full reads were removed after screening.
 
 Across these 44 libraries, the inventories contain 12,255,368,962 raw pairs;
-7,939,126,078 pairs remain after the proposed cap but before quality filtering.
+7,939,126,078 pairs remain after the cap but before quality filtering.
 Twenty-eight libraries exceed 200 million raw pairs. All pairs are used for
 libraries below the cap. The cap is sampled across all lanes with BBTools 38.90,
 seed 20260829, followed by fastp 0.23.2, using the original trimming implementation

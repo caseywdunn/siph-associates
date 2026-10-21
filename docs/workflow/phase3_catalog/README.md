@@ -1,5 +1,13 @@
 # Build species and viral catalogs from recovered sequences
 
+**Execution scope:** the commands and graph below describe the original
+205-library workflow and its historical catalog versions. The current cohort
+has 213 libraries and reviewed catalog v3. Use
+[current cohort and reporting](../../expanded_reporting.md) for the accepted
+bounded entry points, completion records and current paths. The shared
+algorithms described here are reused; withdrawn assembly cutoffs do not select
+the current cohort.
+
 [Workflow index](../README.md) · [Source rules](../../../workflow/rules/phase3_catalog.smk)
 
 Select usable microbial genomes and viruses from the per-library assemblies, then

@@ -6,6 +6,12 @@ Compare the recovered Mycoplasmatales genomes with public relatives and infer a
 new phylogeny from 120 conserved bacterial marker proteins (bac120). This provides
 evolutionary context for the focal bacterial lineages.
 
+The retained tree contains seven focal siphonophore Metamycoplasmataceae genomes.
+Their source and sequence hashes are unchanged in catalog v3, so the expanded
+cohort reuses this tree. The newly retained Tyloplasma-related genome
+`MAGSP0033` belongs to Hepatoplasmataceae and is outside this focal comparison;
+the tree does not place it. See the [reporting scope](../../expanded_reporting.md).
+
 ## Inputs and products
 
 Inputs are the recovered MAG catalog/representatives, GTDB r220 and the frozen

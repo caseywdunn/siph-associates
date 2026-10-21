@@ -25,6 +25,16 @@ EUK_TOOLS = f"{PHASE5['tool_prefixes']['mapping']}/bin"
 EUK_SILVA = EUKARYOTE["databases"]["silva_ssu_nr99"]
 
 
+EUK_ASSEMBLIES = config.get("analysis_assembly_root", f"{WORK}/phase3_cohort")
+EUK_REUSED = set()
+if config.get("eukaryote_reused_samples"):
+    with open(config["eukaryote_reused_samples"]) as handle:
+        EUK_REUSED = {r["sample_id"] for r in csv.DictReader(handle, delimiter="\t")}
+
+def eukaryote_ssu(sample, suffix):
+    root = config["eukaryote_reused_ssu_root"] if sample in EUK_REUSED else f"{EUK}/ssu"
+    return f"{root}/{sample}.{suffix}"
+
 
 rule extract_phyloflash_ssu:
     input:
@@ -37,7 +47,7 @@ rule extract_phyloflash_ssu:
     params:
         # Accepted Phase-2 provenance, checked by archive checksum rather than declared as
         # an input, so the known trim-provenance mtime cascade cannot reopen the screens.
-        provenance=f"{WORK}/provenance/phyloflash/{{sample}}.json",
+        provenance=lambda w: f"{config.get('eukaryote_provenance_root', WORK)}/provenance/phyloflash/{w.sample}.json",
     log:
         f"{WORK}/logs/eukaryote_gate/extract/{{sample}}.log",
     threads: 1
@@ -57,8 +67,8 @@ rule build_eukaryote_ssu_reference:
     input:
         script="workflow/scripts/build_eukaryote_ssu_reference.py",
         silva=EUK_SILVA,
-        classifications=expand(f"{EUK}/ssu/{{sample}}.ssu_classification.csv", sample=SAMPLE_IDS),
-        assembled=expand(f"{EUK}/ssu/{{sample}}.assembled_ssu.fasta", sample=SAMPLE_IDS),
+        classifications=[eukaryote_ssu(s, "ssu_classification.csv") for s in SAMPLE_IDS],
+        assembled=[eukaryote_ssu(s, "assembled_ssu.fasta") for s in SAMPLE_IDS],
     output:
         fasta=f"{EUK}/reference/ssu_reference.fasta",
         taxonomy=f"{EUK}/reference/ssu_reference.taxonomy.tsv",
@@ -123,8 +133,8 @@ rule index_eukaryote_ssu_reference_asm20:
 
 rule classify_ssu_reads_minimap2:
     input:
-        r1=f"{EUK}/ssu/{{sample}}.R1.fq.gz",
-        r2=f"{EUK}/ssu/{{sample}}.R2.fq.gz",
+        r1=lambda w: eukaryote_ssu(w.sample, "R1.fq.gz"),
+        r2=lambda w: eukaryote_ssu(w.sample, "R2.fq.gz"),
         index=f"{EUK}/reference/ssu_reference.sr.mmi",
         taxonomy=f"{EUK}/reference/ssu_reference.taxonomy.tsv",
         script="workflow/scripts/classify_ssu_reads_lca.py",
@@ -180,9 +190,9 @@ rule classify_assembled_ssu_minimap2:
     # One job per library: phyloFlash SSUs, plus 18S genes from the library's Phase-3 assembly
     # when it was assembled, each LCA-classified against the competitive reference.
     input:
-        phyloflash=f"{EUK}/ssu/{{sample}}.assembled_ssu.fasta",
-        assembly=lambda wildcards: [f"{WORK}/phase3_cohort/markers/{wildcards.sample}.gff",
-                                    f"{WORK}/phase3_cohort/assemblies/{wildcards.sample}.fasta"]
+        phyloflash=lambda w: eukaryote_ssu(w.sample, "assembled_ssu.fasta"),
+        assembly=lambda wildcards: [f"{EUK_ASSEMBLIES}/markers/{wildcards.sample}.gff",
+                                    f"{EUK_ASSEMBLIES}/assemblies/{wildcards.sample}.fasta"]
                                    if wildcards.sample in ASSEMBLY_IDS else [],
         index=f"{EUK}/reference/ssu_reference.asm20.mmi",
         taxonomy=f"{EUK}/reference/ssu_reference.taxonomy.tsv",
@@ -233,7 +243,7 @@ rule collect_eukaryote_assembled:
     input:
         script="workflow/scripts/collect_eukaryote_assembled.py",
         tables=[f"{EUK}/assembled/{s}.{src}.tsv" for s in SAMPLE_IDS for src in ("phyloflash", "assembly18s")],
-        fastas=[f"{EUK}/ssu/{s}.assembled_ssu.fasta" if src == "phyloflash" else f"{EUK}/assembled/{s}.assembly18s.fasta"
+        fastas=[eukaryote_ssu(s, "assembled_ssu.fasta") if src == "phyloflash" else f"{EUK}/assembled/{s}.assembly18s.fasta"
                 for s in SAMPLE_IDS for src in ("phyloflash", "assembly18s")],
     output:
         table=f"{EUK}/assembled_nonhost.tsv",
@@ -255,11 +265,15 @@ rule collect_eukaryote_assembled:
 rule verify_eukaryotes_ncbi:
     input:
         script="workflow/scripts/verify_eukaryotes_ncbi.py",
+        cache_code="workflow/scripts/ncbi_verification_cache.py",
+        cache=config.get("eukaryote_verification_cache", []),
         fasta=f"{EUK}/assembled_nonhost.fasta",
     output:
         f"{EUK}/ncbi_verification.tsv",
     params:
         email="casey.dunn@yale.edu",
+        cache=lambda w, input: f"--cache-fasta {input.cache[0]} --cache-table {input.cache[1]}" if input.cache else "",
+        cache_only="--cache-only" if config.get("eukaryote_verification_cache_only", False) else "",
     log:
         f"{WORK}/logs/eukaryote_gate/verify_ncbi.log",
     threads: 1
@@ -269,7 +283,7 @@ rule verify_eukaryotes_ncbi:
         "../../envs/workflow.yaml"
     shell:
         """
-        python {input.script:q} --fasta {input.fasta:q} --email {params.email} --output {output:q} > {log:q} 2>&1
+        python {input.script:q} --fasta {input.fasta:q} --email {params.email} {params.cache} {params.cache_only} --output {output:q} > {log:q} 2>&1
         """
 
 

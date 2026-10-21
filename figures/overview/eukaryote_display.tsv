@@ -1,5 +1,5 @@
 sample_id	host	display_row	reporting_unit	grade
-Ahuja2024__NA4	Praya	39	Arthropoda	high_confidence
+Ahuja2024__NA4	Praya	40	Arthropoda	high_confidence
 Ahuja2026__NA31	Nanomia bijuga	36	Amorphea;Obazoa;Opisthokonta;Nucletmycea;Fungi	validated
 Ahuja2026__NA31	Nanomia bijuga	36	SAR;Alveolata;Dinoflagellata;Dinophyceae;Peridiniphycidae	validated
 Ahuja2026__NA37	Nanomia sp.	38	Amorphea;Amoebozoa;Discosea;Flabellinia;Dactylopodida	validated
@@ -60,3 +60,6 @@ Church2025__YPM-IZ-111210	Physalia minuta	17	Amorphea;Amoebozoa;Discosea;Flabell
 Church2025__YPM-IZ-111210	Physalia minuta	17	Discoba;Discicristata;Euglenozoa;Kinetoplastea;Prokinetoplastina	high_confidence
 Church2025__YPM-IZ-111243	Physalia minuta	18	Platyhelminthes	high_confidence
 Church2025__YPM-IZ-111518	Physalia megalista	7	SAR;Stramenopiles;Ochrophyta;Diatomea;Bacillariophytina	validated
+Manko2026__T676-SS3	Bargmannia elongata	39	Amorphea;Obazoa;Opisthokonta;Nucletmycea;Fungi	validated
+Manko2026__T676-SS3	Bargmannia elongata	39	SAR;Alveolata;Protalveolata;Perkinsidae;A31	validated
+Manko2026__T676-SS3	Bargmannia elongata	39	SAR;Stramenopiles;Ochrophyta;Diatomea;Bacillariophytina	validated

@@ -3,7 +3,6 @@
 
 import hashlib
 import json
-import subprocess
 import sys
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
@@ -30,16 +29,17 @@ def verify_report(path: Path) -> dict:
 def main() -> None:
     out = Path("figures/fish_12s")
     out.mkdir(parents=True, exist_ok=True)
-    review = Path("data/results/fish_12s/final_review/2026-10-19")
-    host = review / "host_depleted"
-    subprocess.run(
-        [sys.executable, "scripts/fish_12s/summarize_cohort.py", "--output", str(host)],
-        check=True,
-    )
+    review = Path("data/results/post_expansion/2026-10-21/reporting/fish_12s")
+    review.mkdir(parents=True, exist_ok=True)
+    host = Path("data/results/fish_12s/final_review/2026-10-19/host_depleted")
     full = Path("data/results/fish_12s/full_reads/2026-10-18/review")
     libraries = table(Path("config/fish_12s_full_reads.tsv"))
     directories = [host] + [full / r["analysis_sample_id"] for r in libraries]
     assert len(libraries) == 44
+    additions = table(Path("data/metadata/manko2026/sample_metadata.tsv"))
+    added_root = Path("data/results/bargmannia/2026-10-19/fish_12s/review")
+    directories += [added_root / r["analysis_sample_id"] for r in additions]
+    assert len(additions) == 8
     samples, pairs, sources = [], [], {}
     for directory in directories:
         verify_report(directory)
@@ -51,9 +51,13 @@ def main() -> None:
         pairs.extend(table(directory / "pair_review.tsv"))
     expected = {
         r["analysis_sample_id"]
-        for r in table(Path("figures/cohort/sample_metadata.tsv"))
+        for r in table(
+            Path(
+                "data/results/post_expansion/2026-10-21/reporting/metadata/sample_metadata.tsv"
+            )
+        )
     }
-    assert len(samples) == len({r["analysis_sample_id"] for r in samples}) == 205
+    assert len(samples) == len({r["analysis_sample_id"] for r in samples}) == 213
     assert {r["analysis_sample_id"] for r in samples} == expected
     assert len(pairs) == len(
         {(r["analysis_sample_id"], r["read_pair_id"]) for r in pairs}
@@ -79,7 +83,11 @@ def main() -> None:
     reuse = {r["analysis_sample_id"] for r in table(Path(config["reuse_manifest"]))}
     for sid in sorted({s for s, _ in wanted}):
         relative = Path(sid, "host_depleted")
-        if sid in reuse:
+        if sid.startswith("Manko2026__"):
+            folders = [added_root.parent / "union" / sid / "capped_trimmed"]
+        elif sid in {r["analysis_sample_id"] for r in libraries}:
+            folders = [full.parent / "union" / sid / "capped_trimmed"]
+        elif sid in reuse:
             folders = [Path(config["reuse_screen"]) / relative]
             extra = (
                 Path("data/results/fish_12s/host_depleted_aligner_only/2026-10-17")
@@ -131,7 +139,7 @@ def main() -> None:
         "host_depleted_libraries": sum(
             r["read_source"] == "host_depleted" for r in samples
         ),
-        "full_read_libraries": len(libraries),
+        "full_read_libraries": len(libraries) + len(additions),
         "pairs_screened": sum(int(r["pairs_screened"]) for r in samples),
         "full_read_pairs_screened": sum(
             int(r["pairs_screened"])
@@ -156,7 +164,7 @@ def main() -> None:
         "Libraries": len(samples),
         "PositiveLibraries": summary["positive_libraries"],
         "StrongPairs": len(positives),
-        "FullReadLibraries": len(libraries),
+        "FullReadLibraries": len(libraries) + len(additions),
         "FullReadPairs": summary["full_read_pairs_screened"],
     }
     (out / "values.tex").write_text(

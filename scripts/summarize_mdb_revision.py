@@ -317,7 +317,9 @@ def gene_content() -> None:
 
 
 def phage_summary() -> None:
-    rows = read("data/results/phase6_analysis/v2/primary/phage_host_links.tsv")
+    settings = json.loads((ROOT / "config/reporting_sources.json").read_text())
+    INPUTS["config/reporting_sources.json"] = hashlib.sha256(Path("config/reporting_sources.json").read_bytes()).hexdigest()
+    rows = read(settings["analysis_root"] + "/primary/phage_host_links.tsv")
     if len({r["votu_id"] for r in rows}) != len(rows):
         raise ValueError("Multiple host predictions per vOTU need revised wording")
     photo = [r for r in rows if "s__Photobacterium angustum" in r["host_taxonomy"]]

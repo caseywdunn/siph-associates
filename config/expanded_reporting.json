@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "work_root": "data/results/post_expansion/2026-10-21/reporting",
+  "scratch_root": "data/results/post_expansion/2026-10-21/reporting/scratch",
+  "samples": "config/post_expansion_samples.tsv",
+  "manifest": "data/results/post_expansion/2026-10-21/reporting/metadata/manifest.csv",
+  "expected_samples": 213,
+  "catalog_version": "v3",
+  "analysis_catalog_root": "data/results/post_expansion/2026-10-20/curated/phase4_catalog/v3",
+  "analysis_catalog_source": "data/results/post_expansion/2026-10-20/curated",
+  "analysis_mapping_root": "data/results/post_expansion/2026-10-20/remapping/phase5_mapping/v3/cohort",
+  "analysis_assembly_root": "data/results/post_expansion/2026-10-20/phase3_cohort",
+  "phase6_read_controls": false,
+  "historical_read_controls": "data/results/phase6_analysis/v2/sensitivity",
+  "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+  "parameters": {
+    "cap_seed": 20260829,
+    "cap_pairs": 200000000
+  },
+  "eukaryote_reused_samples": "config/samples.tsv",
+  "eukaryote_reused_ssu_root": "data/results/eukaryote_gate/ssu",
+  "eukaryote_provenance_root": "data/results/bargmannia/2026-10-19",
+  "eukaryote_verification_cache": [
+    "data/results/eukaryote_gate/assembled_nonhost.fasta",
+    "data/results/eukaryote_gate/ncbi_verification.tsv"
+  ],
+  "eukaryote_verification_cache_only": true
+}

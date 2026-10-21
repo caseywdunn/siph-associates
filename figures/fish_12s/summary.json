@@ -1,13 +1,13 @@
 {
-  "libraries": 205,
+  "libraries": 213,
   "host_depleted_libraries": 161,
-  "full_read_libraries": 44,
-  "pairs_screened": 8146578446,
-  "full_read_pairs_screened": 7729836699,
+  "full_read_libraries": 52,
+  "pairs_screened": 9577330361,
+  "full_read_pairs_screened": 9160588614,
   "categories": {
-    "other_or_no_hit": 25761,
+    "other_or_no_hit": 32252,
     "long_close_fish_match": 32,
-    "other_fish_similarity": 64
+    "other_fish_similarity": 81
   },
   "positive_libraries": 8,
   "unique_positive_paired_sequences": 32,

@@ -1,7 +1,10 @@
 # Mycoplasmatales placement and distribution across cnidarians: results
 
-Three follow-on analyses of the siphonophore Mycoplasmatales (catalog v2
-species IDs). Gene content is reported separately in
+Three follow-on analyses of seven focal siphonophore Metamycoplasmataceae
+genomes, using species IDs retained from v2. Their source and sequence hashes
+are unchanged in v3, so the phylogeny and external marker comparisons remain
+valid. The new Tyloplasma-related `MAGSP0033` is outside these comparisons.
+See the [expanded reporting scope](expanded_reporting.md). Gene content is reported separately in
 `docs/mycoplasmatales_gene_content_results.md`.
 
 | Analysis | Stage | Config | Outputs |

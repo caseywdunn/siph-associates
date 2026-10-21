@@ -12,7 +12,7 @@ Ahuja2024__CWD131	Ahuja2024	Rhizophysa eysenhardtii		A00124:419:HFNHJDSX3;A00124
 Ahuja2024__CWD141	Ahuja2024	Stephalia dilata		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
 Ahuja2024__CWD144	Ahuja2024	Gymnopraia lapislazula		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A00124:531:H3FGVDSX5;A01519:133:HM2L3DSX3	4	single_flowcell		false	multiple_flowcells
 Ahuja2024__CWD146	Ahuja2024	Erenna sirena		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
-Ahuja2024__CWD16	Ahuja2024	Nanomia bijuga		A01519:196:H53CJDSX5	1	single_flowcell	A01519:196:H53CJDSX5	true	
+Ahuja2024__CWD16	Ahuja2024	Nanomia bijuga	NW Atlantic	A01519:196:H53CJDSX5	1	single_flowcell	A01519:196:H53CJDSX5	true	
 Ahuja2024__CWD17	Ahuja2024	Halistemma rubrum		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
 Ahuja2024__CWD19	Ahuja2024	Praya dubia		A01519:196:H53CJDSX5	1	single_flowcell	A01519:196:H53CJDSX5	true	
 Ahuja2024__CWD2	Ahuja2024	Agalma elegans		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3	2	single_flowcell		false	multiple_flowcells
@@ -150,8 +150,8 @@ Church2025__YPM-IZ-110845	Church2025	Physalia physalis	NE Atlantic	LH00309:22:22
 Church2025__YPM-IZ-110846	Church2025	Physalia physalis	NE Atlantic	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
 Church2025__YPM-IZ-110847	Church2025	Physalia physalis	NE Atlantic	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
 Church2025__YPM-IZ-110876	Church2025	Physalia physalis	Gulf of Mexico	A01519:271:HWW7GDSX5	1	single_flowcell	A01519:271:HWW7GDSX5	true	
-Church2025__YPM-IZ-110877	Church2025	Physalia sp1	Gulf of California	A01519:271:HWW7GDSX5;A01519:311:H7FM5DSX7	2	single_flowcell		false	multiple_flowcells
-Church2025__YPM-IZ-110878	Church2025	Physalia sp1	Gulf of California	LH00309:40:22CMVKLT3	1	single_flowcell	LH00309:40:22CMVKLT3	true	
+Church2025__YPM-IZ-110877	Church2025	Physalia mikazuki	Gulf of California	A01519:271:HWW7GDSX5;A01519:311:H7FM5DSX7	2	single_flowcell		false	multiple_flowcells
+Church2025__YPM-IZ-110878	Church2025	Physalia mikazuki	Gulf of California	LH00309:40:22CMVKLT3	1	single_flowcell	LH00309:40:22CMVKLT3	true	
 Church2025__YPM-IZ-110880	Church2025	Physalia physalis	NW Atlantic	LH00309:40:22CMVKLT3	1	single_flowcell	LH00309:40:22CMVKLT3	true	
 Church2025__YPM-IZ-110881	Church2025	Physalia utriculus	Central Pacific	LH00309:19:2273H5LT3	1	single_flowcell	LH00309:19:2273H5LT3	true	
 Church2025__YPM-IZ-110882	Church2025	Physalia utriculus	Central Pacific	A00124:672:HGYTLDSX7	1	single_flowcell	A00124:672:HGYTLDSX7	true	
@@ -161,11 +161,11 @@ Church2025__YPM-IZ-110907	Church2025	Physalia utriculus	Central Pacific	LH00309:
 Church2025__YPM-IZ-110925	Church2025	Physalia utriculus	NW Pacific	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
 Church2025__YPM-IZ-110926	Church2025	Physalia utriculus	NW Pacific	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
 Church2025__YPM-IZ-110930	Church2025	Physalia utriculus	NW Pacific	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
-Church2025__YPM-IZ-110931	Church2025	Physalia sp1	NW Pacific	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
+Church2025__YPM-IZ-110931	Church2025	Physalia mikazuki	NW Pacific	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
 Church2025__YPM-IZ-110933	Church2025	Physalia utriculus	NW Pacific	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
 Church2025__YPM-IZ-110937	Church2025	Physalia utriculus	NW Pacific	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
 Church2025__YPM-IZ-110938	Church2025	Physalia utriculus	NW Pacific	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
-Church2025__YPM-IZ-110943	Church2025	Physalia sp1	NW Pacific	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
+Church2025__YPM-IZ-110943	Church2025	Physalia mikazuki	NW Pacific	LH00309:109:22CJLFLT3	1	single_flowcell	LH00309:109:22CJLFLT3	true	
 Church2025__YPM-IZ-110972	Church2025	Physalia physalis	NE Atlantic	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
 Church2025__YPM-IZ-111006	Church2025	Physalia utriculus	W Indian	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
 Church2025__YPM-IZ-111007	Church2025	Physalia utriculus	W Indian	A00124:710:HMFVWDSX7	1	single_flowcell	A00124:710:HMFVWDSX7	true	
@@ -202,5 +202,13 @@ Church2025__YPM-IZ-111529	Church2025	Physalia megalista	SW Pacific	LH00309:311:2
 Church2025__YPM-IZ-111530	Church2025	Physalia megalista	SW Pacific	LH00309:311:22GMLFLT4	1	single_flowcell	LH00309:311:22GMLFLT4	true	
 Church2025__YPM-IZ-111539	Church2025	Physalia megalista	SW Pacific	LH00309:311:22GMLFLT4	1	single_flowcell	LH00309:311:22GMLFLT4	true	
 Church2025__YPM-IZ-111547	Church2025	Physalia utriculus	Central Pacific	LH00309:259:22CWK3LT4	1	single_flowcell	LH00309:259:22CWK3LT4	true	
-Church2025__YPM-IZ-111839	Church2025	Physalia sp1	Central Pacific	LH00309:325:22HLVMLT4	1	single_flowcell	LH00309:325:22HLVMLT4	true	
+Church2025__YPM-IZ-111839	Church2025	Physalia mikazuki	Central Pacific	LH00309:325:22HLVMLT4	1	single_flowcell	LH00309:325:22HLVMLT4	true	
 Church2025__YPM-IZ-111840	Church2025	Physalia utriculus	Central Pacific	LH00309:325:22HLVMLT4	1	single_flowcell	LH00309:325:22HLVMLT4	true	
+Manko2026__D611-D6	Manko2026	Bargmannia pyrosa	NE Pacific	LH00813:4:22M57WLT4	1	single_flowcell	LH00813:4:22M57WLT4	true	
+Manko2026__D666-D10	Manko2026	Bargmannia stenotes	NE Pacific	LH00813:4:22M57WLT4	1	single_flowcell	LH00813:4:22M57WLT4	true	
+Manko2026__D669-SS5	Manko2026	Bargmannia amoena	NE Pacific	LH00813:4:22M57WLT4	1	single_flowcell	LH00813:4:22M57WLT4	true	
+Manko2026__D725-D8	Manko2026	Bargmannia marlena	Gulf of California	LH00813:4:22M57WLT4	1	single_flowcell	LH00813:4:22M57WLT4	true	
+Manko2026__D961-D3	Manko2026	Bargmannia profunda	NE Pacific	LH00813:4:22M57WLT4	1	single_flowcell	LH00813:4:22M57WLT4	true	
+Manko2026__M120-SS3	Manko2026	Bargmannia elongata	Central Pacific	LH00813:4:22M57WLT4	1	single_flowcell	LH00813:4:22M57WLT4	true	
+Manko2026__T411-SS2	Manko2026	Bargmannia pyrosa	NE Pacific	LH00813:4:22M57WLT4	1	single_flowcell	LH00813:4:22M57WLT4	true	
+Manko2026__T676-SS3	Manko2026	Bargmannia elongata	NE Pacific	LH00813:15:22LG2HLT4	1	single_flowcell	LH00813:15:22LG2HLT4	true	

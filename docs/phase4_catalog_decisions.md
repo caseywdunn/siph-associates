@@ -1,5 +1,10 @@
 # Phase-4 catalog decisions
 
+The design record below describes the original catalog versions. The current
+[v3 catalog](catalog_qc.md#curated-mapping-targets) incorporates the expanded
+assemblies, domain review and viral-boundary curation. All 213 libraries were
+[remapped to v3](cohort_remapping.md); older mappings remain historical.
+
 Approved by Casey Dunn on 2026-09-27, before any Phase-4 catalog was built.
 Machine-readable settings are in `config/phase4_catalog.json`. Nomination
 evidence is regenerated from accepted outputs with

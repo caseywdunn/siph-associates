@@ -1,10 +1,18 @@
 # Sample identifiers and collection metadata
 
 The [publication sample table](../figures/cohort/sample_metadata.tsv) has one row
-per analysis library. It can be updated without changing sequence-analysis
+per analysis library (213 across four studies). It can be updated without changing sequence-analysis
 inputs. The frozen [manifest](../manifest.csv) and
 [workflow sample table](../config/samples.tsv) retain the identifiers, read paths,
 and settings used for the completed analyses.
+
+The expanded selection is [post_expansion_samples.tsv](../config/post_expansion_samples.tsv).
+The exporter combines the original 205-library baseline and its reviewed overlay
+with [Manko2026 specimen metadata](../data/metadata/manko2026/sample_metadata.tsv)
+and [study manifest](../manko2026_manifest.csv). It validates exact expanded
+membership; adding metadata does not modify either study's frozen sequence inputs.
+For Manko2026, publication-overlay original values are the sourced specimen values;
+original study identifiers remain protected.
 
 ## Identifier meanings
 
@@ -140,8 +148,16 @@ columns and retain the other columns as the record of what was reviewed:
 
 Across the original three worksheets, 64 entries concern missing values.
 After the reviews above, unresolved tissue and BioSample values remain for the
-two OA specimens; no numeric depths are missing in the 205-library table.
+two OA specimens; no numeric depths are missing in the expanded 213-library table.
 The other gaps concern voucher, collection-event, and tissue/sample identifiers.
+The current four-study export has vouchers for 197/213 libraries, BioSamples
+for 211/213, collection identifiers for 202/213, tissue-sample labels for
+196/213, and tissue descriptions for 211/213. Coordinates, depth, location and
+collection date are populated for all 213. Depth provenance remains explicit:
+150 assigned surface values, 40 source records, 14 interval midpoints, one
+collecting-event mean and eight reported point depths. The five discrepant
+Manko2026 NCBI records are explained in human-facing notes using the retained
+2026-10-19 snapshot; Table S1 event metadata are preserved.
 The other 33 entries compare existing study metadata with museum records.
 A point outside a museum locality polygon is a discrepancy to review, not proof
 that the study coordinates are wrong. An alternate event label
@@ -215,7 +231,8 @@ The initial enrichment's direct Peabody catalog requests returned an application
 shell rather than specimen records. That enrichment used study sources. The
 subsequent LUX catalog audit and metadata comparison are described below.
 
-The update adds 18 BioSample/run accessions and 18 explicit tentacle records from
+**Historical 2026-10-12 snapshot (superseded by the reviews above):**
+that update added 18 BioSample/run accessions and 18 explicit tentacle records from
 SRA. Coverage is 192/205 vouchers, 203/205 BioSamples, 194/205 collection IDs,
 188/205 sample labels, 205/205 coordinate pairs and locations, 202/205 numeric
 depths, and 187/205 tissue records. Fourteen depths are interval midpoints.

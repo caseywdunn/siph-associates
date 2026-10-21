@@ -9,9 +9,9 @@ processing, mapping or statistical inference.
 
 ## Inputs and products
 
-Inputs are accepted v2 bacterial/viral grades, eukaryote grades, flowcell metadata,
+Inputs are accepted v3 bacterial/viral grades for 213 libraries, eukaryote grades, flowcell metadata,
 the frozen manifest, workflow sample handles, reviewed publication metadata and
-host-name updates, catalog tables, and the completed
+host-name updates, reviewed v3 catalog tables, and the completed
 Mycoplasmatales tree/gene summaries.
 The [figure guide](../../../figures/README.md) records export formats, source tables
 and provenance. Outputs are in `figures/cohort/`, `figures/mycoplasmatales/` and
@@ -37,15 +37,17 @@ The California–Washington comparison does not isolate a depth effect, and tiss
 comparisons do not measure bacterial concentration or anatomical location.
 See [collection-context interpretation](../../collection_context_analysis.md).
 
-Some plotting scripts read additional accepted tables through their own fixed
-paths, beyond the files declared in the rules. Their provenance manifests identify
-actual consumed inputs. Small reviewed assets are copied to the separate manuscript
+The current source paths are selected explicitly in
+[reporting_sources.json](../../../config/reporting_sources.json); output
+provenance manifests identify consumed inputs. Small reviewed assets are copied to the separate manuscript
 repository; the manuscript is not built by these rules.
 
 The broad host-distribution and eukaryote figures are made by
 [figures/plot_associate_overview.py](../../../figures/plot_associate_overview.py),
-which is **not** a rule in this file. Its outputs and explicit command are in
-[the figure guide](../../../figures/README.md#biological-overview-figures).
+through the `expanded_overview` rule in the
+[expanded reporting workflow](../../../workflow/expanded_reporting.smk).
+That entry point also generates screening, statistical and supporting tables,
+and validates current primary results. See the [full reporting guide](../../expanded_reporting.md).
 The direct Waki marker analysis is also outside this graph; see its
 [methods and reproduction guide](../../waki_sequence_comparison.md).
 

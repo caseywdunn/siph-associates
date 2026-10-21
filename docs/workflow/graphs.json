@@ -219,5 +219,33 @@
     "targets": [
       "remapping"
     ]
+  },
+  "expanded_statistics": {
+    "snakefile": "workflow/expanded_reporting.smk",
+    "config": "config/expanded_reporting.json",
+    "targets": [
+      "expanded_statistics"
+    ]
+  },
+  "expanded_eukaryote_evidence": {
+    "snakefile": "workflow/expanded_reporting.smk",
+    "config": "config/expanded_reporting.json",
+    "targets": [
+      "expanded_eukaryote_evidence"
+    ]
+  },
+  "expanded_eukaryotes": {
+    "snakefile": "workflow/expanded_reporting.smk",
+    "config": "config/expanded_reporting.json",
+    "targets": [
+      "expanded_eukaryotes"
+    ]
+  },
+  "expanded_publication": {
+    "snakefile": "workflow/expanded_reporting.smk",
+    "config": "config/expanded_reporting.json",
+    "targets": [
+      "expanded_publication"
+    ]
   }
 }

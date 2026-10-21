@@ -1,0 +1,146 @@
+domain	sample_id	target	previous_targets	previous_grade	current_grade	change
+microbial	Ahuja2026__WS9	BAC00030	BAC00030	validated	high_confidence	grade_change
+microbial	Church2025__YPM-IZ-110467	BAC00362	BAC00362	high_confidence	validated	grade_change
+microbial	Church2025__YPM-IZ-110468	BAC00362	BAC00362	high_confidence	validated	grade_change
+microbial	Church2025__YPM-IZ-110880	BAC00166	BAC00166	validated	high_confidence	grade_change
+microbial	Church2025__YPM-IZ-111016	BAC00459			high_confidence	gained_detection
+microbial	Church2025__YPM-IZ-111017	BAC00459			validated	gained_detection
+microbial	Manko2026__D666-D10	BAC00017			validated	new_library
+microbial	Manko2026__D666-D10	BAC00019			validated	new_library
+microbial	Manko2026__D666-D10	BAC00216			validated	new_library
+microbial	Manko2026__D666-D10	BAC00378			validated	new_library
+microbial	Manko2026__D666-D10	BAC00450			validated	new_library
+microbial	Manko2026__D666-D10	BAC00464			validated	new_library
+microbial	Manko2026__D666-D10	BAC00466			validated	new_library
+microbial	Manko2026__D666-D10	BAC00472			validated	new_library
+microbial	Manko2026__T676-SS3	BAC00019			validated	new_library
+viral	Ahuja2024__CWD12	VOTU00252	VOTU00252	high_confidence		lost_detection
+viral	Ahuja2024__CWD12	VOTU00256	VOTU00256	high_confidence		lost_detection
+viral	Ahuja2024__CWD12	VOTU00270	VOTU00270	validated		lost_detection
+viral	Ahuja2024__CWD12	VOTU00307	VOTU00307	high_confidence		lost_detection
+viral	Ahuja2024__CWD17	VOTU00249	VOTU00249	high_confidence		lost_detection
+viral	Ahuja2024__CWD17	VOTU00252	VOTU00252	validated		lost_detection
+viral	Ahuja2024__CWD17	VOTU00256	VOTU00256	validated		lost_detection
+viral	Ahuja2024__CWD17	VOTU00270	VOTU00270	high_confidence		lost_detection
+viral	Ahuja2024__CWD17	VOTU00307	VOTU00307	validated		lost_detection
+viral	Ahuja2024__CWD6	VOTU00256	VOTU00256	validated		lost_detection
+viral	Ahuja2024__NA8	VOTU00397			validated	gained_detection
+viral	Ahuja2024__NA8	VOTU00403			validated	gained_detection
+viral	Ahuja2024__NA8	VOTU00409			validated	gained_detection
+viral	Church2025__TMAG-K5632	VOTU00077			high_confidence	gained_detection
+viral	Church2025__TMAG-K5633	VOTU00167			validated	gained_detection
+viral	Church2025__YPM-IZ-104461	VOTU00034			validated	gained_detection
+viral	Church2025__YPM-IZ-104464	VOTU00027			high_confidence	gained_detection
+viral	Church2025__YPM-IZ-104465	VOTU00027			validated	gained_detection
+viral	Church2025__YPM-IZ-110907	VOTU00027			high_confidence	gained_detection
+viral	Church2025__YPM-IZ-111207	VOTU00019			high_confidence	gained_detection
+viral	Church2025__YPM-IZ-111207	VOTU00077			validated	gained_detection
+viral	Church2025__YPM-IZ-111207	VOTU00218	VOTU00218	high_confidence		lost_detection
+viral	Church2025__YPM-IZ-111208	VOTU00029			validated	gained_detection
+viral	Church2025__YPM-IZ-111208	VOTU00218	VOTU00218	validated		lost_detection
+viral	Church2025__YPM-IZ-111210	VOTU00019			high_confidence	gained_detection
+viral	Church2025__YPM-IZ-111210	VOTU00077			validated	gained_detection
+viral	Church2025__YPM-IZ-111210	VOTU00218	VOTU00218	validated		lost_detection
+viral	Church2025__YPM-IZ-111839	VOTU00027			validated	gained_detection
+viral	Manko2026__D611-D6	VOTU00413			high_confidence	new_library
+viral	Manko2026__D666-D10	VOTU00392			high_confidence	new_library
+viral	Manko2026__D666-D10	VOTU00394			high_confidence	new_library
+viral	Manko2026__D666-D10	VOTU00408			high_confidence	new_library
+viral	Manko2026__D725-D8	VOTU00344			high_confidence	new_library
+viral	Manko2026__D725-D8	VOTU00397			high_confidence	new_library
+viral	Manko2026__D725-D8	VOTU00403			high_confidence	new_library
+viral	Manko2026__D725-D8	VOTU00409			high_confidence	new_library
+viral	Manko2026__D961-D3	VOTU00392			validated	new_library
+viral	Manko2026__D961-D3	VOTU00394			validated	new_library
+viral	Manko2026__D961-D3	VOTU00395			high_confidence	new_library
+viral	Manko2026__D961-D3	VOTU00408			validated	new_library
+viral	Manko2026__T411-SS2	VOTU00413			validated	new_library
+viral	Manko2026__T676-SS3	VOTU00320			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00321			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00322			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00323			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00324			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00325			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00326			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00327			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00328			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00329			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00330			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00331			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00332			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00333			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00334			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00335			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00336			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00337			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00338			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00339			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00340			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00341			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00342			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00343			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00345			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00346			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00347			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00348			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00349			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00350			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00351			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00352			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00353			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00354			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00355			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00356			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00357			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00358			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00359			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00360			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00361			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00362			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00363			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00364			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00365			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00366			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00367			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00368			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00369			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00370			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00371			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00372			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00373			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00374			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00375			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00376			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00377			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00378			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00379			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00380			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00381			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00382			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00383			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00384			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00385			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00386			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00387			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00388			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00389			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00390			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00391			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00393			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00396			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00398			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00399			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00400			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00401			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00402			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00404			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00405			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00406			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00407			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00410			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00411			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00412			high_confidence	new_library
+viral	Manko2026__T676-SS3	VOTU00414			high_confidence	new_library
+eukaryotic	Manko2026__T676-SS3	Amorphea;Obazoa;Opisthokonta;Nucletmycea;Fungi			validated	new_library
+eukaryotic	Manko2026__T676-SS3	SAR;Alveolata;Protalveolata;Perkinsidae;A31			validated	new_library
+eukaryotic	Manko2026__T676-SS3	SAR;Stramenopiles;Ochrophyta;Diatomea;Bacillariophytina			validated	new_library

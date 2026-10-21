@@ -20,6 +20,9 @@ INPUTS = [
     "config/publication_host_names.tsv",
     "data/metadata/sample_metadata_updates.tsv",
     "data/metadata/publication_metadata_updates.tsv",
+    "manko2026_manifest.csv",
+    "data/metadata/manko2026/sample_metadata.tsv",
+    "config/post_expansion_samples.tsv",
 ]
 PUBLIC_FIELDS = [
     "library_id",
@@ -186,6 +189,7 @@ def curate_metadata(
     samples: list[dict[str, str]],
     host_names: list[dict[str, str]],
     updates: list[dict[str, str]],
+    specimen_metadata: list[dict[str, str]] | None = None,
 ) -> list[dict[str, str]]:
     """Join immutable workflow handles to biological identifiers and reviewed values."""
     original = unique_index(manifest, "library_id")
@@ -207,6 +211,17 @@ def curate_metadata(
             "analysis_notes": source.get("notes", ""),
             "notes": "",
         }
+    for library, source in unique_index(specimen_metadata or [], "library_id").items():
+        if library not in rows:
+            raise ValueError(f"Unknown specimen metadata library: {library}")
+        for field in ("analysis_sample_id", "specimen_id"):
+            if source.get(field) != rows[library][field]:
+                raise ValueError(
+                    f"Specimen metadata changes protected {field}: {library}"
+                )
+        rows[library].update(
+            {field: source[field] for field in EDITABLE & source.keys()}
+        )
     baseline = {library: dict(row) for library, row in rows.items()}
     applied = {}
     for update in updates:
@@ -266,12 +281,40 @@ def curate_metadata(
 
 def load_metadata(root: Path = ROOT) -> list[dict[str, str]]:
     """Shared entry point for the metadata-only export and cohort figure builder."""
-    return curate_metadata(
-        read_table(root / INPUTS[0]),
+    original_manifest = read_table(root / INPUTS[0])
+    original_ids = {r["library_id"] for r in original_manifest}
+    additions = read_table(root / INPUTS[6])
+    added_ids = {r["library_id"] for r in additions}
+    updates = read_table(root / INPUTS[4])
+    if {r["library_id"] for r in updates} - (original_ids | added_ids):
+        raise ValueError("Publication update contains an unknown library")
+    original = curate_metadata(
+        original_manifest,
         read_table(root / INPUTS[1]),
         read_table(root / INPUTS[2]),
-        read_table(root / INPUTS[4]),
+        [r for r in updates if r["library_id"] in original_ids],
     )
+    handles = [
+        {
+            "library_id": r["library_id"],
+            "specimen_id": r["specimen_id"],
+            "sample_id": r["analysis_sample_id"],
+        }
+        for r in additions
+    ]
+    combined = original + curate_metadata(
+        read_table(root / INPUTS[5]),
+        handles,
+        [],
+        [r for r in updates if r["library_id"] in added_ids],
+        additions,
+    )
+    unique_index(combined, "library_id")
+    actual = unique_index(combined, "analysis_sample_id")
+    expected = unique_index(read_table(root / INPUTS[7]), "sample_id")
+    if set(actual) != set(expected):
+        raise ValueError("Publication metadata must match the expanded analysis cohort")
+    return combined
 
 
 def write_table(path: Path, rows: list[dict[str, str]], fields: list[str]) -> None:
@@ -298,11 +341,20 @@ def export_metadata(output_dir: Path) -> list[dict[str, str]]:
     for path in (INPUTS[3], INPUTS[4]):
         for record in read_table(ROOT / path):
             sources[(record["library_id"], record["field"])].append(record)
+    added_fields = set(read_table(ROOT / INPUTS[6])[0])
     audit, gaps = [], []
     for row in rows:
         for field in PROVENANCE_FIELDS:
             value = row.get(field, "")
             evidence = sources.get((row["library_id"], field), [])
+            if row["study"] == "Manko2026" and field == "notes" and not evidence:
+                evidence = [
+                    {
+                        "source": INPUTS[6],
+                        "source_locator": f"library_id={row['library_id']};notes",
+                        "notes": "Sourced specimen notes before generated gap explanations.",
+                    }
+                ]
             if field == "notes":
                 evidence = [
                     *evidence,
@@ -326,7 +378,9 @@ def export_metadata(output_dir: Path) -> list[dict[str, str]]:
             if not evidence:
                 evidence = [
                     {
-                        "source": "manifest.csv",
+                        "source": (INPUTS[6] if field in added_fields else INPUTS[5])
+                        if row["study"] == "Manko2026"
+                        else "manifest.csv",
                         "source_locator": f"library_id={row['library_id']};{field}",
                         "notes": "Frozen baseline; empty values are unresolved, not inferred.",
                     }

@@ -23,22 +23,26 @@ rule apply_catalog_domain_review:
     shell:
         "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python {input.script:q}"
 
+PUBLICATION = json.loads(Path("config/reporting_sources.json").read_text())
+
 rule publication_cohort_figures:
     input:
         script="figures/build_cohort.py",
         metadata_script="scripts/export_sample_metadata.py",
+        settings="config/reporting_sources.json",
+        extra_metadata=["manko2026_manifest.csv", "data/metadata/manko2026/sample_metadata.tsv", "config/post_expansion_samples.tsv"],
         manifest="manifest.csv",
         samples="config/samples.tsv",
         host_names="config/publication_host_names.tsv",
         analysis_metadata="data/metadata/sample_metadata_updates.tsv",
         publication_metadata="data/metadata/publication_metadata_updates.tsv",
-        assembly="config/phase3_assembly.tsv",
-        bacterial=f"{P6V}/grades/bacterial_grades.tsv",
-        viral=f"{P6V}/grades/viral_grades.tsv",
-        flowcells=f"{P6V}/primary/library_flowcells.tsv",
-        eukaryotes=f"{WORK}/eukaryote_gate/eukaryote_grades.tsv",
-        mags="figures/catalog_review/mag_catalog.tsv",
-        catalog="figures/catalog_review/bacterial_catalog.manifest.tsv",
+        assembly=PUBLICATION["assembly_membership"],
+        bacterial=PUBLICATION["analysis_root"] + "/grades/bacterial_grades.tsv",
+        viral=PUBLICATION["analysis_root"] + "/grades/viral_grades.tsv",
+        flowcells=PUBLICATION["analysis_root"] + "/primary/library_flowcells.tsv",
+        eukaryotes=PUBLICATION["eukaryote_root"] + "/eukaryote_grades.tsv",
+        mags=PUBLICATION["mag_catalog"],
+        catalog=PUBLICATION["catalog_manifest"],
     output:
         metadata="figures/cohort/sample_metadata.tsv",
         metadata_sources="figures/cohort/sample_metadata_provenance.tsv",
@@ -58,7 +62,7 @@ rule publication_cohort_figures:
     resources:
         mem_mb=4000,
         runtime=15,
-        partition="day",
+        partition="ycga",
     log:
         "logs/figures/cohort.log",
     shell:
@@ -68,10 +72,10 @@ rule publication_cohort_figures:
 rule publication_mycoplasmatales_figures:
     input:
         script="workflow/scripts/plot_mycoplasmatales_figures.py",
-        focal=f"{WORK}/mycoplasmatales_gene_content/summary/focal_functions.tsv",
-        genomes=f"{WORK}/mycoplasmatales_gene_content/summary/genome_stats.tsv",
-        tree=f"{WORK}/mycoplasmatales_phylogeny/mycoplasmatales.bac120.decorated.tree",
-        labels=f"{WORK}/mycoplasmatales_phylogeny/tree_labels.tsv",
+        focal=PUBLICATION["gene_content_root"] + "/summary/focal_functions.tsv",
+        genomes=PUBLICATION["gene_content_root"] + "/summary/genome_stats.tsv",
+        tree=PUBLICATION["phylogeny_root"] + "/mycoplasmatales.bac120.decorated.tree",
+        labels=PUBLICATION["phylogeny_root"] + "/tree_labels.tsv",
     output:
         functions="figures/mycoplasmatales/gene_functions.pdf",
         tree="figures/mycoplasmatales/phylogeny_focus.pdf",
@@ -80,7 +84,7 @@ rule publication_mycoplasmatales_figures:
     resources:
         mem_mb=4000,
         runtime=15,
-        partition="day",
+        partition="ycga",
     log:
         "logs/figures/mycoplasmatales.log",
     shell:
@@ -90,6 +94,7 @@ rule publication_mycoplasmatales_figures:
 rule collection_context_tables:
     input:
         script="scripts/analyze_collection_context.py",
+        membership=PUBLICATION["samples"],
         manifest="figures/cohort/sample_metadata.tsv",
         bacterial="figures/cohort/bacterial_detections.tsv",
         viral="figures/cohort/viral_detections.tsv",
@@ -113,7 +118,7 @@ rule collection_context_tables:
     resources:
         mem_mb=1000,
         runtime=5,
-        partition="day",
+        partition="ycga",
     log:
         "logs/figures/collection_context_tables.log",
     shell:
@@ -123,6 +128,7 @@ rule collection_context_tables:
 rule publication_collection_context_figures:
     input:
         script="figures/plot_collection_context.py",
+        settings="config/reporting_sources.json",
         context="figures/collection_context/library_context.tsv",
         host="figures/collection_context/host_detection_summary.tsv",
         dt68="figures/collection_context/dt68_specimens.tsv",
@@ -142,7 +148,7 @@ rule publication_collection_context_figures:
     resources:
         mem_mb=2000,
         runtime=5,
-        partition="day",
+        partition="ycga",
     log:
         "logs/figures/collection_context_plots.log",
     shell:

@@ -1016,3 +1016,36 @@ Both the bounded search and plotting used the existing compute allocation
 11793267 on r209u08n04, with one CPU. No new full-cohort jobs were submitted.
 The original analysis base revision remains 7cac98c; these additions are
 uncommitted.
+
+## 2026-10-21: expanded cohort remapping and reporting refresh
+
+Controller 13646027 completed the authorized microbial and viral remapping of
+all 213 libraries (939/939 steps, PASS, no validation errors). All 42 regenerated
+read-input identity checks passed. The run uses the reviewed v3 catalogs and
+selected assemblies from Bargmannia expansion, Halistemma depletion and the
+attempts on all low-yield libraries. Inputs, authorization and completion are
+recorded in [docs/cohort_remapping.md](docs/cohort_remapping.md).
+
+The current reporting entry point reuses these mappings and assemblies, applies
+reviewed biological metadata without modifying stable read handles, and rebuilds
+grades, statistics, competitive SSU evidence and publication exports. Original
+v2 read-control analyses and the seven sequence-identical focal genome analyses
+retain their explicit historical scope. No new external NCBI queries are needed:
+all 65 assembled non-host queries match the existing dated verification cache.
+
+Execution, comparison baseline, job status and validation are maintained in
+[dev_docs/expanded-cohort-reporting.md](dev_docs/expanded-cohort-reporting.md);
+current reader instructions are in
+[docs/expanded_reporting.md](docs/expanded_reporting.md). This refresh is confined
+to the analysis repository; the separate manuscript has not been updated.
+
+Reporting completed under allocation 13687331 at 16:26 EDT (14/14 steps,
+exit 0); both validators passed and the final dry run reports nothing to do.
+The current tables contain 568 microbial, 631 viral and 64 nonredundant
+eukaryotic detections. All original microbial and eukaryotic presences remain.
+T676-SS3 exceeds the locked SSU threshold in insect/plant background groups;
+generated sensitivity tables show 567, 545 and 61 detections when it is omitted.
+Primary grades remain unchanged. The 57 focused tests, workflow graph freshness
+checks and documentation link checks passed. See the
+[manuscript handoff](dev_docs/expanded-manuscript-handoff.md) for changed claims,
+retained analyses and this specimen-specific qualification.

@@ -1,5 +1,11 @@
 # Direct comparison with Waki's trematode sequences
 
+**Current scope check (2026-10-21):** all eight selected source assemblies are
+byte-identical to the assemblies retained in the expanded cohort. This bounded
+comparison and its frozen reference panel are retained; it is not an additional
+survey of all 213 libraries. Current host names are used below, while the original
+execution records retain their source labels. See [expanded reporting](expanded_reporting.md).
+
 This bounded follow-up asks whether markers deposited by Waki and colleagues
 can be compared directly with existing siphonophore sequence assemblies. The
 accepted parasite screen used 18S/SSU rRNA; Waki's deposited data use 28S rRNA,
@@ -49,8 +55,8 @@ The clearest comparisons are:
 |---|---|---|---|
 | YPM-IZ-110882, Hawai‘i | *Physalia utriculus* | *Dinurus tornatus* ITS2-containing amplicon, LC889198.1 | 651/651 bases identical (100%) |
 | YPM-IZ-110882 | *P. utriculus* | *D. tornatus* COI, LC889235.1 | 851/867 (98.15%) |
-| YPM-IZ-110931, Japan | provisional *Physalia* sp1 | *D. tornatus* ITS2-containing amplicon, LC889198.1 | 662/665 (99.55%) |
-| YPM-IZ-110931 | provisional *Physalia* sp1 | *D. tornatus* COI, LC889234.1 | 851/863 (98.61%) |
+| YPM-IZ-110931, Japan | *Physalia mikazuki* | *D. tornatus* ITS2-containing amplicon, LC889198.1 | 662/665 (99.55%) |
+| YPM-IZ-110931 | *P. mikazuki* | *D. tornatus* COI, LC889234.1 | 851/863 (98.61%) |
 | YPM-IZ-110436, Florida | *P. physalis* | *D. barbatus* ITS2-containing amplicon, LC889203.1 | 672/673 (99.85%) |
 | YPM-IZ-110631, northeastern US | *P. physalis* | *Prodistomum* Type 4 28S, LC889183.1 | 1,142/1,149 (99.39%) |
 | YPM-IZ-110694, northeastern US | *P. physalis* | *Prodistomum* Type 4 28S, LC889183.1 | 1,157/1,167 (99.14%) |

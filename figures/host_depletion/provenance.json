@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-20T15:42:49.211750+00:00",
+  "generated_utc": "2026-10-21T20:26:18.848737+00:00",
   "command": [
     "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
     "scripts/summarize_host_depletion.py",
@@ -8,7 +8,7 @@
     "--require-complete"
   ],
   "python": "3.11.0",
-  "slurm_job_id": "13587095",
+  "slurm_job_id": "13687331",
   "status": "complete",
   "samples": 163,
   "completed_mappings": 163,
@@ -20,7 +20,7 @@
   "retention": "both mates unmapped (samtools fastq -f 12)",
   "sample_identifier": "analysis_sample_id from curated metadata",
   "inputs_sha256": {
-    "figures/cohort/sample_metadata.tsv": "13daa63154beb21c1d578f401ccd06bda494a40cfa3597aba42ff5e17bfebd7d",
+    "figures/cohort/sample_metadata.tsv": "4c62bda3ffcfb28586806fbe87a689f50c22ac6b6d7f948fda0a0f7c8befcc11",
     "config/samples.tsv": "727e749ac2e2218989de237401bfc89abcf4fd8f63b7ec2d152c4dc2e2b0be9f",
     "config/halistemma_samples.tsv": "123fdfbf9d3d21df714437e2ef164e070d58cbdf4a288bfdb23b06ef9a335b69",
     "data/results/provenance/trim/Church2025__FM-16644.json": "b1f9d299b45f6d2f22ff5381a63cca51f2569c1cf483d26876a4f5ff4088e2a6",
@@ -515,7 +515,7 @@
     "scripts/summarize_host_depletion.py": "711668bc8b019ded48af27c74a776db65f999c2522a7cea6e31dc7c673fbe17c",
     "workflow/rules/host_depletion_report.smk": "bfd43484fb0a4223aef4188eb2c4c309710cea80e2c418bad3c6e8b4f337b447",
     "workflow/host_depletion_report.smk": "011b9f4b96377195e44d4825a8f558055a987d16bc442568d71e64411a6db455",
-    "config/host_depletion_report.json": "2d132308fd4aa722db28239ce0d628319f3a9d965e5f24487bc732168efa290f"
+    "config/host_depletion_report.json": "e62d5a15fb85b6d26a599d2879a29df71a8bad6d4b99838fe8694a31988eb571"
   },
   "outputs_sha256": {
     "figures/host_depletion/mapping_stats.tsv": "72260295d45062b014cceed4ffba8e1f52630456c397d7089c9dbe5f5e4f060e",

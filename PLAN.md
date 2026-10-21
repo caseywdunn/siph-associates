@@ -1,5 +1,14 @@
 # Analysis plan (PLoS One)
 
+**Current state, 2026-10-21:** the expanded cohort has 213 libraries from four
+studies, all selected assemblies are complete, and catalog v3 remapping passed.
+Use [current cohort and reporting](docs/expanded_reporting.md) for accepted paths,
+policy amendments, current analyses and readiness. The original plan below is
+retained as a dated design record; its initial counts, provisional parameters
+and not-yet-started statements do not describe the current execution. The
+2026-10-03 decision in [RUNLOG.md](RUNLOG.md) excludes a costly clean full rerun.
+
+
 This is the analysis plan for the siphonophore-associates paper: a **clean,
 symmetric** pipeline that treats all three source studies (Church et al. 2025,
 Ahuja et al. 2024, Ahuja et al. 2026) as first-class. It is built fresh in this

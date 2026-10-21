@@ -1,5 +1,11 @@
 # Map the expanded cohort to catalog v3
 
+**Complete (2026-10-21):** controller **13646027** finished at 14:12 EDT after
+939/939 steps (15:48:56 elapsed). The final validator reports PASS for all 213
+libraries, 498 microbial targets including decoys, 564 viral targets and all 42
+regenerated-read checks, with zero errors. Downstream work is tracked in the
+[current reporting guide](expanded_reporting.md).
+
 The user authorized this round on 2026-10-20 after the
 [catalog review](catalog_qc.md#curated-mapping-targets). The authorization in
 [post_expansion_remapping.json](../config/post_expansion_remapping.json) identifies

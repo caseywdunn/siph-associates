@@ -2,7 +2,7 @@
 """Export manuscript figures and source tables from accepted cohort outputs.
 
 Run from the repository root with the existing Snakemake Python environment.
-No sequence analysis is performed. All 205 libraries contribute to these
+No sequence analysis is performed. All accepted libraries contribute to these
 descriptive exports, irrespective of eligibility for flowcell inference.
 """
 import csv
@@ -59,22 +59,24 @@ def save(fig, name):
 manifest = export_metadata(OUT)
 SOURCES.extend(ROOT / path for path in [*METADATA_INPUTS, "scripts/export_sample_metadata.py"])
 meta = {r["library_id"].replace(":", "__", 1): r for r in manifest}
-assert len(meta) == 205, "Review figure scope if cohort membership changes"
-bac = read("data/results/phase6_analysis/v2/grades/bacterial_grades.tsv")
-vir = read("data/results/phase6_analysis/v2/grades/viral_grades.tsv")
-euk = read("data/results/eukaryote_gate/eukaryote_grades.tsv")
+settings = json.loads((ROOT / "config/reporting_sources.json").read_text())
+SOURCES.append(ROOT / "config/reporting_sources.json")
+assert len(meta) == settings["expected_samples"], "Unexpected reporting membership"
+bac = read(settings["analysis_root"] + "/grades/bacterial_grades.tsv")
+vir = read(settings["analysis_root"] + "/grades/viral_grades.tsv")
+euk = read(settings["eukaryote_root"] + "/eukaryote_grades.tsv")
 assert all("count_as_detection" in r for r in euk), "Rebuild corrected eukaryote grades first"
-mags = read("figures/catalog_review/mag_catalog.tsv")
-catalog = read("figures/catalog_review/bacterial_catalog.manifest.tsv")
-assembly = read("config/phase3_assembly.tsv")
-flow = read("data/results/phase6_analysis/v2/primary/library_flowcells.tsv")
+mags = read(settings["mag_catalog"])
+catalog = read(settings["catalog_manifest"])
+assembly = read(settings["assembly_membership"])
+flow = read(settings["analysis_root"] + "/primary/library_flowcells.tsv")
 bp = [r for r in bac if r["grade"] in VALID and r["role"] != "decoy"]
 vp = [r for r in vir if r["grade"] in VALID and r["catalog_class"] == "associate"]
 ep = [r for r in euk if r["count_as_detection"] == "true"]
 assert all(r["grade"] in VALID for r in ep)
 host_counts = Counter(r["species_current"] for r in manifest)
-studies = ["Church2025", "Ahuja2024", "Ahuja2026"]
-colors = {"Church2025": "#0072B2", "Ahuja2024": "#E69F00", "Ahuja2026": "#009E73"}
+studies = ["Church2025", "Ahuja2024", "Ahuja2026", "Manko2026"]
+colors = {"Church2025": "#0072B2", "Ahuja2024": "#E69F00", "Ahuja2026": "#009E73", "Manko2026": "#CC79A7"}
 hosts = sorted(host_counts, key=lambda h: (-host_counts[h], h))
 host_rows = [{"host": h, "libraries": host_counts[h],
               **{s: sum(r["species_current"] == h and r["study"] == s for r in manifest)
@@ -153,7 +155,7 @@ fig, (ax, bar) = plt.subplots(1, 2, figsize=(12, 8.5), gridspec_kw={"width_ratio
 cmap = ListedColormap(["#f3f3f3", "#56B4E9", "#0072B2"])
 ax.imshow(matrix, cmap=cmap, norm=BoundaryNorm([-.5,.5,1.5,2.5], 3), aspect="auto")
 ax.set_yticks(range(len(units)), unit_labels, fontsize=14)
-ax.set_xticks(range(len(euk_samples)), [s.replace("Church2025__", "").replace("Ahuja2024__", "").replace("Ahuja2026__", "") for s in euk_samples], rotation=90, fontsize=13)
+ax.set_xticks(range(len(euk_samples)), [s.replace("Church2025__", "").replace("Ahuja2024__", "").replace("Ahuja2026__", "").replace("Manko2026__", "") for s in euk_samples], rotation=90, fontsize=13)
 ax.set_xlabel("Libraries with validated non-host eukaryotic evidence", fontsize=14)
 for j, s in enumerate(euk_samples):
     ax.plot(j, -.9, marker="s", color=colors[meta[s]["study"]], markersize=5.5, clip_on=False)
@@ -177,10 +179,6 @@ summary = {
     "assembly_eligible": sum(r["assembly_eligible"] == "true" for r in assembly),
     "retained_mags": len(retained), "mag_species": len({r["species_cluster"] for r in retained}),
     "near_complete_mags": sum(r["near_complete"] == "true" for r in retained),
-    "bacterial_detection_rows": len(bp), "bacterial_detected_targets": len({r["target_id"] for r in bp}),
-    "bacterial_positive_libraries": len({r["sample_id"] for r in bp}),
-    "bacterial_high_confidence_rows": sum(r["grade"] == "high_confidence" for r in bp),
-    "bacterial_divergent_match_rows": sum(r["divergent_strain"] == "true" for r in bp),
     "associate_viral_detection_rows": len(vp), "associate_viral_targets": len({r["target_id"] for r in vp}),
     "associate_viral_positive_libraries": len({r["sample_id"] for r in vp}),
     "eukaryote_validated_evidence_rows": sum(r["grade"] in VALID for r in euk),
@@ -190,6 +188,19 @@ summary = {
     "eukaryote_roles": dict(Counter(r["role"] for r in ep)),
     "physalia_mycoplasmatales_positive_libraries": len({r["sample_id"] for r in myco_bp if meta[r["sample_id"]]["species_current"].startswith("Physalia ")}),
 }
+# The historically named bacterial catalog contains both microbial domains.
+for prefix, rows in [
+    ("microbial", bp),
+    ("bacterial", [r for r in bp if r["taxonomy"].startswith("d__Bacteria;")]),
+    ("archaeal", [r for r in bp if r["taxonomy"].startswith("d__Archaea;")]),
+]:
+    summary.update({
+        f"{prefix}_detection_rows": len(rows),
+        f"{prefix}_detected_targets": len({r["target_id"] for r in rows}),
+        f"{prefix}_positive_libraries": len({r["sample_id"] for r in rows}),
+        f"{prefix}_high_confidence_rows": sum(r["grade"] == "high_confidence" for r in rows),
+        f"{prefix}_divergent_match_rows": sum(r["divergent_strain"] == "true" for r in rows),
+    })
 (OUT / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
 SOURCES.append(Path(__file__).resolve())
 write("source_checksums.tsv", [{"path": str(p.relative_to(ROOT)), "sha256": hashlib.sha256(p.read_bytes()).hexdigest()} for p in SOURCES])

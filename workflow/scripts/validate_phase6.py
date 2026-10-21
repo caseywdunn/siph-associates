@@ -15,6 +15,7 @@ parser.add_argument("--nanomia", required=True)
 parser.add_argument("--thresholds", required=True, nargs="+")
 parser.add_argument("--primary", required=True, nargs="+")
 parser.add_argument("--sensitivity", required=True, nargs="+")
+parser.add_argument("--samples", default="config/samples.tsv")
 parser.add_argument("--output", required=True, type=Path)
 args = parser.parse_args()
 
@@ -24,6 +25,7 @@ def rows(path):
         return list(csv.DictReader(handle, delimiter="\t"))
 
 
+expected_samples = {r["sample_id"] for r in rows(args.samples)}
 errors = []
 for label, path, allowed in (("bacterial", args.bacterial, {"none", "trace", "validated", "high_confidence"}),
                              ("viral", args.viral, {"none", "partial", "validated", "high_confidence"})):
@@ -32,8 +34,8 @@ for label, path, allowed in (("bacterial", args.bacterial, {"none", "trace", "va
     samples, targets = {s for s, _ in keys}, {t for _, t in keys}
     if any(n > 1 for n in keys.values()) or len(keys) != len(samples) * len(targets):
         errors.append(f"{label}: grades are not a complete, unique sample x target matrix")
-    if len(samples) != 205:
-        errors.append(f"{label}: expected 205 libraries, found {len(samples)}")
+    if samples != expected_samples:
+        errors.append(f"{label}: grade sample IDs differ from the expected cohort")
     bad = {r["grade"] for r in table} - allowed
     if bad:
         errors.append(f"{label}: unexpected grades {sorted(bad)}")
@@ -50,8 +52,8 @@ for path in args.primary + args.sensitivity + args.thresholds:
 
 # Explicit selection and full-threshold checks protect the corrected batch tests.
 metadata = rows(args.metadata)
-if len(metadata) != 205 or len({row["sample_id"] for row in metadata}) != 205:
-    errors.append("flowcell metadata must retain all 205 unique libraries")
+if len(metadata) != len(expected_samples) or {r["sample_id"] for r in metadata} != expected_samples:
+    errors.append("flowcell metadata must retain exactly the expected unique libraries")
 for row in metadata:
     flowcells = row["flowcells"].split(";") if row["flowcells"] else []
     eligible = row["inference_eligible"] == "true"

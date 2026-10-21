@@ -1,17 +1,23 @@
-# Fish 12S screen across the original cohort
+# Fish 12S screen across the expanded cohort
 
-All 205 libraries completed the screen: all retained host-depleted reads for
+All **213 libraries** completed the screen: all retained host-depleted reads for
 151 Physalia and ten Nanomia septata libraries, and up to 200 million raw pairs
-before quality filtering for each of the other 44 libraries. The latter include
-Erenna and Rhizophysa. Array 13512346 completed all 44 tasks successfully.
+before quality filtering for each of the other 52 libraries. The latter include
+Erenna, Rhizophysa, both Halistemma and the eight new Bargmannia libraries.
+Halistemma fish screening preceded host depletion and used the full read route.
 
 The [generated summary](../figures/fish_12s/summary.json) and
-[library table](../figures/fish_12s/sample_summary.tsv) report 8,146,578,446
-screened pairs. There are 32 long, close competitive fish matches in eight
-Physalia libraries, with no additional qualifying pairs in the 44 full-read
-libraries or ten N. septata libraries. The full-read libraries contributed
-7,729,836,699 quality-filtered pairs. Sixty-four other pairs across the cohort
-have weaker or ambiguous fish similarity and are not strong matches.
+[library table](../figures/fish_12s/sample_summary.tsv) combine the original
+cohort and completed Bargmannia reports without repeating searches. The original
+205 libraries contributed 8,146,578,446 screened pairs; Bargmannia adds
+1,430,751,915, for **9,577,330,361 pairs**. Full-read libraries contributed
+9,160,588,614 quality-filtered pairs.
+
+The 32 long, close competitive fish matches remain confined to eight Physalia
+libraries. The eight Bargmannia libraries add no qualifying pairs, consistent
+with the absence of qualifying pairs in the other original full-read libraries
+and ten N. septata libraries. There are 81 weaker or ambiguous fish-similar pairs
+across the cohort (64 original and 17 Bargmannia); these are not strong matches.
 
 The [positive-pair table](../figures/fish_12s/positive_pairs.tsv) retains both
 mates' alignment evidence, near-best reference names, recruitment methods,

@@ -1,5 +1,10 @@
 # Phase-5 presence rules
 
+The accepted rules below also apply to the completed 213-library v3 mappings.
+Original calibration counts remain dated evidence; current grades and threshold
+sensitivity are produced by the [expanded reporting workflow](expanded_reporting.md).
+No threshold was retuned to the expanded results.
+
 Approved by Casey Dunn on 2026-09-29, after cohort mapping against catalog v1
 and before any presence was interpreted. The rules are frozen in
 `config/phase5_presence.json`. The control tables are regenerated from

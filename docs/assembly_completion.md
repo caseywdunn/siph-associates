@@ -10,7 +10,7 @@ The [completion manifest](../config/assembly_completion.tsv) selects ten origina
 libraries previously excluded by the cutoff and both newly host-depleted
 *Halistemma rubrum* libraries. All use retained host-depleted FASTQs. The shared
 rules run MEGAHIT, marker searches, geNomad, CheckV, MetaBAT2 and CheckM2. Mapping
-for bin coverage stays within each library; full-cohort mapping remains on hold.
+for bin coverage stays within each library; the subsequent [full-cohort remapping](cohort_remapping.md) has now completed.
 
 The [combined manifest](../config/post_expansion_samples.tsv) selects exactly
 213 libraries: 193 reused original assemblies, 12 completion attempts, and eight
@@ -21,7 +21,8 @@ and contig identifiers. Original products remain on disk.
 All 12 completion assemblies finished successfully on 2026-10-20, producing
 4,196 contigs totaling 8,607,764 bases. All 213 selected libraries now have
 assemblies. One additional bin from YPM-IZ-111016 (145,748 retained pairs) passes
-the initial CheckM2 screen; its biological identity remains pending QC.
+the initial CheckM2 screen; subsequent biological review is recorded in the
+[completed catalog QC](catalog_qc.md).
 The prepared review bundle contains 131 candidate bins, including the four
 known eukaryotic controls, and 34,566 contigs. These counts precede domain review
 and dereplication and are not a final MAG catalog.
@@ -102,8 +103,8 @@ The [candidate review table](../figures/catalog_qc/candidate_review.tsv) and
 review status. Old taxonomy is included as context only for identical sequence
 checksums. Four known Perkinsela-related bins remain excluded eukaryotic controls.
 
-Full capped trimmed reads for 42 original libraries need regeneration when
-mapping is authorized; their 25-million-pair assembly subsets are never
+The completed mapping round regenerated full capped trimmed reads for 42
+original libraries; their 25-million-pair assembly subsets are never
 substituted. The other 171 libraries have retained mapping inputs (163
 host-depleted and eight full capped Bargmannia inputs). Preparation inventories
 these files without decompressing original FASTQs.

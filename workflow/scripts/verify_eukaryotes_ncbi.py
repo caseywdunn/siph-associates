@@ -16,13 +16,21 @@ import urllib.request
 from pathlib import Path
 from xml.etree import ElementTree
 
+from ncbi_verification_cache import cached_verifications, fasta_sequences, sequence_sha256
+
 URL = "https://blast.ncbi.nlm.nih.gov/Blast.cgi"
 parser = argparse.ArgumentParser()
 parser.add_argument("--fasta", required=True)
 parser.add_argument("--email", required=True)
 parser.add_argument("--output", required=True, type=Path)
 parser.add_argument("--batch", type=int, default=10)
+parser.add_argument("--cache-fasta")
+parser.add_argument("--cache-table")
+parser.add_argument("--cache-only", action="store_true",
+                    help="Fail before any network request if an identical-sequence verification is missing")
 args = parser.parse_args()
+if bool(args.cache_fasta) != bool(args.cache_table):
+    parser.error("Both cache paths must be supplied together")
 
 
 def request(params, data=False):
@@ -39,21 +47,19 @@ def request(params, data=False):
     raise RuntimeError("NCBI BLAST request failed")
 
 
-records, name = {}, None
-for line in open(args.fasta):
-    if line.startswith(">"):
-        name = line[1:].split()[0]
-        records[name] = []
-    elif name:
-        records[name].append(line.strip())
-names = list(records)
+records = fasta_sequences(args.fasta)
+reused, names = (cached_verifications(records, args.cache_fasta, args.cache_table)
+                 if args.cache_fasta else ([], list(records)))
+print(f"identical-sequence cached rows={len(reused)}; new queries={len(names)}", flush=True)
+if args.cache_only and names:
+    raise SystemExit(f"Cache-only verification: {len(names)} sequences require new external queries")
 # BLAST parses '|' in query names as database identifiers, so send simple IDs and map back.
 alias = {f"q{i:05d}": n for i, n in enumerate(names, start=1)}
 local = {n: a for a, n in alias.items()}
 rows = []
 for start in range(0, len(names), args.batch):
     batch = names[start:start + args.batch]
-    query = "".join(f">{local[n]}\n{''.join(records[n])}\n" for n in batch)
+    query = "".join(f">{local[n]}\n{records[n]}\n" for n in batch)
     reply = request({"CMD": "Put", "PROGRAM": "blastn", "DATABASE": "core_nt", "QUERY": query,
                      "HITLIST_SIZE": 5}, data=True)
     rid = re.search(r"RID = (\S+)", reply).group(1)
@@ -102,8 +108,12 @@ for r in rows:
     r["organism"] = summaries.get(r["subject"], ("", ""))[1]
     r["title"] = r["title"] or summaries.get(r["subject"], ("", ""))[0]
 
+for row in rows:
+    row["sequence_sha256"] = sequence_sha256(records[row["sequence_id"]])
+    row["verification_source"] = "NCBI BLAST URL API"
+rows = reused + rows
 fields = ["sequence_id", "rank", "subject", "organism", "title", "identity", "alignment_length", "evalue",
-          "bitscore", "database", "query_date", "rid"]
+          "bitscore", "database", "query_date", "rid", "sequence_sha256", "verification_source"]
 temporary = args.output.with_name(args.output.name + ".tmp")
 with temporary.open("w", newline="") as handle:
     writer = csv.DictWriter(handle, fieldnames=fields, delimiter="\t", lineterminator="\n")

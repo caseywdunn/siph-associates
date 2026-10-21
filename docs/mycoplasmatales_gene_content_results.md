@@ -1,5 +1,12 @@
 # Mycoplasmatales gene content: results
 
+Scope checked against catalog v3 on 2026-10-21: all seven focal
+Metamycoplasmataceae genomes retain identical source and sequence hashes.
+The annotations and results below are therefore retained. The additional
+Tyloplasma-related genome `MAGSP0033` belongs to Hepatoplasmataceae and is
+not part of this functional comparison; it appears in the current cohort
+detection tables. See [expanded reporting](expanded_reporting.md).
+
 Analysis per `docs/mycoplasmatales_gene_content_plan.md`, including its
 2026-10-02 deviation (relaxed KO tier, calibrated on curated RefSeq genomes).
 Tables: `data/results/mycoplasmatales_gene_content/summary/`. Relaxed

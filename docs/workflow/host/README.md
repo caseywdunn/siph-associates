@@ -5,6 +5,9 @@
 Index host genomes and exercise the original host-handling implementation.
 Host DNA dominates these sequencing libraries, so removal or selection of reads
 changes the material available to downstream discovery.
+The current production inventory also includes two Halistemma rubrum libraries;
+see [Halistemma processing](../../halistemma.md) and the
+[163-library host-depletion report](../../host_depletion_report.md).
 
 ## Inputs and products
 

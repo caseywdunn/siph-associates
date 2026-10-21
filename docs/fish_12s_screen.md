@@ -1,12 +1,11 @@
 # Fish 12S screen: initial assessment
 
-Work on branch `fish-12s-screen`, started 2026-10-17. The intended cohort is all
-205 libraries, with Physalia diet as the main biological question. The 161-library
-host-depleted screen is complete, and the approved expansion covers the other 44
-libraries with up to 200 million raw pairs each. This page preserves the initial
-method assessments; the [current execution guide](prey_marker_screen.md) documents
-the cohort workflows, controls and preliminary result tables. Earlier raw-lane
-pilots below are superseded by the complete retained host-depleted inputs.
+This page preserves the initial assessment begun on branch `fish-12s-screen`
+on 2026-10-17. The survey now covers all 213 libraries from four studies; see the
+[current execution guide](prey_marker_screen.md) and
+[completed results](fish_12s_results.md). The pilot inventories and method choices
+below record the original 205-library design. Earlier raw-lane pilots are
+superseded by the complete retained host-depleted inputs.
 
 ## Does the original regex cover fishes broadly?
 
@@ -128,8 +127,9 @@ reported as prey species. Alignment checks use word size 11, DUST, E-value
 1e-8, one HSP per subject, and up to 200 subjects per query. The query-ID table
 connects every candidate to its original read, mate, lane, and filter membership.
 
-The full-cohort method remains undecided pending positive-control recovery,
-reference-held-out sensitivity tests, and comparisons of computational cost.
+At this initial assessment, full-cohort method selection awaited positive-control
+recovery, reference-held-out sensitivity tests, and computational comparisons.
+The completed survey retained all four search methods and competitive review.
 Before biological reporting, resolve ambiguous assignments, inspect duplicates
 and support outside conserved sites, and evaluate sequencing-batch contamination.
 The SSU analysis's 37-pair threshold has not been calibrated for this marker and

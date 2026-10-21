@@ -5,9 +5,7 @@ digraph snakemake_dag {
 	0[label = "publication_collection_context_figures", color = "0.00 0.6 0.85", style="rounded"];
 	1[label = "collection_context_tables", color = "0.53 0.6 0.85", style="rounded"];
 	2[label = "publication_cohort_figures", color = "0.13 0.6 0.85", style="rounded"];
-	3[label = "apply_catalog_domain_review", color = "0.40 0.6 0.85", style="rounded"];
-	4[label = "publication_mycoplasmatales_figures", color = "0.27 0.6 0.85", style="rounded"];
+	3[label = "publication_mycoplasmatales_figures", color = "0.27 0.6 0.85", style="rounded"];
 	1 -> 0
 	2 -> 1
-	3 -> 2
 }            

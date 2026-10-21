@@ -34,7 +34,7 @@ Physalia physalis	Pseudoalteromonas	3	37	0.08108108108108109
 Physalia physalis	Cutibacterium	2	37	0.05405405405405406
 Physalia physalis	Photobacterium	5	37	0.13513513513513514
 Physalia physalis	Alteromonas	2	37	0.05405405405405406
-Physalia physalis	Remaining bacteria	2	37	0.05405405405405406
+Physalia physalis	Remaining bacteria	4	37	0.10810810810810811
 Physalia utriculus	Metamycoplasmataceae	29	64	0.453125
 Physalia utriculus	Cognatishimia	22	64	0.34375
 Physalia utriculus	Vibrio	8	64	0.125
@@ -125,15 +125,24 @@ Apolemia sp. 3 CWD-2005	Cutibacterium	0	1	0.0
 Apolemia sp. 3 CWD-2005	Photobacterium	0	1	0.0
 Apolemia sp. 3 CWD-2005	Alteromonas	0	1	0.0
 Apolemia sp. 3 CWD-2005	Remaining bacteria	1	1	1.0
-Bargmannia elongata	Metamycoplasmataceae	0	1	0.0
-Bargmannia elongata	Cognatishimia	0	1	0.0
-Bargmannia elongata	Vibrio	0	1	0.0
-Bargmannia elongata	CAKMZU01	0	1	0.0
-Bargmannia elongata	Pseudoalteromonas	0	1	0.0
-Bargmannia elongata	Cutibacterium	0	1	0.0
-Bargmannia elongata	Photobacterium	0	1	0.0
-Bargmannia elongata	Alteromonas	0	1	0.0
-Bargmannia elongata	Remaining bacteria	0	1	0.0
+Bargmannia amoena	Metamycoplasmataceae	0	1	0.0
+Bargmannia amoena	Cognatishimia	0	1	0.0
+Bargmannia amoena	Vibrio	0	1	0.0
+Bargmannia amoena	CAKMZU01	0	1	0.0
+Bargmannia amoena	Pseudoalteromonas	0	1	0.0
+Bargmannia amoena	Cutibacterium	0	1	0.0
+Bargmannia amoena	Photobacterium	0	1	0.0
+Bargmannia amoena	Alteromonas	0	1	0.0
+Bargmannia amoena	Remaining bacteria	0	1	0.0
+Bargmannia elongata	Metamycoplasmataceae	0	3	0.0
+Bargmannia elongata	Cognatishimia	0	3	0.0
+Bargmannia elongata	Vibrio	0	3	0.0
+Bargmannia elongata	CAKMZU01	0	3	0.0
+Bargmannia elongata	Pseudoalteromonas	0	3	0.0
+Bargmannia elongata	Cutibacterium	1	3	0.3333333333333333
+Bargmannia elongata	Photobacterium	0	3	0.0
+Bargmannia elongata	Alteromonas	0	3	0.0
+Bargmannia elongata	Remaining bacteria	0	3	0.0
 Bargmannia lata	Metamycoplasmataceae	0	1	0.0
 Bargmannia lata	Cognatishimia	0	1	0.0
 Bargmannia lata	Vibrio	0	1	0.0
@@ -143,6 +152,42 @@ Bargmannia lata	Cutibacterium	0	1	0.0
 Bargmannia lata	Photobacterium	0	1	0.0
 Bargmannia lata	Alteromonas	0	1	0.0
 Bargmannia lata	Remaining bacteria	0	1	0.0
+Bargmannia marlena	Metamycoplasmataceae	0	1	0.0
+Bargmannia marlena	Cognatishimia	0	1	0.0
+Bargmannia marlena	Vibrio	0	1	0.0
+Bargmannia marlena	CAKMZU01	0	1	0.0
+Bargmannia marlena	Pseudoalteromonas	0	1	0.0
+Bargmannia marlena	Cutibacterium	0	1	0.0
+Bargmannia marlena	Photobacterium	0	1	0.0
+Bargmannia marlena	Alteromonas	0	1	0.0
+Bargmannia marlena	Remaining bacteria	0	1	0.0
+Bargmannia profunda	Metamycoplasmataceae	0	1	0.0
+Bargmannia profunda	Cognatishimia	0	1	0.0
+Bargmannia profunda	Vibrio	0	1	0.0
+Bargmannia profunda	CAKMZU01	0	1	0.0
+Bargmannia profunda	Pseudoalteromonas	0	1	0.0
+Bargmannia profunda	Cutibacterium	0	1	0.0
+Bargmannia profunda	Photobacterium	0	1	0.0
+Bargmannia profunda	Alteromonas	0	1	0.0
+Bargmannia profunda	Remaining bacteria	0	1	0.0
+Bargmannia pyrosa	Metamycoplasmataceae	0	2	0.0
+Bargmannia pyrosa	Cognatishimia	0	2	0.0
+Bargmannia pyrosa	Vibrio	0	2	0.0
+Bargmannia pyrosa	CAKMZU01	0	2	0.0
+Bargmannia pyrosa	Pseudoalteromonas	0	2	0.0
+Bargmannia pyrosa	Cutibacterium	0	2	0.0
+Bargmannia pyrosa	Photobacterium	0	2	0.0
+Bargmannia pyrosa	Alteromonas	0	2	0.0
+Bargmannia pyrosa	Remaining bacteria	0	2	0.0
+Bargmannia stenotes	Metamycoplasmataceae	0	1	0.0
+Bargmannia stenotes	Cognatishimia	0	1	0.0
+Bargmannia stenotes	Vibrio	0	1	0.0
+Bargmannia stenotes	CAKMZU01	1	1	1.0
+Bargmannia stenotes	Pseudoalteromonas	0	1	0.0
+Bargmannia stenotes	Cutibacterium	1	1	1.0
+Bargmannia stenotes	Photobacterium	0	1	0.0
+Bargmannia stenotes	Alteromonas	0	1	0.0
+Bargmannia stenotes	Remaining bacteria	1	1	1.0
 Chelophyes appendiculata	Metamycoplasmataceae	0	1	0.0
 Chelophyes appendiculata	Cognatishimia	0	1	0.0
 Chelophyes appendiculata	Vibrio	0	1	0.0

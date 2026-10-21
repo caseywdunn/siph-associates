@@ -1,0 +1,7 @@
+domain	scope	libraries_in_scope	detections	positive_libraries	detected_targets_or_groups	high_confidence_detections
+microbial	all_libraries	213	568	140	189	303
+microbial	excluding_background_flagged_libraries	212	567	139	189	303
+viral	all_libraries	213	631	127	392	442
+viral	excluding_background_flagged_libraries	212	545	126	306	356
+eukaryotic	all_libraries	213	64	40	17	42
+eukaryotic	excluding_background_flagged_libraries	212	61	39	16	42

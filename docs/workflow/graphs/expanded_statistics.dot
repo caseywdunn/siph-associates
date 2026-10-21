@@ -1,0 +1,44 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "expanded_statistics", color = "0.44 0.6 0.85", style="rounded"];
+	1[label = "validate_phase6", color = "0.15 0.6 0.85", style="rounded"];
+	2[label = "grade_presences", color = "0.33 0.6 0.85", style="rounded"];
+	3[label = "align_assembly_catalog_minimap2", color = "0.30 0.6 0.85", style="rounded"];
+	4[label = "index_catalog_minimap2", color = "0.05 0.6 0.85", style="rounded"];
+	5[label = "test_contamination_flowcell", color = "0.48 0.6 0.85", style="rounded"];
+	6[label = "normalize_phase6_metadata", color = "0.16 0.6 0.85", style="rounded"];
+	7[label = "reporting_metadata", color = "0.41 0.6 0.85", style="rounded"];
+	8[label = "test_nanomia_contamination_flowcell", color = "0.23 0.6 0.85", style="rounded"];
+	9[label = "analyze_presence_threshold", color = "0.03 0.6 0.85", style="rounded"];
+	10[label = "summarize_incidence", color = "0.38 0.6 0.85", style="rounded"];
+	11[label = "fit_physalia_models_lme4", color = "0.18 0.6 0.85", style="rounded"];
+	12[label = "compare_sensitivity_analyses", color = "0.01 0.6 0.85", style="rounded"];
+	1 -> 0
+	5 -> 1
+	2 -> 1
+	6 -> 1
+	12 -> 1
+	9 -> 1
+	10 -> 1
+	11 -> 1
+	8 -> 1
+	3 -> 2
+	4 -> 3
+	2 -> 5
+	6 -> 5
+	7 -> 6
+	2 -> 8
+	6 -> 8
+	2 -> 9
+	6 -> 9
+	7 -> 9
+	5 -> 10
+	2 -> 10
+	7 -> 10
+	2 -> 11
+	6 -> 11
+	2 -> 12
+	7 -> 12
+}            

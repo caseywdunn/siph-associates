@@ -1,7 +1,11 @@
 # Mycoplasmatales publication figures
 
 These figures render existing analysis outputs; they do not rerun annotations
-or infer a tree. Build from the analysis repository root on a compute node:
+or infer a tree. The seven focal Metamycoplasmataceae genomes have unchanged
+source and FASTA hashes in v3, so these figures remain valid after cohort
+expansion. The newly retained Tyloplasma-related `MAGSP0033` is outside their
+scope; see [expanded reporting](../../docs/expanded_reporting.md).
+Build from the analysis repository root on a compute node:
 
 ```bash
 sbatch workflow/scripts/batch_mycoplasmatales_figures.sh

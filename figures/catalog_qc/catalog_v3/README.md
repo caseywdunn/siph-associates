@@ -21,7 +21,8 @@ Eight MAG clusters have public reference representatives in the pooled catalog.
 MAGSP0033 is the new Tyloplasma cluster from YPM-IZ-111016; its pooled target is
 BAC00459. The false archaeal identifiers MAGSP0026 and BAC00006 remain retired.
 
-- [Readiness report](catalog_ready.json): validation result and mapping hold.
+- [Readiness report](catalog_ready.json): validation result and mapping hold at
+  the original pre-mapping checkpoint; subsequent authorization is recorded separately.
 - [File inventory](inventory.tsv): paths, sizes and SHA-256 checksums for the
   final FASTAs, indexes and review tables.
 - [Identifier crosswalk](catalog_id_crosswalk.tsv): old/new cluster membership
@@ -40,5 +41,7 @@ The FASTAs and indexes remain on the cluster at
 The microbial and combined viral FASTAs support separate competitive alignments
 in the same cohort-remapping round. This record was created before mapping;
 the subsequent [authorization and run guide](../../../docs/cohort_remapping.md)
-describe the remapping round. Existing detection and abundance tables still
-describe the earlier catalogs until the new results are reviewed.
+records the completed 213-library remapping. The
+[current reporting guide](../../../docs/expanded_reporting.md) identifies v3
+grades, statistics and publication exports. This immutable catalog receipt
+retains the hold state that applied when it was created.

@@ -5,7 +5,8 @@ GTDB placement and CheckM2 estimates alone did not establish prokaryotic identit
 the [domain audit](mag_domain_audit.md) documents the evidence. Every prospective
 MAG catalog member, including previously retained bins, was reviewed before
 catalog v3 was frozen. The user subsequently authorized the
-[213-library remapping round](cohort_remapping.md) on 2026-10-20.
+[213-library remapping round](cohort_remapping.md) on 2026-10-20. That round completed with PASS on 2026-10-21;
+[current reporting](expanded_reporting.md) uses the reviewed v3 products.
 
 [Preparation](assembly_completion.md#prepare-the-combined-cohort-for-qc) preserves
 sequence identities and source assemblies. Known eukaryotic bins stay excluded
@@ -40,8 +41,9 @@ completion and candidate extraction do not complete these reviews. The final
 review must produce per-candidate decisions and an immutable inventory of
 approved mapping targets with sequence checksums and inclusion evidence.
 
-No preparation workflow includes full-cohort mapping rules. The explicit hold
-in `config/post_expansion_remapping.json` cannot be cleared by preparation.
+No preparation workflow includes full-cohort mapping rules. Preparation could not clear the mapping hold. The explicit user authorization
+recorded in `config/post_expansion_remapping.json` subsequently released it;
+the authorized mapping round has now passed validation.
 
 ## October 20 review checkpoint
 
@@ -191,13 +193,21 @@ MAG cluster identifiers are preserved, including for bins with fragments removed
 
 The viral regions form **407 associate-virus clusters** and **157 endogenous
 candidate clusters**. Six CRISPR host links remain after curation. These are
-catalog membership and sequence-linkage results; prevalence and abundance in
-the expanded cohort await the held read-mapping step.
+catalog membership and sequence-linkage results. The subsequent expanded
+read mapping is complete; [current reporting](expanded_reporting.md) derives
+prevalence and coverage summaries from it.
 
-### Execute curation and finalization
+### Reconstruct the pre-mapping catalog checkpoint
 
-The configured environment and staged completed evidence are required. From the
-repository root:
+The commands below document the completed October 20 freeze. Its readiness
+recorder requires the mapping hold that was in force then. The active
+configuration now records authorization, so it intentionally cannot recreate
+that pre-authorization receipt. Preserve the existing receipt and inventory;
+the current [mapping preflight](cohort_remapping.md) checks their sequence
+identities. Reconstructing the historical freeze requires a separate checkout
+with the configuration preserved in
+`data/results/post_expansion/2026-10-20/executions/13644738/source.tar.gz`,
+the configured environment and staged evidence. From that repository root:
 
 ```bash
 # Assembly comparisons and viral-boundary recheck; no read mapping.
@@ -230,18 +240,18 @@ The final [readiness report](../figures/catalog_qc/catalog_v3/catalog_ready.json
 [file checksum inventory](../figures/catalog_qc/catalog_v3/inventory.tsv),
 [ID crosswalk](../figures/catalog_qc/catalog_v3/catalog_id_crosswalk.tsv) and
 [compact catalog tables](../figures/catalog_qc/catalog_v3/README.md) are in
-`figures/catalog_qc/catalog_v3/`. Readiness requires
+`figures/catalog_qc/catalog_v3/`. At the freeze checkpoint, readiness required
 the catalog validator to pass, all indexes to exist, and the explicit mapping
-hold to remain set. It does not authorize or submit mapping.
+hold to remain set. That receipt did not authorize or submit mapping.
 
 The retained read inventory is
 `data/results/post_expansion/2026-10-20/mapping_inputs.tsv`: 163 libraries have
-host-depleted reads, eight Bargmannia libraries have full trimmed reads, and 42
-original reference-free libraries need trimmed reads regenerated when mapping
-is authorized. A 25-million-pair assembly subset is never substituted for the
-full mapping input. Mapping was held for both catalogs at this preparation
-checkpoint; the subsequent [explicit authorization](cohort_remapping.md) starts
-the combined remapping round.
+host-depleted reads and eight Bargmannia libraries had full trimmed reads.
+The 42 original reference-free libraries required trimmed reads to be regenerated;
+that regeneration and all input checks completed in the authorized mapping round.
+A 25-million-pair assembly subset was not substituted for the full mapping input.
+Mapping was held for both catalogs at the preparation checkpoint; subsequent
+[explicit authorization](cohort_remapping.md) released the combined round.
 
 ![Assembly curation evidence](workflow/graphs/catalog_curation.svg)
 
@@ -257,6 +267,5 @@ one against the pooled bacterial/archaeal catalog (MAGs, public references and
 decoys), and one against the combined viral catalog. Associate and endogenous
 candidate viral targets compete within the viral alignment. Coverage is reported
 separately for microbial genomes and viral clusters. CRISPR spacer matches are
-a separate genome-to-virus linkage analysis. Both catalogs are prepared before
-the single planned cohort-remapping round; there is no separate early viral
-read-mapping launch.
+a separate genome-to-virus linkage analysis. Both catalogs were prepared before
+the single completed cohort-remapping round and were mapped in that round.

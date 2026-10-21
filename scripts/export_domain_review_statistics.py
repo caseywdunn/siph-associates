@@ -18,11 +18,13 @@ def main():
         with path.open() as handle:
             return list(csv.DictReader(handle, delimiter="\t"))
 
-    root = Path("data/results/phase6_analysis/v2")
+    settings = json.loads(Path("config/reporting_sources.json").read_text())
+    inputs["config/reporting_sources.json"] = hashlib.sha256(Path("config/reporting_sources.json").read_bytes()).hexdigest()
+    root = Path(settings["analysis_root"])
     grades = read(root / "grades/bacterial_grades.tsv")
     real = [r for r in grades if r["role"] != "decoy"]
     present = [r for r in real if r["grade"] in {"validated", "high_confidence"}]
-    samples = {r["sample_id"]: r for r in read("config/samples.tsv")}
+    samples = {r["sample_id"]: r for r in read(settings["samples"])}
     values = {
         "Detections": len(present),
         "AssemblySupported": sum(r["grade"] == "high_confidence" for r in present),

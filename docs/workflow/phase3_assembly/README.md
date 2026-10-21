@@ -1,5 +1,13 @@
 # Assemble eligible libraries and recover candidate genomes
 
+**Execution scope:** the commands and graph below describe the original
+205-library workflow and its historical catalog versions. The current cohort
+has 213 libraries and reviewed catalog v3. Use
+[current cohort and reporting](../../expanded_reporting.md) for the accepted
+bounded entry points, completion records and current paths. The shared
+algorithms described here are reused; withdrawn assembly cutoffs do not select
+the current cohort.
+
 The expanded cohort now attempts every library without a read-count cutoff;
 see [assembly completion](../../assembly_completion.md). The original frozen
 membership described below remains a historical execution record.

@@ -79,3 +79,33 @@ the graph files to be included in that commit. No GitHub run is claimed here.
 An administrator must provide the `siph-associates-rulegraphs` runner and make
 the `rulegraphs` check required if merge enforcement is desired. No remote
 runner or branch-protection setting was created in this task.
+
+## 2026-10-21 expanded-cohort audit
+
+The current index covers all 21 shared rule files, including fish searches and
+host-depletion reporting. It distinguishes the frozen original 205-library
+workflow from the 213-library entry points for expansion, QC, remapping and
+reporting. The overview plots and supporting manuscript summaries now have
+declared producers in `workflow/expanded_reporting.smk`.
+
+Four added reporting scopes bring the graph registry to 36. Every scope passed
+a fresh regeneration comparison on October 21, including the bounded
+publication scope after the current eukaryote grades completed. All 36 SVGs
+parsed, and the expanded publication graph was visually reviewed. Final
+completion is recorded in
+[expanded-cohort-reporting.md](expanded-cohort-reporting.md).
+
+The active documentation now records universal assembly attempts, completed
+Halistemma depletion, the reviewed v3 catalog and remapping, all 213 fish screens,
+expanded SSU reference competition, cache-only verification, and the unchanged
+seven-genome focal analyses. Dated designs and calibration records retain their
+original evidence, with explicit pointers to current execution. All 52 changed
+Markdown files checked at completion had valid local file targets.
+
+New Python helpers pass Ruff. A broader lint comparison of changed legacy
+scripts finds the same seven findings at HEAD and in the working tree (E402,
+E702 and E731); no new findings were introduced. Their unrelated formatting
+was preserved to avoid changing completed scientific producers solely for style.
+All 57 focused scientific/reporting tests passed. Completed remapping and
+expanded publication dry runs report nothing to do. The generated background
+review and manuscript handoff explicitly qualify the T676-SS3 outlier.

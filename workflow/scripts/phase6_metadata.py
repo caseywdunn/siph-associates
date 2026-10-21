@@ -7,14 +7,14 @@ from pathlib import Path
 
 
 def physical_flowcells(batches: str) -> tuple[str, ...]:
-    """Collapse lanes using manifest instrument:run:flowcell:lane identifiers."""
+    """Accept physical-flowcell IDs or collapse their explicitly recorded lanes."""
     flowcells = set()
     for batch in batches.split(";"):
         if not batch:
             continue
         fields = batch.split(":")
-        if len(fields) != 4 or not all(fields):
-            raise ValueError(f"Expected instrument:run:flowcell:lane, got {batch!r}")
+        if len(fields) not in (3, 4) or not all(fields):
+            raise ValueError(f"Expected instrument:run:flowcell[:lane], got {batch!r}")
         flowcells.add(":".join(fields[:3]))
     return tuple(sorted(flowcells))
 

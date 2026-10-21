@@ -1,6 +1,6 @@
 # Summaries for Martina Dal Bello's manuscript comments
 
-This reporting step reuses accepted v2 detections and the completed gene-content
+This reporting step reuses accepted v3 detections and the completed gene-content
 comparison. Run from the analysis repository with Python 3.11 or later
 (standard library only):
 
@@ -11,12 +11,15 @@ python3 scripts/summarize_mdb_revision.py
 Outputs in `figures/mdb_revision/` include specimen-level joins, descriptive
 co-occurrence tables, selected nutritional/defense annotations, generated LaTeX
 tables and phage text, and an input/output SHA-256 provenance record. The
-manuscript's explicit asset sync copies these reviewed outputs. No workflow
-rule, sequence result, detection threshold or genome catalog changes.
+manuscript's explicit asset sync copies these reviewed outputs. The `expanded_supporting_tables` rule in the
+[expanded reporting workflow](expanded_reporting.md) regenerates this bundle.
+Its source paths are selected in
+[reporting_sources.json](../config/reporting_sources.json). No new annotation
+or detection threshold is introduced by this reporting step.
 
 ## Questions and scope
 
-- **Co-occurrence:** one specimen per library; retain all 205, including zero
+- **Co-occurrence:** one specimen per library; retain all 213, including zero
   detections. The primary descriptive comparison is within Physalia. Count a
   specimen once per exact GTDB genus (Vibrio, Pseudoalteromonas, Alteromonas,
   Photobacterium), and once for their union. These are candidate ecological
@@ -41,7 +44,7 @@ rule, sequence result, detection threshold or genome catalog changes.
   A comprehensive defense survey remains a separate potential annotation task.
 - **Genome quality:** the five near-complete genomes support cautious absence
   discussion. MAGSP0029 and MAGSP0031 remain presence-only in supporting TSVs.
-- **Phages:** generate the existing six-pair result directly from the retained
+- **Phages:** generate co-detection summaries directly from the current six-link
   host-link table, including the distinction between spacer linkage and
   contemporaneous co-detection.
 

@@ -145,3 +145,28 @@ def test_duplicate_and_unmatched_workflow_records_fail():
     ]:
         with pytest.raises(ValueError):
             metadata.curate_metadata(manifest, invalid, [], [])
+
+
+def test_expanded_export_preserves_original_rows_and_exact_cohort_membership():
+    original = metadata.curate_metadata(
+        metadata.read_table(ROOT / "manifest.csv"),
+        metadata.read_table(ROOT / "config/samples.tsv"),
+        metadata.read_table(ROOT / "config/publication_host_names.tsv"),
+        [
+            r
+            for r in metadata.read_table(
+                ROOT / "data/metadata/publication_metadata_updates.tsv"
+            )
+            if not r["library_id"].startswith("Manko2026:")
+        ],
+    )
+    expanded = metadata.load_metadata()
+    assert expanded[:205] == original
+    assert len(expanded) == 213
+    expected = {
+        r["sample_id"]
+        for r in metadata.read_table(ROOT / "config/post_expansion_samples.tsv")
+    }
+    assert {r["analysis_sample_id"] for r in expanded} == expected
+    assert {r["study"] for r in expanded[205:]} == {"Manko2026"}
+    assert all(r["depth_m"] and r["tissue"] and r["biosample"] for r in expanded[205:])

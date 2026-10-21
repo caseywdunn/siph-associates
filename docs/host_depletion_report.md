@@ -21,14 +21,16 @@ Reads are retained only when both mates are unmapped (`samtools fastq -f 12`).
 Thus percent removed includes removal of the unmapped mate of a mapped read.
 It is not the percentage of individual reads aligning to the reference.
 Input counts exclude reads removed during quality filtering and any prior cap.
-Samples with too few retained reads for assembly still appear in this table.
+All reference-bearing samples appear in this table, including low-yield samples.
+All 163 host-depletion jobs are complete; assembly was attempted regardless of
+retained-read count.
 
 Counts come from final `phase3_cohort/inputs/{sample}.json` mapping summaries.
 The producer checks sample identities, mapping strategy, count bounds, and the
 link to the corresponding trimming provenance. It never reads or decompresses
-FASTQs. Pilot counts are not used. Explicitly listed unfinished mappings receive
-`NA` for removal and remaining reads; completed trimming supplies their input
-counts. The generated table identifies any such samples.
+FASTQs. Pilot counts are not used. The current configuration allows no unfinished
+mappings. The implementation can identify explicitly configured pending samples,
+but none remain in this cohort.
 
 ## Rebuild the table
 

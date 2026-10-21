@@ -1,10 +1,11 @@
 # Halistemma rubrum host depletion
 
-**Current status (2026-10-20):** both depletion mappings completed. The original
-driver stopped at its assembly-count gate. That cutoff has been withdrawn;
-both libraries now proceed through [assembly completion](assembly_completion.md)
-using all retained pairs. Use that guide for the current assembly and QC route.
-The workflow and launch commands below document the original depletion run.
+**Current status (2026-10-21):** both depletion mappings and replacement
+assemblies are complete. Their curated sequences entered catalog v3 and both
+libraries completed the expanded cohort remapping. The original driver's
+assembly-count gate was withdrawn; [assembly completion](assembly_completion.md)
+records that change. See [current reporting](expanded_reporting.md) for downstream
+analysis status. The commands below document the original depletion run.
 
 Two existing Ahuja2024 libraries are reprocessed using the newly public
 [GCA_987347065.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_987347065.1/)
@@ -78,6 +79,7 @@ original assemblies remain as comparison baselines. Catalog v3 retains the
 MAGSP0026 domain exclusion. Halistemma changes processing for two existing
 samples; it does not add samples.
 
-The current 205-library manuscript remains the reporting baseline until that
-combined analysis passes review. Neither of the active per-library workflows
+The combined analysis and downstream exports are complete; see
+[current reporting](expanded_reporting.md). The manuscript still uses its
+205-library baseline and awaits a separate update. Neither per-library workflow
 automatically starts remapping.

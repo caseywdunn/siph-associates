@@ -104,14 +104,16 @@ def main() -> None:
         subset = [r for r in physalia if r["ocean_region"] in regions]
         values[basin + "CladeA"] = sum(int(r["clade_a_detected"]) for r in subset)
         values[basin + "Physalia"] = len(subset)
-    samples = read("config/samples.tsv")
+    settings = json.loads((ROOT / "config/reporting_sources.json").read_text())
+    INPUTS["config/reporting_sources.json"] = hashlib.sha256(Path("config/reporting_sources.json").read_bytes()).hexdigest()
+    samples = read(settings["samples"])
     routes = {r["sample_id"]: r["host_route"] for r in samples}
     mags = [
         r
-        for r in read("figures/catalog_review/mag_catalog.tsv")
+        for r in read(settings["mag_catalog"])
         if r["catalog_status"] == "retained"
     ]
-    assemblies = read("data/results/phase3_cohort/assembly_summary.tsv")
+    assemblies = read(settings["assembly_summary"])
     route_rows = []
     for route in sorted(set(routes.values())):
         retained = [r for r in mags if routes[r["sample_id"]] == route]

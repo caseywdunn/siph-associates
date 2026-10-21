@@ -14,39 +14,39 @@ python3 scripts/summarize_screening_results.py
 
 Outputs in `figures/screening/` comprise generated LaTeX values, a JSON summary,
 method-label counts, retained sylph nomination/library pairs with their existing
-catalog-v2 grades, SSU control comparisons, source database and corroboration
+catalog-v3 grades, SSU control comparisons, source database and corroboration
 summaries, input/output hashes, and a snapshot of the producing script.
 The bundle also contains accepted prokaryotic detections partitioned by
 same-library sylph nomination, nomination in another library, or MAG-only
 recovery; the accepted eukaryotic evidence with assembly sources; and broad
 Mycoplasma-related screen support for libraries with accepted focal MAGs.
 
-The source tables are:
+The current paths are selected explicitly by
+[reporting_sources.json](../config/reporting_sources.json):
 
-- `data/results/aggregation/cohort/{library_qc,candidate_nominations}.tsv`:
-  accepted library scope and all returned Bracken, sylph and phyloFlash labels.
-  Bracken is the abundance re-estimation stage following Kraken2; it is not an
-  independent classifier replicate. Taxonomic labels are not accepted richness.
-- `data/results/phase4_catalog/nomination_evidence/`: source-database and
-  same-genus corroboration summaries. Only the GTDB subset has this particular
-  cross-taxonomy corroboration assessment.
-- `data/results/phase4_catalog/v2/bacterial_catalog.manifest.tsv` and
-  `data/results/phase6_analysis/v2/grades/bacterial_grades.tsv`: final retained
-  representatives and the existing same-library nomination and presence grades.
-  Excluded references and multiple nominated genomes merged into one catalog
-  species are not separate tests in the mapping comparison.
-- `data/results/phase6_analysis/v2/sensitivity/leave_one_study_out.tsv`:
-  independent retained accounting check for genomes contributed only by MAG
-  recovery, without a sylph nomination anywhere in the cohort.
-- `data/results/eukaryote_gate/read_evidence.tsv`: paired-read assignments from
-  the initial phyloFlash mappings, after correcting the historical taxonomy
-  extraction issue; this is the pre-competitive-remapping comparison.
-- `data/results/eukaryote_gate/read_lineages.tsv`,
-  `calibration/negative_controls.tsv`, `eukaryote_grades.tsv`, and
-  `config/eukaryote_gate.json`: subsequent host-aware assignments, background
-  calibration, corrected nonredundant reporting and fixed thresholds.
-- `config/phase6_analysis.json`: the existing minimum aligned assembly bases
-  used to summarize contig support for accepted sylph nominations.
+- Expanded nominations under `data/results/post_expansion/2026-10-20/aggregation/cohort/`
+  combine the original 205 and eight Bargmannia libraries using the shared parser.
+- `data/results/post_expansion/2026-10-21/reporting/screens/` contains the
+  213-library screening inventory and refreshed source-database/corroboration
+  summaries. Bracken row counts are checked against the original screen inventory
+  and the new study's completed Bracken reports.
+- [The reviewed v3 catalog](../figures/catalog_qc/catalog_v3/) and current
+  `phase6_analysis/v3/grades/bacterial_grades.tsv` provide catalog membership,
+  same-library nominations and accepted detections. Excluded references and
+  genomes merged into a representative are not separate mapping tests.
+- Current `phase6_analysis/v3/sensitivity/leave_one_study_out.tsv` checks
+  nomination dependence and MAG-only accounting across all four studies.
+- Current `eukaryote_gate/read_evidence.tsv` combines the original initial
+  phyloFlash assignments with those from the eight new archives. Competitive
+  `read_lineages.tsv`, negative-control summaries and final grades use the
+  expanded host-aware reference.
+- [eukaryote_gate.json](../config/eukaryote_gate.json) and
+  [phase6_analysis.json](../config/phase6_analysis.json) retain the locked
+  read-level and assembly-support thresholds.
+
+The `expanded_screening_summary` rule connects these products in the
+[expanded reporting workflow](expanded_reporting.md). It can be previewed there;
+the standalone script above only reads completed tables.
 
 The script checks unique library/catalog coverage, agreement of Bracken row
 counts with accepted QC, agreement of raw sylph counts with the retained source
@@ -55,11 +55,15 @@ It checks input hashes again before recording successful completion.
 
 ## Interpretation
 
-The strongest evidence of false-positive screening assignments concerns the
-widespread initial insect SSU signal that diminishes below the presence
-threshold after host-aware competitive remapping. This supports misassignment
-of conserved host reads to non-host references as an important source of
-spurious apparent associates. The original decision record is
+In the original 205-library analysis, the small initial insect SSU signal
+diminished below the presence threshold after host-aware competitive remapping.
+This supports misassignment of conserved host reads to non-host references as
+an important source of spurious apparent associates. The expanded cohort adds
+one exception to the original background result: formalin-preserved Bargmannia
+elongata T676-SS3 has 288 insect and 71 plant pairs at ≥97% identity, above the
+locked 37-pair threshold. Its primary grades remain unchanged, with a specimen
+flag and a descriptive sensitivity summary omitting it in the
+[expanded comparison](../figures/expanded_review/README.md). The original decision record is
 [`eukaryote_gate_decisions.md`](eukaryote_gate_decisions.md).
 
 Genome nominations that fail the subsequent breadth/read criteria remain
@@ -86,6 +90,14 @@ threshold, with its confirming SSU from the general assembly rather than
 phyloFlash. The Discussion connects the different perspectives supplied by
 read-based taxonomic profiles, genome-reference nominations, ribosomal
 markers, assembly and competitive validation.
+
+The expanded cohort has one archaeal reference detection: `BAC00450`
+(`GCA_013390375.1`, Nitrosopelagicus) in Bargmannia stenotes D666-D10. It was
+nominated by sylph and passes the primary read-mapping rule (13.1901% breadth,
+1,083 retained reads), with no passing same-library assembly support. It remains
+below the 20% breadth sensitivity threshold. The screening summary counts this
+under archaeal references, not archaeal MAGs. No archaeal MAG is recovered;
+the previously misassigned MAGSP0026 remains excluded.
 
 The manuscript's bounded transfer is:
 

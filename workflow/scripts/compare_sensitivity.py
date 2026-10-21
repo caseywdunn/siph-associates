@@ -17,11 +17,15 @@ parser.add_argument("--catalog", required=True)
 parser.add_argument("--manifest", required=True)
 parser.add_argument("--sensitivity-dir", required=True, type=Path)
 parser.add_argument("--out-thresholds", required=True, type=Path)
-parser.add_argument("--out-host-handling", required=True, type=Path)
-parser.add_argument("--out-capping", required=True, type=Path)
+parser.add_argument("--out-host-handling", type=Path)
+parser.add_argument("--out-capping", type=Path)
 parser.add_argument("--out-loso", required=True, type=Path)
 parser.add_argument("--domain-exclusions", default="config/catalog_domain_exclusions.tsv")
+parser.add_argument("--skip-read-controls", action="store_true",
+                    help="Compute catalog threshold/nomination sensitivity only; do not mix historical read controls with a new catalog")
 args = parser.parse_args()
+if not args.skip_read_controls and not (args.out_host_handling and args.out_capping):
+    parser.error("Read controls require both output paths")
 presence = json.loads(Path(args.presence).read_text())
 PRESENT = ("validated", "high_confidence")
 
@@ -100,7 +104,7 @@ def compare(sample, kind, a, b, label_a, label_b, analysis):
             "jaccard": round(len(in_a & in_b) / len(union), 4) if union else 1.0}
 
 
-subsets = rows(args.subsets)
+subsets = [] if args.skip_read_controls else rows(args.subsets)
 host_rows, cap_rows = [], []
 for s in subsets:
     sample = s["sample_id"]
@@ -112,8 +116,9 @@ for s in subsets:
         else:
             capped = cohort[kind][sample] if s["stratum"] == "reference_free" else coverm(path("full_reads"))
             cap_rows.append(compare(sample, kind, capped, coverm(path("uncapped")), "capped", "uncapped", "capping"))
-write(args.out_host_handling, host_rows)
-write(args.out_capping, cap_rows)
+if not args.skip_read_controls:
+    write(args.out_host_handling, host_rows)
+    write(args.out_capping, cap_rows)
 
 # C4: presences whose catalog genome was nominated only by one study's libraries.
 catalog_of = {}

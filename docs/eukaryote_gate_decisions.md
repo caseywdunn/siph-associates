@@ -1,5 +1,12 @@
 # Eukaryotic parasite and prey decisions
 
+This is the retained decision record for the original 205-library analysis.
+The [current 213-library workflow](expanded_reporting.md) rebuilds the competitive
+SSU reference and classifications with the same presence policy, including the
+locked 37-pair threshold. It reuses sequence-identical, dated NCBI verification
+and produces separate control summaries. Original calibration counts below
+remain historical evidence for the rule, not counts from the expanded run.
+
 Approved by Casey Dunn on 2026-09-30. Rules are frozen in
 `config/eukaryote_gate.json`. The evidence is regenerated from accepted outputs:
 `workflow/rules/eukaryote_gate.smk` (target `eukaryote_evidence`) produces the

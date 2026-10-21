@@ -10,6 +10,7 @@ data/results/eukaryote_gate/read_evidence.tsv. The archives are unchanged.
 """
 from __future__ import annotations
 
+import argparse
 import csv
 import io
 import re
@@ -44,9 +45,23 @@ def alignment(fields):
     return lineage, aligned, 100 * matches / (matches + mismatches) if matches + mismatches else 0
 
 
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--source", type=Path, default=SOURCE)
+parser.add_argument("--output", type=Path, default=OUT)
+parser.add_argument("--baseline", type=Path)
+args = parser.parse_args()
+SOURCE, OUT = args.source, args.output
 rows = Counter()
+baseline_samples = set()
+if args.baseline:
+    with args.baseline.open() as handle:
+        for row in csv.DictReader(handle, delimiter="\t"):
+            baseline_samples.add(row["sample_id"])
+            rows[(row["sample_id"], row["lineage"], int(row["min_identity_band"]))] += int(row["read_pairs"])
 for archive in sorted(SOURCE.glob("*.tar.gz")):
     sample = archive.name.removesuffix(".tar.gz")
+    if sample in baseline_samples:
+        raise ValueError(f"Library already present in baseline: {sample}")
     with tarfile.open(archive) as outer:
         inner = next(m for m in outer.getmembers() if m.name.endswith(".phyloFlash.tar.gz"))
         with tarfile.open(fileobj=io.BytesIO(outer.extractfile(inner).read())) as nested:

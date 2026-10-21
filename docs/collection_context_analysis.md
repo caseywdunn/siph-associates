@@ -1,82 +1,81 @@
 # Collection depth, tissue and host context
 
-## Scope and scientific questions
+These descriptive summaries ask which associates occur across sampled depths
+and hosts, how DT-68 occurrence varies among Nanomia collection contexts, and
+whether Physalia regional patterns remain visible within shared tissue and host
+categories. They retain all **213 libraries**, including zero detections, and use
+current v3 grades and reviewed metadata. No additional significance tests or
+presence thresholds are introduced by these reporting scripts.
 
-The 2026-10-04 metadata enrichment permits three exploratory descriptions:
-which organisms were recovered across sampled depths and hosts; whether DT-68
-varies among Nanomia collection contexts; and whether the previously observed
-Physalia regional pattern is visible within a shared tissue and host category.
-These analyses retain all 205 libraries. They use accepted primary detections,
-introduce no new presence thresholds or significance tests, and do not rerun
-sequence analyses. Source base revision is
-`7cac98ca4c82f1e8c76c8bd714f6510b753416b1`; new code and outputs are identified
-by exact hashes and source snapshots, rather than the base revision alone.
+## Inputs and products
 
-## Inputs, outputs and interpretation
+[analyze_collection_context.py](../scripts/analyze_collection_context.py) joins
+[publication metadata](../figures/cohort/sample_metadata.tsv), accepted microbial,
+viral and eukaryotic evidence, physical-flowcell metadata and the focal bacterial
+lineage assignments. It checks exact library membership and one-to-one joins.
+The source metadata are exported independently of the frozen sequence inputs.
+Current source paths and downstream execution are documented in
+[expanded reporting](expanded_reporting.md).
 
-`scripts/analyze_collection_context.py` joins the publication sample metadata
-in `figures/cohort/sample_metadata.tsv` to accepted exports in the same directory:
-bacterial, viral and eukaryote detections,
-physical-flowcell metadata and the verified Mycoplasmatales species mapping.
-The publication metadata derive from the frozen manifest with the reviewed host-name
-overlay applied by `figures/build_cohort.py`; the original analysis manifest is preserved.
-It validates a one-to-one library join and keeps libraries with zero accepted
-detections. All outputs are in `figures/collection_context/`:
+Products in [figures/collection_context/](../figures/collection_context/) are:
 
-- `library_context.tsv`: all 205 libraries, depth provenance and intervals,
-  tissue, host, region, collection date, flowcell eligibility and detections.
-- `associate_detections.tsv`: accepted evidence with original grades and roles.
+- `library_context.tsv`: every library, collection evidence, tissue, host,
+  region, date, flowcell eligibility and detection indicators.
+- `associate_detections.tsv`: accepted evidence with its grades and roles.
 - `host_detection_summary.tsv`, `depth_summary.tsv`, `tissue_summary.tsv`:
-  specimen denominators and detections for each descriptive grouping.
-- `dt68_specimens.tsv`, `dt68_depth_summary.tsv`: all 22 Nanomia and two Resomia.
-- `tissue_region_incidence.tsv`: all Physalia versus recorded tentacles;
-  `tissue_region_host_incidence.tsv`: the same comparison within P. utriculus.
-  Single-flowcell subsets are additional descriptions, not new tests.
-- `summary.json`, `provenance.json`: selected counts, methods, input/output
-  hashes, actual command, runtime and producing source snapshot.
+  denominators and positive specimens for each descriptive grouping.
+- `dt68_specimens.tsv`, `dt68_depth_summary.tsv`: the 22 Nanomia and two Resomia
+  libraries, including negative specimens.
+- `tissue_region_incidence.tsv`, `tissue_region_host_incidence.tsv`: Physalia
+  versus recorded tentacles, and the corresponding P. utriculus comparison.
+  Single-flowcell subsets are additional descriptions.
+- `summary.json`, `provenance.json`: counts, source hashes, command, runtime and
+  a copy of the producing script.
 
-`figures/plot_collection_context.py` consumes these retained tables and produces
-three vector PDFs, PNG previews and `plot_manifest.json`. Genomes, viral targets
-and eukaryotic groups have different counting units. Positive-specimen
-fractions do not standardize detection sensitivity. Missing tissue stays unknown;
-depth intervals have no invented midpoint. All 150 assigned Physalia surface
-depths remain distinct from the one recorded Physalia depth of zero. NA19,
-WS5 and WS6 remain unresolved. Collection years for NA34–NA36 retain the
-existing values with their source disagreement documented in the metadata audit.
+[plot_collection_context.py](../figures/plot_collection_context.py) produces
+three PDF/PNG figure pairs and their plotting provenance from those tables.
 
-## Selected observations
+## Collection evidence and interpretation
 
-Among non-Physalia, 29 specimens were collected at 0–20 m, 22 at 217–1349 m,
-and three have unresolved depths. DT-68 occurs in all four N. septata with
-accepted deeper depths, none of the three shallow specimens, and all three
-with unresolved depths. The positive specimens came from California and
-the negative specimens from Washington. All ten have the same primary study
-and recorded siphosome tissue, but locality, collection history and sequencing
-batch differ. None of the four accepted deeper specimens is single-flowcell
-eligible. They meet mapped-presence criteria but not the high-confidence
-assembly criterion; WS7 retains subthreshold assembly evidence.
+All 213 libraries now have numeric depth values. The source basis remains
+explicit: 150 assigned Physalia surface depths, 40 source-record depths,
+14 interval midpoints, one collection-event mean, and eight reported point depths
+from Manko2026. One Physalia has a source-record depth of zero. The assigned
+surface convention does not become a specimen-specific measurement.
 
-The southwestern-versus-central Pacific contrast for MAGSP0005/0007/0010
-persists within Physalia tentacles (18/30, 10/30, 18/30 versus 0/15, 1/15,
-1/15) and P. utriculus tentacles (3/8, 4/8, 4/8 versus 0/15, 1/15, 1/15).
-The eastern Indian Ocean has no recorded tentacle samples. Western Indian
-Ocean tentacle counts remain high, but all five specimens share one flowcell.
-These results refine hypotheses about associations; they do not identify
-independent effects of depth, tissue or geography.
+NA19 is 296 m, WS5 is 246 m, and WS6 is the user-specified event mean,
+328.589662 m, retaining its 295.8355–350.06003 m bounds. These are resolved values;
+older reports that treated them as missing have been superseded. The full
+recorded interval determines a depth stratum, even when the point value is a
+midpoint or event mean. Among the 62 non-Physalia libraries, 16 are wholly within
+0–20 m, 13 have intervals crossing 20 m, and 33 are deeper than 20 m. Depths in
+the latter group range from 217 to 3,605.26001 m.
 
-## Reproduction and validation
+Tissue stays missing for the two unresolved Church OA specimens. The new
+Bargmannia libraries have recorded tissue; their retained NCBI collection-source
+conflicts are documented in [the study guide](bargmannia.md#collection-metadata-source-conflicts).
+The [metadata guide](sample_metadata.md) and cell-level provenance distinguish
+reported measurements, reviewed corrections and unresolved identifiers.
 
-See [the figure build guide](../figures/README.md) for the bounded Snakemake
-target, environment and exact preview/run commands. The scripts are also
-individually executable from the repository root. Analysis requires Python
-3.10+ standard library; the recorded run used Python 3.11.4. Plotting used
-Matplotlib 3.7.1 and NumPy 1.24.2. Each producer records its actual runtime.
+Host, locality, tissue, sequencing history and depth overlap. DT-68 comparisons
+among Nanomia collection groups do not isolate a depth effect. Positive-specimen
+fractions do not standardize detection sensitivity, and tissue comparisons do
+not measure bacterial concentration or anatomical location. Genomes, viral
+targets and eukaryotic reporting groups also have different counting units.
+Use the current generated tables for detection counts rather than earlier
+numerical summaries.
 
-Nine scientific tests in `tests/test_collection_context.py` cover consequential
-identifier joins, depth treatment, evidence selection and subset denominators.
-They passed, together with Ruff and a fresh temporary replay whose ten
-scientific outputs were byte-identical. Independent review recomputed detection
-counts and metadata joins from the original accepted inputs and verified every
-regional host-subset denominator and numerator. Existing primary sequence and
-statistical outputs remain unchanged. Figure checks and the manuscript copy
-manifest complete the handoff; the manuscript compiles from copied assets.
+## Execution and validation
+
+The [expanded reporting workflow](expanded_reporting.md) connects the tables,
+plots and broader overview figures to accepted current inputs. For a bounded
+export using already-complete upstream tables, use the
+[publication workflow guide](workflow/publication_figures/README.md).
+The analysis uses the Python standard library; plotting uses the existing
+Snakemake Python environment with Matplotlib and NumPy. Each output records
+its actual runtime environment.
+
+Tests in [test_collection_context.py](../tests/test_collection_context.py)
+cover identifier joins, point/interval/event-mean depth treatment, accepted
+nonredundant evidence and descriptive denominators. Input and output hashes
+identify each completed export. Manuscript copying is a later, separate step.

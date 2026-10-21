@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "expected_samples": 213,
+  "samples": "config/post_expansion_samples.tsv",
+  "analysis_root": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3",
+  "eukaryote_root": "data/results/post_expansion/2026-10-21/reporting/eukaryote_gate",
+  "catalog_manifest": "figures/catalog_qc/catalog_v3/bacterial_catalog.manifest.tsv",
+  "mag_catalog": "figures/catalog_qc/catalog_v3/mag_catalog.tsv",
+  "assembly_membership": "config/post_expansion_samples.tsv",
+  "assembly_summary": "data/results/post_expansion/2026-10-20/phase3_cohort/assembly_summary.tsv",
+  "aggregation_root": "data/results/post_expansion/2026-10-20/aggregation/cohort",
+  "screen_qc": "data/results/post_expansion/2026-10-21/reporting/screens/library_qc.tsv",
+  "nomination_evidence": "data/results/post_expansion/2026-10-21/reporting/screens/nomination_evidence",
+  "historical_read_controls": "data/results/phase6_analysis/v2/sensitivity",
+  "historical_ssu_root": "data/results/eukaryote_gate",
+  "gene_content_root": "data/results/mycoplasmatales_gene_content",
+  "phylogeny_root": "data/results/mycoplasmatales_phylogeny"
+}
