@@ -133,12 +133,16 @@ def depth_context(row: dict[str, str]) -> dict[str, str]:
                 "Interval midpoint requires recorded bounds and a point value"
             )
         status = "range_with_derived_midpoint"
+    elif row.get("collection_depth_basis") == "event_mean":
+        if lower is None or point is None:
+            raise ValueError("Event mean requires recorded bounds and a point value")
+        status = "range_with_derived_mean"
     elif lower is not None:
         status = "recorded_point_and_range" if point is not None else "recorded_range"
     else:
         status = "recorded_point"
     # The full interval determines the stratum, including when the publication
-    # table also supplies a derived midpoint.
+    # table also supplies a derived midpoint or collection-event mean.
     lo, hi = (lower, upper) if lower is not None else (point, point)
     if row["species_current"].startswith("Physalia "):
         if lo != 0 or hi != 0:

@@ -37,3 +37,18 @@ both bounds and the original depth text. Recorded point depths, including zero,
 take precedence. NA19, WS5 and WS6 remain unresolved. This convention is applied
 only in the [publication metadata](sample_metadata.md); the frozen manifest and
 previously generated analyses are unchanged.
+
+## Author-confirmed depths and event mean, 2026-10-21
+
+Casey Dunn resolved NA19 to 296 m and WS5 (D325-SS12) to 246 m. For WS6
+(D326-SS1), he supplied six animal collection depths and instructed use of
+their arithmetic mean: 1971.53797 / 6 = 328.589661666... m, stored as
+328.589662 m. The basis is `event_mean`, and bounds 295.8355–350.06003 m
+retain the observed event range. The six source records are preserved in
+[2026-10-21_ws6_collection_depths.tsv](../data/metadata/manual-review/2026-10-21_ws6_collection_depths.tsv).
+This value is a representative event mean, not an interval midpoint or a measured
+depth for the individual sequenced specimen. The collection-context reader
+distinguishes it as `range_with_derived_mean` and uses the full range to assign
+depth strata. All 205 publication-table libraries now have accepted numeric
+depths. Existing analyses and source snapshots retain their previous provenance;
+the metadata export alone does not regenerate those results.

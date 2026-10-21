@@ -10,26 +10,25 @@
     "voucher_id": 13,
     "biosample": 2,
     "tissue": 2,
-    "sample_id": 9,
-    "depth_m": 3
+    "sample_id": 9
   },
   "depth_basis": {
     "curator_assigned_surface": 150,
-    "source_record": 38,
-    "": 3,
-    "interval_midpoint": 14
+    "source_record": 40,
+    "interval_midpoint": 14,
+    "event_mean": 1
   },
   "inputs_sha256": {
     "manifest.csv": "926bcbf2c6dffc18d9da0faa1877bd67349d057599aead88ba4472c40279b72d",
     "config/samples.tsv": "727e749ac2e2218989de237401bfc89abcf4fd8f63b7ec2d152c4dc2e2b0be9f",
     "config/publication_host_names.tsv": "5b595dde7a71c2aba438a581f10051663d239bb069359d3077bc09a4fbfe0f8c",
     "data/metadata/sample_metadata_updates.tsv": "7c5ea70abf78e6b0c6f2cb26cf9ce0638cdfba14dbd7a5f2dd56d783aa73d1e3",
-    "data/metadata/publication_metadata_updates.tsv": "86e62068a969ccb29b09170be70a4fc9f188810c8c9b1dd0204dabb28e8b30ed",
+    "data/metadata/publication_metadata_updates.tsv": "1de5b0d6507999d3fd66d08358438bfc3e86e4f1ec9cae49ed406a44258bdb5d",
     "scripts/export_sample_metadata.py": "3cba0786a13abd445a12ff8f326bdf64f5a880901eddad8533e15f0f88e1216e"
   },
   "outputs_sha256": {
-    "sample_metadata.tsv": "16237dbdf07a07358cdfcdaa19092498e4f98e574dd83349a4929bdd32b7f5f3",
-    "sample_metadata_provenance.tsv": "52b9de5916c422cda6886e13c44c510af1b301d3e184843034d2e69a2a65520b",
-    "sample_metadata_missing.tsv": "0d6c7d6141f8731c25f44d8db4b3a75aa524734492bf9bd6c0426d7d36925b52"
+    "sample_metadata.tsv": "91adbe56fdcdcf6b80b72c8cad17fc6a52db3ee8acd0f19a856560e0dbb488e0",
+    "sample_metadata_provenance.tsv": "0e2c14397f9e813fb4eba53f87257b4369511a2220ecf5271e6c5d82bec2e744",
+    "sample_metadata_missing.tsv": "3f7ae5aebb7c067e788774aacbd36aa3a78de8a221120edcd5744556b3d8219f"
   }
 }

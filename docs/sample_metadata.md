@@ -44,15 +44,24 @@ depth text remain available. A midpoint is a derived value, not a measured point
 depth. A single bound is insufficient to calculate a midpoint. The earlier
 [Physalia surface convention](metadata_depth_conventions.md) remains in force.
 
+When a collection event includes animals sampled at multiple recorded depths,
+an explicitly authorized representative mean is labeled `event_mean`.
+Its minimum and maximum retain the observed event range. WS6 uses this basis;
+its six source depths are retained in a
+[dated table](../data/metadata/manual-review/2026-10-21_ws6_collection_depths.tsv).
+This arithmetic mean is distinct from the midpoint of an interval and from an
+individual specimen's measured depth.
+
 `tissue` contains the source description. `tissue_status=recorded` means a value
 is present; `not_recorded` means it still needs information. A study's general
 extraction method is not substituted for a missing specimen-level tissue record.
 
 `notes` contains human-facing explanations of missing identifiers or tissues,
-derived depths, and known source disagreements. For example, NA19's depth is
-blank because two sources report 296 and 297 m. `analysis_notes` retains the
-older computational annotations, such as population-cluster assignments, under
-a separate name. These are not evidence about missing specimen metadata.
+derived depths, and known source disagreements. For example, NA19's note records
+the decision to use 296 m despite another source reporting 297 m.
+`analysis_notes` retains the older computational annotations, such as
+population-cluster assignments, under a separate name. These are not evidence
+about missing specimen metadata.
 
 ## Review and update
 
@@ -67,6 +76,32 @@ labels. All 70 original Church worksheet entries now have decisions. The
 separates 18 still-unresolved Church entries from eight never-assigned labels
 and three retained dates with limited support. The counts in the table below
 describe the original questions, not the current open workload.
+
+On October 21, Casey Dunn resolved NA19 (V3698-D2) to **296 m**, accepting the
+Ahuja2026 Table S8 point depth and treating the 1 m difference from the 2024
+supplement/BioSample as immaterial. The decision is recorded in the
+[Ahuja2026 worksheet](../data/metadata/manual-review/2026-10-17_ahuja2026_review.tsv)
+and applied through the publication overlay. Casey subsequently supplied WS5's
+D325-SS12 depth as **246 m** and directed use of the mean of six D326-SS1 depths
+for WS6: **328.589662 m**, with observed bounds **295.8355–350.06003 m**.
+The source sum is 1971.53797 m across six records; the stored mean is rounded to
+six decimal places. The supplied log's `Nanomia bijuga` label is preserved in
+the source table; the current host identification remains `Nanomia septata`.
+The previous 2854.16 and 2563.33 values are superseded and retained in the
+review history. All three Ahuja2026 depth questions are resolved. Earlier dated
+question drafts and audit snapshots retain the original three-depth checklist.
+
+The October 21 review also resolves seven entries in the
+[Ahuja2024 worksheet](../data/metadata/manual-review/2026-10-17_ahuja2024_review.tsv):
+CWD11 retains coordinates 40.31, -68.13; CWD131 retains date 2003-03-15;
+CWD144's date is corrected to 2003-01-13; CWD16 retains depth 10 m; and NA8
+retains depth 1299 m. CWD131's location is Gulf of California, Mexico, with
+country Mexico; CWD146 retains date 2003-03-13. Notes retain the source
+disagreements and record Casey Dunn's decisions. CWD16's source intervals
+remain as provenance, with the confirmed point depth taking precedence.
+The requested tissue, depth, date and location fields are now populated with
+their flagged source disagreements resolved across the two Ahuja studies.
+Separate voucher and collection-label questions remain open.
 
 Use the study-specific worksheets below to supply corrections and decisions.
 Each has an accompanying plain-text question draft that can be forwarded with
@@ -103,13 +138,13 @@ columns and retain the other columns as the record of what was reviewed:
 | `evidence` | A record URL, notebook page, spreadsheet row, or named person's confirmation with date. For a group confirmation, specify which specimens it covers. |
 | `review_notes` | A short explanation, including why a value remains unknown, why one source is preferred, or whether two event labels refer to the same event. |
 
-Across the three worksheets, 64 entries concern missing values. Prioritize
-tissue for the 16 WAM and two OA specimens, BioSample accessions for the two OA
-specimens, and depth for NA19, WS5, and WS6. The other gaps concern voucher,
-collection-event, and tissue/sample identifiers. The other 33 entries compare
-existing study metadata with museum records. A point outside a museum locality
-polygon is a discrepancy to
-review, not proof that the study coordinates are wrong. An alternate event label
+Across the original three worksheets, 64 entries concern missing values.
+After the reviews above, unresolved tissue and BioSample values remain for the
+two OA specimens; no numeric depths are missing in the 205-library table.
+The other gaps concern voucher, collection-event, and tissue/sample identifiers.
+The other 33 entries compare existing study metadata with museum records.
+A point outside a museum locality polygon is a discrepancy to review, not proof
+that the study coordinates are wrong. An alternate event label
 can be a valid synonym rather than an error.
 
 Keep missing values blank rather than inserting guessed identifiers or the word
