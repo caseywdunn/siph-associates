@@ -1,22 +1,5 @@
 # Organisms associated with siphonophores
 
-Current expansion: Bargmannia processing, both Halistemma host-depletion
-mappings, and all remaining [assembly attempts](docs/assembly_completion.md)
-are complete, with a 213-library source inventory. The
-[MAG and viral QC review](docs/catalog_qc.md#curated-mapping-targets) records
-fragment curation, updated quality estimates and the revised catalogs. See the
-[catalog v3 record](figures/catalog_qc/catalog_v3/) for membership, identifiers
-and checksums. **The 213-library microbial and viral remapping round passed validation**
-on 2026-10-21. The [run guide](docs/cohort_remapping.md) records its inputs, checks
-and outputs. [Downstream reporting](docs/expanded_reporting.md) is also complete:
-evidence grades, statistics, figures and supporting tables are current. The
-[comparison and manuscript handoff](figures/expanded_review/README.md) record
-changed results and the background-control concern in one Bargmannia specimen.
-
-The [completed fish 12S screen](docs/fish_12s_results.md) covers all 213 libraries, including the eight Bargmannia libraries.
-The [Bargmannia expansion](docs/bargmannia.md) adds eight newly public libraries
-from Mańko et al. (2026), including B. marlena and B. pyrosa.
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23441460.svg)](https://doi.org/10.5281/zenodo.23441460)
 
 This repository contains the analyses accompanying:
@@ -26,7 +9,7 @@ This repository contains the analyses accompanying:
 *Manuscript citation and public link to be added.*
 
 We examine DNA from bacteria, viruses, prey and parasites captured
-alongside siphonophore DNA during genome sequencing. The expanded study uses 213 specimens:
+alongside siphonophore DNA during genome sequencing. The study uses 213 specimens:
 151 *Physalia*, 22 *Nanomia* and 40 other siphonophores. Start with the tables
 below to connect the paper to its methods and supporting data;
 understanding the analyses does not require running the code.
@@ -35,27 +18,24 @@ understanding the analyses does not require running the code.
 
 Each specimen is represented by one sequencing library. Counts below are the
 unique libraries assigned to each primary study in this analysis; samples reused
-across publications are counted once. The original [library provenance table](data/metadata/library_provenance.tsv)
-retains relationships among the first three studies; the
+across publications are counted once. The [library provenance table](data/metadata/library_provenance.tsv)
+records shared samples among the Ahuja and Church studies; the
 [Manko2026 specimen table](data/metadata/manko2026/sample_metadata.tsv) records
-the fourth-study additions.
+specimens from Mańko et al. (2026).
 
 | Study | Samples in this analysis | Data | Role |
 | --- | ---: | --- | --- |
 | Ahuja et al. 2024, *Genome Biology and Evolution* ([paper](https://doi.org/10.1093/gbe/evae048)) | 33 | Genome skimming across siphonophore species | Broad sampling across the siphonophore phylogeny |
 | Church et al. 2025, *Current Biology* ([paper](https://doi.org/10.1016/j.cub.2025.05.066)) | 151 | *Physalia* population samples and a chromosome-scale *P. physalis* genome | Intensive *Physalia* sampling and a host reference |
 | Ahuja et al. 2026, *PLOS One* ([paper](https://doi.org/10.1371/journal.pone.0351247)) | 21 | *Nanomia* samples and a chromosome-scale *N. septata* genome | Intensive *Nanomia* sampling and a host reference |
-| Mańko et al. 2026, *Zoological Journal of the Linnean Society* ([paper](https://doi.org/10.1093/zoolinnean/zlag150)) | 8 | Newly public Bargmannia genome-skimming libraries from Table S2 | Additional host diversity with the same screening, assembly and mapping methods |
+| Mańko et al. 2026, *Zoological Journal of the Linnean Society* ([paper](https://doi.org/10.1093/zoolinnean/zlag150)) | 8 | *Bargmannia* genome-skimming libraries from Table S2 | Sampling across *Bargmannia* species |
 | **Total** | **213** | | |
 
-One *Nanomia* library comes from Ahuja et al. 2024, giving 22 across studies.
 The [sample metadata](figures/cohort/sample_metadata.tsv) provide host names,
 collection locations, tissues, depths and sequencing accessions.
 The [host-depletion table](figures/host_depletion/mapping_stats.md)
 ([TSV](figures/host_depletion/mapping_stats.tsv)) reports reads ingested,
-percent removed, and reads remaining for every library with a host reference,
-including the Halistemma expansion. Its [rebuild guide](docs/host_depletion_report.md)
-uses the completed mapping summaries.
+percent removed, and reads remaining for every library with a host reference.
 
 ## Finding analyses from the paper
 
@@ -87,8 +67,9 @@ Read screening and assembly provide parallel evidence: every library is screened
 and compared with shared microbial catalogs, even if it produces no assembled
 microbial genome. Both host-depleted and other libraries contribute assemblies.
 Host-read removal uses the *Physalia physalis* reference for all 151 *Physalia*
-libraries and the *N. septata* reference for all ten *N. septata* libraries;
-two *Halistemma rubrum* libraries use the new reference; the other 50 use no host reference.
+libraries, the *N. septata* reference for all ten *N. septata* libraries,
+and the *Halistemma rubrum* reference for two *H. rubrum* libraries.
+The other 50 libraries use no host reference.
 
 | Analysis step | What it does | Methods and rule graphs |
 | --- | --- | --- |
@@ -112,22 +93,22 @@ analyses are documented separately, so the graphs do not represent every handoff
 
 The separate [fish 12S screen](docs/prey_marker_screen.md) uses all retained
 host-depleted reads from 151 *Physalia* and ten *N. septata* libraries.
-The [full-read expansion](docs/prey_marker_screen.md#full-read-fish-expansion)
-covers 44 original libraries and eight Bargmannia libraries with up to 200 million
-raw pairs each. The [completed 213-library results](docs/fish_12s_results.md)
-are staged for manuscript integration. Crustacean COI work is paused
+The [full-read screen](docs/prey_marker_screen.md#full-read-fish-expansion)
+covers the other 52 libraries with up to 200 million raw pairs each.
+The [fish results](docs/fish_12s_results.md) cover all 213 libraries.
+Crustacean COI work is paused
 and preserved on branch `crustacean-coi-screen`.
 
 The [sample metadata](figures/cohort/sample_metadata.tsv) and
 [detection tables](figures/cohort/) are starting points for exploring the results.
-The [expanded selection](config/post_expansion_samples.tsv), original
+The [cohort selection](config/post_expansion_samples.tsv),
 [input manifest](manifest.csv), [read inventory](data/metadata/raw_files.tsv)
-and [source-study records](data/sources/) document the original inputs.
+and [source-study records](data/sources/) document the sequencing inputs.
 Publication metadata retain updated host names alongside the names used in the
 source studies. [Depth conventions](docs/metadata_depth_conventions.md) distinguish
 recorded depths from assigned surface values.
 
-All 213 libraries enter the expanded descriptive summaries. Tests accounting for
+All 213 libraries enter the descriptive summaries. Tests accounting for
 sequencing batch use libraries sequenced on one physical flowcell; the generated
 [flowcell table](figures/cohort/library_flowcells.tsv) records eligibility. The
 Physalia geographic tests retain their 122 eligible libraries. Sampling, tissue, host reference availability,
