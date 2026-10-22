@@ -1,0 +1,5 @@
+contrast	group_column	all_libraries	single_flowcell_libraries	distinct_label_allocations	nominal_5pct_test_possible
+utriculus_pacific_regions	ocean_region	44	42	181440	True
+utriculus_regions_with_indian	ocean_region	48	46	907200	True
+sw_pacific_host_species	species_current	47	33	12096	True
+utriculus_central_tissue	tissue_group	20	19	12	False

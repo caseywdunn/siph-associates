@@ -1,0 +1,5 @@
+contrast	grade_column	omit_cutibacterium	eligible_libraries	included_libraries	excluded_empty_profiles	groups	physical_flowcells	distinct_label_allocations	group_df	residual_df	r_squared	pseudo_f	permutations	p_value	status	dispersion_f	dispersion_p	q_value
+utriculus_pacific_regions	grade	FALSE	42	32	10	3	12	3360	2	17	0.0677319554600174	1.18865405159683	9999	0.2016	tested	1.39496390360722	0.0673	0.2016
+sw_pacific_host_species	grade	FALSE	33	30	3	3	8	9408	2	19	0.13078774982222	4.2738308747281	9999	1e-04	tested	0.00217626147425781	0.9995	2e-04
+utriculus_pacific_regions	grade	TRUE	42	32	10	3	12	3360	2	17	0.0706838577384363	1.25844268667178	9999	0.1539	tested	1.40653085493478	0.0561	0.1539
+sw_pacific_host_species	grade	TRUE	33	30	3	3	8	9408	2	19	0.132558474143973	4.262151472448	9999	1e-04	tested	0.00667471779685088	0.9993	2e-04

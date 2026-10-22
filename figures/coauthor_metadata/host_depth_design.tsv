@@ -1,0 +1,43 @@
+species_current	libraries	single_flowcell_libraries	distinct_point_or_derived_depths	localities_spanning_depth_groups	depth_min_m	depth_max_m	status
+Abylopsis tetragona	1	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Agalma clausi	1	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Agalma elegans	2	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Agalma okenii	1	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Apolemia rubriversa	1	0	1	0	556.0	556.0	insufficient_within_host_single_flowcell_replication
+Apolemia sp. 3 CWD-2005	1	0	1	0	387.0	387.0	insufficient_within_host_single_flowcell_replication
+Bargmannia amoena	1	1	1	0	395.288544	395.288544	insufficient_within_host_single_flowcell_replication
+Bargmannia elongata	3	3	3	0	645.0	913.0	insufficient_within_host_single_flowcell_replication
+Bargmannia lata	1	0	1	0	1299.0	1299.0	insufficient_within_host_single_flowcell_replication
+Bargmannia marlena	1	1	1	0	1102.727539	1102.727539	insufficient_within_host_single_flowcell_replication
+Bargmannia profunda	1	1	1	0	3605.26001	3605.26001	insufficient_within_host_single_flowcell_replication
+Bargmannia pyrosa	2	2	2	0	984.811951	2270.542725	insufficient_within_host_single_flowcell_replication
+Bargmannia stenotes	1	1	1	0	3129.889404	3129.889404	insufficient_within_host_single_flowcell_replication
+Chelophyes appendiculata	1	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Chuniphyes multidentata	1	0	1	0	964.0	964.0	insufficient_within_host_single_flowcell_replication
+Cordagalma	1	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Craseoa lathetica	1	0	1	0	467.0	467.0	insufficient_within_host_single_flowcell_replication
+Diphyes dispar	1	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Erenna sirena	1	0	1	0	910.0	910.0	insufficient_within_host_single_flowcell_replication
+Forskalia	1	0	1	0	349.0	349.0	insufficient_within_host_single_flowcell_replication
+Frillagalma vityazi	1	0	1	0	420.0	420.0	insufficient_within_host_single_flowcell_replication
+Gymnopraia lapislazula	1	0	1	0	420.0	420.0	insufficient_within_host_single_flowcell_replication
+Halistemma rubrum	2	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Hippopodius hippopus	1	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Lilyopsis fluoracantha	1	0	1	0	417.0	417.0	insufficient_within_host_single_flowcell_replication
+Nanomia bijuga	6	6	1	0	10.0	10.0	no_collection_depth_variation
+Nanomia septata	10	3	8	0	10.0	662.29	shallow_deep_contrast_confounded_with_locality
+Nanomia sp.	6	3	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Physalia megalista	26	20	1	0	0.0	0.0	no_collection_depth_variation
+Physalia mikazuki	5	4	1	0	0.0	0.0	no_collection_depth_variation
+Physalia minuta	19	10	1	0	0.0	0.0	no_collection_depth_variation
+Physalia physalis	37	35	1	0	0.0	0.0	no_collection_depth_variation
+Physalia utriculus	64	53	1	0	0.0	0.0	no_collection_depth_variation
+Physonectae	1	0	1	0	600.0	600.0	insufficient_within_host_single_flowcell_replication
+Praya	1	0	1	0	249.0	249.0	insufficient_within_host_single_flowcell_replication
+Praya dubia	1	1	1	0	298.0	298.0	insufficient_within_host_single_flowcell_replication
+Resomia ornicephala	2	0	2	0	235.0	286.25	insufficient_within_host_single_flowcell_replication
+Rhizophysa eysenhardtii	1	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Rhizophysa filiformis	1	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Rosacea flaccida	1	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Stephalia dilata	1	0	1	0	1349.0	1349.0	insufficient_within_host_single_flowcell_replication
+Stephanomia amphytridis	1	0	1	0	800.0	800.0	insufficient_within_host_single_flowcell_replication

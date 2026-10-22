@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "expected_libraries": 213,
+  "metadata": "figures/cohort/sample_metadata.tsv",
+  "bacterial_detections": "figures/cohort/bacterial_detections.tsv",
+  "human_summary": "data/results/human_screen/2026-10-22-v2/cohort_summary.tsv",
+  "target_id": "BAC00019",
+  "target_name": "Cutibacterium acnes",
+  "previously_flagged_sample": "Manko2026__T676-SS3",
+  "output_dir": "figures/human_cutibacterium"
+}

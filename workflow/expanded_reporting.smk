@@ -195,7 +195,7 @@ rule expanded_supporting_tables:
             'statistics.tex', 'statistics_provenance.json', 'threshold_rows.tex',
             'threshold_table.tex']),
         expand('figures/dalila_revision/{name}', name=['assembly_routes.tsv',
-            'clade_a_regions.tsv', 'host_species_summary.tsv', 'recorded_life_stages.tsv',
+            'clade_a_regions.tsv', 'host_species_summary.tsv',
             'summary.json', 'values.tex', 'provenance.json']),
         expand('figures/mdb_revision/{name}', name=['amino_acid_modules.tsv',
             'cooccurrence.tsv', 'cooccurrence_results.tex', 'cooccurrence_strata.tsv',

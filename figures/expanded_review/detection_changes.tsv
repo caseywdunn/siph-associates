@@ -27,6 +27,13 @@ viral	Ahuja2024__CWD6	VOTU00256	VOTU00256	validated		lost_detection
 viral	Ahuja2024__NA8	VOTU00397			validated	gained_detection
 viral	Ahuja2024__NA8	VOTU00403			validated	gained_detection
 viral	Ahuja2024__NA8	VOTU00409			validated	gained_detection
+viral	Ahuja2026__NA19	VOTU00242	VOTU00242	high_confidence		lost_detection
+viral	Ahuja2026__WS10	VOTU00242	VOTU00242	high_confidence		lost_detection
+viral	Ahuja2026__WS5	VOTU00242	VOTU00242	validated		lost_detection
+viral	Ahuja2026__WS6	VOTU00242	VOTU00242	high_confidence		lost_detection
+viral	Ahuja2026__WS7	VOTU00242	VOTU00242	validated		lost_detection
+viral	Ahuja2026__WS8	VOTU00242	VOTU00242	validated		lost_detection
+viral	Ahuja2026__WS9	VOTU00242	VOTU00242	validated		lost_detection
 viral	Church2025__TMAG-K5632	VOTU00077			high_confidence	gained_detection
 viral	Church2025__TMAG-K5633	VOTU00167			validated	gained_detection
 viral	Church2025__YPM-IZ-104461	VOTU00034			validated	gained_detection

@@ -1,0 +1,10 @@
+{
+  "work_root": "data/results/coauthor_review/2026-10-22",
+  "baseline_root": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3",
+  "baseline_validation": "data/results/post_expansion/2026-10-21/reporting/stages/phase6_analysis_v3.done",
+  "catalog_source": "figures/catalog_qc/catalog_v3",
+  "catalog_output": "figures/coauthor_review/catalog",
+  "classifications": "config/viral_catalog_classifications.tsv",
+  "samples": "config/post_expansion_samples.tsv",
+  "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python"
+}

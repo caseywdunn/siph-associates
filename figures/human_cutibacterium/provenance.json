@@ -1,0 +1,44 @@
+{
+  "analysis_id": "human-compatible-prefix-cutibacterium-comparison",
+  "run_id": "20261022T183407Z",
+  "started_at_utc": "2026-10-22T18:34:07.761239+00:00",
+  "completed_at_utc": "2026-10-22T18:34:07.777327+00:00",
+  "status": "complete",
+  "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python3.11 scripts/summarize_human_cutibacterium.py --config config/human_cutibacterium.json",
+  "python_version": "3.11.0",
+  "slurm_job_id": "13489566",
+  "base_git_revision": "0ad888a33ce970c0e7d87c02b421d4e69373e22a",
+  "inputs_sha256": {
+    "figures/cohort/sample_metadata.tsv": "8a1eeadd5f98ec82b20b67e0229820e8f4ee7e955e3345832774d2510dad0817",
+    "figures/cohort/bacterial_detections.tsv": "ae0b6cf16f24c5e6766ac49dec6117c514d86b5e72261386c8d2d8505c9da720",
+    "data/results/human_screen/2026-10-22-v2/cohort_summary.tsv": "8fa0e2f982008ba3b227340c5bd9ef9751200d15cd2c110fa5c845c78aa1dd54"
+  },
+  "source_sha256": {
+    "config/human_cutibacterium.json": "0fd50515ee99a3697ca72723954f52c4eac56a7d84244b4dd0b45c9134adbd8d",
+    "scripts/summarize_human_cutibacterium.py": "80820b5b09ff7b48aeff04125ddab7b7c68de45ce8b2a9da2f409fba3fd027c2",
+    "workflow/human_cutibacterium.smk": "7cd0b2f119c93cbb68afe2b71fdcb71db254b5383fa7b85d0513ceb026fb7f7d"
+  },
+  "source_snapshot": "figures/human_cutibacterium/provenance/source",
+  "outputs_sha256": {
+    "figures/human_cutibacterium/sample_comparison.tsv": "6303a730febc11da1a40d8d1d2031b5c3a0ea4f72f7be84cfc51bd1098ea042b",
+    "figures/human_cutibacterium/cutibacterium_specimens.tsv": "9050b4b25097c8f725dde64b9853d2b110cd7bcc7d8afb46d9e7f68e986b6b06",
+    "figures/human_cutibacterium/group_summary.tsv": "3e4b4c41dcef03a6f46b1c7cf3f0fd8cf44e729b8b75ec8b3ff24b39bb23c989",
+    "figures/human_cutibacterium/summary.json": "e3b1b2e3c9cf41aecd4ee64518b332ef5389bb9154ed2e40b53fb36b15b91664",
+    "figures/human_cutibacterium/values.tex": "1a6dbf84bf18f7cddf5282f6d36b419937cabe8bb97e8957fda499eadaba6730"
+  },
+  "checks": {
+    "unique_full_cohort_join": 213,
+    "human_count_denominators_reconcile": true
+  },
+  "parameters": {
+    "schema_version": 1,
+    "expected_libraries": 213,
+    "metadata": "figures/cohort/sample_metadata.tsv",
+    "bacterial_detections": "figures/cohort/bacterial_detections.tsv",
+    "human_summary": "data/results/human_screen/2026-10-22-v2/cohort_summary.tsv",
+    "target_id": "BAC00019",
+    "target_name": "Cutibacterium acnes",
+    "previously_flagged_sample": "Manko2026__T676-SS3",
+    "output_dir": "figures/human_cutibacterium"
+  }
+}

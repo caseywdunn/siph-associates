@@ -254,5 +254,47 @@
     "targets": [
       "expanded_publication"
     ]
+  },
+  "coauthor_metadata": {
+    "snakefile": "workflow/coauthor_metadata.smk",
+    "config": "config/coauthor_metadata_analysis.json",
+    "targets": [
+      "all"
+    ]
+  },
+  "coauthor_reporting": {
+    "snakefile": "workflow/coauthor_reporting.smk",
+    "config": "config/coauthor_reporting.json",
+    "targets": [
+      "coauthor_publication"
+    ]
+  },
+  "human_screen": {
+    "snakefile": "workflow/human_screen.smk",
+    "config": "config/human_screen.json",
+    "targets": [
+      "all"
+    ]
+  },
+  "human_confirmation": {
+    "snakefile": "workflow/human_confirmation.smk",
+    "config": "config/human_screen.json",
+    "targets": [
+      "all"
+    ]
+  },
+  "human_cutibacterium": {
+    "snakefile": "workflow/human_cutibacterium.smk",
+    "config": "config/human_cutibacterium.json",
+    "targets": [
+      "all"
+    ]
+  },
+  "cutibacterium_sensitivity": {
+    "snakefile": "workflow/cutibacterium_sensitivity.smk",
+    "config": "config/cutibacterium_sensitivity.json",
+    "targets": [
+      "all"
+    ]
   }
 }

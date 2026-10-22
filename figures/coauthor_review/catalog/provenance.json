@@ -1,0 +1,179 @@
+{
+  "summary": {
+    "catalog_counts": {
+      "associate": 404,
+      "endogenous_candidate": 160
+    },
+    "reclassified_targets": [
+      "VOTU00144",
+      "VOTU00165",
+      "VOTU00242"
+    ],
+    "reclassified_accepted_detections": 7,
+    "reclassified_assembly_supported": 3,
+    "target_ids_and_sequence_checksums_unchanged": true,
+    "mapping_inputs_and_grades_unchanged": true,
+    "physalia_models_reused": "Physalia metadata and bacterial evidence unchanged; original validated run retained.",
+    "integration_status": "Possible endogenous candidates; genomic integration is not demonstrated."
+  },
+  "command": [
+    "scripts/prepare_coauthor_reporting.py",
+    "--config",
+    "config/coauthor_reporting.json"
+  ],
+  "python": "3.11.0 | packaged by conda-forge | (main, Jan 14 2023, 12:27:40) [GCC 11.3.0]",
+  "source_revision": "0ad888a33ce970c0e7d87c02b421d4e69373e22a",
+  "code_sha256": "d5cb3a47d49dff96be4b165f91cf8cab3acd216fb712af5462e63d9f7d877574",
+  "inputs_sha256": {
+    "config/coauthor_reporting.json": "3f467a4c4427d935f581c65a97bf745af4e085dbdd7e573ea08ba76f406d058e",
+    "config/viral_catalog_classifications.tsv": "2797079c7c660fa2402ef5e5d3125af945c0ce93c9e1ce56c33206b884c14380",
+    "data/results/post_expansion/2026-10-21/reporting/stages/phase6_analysis_v3.done": "3ccd535e59c0edfbea242371d9180ef84983d5a1409ee77c2317e04547c455f3",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/library_flowcells.tsv": "3335b59b83e93d7b1b72cf6e4b47973ecf610d3478dca58dc5ec61b2f7298500",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/primary/library_flowcells.tsv": "6a98d7257e6f93b4799f5aca841e45cde639fd2b9c30d85f1611bc755400e49a",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/grades/bacterial_grades.tsv": "a30a016ddb520d21ae54b5429ec995dc468bae2ea0909c161f575e8d6652f36a",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/physalia_design.tsv": "3e7df8e94d3a549a250b236458d2820c8a1ca4b1ab5779f9d0a3b73245b38e96",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/physalia_models.tsv": "3236fb851ad2cbd96b90934101f998b3494d34fa53e525eb8f6ae9d882f6dad3",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/physalia_permanova.tsv": "f14be6719f6a9109cb3f9a6b02f764856835666f39a413577062535448ccf417",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/physalia_region_permutation.tsv": "4e2ed7643c280c2bebbbd3472097cf03315161bd70b793b35eccb555b1e65b87",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_design.tsv": "c10836e8a90d4f9d64d4e40feebaff16b89f9e02455c06205c1265e553425c2a",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_models.tsv": "1fcc26241b1488203362cb98684a2eb1613fb2efd0961a6f8690655ff55ffe95",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_permanova.tsv": "a765a835a1ff2fc15618928193cb40e97dc41aac8be616fdf225332d600030c4",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_region_permutation.tsv": "3519d8f18bc35fc9b62d355233cdf99520efbc0beee06cef92674ec0d88fdb36",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_design.tsv": "1538aa10261cf0d4269df07339d4bb8ec73049e751b428d00525ca7559b55967",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_models.tsv": "bfb481ea2d7c53c4c2e143a1ebdc5ee38007ff6dbe5dcb9ab317fa579170ab1f",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_permanova.tsv": "04961b93713c62a76d9d4e2772206063ea385ae2facc2dda9217d3ae392f32cc",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_region_permutation.tsv": "438ad051740169a9079f48285c7e3b690efb8011ca7ac3157c3073a9e3ce29bd",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/threshold_sensitivity.tsv": "010b6a6f985db98d209359d52cc5ff9ebbf0b8ca8211d254316d40a757fe185c",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/leave_one_study_out.tsv": "e63e002dcdc3352ba78983d007c0ddbafa5c1150e087eafb0f92838ed596bac6",
+    "figures/catalog_qc/catalog_v3/bacterial_catalog.manifest.tsv": "c226ebbf990d4a0de909b9b36535e94f9bd49a5b92d1ec42736a73faae0e34f3",
+    "figures/catalog_qc/catalog_v3/mag_catalog.tsv": "fc6f98ba428b2b25e83034f9ffc7c2529cdc7383cd2c2b7ae723afae2d3199e7",
+    "figures/catalog_qc/catalog_v3/host_links.tsv": "6705371af7fa5bd9b5a06d6d2c945977e987574718e5e890fa838310256f06e5",
+    "figures/catalog_qc/catalog_v3/catalog_id_crosswalk.tsv": "a76df910ae29fbd7bcb9738e148ee81d8e62a30c5c9631b23ff1b05481a682a0",
+    "figures/catalog_qc/catalog_v3/viral_associate.manifest.tsv": "d5efde3d4a1a4c3b337acfce30308ea9f0d9c8c07f7beca4ed86295a4c205502",
+    "figures/catalog_qc/catalog_v3/viral_endogenous_candidate.manifest.tsv": "15162819c8c47ff2a4cb6d9b853957f25588a679a18b600c8bb6c922b5c2e317",
+    "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/grades/viral_grades.tsv": "3c2be9a7653866c7ec25861f4dab6e0b5b1eda153b1f4bb5a977e4ecab110351"
+  },
+  "outputs_sha256": {
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/grades/bacterial_grades.tsv": "a30a016ddb520d21ae54b5429ec995dc468bae2ea0909c161f575e8d6652f36a",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/primary/physalia_design.tsv": "3e7df8e94d3a549a250b236458d2820c8a1ca4b1ab5779f9d0a3b73245b38e96",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/primary/physalia_models.tsv": "3236fb851ad2cbd96b90934101f998b3494d34fa53e525eb8f6ae9d882f6dad3",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/primary/physalia_permanova.tsv": "f14be6719f6a9109cb3f9a6b02f764856835666f39a413577062535448ccf417",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/primary/physalia_region_permutation.tsv": "4e2ed7643c280c2bebbbd3472097cf03315161bd70b793b35eccb555b1e65b87",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_design.tsv": "c10836e8a90d4f9d64d4e40feebaff16b89f9e02455c06205c1265e553425c2a",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_models.tsv": "1fcc26241b1488203362cb98684a2eb1613fb2efd0961a6f8690655ff55ffe95",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_permanova.tsv": "a765a835a1ff2fc15618928193cb40e97dc41aac8be616fdf225332d600030c4",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_region_permutation.tsv": "3519d8f18bc35fc9b62d355233cdf99520efbc0beee06cef92674ec0d88fdb36",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_design.tsv": "1538aa10261cf0d4269df07339d4bb8ec73049e751b428d00525ca7559b55967",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_models.tsv": "bfb481ea2d7c53c4c2e143a1ebdc5ee38007ff6dbe5dcb9ab317fa579170ab1f",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_permanova.tsv": "04961b93713c62a76d9d4e2772206063ea385ae2facc2dda9217d3ae392f32cc",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_region_permutation.tsv": "438ad051740169a9079f48285c7e3b690efb8011ca7ac3157c3073a9e3ce29bd",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/threshold_sensitivity.tsv": "010b6a6f985db98d209359d52cc5ff9ebbf0b8ca8211d254316d40a757fe185c",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/leave_one_study_out.tsv": "e63e002dcdc3352ba78983d007c0ddbafa5c1150e087eafb0f92838ed596bac6",
+    "figures/coauthor_review/catalog/bacterial_catalog.manifest.tsv": "c226ebbf990d4a0de909b9b36535e94f9bd49a5b92d1ec42736a73faae0e34f3",
+    "figures/coauthor_review/catalog/mag_catalog.tsv": "fc6f98ba428b2b25e83034f9ffc7c2529cdc7383cd2c2b7ae723afae2d3199e7",
+    "figures/coauthor_review/catalog/host_links.tsv": "6705371af7fa5bd9b5a06d6d2c945977e987574718e5e890fa838310256f06e5",
+    "figures/coauthor_review/catalog/catalog_id_crosswalk.tsv": "a76df910ae29fbd7bcb9738e148ee81d8e62a30c5c9631b23ff1b05481a682a0",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/grades/viral_grades.tsv": "84ee86a1644c470e507edf3883ec9a715058ea8faf8f29c3325a26f4609fef49",
+    "figures/coauthor_review/catalog/viral_endogenous_candidate.manifest.tsv": "7cccfa446a25ad8844bbd1120d80ed01d11049b050b77aa10e53c3e1ee95beb0",
+    "figures/coauthor_review/catalog/reclassified_detections.tsv": "abea5912d61d3cf5487b9c2e0dba06522e42035de91f3b866b5c866aede0d1a9",
+    "figures/coauthor_review/catalog/viral_associate.manifest.tsv": "80a955a2941c67961d2523d499feb69c3c541d00f5da39b2d0f7ab098c536663",
+    "figures/coauthor_review/catalog/summary.json": "80cfb94246522f94763376821343ca497a3830323987cf050356b3be049f7e0a"
+  },
+  "reused_outputs": [
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/grades/bacterial_grades.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/grades/bacterial_grades.tsv",
+      "sha256": "a30a016ddb520d21ae54b5429ec995dc468bae2ea0909c161f575e8d6652f36a"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/physalia_design.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/primary/physalia_design.tsv",
+      "sha256": "3e7df8e94d3a549a250b236458d2820c8a1ca4b1ab5779f9d0a3b73245b38e96"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/physalia_models.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/primary/physalia_models.tsv",
+      "sha256": "3236fb851ad2cbd96b90934101f998b3494d34fa53e525eb8f6ae9d882f6dad3"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/physalia_permanova.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/primary/physalia_permanova.tsv",
+      "sha256": "f14be6719f6a9109cb3f9a6b02f764856835666f39a413577062535448ccf417"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/physalia_region_permutation.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/primary/physalia_region_permutation.tsv",
+      "sha256": "4e2ed7643c280c2bebbbd3472097cf03315161bd70b793b35eccb555b1e65b87"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_design.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_design.tsv",
+      "sha256": "c10836e8a90d4f9d64d4e40feebaff16b89f9e02455c06205c1265e553425c2a"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_models.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_models.tsv",
+      "sha256": "1fcc26241b1488203362cb98684a2eb1613fb2efd0961a6f8690655ff55ffe95"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_permanova.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_permanova.tsv",
+      "sha256": "a765a835a1ff2fc15618928193cb40e97dc41aac8be616fdf225332d600030c4"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_region_permutation.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_region_permutation.tsv",
+      "sha256": "3519d8f18bc35fc9b62d355233cdf99520efbc0beee06cef92674ec0d88fdb36"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_design.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_design.tsv",
+      "sha256": "1538aa10261cf0d4269df07339d4bb8ec73049e751b428d00525ca7559b55967"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_models.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_models.tsv",
+      "sha256": "bfb481ea2d7c53c4c2e143a1ebdc5ee38007ff6dbe5dcb9ab317fa579170ab1f"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_permanova.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_permanova.tsv",
+      "sha256": "04961b93713c62a76d9d4e2772206063ea385ae2facc2dda9217d3ae392f32cc"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_region_permutation.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_20pct/physalia_region_permutation.tsv",
+      "sha256": "438ad051740169a9079f48285c7e3b690efb8011ca7ac3157c3073a9e3ce29bd"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/threshold_sensitivity.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/threshold_sensitivity.tsv",
+      "sha256": "010b6a6f985db98d209359d52cc5ff9ebbf0b8ca8211d254316d40a757fe185c"
+    },
+    {
+      "source": "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/sensitivity/leave_one_study_out.tsv",
+      "output": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/leave_one_study_out.tsv",
+      "sha256": "e63e002dcdc3352ba78983d007c0ddbafa5c1150e087eafb0f92838ed596bac6"
+    },
+    {
+      "source": "figures/catalog_qc/catalog_v3/bacterial_catalog.manifest.tsv",
+      "output": "figures/coauthor_review/catalog/bacterial_catalog.manifest.tsv",
+      "sha256": "c226ebbf990d4a0de909b9b36535e94f9bd49a5b92d1ec42736a73faae0e34f3"
+    },
+    {
+      "source": "figures/catalog_qc/catalog_v3/mag_catalog.tsv",
+      "output": "figures/coauthor_review/catalog/mag_catalog.tsv",
+      "sha256": "fc6f98ba428b2b25e83034f9ffc7c2529cdc7383cd2c2b7ae723afae2d3199e7"
+    },
+    {
+      "source": "figures/catalog_qc/catalog_v3/host_links.tsv",
+      "output": "figures/coauthor_review/catalog/host_links.tsv",
+      "sha256": "6705371af7fa5bd9b5a06d6d2c945977e987574718e5e890fa838310256f06e5"
+    },
+    {
+      "source": "figures/catalog_qc/catalog_v3/catalog_id_crosswalk.tsv",
+      "output": "figures/coauthor_review/catalog/catalog_id_crosswalk.tsv",
+      "sha256": "a76df910ae29fbd7bcb9738e148ee81d8e62a30c5c9631b23ff1b05481a682a0"
+    }
+  ]
+}

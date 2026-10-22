@@ -1,30 +1,30 @@
 {
   "status": "complete",
-  "generated_utc": "2026-10-21T21:12:29.248857+00:00",
-  "source_revision": "043a2bb99aeca8a7f99aca4ac068e82a70f75405",
+  "generated_utc": "2026-10-22T17:35:36.152430+00:00",
+  "source_revision": "0ad888a33ce970c0e7d87c02b421d4e69373e22a",
   "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python figures/plot_associate_overview.py",
   "working_directory": "/gpfs/ycga/work/dunn/cwd7/siph_associates",
   "source_snapshot": "figures/overview/provenance/plot_associate_overview.py",
   "script_sha256": "8aa7ea01322df8af4934a616ac66303f7a4bcc7fe9278a10446758114d1a5925",
   "inputs_sha256": {
-    "figures/cohort/sample_metadata.tsv": "4c62bda3ffcfb28586806fbe87a689f50c22ac6b6d7f948fda0a0f7c8befcc11",
+    "figures/cohort/sample_metadata.tsv": "8a1eeadd5f98ec82b20b67e0229820e8f4ee7e955e3345832774d2510dad0817",
     "figures/cohort/bacterial_detections.tsv": "ae0b6cf16f24c5e6766ac49dec6117c514d86b5e72261386c8d2d8505c9da720",
-    "figures/cohort/viral_detections.tsv": "dfc0836ba58e315ee82749ae618e6f47b6521ef634faf7714eeda5e80a396106",
+    "figures/cohort/viral_detections.tsv": "de6b0a5bb733c9115472f9950727287f91bc46b8dc590462c3d347cae875a1a8",
     "figures/cohort/eukaryote_evidence.tsv": "e65331fb27b11581f49ad8c0cda298c753aee0e15e38416c301107bcb9d734fa",
-    "figures/collection_context/host_detection_summary.tsv": "27737bebb7c0b74d9bd272ec4b2a2ca30533ead778a1fac100c8a74ca345516f"
+    "figures/collection_context/host_detection_summary.tsv": "256bfc8743200a9252baad5a5ddc2c761d87504e28237e6dca4510e40629c93e"
   },
   "outputs_sha256": {
-    "figures/overview/study_overview.pdf": "57b3083755b1df49c6120914723457917768e585c96d881c4f24938f3a93824e",
-    "figures/overview/study_overview.png": "e4f1ca4524148d2d6327f0471d30f963ace5897acfca66e9345c0e36f149f641",
+    "figures/overview/study_overview.pdf": "9a8900f275c1bda228a2504d19bb75e86fdd3e4f39b169d9730fa84c370333bd",
+    "figures/overview/study_overview.png": "40084c84ba40dba12500b4bec466715a6ee72ec72b709ecef072f376363f98cb",
     "figures/overview/study_sampling.tsv": "b53a5bedad3816858bfee4360c81b97c65ab784ac0009570d025359def86e98c",
-    "figures/overview/microbial_host_distribution.pdf": "4db04437fd7679a9032a66f9e0ae6868e8dabef6677ad3100e81c39ac19f7a3d",
-    "figures/overview/microbial_host_distribution.png": "bd46051969e77edaee4cc3ab092931fc62c1b8f484544330f743778414132261",
-    "figures/overview/microbial_host_distribution.tsv": "266e905dcd25c41779879457a733f575eb33884aca3ccf0ee273d66ac16ebe4a",
-    "figures/overview/microbial_display_assignments.tsv": "ee70388137a1dcc2c579f9d619e53c04c63e92699fd708cd3581222e36d2a392",
-    "figures/overview/eukaryote_evidence.pdf": "9a709ffa8acf323fb13c39f4b4ca36b6ee9d8170bab287fa4fdafd1a12452837",
-    "figures/overview/eukaryote_evidence.png": "ef61a877fb235474181bb2f1b6ee1421f67ae2d4ccad6dd302c4696c42004ad2",
-    "figures/overview/eukaryote_display.tsv": "6cc7cc5ea4cdca4708cf090daf77c6dbe0661594f906f7db7d991edcf9883f40",
-    "figures/overview/domain_summary.tsv": "3abc4f81b1b9ead78a8fb2e83c8d0482cfd2575ac71615a045d02dd333d1fa5b"
+    "figures/overview/microbial_host_distribution.pdf": "e373bbe34ced9e474f3283e52a73f42a68eeda6fb26db8657f77b20041d94135",
+    "figures/overview/microbial_host_distribution.png": "0dfba2b097d963780607bc535512785ef1d678b83fe5445fcf447defacd14b89",
+    "figures/overview/microbial_host_distribution.tsv": "f4446f907efaed6a06981d5ef473237d449502e453fbb11bc44b5fbce6c3cdd8",
+    "figures/overview/microbial_display_assignments.tsv": "4a047e9614606c6da0275f4b784847e8ade42b0acff21986600791e9454afe30",
+    "figures/overview/eukaryote_evidence.pdf": "5a0b7dfcafb5aff0b196b27add8ebc3eb39b9291c36c3adc733334ca3639a774",
+    "figures/overview/eukaryote_evidence.png": "83b346500bf3d7e1d0828b9c562c5081c04cc65aadc3631f7240c70bb0eebd5e",
+    "figures/overview/eukaryote_display.tsv": "8f78fffa3344b1773b2f1a5d380cf2ebe9b9171689ebb23dc2ffc21bc1b38e1f",
+    "figures/overview/domain_summary.tsv": "e6b405df5e2fd21fcb9ec72576095e4c818d29c8f336ec6967b624e650fc2cc1"
   },
   "environment": {
     "python": "3.11.0",

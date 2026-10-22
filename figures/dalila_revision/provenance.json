@@ -1,23 +1,22 @@
 {
   "status": "complete",
-  "source_revision": "043a2bb99aeca8a7f99aca4ac068e82a70f75405",
+  "source_revision": "0ad888a33ce970c0e7d87c02b421d4e69373e22a",
   "source_note": "Working-tree reporting changes are identified by script and input checksums.",
-  "script_sha256": "e80cc066908feece2bc933230a8f57f7f333a6538ee70233fb10000b25b8b439",
+  "script_sha256": "8a59454abc0c02d41849c8f566af0e3784bc8592039b6a44d8c165912c79835f",
   "inputs_sha256": {
-    "figures/cohort/sample_metadata.tsv": "4c62bda3ffcfb28586806fbe87a689f50c22ac6b6d7f948fda0a0f7c8befcc11",
-    "figures/collection_context/library_context.tsv": "5e56dcf858fb2bbc5ea21edcac0f5f7cadf2e65f17ab03556b9ae2f2e82b4b49",
-    "config/publication_host_names.tsv": "5b595dde7a71c2aba438a581f10051663d239bb069359d3077bc09a4fbfe0f8c",
-    "config/reporting_sources.json": "8efe4f1da99e7b41e94403ba175c0272beb89866757e936d9c33dad29cc1408c",
+    "figures/cohort/sample_metadata.tsv": "8a1eeadd5f98ec82b20b67e0229820e8f4ee7e955e3345832774d2510dad0817",
+    "figures/collection_context/library_context.tsv": "7aba45985891cd62e77ba7d5265ee05220b1ac7eb026bbcb1751fa6653e167a0",
+    "config/publication_host_names.tsv": "d5f25100d494c22970249992d99a5adda87ccdd437f5f4a10b4e84838e8160b0",
+    "config/reporting_sources.json": "b84520f73a9eed259553abb194b52cd29c283a3f20aa6c72ccafc33c6ea03291",
     "config/post_expansion_samples.tsv": "f885a88271c9991fbfd0af6538bf61c86f56854059e5741fc26080648b75d238",
-    "figures/catalog_qc/catalog_v3/mag_catalog.tsv": "fc6f98ba428b2b25e83034f9ffc7c2529cdc7383cd2c2b7ae723afae2d3199e7",
+    "figures/coauthor_review/catalog/mag_catalog.tsv": "fc6f98ba428b2b25e83034f9ffc7c2529cdc7383cd2c2b7ae723afae2d3199e7",
     "data/results/post_expansion/2026-10-20/phase3_cohort/assembly_summary.tsv": "2c7052be73da5f964bd30258adb80aac4c9befc641c7975e7b5c3657a8c9dbc7"
   },
   "outputs_sha256": {
-    "figures/dalila_revision/host_species_summary.tsv": "ea13977c31d36c037c1b094be501e34a43013137a6979de306875bdadcdc6062",
-    "figures/dalila_revision/values.tex": "7acf49324af22047623bc587b5ed42593ddcf32f535b2aa0d9b006ed370fa4ae",
+    "figures/dalila_revision/host_species_summary.tsv": "22a0fd1cb304888fc12e3bfee06bc1898547ce8788917779a9b93f3bbb11b565",
+    "figures/dalila_revision/values.tex": "1abb8e23a3e9e051eb26326bca301c57230f30195b6a8cbae8272632e25293b4",
     "figures/dalila_revision/clade_a_regions.tsv": "f095156033080a208fed1e9a67d20c7a7adbcb5886ec62a7c978f9047dd7af4c",
     "figures/dalila_revision/assembly_routes.tsv": "9ad431bedf3d059cb48a4aed13986b5dd740b1e46dafb99f88b844d2ad4df9fa",
-    "figures/dalila_revision/recorded_life_stages.tsv": "a2a19f132d7eb53a8a1bdb325635642592cd6f98a8d14af96eeaf6e4fa53ca26",
-    "figures/dalila_revision/summary.json": "cb04dde7bc7d211871cccd6267aee46df7ebcc2637c93f01377d7f30d5b8ce1f"
+    "figures/dalila_revision/summary.json": "78e8cbf14741165cefe7d4221fc97e4ad57587ce399ec57842256e1b738ebdd1"
   }
 }

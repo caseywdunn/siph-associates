@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "original_config": "config/coauthor_metadata_analysis.json",
+  "metadata": "figures/coauthor_metadata/specimen_context.tsv",
+  "membership": "figures/coauthor_metadata/contrast_membership.tsv",
+  "original_tests": "figures/coauthor_metadata/community_tests.tsv",
+  "bacterial_grades": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/grades/bacterial_grades.tsv",
+  "omit_target": "BAC00019",
+  "contrasts": ["utriculus_pacific_regions", "sw_pacific_host_species"],
+  "grade_column": "grade",
+  "output_dir": "figures/cutibacterium_sensitivity",
+  "rscript": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/stats_env/bin/Rscript",
+  "interpretation": "One targeted sensitivity omits the C. acnes reference BAC00019 from the two estimable primary bacterial community contrasts. Cohort definitions, depth/tissue restriction, read-effort/flowcell adjustment, permutation seed and number are unchanged. No specimens are excluded by human-read count. This does not identify a contamination source or remove other possible contamination. Original reported analysis outputs are preserved."
+}

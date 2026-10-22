@@ -38,6 +38,8 @@ compilation time.
 | Figure S4: tissue and region | [Tissue and regional context](collection_context/tissue_context.pdf) | [Tissue counts](collection_context/tissue_summary.tsv), [regional counts](collection_context/tissue_region_incidence.tsv) |
 | Figure S5: recurrent mycoplasmas | [Mycoplasmatales incidence](cohort/mycoplasmatales_incidence.pdf) | [Positive and total specimens](cohort/mycoplasmatales_incidence.tsv) |
 | Figure S6: predicted functions | [Gene functions](mycoplasmatales/gene_functions.pdf) | [Function assignments](mycoplasmatales/source_gene_functions.tsv) |
+| Figure S7: matched host and region comparisons | [Targeted bacterial incidence](coauthor_metadata/targeted_incidence.pdf) | [Incidence counts](coauthor_metadata/targeted_incidence.tsv), [community tests](coauthor_metadata/community_tests.tsv), [tested specimens](coauthor_metadata/community_membership.tsv) |
+| Figure S8: depth and associate detections | [Depth patterns](coauthor_metadata/depth_patterns.pdf) | [Specimen context](coauthor_metadata/specimen_context.tsv), [depth summaries](coauthor_metadata/depth_incidence.tsv), [depth design](coauthor_metadata/host_depth_design.tsv) |
 
 PDFs are vector figures; PNG files alongside them are previews. The
 [cohort tables](cohort/) retain all 213 libraries, including those with no
@@ -61,6 +63,21 @@ formatting is maintained with the supplement. See the
 outputs and the [trematode comparison](../docs/waki_sequence_comparison.md) for
 additional marker evidence.
 
+The [metadata comparison bundle](coauthor_metadata/) also contains tissue
+incidence, current host-depletion summaries and the historical fixed-catalog
+read-handling comparison. [Methods and interpretation](../docs/coauthor_metadata_analysis.md)
+describe which host and regional contrasts can be tested and where tissue and
+depth remain confounded with sampling.
+
+The [human-screen bundle](human_screen/) contains per-library prefix counts,
+simulated controls and representative-sequence comparisons against broader
+references. The [human/C. acnes bundle](human_cutibacterium/) gives the descriptive
+specimen join, and the [C. acnes omission bundle](cutibacterium_sensitivity/)
+reports the two community contrasts without that bacterial target. Each includes
+generated manuscript values and provenance; the
+[human-read guide](../docs/human_read_screen.md) explains the selected-prefix
+denominators and identification limits.
+
 ## Rebuild figures from accepted results
 
 Start with [current cohort and downstream reporting](../docs/expanded_reporting.md)
@@ -81,6 +98,12 @@ The figure producers are:
 - [analyze_collection_context.py](../scripts/analyze_collection_context.py) and
   [plot_collection_context.py](plot_collection_context.py): depth, tissue and
   regional summaries and figures.
+- [Metadata workflow](../workflow/coauthor_metadata.smk): Figures S7–S8,
+  matched community comparisons and host-reference summaries, using completed
+  evidence tables as described in the [metadata guide](../docs/coauthor_metadata_analysis.md).
+
+The small human-screen and C. acnes reports have separate bounded workflows;
+their [workflow index](../docs/workflow/README.md) links the methods and entry points.
 
 ### Biological overview figures
 
@@ -111,7 +134,12 @@ There is no separate dry-run mode for this plotting script.
 [collection-table provenance](collection_context/provenance.json),
 [collection-plot manifest](collection_context/plot_manifest.json), and
 [overview manifest](overview/manifest.json) identify the inputs, producing code
-and outputs. The manuscript's transfer record identifies the selected copied
+and outputs. The metadata and human-related bundles have their own provenance:
+[metadata comparisons](coauthor_metadata/provenance.json),
+[human screen](human_screen/provenance.json),
+[human/C. acnes comparison](human_cutibacterium/provenance.json), and
+[C. acnes omission](cutibacterium_sensitivity/provenance.json).
+The manuscript's transfer record identifies the selected copied
 assets and their checksums. This separates figure presentation from sequence
 processing and preserves the source of reported results.
 

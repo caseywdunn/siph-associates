@@ -1,0 +1,9 @@
+sample_id	selection	raw_selected_pairs	qc_pairs	bowtie2_concordant_pairs	stringent_human_compatible_pairs	distinct_sequence_pairs	reference_sequences	occupied_1Mb_windows	percent_selected_raw_pairs	percent_qc_pairs	taxonomic_confirmation
+Church2025__YPM-IZ-110906	equal_per_source_file_prefix	1000000	929321	1099	6	6	6	6	0.0006	0.0006456326715957134	pending; human-compatible mapping alone
+Church2025__YPM-IZ-111016	equal_per_source_file_prefix	1000000	872678	1215	3	3	3	3	0.0003	0.0003437694086478632	pending; human-compatible mapping alone
+Ahuja2026__WS5	equal_per_source_file_prefix	1000000	876859	2500	1	1	1	1	0.0001	0.00011404342089207044	pending; human-compatible mapping alone
+Ahuja2026__WS9	equal_per_source_file_prefix	1000000	936292	4863	3	3	3	3	0.0003	0.00032041286265395837	pending; human-compatible mapping alone
+Ahuja2026__NA37	equal_per_source_file_prefix	1000000	958550	3358	0	0	0	0	0.0	0.0	pending; human-compatible mapping alone
+Ahuja2024__CWD12	equal_per_source_file_prefix	1000000	931396	1123	0	0	0	0	0.0	0.0	pending; human-compatible mapping alone
+Manko2026__T676-SS3	equal_per_source_file_prefix	1000000	979696	7801	937	681	23	576	0.0937	0.09564191340987409	pending; human-compatible mapping alone
+Manko2026__D611-D6	equal_per_source_file_prefix	1000000	909075	731	0	0	0	0	0.0	0.0	pending; human-compatible mapping alone

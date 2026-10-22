@@ -1,0 +1,13 @@
+contrast	grade_column	eligible_libraries	included_libraries	excluded_empty_profiles	groups	physical_flowcells	distinct_label_allocations	group_df	residual_df	r_squared	pseudo_f	permutations	p_value	status	q_value
+utriculus_pacific_regions	grade	42	32	10	3	12	3360	2	17	0.0677319554600174	1.18865405159683	9999	0.2016	tested	0.2016
+utriculus_regions_with_indian	grade	46	36	10	4	13	3360	2	20			0		group_confounded_with_flowcell_or_read_effort	
+sw_pacific_host_species	grade	33	30	3	3	8	9408	2	19	0.13078774982222	4.2738308747281	9999	1e-04	tested	2e-04
+utriculus_central_tissue	grade	19	12	7	2	7	3	1	3			0		insufficient_distinct_permutations_or_residual_df	
+utriculus_pacific_regions	grade_at_5pct	42	35	7	3	12	79379.9999999999	2	20	0.0989133958812611	2.27426191225769	9999	0.0092	tested	0.0092
+utriculus_regions_with_indian	grade_at_5pct	46	39	7	4	13	79379.9999999999	2	23			0		group_confounded_with_flowcell_or_read_effort	
+sw_pacific_host_species	grade_at_5pct	33	31	2	3	9	9408	2	19	0.124755437999741	3.64701167789902	9999	2e-04	tested	4e-04
+utriculus_central_tissue	grade_at_5pct	19	15	4	2	7	12	1	6			0		insufficient_distinct_permutations_or_residual_df	
+utriculus_pacific_regions	grade_at_20pct	42	27	15	3	11	420	2	13	0.0847950545765233	1.37971391980525	9999	0.1371	tested	0.1371
+utriculus_regions_with_indian	grade_at_20pct	46	31	15	4	12	420	2	16			0		group_confounded_with_flowcell_or_read_effort	
+sw_pacific_host_species	grade_at_20pct	33	28	5	3	8	7056.00000000001	2	17	0.0958601440175186	2.29252626640677	9999	0.0233	tested	0.0466
+utriculus_central_tissue	grade_at_20pct	19	9	10	2	5	3	1	2			0		insufficient_distinct_permutations_or_residual_df	

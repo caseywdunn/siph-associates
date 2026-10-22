@@ -1,0 +1,8 @@
+sample_id	target_id	catalog_class	breadth	reads	grade
+Ahuja2026__NA19	VOTU00242	associate	1.0	1157	high_confidence
+Ahuja2026__WS10	VOTU00242	associate	0.930643	732	high_confidence
+Ahuja2026__WS5	VOTU00242	associate	0.930086	481	validated
+Ahuja2026__WS6	VOTU00242	associate	0.930271	750	high_confidence
+Ahuja2026__WS7	VOTU00242	associate	0.913165	491	validated
+Ahuja2026__WS8	VOTU00242	associate	0.929714	742	validated
+Ahuja2026__WS9	VOTU00242	associate	0.846411	538	validated

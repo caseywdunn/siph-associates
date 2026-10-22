@@ -1,0 +1,4 @@
+target_id	original_class	reporting_class	expected_phylum	reason	source
+VOTU00144	associate	endogenous_candidate	Negarnaviricota	Negative-strand RNA-virus assignment recovered from DNA sequencing; treat as a possible endogenous element, without claiming integration was demonstrated.	Coauthor review 2026-10-22
+VOTU00165	associate	endogenous_candidate	Negarnaviricota	Negative-strand RNA-virus assignment recovered from DNA sequencing; treat as a possible endogenous element, without claiming integration was demonstrated.	Coauthor review 2026-10-22
+VOTU00242	associate	endogenous_candidate	Negarnaviricota	Negative-strand RNA-virus assignment recovered from DNA sequencing; treat as a possible endogenous element, without claiming integration was demonstrated.	Coauthor review 2026-10-22

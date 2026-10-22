@@ -1,0 +1,28 @@
+{
+  "run": "data/results/human_screen/2026-10-22-v2",
+  "manifest": "config/post_expansion_samples.tsv",
+  "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+  "pairs_per_library": 1000000,
+  "minimum_length": 100,
+  "minimum_identity": 0.99,
+  "minimum_mapq": 30,
+  "control_pairs": 10000,
+  "seed": 20261022,
+  "human_fasta": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.fa",
+  "human_index": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome",
+  "negative_references": {
+    "P_physalis": "/gpfs/ycga/work/dunn/cwd7/databases/refgenomes/physalia_physalis/GCA_041430235.2_Physalia_TX2017-38_primary_02_genomic.fna",
+    "N_septata": "/gpfs/ycga/work/dunn/cwd7/databases/refgenomes/nanomia_septata/nanomia_septata.fasta",
+    "H_rubrum": "data/results/halistemma/2026-10-19/reference/GCA_987347065.1.fna"
+  },
+  "pilot_samples": [
+    "Church2025__YPM-IZ-110906",
+    "Church2025__YPM-IZ-111016",
+    "Ahuja2026__WS5",
+    "Ahuja2026__WS9",
+    "Ahuja2026__NA37",
+    "Ahuja2024__CWD12",
+    "Manko2026__T676-SS3",
+    "Manko2026__D611-D6"
+  ]
+}

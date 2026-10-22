@@ -1,0 +1,160 @@
+contrast	group	sample_id	flowcell	single_flowcell_eligible	input_pairs
+utriculus_pacific_regions	SW Pacific	Church2025__WAM-Z97917	LH00309:40:22CMVKLT3	true	4099010
+utriculus_pacific_regions	SW Pacific	Church2025__WAM-Z97921	LH00309:19:2273H5LT3	true	3033902
+utriculus_pacific_regions	SW Pacific	Church2025__WAM-Z97923	LH00309:43:22CYW2LT3;LH00309:55:22F5W5LT3	false	1994727
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-104460	A01519:271:HWW7GDSX5	true	1451807
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-104461	A01519:271:HWW7GDSX5	true	1028189
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-104464	A01519:212:HHKVKDSX5	true	3049561
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-106919	A01519:271:HWW7GDSX5	true	2818990
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-106920	A00124:569:HCTNWDSX5	true	2712464
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-106923	A00124:569:HCTNWDSX5	true	2819709
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110264	A01519:271:HWW7GDSX5	true	1766220
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110268	A01519:271:HWW7GDSX5	true	2015563
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110269	A01519:271:HWW7GDSX5;A01519:311:H7FM5DSX7	false	4372434
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110276	A01519:271:HWW7GDSX5	true	2015901
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110277	A01519:271:HWW7GDSX5	true	2084953
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110278	A01519:271:HWW7GDSX5	true	1677168
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110460	A00124:672:HGYTLDSX7	true	1992093
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110471	A00124:624:HWVLCDSX5	true	1128644
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110473	A00124:673:HFG3JDSX7	true	3150605
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110474	A00124:624:HWVLCDSX5	true	1325007
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110480	A00124:624:HWVLCDSX5	true	1244762
+utriculus_pacific_regions	SW Pacific	Church2025__YPM-IZ-110515	A00124:672:HGYTLDSX7	true	4364963
+utriculus_pacific_regions	SW Pacific	Church2025__YPM-IZ-110520	A00124:672:HGYTLDSX7	true	3615753
+utriculus_pacific_regions	SW Pacific	Church2025__YPM-IZ-110526	A00124:672:HGYTLDSX7	true	1866293
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-110566	A00124:672:HGYTLDSX7	true	2486398
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-110569	A00124:673:HFG3JDSX7	true	7752035
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-110600	A00124:673:HFG3JDSX7	true	2023030
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-110602	A00124:672:HGYTLDSX7	true	2392670
+utriculus_pacific_regions	SW Pacific	Church2025__YPM-IZ-110605	A00124:672:HGYTLDSX7	true	1578360
+utriculus_pacific_regions	SW Pacific	Church2025__YPM-IZ-110612	A00124:672:HGYTLDSX7	true	2261057
+utriculus_pacific_regions	SW Pacific	Church2025__YPM-IZ-110613	A00124:672:HGYTLDSX7	true	5305261
+utriculus_pacific_regions	SW Pacific	Church2025__YPM-IZ-110616	A00124:672:HGYTLDSX7	true	3857055
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110777	LH00309:19:2273H5LT3	true	2633426
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110780	LH00309:19:2273H5LT3	true	4363566
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110785	LH00309:22:22CMVLLT3	true	7173840
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-110786	LH00309:22:22CMVLLT3	true	1998217
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-110925	LH00309:109:22CJLFLT3	true	663125
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-110926	LH00309:109:22CJLFLT3	true	451732
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-110930	LH00309:109:22CJLFLT3	true	717358
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-110933	LH00309:109:22CJLFLT3	true	738414
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-110937	A00124:710:HMFVWDSX7	true	2623232
+utriculus_pacific_regions	NW Pacific	Church2025__YPM-IZ-110938	LH00309:109:22CJLFLT3	true	834854
+utriculus_pacific_regions	SW Pacific	Church2025__YPM-IZ-111163	LH00309:204:227MGJLT4	true	2558924
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-111547	LH00309:259:22CWK3LT4	true	1469775
+utriculus_pacific_regions	Central Pacific	Church2025__YPM-IZ-111840	LH00309:325:22HLVMLT4	true	3090553
+utriculus_regions_with_indian	SW Pacific	Church2025__WAM-Z97917	LH00309:40:22CMVKLT3	true	4099010
+utriculus_regions_with_indian	SW Pacific	Church2025__WAM-Z97921	LH00309:19:2273H5LT3	true	3033902
+utriculus_regions_with_indian	SW Pacific	Church2025__WAM-Z97923	LH00309:43:22CYW2LT3;LH00309:55:22F5W5LT3	false	1994727
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-104460	A01519:271:HWW7GDSX5	true	1451807
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-104461	A01519:271:HWW7GDSX5	true	1028189
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-104464	A01519:212:HHKVKDSX5	true	3049561
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-106919	A01519:271:HWW7GDSX5	true	2818990
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-106920	A00124:569:HCTNWDSX5	true	2712464
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-106923	A00124:569:HCTNWDSX5	true	2819709
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110264	A01519:271:HWW7GDSX5	true	1766220
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110268	A01519:271:HWW7GDSX5	true	2015563
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110269	A01519:271:HWW7GDSX5;A01519:311:H7FM5DSX7	false	4372434
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110276	A01519:271:HWW7GDSX5	true	2015901
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110277	A01519:271:HWW7GDSX5	true	2084953
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110278	A01519:271:HWW7GDSX5	true	1677168
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110460	A00124:672:HGYTLDSX7	true	1992093
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110471	A00124:624:HWVLCDSX5	true	1128644
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110473	A00124:673:HFG3JDSX7	true	3150605
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110474	A00124:624:HWVLCDSX5	true	1325007
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110480	A00124:624:HWVLCDSX5	true	1244762
+utriculus_regions_with_indian	SW Pacific	Church2025__YPM-IZ-110515	A00124:672:HGYTLDSX7	true	4364963
+utriculus_regions_with_indian	SW Pacific	Church2025__YPM-IZ-110520	A00124:672:HGYTLDSX7	true	3615753
+utriculus_regions_with_indian	SW Pacific	Church2025__YPM-IZ-110526	A00124:672:HGYTLDSX7	true	1866293
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-110566	A00124:672:HGYTLDSX7	true	2486398
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-110569	A00124:673:HFG3JDSX7	true	7752035
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-110600	A00124:673:HFG3JDSX7	true	2023030
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-110602	A00124:672:HGYTLDSX7	true	2392670
+utriculus_regions_with_indian	SW Pacific	Church2025__YPM-IZ-110605	A00124:672:HGYTLDSX7	true	1578360
+utriculus_regions_with_indian	SW Pacific	Church2025__YPM-IZ-110612	A00124:672:HGYTLDSX7	true	2261057
+utriculus_regions_with_indian	SW Pacific	Church2025__YPM-IZ-110613	A00124:672:HGYTLDSX7	true	5305261
+utriculus_regions_with_indian	SW Pacific	Church2025__YPM-IZ-110616	A00124:672:HGYTLDSX7	true	3857055
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110777	LH00309:19:2273H5LT3	true	2633426
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110780	LH00309:19:2273H5LT3	true	4363566
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110785	LH00309:22:22CMVLLT3	true	7173840
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-110786	LH00309:22:22CMVLLT3	true	1998217
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-110925	LH00309:109:22CJLFLT3	true	663125
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-110926	LH00309:109:22CJLFLT3	true	451732
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-110930	LH00309:109:22CJLFLT3	true	717358
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-110933	LH00309:109:22CJLFLT3	true	738414
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-110937	A00124:710:HMFVWDSX7	true	2623232
+utriculus_regions_with_indian	NW Pacific	Church2025__YPM-IZ-110938	LH00309:109:22CJLFLT3	true	834854
+utriculus_regions_with_indian	W Indian	Church2025__YPM-IZ-111006	A00124:710:HMFVWDSX7	true	1895653
+utriculus_regions_with_indian	W Indian	Church2025__YPM-IZ-111007	A00124:710:HMFVWDSX7	true	3083108
+utriculus_regions_with_indian	W Indian	Church2025__YPM-IZ-111008	A00124:710:HMFVWDSX7	true	2477474
+utriculus_regions_with_indian	W Indian	Church2025__YPM-IZ-111009	A00124:710:HMFVWDSX7	true	2599854
+utriculus_regions_with_indian	SW Pacific	Church2025__YPM-IZ-111163	LH00309:204:227MGJLT4	true	2558924
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-111547	LH00309:259:22CWK3LT4	true	1469775
+utriculus_regions_with_indian	Central Pacific	Church2025__YPM-IZ-111840	LH00309:325:22HLVMLT4	true	3090553
+sw_pacific_host_species	Physalia minuta	Church2025__NIWA-173304	LH00309:191:227L7FLT4;LH00309:195:227FKVLT4	false	5137692
+sw_pacific_host_species	Physalia minuta	Church2025__NIWA-173305	LH00309:204:227MGJLT4	true	4361937
+sw_pacific_host_species	Physalia megalista	Church2025__TMAG-K5632	A00124:638:H5N7GDSX7;A01519:389:HMGLFDSX7	false	2958950
+sw_pacific_host_species	Physalia minuta	Church2025__TMAG-K5633	A00124:638:H5N7GDSX7;A01519:389:HMGLFDSX7	false	15830691
+sw_pacific_host_species	Physalia minuta	Church2025__TMAG-K5634	A00124:638:H5N7GDSX7	true	6744441
+sw_pacific_host_species	Physalia minuta	Church2025__TMAG-K5635	A00124:673:HFG3JDSX7	true	13643311
+sw_pacific_host_species	Physalia minuta	Church2025__TMAG-K5636	A00124:673:HFG3JDSX7	true	11015648
+sw_pacific_host_species	Physalia utriculus	Church2025__WAM-Z97917	LH00309:40:22CMVKLT3	true	4099010
+sw_pacific_host_species	Physalia megalista	Church2025__WAM-Z97920	LH00309:19:2273H5LT3	true	1020709
+sw_pacific_host_species	Physalia utriculus	Church2025__WAM-Z97921	LH00309:19:2273H5LT3	true	3033902
+sw_pacific_host_species	Physalia utriculus	Church2025__WAM-Z97923	LH00309:43:22CYW2LT3;LH00309:55:22F5W5LT3	false	1994727
+sw_pacific_host_species	Physalia minuta	Church2025__YPM-IZ-110467	A00124:624:HWVLCDSX5	true	4428887
+sw_pacific_host_species	Physalia minuta	Church2025__YPM-IZ-110468	A00124:624:HWVLCDSX5	true	3620473
+sw_pacific_host_species	Physalia minuta	Church2025__YPM-IZ-110469	A00124:624:HWVLCDSX5;A01519:311:H7FM5DSX7	false	24497138
+sw_pacific_host_species	Physalia utriculus	Church2025__YPM-IZ-110515	A00124:672:HGYTLDSX7	true	4364963
+sw_pacific_host_species	Physalia utriculus	Church2025__YPM-IZ-110520	A00124:672:HGYTLDSX7	true	3615753
+sw_pacific_host_species	Physalia utriculus	Church2025__YPM-IZ-110526	A00124:672:HGYTLDSX7	true	1866293
+sw_pacific_host_species	Physalia minuta	Church2025__YPM-IZ-110556	A00124:672:HGYTLDSX7;A01519:389:HMGLFDSX7	false	14740991
+sw_pacific_host_species	Physalia minuta	Church2025__YPM-IZ-110557	A00124:672:HGYTLDSX7	true	8156647
+sw_pacific_host_species	Physalia minuta	Church2025__YPM-IZ-110558	A00124:672:HGYTLDSX7	true	5442352
+sw_pacific_host_species	Physalia utriculus	Church2025__YPM-IZ-110605	A00124:672:HGYTLDSX7	true	1578360
+sw_pacific_host_species	Physalia utriculus	Church2025__YPM-IZ-110612	A00124:672:HGYTLDSX7	true	2261057
+sw_pacific_host_species	Physalia utriculus	Church2025__YPM-IZ-110613	A00124:672:HGYTLDSX7	true	5305261
+sw_pacific_host_species	Physalia utriculus	Church2025__YPM-IZ-110616	A00124:672:HGYTLDSX7	true	3857055
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111156	LH00309:204:227MGJLT4	true	571417
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111157	LH00309:204:227MGJLT4	true	720948
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111158	LH00309:204:227MGJLT4	true	428053
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111159	LH00309:204:227MGJLT4	true	921904
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111160	LH00309:204:227MGJLT4	true	528995
+sw_pacific_host_species	Physalia utriculus	Church2025__YPM-IZ-111163	LH00309:204:227MGJLT4	true	2558924
+sw_pacific_host_species	Physalia minuta	Church2025__YPM-IZ-111207	LH00309:191:227L7FLT4;LH00309:195:227FKVLT4	false	8390538
+sw_pacific_host_species	Physalia minuta	Church2025__YPM-IZ-111208	LH00309:191:227L7FLT4;LH00309:195:227FKVLT4	false	9397941
+sw_pacific_host_species	Physalia minuta	Church2025__YPM-IZ-111209	LH00309:204:227MGJLT4	true	4550236
+sw_pacific_host_species	Physalia minuta	Church2025__YPM-IZ-111210	LH00309:191:227L7FLT4;LH00309:195:227FKVLT4	false	8147054
+sw_pacific_host_species	Physalia minuta	Church2025__YPM-IZ-111241	LH00309:259:22CWK3LT4;LH00309:266:22F23WLT3	false	7696529
+sw_pacific_host_species	Physalia minuta	Church2025__YPM-IZ-111243	LH00309:259:22CWK3LT4;LH00309:266:22F23WLT3	false	7978820
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111495	LH00309:259:22CWK3LT4;LH00309:266:22F23WLT3	false	725155
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111513	LH00309:259:22CWK3LT4;LH00309:266:22F23WLT3	false	959832
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111514	LH00309:308:22GYWYLT4;LH00309:314:22HW55LT4	false	492723
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111517	LH00309:311:22GMLFLT4	true	975460
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111518	LH00309:311:22GMLFLT4	true	1128851
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111519	LH00309:308:22GYWYLT4	true	712629
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111520	LH00309:311:22GMLFLT4	true	1067374
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111521	LH00309:311:22GMLFLT4	true	856179
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111529	LH00309:311:22GMLFLT4	true	684570
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111530	LH00309:311:22GMLFLT4	true	793215
+sw_pacific_host_species	Physalia megalista	Church2025__YPM-IZ-111539	LH00309:311:22GMLFLT4	true	601569
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110264	A01519:271:HWW7GDSX5	true	1766220
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110268	A01519:271:HWW7GDSX5	true	2015563
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110269	A01519:271:HWW7GDSX5;A01519:311:H7FM5DSX7	false	4372434
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110276	A01519:271:HWW7GDSX5	true	2015901
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110277	A01519:271:HWW7GDSX5	true	2084953
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110278	A01519:271:HWW7GDSX5	true	1677168
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110460	A00124:672:HGYTLDSX7	true	1992093
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110471	A00124:624:HWVLCDSX5	true	1128644
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110473	A00124:673:HFG3JDSX7	true	3150605
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110474	A00124:624:HWVLCDSX5	true	1325007
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110480	A00124:624:HWVLCDSX5	true	1244762
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110777	LH00309:19:2273H5LT3	true	2633426
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110780	LH00309:19:2273H5LT3	true	4363566
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110785	LH00309:22:22CMVLLT3	true	7173840
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-110786	LH00309:22:22CMVLLT3	true	1998217
+utriculus_central_tissue	whole body	Church2025__YPM-IZ-110881	LH00309:19:2273H5LT3	true	3603176
+utriculus_central_tissue	whole body	Church2025__YPM-IZ-110882	A00124:672:HGYTLDSX7	true	2652920
+utriculus_central_tissue	whole body	Church2025__YPM-IZ-110883	LH00309:19:2273H5LT3	true	15376340
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-111547	LH00309:259:22CWK3LT4	true	1469775
+utriculus_central_tissue	tentacle	Church2025__YPM-IZ-111840	LH00309:325:22HLVMLT4	true	3090553

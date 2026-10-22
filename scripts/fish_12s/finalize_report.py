@@ -77,14 +77,12 @@ def main() -> None:
             dict(r, read_source=mode) for r in table(directory / "sample_summary.tsv")
         )
         pairs.extend(table(directory / "pair_review.tsv"))
-    expected = {
-        r["analysis_sample_id"]
-        for r in table(
-            Path(
-                "data/results/post_expansion/2026-10-21/reporting/metadata/sample_metadata.tsv"
-            )
-        )
-    }
+    metadata_path = Path("figures/cohort/sample_metadata.tsv")
+    metadata = {r["analysis_sample_id"]: r for r in table(metadata_path)}
+    sources[str(metadata_path)] = digest(metadata_path)
+    expected = set(metadata)
+    for sample in samples:
+        sample["host"] = metadata[sample["analysis_sample_id"]]["species_current"]
     assert len(samples) == len({r["analysis_sample_id"] for r in samples}) == 213
     assert {r["analysis_sample_id"] for r in samples} == expected
     assert len(pairs) == len(

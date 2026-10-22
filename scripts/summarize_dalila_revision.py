@@ -83,9 +83,7 @@ def main() -> None:
         "MycoUnresolvedSpecimens": sum(
             r["species_current"] in UNRESOLVED for r in myco
         ),
-        "RecordedJuveniles": sum(r["life_stage"] == "juvenile" for r in metadata),
     }
-    values["MissingLifeStage"] = sum(not r["life_stage"] for r in metadata)
     physalia = [r for r in context if r["species_current"].startswith("Physalia ")]
     basins = {
         "Pacific": {
@@ -175,23 +173,8 @@ def main() -> None:
             for region in sorted({r["ocean_region"] for r in physalia})
         ],
     )
-    write(
-        "recorded_life_stages.tsv",
-        [
-            {
-                key: row[key]
-                for key in (
-                    "library_id",
-                    "species_current",
-                    "ocean_region",
-                    "locality",
-                    "life_stage",
-                )
-            }
-            for row in metadata
-            if row["life_stage"]
-        ],
-    )
+    # Source life-stage labels are inconsistent and are retained only in metadata.
+    (OUT / "recorded_life_stages.tsv").unlink(missing_ok=True)
     (OUT / "summary.json").write_text(json.dumps(values, indent=2) + "\n")
     outputs = {
         str(p.relative_to(ROOT)): sha256(p)

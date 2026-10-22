@@ -4,7 +4,7 @@
   "libraries": 213,
   "original_libraries": 205,
   "added_libraries": 8,
-  "original_metadata_changes": 0,
+  "original_metadata_changes": 2,
   "detection_comparison": {
     "microbial": {
       "previous_detections": 557,
@@ -21,11 +21,11 @@
     "viral": {
       "previous_detections": 530,
       "previous_units_after_catalog_crosswalk": 530,
-      "current_detections": 631,
-      "current_in_original_libraries": 532,
+      "current_detections": 624,
+      "current_in_original_libraries": 525,
       "current_in_added_libraries": 99,
       "changes": {
-        "lost_detection": 13,
+        "lost_detection": 20,
         "gained_detection": 15,
         "new_library": 99
       }
@@ -67,19 +67,19 @@
       "domain": "viral",
       "scope": "all_libraries",
       "libraries_in_scope": 213,
-      "detections": 631,
-      "positive_libraries": 127,
-      "detected_targets_or_groups": 392,
-      "high_confidence_detections": 442
+      "detections": 624,
+      "positive_libraries": 122,
+      "detected_targets_or_groups": 391,
+      "high_confidence_detections": 439
     },
     {
       "domain": "viral",
       "scope": "excluding_background_flagged_libraries",
       "libraries_in_scope": 212,
-      "detections": 545,
-      "positive_libraries": 126,
-      "detected_targets_or_groups": 306,
-      "high_confidence_detections": 356
+      "detections": 538,
+      "positive_libraries": 121,
+      "detected_targets_or_groups": 305,
+      "high_confidence_detections": 353
     },
     {
       "domain": "eukaryotic",
@@ -153,9 +153,9 @@
     "retained_mags": 104,
     "mag_species": 32,
     "near_complete_mags": 55,
-    "associate_viral_detection_rows": 631,
-    "associate_viral_targets": 392,
-    "associate_viral_positive_libraries": 127,
+    "associate_viral_detection_rows": 624,
+    "associate_viral_targets": 391,
+    "associate_viral_positive_libraries": 122,
     "eukaryote_validated_evidence_rows": 67,
     "eukaryote_nonredundant_detection_rows": 64,
     "eukaryote_positive_libraries": 40,

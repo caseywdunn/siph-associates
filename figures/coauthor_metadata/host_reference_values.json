@@ -1,0 +1,185 @@
+{
+  "current_host_depletion": [
+    {
+      "scope": "reference_group",
+      "host": "Halistemma rubrum",
+      "libraries": 2,
+      "percent_removed_min": 98.5811503293995,
+      "percent_removed_median": 99.22529231229132,
+      "percent_removed_max": 99.86943429518313,
+      "reads_ingested": 533337628,
+      "reads_remaining": 4968248
+    },
+    {
+      "scope": "reference_group",
+      "host": "Nanomia septata",
+      "libraries": 10,
+      "percent_removed_min": 99.80822686602139,
+      "percent_removed_median": 99.89919995352622,
+      "percent_removed_max": 99.91134601514139,
+      "reads_ingested": 3936943346,
+      "reads_remaining": 4305878
+    },
+    {
+      "scope": "reference_group",
+      "host": "Physalia",
+      "libraries": 151,
+      "percent_removed_min": 86.30414546072537,
+      "percent_removed_median": 98.53351149836102,
+      "percent_removed_max": 99.93449374155507,
+      "reads_ingested": 39314060938,
+      "reads_remaining": 829177616
+    },
+    {
+      "scope": "species",
+      "host": "Halistemma rubrum",
+      "libraries": 2,
+      "percent_removed_min": 98.5811503293995,
+      "percent_removed_median": 99.22529231229132,
+      "percent_removed_max": 99.86943429518313,
+      "reads_ingested": 533337628,
+      "reads_remaining": 4968248
+    },
+    {
+      "scope": "species",
+      "host": "Nanomia septata",
+      "libraries": 10,
+      "percent_removed_min": 99.80822686602139,
+      "percent_removed_median": 99.89919995352622,
+      "percent_removed_max": 99.91134601514139,
+      "reads_ingested": 3936943346,
+      "reads_remaining": 4305878
+    },
+    {
+      "scope": "species",
+      "host": "Physalia megalista",
+      "libraries": 26,
+      "percent_removed_min": 98.15350636547522,
+      "percent_removed_median": 99.28776417592695,
+      "percent_removed_max": 99.65710253666164,
+      "reads_ingested": 6955830142,
+      "reads_remaining": 55602388
+    },
+    {
+      "scope": "species",
+      "host": "Physalia mikazuki",
+      "libraries": 5,
+      "percent_removed_min": 96.39873915050497,
+      "percent_removed_median": 98.32335890257374,
+      "percent_removed_max": 98.61567212694284,
+      "reads_ingested": 1565964234,
+      "reads_remaining": 32219618
+    },
+    {
+      "scope": "species",
+      "host": "Physalia minuta",
+      "libraries": 19,
+      "percent_removed_min": 86.88038325761582,
+      "percent_removed_median": 92.50413556770064,
+      "percent_removed_max": 95.96505662669699,
+      "reads_ingested": 4457094360,
+      "reads_remaining": 339487306
+    },
+    {
+      "scope": "species",
+      "host": "Physalia physalis",
+      "libraries": 37,
+      "percent_removed_min": 97.94560759631301,
+      "percent_removed_median": 99.7445243349878,
+      "percent_removed_max": 99.93449374155507,
+      "reads_ingested": 9838488176,
+      "reads_remaining": 40635752
+    },
+    {
+      "scope": "species",
+      "host": "Physalia utriculus",
+      "libraries": 64,
+      "percent_removed_min": 86.30414546072537,
+      "percent_removed_median": 98.08184343929406,
+      "percent_removed_max": 99.09415510003214,
+      "reads_ingested": 16496684026,
+      "reads_remaining": 361232552
+    }
+  ],
+  "historical_fixed_v2_concordance": [
+    {
+      "host_group": "Nanomia septata",
+      "domain": "bacterial",
+      "libraries": 5,
+      "catalog_context": "historical_fixed_v2",
+      "target_scope": "bacterial_catalog_after_reviewed_domain_exclusions",
+      "present_host_depleted": 3,
+      "present_full_reads": 4,
+      "both": 3,
+      "only_host_depleted": 0,
+      "only_full_reads": 1,
+      "sample_ids": "Ahuja2026__NA34;Ahuja2026__NA36;Ahuja2026__WS10;Ahuja2026__WS6;Ahuja2026__WS7"
+    },
+    {
+      "host_group": "Nanomia septata",
+      "domain": "viral",
+      "libraries": 5,
+      "catalog_context": "historical_fixed_v2",
+      "target_scope": "combined_associate_and_endogenous_candidate_viral_catalog",
+      "present_host_depleted": 7,
+      "present_full_reads": 22,
+      "both": 7,
+      "only_host_depleted": 0,
+      "only_full_reads": 15,
+      "sample_ids": "Ahuja2026__NA34;Ahuja2026__NA36;Ahuja2026__WS10;Ahuja2026__WS6;Ahuja2026__WS7"
+    },
+    {
+      "host_group": "Physalia",
+      "domain": "bacterial",
+      "libraries": 5,
+      "catalog_context": "historical_fixed_v2",
+      "target_scope": "bacterial_catalog_after_reviewed_domain_exclusions",
+      "present_host_depleted": 19,
+      "present_full_reads": 20,
+      "both": 18,
+      "only_host_depleted": 1,
+      "only_full_reads": 2,
+      "sample_ids": "Church2025__WAM-Z97914;Church2025__YPM-IZ-110433;Church2025__YPM-IZ-110467;Church2025__YPM-IZ-110877;Church2025__YPM-IZ-110926"
+    },
+    {
+      "host_group": "Physalia",
+      "domain": "viral",
+      "libraries": 5,
+      "catalog_context": "historical_fixed_v2",
+      "target_scope": "combined_associate_and_endogenous_candidate_viral_catalog",
+      "present_host_depleted": 15,
+      "present_full_reads": 31,
+      "both": 15,
+      "only_host_depleted": 0,
+      "only_full_reads": 16,
+      "sample_ids": "Church2025__WAM-Z97914;Church2025__YPM-IZ-110433;Church2025__YPM-IZ-110467;Church2025__YPM-IZ-110877;Church2025__YPM-IZ-110926"
+    },
+    {
+      "host_group": "all",
+      "domain": "bacterial",
+      "libraries": 10,
+      "catalog_context": "historical_fixed_v2",
+      "target_scope": "bacterial_catalog_after_reviewed_domain_exclusions",
+      "present_host_depleted": 22,
+      "present_full_reads": 24,
+      "both": 21,
+      "only_host_depleted": 1,
+      "only_full_reads": 3,
+      "sample_ids": "Ahuja2026__NA34;Ahuja2026__NA36;Ahuja2026__WS10;Ahuja2026__WS6;Ahuja2026__WS7;Church2025__WAM-Z97914;Church2025__YPM-IZ-110433;Church2025__YPM-IZ-110467;Church2025__YPM-IZ-110877;Church2025__YPM-IZ-110926"
+    },
+    {
+      "host_group": "all",
+      "domain": "viral",
+      "libraries": 10,
+      "catalog_context": "historical_fixed_v2",
+      "target_scope": "combined_associate_and_endogenous_candidate_viral_catalog",
+      "present_host_depleted": 22,
+      "present_full_reads": 53,
+      "both": 22,
+      "only_host_depleted": 0,
+      "only_full_reads": 31,
+      "sample_ids": "Ahuja2026__NA34;Ahuja2026__NA36;Ahuja2026__WS10;Ahuja2026__WS6;Ahuja2026__WS7;Church2025__WAM-Z97914;Church2025__YPM-IZ-110433;Church2025__YPM-IZ-110467;Church2025__YPM-IZ-110877;Church2025__YPM-IZ-110926"
+    }
+  ],
+  "interpretation": "Removal percentages describe current read processing; paired control counts reuse the historical fixed v2 catalog and are not v3 results. Viral paired controls include both associate and endogenous-candidate targets. Neither comparison isolates a causal effect on microbial discovery."
+}

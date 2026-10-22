@@ -1,0 +1,924 @@
+{
+  "scope": "cohort",
+  "samples": [
+    "Ahuja2024__CWD1",
+    "Ahuja2024__CWD101",
+    "Ahuja2024__CWD104",
+    "Ahuja2024__CWD11",
+    "Ahuja2024__CWD116",
+    "Ahuja2024__CWD117",
+    "Ahuja2024__CWD12",
+    "Ahuja2024__CWD121",
+    "Ahuja2024__CWD122",
+    "Ahuja2024__CWD131",
+    "Ahuja2024__CWD141",
+    "Ahuja2024__CWD144",
+    "Ahuja2024__CWD146",
+    "Ahuja2024__CWD16",
+    "Ahuja2024__CWD17",
+    "Ahuja2024__CWD19",
+    "Ahuja2024__CWD2",
+    "Ahuja2024__CWD20",
+    "Ahuja2024__CWD21",
+    "Ahuja2024__CWD3",
+    "Ahuja2024__CWD6",
+    "Ahuja2024__CWD7",
+    "Ahuja2024__NA1",
+    "Ahuja2024__NA10",
+    "Ahuja2024__NA11",
+    "Ahuja2024__NA2",
+    "Ahuja2024__NA3",
+    "Ahuja2024__NA4",
+    "Ahuja2024__NA5",
+    "Ahuja2024__NA6",
+    "Ahuja2024__NA7",
+    "Ahuja2024__NA8",
+    "Ahuja2024__NA9",
+    "Ahuja2026__NA19",
+    "Ahuja2026__NA28",
+    "Ahuja2026__NA29",
+    "Ahuja2026__NA30",
+    "Ahuja2026__NA31",
+    "Ahuja2026__NA32",
+    "Ahuja2026__NA33",
+    "Ahuja2026__NA34",
+    "Ahuja2026__NA35",
+    "Ahuja2026__NA36",
+    "Ahuja2026__NA37",
+    "Ahuja2026__NA38",
+    "Ahuja2026__WS10",
+    "Ahuja2026__WS2",
+    "Ahuja2026__WS3",
+    "Ahuja2026__WS4",
+    "Ahuja2026__WS5",
+    "Ahuja2026__WS6",
+    "Ahuja2026__WS7",
+    "Ahuja2026__WS8",
+    "Ahuja2026__WS9",
+    "Church2025__FM-16644",
+    "Church2025__NIWA-173304",
+    "Church2025__NIWA-173305",
+    "Church2025__OA-190531-1",
+    "Church2025__OA-Bluebottle",
+    "Church2025__TMAG-K5632",
+    "Church2025__TMAG-K5633",
+    "Church2025__TMAG-K5634",
+    "Church2025__TMAG-K5635",
+    "Church2025__TMAG-K5636",
+    "Church2025__WAM-Z88480",
+    "Church2025__WAM-Z97900",
+    "Church2025__WAM-Z97901",
+    "Church2025__WAM-Z97902",
+    "Church2025__WAM-Z97903",
+    "Church2025__WAM-Z97906",
+    "Church2025__WAM-Z97907",
+    "Church2025__WAM-Z97908",
+    "Church2025__WAM-Z97910",
+    "Church2025__WAM-Z97911",
+    "Church2025__WAM-Z97914",
+    "Church2025__WAM-Z97916",
+    "Church2025__WAM-Z97917",
+    "Church2025__WAM-Z97920",
+    "Church2025__WAM-Z97921",
+    "Church2025__WAM-Z97923",
+    "Church2025__YPM-IZ-104460",
+    "Church2025__YPM-IZ-104461",
+    "Church2025__YPM-IZ-104464",
+    "Church2025__YPM-IZ-104465",
+    "Church2025__YPM-IZ-106919",
+    "Church2025__YPM-IZ-106920",
+    "Church2025__YPM-IZ-106923",
+    "Church2025__YPM-IZ-106935",
+    "Church2025__YPM-IZ-106936",
+    "Church2025__YPM-IZ-106937",
+    "Church2025__YPM-IZ-106941",
+    "Church2025__YPM-IZ-106943",
+    "Church2025__YPM-IZ-106954",
+    "Church2025__YPM-IZ-106958",
+    "Church2025__YPM-IZ-110251",
+    "Church2025__YPM-IZ-110254",
+    "Church2025__YPM-IZ-110264",
+    "Church2025__YPM-IZ-110268",
+    "Church2025__YPM-IZ-110269",
+    "Church2025__YPM-IZ-110276",
+    "Church2025__YPM-IZ-110277",
+    "Church2025__YPM-IZ-110278",
+    "Church2025__YPM-IZ-110433",
+    "Church2025__YPM-IZ-110434",
+    "Church2025__YPM-IZ-110436",
+    "Church2025__YPM-IZ-110438",
+    "Church2025__YPM-IZ-110443",
+    "Church2025__YPM-IZ-110460",
+    "Church2025__YPM-IZ-110467",
+    "Church2025__YPM-IZ-110468",
+    "Church2025__YPM-IZ-110469",
+    "Church2025__YPM-IZ-110470",
+    "Church2025__YPM-IZ-110471",
+    "Church2025__YPM-IZ-110473",
+    "Church2025__YPM-IZ-110474",
+    "Church2025__YPM-IZ-110480",
+    "Church2025__YPM-IZ-110515",
+    "Church2025__YPM-IZ-110520",
+    "Church2025__YPM-IZ-110526",
+    "Church2025__YPM-IZ-110556",
+    "Church2025__YPM-IZ-110557",
+    "Church2025__YPM-IZ-110558",
+    "Church2025__YPM-IZ-110566",
+    "Church2025__YPM-IZ-110569",
+    "Church2025__YPM-IZ-110600",
+    "Church2025__YPM-IZ-110602",
+    "Church2025__YPM-IZ-110605",
+    "Church2025__YPM-IZ-110612",
+    "Church2025__YPM-IZ-110613",
+    "Church2025__YPM-IZ-110616",
+    "Church2025__YPM-IZ-110631",
+    "Church2025__YPM-IZ-110633",
+    "Church2025__YPM-IZ-110667",
+    "Church2025__YPM-IZ-110694",
+    "Church2025__YPM-IZ-110716",
+    "Church2025__YPM-IZ-110726",
+    "Church2025__YPM-IZ-110738",
+    "Church2025__YPM-IZ-110777",
+    "Church2025__YPM-IZ-110780",
+    "Church2025__YPM-IZ-110785",
+    "Church2025__YPM-IZ-110786",
+    "Church2025__YPM-IZ-110828",
+    "Church2025__YPM-IZ-110829",
+    "Church2025__YPM-IZ-110830",
+    "Church2025__YPM-IZ-110842",
+    "Church2025__YPM-IZ-110843",
+    "Church2025__YPM-IZ-110844",
+    "Church2025__YPM-IZ-110845",
+    "Church2025__YPM-IZ-110846",
+    "Church2025__YPM-IZ-110847",
+    "Church2025__YPM-IZ-110876",
+    "Church2025__YPM-IZ-110877",
+    "Church2025__YPM-IZ-110878",
+    "Church2025__YPM-IZ-110880",
+    "Church2025__YPM-IZ-110881",
+    "Church2025__YPM-IZ-110882",
+    "Church2025__YPM-IZ-110883",
+    "Church2025__YPM-IZ-110906",
+    "Church2025__YPM-IZ-110907",
+    "Church2025__YPM-IZ-110925",
+    "Church2025__YPM-IZ-110926",
+    "Church2025__YPM-IZ-110930",
+    "Church2025__YPM-IZ-110931",
+    "Church2025__YPM-IZ-110933",
+    "Church2025__YPM-IZ-110937",
+    "Church2025__YPM-IZ-110938",
+    "Church2025__YPM-IZ-110943",
+    "Church2025__YPM-IZ-110972",
+    "Church2025__YPM-IZ-111006",
+    "Church2025__YPM-IZ-111007",
+    "Church2025__YPM-IZ-111008",
+    "Church2025__YPM-IZ-111009",
+    "Church2025__YPM-IZ-111010",
+    "Church2025__YPM-IZ-111012",
+    "Church2025__YPM-IZ-111013",
+    "Church2025__YPM-IZ-111014",
+    "Church2025__YPM-IZ-111016",
+    "Church2025__YPM-IZ-111017",
+    "Church2025__YPM-IZ-111018",
+    "Church2025__YPM-IZ-111156",
+    "Church2025__YPM-IZ-111157",
+    "Church2025__YPM-IZ-111158",
+    "Church2025__YPM-IZ-111159",
+    "Church2025__YPM-IZ-111160",
+    "Church2025__YPM-IZ-111163",
+    "Church2025__YPM-IZ-111207",
+    "Church2025__YPM-IZ-111208",
+    "Church2025__YPM-IZ-111209",
+    "Church2025__YPM-IZ-111210",
+    "Church2025__YPM-IZ-111241",
+    "Church2025__YPM-IZ-111243",
+    "Church2025__YPM-IZ-111495",
+    "Church2025__YPM-IZ-111513",
+    "Church2025__YPM-IZ-111514",
+    "Church2025__YPM-IZ-111517",
+    "Church2025__YPM-IZ-111518",
+    "Church2025__YPM-IZ-111519",
+    "Church2025__YPM-IZ-111520",
+    "Church2025__YPM-IZ-111521",
+    "Church2025__YPM-IZ-111529",
+    "Church2025__YPM-IZ-111530",
+    "Church2025__YPM-IZ-111539",
+    "Church2025__YPM-IZ-111547",
+    "Church2025__YPM-IZ-111839",
+    "Church2025__YPM-IZ-111840",
+    "Manko2026__D611-D6",
+    "Manko2026__D666-D10",
+    "Manko2026__D669-SS5",
+    "Manko2026__D725-D8",
+    "Manko2026__D961-D3",
+    "Manko2026__M120-SS3",
+    "Manko2026__T411-SS2",
+    "Manko2026__T676-SS3"
+  ],
+  "max_distinct_pairs_per_library": 500,
+  "selection": "ascending_sha256_of_distinct_sequence_pairs",
+  "unique_read_queries": 6720,
+  "selected_pair_occurrences": 3384,
+  "pair_classification_counts": {
+    "both_mates_human_only_near_best": 2060,
+    "human_with_alternatives": 1241,
+    "incomplete_confirmation": 29,
+    "unresolved_truncation_or_unknown_taxonomy": 53,
+    "human_not_supported_by_nt": 1
+  },
+  "mate_classification_counts": {
+    "human_with_alternatives": 2335,
+    "human_only_near_best": 4294,
+    "no_qualifying_hit": 51,
+    "unresolved_truncation_or_unknown_taxonomy": 86,
+    "human_not_near_best": 2
+  },
+  "per_sample_pair_classifications": {
+    "Ahuja2024__CWD1": {
+      "both_mates_human_only_near_best": 2,
+      "human_with_alternatives": 1
+    },
+    "Ahuja2024__CWD101": {
+      "incomplete_confirmation": 2
+    },
+    "Ahuja2024__CWD11": {
+      "human_with_alternatives": 1
+    },
+    "Ahuja2024__CWD117": {
+      "both_mates_human_only_near_best": 1,
+      "incomplete_confirmation": 3,
+      "human_with_alternatives": 1
+    },
+    "Ahuja2024__CWD121": {
+      "both_mates_human_only_near_best": 1,
+      "human_with_alternatives": 1
+    },
+    "Ahuja2024__CWD122": {
+      "both_mates_human_only_near_best": 25,
+      "human_with_alternatives": 19
+    },
+    "Ahuja2024__CWD16": {
+      "human_with_alternatives": 1
+    },
+    "Ahuja2024__CWD17": {
+      "human_with_alternatives": 33,
+      "both_mates_human_only_near_best": 8,
+      "unresolved_truncation_or_unknown_taxonomy": 9
+    },
+    "Ahuja2024__CWD19": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Ahuja2024__CWD2": {
+      "both_mates_human_only_near_best": 2,
+      "unresolved_truncation_or_unknown_taxonomy": 1
+    },
+    "Ahuja2024__CWD20": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 1
+    },
+    "Ahuja2024__CWD21": {
+      "human_with_alternatives": 1
+    },
+    "Ahuja2024__CWD3": {
+      "incomplete_confirmation": 1
+    },
+    "Ahuja2024__CWD6": {
+      "human_with_alternatives": 2
+    },
+    "Ahuja2024__CWD7": {
+      "human_with_alternatives": 1
+    },
+    "Ahuja2024__NA1": {
+      "incomplete_confirmation": 2
+    },
+    "Ahuja2024__NA10": {
+      "both_mates_human_only_near_best": 43,
+      "human_with_alternatives": 23
+    },
+    "Ahuja2024__NA11": {
+      "both_mates_human_only_near_best": 5,
+      "incomplete_confirmation": 1,
+      "human_with_alternatives": 1
+    },
+    "Ahuja2024__NA2": {
+      "human_with_alternatives": 1
+    },
+    "Ahuja2024__NA3": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 2
+    },
+    "Ahuja2024__NA4": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Ahuja2024__NA5": {
+      "human_with_alternatives": 6,
+      "unresolved_truncation_or_unknown_taxonomy": 1
+    },
+    "Ahuja2024__NA6": {
+      "both_mates_human_only_near_best": 3,
+      "human_with_alternatives": 5
+    },
+    "Ahuja2024__NA7": {
+      "both_mates_human_only_near_best": 15,
+      "human_with_alternatives": 23,
+      "unresolved_truncation_or_unknown_taxonomy": 2
+    },
+    "Ahuja2024__NA8": {
+      "both_mates_human_only_near_best": 3
+    },
+    "Ahuja2024__NA9": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Ahuja2026__NA19": {
+      "human_with_alternatives": 4,
+      "both_mates_human_only_near_best": 2
+    },
+    "Ahuja2026__NA28": {
+      "human_with_alternatives": 1
+    },
+    "Ahuja2026__NA29": {
+      "human_with_alternatives": 21,
+      "both_mates_human_only_near_best": 53
+    },
+    "Ahuja2026__NA30": {
+      "human_with_alternatives": 2,
+      "both_mates_human_only_near_best": 6
+    },
+    "Ahuja2026__NA31": {
+      "human_with_alternatives": 169,
+      "both_mates_human_only_near_best": 323,
+      "incomplete_confirmation": 3,
+      "unresolved_truncation_or_unknown_taxonomy": 4,
+      "human_not_supported_by_nt": 1
+    },
+    "Ahuja2026__NA32": {
+      "human_with_alternatives": 1
+    },
+    "Ahuja2026__NA33": {
+      "both_mates_human_only_near_best": 10,
+      "human_with_alternatives": 7
+    },
+    "Ahuja2026__NA34": {
+      "both_mates_human_only_near_best": 3,
+      "human_with_alternatives": 3
+    },
+    "Ahuja2026__NA35": {
+      "both_mates_human_only_near_best": 2
+    },
+    "Ahuja2026__NA36": {
+      "human_with_alternatives": 2,
+      "both_mates_human_only_near_best": 1
+    },
+    "Ahuja2026__NA38": {
+      "human_with_alternatives": 8,
+      "both_mates_human_only_near_best": 13
+    },
+    "Ahuja2026__WS10": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Ahuja2026__WS2": {
+      "both_mates_human_only_near_best": 2
+    },
+    "Ahuja2026__WS3": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Ahuja2026__WS4": {
+      "human_with_alternatives": 3,
+      "unresolved_truncation_or_unknown_taxonomy": 1
+    },
+    "Ahuja2026__WS5": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Ahuja2026__WS6": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Ahuja2026__WS7": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Ahuja2026__WS8": {
+      "human_with_alternatives": 1
+    },
+    "Ahuja2026__WS9": {
+      "incomplete_confirmation": 1,
+      "both_mates_human_only_near_best": 2
+    },
+    "Church2025__FM-16644": {
+      "human_with_alternatives": 4,
+      "both_mates_human_only_near_best": 10
+    },
+    "Church2025__NIWA-173304": {
+      "both_mates_human_only_near_best": 7,
+      "human_with_alternatives": 1
+    },
+    "Church2025__NIWA-173305": {
+      "human_with_alternatives": 4,
+      "both_mates_human_only_near_best": 2
+    },
+    "Church2025__OA-190531-1": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__TMAG-K5632": {
+      "unresolved_truncation_or_unknown_taxonomy": 1,
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__TMAG-K5633": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__TMAG-K5634": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__TMAG-K5635": {
+      "both_mates_human_only_near_best": 75,
+      "human_with_alternatives": 40,
+      "unresolved_truncation_or_unknown_taxonomy": 2,
+      "incomplete_confirmation": 1
+    },
+    "Church2025__TMAG-K5636": {
+      "both_mates_human_only_near_best": 33,
+      "human_with_alternatives": 16,
+      "unresolved_truncation_or_unknown_taxonomy": 1
+    },
+    "Church2025__WAM-Z88480": {
+      "human_with_alternatives": 1
+    },
+    "Church2025__WAM-Z97900": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__WAM-Z97901": {
+      "both_mates_human_only_near_best": 20,
+      "human_with_alternatives": 15
+    },
+    "Church2025__WAM-Z97902": {
+      "both_mates_human_only_near_best": 38,
+      "human_with_alternatives": 31,
+      "unresolved_truncation_or_unknown_taxonomy": 1
+    },
+    "Church2025__WAM-Z97903": {
+      "human_with_alternatives": 3,
+      "both_mates_human_only_near_best": 2
+    },
+    "Church2025__WAM-Z97906": {
+      "both_mates_human_only_near_best": 32,
+      "human_with_alternatives": 9,
+      "unresolved_truncation_or_unknown_taxonomy": 2
+    },
+    "Church2025__WAM-Z97907": {
+      "both_mates_human_only_near_best": 12,
+      "human_with_alternatives": 6
+    },
+    "Church2025__WAM-Z97908": {
+      "both_mates_human_only_near_best": 19,
+      "human_with_alternatives": 16,
+      "unresolved_truncation_or_unknown_taxonomy": 2
+    },
+    "Church2025__WAM-Z97910": {
+      "both_mates_human_only_near_best": 26,
+      "human_with_alternatives": 19
+    },
+    "Church2025__WAM-Z97911": {
+      "both_mates_human_only_near_best": 7,
+      "human_with_alternatives": 5
+    },
+    "Church2025__WAM-Z97914": {
+      "both_mates_human_only_near_best": 4,
+      "human_with_alternatives": 3
+    },
+    "Church2025__WAM-Z97916": {
+      "both_mates_human_only_near_best": 6,
+      "human_with_alternatives": 5
+    },
+    "Church2025__WAM-Z97917": {
+      "both_mates_human_only_near_best": 16,
+      "human_with_alternatives": 9,
+      "incomplete_confirmation": 1
+    },
+    "Church2025__WAM-Z97920": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__WAM-Z97921": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 3
+    },
+    "Church2025__WAM-Z97923": {
+      "human_with_alternatives": 4,
+      "both_mates_human_only_near_best": 7
+    },
+    "Church2025__YPM-IZ-104461": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-104464": {
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-106919": {
+      "both_mates_human_only_near_best": 2
+    },
+    "Church2025__YPM-IZ-106923": {
+      "both_mates_human_only_near_best": 2
+    },
+    "Church2025__YPM-IZ-106935": {
+      "human_with_alternatives": 2
+    },
+    "Church2025__YPM-IZ-106937": {
+      "both_mates_human_only_near_best": 2
+    },
+    "Church2025__YPM-IZ-106958": {
+      "both_mates_human_only_near_best": 3,
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-110251": {
+      "both_mates_human_only_near_best": 4,
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-110254": {
+      "human_with_alternatives": 3,
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-110264": {
+      "human_with_alternatives": 86,
+      "both_mates_human_only_near_best": 159,
+      "unresolved_truncation_or_unknown_taxonomy": 3,
+      "incomplete_confirmation": 2
+    },
+    "Church2025__YPM-IZ-110268": {
+      "both_mates_human_only_near_best": 9,
+      "human_with_alternatives": 6
+    },
+    "Church2025__YPM-IZ-110269": {
+      "human_with_alternatives": 7,
+      "both_mates_human_only_near_best": 4
+    },
+    "Church2025__YPM-IZ-110276": {
+      "both_mates_human_only_near_best": 15,
+      "human_with_alternatives": 5
+    },
+    "Church2025__YPM-IZ-110277": {
+      "both_mates_human_only_near_best": 9,
+      "human_with_alternatives": 4
+    },
+    "Church2025__YPM-IZ-110278": {
+      "both_mates_human_only_near_best": 24,
+      "human_with_alternatives": 21
+    },
+    "Church2025__YPM-IZ-110434": {
+      "both_mates_human_only_near_best": 1,
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-110438": {
+      "human_with_alternatives": 2,
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-110443": {
+      "incomplete_confirmation": 1
+    },
+    "Church2025__YPM-IZ-110467": {
+      "incomplete_confirmation": 1,
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-110468": {
+      "human_with_alternatives": 4,
+      "both_mates_human_only_near_best": 2
+    },
+    "Church2025__YPM-IZ-110469": {
+      "both_mates_human_only_near_best": 4
+    },
+    "Church2025__YPM-IZ-110471": {
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-110473": {
+      "both_mates_human_only_near_best": 11,
+      "human_with_alternatives": 4
+    },
+    "Church2025__YPM-IZ-110474": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-110480": {
+      "both_mates_human_only_near_best": 2,
+      "human_with_alternatives": 2
+    },
+    "Church2025__YPM-IZ-110520": {
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-110526": {
+      "human_with_alternatives": 2,
+      "unresolved_truncation_or_unknown_taxonomy": 1,
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-110556": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-110558": {
+      "both_mates_human_only_near_best": 6,
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-110566": {
+      "both_mates_human_only_near_best": 2
+    },
+    "Church2025__YPM-IZ-110569": {
+      "human_with_alternatives": 4,
+      "both_mates_human_only_near_best": 7
+    },
+    "Church2025__YPM-IZ-110600": {
+      "both_mates_human_only_near_best": 4,
+      "human_with_alternatives": 6
+    },
+    "Church2025__YPM-IZ-110605": {
+      "both_mates_human_only_near_best": 12,
+      "human_with_alternatives": 4
+    },
+    "Church2025__YPM-IZ-110612": {
+      "both_mates_human_only_near_best": 13,
+      "human_with_alternatives": 4,
+      "incomplete_confirmation": 1
+    },
+    "Church2025__YPM-IZ-110613": {
+      "both_mates_human_only_near_best": 4,
+      "human_with_alternatives": 4
+    },
+    "Church2025__YPM-IZ-110631": {
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-110667": {
+      "both_mates_human_only_near_best": 2,
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-110738": {
+      "both_mates_human_only_near_best": 2
+    },
+    "Church2025__YPM-IZ-110777": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-110780": {
+      "both_mates_human_only_near_best": 1,
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-110785": {
+      "both_mates_human_only_near_best": 6,
+      "human_with_alternatives": 2
+    },
+    "Church2025__YPM-IZ-110828": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-110829": {
+      "both_mates_human_only_near_best": 4
+    },
+    "Church2025__YPM-IZ-110830": {
+      "both_mates_human_only_near_best": 5,
+      "unresolved_truncation_or_unknown_taxonomy": 1,
+      "human_with_alternatives": 3
+    },
+    "Church2025__YPM-IZ-110842": {
+      "both_mates_human_only_near_best": 5,
+      "human_with_alternatives": 3
+    },
+    "Church2025__YPM-IZ-110844": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-110845": {
+      "both_mates_human_only_near_best": 2,
+      "human_with_alternatives": 3
+    },
+    "Church2025__YPM-IZ-110846": {
+      "both_mates_human_only_near_best": 2
+    },
+    "Church2025__YPM-IZ-110847": {
+      "both_mates_human_only_near_best": 3,
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-110876": {
+      "both_mates_human_only_near_best": 16,
+      "human_with_alternatives": 11,
+      "incomplete_confirmation": 1,
+      "unresolved_truncation_or_unknown_taxonomy": 1
+    },
+    "Church2025__YPM-IZ-110877": {
+      "both_mates_human_only_near_best": 5,
+      "human_with_alternatives": 2
+    },
+    "Church2025__YPM-IZ-110878": {
+      "both_mates_human_only_near_best": 4
+    },
+    "Church2025__YPM-IZ-110880": {
+      "human_with_alternatives": 2
+    },
+    "Church2025__YPM-IZ-110881": {
+      "human_with_alternatives": 7,
+      "both_mates_human_only_near_best": 24,
+      "incomplete_confirmation": 1
+    },
+    "Church2025__YPM-IZ-110882": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-110883": {
+      "human_with_alternatives": 5,
+      "both_mates_human_only_near_best": 17
+    },
+    "Church2025__YPM-IZ-110906": {
+      "both_mates_human_only_near_best": 4,
+      "human_with_alternatives": 2
+    },
+    "Church2025__YPM-IZ-110907": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-110925": {
+      "both_mates_human_only_near_best": 2,
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-110926": {
+      "human_with_alternatives": 14,
+      "both_mates_human_only_near_best": 24
+    },
+    "Church2025__YPM-IZ-110930": {
+      "human_with_alternatives": 8,
+      "both_mates_human_only_near_best": 15
+    },
+    "Church2025__YPM-IZ-110931": {
+      "both_mates_human_only_near_best": 15,
+      "human_with_alternatives": 11
+    },
+    "Church2025__YPM-IZ-110933": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-110937": {
+      "both_mates_human_only_near_best": 5,
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-110938": {
+      "unresolved_truncation_or_unknown_taxonomy": 1
+    },
+    "Church2025__YPM-IZ-110943": {
+      "human_with_alternatives": 1,
+      "incomplete_confirmation": 1,
+      "both_mates_human_only_near_best": 3
+    },
+    "Church2025__YPM-IZ-110972": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-111006": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 3
+    },
+    "Church2025__YPM-IZ-111007": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-111008": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-111009": {
+      "both_mates_human_only_near_best": 7,
+      "incomplete_confirmation": 2,
+      "human_with_alternatives": 2
+    },
+    "Church2025__YPM-IZ-111010": {
+      "both_mates_human_only_near_best": 7
+    },
+    "Church2025__YPM-IZ-111012": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 3
+    },
+    "Church2025__YPM-IZ-111013": {
+      "both_mates_human_only_near_best": 4
+    },
+    "Church2025__YPM-IZ-111014": {
+      "human_with_alternatives": 2,
+      "both_mates_human_only_near_best": 2
+    },
+    "Church2025__YPM-IZ-111016": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 2
+    },
+    "Church2025__YPM-IZ-111018": {
+      "both_mates_human_only_near_best": 8,
+      "human_with_alternatives": 2
+    },
+    "Church2025__YPM-IZ-111156": {
+      "both_mates_human_only_near_best": 6,
+      "human_with_alternatives": 2
+    },
+    "Church2025__YPM-IZ-111157": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-111158": {
+      "human_with_alternatives": 4,
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-111159": {
+      "both_mates_human_only_near_best": 3,
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-111160": {
+      "both_mates_human_only_near_best": 1,
+      "human_with_alternatives": 2
+    },
+    "Church2025__YPM-IZ-111163": {
+      "human_with_alternatives": 10,
+      "both_mates_human_only_near_best": 1,
+      "unresolved_truncation_or_unknown_taxonomy": 1
+    },
+    "Church2025__YPM-IZ-111207": {
+      "both_mates_human_only_near_best": 6,
+      "human_with_alternatives": 4
+    },
+    "Church2025__YPM-IZ-111208": {
+      "human_with_alternatives": 5,
+      "both_mates_human_only_near_best": 7
+    },
+    "Church2025__YPM-IZ-111209": {
+      "both_mates_human_only_near_best": 3
+    },
+    "Church2025__YPM-IZ-111210": {
+      "both_mates_human_only_near_best": 12,
+      "human_with_alternatives": 10
+    },
+    "Church2025__YPM-IZ-111241": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-111243": {
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-111495": {
+      "human_with_alternatives": 4,
+      "both_mates_human_only_near_best": 3
+    },
+    "Church2025__YPM-IZ-111513": {
+      "incomplete_confirmation": 1,
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-111514": {
+      "both_mates_human_only_near_best": 2,
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-111517": {
+      "human_with_alternatives": 2,
+      "both_mates_human_only_near_best": 2
+    },
+    "Church2025__YPM-IZ-111518": {
+      "both_mates_human_only_near_best": 6,
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-111520": {
+      "both_mates_human_only_near_best": 16,
+      "unresolved_truncation_or_unknown_taxonomy": 1,
+      "human_with_alternatives": 7
+    },
+    "Church2025__YPM-IZ-111521": {
+      "both_mates_human_only_near_best": 5,
+      "human_with_alternatives": 3
+    },
+    "Church2025__YPM-IZ-111529": {
+      "both_mates_human_only_near_best": 1,
+      "human_with_alternatives": 1
+    },
+    "Church2025__YPM-IZ-111530": {
+      "both_mates_human_only_near_best": 2,
+      "human_with_alternatives": 2
+    },
+    "Church2025__YPM-IZ-111539": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 4
+    },
+    "Church2025__YPM-IZ-111547": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 1
+    },
+    "Church2025__YPM-IZ-111839": {
+      "unresolved_truncation_or_unknown_taxonomy": 3,
+      "human_with_alternatives": 5,
+      "both_mates_human_only_near_best": 3
+    },
+    "Church2025__YPM-IZ-111840": {
+      "both_mates_human_only_near_best": 6,
+      "unresolved_truncation_or_unknown_taxonomy": 1,
+      "human_with_alternatives": 3
+    },
+    "Manko2026__D666-D10": {
+      "both_mates_human_only_near_best": 263,
+      "human_with_alternatives": 180,
+      "unresolved_truncation_or_unknown_taxonomy": 8,
+      "incomplete_confirmation": 2
+    },
+    "Manko2026__D725-D8": {
+      "both_mates_human_only_near_best": 3
+    },
+    "Manko2026__M120-SS3": {
+      "both_mates_human_only_near_best": 4
+    },
+    "Manko2026__T411-SS2": {
+      "human_with_alternatives": 1,
+      "both_mates_human_only_near_best": 2,
+      "unresolved_truncation_or_unknown_taxonomy": 1
+    },
+    "Manko2026__T676-SS3": {
+      "both_mates_human_only_near_best": 313,
+      "human_with_alternatives": 182,
+      "incomplete_confirmation": 1,
+      "unresolved_truncation_or_unknown_taxonomy": 4
+    }
+  }
+}

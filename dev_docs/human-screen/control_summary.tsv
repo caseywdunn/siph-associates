@@ -1,0 +1,5 @@
+sample_id	selection	raw_selected_pairs	qc_pairs	bowtie2_concordant_pairs	stringent_human_compatible_pairs	distinct_sequence_pairs	reference_sequences	occupied_1Mb_windows	percent_selected_raw_pairs	percent_qc_pairs	taxonomic_confirmation
+control_human	simulated_reference_pairs	10000	9991	9991	8979	8979	29	2715	89.79	89.87088379541588	pending; human-compatible mapping alone
+control_P_physalis	simulated_reference_pairs	10000	9788	122	0	0	0	0	0.0	0.0	pending; human-compatible mapping alone
+control_N_septata	simulated_reference_pairs	10000	9702	4	0	0	0	0	0.0	0.0	pending; human-compatible mapping alone
+control_H_rubrum	simulated_reference_pairs	10000	9865	3	0	0	0	0	0.0	0.0	pending; human-compatible mapping alone

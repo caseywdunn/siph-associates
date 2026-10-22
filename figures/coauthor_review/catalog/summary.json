@@ -1,0 +1,17 @@
+{
+  "catalog_counts": {
+    "associate": 404,
+    "endogenous_candidate": 160
+  },
+  "reclassified_targets": [
+    "VOTU00144",
+    "VOTU00165",
+    "VOTU00242"
+  ],
+  "reclassified_accepted_detections": 7,
+  "reclassified_assembly_supported": 3,
+  "target_ids_and_sequence_checksums_unchanged": true,
+  "mapping_inputs_and_grades_unchanged": true,
+  "physalia_models_reused": "Physalia metadata and bacterial evidence unchanged; original validated run retained.",
+  "integration_status": "Possible endogenous candidates; genomic integration is not demonstrated."
+}

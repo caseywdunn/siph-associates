@@ -1,0 +1,8 @@
+name: siph-associates-human-screen
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - snakemake-minimal=7.24.0
+  - pulp=2.7
+  - pysam=0.21.0
+  - biopython=1.81

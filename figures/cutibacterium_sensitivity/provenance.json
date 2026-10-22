@@ -1,0 +1,56 @@
+{
+  "analysis_id": "community-cutibacterium-omission-sensitivity",
+  "run_id": "20261022T183630Z",
+  "started_at_utc": "2026-10-22T18:36:30.990825+00:00",
+  "completed_at_utc": "2026-10-22T18:36:49.985823+00:00",
+  "status": "complete",
+  "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python3.11 scripts/run_cutibacterium_sensitivity.py --config config/cutibacterium_sensitivity.json",
+  "r_command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/stats_env/bin/Rscript workflow/scripts/analyze_cutibacterium_sensitivity.R config/cutibacterium_sensitivity.json",
+  "python_version": "3.11.0",
+  "slurm_job_id": "13489566",
+  "base_git_revision": "0ad888a33ce970c0e7d87c02b421d4e69373e22a",
+  "inputs_sha256": {
+    "figures/coauthor_metadata/specimen_context.tsv": "28c2a55caae694fee49f6fb7f2cf807d436f8cd77789d0ff72952b51862b1cd3",
+    "figures/coauthor_metadata/contrast_membership.tsv": "6cbb4875875eab55154ae9c3d753a810c4d45e87fd8ea927e1cf8761c38bf90b",
+    "figures/coauthor_metadata/community_tests.tsv": "3e9ed31584f816a40c9b7e5843a8b2655e3eeb2cb666fb696779dd8072f3e5dc",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/grades/bacterial_grades.tsv": "a30a016ddb520d21ae54b5429ec995dc468bae2ea0909c161f575e8d6652f36a"
+  },
+  "source_sha256": {
+    "config/cutibacterium_sensitivity.json": "e33fdc7d14f9b7cde2784361756138ddc3d30788b83ab7fa7e7f5a21b32c11c9",
+    "config/coauthor_metadata_analysis.json": "53e568f04493dc2722388154362aff4ea897027ad9f71aa7683ca8a365f3a9e8",
+    "workflow/scripts/analyze_coauthor_communities.R": "07c89c62863519f275ad09549c40f1c4c1d42b2ac0e1df33aeac5ec3de1c9c0c",
+    "workflow/scripts/analyze_cutibacterium_sensitivity.R": "7d2e6694ce4671ebd10026a651f76fd792bc549b9d454ef1c7fb42f641164e4e",
+    "scripts/run_cutibacterium_sensitivity.py": "0c0c4f21fd589f008ba6ab74b771ba9fad907d7b1c54498423f3b1ff73d25e22",
+    "workflow/cutibacterium_sensitivity.smk": "23b02281e8266bb3ec39f2d0d2ab9975fc4a7b9ef32732b1c059d4f927d41fd3",
+    "envs/stats.yaml": "64194039a57f22c0eb398f47b9776977502c448bbfea13c1859be7697794b584"
+  },
+  "source_snapshot": "figures/cutibacterium_sensitivity/provenance/source",
+  "outputs_sha256": {
+    "figures/cutibacterium_sensitivity/community_tests.tsv": "d9338c847aee0e436238eda212db1b70583fcbf1eeb442e4d6938c5117fed6dd",
+    "figures/cutibacterium_sensitivity/community_membership.tsv": "b746a78e8b991633b623d687cbc7c79e8ae180e14d6e3969dc0b3d4721b8c41a",
+    "figures/cutibacterium_sensitivity/summary.json": "aac717114cf3635588809d7c14ae2bbe07b9d8f0fed93d8e97ae6d1696b98b88",
+    "figures/cutibacterium_sensitivity/values.tex": "ab9f009d04857cb3dd10a9a6ec995e9fc5b66a499c84a689352ac664ddaef475",
+    "figures/cutibacterium_sensitivity/session_info.txt": "633d7474d254e31999547fd462df2a00391b4c5431055cc63fb523d15884e3e4"
+  },
+  "checks": {
+    "unchanged_inputs_and_sources": true,
+    "baseline_reconstruction_matches": true
+  },
+  "parameters": {
+    "schema_version": 1,
+    "original_config": "config/coauthor_metadata_analysis.json",
+    "metadata": "figures/coauthor_metadata/specimen_context.tsv",
+    "membership": "figures/coauthor_metadata/contrast_membership.tsv",
+    "original_tests": "figures/coauthor_metadata/community_tests.tsv",
+    "bacterial_grades": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/grades/bacterial_grades.tsv",
+    "omit_target": "BAC00019",
+    "contrasts": [
+      "utriculus_pacific_regions",
+      "sw_pacific_host_species"
+    ],
+    "grade_column": "grade",
+    "output_dir": "figures/cutibacterium_sensitivity",
+    "rscript": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/stats_env/bin/Rscript",
+    "interpretation": "One targeted sensitivity omits the C. acnes reference BAC00019 from the two estimable primary bacterial community contrasts. Cohort definitions, depth/tissue restriction, read-effort/flowcell adjustment, permutation seed and number are unchanged. No specimens are excluded by human-read count. This does not identify a contamination source or remove other possible contamination. Original reported analysis outputs are preserved."
+  }
+}

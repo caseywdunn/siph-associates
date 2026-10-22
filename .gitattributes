@@ -3,3 +3,5 @@
 *.tsv whitespace=-blank-at-eol
 # Preserve Snakemake's exact generated DOT output, including closing-line spaces.
 docs/workflow/graphs/*.dot whitespace=-blank-at-eol
+# Preserve verbatim R sessionInfo output covered by provenance checksums.
+figures/**/session_info.txt whitespace=-blank-at-eol

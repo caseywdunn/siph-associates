@@ -3,7 +3,7 @@
 For the current 213-library execution, start with
 [current cohort and downstream reporting](../expanded_reporting.md).
 The original stage guides below explain the shared algorithms and historical
-205-library gates. The accepted expansion uses those same rules through these
+205-library gates. The current workflows use those rules through these
 bounded entry points:
 
 | Current operation | Guide | Workflow |
@@ -14,7 +14,11 @@ bounded entry points:
 | Genome/viral QC and catalog freeze | [Catalog QC](../catalog_qc.md) | QC, curation and freeze entry points linked in that guide |
 | Completed all-library mapping | [Remapping](../cohort_remapping.md) | `workflow/cohort_remapping.smk` |
 | Grades, statistics, SSU evidence and exports | [Reporting](../expanded_reporting.md) | `workflow/expanded_reporting.smk` |
-
+| Reviewed viral classes and host metadata | [Reporting interpretation](../viral_reporting_review.md) | `workflow/coauthor_reporting.smk` |
+| Tissue, depth and matched host/region comparisons | [Metadata analyses](../coauthor_metadata_analysis.md) | `workflow/coauthor_metadata.smk` |
+| Human-compatible read audit and candidate verification | [Human-read methods](../human_read_screen.md) | `workflow/human_screen.smk`, `workflow/human_confirmation.smk` |
+| Human-compatible reads and C. acnes detections | [Descriptive comparison](../human_cutibacterium.md) | `workflow/human_cutibacterium.smk` |
+| Community comparisons with C. acnes omitted | [Omission sensitivity](../cutibacterium_sensitivity.md) | `workflow/cutibacterium_sensitivity.smk` |
 
 Follow DNA from the original sequencing libraries to the paper's figures and
 supporting tables. The [paper-to-analysis index](../../README.md#finding-analyses-from-the-paper)

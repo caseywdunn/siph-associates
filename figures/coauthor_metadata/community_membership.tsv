@@ -1,0 +1,421 @@
+contrast	sample_id	group	flowcell	input_pairs	grade_column	bacterial_targets	included_nonempty_profile
+utriculus_pacific_regions	Church2025__WAM-Z97917	SW Pacific	LH00309:40:22CMVKLT3	4099010	grade	6	TRUE
+utriculus_pacific_regions	Church2025__WAM-Z97921	SW Pacific	LH00309:19:2273H5LT3	3033902	grade	7	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-104460	NW Pacific	A01519:271:HWW7GDSX5	1451807	grade	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-104461	NW Pacific	A01519:271:HWW7GDSX5	1028189	grade	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-104464	NW Pacific	A01519:212:HHKVKDSX5	3049561	grade	4	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-106919	NW Pacific	A01519:271:HWW7GDSX5	2818990	grade	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-106920	NW Pacific	A00124:569:HCTNWDSX5	2712464	grade	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-106923	NW Pacific	A00124:569:HCTNWDSX5	2819709	grade	8	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110264	Central Pacific	A01519:271:HWW7GDSX5	1766220	grade	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110268	Central Pacific	A01519:271:HWW7GDSX5	2015563	grade	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110276	Central Pacific	A01519:271:HWW7GDSX5	2015901	grade	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110277	Central Pacific	A01519:271:HWW7GDSX5	2084953	grade	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110278	Central Pacific	A01519:271:HWW7GDSX5	1677168	grade	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110460	Central Pacific	A00124:672:HGYTLDSX7	1992093	grade	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110471	Central Pacific	A00124:624:HWVLCDSX5	1128644	grade	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110473	Central Pacific	A00124:673:HFG3JDSX7	3150605	grade	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110474	Central Pacific	A00124:624:HWVLCDSX5	1325007	grade	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110480	Central Pacific	A00124:624:HWVLCDSX5	1244762	grade	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110515	SW Pacific	A00124:672:HGYTLDSX7	4364963	grade	4	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110520	SW Pacific	A00124:672:HGYTLDSX7	3615753	grade	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110526	SW Pacific	A00124:672:HGYTLDSX7	1866293	grade	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110566	NW Pacific	A00124:672:HGYTLDSX7	2486398	grade	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110569	NW Pacific	A00124:673:HFG3JDSX7	7752035	grade	6	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110600	NW Pacific	A00124:673:HFG3JDSX7	2023030	grade	4	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110602	NW Pacific	A00124:672:HGYTLDSX7	2392670	grade	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110605	SW Pacific	A00124:672:HGYTLDSX7	1578360	grade	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110612	SW Pacific	A00124:672:HGYTLDSX7	2261057	grade	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110613	SW Pacific	A00124:672:HGYTLDSX7	5305261	grade	4	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110616	SW Pacific	A00124:672:HGYTLDSX7	3857055	grade	9	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110777	Central Pacific	LH00309:19:2273H5LT3	2633426	grade	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110780	Central Pacific	LH00309:19:2273H5LT3	4363566	grade	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110785	Central Pacific	LH00309:22:22CMVLLT3	7173840	grade	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110786	Central Pacific	LH00309:22:22CMVLLT3	1998217	grade	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110925	NW Pacific	LH00309:109:22CJLFLT3	663125	grade	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110926	NW Pacific	LH00309:109:22CJLFLT3	451732	grade	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110930	NW Pacific	LH00309:109:22CJLFLT3	717358	grade	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110933	NW Pacific	LH00309:109:22CJLFLT3	738414	grade	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110937	NW Pacific	A00124:710:HMFVWDSX7	2623232	grade	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110938	NW Pacific	LH00309:109:22CJLFLT3	834854	grade	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-111163	SW Pacific	LH00309:204:227MGJLT4	2558924	grade	8	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-111547	Central Pacific	LH00309:259:22CWK3LT4	1469775	grade	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-111840	Central Pacific	LH00309:325:22HLVMLT4	3090553	grade	1	TRUE
+utriculus_regions_with_indian	Church2025__WAM-Z97917	SW Pacific	LH00309:40:22CMVKLT3	4099010	grade	6	TRUE
+utriculus_regions_with_indian	Church2025__WAM-Z97921	SW Pacific	LH00309:19:2273H5LT3	3033902	grade	7	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-104460	NW Pacific	A01519:271:HWW7GDSX5	1451807	grade	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-104461	NW Pacific	A01519:271:HWW7GDSX5	1028189	grade	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-104464	NW Pacific	A01519:212:HHKVKDSX5	3049561	grade	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-106919	NW Pacific	A01519:271:HWW7GDSX5	2818990	grade	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-106920	NW Pacific	A00124:569:HCTNWDSX5	2712464	grade	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-106923	NW Pacific	A00124:569:HCTNWDSX5	2819709	grade	8	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110264	Central Pacific	A01519:271:HWW7GDSX5	1766220	grade	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110268	Central Pacific	A01519:271:HWW7GDSX5	2015563	grade	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110276	Central Pacific	A01519:271:HWW7GDSX5	2015901	grade	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110277	Central Pacific	A01519:271:HWW7GDSX5	2084953	grade	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110278	Central Pacific	A01519:271:HWW7GDSX5	1677168	grade	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110460	Central Pacific	A00124:672:HGYTLDSX7	1992093	grade	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110471	Central Pacific	A00124:624:HWVLCDSX5	1128644	grade	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110473	Central Pacific	A00124:673:HFG3JDSX7	3150605	grade	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110474	Central Pacific	A00124:624:HWVLCDSX5	1325007	grade	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110480	Central Pacific	A00124:624:HWVLCDSX5	1244762	grade	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110515	SW Pacific	A00124:672:HGYTLDSX7	4364963	grade	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110520	SW Pacific	A00124:672:HGYTLDSX7	3615753	grade	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110526	SW Pacific	A00124:672:HGYTLDSX7	1866293	grade	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110566	NW Pacific	A00124:672:HGYTLDSX7	2486398	grade	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110569	NW Pacific	A00124:673:HFG3JDSX7	7752035	grade	6	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110600	NW Pacific	A00124:673:HFG3JDSX7	2023030	grade	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110602	NW Pacific	A00124:672:HGYTLDSX7	2392670	grade	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110605	SW Pacific	A00124:672:HGYTLDSX7	1578360	grade	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110612	SW Pacific	A00124:672:HGYTLDSX7	2261057	grade	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110613	SW Pacific	A00124:672:HGYTLDSX7	5305261	grade	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110616	SW Pacific	A00124:672:HGYTLDSX7	3857055	grade	9	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110777	Central Pacific	LH00309:19:2273H5LT3	2633426	grade	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110780	Central Pacific	LH00309:19:2273H5LT3	4363566	grade	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110785	Central Pacific	LH00309:22:22CMVLLT3	7173840	grade	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110786	Central Pacific	LH00309:22:22CMVLLT3	1998217	grade	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110925	NW Pacific	LH00309:109:22CJLFLT3	663125	grade	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110926	NW Pacific	LH00309:109:22CJLFLT3	451732	grade	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110930	NW Pacific	LH00309:109:22CJLFLT3	717358	grade	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110933	NW Pacific	LH00309:109:22CJLFLT3	738414	grade	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110937	NW Pacific	A00124:710:HMFVWDSX7	2623232	grade	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110938	NW Pacific	LH00309:109:22CJLFLT3	834854	grade	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111006	W Indian	A00124:710:HMFVWDSX7	1895653	grade	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111007	W Indian	A00124:710:HMFVWDSX7	3083108	grade	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111008	W Indian	A00124:710:HMFVWDSX7	2477474	grade	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111009	W Indian	A00124:710:HMFVWDSX7	2599854	grade	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111163	SW Pacific	LH00309:204:227MGJLT4	2558924	grade	8	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111547	Central Pacific	LH00309:259:22CWK3LT4	1469775	grade	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111840	Central Pacific	LH00309:325:22HLVMLT4	3090553	grade	1	TRUE
+sw_pacific_host_species	Church2025__NIWA-173305	Physalia minuta	LH00309:204:227MGJLT4	4361937	grade	3	TRUE
+sw_pacific_host_species	Church2025__TMAG-K5634	Physalia minuta	A00124:638:H5N7GDSX7	6744441	grade	1	TRUE
+sw_pacific_host_species	Church2025__TMAG-K5635	Physalia minuta	A00124:673:HFG3JDSX7	13643311	grade	5	TRUE
+sw_pacific_host_species	Church2025__TMAG-K5636	Physalia minuta	A00124:673:HFG3JDSX7	11015648	grade	4	TRUE
+sw_pacific_host_species	Church2025__WAM-Z97917	Physalia utriculus	LH00309:40:22CMVKLT3	4099010	grade	6	TRUE
+sw_pacific_host_species	Church2025__WAM-Z97920	Physalia megalista	LH00309:19:2273H5LT3	1020709	grade	3	TRUE
+sw_pacific_host_species	Church2025__WAM-Z97921	Physalia utriculus	LH00309:19:2273H5LT3	3033902	grade	7	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110467	Physalia minuta	A00124:624:HWVLCDSX5	4428887	grade	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110468	Physalia minuta	A00124:624:HWVLCDSX5	3620473	grade	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110515	Physalia utriculus	A00124:672:HGYTLDSX7	4364963	grade	4	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110520	Physalia utriculus	A00124:672:HGYTLDSX7	3615753	grade	3	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110526	Physalia utriculus	A00124:672:HGYTLDSX7	1866293	grade	0	FALSE
+sw_pacific_host_species	Church2025__YPM-IZ-110557	Physalia minuta	A00124:672:HGYTLDSX7	8156647	grade	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110558	Physalia minuta	A00124:672:HGYTLDSX7	5442352	grade	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110605	Physalia utriculus	A00124:672:HGYTLDSX7	1578360	grade	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110612	Physalia utriculus	A00124:672:HGYTLDSX7	2261057	grade	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110613	Physalia utriculus	A00124:672:HGYTLDSX7	5305261	grade	4	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110616	Physalia utriculus	A00124:672:HGYTLDSX7	3857055	grade	9	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111156	Physalia megalista	LH00309:204:227MGJLT4	571417	grade	3	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111157	Physalia megalista	LH00309:204:227MGJLT4	720948	grade	4	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111158	Physalia megalista	LH00309:204:227MGJLT4	428053	grade	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111159	Physalia megalista	LH00309:204:227MGJLT4	921904	grade	3	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111160	Physalia megalista	LH00309:204:227MGJLT4	528995	grade	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111163	Physalia utriculus	LH00309:204:227MGJLT4	2558924	grade	8	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111209	Physalia minuta	LH00309:204:227MGJLT4	4550236	grade	4	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111517	Physalia megalista	LH00309:311:22GMLFLT4	975460	grade	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111518	Physalia megalista	LH00309:311:22GMLFLT4	1128851	grade	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111519	Physalia megalista	LH00309:308:22GYWYLT4	712629	grade	0	FALSE
+sw_pacific_host_species	Church2025__YPM-IZ-111520	Physalia megalista	LH00309:311:22GMLFLT4	1067374	grade	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111521	Physalia megalista	LH00309:311:22GMLFLT4	856179	grade	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111529	Physalia megalista	LH00309:311:22GMLFLT4	684570	grade	0	FALSE
+sw_pacific_host_species	Church2025__YPM-IZ-111530	Physalia megalista	LH00309:311:22GMLFLT4	793215	grade	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111539	Physalia megalista	LH00309:311:22GMLFLT4	601569	grade	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110264	tentacle	A01519:271:HWW7GDSX5	1766220	grade	3	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110268	tentacle	A01519:271:HWW7GDSX5	2015563	grade	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110276	tentacle	A01519:271:HWW7GDSX5	2015901	grade	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110277	tentacle	A01519:271:HWW7GDSX5	2084953	grade	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110278	tentacle	A01519:271:HWW7GDSX5	1677168	grade	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110460	tentacle	A00124:672:HGYTLDSX7	1992093	grade	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110471	tentacle	A00124:624:HWVLCDSX5	1128644	grade	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110473	tentacle	A00124:673:HFG3JDSX7	3150605	grade	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110474	tentacle	A00124:624:HWVLCDSX5	1325007	grade	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110480	tentacle	A00124:624:HWVLCDSX5	1244762	grade	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110777	tentacle	LH00309:19:2273H5LT3	2633426	grade	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110780	tentacle	LH00309:19:2273H5LT3	4363566	grade	2	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110785	tentacle	LH00309:22:22CMVLLT3	7173840	grade	3	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110786	tentacle	LH00309:22:22CMVLLT3	1998217	grade	3	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110881	whole body	LH00309:19:2273H5LT3	3603176	grade	2	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110882	whole body	A00124:672:HGYTLDSX7	2652920	grade	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110883	whole body	LH00309:19:2273H5LT3	15376340	grade	2	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-111547	tentacle	LH00309:259:22CWK3LT4	1469775	grade	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-111840	tentacle	LH00309:325:22HLVMLT4	3090553	grade	1	TRUE
+utriculus_pacific_regions	Church2025__WAM-Z97917	SW Pacific	LH00309:40:22CMVKLT3	4099010	grade_at_5pct	7	TRUE
+utriculus_pacific_regions	Church2025__WAM-Z97921	SW Pacific	LH00309:19:2273H5LT3	3033902	grade_at_5pct	15	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-104460	NW Pacific	A01519:271:HWW7GDSX5	1451807	grade_at_5pct	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-104461	NW Pacific	A01519:271:HWW7GDSX5	1028189	grade_at_5pct	4	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-104464	NW Pacific	A01519:212:HHKVKDSX5	3049561	grade_at_5pct	4	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-106919	NW Pacific	A01519:271:HWW7GDSX5	2818990	grade_at_5pct	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-106920	NW Pacific	A00124:569:HCTNWDSX5	2712464	grade_at_5pct	5	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-106923	NW Pacific	A00124:569:HCTNWDSX5	2819709	grade_at_5pct	10	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110264	Central Pacific	A01519:271:HWW7GDSX5	1766220	grade_at_5pct	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110268	Central Pacific	A01519:271:HWW7GDSX5	2015563	grade_at_5pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110276	Central Pacific	A01519:271:HWW7GDSX5	2015901	grade_at_5pct	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110277	Central Pacific	A01519:271:HWW7GDSX5	2084953	grade_at_5pct	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110278	Central Pacific	A01519:271:HWW7GDSX5	1677168	grade_at_5pct	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110460	Central Pacific	A00124:672:HGYTLDSX7	1992093	grade_at_5pct	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110471	Central Pacific	A00124:624:HWVLCDSX5	1128644	grade_at_5pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110473	Central Pacific	A00124:673:HFG3JDSX7	3150605	grade_at_5pct	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110474	Central Pacific	A00124:624:HWVLCDSX5	1325007	grade_at_5pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110480	Central Pacific	A00124:624:HWVLCDSX5	1244762	grade_at_5pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110515	SW Pacific	A00124:672:HGYTLDSX7	4364963	grade_at_5pct	4	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110520	SW Pacific	A00124:672:HGYTLDSX7	3615753	grade_at_5pct	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110526	SW Pacific	A00124:672:HGYTLDSX7	1866293	grade_at_5pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110566	NW Pacific	A00124:672:HGYTLDSX7	2486398	grade_at_5pct	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110569	NW Pacific	A00124:673:HFG3JDSX7	7752035	grade_at_5pct	10	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110600	NW Pacific	A00124:673:HFG3JDSX7	2023030	grade_at_5pct	6	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110602	NW Pacific	A00124:672:HGYTLDSX7	2392670	grade_at_5pct	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110605	SW Pacific	A00124:672:HGYTLDSX7	1578360	grade_at_5pct	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110612	SW Pacific	A00124:672:HGYTLDSX7	2261057	grade_at_5pct	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110613	SW Pacific	A00124:672:HGYTLDSX7	5305261	grade_at_5pct	5	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110616	SW Pacific	A00124:672:HGYTLDSX7	3857055	grade_at_5pct	13	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110777	Central Pacific	LH00309:19:2273H5LT3	2633426	grade_at_5pct	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110780	Central Pacific	LH00309:19:2273H5LT3	4363566	grade_at_5pct	4	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110785	Central Pacific	LH00309:22:22CMVLLT3	7173840	grade_at_5pct	6	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110786	Central Pacific	LH00309:22:22CMVLLT3	1998217	grade_at_5pct	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110925	NW Pacific	LH00309:109:22CJLFLT3	663125	grade_at_5pct	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110926	NW Pacific	LH00309:109:22CJLFLT3	451732	grade_at_5pct	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110930	NW Pacific	LH00309:109:22CJLFLT3	717358	grade_at_5pct	4	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110933	NW Pacific	LH00309:109:22CJLFLT3	738414	grade_at_5pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110937	NW Pacific	A00124:710:HMFVWDSX7	2623232	grade_at_5pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110938	NW Pacific	LH00309:109:22CJLFLT3	834854	grade_at_5pct	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-111163	SW Pacific	LH00309:204:227MGJLT4	2558924	grade_at_5pct	12	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-111547	Central Pacific	LH00309:259:22CWK3LT4	1469775	grade_at_5pct	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-111840	Central Pacific	LH00309:325:22HLVMLT4	3090553	grade_at_5pct	2	TRUE
+utriculus_regions_with_indian	Church2025__WAM-Z97917	SW Pacific	LH00309:40:22CMVKLT3	4099010	grade_at_5pct	7	TRUE
+utriculus_regions_with_indian	Church2025__WAM-Z97921	SW Pacific	LH00309:19:2273H5LT3	3033902	grade_at_5pct	15	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-104460	NW Pacific	A01519:271:HWW7GDSX5	1451807	grade_at_5pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-104461	NW Pacific	A01519:271:HWW7GDSX5	1028189	grade_at_5pct	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-104464	NW Pacific	A01519:212:HHKVKDSX5	3049561	grade_at_5pct	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-106919	NW Pacific	A01519:271:HWW7GDSX5	2818990	grade_at_5pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-106920	NW Pacific	A00124:569:HCTNWDSX5	2712464	grade_at_5pct	5	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-106923	NW Pacific	A00124:569:HCTNWDSX5	2819709	grade_at_5pct	10	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110264	Central Pacific	A01519:271:HWW7GDSX5	1766220	grade_at_5pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110268	Central Pacific	A01519:271:HWW7GDSX5	2015563	grade_at_5pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110276	Central Pacific	A01519:271:HWW7GDSX5	2015901	grade_at_5pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110277	Central Pacific	A01519:271:HWW7GDSX5	2084953	grade_at_5pct	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110278	Central Pacific	A01519:271:HWW7GDSX5	1677168	grade_at_5pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110460	Central Pacific	A00124:672:HGYTLDSX7	1992093	grade_at_5pct	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110471	Central Pacific	A00124:624:HWVLCDSX5	1128644	grade_at_5pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110473	Central Pacific	A00124:673:HFG3JDSX7	3150605	grade_at_5pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110474	Central Pacific	A00124:624:HWVLCDSX5	1325007	grade_at_5pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110480	Central Pacific	A00124:624:HWVLCDSX5	1244762	grade_at_5pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110515	SW Pacific	A00124:672:HGYTLDSX7	4364963	grade_at_5pct	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110520	SW Pacific	A00124:672:HGYTLDSX7	3615753	grade_at_5pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110526	SW Pacific	A00124:672:HGYTLDSX7	1866293	grade_at_5pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110566	NW Pacific	A00124:672:HGYTLDSX7	2486398	grade_at_5pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110569	NW Pacific	A00124:673:HFG3JDSX7	7752035	grade_at_5pct	10	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110600	NW Pacific	A00124:673:HFG3JDSX7	2023030	grade_at_5pct	6	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110602	NW Pacific	A00124:672:HGYTLDSX7	2392670	grade_at_5pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110605	SW Pacific	A00124:672:HGYTLDSX7	1578360	grade_at_5pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110612	SW Pacific	A00124:672:HGYTLDSX7	2261057	grade_at_5pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110613	SW Pacific	A00124:672:HGYTLDSX7	5305261	grade_at_5pct	5	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110616	SW Pacific	A00124:672:HGYTLDSX7	3857055	grade_at_5pct	13	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110777	Central Pacific	LH00309:19:2273H5LT3	2633426	grade_at_5pct	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110780	Central Pacific	LH00309:19:2273H5LT3	4363566	grade_at_5pct	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110785	Central Pacific	LH00309:22:22CMVLLT3	7173840	grade_at_5pct	6	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110786	Central Pacific	LH00309:22:22CMVLLT3	1998217	grade_at_5pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110925	NW Pacific	LH00309:109:22CJLFLT3	663125	grade_at_5pct	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110926	NW Pacific	LH00309:109:22CJLFLT3	451732	grade_at_5pct	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110930	NW Pacific	LH00309:109:22CJLFLT3	717358	grade_at_5pct	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110933	NW Pacific	LH00309:109:22CJLFLT3	738414	grade_at_5pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110937	NW Pacific	A00124:710:HMFVWDSX7	2623232	grade_at_5pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110938	NW Pacific	LH00309:109:22CJLFLT3	834854	grade_at_5pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111006	W Indian	A00124:710:HMFVWDSX7	1895653	grade_at_5pct	5	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111007	W Indian	A00124:710:HMFVWDSX7	3083108	grade_at_5pct	5	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111008	W Indian	A00124:710:HMFVWDSX7	2477474	grade_at_5pct	5	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111009	W Indian	A00124:710:HMFVWDSX7	2599854	grade_at_5pct	5	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111163	SW Pacific	LH00309:204:227MGJLT4	2558924	grade_at_5pct	12	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111547	Central Pacific	LH00309:259:22CWK3LT4	1469775	grade_at_5pct	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111840	Central Pacific	LH00309:325:22HLVMLT4	3090553	grade_at_5pct	2	TRUE
+sw_pacific_host_species	Church2025__NIWA-173305	Physalia minuta	LH00309:204:227MGJLT4	4361937	grade_at_5pct	4	TRUE
+sw_pacific_host_species	Church2025__TMAG-K5634	Physalia minuta	A00124:638:H5N7GDSX7	6744441	grade_at_5pct	2	TRUE
+sw_pacific_host_species	Church2025__TMAG-K5635	Physalia minuta	A00124:673:HFG3JDSX7	13643311	grade_at_5pct	7	TRUE
+sw_pacific_host_species	Church2025__TMAG-K5636	Physalia minuta	A00124:673:HFG3JDSX7	11015648	grade_at_5pct	6	TRUE
+sw_pacific_host_species	Church2025__WAM-Z97917	Physalia utriculus	LH00309:40:22CMVKLT3	4099010	grade_at_5pct	7	TRUE
+sw_pacific_host_species	Church2025__WAM-Z97920	Physalia megalista	LH00309:19:2273H5LT3	1020709	grade_at_5pct	3	TRUE
+sw_pacific_host_species	Church2025__WAM-Z97921	Physalia utriculus	LH00309:19:2273H5LT3	3033902	grade_at_5pct	15	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110467	Physalia minuta	A00124:624:HWVLCDSX5	4428887	grade_at_5pct	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110468	Physalia minuta	A00124:624:HWVLCDSX5	3620473	grade_at_5pct	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110515	Physalia utriculus	A00124:672:HGYTLDSX7	4364963	grade_at_5pct	4	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110520	Physalia utriculus	A00124:672:HGYTLDSX7	3615753	grade_at_5pct	3	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110526	Physalia utriculus	A00124:672:HGYTLDSX7	1866293	grade_at_5pct	0	FALSE
+sw_pacific_host_species	Church2025__YPM-IZ-110557	Physalia minuta	A00124:672:HGYTLDSX7	8156647	grade_at_5pct	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110558	Physalia minuta	A00124:672:HGYTLDSX7	5442352	grade_at_5pct	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110605	Physalia utriculus	A00124:672:HGYTLDSX7	1578360	grade_at_5pct	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110612	Physalia utriculus	A00124:672:HGYTLDSX7	2261057	grade_at_5pct	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110613	Physalia utriculus	A00124:672:HGYTLDSX7	5305261	grade_at_5pct	5	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110616	Physalia utriculus	A00124:672:HGYTLDSX7	3857055	grade_at_5pct	13	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111156	Physalia megalista	LH00309:204:227MGJLT4	571417	grade_at_5pct	3	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111157	Physalia megalista	LH00309:204:227MGJLT4	720948	grade_at_5pct	6	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111158	Physalia megalista	LH00309:204:227MGJLT4	428053	grade_at_5pct	4	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111159	Physalia megalista	LH00309:204:227MGJLT4	921904	grade_at_5pct	4	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111160	Physalia megalista	LH00309:204:227MGJLT4	528995	grade_at_5pct	3	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111163	Physalia utriculus	LH00309:204:227MGJLT4	2558924	grade_at_5pct	12	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111209	Physalia minuta	LH00309:204:227MGJLT4	4550236	grade_at_5pct	5	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111517	Physalia megalista	LH00309:311:22GMLFLT4	975460	grade_at_5pct	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111518	Physalia megalista	LH00309:311:22GMLFLT4	1128851	grade_at_5pct	4	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111519	Physalia megalista	LH00309:308:22GYWYLT4	712629	grade_at_5pct	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111520	Physalia megalista	LH00309:311:22GMLFLT4	1067374	grade_at_5pct	4	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111521	Physalia megalista	LH00309:311:22GMLFLT4	856179	grade_at_5pct	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111529	Physalia megalista	LH00309:311:22GMLFLT4	684570	grade_at_5pct	0	FALSE
+sw_pacific_host_species	Church2025__YPM-IZ-111530	Physalia megalista	LH00309:311:22GMLFLT4	793215	grade_at_5pct	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111539	Physalia megalista	LH00309:311:22GMLFLT4	601569	grade_at_5pct	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110264	tentacle	A01519:271:HWW7GDSX5	1766220	grade_at_5pct	3	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110268	tentacle	A01519:271:HWW7GDSX5	2015563	grade_at_5pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110276	tentacle	A01519:271:HWW7GDSX5	2015901	grade_at_5pct	2	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110277	tentacle	A01519:271:HWW7GDSX5	2084953	grade_at_5pct	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110278	tentacle	A01519:271:HWW7GDSX5	1677168	grade_at_5pct	2	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110460	tentacle	A00124:672:HGYTLDSX7	1992093	grade_at_5pct	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110471	tentacle	A00124:624:HWVLCDSX5	1128644	grade_at_5pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110473	tentacle	A00124:673:HFG3JDSX7	3150605	grade_at_5pct	2	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110474	tentacle	A00124:624:HWVLCDSX5	1325007	grade_at_5pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110480	tentacle	A00124:624:HWVLCDSX5	1244762	grade_at_5pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110777	tentacle	LH00309:19:2273H5LT3	2633426	grade_at_5pct	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110780	tentacle	LH00309:19:2273H5LT3	4363566	grade_at_5pct	4	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110785	tentacle	LH00309:22:22CMVLLT3	7173840	grade_at_5pct	6	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110786	tentacle	LH00309:22:22CMVLLT3	1998217	grade_at_5pct	3	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110881	whole body	LH00309:19:2273H5LT3	3603176	grade_at_5pct	3	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110882	whole body	A00124:672:HGYTLDSX7	2652920	grade_at_5pct	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110883	whole body	LH00309:19:2273H5LT3	15376340	grade_at_5pct	3	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-111547	tentacle	LH00309:259:22CWK3LT4	1469775	grade_at_5pct	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-111840	tentacle	LH00309:325:22HLVMLT4	3090553	grade_at_5pct	2	TRUE
+utriculus_pacific_regions	Church2025__WAM-Z97917	SW Pacific	LH00309:40:22CMVKLT3	4099010	grade_at_20pct	4	TRUE
+utriculus_pacific_regions	Church2025__WAM-Z97921	SW Pacific	LH00309:19:2273H5LT3	3033902	grade_at_20pct	4	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-104460	NW Pacific	A01519:271:HWW7GDSX5	1451807	grade_at_20pct	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-104461	NW Pacific	A01519:271:HWW7GDSX5	1028189	grade_at_20pct	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-104464	NW Pacific	A01519:212:HHKVKDSX5	3049561	grade_at_20pct	4	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-106919	NW Pacific	A01519:271:HWW7GDSX5	2818990	grade_at_20pct	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-106920	NW Pacific	A00124:569:HCTNWDSX5	2712464	grade_at_20pct	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-106923	NW Pacific	A00124:569:HCTNWDSX5	2819709	grade_at_20pct	6	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110264	Central Pacific	A01519:271:HWW7GDSX5	1766220	grade_at_20pct	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110268	Central Pacific	A01519:271:HWW7GDSX5	2015563	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110276	Central Pacific	A01519:271:HWW7GDSX5	2015901	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110277	Central Pacific	A01519:271:HWW7GDSX5	2084953	grade_at_20pct	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110278	Central Pacific	A01519:271:HWW7GDSX5	1677168	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110460	Central Pacific	A00124:672:HGYTLDSX7	1992093	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110471	Central Pacific	A00124:624:HWVLCDSX5	1128644	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110473	Central Pacific	A00124:673:HFG3JDSX7	3150605	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110474	Central Pacific	A00124:624:HWVLCDSX5	1325007	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110480	Central Pacific	A00124:624:HWVLCDSX5	1244762	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110515	SW Pacific	A00124:672:HGYTLDSX7	4364963	grade_at_20pct	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110520	SW Pacific	A00124:672:HGYTLDSX7	3615753	grade_at_20pct	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110526	SW Pacific	A00124:672:HGYTLDSX7	1866293	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110566	NW Pacific	A00124:672:HGYTLDSX7	2486398	grade_at_20pct	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110569	NW Pacific	A00124:673:HFG3JDSX7	7752035	grade_at_20pct	4	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110600	NW Pacific	A00124:673:HFG3JDSX7	2023030	grade_at_20pct	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110602	NW Pacific	A00124:672:HGYTLDSX7	2392670	grade_at_20pct	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110605	SW Pacific	A00124:672:HGYTLDSX7	1578360	grade_at_20pct	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110612	SW Pacific	A00124:672:HGYTLDSX7	2261057	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110613	SW Pacific	A00124:672:HGYTLDSX7	5305261	grade_at_20pct	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110616	SW Pacific	A00124:672:HGYTLDSX7	3857055	grade_at_20pct	4	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110777	Central Pacific	LH00309:19:2273H5LT3	2633426	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110780	Central Pacific	LH00309:19:2273H5LT3	4363566	grade_at_20pct	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110785	Central Pacific	LH00309:22:22CMVLLT3	7173840	grade_at_20pct	3	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110786	Central Pacific	LH00309:22:22CMVLLT3	1998217	grade_at_20pct	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110925	NW Pacific	LH00309:109:22CJLFLT3	663125	grade_at_20pct	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110926	NW Pacific	LH00309:109:22CJLFLT3	451732	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110930	NW Pacific	LH00309:109:22CJLFLT3	717358	grade_at_20pct	1	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-110933	NW Pacific	LH00309:109:22CJLFLT3	738414	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110937	NW Pacific	A00124:710:HMFVWDSX7	2623232	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-110938	NW Pacific	LH00309:109:22CJLFLT3	834854	grade_at_20pct	2	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-111163	SW Pacific	LH00309:204:227MGJLT4	2558924	grade_at_20pct	7	TRUE
+utriculus_pacific_regions	Church2025__YPM-IZ-111547	Central Pacific	LH00309:259:22CWK3LT4	1469775	grade_at_20pct	0	FALSE
+utriculus_pacific_regions	Church2025__YPM-IZ-111840	Central Pacific	LH00309:325:22HLVMLT4	3090553	grade_at_20pct	1	TRUE
+utriculus_regions_with_indian	Church2025__WAM-Z97917	SW Pacific	LH00309:40:22CMVKLT3	4099010	grade_at_20pct	4	TRUE
+utriculus_regions_with_indian	Church2025__WAM-Z97921	SW Pacific	LH00309:19:2273H5LT3	3033902	grade_at_20pct	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-104460	NW Pacific	A01519:271:HWW7GDSX5	1451807	grade_at_20pct	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-104461	NW Pacific	A01519:271:HWW7GDSX5	1028189	grade_at_20pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-104464	NW Pacific	A01519:212:HHKVKDSX5	3049561	grade_at_20pct	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-106919	NW Pacific	A01519:271:HWW7GDSX5	2818990	grade_at_20pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-106920	NW Pacific	A00124:569:HCTNWDSX5	2712464	grade_at_20pct	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-106923	NW Pacific	A00124:569:HCTNWDSX5	2819709	grade_at_20pct	6	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110264	Central Pacific	A01519:271:HWW7GDSX5	1766220	grade_at_20pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110268	Central Pacific	A01519:271:HWW7GDSX5	2015563	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110276	Central Pacific	A01519:271:HWW7GDSX5	2015901	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110277	Central Pacific	A01519:271:HWW7GDSX5	2084953	grade_at_20pct	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110278	Central Pacific	A01519:271:HWW7GDSX5	1677168	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110460	Central Pacific	A00124:672:HGYTLDSX7	1992093	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110471	Central Pacific	A00124:624:HWVLCDSX5	1128644	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110473	Central Pacific	A00124:673:HFG3JDSX7	3150605	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110474	Central Pacific	A00124:624:HWVLCDSX5	1325007	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110480	Central Pacific	A00124:624:HWVLCDSX5	1244762	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110515	SW Pacific	A00124:672:HGYTLDSX7	4364963	grade_at_20pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110520	SW Pacific	A00124:672:HGYTLDSX7	3615753	grade_at_20pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110526	SW Pacific	A00124:672:HGYTLDSX7	1866293	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110566	NW Pacific	A00124:672:HGYTLDSX7	2486398	grade_at_20pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110569	NW Pacific	A00124:673:HFG3JDSX7	7752035	grade_at_20pct	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110600	NW Pacific	A00124:673:HFG3JDSX7	2023030	grade_at_20pct	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110602	NW Pacific	A00124:672:HGYTLDSX7	2392670	grade_at_20pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110605	SW Pacific	A00124:672:HGYTLDSX7	1578360	grade_at_20pct	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110612	SW Pacific	A00124:672:HGYTLDSX7	2261057	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110613	SW Pacific	A00124:672:HGYTLDSX7	5305261	grade_at_20pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110616	SW Pacific	A00124:672:HGYTLDSX7	3857055	grade_at_20pct	4	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110777	Central Pacific	LH00309:19:2273H5LT3	2633426	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110780	Central Pacific	LH00309:19:2273H5LT3	4363566	grade_at_20pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110785	Central Pacific	LH00309:22:22CMVLLT3	7173840	grade_at_20pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110786	Central Pacific	LH00309:22:22CMVLLT3	1998217	grade_at_20pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110925	NW Pacific	LH00309:109:22CJLFLT3	663125	grade_at_20pct	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110926	NW Pacific	LH00309:109:22CJLFLT3	451732	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110930	NW Pacific	LH00309:109:22CJLFLT3	717358	grade_at_20pct	1	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110933	NW Pacific	LH00309:109:22CJLFLT3	738414	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110937	NW Pacific	A00124:710:HMFVWDSX7	2623232	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-110938	NW Pacific	LH00309:109:22CJLFLT3	834854	grade_at_20pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111006	W Indian	A00124:710:HMFVWDSX7	1895653	grade_at_20pct	2	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111007	W Indian	A00124:710:HMFVWDSX7	3083108	grade_at_20pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111008	W Indian	A00124:710:HMFVWDSX7	2477474	grade_at_20pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111009	W Indian	A00124:710:HMFVWDSX7	2599854	grade_at_20pct	3	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111163	SW Pacific	LH00309:204:227MGJLT4	2558924	grade_at_20pct	7	TRUE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111547	Central Pacific	LH00309:259:22CWK3LT4	1469775	grade_at_20pct	0	FALSE
+utriculus_regions_with_indian	Church2025__YPM-IZ-111840	Central Pacific	LH00309:325:22HLVMLT4	3090553	grade_at_20pct	1	TRUE
+sw_pacific_host_species	Church2025__NIWA-173305	Physalia minuta	LH00309:204:227MGJLT4	4361937	grade_at_20pct	2	TRUE
+sw_pacific_host_species	Church2025__TMAG-K5634	Physalia minuta	A00124:638:H5N7GDSX7	6744441	grade_at_20pct	1	TRUE
+sw_pacific_host_species	Church2025__TMAG-K5635	Physalia minuta	A00124:673:HFG3JDSX7	13643311	grade_at_20pct	3	TRUE
+sw_pacific_host_species	Church2025__TMAG-K5636	Physalia minuta	A00124:673:HFG3JDSX7	11015648	grade_at_20pct	2	TRUE
+sw_pacific_host_species	Church2025__WAM-Z97917	Physalia utriculus	LH00309:40:22CMVKLT3	4099010	grade_at_20pct	4	TRUE
+sw_pacific_host_species	Church2025__WAM-Z97920	Physalia megalista	LH00309:19:2273H5LT3	1020709	grade_at_20pct	3	TRUE
+sw_pacific_host_species	Church2025__WAM-Z97921	Physalia utriculus	LH00309:19:2273H5LT3	3033902	grade_at_20pct	4	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110467	Physalia minuta	A00124:624:HWVLCDSX5	4428887	grade_at_20pct	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110468	Physalia minuta	A00124:624:HWVLCDSX5	3620473	grade_at_20pct	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110515	Physalia utriculus	A00124:672:HGYTLDSX7	4364963	grade_at_20pct	3	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110520	Physalia utriculus	A00124:672:HGYTLDSX7	3615753	grade_at_20pct	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110526	Physalia utriculus	A00124:672:HGYTLDSX7	1866293	grade_at_20pct	0	FALSE
+sw_pacific_host_species	Church2025__YPM-IZ-110557	Physalia minuta	A00124:672:HGYTLDSX7	8156647	grade_at_20pct	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110558	Physalia minuta	A00124:672:HGYTLDSX7	5442352	grade_at_20pct	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110605	Physalia utriculus	A00124:672:HGYTLDSX7	1578360	grade_at_20pct	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110612	Physalia utriculus	A00124:672:HGYTLDSX7	2261057	grade_at_20pct	0	FALSE
+sw_pacific_host_species	Church2025__YPM-IZ-110613	Physalia utriculus	A00124:672:HGYTLDSX7	5305261	grade_at_20pct	3	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-110616	Physalia utriculus	A00124:672:HGYTLDSX7	3857055	grade_at_20pct	4	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111156	Physalia megalista	LH00309:204:227MGJLT4	571417	grade_at_20pct	3	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111157	Physalia megalista	LH00309:204:227MGJLT4	720948	grade_at_20pct	4	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111158	Physalia megalista	LH00309:204:227MGJLT4	428053	grade_at_20pct	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111159	Physalia megalista	LH00309:204:227MGJLT4	921904	grade_at_20pct	3	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111160	Physalia megalista	LH00309:204:227MGJLT4	528995	grade_at_20pct	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111163	Physalia utriculus	LH00309:204:227MGJLT4	2558924	grade_at_20pct	7	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111209	Physalia minuta	LH00309:204:227MGJLT4	4550236	grade_at_20pct	2	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111517	Physalia megalista	LH00309:311:22GMLFLT4	975460	grade_at_20pct	0	FALSE
+sw_pacific_host_species	Church2025__YPM-IZ-111518	Physalia megalista	LH00309:311:22GMLFLT4	1128851	grade_at_20pct	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111519	Physalia megalista	LH00309:308:22GYWYLT4	712629	grade_at_20pct	0	FALSE
+sw_pacific_host_species	Church2025__YPM-IZ-111520	Physalia megalista	LH00309:311:22GMLFLT4	1067374	grade_at_20pct	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111521	Physalia megalista	LH00309:311:22GMLFLT4	856179	grade_at_20pct	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111529	Physalia megalista	LH00309:311:22GMLFLT4	684570	grade_at_20pct	0	FALSE
+sw_pacific_host_species	Church2025__YPM-IZ-111530	Physalia megalista	LH00309:311:22GMLFLT4	793215	grade_at_20pct	1	TRUE
+sw_pacific_host_species	Church2025__YPM-IZ-111539	Physalia megalista	LH00309:311:22GMLFLT4	601569	grade_at_20pct	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110264	tentacle	A01519:271:HWW7GDSX5	1766220	grade_at_20pct	3	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110268	tentacle	A01519:271:HWW7GDSX5	2015563	grade_at_20pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110276	tentacle	A01519:271:HWW7GDSX5	2015901	grade_at_20pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110277	tentacle	A01519:271:HWW7GDSX5	2084953	grade_at_20pct	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110278	tentacle	A01519:271:HWW7GDSX5	1677168	grade_at_20pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110460	tentacle	A00124:672:HGYTLDSX7	1992093	grade_at_20pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110471	tentacle	A00124:624:HWVLCDSX5	1128644	grade_at_20pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110473	tentacle	A00124:673:HFG3JDSX7	3150605	grade_at_20pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110474	tentacle	A00124:624:HWVLCDSX5	1325007	grade_at_20pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110480	tentacle	A00124:624:HWVLCDSX5	1244762	grade_at_20pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110777	tentacle	LH00309:19:2273H5LT3	2633426	grade_at_20pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-110780	tentacle	LH00309:19:2273H5LT3	4363566	grade_at_20pct	2	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110785	tentacle	LH00309:22:22CMVLLT3	7173840	grade_at_20pct	3	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110786	tentacle	LH00309:22:22CMVLLT3	1998217	grade_at_20pct	2	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110881	whole body	LH00309:19:2273H5LT3	3603176	grade_at_20pct	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110882	whole body	A00124:672:HGYTLDSX7	2652920	grade_at_20pct	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-110883	whole body	LH00309:19:2273H5LT3	15376340	grade_at_20pct	1	TRUE
+utriculus_central_tissue	Church2025__YPM-IZ-111547	tentacle	LH00309:259:22CWK3LT4	1469775	grade_at_20pct	0	FALSE
+utriculus_central_tissue	Church2025__YPM-IZ-111840	tentacle	LH00309:325:22HLVMLT4	3090553	grade_at_20pct	1	TRUE

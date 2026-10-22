@@ -1,0 +1,486 @@
+{
+  "libraries": 213,
+  "numeric_depths": 213,
+  "tissue_unknown": 2,
+  "fish_12s_positive_libraries": 8,
+  "fish_12s_matching_pairs": 32,
+  "tissue_counts": {
+    "('Physalia', 'corm')": 1,
+    "('Physalia', 'tentacle')": 142,
+    "('Physalia', 'unknown')": 2,
+    "('Physalia', 'whole body')": 3,
+    "('Physalia', 'zooid')": 3,
+    "('non_Physalia', 'nectophore')": 1,
+    "('non_Physalia', 'siphosome')": 61
+  },
+  "depth_design": [
+    {
+      "species_current": "Abylopsis tetragona",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Agalma clausi",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Agalma elegans",
+      "libraries": 2,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Agalma okenii",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Apolemia rubriversa",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 556.0,
+      "depth_max_m": 556.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Apolemia sp. 3 CWD-2005",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 387.0,
+      "depth_max_m": 387.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Bargmannia amoena",
+      "libraries": 1,
+      "single_flowcell_libraries": 1,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 395.288544,
+      "depth_max_m": 395.288544,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Bargmannia elongata",
+      "libraries": 3,
+      "single_flowcell_libraries": 3,
+      "distinct_point_or_derived_depths": 3,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 645.0,
+      "depth_max_m": 913.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Bargmannia lata",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 1299.0,
+      "depth_max_m": 1299.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Bargmannia marlena",
+      "libraries": 1,
+      "single_flowcell_libraries": 1,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 1102.727539,
+      "depth_max_m": 1102.727539,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Bargmannia profunda",
+      "libraries": 1,
+      "single_flowcell_libraries": 1,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 3605.26001,
+      "depth_max_m": 3605.26001,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Bargmannia pyrosa",
+      "libraries": 2,
+      "single_flowcell_libraries": 2,
+      "distinct_point_or_derived_depths": 2,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 984.811951,
+      "depth_max_m": 2270.542725,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Bargmannia stenotes",
+      "libraries": 1,
+      "single_flowcell_libraries": 1,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 3129.889404,
+      "depth_max_m": 3129.889404,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Chelophyes appendiculata",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Chuniphyes multidentata",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 964.0,
+      "depth_max_m": 964.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Cordagalma",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Craseoa lathetica",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 467.0,
+      "depth_max_m": 467.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Diphyes dispar",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Erenna sirena",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 910.0,
+      "depth_max_m": 910.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Forskalia",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 349.0,
+      "depth_max_m": 349.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Frillagalma vityazi",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 420.0,
+      "depth_max_m": 420.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Gymnopraia lapislazula",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 420.0,
+      "depth_max_m": 420.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Halistemma rubrum",
+      "libraries": 2,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Hippopodius hippopus",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Lilyopsis fluoracantha",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 417.0,
+      "depth_max_m": 417.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Nanomia bijuga",
+      "libraries": 6,
+      "single_flowcell_libraries": 6,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "no_collection_depth_variation"
+    },
+    {
+      "species_current": "Nanomia septata",
+      "libraries": 10,
+      "single_flowcell_libraries": 3,
+      "distinct_point_or_derived_depths": 8,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 662.29,
+      "status": "shallow_deep_contrast_confounded_with_locality"
+    },
+    {
+      "species_current": "Nanomia sp.",
+      "libraries": 6,
+      "single_flowcell_libraries": 3,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Physalia megalista",
+      "libraries": 26,
+      "single_flowcell_libraries": 20,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0,
+      "status": "no_collection_depth_variation"
+    },
+    {
+      "species_current": "Physalia mikazuki",
+      "libraries": 5,
+      "single_flowcell_libraries": 4,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0,
+      "status": "no_collection_depth_variation"
+    },
+    {
+      "species_current": "Physalia minuta",
+      "libraries": 19,
+      "single_flowcell_libraries": 10,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0,
+      "status": "no_collection_depth_variation"
+    },
+    {
+      "species_current": "Physalia physalis",
+      "libraries": 37,
+      "single_flowcell_libraries": 35,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0,
+      "status": "no_collection_depth_variation"
+    },
+    {
+      "species_current": "Physalia utriculus",
+      "libraries": 64,
+      "single_flowcell_libraries": 53,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0,
+      "status": "no_collection_depth_variation"
+    },
+    {
+      "species_current": "Physonectae",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 600.0,
+      "depth_max_m": 600.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Praya",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 249.0,
+      "depth_max_m": 249.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Praya dubia",
+      "libraries": 1,
+      "single_flowcell_libraries": 1,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 298.0,
+      "depth_max_m": 298.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Resomia ornicephala",
+      "libraries": 2,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 2,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 235.0,
+      "depth_max_m": 286.25,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Rhizophysa eysenhardtii",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Rhizophysa filiformis",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Rosacea flaccida",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Stephalia dilata",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 1349.0,
+      "depth_max_m": 1349.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    },
+    {
+      "species_current": "Stephanomia amphytridis",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 800.0,
+      "depth_max_m": 800.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
+    }
+  ],
+  "contrast_design": [
+    {
+      "contrast": "utriculus_pacific_regions",
+      "group_column": "ocean_region",
+      "all_libraries": 44,
+      "single_flowcell_libraries": 42,
+      "distinct_label_allocations": "181440",
+      "nominal_5pct_test_possible": true
+    },
+    {
+      "contrast": "utriculus_regions_with_indian",
+      "group_column": "ocean_region",
+      "all_libraries": 48,
+      "single_flowcell_libraries": 46,
+      "distinct_label_allocations": "907200",
+      "nominal_5pct_test_possible": true
+    },
+    {
+      "contrast": "sw_pacific_host_species",
+      "group_column": "species_current",
+      "all_libraries": 47,
+      "single_flowcell_libraries": 33,
+      "distinct_label_allocations": "12096",
+      "nominal_5pct_test_possible": true
+    },
+    {
+      "contrast": "utriculus_central_tissue",
+      "group_column": "tissue_group",
+      "all_libraries": 20,
+      "single_flowcell_libraries": 19,
+      "distinct_label_allocations": "12",
+      "nominal_5pct_test_possible": false
+    }
+  ],
+  "detection_columns": {
+    "bacterial": "bacterial_targets",
+    "archaeal": "archaeal_targets",
+    "viral": "viral_targets",
+    "eukaryote": "eukaryote_groups",
+    "dt68": "dt68_targets",
+    "vibrio": "vibrio_targets",
+    "metamycoplasmataceae": "metamycoplasmataceae_targets",
+    "clade_a": "clade_a_targets",
+    "clade_b": "clade_b_targets",
+    "prey": "prey_groups",
+    "parasite": "parasite_groups"
+  },
+  "interpretation": "Post hoc coauthor-requested analyses. No life-stage analysis. Non-detection does not establish absence; genome-target profiles are not estimates of complete microbiome composition. Tissue/depth summaries are descriptive where host, locality, study, preservation or batch are confounded."
+}

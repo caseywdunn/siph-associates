@@ -1,0 +1,244 @@
+{
+  "analysis_id": "human-compatible-prefix-audit",
+  "run_id": "20261022T185333Z",
+  "status": "complete",
+  "completed_at_utc": "2026-10-22T18:53:33.833025+00:00",
+  "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python scripts/human_screen/stage_report.py --config config/human_screen.json --confirmation-scope cohort --execution-ids 13732419 13733275 13734795 13734768 13735568 --output figures/human_screen",
+  "report_runtime": {
+    "python": "3.11.0 | packaged by conda-forge | (main, Jan 14 2023, 12:27:40) [GCC 11.3.0]",
+    "snakemake": "7.24.0",
+    "pysam": "0.21.0",
+    "biopython": "1.81"
+  },
+  "source_base_git_revision": "0ad888a33ce970c0e7d87c02b421d4e69373e22a",
+  "source_snapshot": "figures/human_screen/provenance/source",
+  "source_sha256": {
+    "config/human_screen.json": "d806bcfbc963aca3e772795feb2f4645283589dc2e9b2feb9e65daeea204ac09",
+    "envs/human-screen.yaml": "c5b2e412cf90732be6c2b5e56f07de7fc0aa00b46ac8d68dc182c15903cd8133",
+    "workflow/human_screen.smk": "6dd03857531b093e44fc610927f22a6d6fd4be641dea06d526d1234ca9a84284",
+    "workflow/human_confirmation.smk": "5f559a665cad3e483ca8e213bde88600437d0dce7489127556b3924d07abf547",
+    "scripts/human_screen/filter_alignments.py": "226c5ba9d342bf11464a8d694a05b55b7cde1306cb4a6ed108b8f6728557cdcc",
+    "scripts/human_screen/prepare_confirmation.py": "adc83b3f4aa784db8e7693a1e9e7019d292ced003e919c55515332f50f55e0e3",
+    "scripts/human_screen/prepare_reads.py": "a8a45be744b5d9a572cb7f5c361434a563da04f24d6006711e924f3b2406d622",
+    "scripts/human_screen/record_references.py": "d934251f7f4bfe4001f111c49ebd9d4ed4df9009d7525dcde0b66083a4a49adf",
+    "scripts/human_screen/report.py": "da8368cc3e34c5e656587aa9b0aed8cffe27a9b9ec79ea1b4121a861836b5ad8",
+    "scripts/human_screen/review_nt.py": "eda134ed8f0145a88f3c9fd6c0aa0a1aaea0e9f55fd1d6db0e9ffbfb01f42137",
+    "scripts/human_screen/stage_report.py": "9902ab5ff6c7965a6a7c8e2d92cb370966c3bb66011b053faf5da88df9db07a7",
+    "scripts/human_screen/confirm.sbatch": "45b3f968b807f556345fd93eabb8f1905ac10b8df6c7afe1844e1a76713e00af",
+    "scripts/human_screen/run.sbatch": "cf4886380bb274b88bc348949abd0a3bd52de8db0079c6373f006804d72b1654"
+  },
+  "inputs_sha256": {
+    "/gpfs/ycga/work/dunn/cwd7/siph_associates/scripts/human_screen/stage_report.py": "9902ab5ff6c7965a6a7c8e2d92cb370966c3bb66011b053faf5da88df9db07a7",
+    "config/post_expansion_samples.tsv": "f885a88271c9991fbfd0af6538bf61c86f56854059e5741fc26080648b75d238",
+    "data/results/human_screen/2026-10-22-v2/cohort_summary.tsv": "8fa0e2f982008ba3b227340c5bd9ef9751200d15cd2c110fa5c845c78aa1dd54",
+    "data/results/human_screen/2026-10-22-v2/controls.tsv": "6a0d778c364fddf3eeb026f921a2c5a448e3d5f67de5c1536a92ef41e3742ea6",
+    "data/results/human_screen/2026-10-22-v2/controls.passed.json": "e1b54ab009175101ad1704d1283f0ea9756a5733ae8f515e32f5d167cd0b9edf",
+    "data/results/human_screen/2026-10-22-v2/confirmation/cohort/selection.json": "ddb08ff69f662579444bef23082e363a4d46034d2cadfc7ab9b2fc111513dcd9",
+    "data/results/human_screen/2026-10-22-v2/confirmation/cohort/taxonomic_review.json": "e3d12435939b2d7795f19754febae3f20bc4f7bf2444defc64b6a1d3b4c5f741"
+  },
+  "outputs_sha256": {
+    "figures/human_screen/control_summary.tsv": "1442f8b8f8df7661e43b35be8184828ae3ee74d131aafb6ae51fe02e0f5d1c9e",
+    "figures/human_screen/nt_summary.json": "08ca5a68b3ab6efbd0ecbf711bf85847102ed2637e2b29524ca02d1baacfaf20",
+    "figures/human_screen/sample_summary.tsv": "e70cfdecf376ef5792ebae2b213b919cf2ae111ab27ab371fd40d628871ea4e3",
+    "figures/human_screen/summary.json": "c04a73a4c0f7f10cae531944344e5a7f28a9018703a926ff886c049e56a366bd",
+    "figures/human_screen/values.tex": "9a33eb2b6ab2996746daeae3d660aa3c62e6692072a0054977ca43ce597f663d"
+  },
+  "executions": [
+    {
+      "slurm_job_id": "13732419",
+      "source_sha256": "7b1fa1dfe76058f198a8fe8b5d6e332c443a5635d508c3e6723c5ade40c2beb1",
+      "started": "Thu Oct 22 17:27:27 UTC 2026",
+      "finished": "Thu Oct 22 17:29:48 UTC 2026"
+    },
+    {
+      "slurm_job_id": "13733275",
+      "source_sha256": "67cdf8d6ded121cac9e276230a226d069435cbe6b731b58de70adbbe348a1e05",
+      "started": "Thu Oct 22 17:47:04 UTC 2026",
+      "finished": "Thu Oct 22 17:49:52 UTC 2026",
+      "reference_identity": [
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.fa",
+          "bytes": 3161924569,
+          "sha256": "d2b7be348fb20af46461855faec64dfbd21532620bd125783df050180446055e"
+        },
+        {
+          "path": "/gpfs/ycga/work/dunn/cwd7/databases/refgenomes/physalia_physalis/GCA_041430235.2_Physalia_TX2017-38_primary_02_genomic.fna",
+          "bytes": 3369297654,
+          "sha256": "3c62959a27f8d40f59378623b7fe09d1fa25aada8fa23b4265349de380eb9814"
+        },
+        {
+          "path": "/gpfs/ycga/work/dunn/cwd7/databases/refgenomes/nanomia_septata/GCA_048301705.1_ASM4830170v1_genomic.fna",
+          "bytes": 1818956660,
+          "sha256": "8021cabb1e37c93ebbcee3c8d71bcecb0e244eef13832e3e9da3afeec3b69ed7"
+        },
+        {
+          "path": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/halistemma/2026-10-19/reference/GCA_987347065.1.fna",
+          "bytes": 4434026549,
+          "sha256": "20b3baa6c5717b19197a1a06c67068def565dafd3cfe3bf7e8fa715ff193ae5f"
+        },
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.1.bt2",
+          "bytes": 982504890,
+          "sha256": "a4c48b2d470a043618dbdc9d24b5ec05bb00b43651e090d4519302ab17c76ce1"
+        },
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.2.bt2",
+          "bytes": 733719120,
+          "sha256": "12092011a339b7d7d231fbaeec6b439e328845389be845acbb9cbda7d5a63ee8"
+        },
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.3.bt2",
+          "bytes": 10880,
+          "sha256": "6ed8cfebf9b998a0e2776cff3bd35d641d662d209dbc3fc982d8fa57175cd253"
+        },
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.4.bt2",
+          "bytes": 733719113,
+          "sha256": "f1df1ffe3adc6b7b7690d0bdc4399ab22c9c10608d371b5c4e1fa7701e4c41db"
+        },
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.rev.1.bt2",
+          "bytes": 982504890,
+          "sha256": "ddc2c92ebadbeb053f8bd284ad4d049fbdc51273febe681b75e5b815c91472c2"
+        },
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.rev.2.bt2",
+          "bytes": 733719120,
+          "sha256": "e56fccc61ef99c2fe93fdb1c85593e06deb01eee09959f435f3a200ffe333113"
+        }
+      ]
+    },
+    {
+      "slurm_job_id": "13734795",
+      "source_sha256": "fce8236e2692bbdb4dfc2e04c4576bf376fddd97a3dd98022444b453a5c91a81",
+      "started": "Thu Oct 22 18:11:01 UTC 2026",
+      "finished": "Thu Oct 22 18:26:13 UTC 2026",
+      "reference_identity": [
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.fa",
+          "bytes": 3161924569,
+          "sha256": "d2b7be348fb20af46461855faec64dfbd21532620bd125783df050180446055e"
+        },
+        {
+          "path": "/gpfs/ycga/work/dunn/cwd7/databases/refgenomes/physalia_physalis/GCA_041430235.2_Physalia_TX2017-38_primary_02_genomic.fna",
+          "bytes": 3369297654,
+          "sha256": "3c62959a27f8d40f59378623b7fe09d1fa25aada8fa23b4265349de380eb9814"
+        },
+        {
+          "path": "/gpfs/ycga/work/dunn/cwd7/databases/refgenomes/nanomia_septata/GCA_048301705.1_ASM4830170v1_genomic.fna",
+          "bytes": 1818956660,
+          "sha256": "8021cabb1e37c93ebbcee3c8d71bcecb0e244eef13832e3e9da3afeec3b69ed7"
+        },
+        {
+          "path": "/gpfs/ycga/work/dunn/cwd7/siph_associates/data/results/halistemma/2026-10-19/reference/GCA_987347065.1.fna",
+          "bytes": 4434026549,
+          "sha256": "20b3baa6c5717b19197a1a06c67068def565dafd3cfe3bf7e8fa715ff193ae5f"
+        },
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.1.bt2",
+          "bytes": 982504890,
+          "sha256": "a4c48b2d470a043618dbdc9d24b5ec05bb00b43651e090d4519302ab17c76ce1"
+        },
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.2.bt2",
+          "bytes": 733719120,
+          "sha256": "12092011a339b7d7d231fbaeec6b439e328845389be845acbb9cbda7d5a63ee8"
+        },
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.3.bt2",
+          "bytes": 10880,
+          "sha256": "6ed8cfebf9b998a0e2776cff3bd35d641d662d209dbc3fc982d8fa57175cd253"
+        },
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.4.bt2",
+          "bytes": 733719113,
+          "sha256": "f1df1ffe3adc6b7b7690d0bdc4399ab22c9c10608d371b5c4e1fa7701e4c41db"
+        },
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.rev.1.bt2",
+          "bytes": 982504890,
+          "sha256": "ddc2c92ebadbeb053f8bd284ad4d049fbdc51273febe681b75e5b815c91472c2"
+        },
+        {
+          "path": "/gpfs/gibbs/data/genomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome.rev.2.bt2",
+          "bytes": 733719120,
+          "sha256": "e56fccc61ef99c2fe93fdb1c85593e06deb01eee09959f435f3a200ffe333113"
+        }
+      ]
+    },
+    {
+      "slurm_job_id": "13734768",
+      "source_sha256": "ab19f27c09fd231f1798a5b2b0cc0b36c00ed96bccc9a8f08dcc38a21e2e69e2",
+      "started": "Thu Oct 22 18:10:25 UTC 2026",
+      "finished": "Thu Oct 22 18:24:18 UTC 2026",
+      "nt_database_info": "Database: Nucleotide collection (nt)\n\t92,544,334 sequences; 1,117,587,345,597 total bases\n\nDate: Apr 21, 2023  9:03 PM\tLongest sequence: 99,791,824 bases\n\nBLASTDB Version: 5\n\nVolumes:\n\t/gpfs/gibbs/data/db/blast/nt.00\n\t/gpfs/gibbs/data/db/blast/nt.01\n\t/gpfs/gibbs/data/db/blast/nt.02\n\t/gpfs/gibbs/data/db/blast/nt.03\n\t/gpfs/gibbs/data/db/blast/nt.04\n\t/gpfs/gibbs/data/db/blast/nt.05\n\t/gpfs/gibbs/data/db/blast/nt.06\n\t/gpfs/gibbs/data/db/blast/nt.07\n\t/gpfs/gibbs/data/db/blast/nt.08\n\t/gpfs/gibbs/data/db/blast/nt.09\n\t/gpfs/gibbs/data/db/blast/nt.10\n\t/gpfs/gibbs/data/db/blast/nt.11\n\t/gpfs/gibbs/data/db/blast/nt.12\n\t/gpfs/gibbs/data/db/blast/nt.13\n\t/gpfs/gibbs/data/db/blast/nt.14\n\t/gpfs/gibbs/data/db/blast/nt.15\n\t/gpfs/gibbs/data/db/blast/nt.16\n\t/gpfs/gibbs/data/db/blast/nt.17\n\t/gpfs/gibbs/data/db/blast/nt.18\n\t/gpfs/gibbs/data/db/blast/nt.19\n\t/gpfs/gibbs/data/db/blast/nt.20\n\t/gpfs/gibbs/data/db/blast/nt.21\n\t/gpfs/gibbs/data/db/blast/nt.22\n\t/gpfs/gibbs/data/db/blast/nt.23\n\t/gpfs/gibbs/data/db/blast/nt.24\n\t/gpfs/gibbs/data/db/blast/nt.25\n\t/gpfs/gibbs/data/db/blast/nt.26\n\t/gpfs/gibbs/data/db/blast/nt.27\n\t/gpfs/gibbs/data/db/blast/nt.28\n\t/gpfs/gibbs/data/db/blast/nt.29\n\t/gpfs/gibbs/data/db/blast/nt.30\n\t/gpfs/gibbs/data/db/blast/nt.31\n\t/gpfs/gibbs/data/db/blast/nt.32\n\t/gpfs/gibbs/data/db/blast/nt.33\n\t/gpfs/gibbs/data/db/blast/nt.34\n\t/gpfs/gibbs/data/db/blast/nt.35\n\t/gpfs/gibbs/data/db/blast/nt.36\n\t/gpfs/gibbs/data/db/blast/nt.37\n\t/gpfs/gibbs/data/db/blast/nt.38\n\t/gpfs/gibbs/data/db/blast/nt.39\n\t/gpfs/gibbs/data/db/blast/nt.40\n\t/gpfs/gibbs/data/db/blast/nt.41\n\t/gpfs/gibbs/data/db/blast/nt.42\n\t/gpfs/gibbs/data/db/blast/nt.43\n\t/gpfs/gibbs/data/db/blast/nt.44\n\t/gpfs/gibbs/data/db/blast/nt.45\n\t/gpfs/gibbs/data/db/blast/nt.46\n\t/gpfs/gibbs/data/db/blast/nt.47\n\t/gpfs/gibbs/data/db/blast/nt.48\n\t/gpfs/gibbs/data/db/blast/nt.49\n\t/gpfs/gibbs/data/db/blast/nt.50\n\t/gpfs/gibbs/data/db/blast/nt.51\n\t/gpfs/gibbs/data/db/blast/nt.52\n\t/gpfs/gibbs/data/db/blast/nt.53\n\t/gpfs/gibbs/data/db/blast/nt.54\n\t/gpfs/gibbs/data/db/blast/nt.55\n\t/gpfs/gibbs/data/db/blast/nt.56\n\t/gpfs/gibbs/data/db/blast/nt.57\n\t/gpfs/gibbs/data/db/blast/nt.58\n\t/gpfs/gibbs/data/db/blast/nt.59\n\t/gpfs/gibbs/data/db/blast/nt.60\n\t/gpfs/gibbs/data/db/blast/nt.61\n\t/gpfs/gibbs/data/db/blast/nt.62\n\t/gpfs/gibbs/data/db/blast/nt.63\n\t/gpfs/gibbs/data/db/blast/nt.64\n\t/gpfs/gibbs/data/db/blast/nt.65\n\t/gpfs/gibbs/data/db/blast/nt.66\n\t/gpfs/gibbs/data/db/blast/nt.67\n\t/gpfs/gibbs/data/db/blast/nt.68\n\t/gpfs/gibbs/data/db/blast/nt.69\n\t/gpfs/gibbs/data/db/blast/nt.70\n\t/gpfs/gibbs/data/db/blast/nt.71\n\t/gpfs/gibbs/data/db/blast/nt.72\n\t/gpfs/gibbs/data/db/blast/nt.73\n\t/gpfs/gibbs/data/db/blast/nt.74\n\t/gpfs/gibbs/data/db/blast/nt.75\n\t/gpfs/gibbs/data/db/blast/nt.76\n\t/gpfs/gibbs/data/db/blast/nt.77\n\t/gpfs/gibbs/data/db/blast/nt.78\n\t/gpfs/gibbs/data/db/blast/nt.79\n\t/gpfs/gibbs/data/db/blast/nt.80\n\t/gpfs/gibbs/data/db/blast/nt.81\n\t/gpfs/gibbs/data/db/blast/nt.82\n\t/gpfs/gibbs/data/db/blast/nt.83\n\t/gpfs/gibbs/data/db/blast/nt.84\n\t/gpfs/gibbs/data/db/blast/nt.85\n\t/gpfs/gibbs/data/db/blast/nt.86\n\t/gpfs/gibbs/data/db/blast/nt.87\n\t/gpfs/gibbs/data/db/blast/nt.88\n\t/gpfs/gibbs/data/db/blast/nt.89\n\t/gpfs/gibbs/data/db/blast/nt.90\n\t/gpfs/gibbs/data/db/blast/nt.91\n\t/gpfs/gibbs/data/db/blast/nt.92\n\t/gpfs/gibbs/data/db/blast/nt.93\n"
+    },
+    {
+      "slurm_job_id": "13735568",
+      "source_sha256": "ad81c6828e184b941e2f7ca8a8d2ac8a6dd4c17185e584a28a948dc2b279ce9c",
+      "started": "Thu Oct 22 18:32:19 UTC 2026",
+      "finished": "Thu Oct 22 18:52:47 UTC 2026",
+      "nt_database_info": "Database: Nucleotide collection (nt)\n\t92,544,334 sequences; 1,117,587,345,597 total bases\n\nDate: Apr 21, 2023  9:03 PM\tLongest sequence: 99,791,824 bases\n\nBLASTDB Version: 5\n\nVolumes:\n\t/gpfs/gibbs/data/db/blast/nt.00\n\t/gpfs/gibbs/data/db/blast/nt.01\n\t/gpfs/gibbs/data/db/blast/nt.02\n\t/gpfs/gibbs/data/db/blast/nt.03\n\t/gpfs/gibbs/data/db/blast/nt.04\n\t/gpfs/gibbs/data/db/blast/nt.05\n\t/gpfs/gibbs/data/db/blast/nt.06\n\t/gpfs/gibbs/data/db/blast/nt.07\n\t/gpfs/gibbs/data/db/blast/nt.08\n\t/gpfs/gibbs/data/db/blast/nt.09\n\t/gpfs/gibbs/data/db/blast/nt.10\n\t/gpfs/gibbs/data/db/blast/nt.11\n\t/gpfs/gibbs/data/db/blast/nt.12\n\t/gpfs/gibbs/data/db/blast/nt.13\n\t/gpfs/gibbs/data/db/blast/nt.14\n\t/gpfs/gibbs/data/db/blast/nt.15\n\t/gpfs/gibbs/data/db/blast/nt.16\n\t/gpfs/gibbs/data/db/blast/nt.17\n\t/gpfs/gibbs/data/db/blast/nt.18\n\t/gpfs/gibbs/data/db/blast/nt.19\n\t/gpfs/gibbs/data/db/blast/nt.20\n\t/gpfs/gibbs/data/db/blast/nt.21\n\t/gpfs/gibbs/data/db/blast/nt.22\n\t/gpfs/gibbs/data/db/blast/nt.23\n\t/gpfs/gibbs/data/db/blast/nt.24\n\t/gpfs/gibbs/data/db/blast/nt.25\n\t/gpfs/gibbs/data/db/blast/nt.26\n\t/gpfs/gibbs/data/db/blast/nt.27\n\t/gpfs/gibbs/data/db/blast/nt.28\n\t/gpfs/gibbs/data/db/blast/nt.29\n\t/gpfs/gibbs/data/db/blast/nt.30\n\t/gpfs/gibbs/data/db/blast/nt.31\n\t/gpfs/gibbs/data/db/blast/nt.32\n\t/gpfs/gibbs/data/db/blast/nt.33\n\t/gpfs/gibbs/data/db/blast/nt.34\n\t/gpfs/gibbs/data/db/blast/nt.35\n\t/gpfs/gibbs/data/db/blast/nt.36\n\t/gpfs/gibbs/data/db/blast/nt.37\n\t/gpfs/gibbs/data/db/blast/nt.38\n\t/gpfs/gibbs/data/db/blast/nt.39\n\t/gpfs/gibbs/data/db/blast/nt.40\n\t/gpfs/gibbs/data/db/blast/nt.41\n\t/gpfs/gibbs/data/db/blast/nt.42\n\t/gpfs/gibbs/data/db/blast/nt.43\n\t/gpfs/gibbs/data/db/blast/nt.44\n\t/gpfs/gibbs/data/db/blast/nt.45\n\t/gpfs/gibbs/data/db/blast/nt.46\n\t/gpfs/gibbs/data/db/blast/nt.47\n\t/gpfs/gibbs/data/db/blast/nt.48\n\t/gpfs/gibbs/data/db/blast/nt.49\n\t/gpfs/gibbs/data/db/blast/nt.50\n\t/gpfs/gibbs/data/db/blast/nt.51\n\t/gpfs/gibbs/data/db/blast/nt.52\n\t/gpfs/gibbs/data/db/blast/nt.53\n\t/gpfs/gibbs/data/db/blast/nt.54\n\t/gpfs/gibbs/data/db/blast/nt.55\n\t/gpfs/gibbs/data/db/blast/nt.56\n\t/gpfs/gibbs/data/db/blast/nt.57\n\t/gpfs/gibbs/data/db/blast/nt.58\n\t/gpfs/gibbs/data/db/blast/nt.59\n\t/gpfs/gibbs/data/db/blast/nt.60\n\t/gpfs/gibbs/data/db/blast/nt.61\n\t/gpfs/gibbs/data/db/blast/nt.62\n\t/gpfs/gibbs/data/db/blast/nt.63\n\t/gpfs/gibbs/data/db/blast/nt.64\n\t/gpfs/gibbs/data/db/blast/nt.65\n\t/gpfs/gibbs/data/db/blast/nt.66\n\t/gpfs/gibbs/data/db/blast/nt.67\n\t/gpfs/gibbs/data/db/blast/nt.68\n\t/gpfs/gibbs/data/db/blast/nt.69\n\t/gpfs/gibbs/data/db/blast/nt.70\n\t/gpfs/gibbs/data/db/blast/nt.71\n\t/gpfs/gibbs/data/db/blast/nt.72\n\t/gpfs/gibbs/data/db/blast/nt.73\n\t/gpfs/gibbs/data/db/blast/nt.74\n\t/gpfs/gibbs/data/db/blast/nt.75\n\t/gpfs/gibbs/data/db/blast/nt.76\n\t/gpfs/gibbs/data/db/blast/nt.77\n\t/gpfs/gibbs/data/db/blast/nt.78\n\t/gpfs/gibbs/data/db/blast/nt.79\n\t/gpfs/gibbs/data/db/blast/nt.80\n\t/gpfs/gibbs/data/db/blast/nt.81\n\t/gpfs/gibbs/data/db/blast/nt.82\n\t/gpfs/gibbs/data/db/blast/nt.83\n\t/gpfs/gibbs/data/db/blast/nt.84\n\t/gpfs/gibbs/data/db/blast/nt.85\n\t/gpfs/gibbs/data/db/blast/nt.86\n\t/gpfs/gibbs/data/db/blast/nt.87\n\t/gpfs/gibbs/data/db/blast/nt.88\n\t/gpfs/gibbs/data/db/blast/nt.89\n\t/gpfs/gibbs/data/db/blast/nt.90\n\t/gpfs/gibbs/data/db/blast/nt.91\n\t/gpfs/gibbs/data/db/blast/nt.92\n\t/gpfs/gibbs/data/db/blast/nt.93\n"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "/gpfs/ycga/work/dunn/cwd7/siph_associates/scripts/human_screen/stage_report.py",
+      "sha256": "9902ab5ff6c7965a6a7c8e2d92cb370966c3bb66011b053faf5da88df9db07a7"
+    },
+    {
+      "path": "scripts/human_screen/review_nt.py",
+      "sha256": "eda134ed8f0145a88f3c9fd6c0aa0a1aaea0e9f55fd1d6db0e9ffbfb01f42137"
+    },
+    {
+      "path": "config/human_screen.json",
+      "sha256": "d806bcfbc963aca3e772795feb2f4645283589dc2e9b2feb9e65daeea204ac09"
+    },
+    {
+      "path": "config/post_expansion_samples.tsv",
+      "sha256": "f885a88271c9991fbfd0af6538bf61c86f56854059e5741fc26080648b75d238"
+    },
+    {
+      "path": "data/results/human_screen/2026-10-22-v2/cohort_summary.tsv",
+      "sha256": "8fa0e2f982008ba3b227340c5bd9ef9751200d15cd2c110fa5c845c78aa1dd54"
+    },
+    {
+      "path": "data/results/human_screen/2026-10-22-v2/controls.tsv",
+      "sha256": "6a0d778c364fddf3eeb026f921a2c5a448e3d5f67de5c1536a92ef41e3742ea6"
+    },
+    {
+      "path": "data/results/human_screen/2026-10-22-v2/controls.passed.json",
+      "sha256": "e1b54ab009175101ad1704d1283f0ea9756a5733ae8f515e32f5d167cd0b9edf"
+    },
+    {
+      "path": "data/results/human_screen/2026-10-22-v2/confirmation/cohort/selection.json",
+      "sha256": "ddb08ff69f662579444bef23082e363a4d46034d2cadfc7ab9b2fc111513dcd9"
+    },
+    {
+      "path": "data/results/human_screen/2026-10-22-v2/confirmation/cohort/taxonomic_review.json",
+      "sha256": "e3d12435939b2d7795f19754febae3f20bc4f7bf2444defc64b6a1d3b4c5f741"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "control_summary.tsv",
+      "sha256": "1442f8b8f8df7661e43b35be8184828ae3ee74d131aafb6ae51fe02e0f5d1c9e"
+    },
+    {
+      "path": "nt_summary.json",
+      "sha256": "08ca5a68b3ab6efbd0ecbf711bf85847102ed2637e2b29524ca02d1baacfaf20"
+    },
+    {
+      "path": "sample_summary.tsv",
+      "sha256": "e70cfdecf376ef5792ebae2b213b919cf2ae111ab27ab371fd40d628871ea4e3"
+    },
+    {
+      "path": "summary.json",
+      "sha256": "c04a73a4c0f7f10cae531944344e5a7f28a9018703a926ff886c049e56a366bd"
+    },
+    {
+      "path": "values.tex",
+      "sha256": "9a33eb2b6ab2996746daeae3d660aa3c62e6692072a0054977ca43ce597f663d"
+    }
+  ]
+}
