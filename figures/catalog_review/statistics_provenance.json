@@ -3,7 +3,7 @@
     "config/reporting_sources.json": "b84520f73a9eed259553abb194b52cd29c283a3f20aa6c72ccafc33c6ea03291",
     "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/grades/bacterial_grades.tsv": "a30a016ddb520d21ae54b5429ec995dc468bae2ea0909c161f575e8d6652f36a",
     "config/post_expansion_samples.tsv": "f885a88271c9991fbfd0af6538bf61c86f56854059e5741fc26080648b75d238",
-    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/grades/contamination_tests.tsv": "120378914941ea09fede1bdc3b32b11d7ed400a783a090437ee3eba5c753f701",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/grades/contamination_tests.tsv": "54fa15f078b694f71a2e3d5a675d1e67f2e1f7389c0a6689949722be1752a8bf",
     "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_permanova.tsv": "a765a835a1ff2fc15618928193cb40e97dc41aac8be616fdf225332d600030c4",
     "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/breadth_5pct/physalia_region_permutation.tsv": "3519d8f18bc35fc9b62d355233cdf99520efbc0beee06cef92674ec0d88fdb36",
     "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/primary/physalia_permanova.tsv": "f14be6719f6a9109cb3f9a6b02f764856835666f39a413577062535448ccf417",

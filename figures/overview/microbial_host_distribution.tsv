@@ -44,15 +44,24 @@ Physalia utriculus	Cutibacterium	4	64	0.0625
 Physalia utriculus	Photobacterium	3	64	0.046875
 Physalia utriculus	Alteromonas	2	64	0.03125
 Physalia utriculus	Remaining bacteria	28	64	0.4375
-Nanomia bijuga	Metamycoplasmataceae	1	6	0.16666666666666666
-Nanomia bijuga	Cognatishimia	2	6	0.3333333333333333
-Nanomia bijuga	Vibrio	2	6	0.3333333333333333
-Nanomia bijuga	CAKMZU01	2	6	0.3333333333333333
-Nanomia bijuga	Pseudoalteromonas	1	6	0.16666666666666666
-Nanomia bijuga	Cutibacterium	2	6	0.3333333333333333
-Nanomia bijuga	Photobacterium	0	6	0.0
-Nanomia bijuga	Alteromonas	3	6	0.5
-Nanomia bijuga	Remaining bacteria	3	6	0.5
+Nanomia bijuga	Metamycoplasmataceae	1	10	0.1
+Nanomia bijuga	Cognatishimia	2	10	0.2
+Nanomia bijuga	Vibrio	2	10	0.2
+Nanomia bijuga	CAKMZU01	3	10	0.3
+Nanomia bijuga	Pseudoalteromonas	2	10	0.2
+Nanomia bijuga	Cutibacterium	3	10	0.3
+Nanomia bijuga	Photobacterium	0	10	0.0
+Nanomia bijuga	Alteromonas	4	10	0.4
+Nanomia bijuga	Remaining bacteria	4	10	0.4
+Nanomia cara	Metamycoplasmataceae	0	1	0.0
+Nanomia cara	Cognatishimia	0	1	0.0
+Nanomia cara	Vibrio	0	1	0.0
+Nanomia cara	CAKMZU01	0	1	0.0
+Nanomia cara	Pseudoalteromonas	0	1	0.0
+Nanomia cara	Cutibacterium	0	1	0.0
+Nanomia cara	Photobacterium	0	1	0.0
+Nanomia cara	Alteromonas	0	1	0.0
+Nanomia cara	Remaining bacteria	0	1	0.0
 Nanomia septata	Metamycoplasmataceae	7	10	0.7
 Nanomia septata	Cognatishimia	0	10	0.0
 Nanomia septata	Vibrio	0	10	0.0
@@ -62,15 +71,15 @@ Nanomia septata	Cutibacterium	0	10	0.0
 Nanomia septata	Photobacterium	0	10	0.0
 Nanomia septata	Alteromonas	0	10	0.0
 Nanomia septata	Remaining bacteria	2	10	0.2
-Nanomia sp.	Metamycoplasmataceae	0	6	0.0
-Nanomia sp.	Cognatishimia	0	6	0.0
-Nanomia sp.	Vibrio	0	6	0.0
-Nanomia sp.	CAKMZU01	1	6	0.16666666666666666
-Nanomia sp.	Pseudoalteromonas	1	6	0.16666666666666666
-Nanomia sp.	Cutibacterium	2	6	0.3333333333333333
-Nanomia sp.	Photobacterium	0	6	0.0
-Nanomia sp.	Alteromonas	1	6	0.16666666666666666
-Nanomia sp.	Remaining bacteria	2	6	0.3333333333333333
+Nanomia sp. 1	Metamycoplasmataceae	0	1	0.0
+Nanomia sp. 1	Cognatishimia	0	1	0.0
+Nanomia sp. 1	Vibrio	0	1	0.0
+Nanomia sp. 1	CAKMZU01	0	1	0.0
+Nanomia sp. 1	Pseudoalteromonas	0	1	0.0
+Nanomia sp. 1	Cutibacterium	1	1	1.0
+Nanomia sp. 1	Photobacterium	0	1	0.0
+Nanomia sp. 1	Alteromonas	0	1	0.0
+Nanomia sp. 1	Remaining bacteria	1	1	1.0
 Abylopsis tetragona	Metamycoplasmataceae	0	1	0.0
 Abylopsis tetragona	Cognatishimia	0	1	0.0
 Abylopsis tetragona	Vibrio	0	1	0.0

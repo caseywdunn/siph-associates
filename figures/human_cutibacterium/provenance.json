@@ -1,15 +1,15 @@
 {
   "analysis_id": "human-compatible-prefix-cutibacterium-comparison",
-  "run_id": "20261022T183407Z",
-  "started_at_utc": "2026-10-22T18:34:07.761239+00:00",
-  "completed_at_utc": "2026-10-22T18:34:07.777327+00:00",
+  "run_id": "20261023T122111Z",
+  "started_at_utc": "2026-10-23T12:21:11.294325+00:00",
+  "completed_at_utc": "2026-10-23T12:21:11.312539+00:00",
   "status": "complete",
   "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python3.11 scripts/summarize_human_cutibacterium.py --config config/human_cutibacterium.json",
   "python_version": "3.11.0",
   "slurm_job_id": "13489566",
-  "base_git_revision": "0ad888a33ce970c0e7d87c02b421d4e69373e22a",
+  "base_git_revision": "24e5581143f82cbab56a5be87db625cf391d0c31",
   "inputs_sha256": {
-    "figures/cohort/sample_metadata.tsv": "8a1eeadd5f98ec82b20b67e0229820e8f4ee7e955e3345832774d2510dad0817",
+    "figures/cohort/sample_metadata.tsv": "887d88ac15f13bf065d9b749a67c573e11257330eed8d18c1ba0e48c1329242f",
     "figures/cohort/bacterial_detections.tsv": "ae0b6cf16f24c5e6766ac49dec6117c514d86b5e72261386c8d2d8505c9da720",
     "data/results/human_screen/2026-10-22-v2/cohort_summary.tsv": "8fa0e2f982008ba3b227340c5bd9ef9751200d15cd2c110fa5c845c78aa1dd54"
   },
@@ -20,8 +20,8 @@
   },
   "source_snapshot": "figures/human_cutibacterium/provenance/source",
   "outputs_sha256": {
-    "figures/human_cutibacterium/sample_comparison.tsv": "6303a730febc11da1a40d8d1d2031b5c3a0ea4f72f7be84cfc51bd1098ea042b",
-    "figures/human_cutibacterium/cutibacterium_specimens.tsv": "9050b4b25097c8f725dde64b9853d2b110cd7bcc7d8afb46d9e7f68e986b6b06",
+    "figures/human_cutibacterium/sample_comparison.tsv": "474574620cd194f1a5d18e88b32a824f7605acbb44c6cb3e9ba71d60492c89bf",
+    "figures/human_cutibacterium/cutibacterium_specimens.tsv": "103cf28553b807e9224fb372ad326ac9cc91e33ebd5c576a885cd5ef0660e991",
     "figures/human_cutibacterium/group_summary.tsv": "3e4b4c41dcef03a6f46b1c7cf3f0fd8cf44e729b8b75ec8b3ff24b39bb23c989",
     "figures/human_cutibacterium/summary.json": "e3b1b2e3c9cf41aecd4ee64518b332ef5389bb9154ed2e40b53fb36b15b91664",
     "figures/human_cutibacterium/values.tex": "1a6dbf84bf18f7cddf5282f6d36b419937cabe8bb97e8957fda499eadaba6730"

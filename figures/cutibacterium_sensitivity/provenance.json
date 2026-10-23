@@ -1,16 +1,16 @@
 {
   "analysis_id": "community-cutibacterium-omission-sensitivity",
-  "run_id": "20261022T183630Z",
-  "started_at_utc": "2026-10-22T18:36:30.990825+00:00",
-  "completed_at_utc": "2026-10-22T18:36:49.985823+00:00",
+  "run_id": "20261023T122154Z",
+  "started_at_utc": "2026-10-23T12:21:54.684121+00:00",
+  "completed_at_utc": "2026-10-23T12:22:12.130320+00:00",
   "status": "complete",
   "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python3.11 scripts/run_cutibacterium_sensitivity.py --config config/cutibacterium_sensitivity.json",
   "r_command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/stats_env/bin/Rscript workflow/scripts/analyze_cutibacterium_sensitivity.R config/cutibacterium_sensitivity.json",
   "python_version": "3.11.0",
   "slurm_job_id": "13489566",
-  "base_git_revision": "0ad888a33ce970c0e7d87c02b421d4e69373e22a",
+  "base_git_revision": "24e5581143f82cbab56a5be87db625cf391d0c31",
   "inputs_sha256": {
-    "figures/coauthor_metadata/specimen_context.tsv": "28c2a55caae694fee49f6fb7f2cf807d436f8cd77789d0ff72952b51862b1cd3",
+    "figures/coauthor_metadata/specimen_context.tsv": "61d988e9265fb94fcfd8139d5a68f9599d182be06adf999e141a54edb03b7df9",
     "figures/coauthor_metadata/contrast_membership.tsv": "6cbb4875875eab55154ae9c3d753a810c4d45e87fd8ea927e1cf8761c38bf90b",
     "figures/coauthor_metadata/community_tests.tsv": "3e9ed31584f816a40c9b7e5843a8b2655e3eeb2cb666fb696779dd8072f3e5dc",
     "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/grades/bacterial_grades.tsv": "a30a016ddb520d21ae54b5429ec995dc468bae2ea0909c161f575e8d6652f36a"

@@ -4,7 +4,7 @@
   "libraries": 213,
   "original_libraries": 205,
   "added_libraries": 8,
-  "original_metadata_changes": 2,
+  "original_metadata_changes": 14,
   "detection_comparison": {
     "microbial": {
       "previous_detections": 557,
@@ -141,8 +141,8 @@
   },
   "current_cohort_summary": {
     "libraries": 213,
-    "host_labels": 42,
-    "singleton_host_labels": 29,
+    "host_labels": 43,
+    "singleton_host_labels": 31,
     "libraries_by_study": {
       "Church2025": 151,
       "Ahuja2024": 33,

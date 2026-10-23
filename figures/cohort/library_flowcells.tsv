@@ -33,8 +33,8 @@ Ahuja2024__NA7	Ahuja2024	Lilyopsis fluoracantha		A00124:419:HFNHJDSX3;A00124:432
 Ahuja2024__NA8	Ahuja2024	Bargmannia lata		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3	2	single_flowcell		false	multiple_flowcells
 Ahuja2024__NA9	Ahuja2024	Frillagalma vityazi		A00124:419:HFNHJDSX3;A00124:432:HHGFNDSX3;A01519:133:HM2L3DSX3	3	single_flowcell		false	multiple_flowcells
 Ahuja2026__NA19	Ahuja2026	Nanomia septata	NE Pacific	A01519:212:HHKVKDSX5	1	single_flowcell	A01519:212:HHKVKDSX5	true	
-Ahuja2026__NA28	Ahuja2026	Nanomia sp.	NW Atlantic	A01519:267:HT37JDSX5	1	single_flowcell	A01519:267:HT37JDSX5	true	
-Ahuja2026__NA29	Ahuja2026	Nanomia sp.	N Pacific	A01519:267:HT37JDSX5	1	single_flowcell	A01519:267:HT37JDSX5	true	
+Ahuja2026__NA28	Ahuja2026	Nanomia bijuga	NW Atlantic	A01519:267:HT37JDSX5	1	single_flowcell	A01519:267:HT37JDSX5	true	
+Ahuja2026__NA29	Ahuja2026	Nanomia sp. 1	N Pacific	A01519:267:HT37JDSX5	1	single_flowcell	A01519:267:HT37JDSX5	true	
 Ahuja2026__NA30	Ahuja2026	Nanomia bijuga	Mediterranean	A01519:267:HT37JDSX5	1	single_flowcell	A01519:267:HT37JDSX5	true	
 Ahuja2026__NA31	Ahuja2026	Nanomia bijuga	Gulf of California	A00124:673:HFG3JDSX7	1	single_flowcell	A00124:673:HFG3JDSX7	true	
 Ahuja2026__NA32	Ahuja2026	Nanomia bijuga	Gulf of California	A00124:673:HFG3JDSX7	1	single_flowcell	A00124:673:HFG3JDSX7	true	
@@ -43,11 +43,11 @@ Ahuja2026__NA34	Ahuja2026	Nanomia septata	NE Pacific	LH00309:136:223TNKLT4	1	sin
 Ahuja2026__NA35	Ahuja2026	Nanomia septata	NE Pacific	LH00309:136:223TNKLT4;LH00309:140:223JTMLT4	2	single_flowcell		false	multiple_flowcells
 Ahuja2026__NA36	Ahuja2026	Nanomia septata	NE Pacific	LH00309:136:223TNKLT4	1	single_flowcell	LH00309:136:223TNKLT4	true	
 Ahuja2026__NA37	Ahuja2026	Nanomia bijuga	N Pacific	LH00309:212:22CMLKLT3	1	single_flowcell	LH00309:212:22CMLKLT3	true	
-Ahuja2026__NA38	Ahuja2026	Nanomia sp.	N Pacific	LH00309:212:22CMLKLT3	1	single_flowcell	LH00309:212:22CMLKLT3	true	
+Ahuja2026__NA38	Ahuja2026	Nanomia bijuga	N Pacific	LH00309:212:22CMLKLT3	1	single_flowcell	LH00309:212:22CMLKLT3	true	
 Ahuja2026__WS10	Ahuja2026	Nanomia septata	NE Pacific	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
-Ahuja2026__WS2	Ahuja2026	Nanomia sp.	NW Atlantic	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
-Ahuja2026__WS3	Ahuja2026	Nanomia sp.	NW Atlantic	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
-Ahuja2026__WS4	Ahuja2026	Nanomia sp.	NW Atlantic	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7;LH00309:202:227M77LT4;LH00309:204:227MGJLT4	4	single_flowcell		false	multiple_flowcells
+Ahuja2026__WS2	Ahuja2026	Nanomia bijuga	NW Atlantic	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
+Ahuja2026__WS3	Ahuja2026	Nanomia bijuga	NW Atlantic	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
+Ahuja2026__WS4	Ahuja2026	Nanomia cara	NW Atlantic	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7;LH00309:202:227M77LT4;LH00309:204:227MGJLT4	4	single_flowcell		false	multiple_flowcells
 Ahuja2026__WS5	Ahuja2026	Nanomia septata	NE Pacific	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
 Ahuja2026__WS6	Ahuja2026	Nanomia septata	NE Pacific	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells
 Ahuja2026__WS7	Ahuja2026	Nanomia septata	NE Pacific	A01519:322:H7JNNDSX7;A01519:358:HJKNNDSX7	2	single_flowcell		false	multiple_flowcells

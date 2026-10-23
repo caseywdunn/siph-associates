@@ -1,22 +1,22 @@
 {
   "status": "complete",
-  "source_revision": "0ad888a33ce970c0e7d87c02b421d4e69373e22a",
+  "source_revision": "24e5581143f82cbab56a5be87db625cf391d0c31",
   "source_note": "Working-tree reporting changes are identified by script and input checksums.",
-  "script_sha256": "8a59454abc0c02d41849c8f566af0e3784bc8592039b6a44d8c165912c79835f",
+  "script_sha256": "af7595adb725353db22de180d1a5bd3be3595e5dacd17d261ae495f8728d28e8",
   "inputs_sha256": {
-    "figures/cohort/sample_metadata.tsv": "8a1eeadd5f98ec82b20b67e0229820e8f4ee7e955e3345832774d2510dad0817",
-    "figures/collection_context/library_context.tsv": "7aba45985891cd62e77ba7d5265ee05220b1ac7eb026bbcb1751fa6653e167a0",
-    "config/publication_host_names.tsv": "d5f25100d494c22970249992d99a5adda87ccdd437f5f4a10b4e84838e8160b0",
+    "figures/cohort/sample_metadata.tsv": "887d88ac15f13bf065d9b749a67c573e11257330eed8d18c1ba0e48c1329242f",
+    "figures/collection_context/library_context.tsv": "580986c13ab1265fad67b0ceb4f8b520ad223833af5aac05d4c59575ecccf026",
+    "config/publication_host_names.tsv": "fc480217d33a59faf49c90038f92ae3f91c1eefbb1815a95457d8ee677d02876",
     "config/reporting_sources.json": "b84520f73a9eed259553abb194b52cd29c283a3f20aa6c72ccafc33c6ea03291",
     "config/post_expansion_samples.tsv": "f885a88271c9991fbfd0af6538bf61c86f56854059e5741fc26080648b75d238",
     "figures/coauthor_review/catalog/mag_catalog.tsv": "fc6f98ba428b2b25e83034f9ffc7c2529cdc7383cd2c2b7ae723afae2d3199e7",
     "data/results/post_expansion/2026-10-20/phase3_cohort/assembly_summary.tsv": "2c7052be73da5f964bd30258adb80aac4c9befc641c7975e7b5c3657a8c9dbc7"
   },
   "outputs_sha256": {
-    "figures/dalila_revision/host_species_summary.tsv": "22a0fd1cb304888fc12e3bfee06bc1898547ce8788917779a9b93f3bbb11b565",
-    "figures/dalila_revision/values.tex": "1abb8e23a3e9e051eb26326bca301c57230f30195b6a8cbae8272632e25293b4",
+    "figures/dalila_revision/host_species_summary.tsv": "3a78ceb9758086d2b6512fe57372b7758e236c87d255fb0d525f692118ba69a6",
+    "figures/dalila_revision/values.tex": "2b14b609d31e8c28781d6e09668728694b58d41c201275290c636f13ebffbfd5",
     "figures/dalila_revision/clade_a_regions.tsv": "f095156033080a208fed1e9a67d20c7a7adbcb5886ec62a7c978f9047dd7af4c",
     "figures/dalila_revision/assembly_routes.tsv": "9ad431bedf3d059cb48a4aed13986b5dd740b1e46dafb99f88b844d2ad4df9fa",
-    "figures/dalila_revision/summary.json": "78e8cbf14741165cefe7d4221fc97e4ad57587ce399ec57842256e1b738ebdd1"
+    "figures/dalila_revision/summary.json": "6f1ffcbded10c7d48391348d0cbb0fa775168464e046d10c7662d9fff5ecc56a"
   }
 }

@@ -14,6 +14,17 @@ membership; adding metadata does not modify either study's frozen sequence input
 For Manko2026, publication-overlay original values are the sourced specimen values;
 original study identifiers remain protected.
 
+## Nanomia identifications
+
+The publication table distinguishes *Nanomia bijuga*, *N. cara*, *N. septata*,
+and *Nanomia* sp. 1. Voucher-level identifications in the mitochondrial trees
+of Ahuja et al. (2026; Fig 4 and S8 Fig), joined through their S8 Table, resolve
+six specimens previously pooled as `Nanomia sp.`. The
+[reviewed identifications and evidence](../data/metadata/manual-review/2026-10-23_nanomia/README.md)
+record each assignment. Current names are applied through
+[the publication host-name table](../config/publication_host_names.tsv);
+original sequence-analysis manifests retain their deposited labels.
+
 ## Identifier meanings
 
 | Column | Meaning |

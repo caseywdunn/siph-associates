@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "figures/dalila_revision"
 INPUTS: dict[str, str] = {}
 UNRESOLVED = {
-    "Nanomia sp.",
+    "Nanomia sp. 1",
     "Apolemia sp. 3 CWD-2005",
     "Cordagalma",
     "Forskalia",
@@ -70,6 +70,11 @@ def main() -> None:
             n for host, n in counts.items() if host.startswith("Physalia ")
         ),
         "NanomiaN": sum(n for host, n in counts.items() if host.startswith("Nanomia ")),
+        "NanomiaBijugaN": counts["Nanomia bijuga"],
+        "NanomiaBijugaBacterialPositive": sum(
+            r["species_current"] == "Nanomia bijuga" and int(r["bacterial_detected"])
+            for r in context
+        ),
         "OtherN": sum(
             n
             for host, n in counts.items()

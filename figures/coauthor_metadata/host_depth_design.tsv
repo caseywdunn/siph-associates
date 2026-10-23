@@ -24,9 +24,10 @@ Gymnopraia lapislazula	1	0	1	0	420.0	420.0	insufficient_within_host_single_flowc
 Halistemma rubrum	2	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
 Hippopodius hippopus	1	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
 Lilyopsis fluoracantha	1	0	1	0	417.0	417.0	insufficient_within_host_single_flowcell_replication
-Nanomia bijuga	6	6	1	0	10.0	10.0	no_collection_depth_variation
+Nanomia bijuga	10	8	1	0	10.0	10.0	no_collection_depth_variation
+Nanomia cara	1	0	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
 Nanomia septata	10	3	8	0	10.0	662.29	shallow_deep_contrast_confounded_with_locality
-Nanomia sp.	6	3	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
+Nanomia sp. 1	1	1	1	0	10.0	10.0	insufficient_within_host_single_flowcell_replication
 Physalia megalista	26	20	1	0	0.0	0.0	no_collection_depth_variation
 Physalia mikazuki	5	4	1	0	0.0	0.0	no_collection_depth_variation
 Physalia minuta	19	10	1	0	0.0	0.0	no_collection_depth_variation

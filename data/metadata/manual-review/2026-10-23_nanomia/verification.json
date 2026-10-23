@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "date": "2026-10-23",
+  "total_libraries": 213,
+  "metadata_changes": {
+    "Ahuja2026:NA28": [
+      "analysis_notes",
+      "species_current"
+    ],
+    "Ahuja2026:NA29": [
+      "analysis_notes",
+      "species_current"
+    ],
+    "Ahuja2026:NA38": [
+      "analysis_notes",
+      "species_current"
+    ],
+    "Ahuja2026:WS2": [
+      "analysis_notes",
+      "species_current"
+    ],
+    "Ahuja2026:WS3": [
+      "analysis_notes",
+      "species_current"
+    ],
+    "Ahuja2026:WS4": [
+      "analysis_notes",
+      "species_current"
+    ]
+  },
+  "nanomia_counts": {
+    "Nanomia bijuga": 10,
+    "Nanomia septata": 10,
+    "Nanomia sp. 1": 1,
+    "Nanomia cara": 1
+  },
+  "nanomia_bijuga_bacterial_positives": [
+    "Ahuja2026:NA31",
+    "Ahuja2026:NA33",
+    "Ahuja2026:NA37",
+    "Ahuja2026:NA38"
+  ],
+  "unchanged_sha256": {
+    "manifest.csv": "926bcbf2c6dffc18d9da0faa1877bd67349d057599aead88ba4472c40279b72d",
+    "config/samples.tsv": "727e749ac2e2218989de237401bfc89abcf4fd8f63b7ec2d152c4dc2e2b0be9f",
+    "config/post_expansion_samples.tsv": "f885a88271c9991fbfd0af6538bf61c86f56854059e5741fc26080648b75d238",
+    "config/post_expansion_manifest.csv": "91bb4899a48352d94bbdfb2209aa4b943dcfd356cbd079c463ce860dbe906e57",
+    "data/metadata/sample_metadata_updates.tsv": "7c5ea70abf78e6b0c6f2cb26cf9ce0638cdfba14dbd7a5f2dd56d783aa73d1e3",
+    "figures/cohort/bacterial_detections.tsv": "ae0b6cf16f24c5e6766ac49dec6117c514d86b5e72261386c8d2d8505c9da720",
+    "figures/cohort/viral_detections.tsv": "de6b0a5bb733c9115472f9950727287f91bc46b8dc590462c3d347cae875a1a8",
+    "figures/cohort/eukaryote_evidence.tsv": "e65331fb27b11581f49ad8c0cda298c753aee0e15e38416c301107bcb9d734fa",
+    "figures/coauthor_metadata/community_tests.tsv": "3e9ed31584f816a40c9b7e5843a8b2655e3eeb2cb666fb696779dd8072f3e5dc",
+    "figures/coauthor_metadata/dispersion_tests.tsv": "5f2fda12dffc65435dcdae8d17e3c9dca9b49a42306f90b1747842717daeb0ae",
+    "figures/cutibacterium_sensitivity/community_tests.tsv": "d9338c847aee0e436238eda212db1b70583fcbf1eeb442e4d6938c5117fed6dd"
+  }
+}

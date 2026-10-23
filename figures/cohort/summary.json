@@ -1,7 +1,7 @@
 {
   "libraries": 213,
-  "host_labels": 42,
-  "singleton_host_labels": 29,
+  "host_labels": 43,
+  "singleton_host_labels": 31,
   "libraries_by_study": {
     "Church2025": 151,
     "Ahuja2024": 33,

@@ -266,13 +266,23 @@
     },
     {
       "species_current": "Nanomia bijuga",
-      "libraries": 6,
-      "single_flowcell_libraries": 6,
+      "libraries": 10,
+      "single_flowcell_libraries": 8,
       "distinct_point_or_derived_depths": 1,
       "localities_spanning_depth_groups": 0,
       "depth_min_m": 10.0,
       "depth_max_m": 10.0,
       "status": "no_collection_depth_variation"
+    },
+    {
+      "species_current": "Nanomia cara",
+      "libraries": 1,
+      "single_flowcell_libraries": 0,
+      "distinct_point_or_derived_depths": 1,
+      "localities_spanning_depth_groups": 0,
+      "depth_min_m": 10.0,
+      "depth_max_m": 10.0,
+      "status": "insufficient_within_host_single_flowcell_replication"
     },
     {
       "species_current": "Nanomia septata",
@@ -285,9 +295,9 @@
       "status": "shallow_deep_contrast_confounded_with_locality"
     },
     {
-      "species_current": "Nanomia sp.",
-      "libraries": 6,
-      "single_flowcell_libraries": 3,
+      "species_current": "Nanomia sp. 1",
+      "libraries": 1,
+      "single_flowcell_libraries": 1,
       "distinct_point_or_derived_depths": 1,
       "localities_spanning_depth_groups": 0,
       "depth_min_m": 10.0,

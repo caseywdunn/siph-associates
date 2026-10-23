@@ -22,14 +22,14 @@
     "config/coauthor_reporting.json"
   ],
   "python": "3.11.0 | packaged by conda-forge | (main, Jan 14 2023, 12:27:40) [GCC 11.3.0]",
-  "source_revision": "0ad888a33ce970c0e7d87c02b421d4e69373e22a",
+  "source_revision": "24e5581143f82cbab56a5be87db625cf391d0c31",
   "code_sha256": "d5cb3a47d49dff96be4b165f91cf8cab3acd216fb712af5462e63d9f7d877574",
   "inputs_sha256": {
     "config/coauthor_reporting.json": "3f467a4c4427d935f581c65a97bf745af4e085dbdd7e573ea08ba76f406d058e",
     "config/viral_catalog_classifications.tsv": "2797079c7c660fa2402ef5e5d3125af945c0ce93c9e1ce56c33206b884c14380",
     "data/results/post_expansion/2026-10-21/reporting/stages/phase6_analysis_v3.done": "3ccd535e59c0edfbea242371d9180ef84983d5a1409ee77c2317e04547c455f3",
     "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/library_flowcells.tsv": "3335b59b83e93d7b1b72cf6e4b47973ecf610d3478dca58dc5ec61b2f7298500",
-    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/primary/library_flowcells.tsv": "6a98d7257e6f93b4799f5aca841e45cde639fd2b9c30d85f1611bc755400e49a",
+    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/primary/library_flowcells.tsv": "16b70142f3c052f10c109d665444f5891f8544c538827b404b23dd9d016d2b3d",
     "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/grades/bacterial_grades.tsv": "a30a016ddb520d21ae54b5429ec995dc468bae2ea0909c161f575e8d6652f36a",
     "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/physalia_design.tsv": "3e7df8e94d3a549a250b236458d2820c8a1ca4b1ab5779f9d0a3b73245b38e96",
     "data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/primary/physalia_models.tsv": "3236fb851ad2cbd96b90934101f998b3494d34fa53e525eb8f6ae9d882f6dad3",

@@ -1,3 +1,15 @@
 analysis_sample_id	field	previous	current
+Ahuja2026__NA28	species_current	Nanomia sp.	Nanomia bijuga
+Ahuja2026__NA28	analysis_notes	RI cluster = N. bijuga (3) + N. cara (1); per-specimen CO1 needed	RI cluster = N. bijuga (3) + N. cara (1); per-specimen CO1 needed; published mitochondrial identification: YPM:IZ:110451 = Nanomia bijuga (Ahuja2026 S8)
+Ahuja2026__NA29	species_current	Nanomia sp.	Nanomia sp. 1
+Ahuja2026__NA29	analysis_notes	HI cluster = N. bijuga (2) + N. sp. 1 (1); per-specimen CO1 needed	HI cluster = N. bijuga (2) + N. sp. 1 (1); per-specimen CO1 needed; published mitochondrial identification: YPM:IZ:111733 = Nanomia sp. 1 (Ahuja2026 S8)
 Ahuja2026__NA37	species_current	Nanomia sp.	Nanomia bijuga
 Ahuja2026__NA37	analysis_notes	HI cluster = N. bijuga (2) + N. sp. 1 (1); per-specimen CO1 needed	coauthor-confirmed N. bijuga (Namrata Ahuja, 2026-10-22)
+Ahuja2026__NA38	species_current	Nanomia sp.	Nanomia bijuga
+Ahuja2026__NA38	analysis_notes	HI cluster = N. bijuga (2) + N. sp. 1 (1); per-specimen CO1 needed	HI cluster = N. bijuga (2) + N. sp. 1 (1); per-specimen CO1 needed; published mitochondrial identification: YPM:IZ:111591 = Nanomia bijuga (Ahuja2026 S8)
+Ahuja2026__WS2	species_current	Nanomia sp.	Nanomia bijuga
+Ahuja2026__WS2	analysis_notes	RI cluster = N. bijuga (3) + N. cara (1); per-specimen CO1 needed	RI cluster = N. bijuga (3) + N. cara (1); per-specimen CO1 needed; published mitochondrial identification: YPM:IZ:110216 = Nanomia bijuga (Ahuja2026 Fig4A)
+Ahuja2026__WS3	species_current	Nanomia sp.	Nanomia bijuga
+Ahuja2026__WS3	analysis_notes	RI cluster = N. bijuga (3) + N. cara (1); per-specimen CO1 needed	RI cluster = N. bijuga (3) + N. cara (1); per-specimen CO1 needed; published mitochondrial identification: YPM:IZ:111734 = Nanomia bijuga (Ahuja2026 S8)
+Ahuja2026__WS4	species_current	Nanomia sp.	Nanomia cara
+Ahuja2026__WS4	analysis_notes	RI cluster = N. bijuga (3) + N. cara (1); per-specimen CO1 needed	RI cluster = N. bijuga (3) + N. cara (1); per-specimen CO1 needed; published mitochondrial identification: YPM:IZ:111735 = Nanomia cara (Ahuja2026 S8)

@@ -1,5 +1,5 @@
 {
-  "completed_utc": "2026-10-22T17:35:50.836602+00:00",
+  "completed_utc": "2026-10-23T12:19:20.208917+00:00",
   "command": [
     "scripts/fish_12s/finalize_report.py"
   ],
@@ -58,7 +58,7 @@
     "data/results/bargmannia/2026-10-19/fish_12s/review/Manko2026__D666-D10/run.json": "5cc2e952ea43969a8cb12858c691802867ca216e6ebda78932457978c4f1956d",
     "data/results/bargmannia/2026-10-19/fish_12s/review/Manko2026__D961-D3/run.json": "2b791bf715927ed42bbb1692102b9d9e4a03502f4814908ca14b3e63b28e17df",
     "data/results/bargmannia/2026-10-19/fish_12s/review/Manko2026__D725-D8/run.json": "85810f6a55cc0138660b6a524e9652d2db96728519ad292aae334628455f867a",
-    "figures/cohort/sample_metadata.tsv": "8a1eeadd5f98ec82b20b67e0229820e8f4ee7e955e3345832774d2510dad0817",
+    "figures/cohort/sample_metadata.tsv": "887d88ac15f13bf065d9b749a67c573e11257330eed8d18c1ba0e48c1329242f",
     "data/results/fish_12s/cohort_host_depleted/2026-10-18/union/Church2025__WAM-Z97906/host_depleted/candidates.fasta": "f23f30abf167f19028c7fafe67b0f5c7d1b2ffe4818fb39f8c64a61a8f81102f",
     "data/results/fish_12s/host_depleted/2026-10-17/Church2025__WAM-Z97917/host_depleted/candidates.fasta": "da86432bd85b0fe84183489ec47ae4b96ab40859405b4ab6e0dea7a1852651b0",
     "data/results/fish_12s/cohort_host_depleted/2026-10-18/union/Church2025__YPM-IZ-110471/host_depleted/candidates.fasta": "b9a6fe82cae99f2a4e92117e0c548613fb5715537404b392e36c77eb9c161187",
@@ -73,7 +73,7 @@
   "outputs_sha256": {
     "positive_pairs.tsv": "50ec0fe16937cf2b3ade972e3e6f7b8d00cfebfd6f35c0d7659dd18bb36897bc",
     "values.tex": "75e2d2f5c87029ad3bf87fd65a00bfe2a609e9955cb1a6d5d2a77a7343578388",
-    "sample_summary.tsv": "1ab17d34292109ac813ea5bcef49cee97f6bad4f6d9e346e62ef000bd6c077b1",
+    "sample_summary.tsv": "be71331e930fed1adb5b4f833ab9412f6be6a1a32719a0669d17a2a1a76bfa36",
     "summary.json": "33d584a47131620bd31fe5278633f5aa1577701fa92c41e4930454a6d8bcf5b8"
   }
 }

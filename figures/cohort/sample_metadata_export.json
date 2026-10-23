@@ -22,16 +22,16 @@
   "inputs_sha256": {
     "manifest.csv": "926bcbf2c6dffc18d9da0faa1877bd67349d057599aead88ba4472c40279b72d",
     "config/samples.tsv": "727e749ac2e2218989de237401bfc89abcf4fd8f63b7ec2d152c4dc2e2b0be9f",
-    "config/publication_host_names.tsv": "d5f25100d494c22970249992d99a5adda87ccdd437f5f4a10b4e84838e8160b0",
+    "config/publication_host_names.tsv": "fc480217d33a59faf49c90038f92ae3f91c1eefbb1815a95457d8ee677d02876",
     "data/metadata/sample_metadata_updates.tsv": "7c5ea70abf78e6b0c6f2cb26cf9ce0638cdfba14dbd7a5f2dd56d783aa73d1e3",
-    "data/metadata/publication_metadata_updates.tsv": "f7065ceb28d665010b33a9c4017358242b5fd69bb8683cacb4373a6325451b7c",
+    "data/metadata/publication_metadata_updates.tsv": "dd3c746342b83e2f8a603d5342b06bc687f04d462953633c3d7da98f3efda85a",
     "manko2026_manifest.csv": "f42eab36e750b700bd0608d09fa9c949690ddde902b3f213d30c95f7ccdb96c4",
     "data/metadata/manko2026/sample_metadata.tsv": "98b2fda83f462ee64d7ea3e02af86764afbf3e91b961c580ecf7465509997bdd",
     "config/post_expansion_samples.tsv": "f885a88271c9991fbfd0af6538bf61c86f56854059e5741fc26080648b75d238",
     "scripts/export_sample_metadata.py": "08bc32bcc23fc36e8fbe83b8dbab4a4a92b3fe9e48d4574f4a4110824f26b50d"
   },
   "outputs_sha256": {
-    "sample_metadata.tsv": "8a1eeadd5f98ec82b20b67e0229820e8f4ee7e955e3345832774d2510dad0817",
+    "sample_metadata.tsv": "887d88ac15f13bf065d9b749a67c573e11257330eed8d18c1ba0e48c1329242f",
     "sample_metadata_provenance.tsv": "db2904c1a14760c09899be5e2ed329af028e15121a53ce440281548ad4d9f6d2",
     "sample_metadata_missing.tsv": "3c50e9fc78154597236be01dd58f803537c47e98b688dbfb2bb8aeb72fbf495b"
   }
