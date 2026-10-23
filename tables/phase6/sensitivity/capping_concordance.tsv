@@ -1,0 +1,17 @@
+analysis	sample_id	domain	comparison	present_capped	present_uncapped	both	only_capped	only_uncapped	jaccard
+capping	Ahuja2024__CWD146	bacterial	capped vs uncapped	0	0	0	0	0	1.0
+capping	Ahuja2024__CWD146	viral	capped vs uncapped	2	2	2	0	0	1.0
+capping	Ahuja2024__CWD3	bacterial	capped vs uncapped	0	0	0	0	0	1.0
+capping	Ahuja2024__CWD3	viral	capped vs uncapped	17	18	17	0	1	0.9444
+capping	Ahuja2024__NA1	bacterial	capped vs uncapped	1	1	1	0	0	1.0
+capping	Ahuja2024__NA1	viral	capped vs uncapped	19	19	19	0	0	1.0
+capping	Ahuja2026__NA38	bacterial	capped vs uncapped	10	12	10	0	2	0.8333
+capping	Ahuja2026__NA38	viral	capped vs uncapped	16	16	16	0	0	1.0
+capping	Ahuja2026__WS7	bacterial	capped vs uncapped	1	1	1	0	0	1.0
+capping	Ahuja2026__WS7	viral	capped vs uncapped	6	6	6	0	0	1.0
+capping	Ahuja2026__WS9	bacterial	capped vs uncapped	1	1	1	0	0	1.0
+capping	Ahuja2026__WS9	viral	capped vs uncapped	4	4	4	0	0	1.0
+capping	Church2025__YPM-IZ-110436	bacterial	capped vs uncapped	1	2	1	0	1	0.5
+capping	Church2025__YPM-IZ-110436	viral	capped vs uncapped	7	7	7	0	0	1.0
+capping	Church2025__YPM-IZ-111839	bacterial	capped vs uncapped	20	32	20	0	12	0.625
+capping	Church2025__YPM-IZ-111839	viral	capped vs uncapped	24	24	24	0	0	1.0

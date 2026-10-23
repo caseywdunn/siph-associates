@@ -1,0 +1,45 @@
+ocean_region	flowcell	N	grade_column	inference_policy
+Central Pacific	A00124:624:HWVLCDSX5	3	grade_at_20pct	single_flowcell
+Central Pacific	A00124:672:HGYTLDSX7	2	grade_at_20pct	single_flowcell
+Central Pacific	A00124:673:HFG3JDSX7	1	grade_at_20pct	single_flowcell
+Central Pacific	A01519:271:HWW7GDSX5	5	grade_at_20pct	single_flowcell
+Central Pacific	LH00309:19:2273H5LT3	4	grade_at_20pct	single_flowcell
+Central Pacific	LH00309:22:22CMVLLT3	2	grade_at_20pct	single_flowcell
+Central Pacific	LH00309:259:22CWK3LT4	1	grade_at_20pct	single_flowcell
+Central Pacific	LH00309:325:22HLVMLT4	2	grade_at_20pct	single_flowcell
+E Indian	LH00309:19:2273H5LT3	4	grade_at_20pct	single_flowcell
+Gulf of California	LH00309:40:22CMVKLT3	1	grade_at_20pct	single_flowcell
+Gulf of Mexico	A00124:624:HWVLCDSX5	2	grade_at_20pct	single_flowcell
+Gulf of Mexico	A01519:271:HWW7GDSX5	5	grade_at_20pct	single_flowcell
+NE Atlantic	A00124:710:HMFVWDSX7	1	grade_at_20pct	single_flowcell
+NE Atlantic	LH00309:19:2273H5LT3	4	grade_at_20pct	single_flowcell
+NE Atlantic	LH00309:22:22CMVLLT3	3	grade_at_20pct	single_flowcell
+NE Atlantic	LH00309:40:22CMVKLT3	1	grade_at_20pct	single_flowcell
+NW Atlantic	A00124:569:HCTNWDSX5	4	grade_at_20pct	single_flowcell
+NW Atlantic	A00124:624:HWVLCDSX5	1	grade_at_20pct	single_flowcell
+NW Atlantic	A01519:271:HWW7GDSX5	1	grade_at_20pct	single_flowcell
+NW Atlantic	LH00309:109:22CJLFLT3	6	grade_at_20pct	single_flowcell
+NW Atlantic	LH00309:19:2273H5LT3	3	grade_at_20pct	single_flowcell
+NW Atlantic	LH00309:212:22CMLKLT3	2	grade_at_20pct	single_flowcell
+NW Atlantic	LH00309:40:22CMVKLT3	2	grade_at_20pct	single_flowcell
+NW Pacific	A00124:569:HCTNWDSX5	2	grade_at_20pct	single_flowcell
+NW Pacific	A00124:672:HGYTLDSX7	2	grade_at_20pct	single_flowcell
+NW Pacific	A00124:673:HFG3JDSX7	2	grade_at_20pct	single_flowcell
+NW Pacific	A00124:710:HMFVWDSX7	2	grade_at_20pct	single_flowcell
+NW Pacific	A01519:212:HHKVKDSX5	2	grade_at_20pct	single_flowcell
+NW Pacific	A01519:271:HWW7GDSX5	3	grade_at_20pct	single_flowcell
+NW Pacific	LH00309:109:22CJLFLT3	6	grade_at_20pct	single_flowcell
+SE Pacific	LH00309:40:22CMVKLT3	1	grade_at_20pct	single_flowcell
+SW Atlantic	LH00309:40:22CMVKLT3	1	grade_at_20pct	single_flowcell
+SW Pacific	A00124:624:HWVLCDSX5	2	grade_at_20pct	single_flowcell
+SW Pacific	A00124:638:H5N7GDSX7	1	grade_at_20pct	single_flowcell
+SW Pacific	A00124:672:HGYTLDSX7	10	grade_at_20pct	single_flowcell
+SW Pacific	A00124:673:HFG3JDSX7	2	grade_at_20pct	single_flowcell
+SW Pacific	A00152:671:HKTT5DRX2	1	grade_at_20pct	single_flowcell
+SW Pacific	LH00309:19:2273H5LT3	2	grade_at_20pct	single_flowcell
+SW Pacific	LH00309:204:227MGJLT4	8	grade_at_20pct	single_flowcell
+SW Pacific	LH00309:308:22GYWYLT4	1	grade_at_20pct	single_flowcell
+SW Pacific	LH00309:311:22GMLFLT4	7	grade_at_20pct	single_flowcell
+SW Pacific	LH00309:40:22CMVKLT3	1	grade_at_20pct	single_flowcell
+SW Pacific	ST-E00199:415:HYGF2CCXY	1	grade_at_20pct	single_flowcell
+W Indian	A00124:710:HMFVWDSX7	5	grade_at_20pct	single_flowcell

@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "finished_utc": "2026-10-05T03:20:29.185226+00:00",
+  "command": [
+    "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+    "scripts/waki_comparison/summarize_waki_comparison.py",
+    "--analysis",
+    "data/results/waki_comparison/expanded_reference_panel",
+    "--output",
+    "data/results/waki_comparison/expanded_reference_panel/report"
+  ],
+  "source_snapshot": "data/results/waki_comparison/expanded_reference_panel/report/summarize_waki_comparison.py",
+  "script_sha256": "0a5e8f4a1f6684bfc184f733d07c94461d1c807ea23986130ef0e94760fced40",
+  "helper_sha256": {
+    "/gpfs/ycga/work/dunn/cwd7/siph_associates/scripts/waki_comparison/compare_waki_assemblies.py": "3f9b8e668aad9339808c46f5be38a9ef33514d784e5dcd7e3618633f60fafed5"
+  },
+  "inputs_sha256": {
+    "data/results/waki_comparison/expanded_reference_panel/provenance.json": "f7329e27d52002bebf9c96050192072f74235f1976b3c1d4a90d81eecce920b5",
+    "data/results/waki_comparison/expanded_reference_panel/reference_assembly_hits.tsv": "e77c3cadd1672d3fa897b7ac40cbfa16942eb24e3704341ce81fac3085166d4c",
+    "data/results/waki_comparison/expanded_reference_panel/assemblies.fasta": "361482161cc87d7ecbcdc2445ab1133ee391544a678b8e803ef1c388a5f60df1",
+    "data/sources/waki2026/reference_metadata.tsv": "f7800d04a74f517a40120c698d506b94018b9ae46dad5fa7dab8b881e38e8703",
+    "data/sources/waki2026/context_metadata.tsv": "8ee6751485bd133e70c0697dc27fc827f137ae197039e37194170d089f788834",
+    "manifest.csv": "926bcbf2c6dffc18d9da0faa1877bd67349d057599aead88ba4472c40279b72d"
+  },
+  "parameters": {
+    "min_competitor_overlap_fraction": 0.8,
+    "same_interval_comparison": "all eligible reference haplotypes scored before choosing best per taxon",
+    "identity_denominator": "same unambiguous subject coordinates, excluding reference insertions",
+    "taxon_aliases_from_Waki": {
+      "Hemiuridae sp. A": "Dinurus barbatus",
+      "Sclerodistomidae sp. A": "Bathycotyle branchialis"
+    }
+  },
+  "checks": {
+    "eight_specimens_three_markers": true,
+    "number_of_fragment_alignments": 12
+  },
+  "outputs_sha256": {
+    "data/results/waki_comparison/expanded_reference_panel/report/specimen_marker_summary.tsv": "7717e6a439f297b7d16122119fba2e931592f1662d3ac785ed3fe011342a2c4f",
+    "data/results/waki_comparison/expanded_reference_panel/report/summarize_waki_comparison.py": "0a5e8f4a1f6684bfc184f733d07c94461d1c807ea23986130ef0e94760fced40",
+    "data/results/waki_comparison/expanded_reference_panel/report/all_haplotype_shared_interval_comparisons.tsv": "0680064c1f3595b8f8fbf7285b5967ad7c52814a148b104f676b55e7029fad6c",
+    "data/results/waki_comparison/expanded_reference_panel/report/top_marker_fragments.fasta": "d089fc2e78ea49bf5addba48ded7c57a8ab4dec933553af63bdf20296d5477fe",
+    "data/results/waki_comparison/expanded_reference_panel/report/top_marker_contigs.fasta": "4b23ab404cfbe8339a8336ebee0d07a25bbd1ec61931c2b34cf9d4041bed0839",
+    "data/results/waki_comparison/expanded_reference_panel/report/top_marker_pairwise_alignments.fasta": "261d1576dcaa73e3c4a1de11575134e6b054bb431f4c5dbb7181ad27e9b007e3"
+  }
+}

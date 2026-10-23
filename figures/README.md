@@ -62,6 +62,8 @@ formatting is maintained with the supplement. See the
 [statistical methods](../docs/workflow/phase6_analysis/README.md) for sensitivity
 outputs and the [trematode comparison](../docs/waki_sequence_comparison.md) for
 additional marker evidence.
+The [supporting-data export](../tables/README.md) includes the complete selected
+genome-quality, gene-content, statistical and trematode-comparison files.
 
 The [metadata comparison bundle](coauthor_metadata/) also contains tissue
 incidence, current host-depletion summaries and the historical fixed-catalog
@@ -139,9 +141,9 @@ and outputs. The metadata and human-related bundles have their own provenance:
 [human screen](human_screen/provenance.json),
 [human/C. acnes comparison](human_cutibacterium/provenance.json), and
 [C. acnes omission](cutibacterium_sensitivity/provenance.json).
-The manuscript's transfer record identifies the selected copied
-assets and their checksums. This separates figure presentation from sequence
-processing and preserves the source of reported results.
+The [supporting-data provenance](../tables/provenance.json) identifies the
+original analysis paths and checksums for the additional tables and selected
+marker sequences.
 
 The repository's [graph-freshness CI workflow](../.github/workflows/rulegraphs.yml)
 checks the generated workflow graphs in its configured data-access environment.

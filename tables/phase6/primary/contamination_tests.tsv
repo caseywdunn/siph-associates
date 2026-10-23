@@ -1,0 +1,47 @@
+target_id	taxonomy	validated_presences	eligible_presences	permutable_presences	excluded_presences	flowcells	observed_concentration	p_value	q_value	status	probable_contaminant	identity_annotation	analysis_subset	grade_column
+BAC00017	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Mycobacteriaceae;g__Lawsonella;s__Lawsonella clevelandensis_A	3	3	0	0	0				untestable_no_permutable_presences	false	true	all	grade
+BAC00019	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Propionibacteriales;f__Propionibacteriaceae;g__Cutibacterium;s__Cutibacterium acnes	16	12	6	4	4	1.6666666666666667	0.2455754424557544	0.5047428590474285	tested	false	true	all	grade
+BAC00025	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	44	28	19	16	8	3.6315789473684212	0.17488251174882513	0.3901225262089176	tested	false	false	all	grade
+BAC00026	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	22	17	15	5	7	3.1333333333333333	0.36426357364263573	0.621390802096261	tested	false	false	all	grade
+BAC00027	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	52	38	29	14	12	3.896551724137931	0.1660833916608339	0.3901225262089176	tested	false	false	all	grade
+BAC00028	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	9	8	8	1	6	1.75	0.7624237576242375	1.0	tested	false	false	all	grade
+BAC00029	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	3	0	0	3	0				below_minimum_eligible_presences	false	false	all	grade
+BAC00030	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__DT-68;s__	9	1	1	8	1	1.0			below_minimum_eligible_presences	false	false	all	grade
+BAC00045	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Flavobacteriaceae;g__CAMZMA01;s__	4	4	2	0	2	1.0			untestable_constant_statistic	false	false	all	grade
+BAC00118	d__Bacteria;p__Cyanobacteriota;c__Cyanobacteriia;o__PCC-6307;f__Cyanobiaceae;g__Parasynechococcus;s__Parasynechococcus sp002724845	3	3	1	0	1	1.0			untestable_constant_statistic	false	false	all	grade
+BAC00146	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__JABSOH01;f__JABSOH01;g__;s__	17	13	11	4	8	1.5454545454545454	0.9104089591040896	1.0	tested	false	false	all	grade
+BAC00147	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__JABSOH01;f__JABSOH01;g__;s__	8	2	2	6	1	2.0			below_minimum_eligible_presences	false	false	all	grade
+BAC00166	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Cognatishimia;s__	27	23	22	4	10	3.090909090909091	0.26107389261073893	0.5047428590474285	tested	false	false	all	grade
+BAC00167	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Cognatishimia;s__	9	8	7	1	6	1.2857142857142858	0.9219078092190781	1.0	tested	false	false	all	grade
+BAC00183	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Planktomarina;s__	6	3	2	3	1	2.0	0.13088691130886912	0.34506549345065496	tested	false	false	all	grade
+BAC00216	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Pelomonas;s__Pelomonas sp003963075	6	4	2	2	1	2.0	0.11628837116288371	0.34506549345065496	tested	false	true	all	grade
+BAC00223	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Alteromonadaceae;g__Alteromonas;s__Alteromonas abrolhosensis	4	4	1	0	1	1.0			untestable_constant_statistic	false	false	all	grade
+BAC00227	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Alteromonadaceae;g__Alteromonas;s__Alteromonas macleodii	6	6	2	0	2	1.0	1.0	1.0	tested	false	false	all	grade
+BAC00246	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Alteromonadaceae;g__Pseudoalteromonas;s__Pseudoalteromonas atlantica	6	3	1	3	1	1.0			untestable_constant_statistic	false	false	all	grade
+BAC00248	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Alteromonadaceae;g__Pseudoalteromonas;s__Pseudoalteromonas carrageenovora	3	2	1	1	1	1.0			below_minimum_eligible_presences	false	false	all	grade
+BAC00250	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Alteromonadaceae;g__Pseudoalteromonas;s__Pseudoalteromonas espejiana	7	1	0	6	0				below_minimum_eligible_presences	false	false	all	grade
+BAC00274	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Alteromonadaceae;g__Pseudoalteromonas;s__Pseudoalteromonas sp018100985	3	2	1	1	1	1.0			below_minimum_eligible_presences	false	false	all	grade
+BAC00289	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Enterobacteriaceae;g__Serratia;s__Serratia nevei	6	5	4	1	2	2.0	0.09479052094790522	0.34506549345065496	tested	false	false	all	grade
+BAC00290	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Psychrobiaceae;g__Psychrobium;s__	3	0	0	3	0				below_minimum_eligible_presences	false	false	all	grade
+BAC00307	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Photobacterium;s__Photobacterium swingsii	5	5	5	0	4	1.4	0.7529247075292471	1.0	tested	false	false	all	grade
+BAC00308	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio alginolyticus	9	9	7	0	5	1.5714285714285714	0.5216478352164784	0.8404326234043263	tested	false	false	all	grade
+BAC00316	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio chagasii_A	7	7	5	0	3	2.2	0.1055894410558944	0.34506549345065496	tested	false	false	all	grade
+BAC00317	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio chagasii_B	5	5	5	0	3	2.2	0.12688731126887312	0.34506549345065496	tested	false	false	all	grade
+BAC00319	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio coralliilyticus	3	3	2	0	2	1.0	1.0	1.0	tested	false	false	all	grade
+BAC00322	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio crassostreae_C	4	3	3	1	2	1.6666666666666667	0.30056994300569945	0.5447830216978302	tested	false	false	all	grade
+BAC00323	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio cyclitrophicus	4	3	2	1	2	1.0	1.0	1.0	tested	false	false	all	grade
+BAC00327	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio fortis	3	2	1	1	1	1.0			below_minimum_eligible_presences	false	false	all	grade
+BAC00328	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio fortis_A	6	6	4	0	2	2.5	0.09099090090990901	0.34506549345065496	tested	false	false	all	grade
+BAC00331	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio harveyi	7	7	6	0	5	1.3333333333333333	0.8166183381661833	1.0	tested	false	false	all	grade
+BAC00337	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio neptunius	4	4	4	0	4	1.0	1.0	1.0	tested	false	false	all	grade
+BAC00339	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio owensii	4	4	3	0	3	1.0	1.0	1.0	tested	false	false	all	grade
+BAC00341	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio pelagius	4	4	4	0	3	1.5	0.6647335266473353	1.0	tested	false	false	all	grade
+BAC00346	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio sp000169995	3	3	3	0	1	3.0	0.025997400259974	0.251308202513082	tested	false	false	all	grade
+BAC00351	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Vibrio;s__Vibrio sp022398115	6	6	4	0	2	2.5	0.09989001099890012	0.34506549345065496	tested	false	false	all	grade
+BAC00362	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__JABDGN01;f__JABDGN01;g__;s__	12	5	5	7	2	2.6	0.0131986801319868	0.1913808619138086	tested	false	false	all	grade
+BAC00370	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Cellvibrionaceae;g__;s__	6	2	2	4	1	2.0			below_minimum_eligible_presences	false	false	all	grade
+BAC00375	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__DT-91;g__CAKMZU01;s__	13	11	9	2	4	4.333333333333333	0.0021997800219978004	0.06379362063793621	tested	false	false	all	grade
+BAC00378	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__DT-91;g__CAKMZU01;s__	4	3	0	1	0				untestable_no_permutable_presences	false	false	all	grade
+BAC00381	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Halieaceae;g__Halioglobus;s__Halioglobus sp905480565	3	3	3	0	1	3.0	0.12518748125187482	0.34506549345065496	tested	false	false	all	grade
+BAC00384	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Halomonadaceae;g__Cobetia;s__Cobetia amphilecti	7	2	1	5	1	1.0			below_minimum_eligible_presences	false	false	all	grade
+BAC00386	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Halomonadaceae;g__Cobetia;s__Cobetia sp016495405	3	1	0	2	0				below_minimum_eligible_presences	false	false	all	grade

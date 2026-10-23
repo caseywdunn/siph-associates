@@ -61,6 +61,9 @@ point to small tables retained in this repository.
 
 [Co-detection summaries](figures/mdb_revision/cooccurrence.tsv) support Table S3
 and the Discussion. Table S4 in the supplement inventories the accompanying data.
+The [supporting-data tables](tables/README.md) provide genome-quality and
+gene-content comparisons, statistical results, and trematode-marker evidence
+with original paths and checksums.
 Figure 1 is an explanatory methods drawing maintained with the manuscript;
 the executable workflow's generated rule graphs are linked below.
 

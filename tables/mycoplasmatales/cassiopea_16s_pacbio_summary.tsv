@@ -1,0 +1,4 @@
+run	site	sample_type	preservation	animal	sample_alias	species_cluster	band	reads	reads_in_length_range	fraction	best_identity
+SRR26156807	MarathonKey	GVC	DESS	7	Kmuffet_30_MarathonKey_GVC_DESS_7	none		0	12824	0	
+SRR26156805	KeyWest	GVC	DESS	30	Kmuffet_121_KeyWest_GVC_DESS_30	none		0	12700	0	
+SRR26156806	KeyWest	GVC	DESS	25	Kmuffet_96_KeyWest_GVC_DESS_25	none		0	12543	0	

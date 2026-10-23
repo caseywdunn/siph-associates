@@ -1,0 +1,9 @@
+sample_id	path	size_bytes	contigs	nucleotides
+Church2025__YPM-IZ-104464	data/results/phase3_cohort/assemblies/Church2025__YPM-IZ-104464.fasta	9150787	2016	9012461
+Church2025__YPM-IZ-110436	data/results/phase3_cohort/assemblies/Church2025__YPM-IZ-110436.fasta	1734853	1011	1665734
+Church2025__YPM-IZ-110557	data/results/phase3_cohort/assemblies/Church2025__YPM-IZ-110557.fasta	6363648	3193	6143338
+Church2025__YPM-IZ-110631	data/results/phase3_cohort/assemblies/Church2025__YPM-IZ-110631.fasta	13159494	6519	12712346
+Church2025__YPM-IZ-110694	data/results/phase3_cohort/assemblies/Church2025__YPM-IZ-110694.fasta	1821681	642	1778175
+Church2025__YPM-IZ-110846	data/results/phase3_cohort/assemblies/Church2025__YPM-IZ-110846.fasta	490675	329	468424
+Church2025__YPM-IZ-110882	data/results/phase3_cohort/assemblies/Church2025__YPM-IZ-110882.fasta	4357850	2520	4185006
+Church2025__YPM-IZ-110931	data/results/phase3_cohort/assemblies/Church2025__YPM-IZ-110931.fasta	13237732	4524	12925549

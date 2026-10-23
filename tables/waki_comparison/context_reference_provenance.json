@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "generated_utc": "2026-10-05T03:20:03.728634+00:00",
+  "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python scripts/waki_comparison/retrieve_context_references.py",
+  "scripts_sha256": {
+    "retrieve_context_references.py": "a3fe6386ffcdd137b87e22844e04b2942c428da7bd9a460505124c8663f718f1",
+    "retrieve_waki_references.py": "d813de4e5d598d8c6f3602a74a27ea35a1a33d184abe398e3156a2512ae21725"
+  },
+  "input_sha256": {
+    "supplement_accessions.tsv": "a6e8c1de4f187b6bacbebebf9e91d7a7386a731be5f7bc2bee505382cb403500"
+  },
+  "source": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AY222191%2CAY222202%2CFJ788491%2CFJ788493%2CKC985232%2CKU341979%2CKU527431%2CLC586089%2CLC586090%2CLC655695%2CLC805299%2CLC805301%2CLC805303%2CLC805306%2CLC805307%2CLC805309%2CLC805311%2CLC805313%2CLC805315%2CLC805317%2CLC805327%2CLC805329%2CLC805330%2CLC805332%2CLC805333%2CLC856701%2CLC856702%2CMH157073%2CMH157074%2CMH628313%2CMT299625%2CMT299626%2CMT303947%2CMT303948%2CMT303949%2CMT303950%2CMT303951%2CMT422320%2CMT422321%2CMT422323%2CMT422324%2CMT422327%2CMT422331%2CMT422334%2CMT422338%2CMW507469%2CMW507470%2CMW507471%2COP458333%2COP458340%2COP793498%2COP793499%2COP793500%2COR141858%2COR141859%2COR245386%2COR245546%2COR804297%2COR804298%2COR804299%2COR804300%2COR804301%2COR804303%2COR804304%2COR804307%2COR804311%2COR804312%2COR804314%2COR804315%2COR804317%2COR804319%2COR804325%2COR814155%2COR814156%2COR814162%2COR814163%2COR814164%2COR814165%2COR814166%2COR814167%2CPP239552%2CPP239553%2CPP239555%2CPP239556%2CPP239557%2CPP239558%2CPP239559%2CPP249923%2CPP270097%2CPP270100%2CPP270101%2CPP270102%2CPP270103%2CPP270104%2CPP270105%2CPP270106%2CPP270107%2CPP270108%2CPP270109%2CPP270110%2CPP270111%2CPP270112%2CPP270113%2CPP270114%2CPP270115%2CPP270116%2CPP270119%2CPP270120%2CPP270121%2CPP768943%2CPV359504%2CPV359505%2CPV818719&rettype=gb&retmode=text",
+    "path": "data/sources/waki2026/context_references.gb",
+    "sha256": "8426f991eb88468bc9d3fdae2e178397138dcda916c3054a284875f440bbc05f",
+    "cache_reused": "true",
+    "retrieved_or_cached_file_mtime_utc": "2026-10-05T02:28:46.097717+00:00"
+  },
+  "python": "3.11.0",
+  "biopython": "1.81",
+  "record_count": 113,
+  "marker_counts": {
+    "28S": 43,
+    "ITS2": 22,
+    "COI": 48
+  },
+  "output_sha256": {
+    "context_references.gb": "8426f991eb88468bc9d3fdae2e178397138dcda916c3054a284875f440bbc05f",
+    "context_references.fasta": "e62447b945d66fb200f63df218296774516e348e5bc200374320efe664e04f4a",
+    "context_metadata.tsv": "8ee6751485bd133e70c0697dc27fc827f137ae197039e37194170d089f788834",
+    "context_features.json": "8878d84472fbb283fc2530886d4a4a8980c81db3b95bd9da71d5053fe9491ec9"
+  },
+  "limitations": [
+    "External supplement references are distinct from newly deposited Waki study specimens.",
+    "Supplement marker labels may name only part of a longer deposited amplicon.",
+    "GenBank host, isolate or other qualifiers may be absent; missing values are not inferred.",
+    "Paper labels are preserved alongside current GenBank names without resolving taxonomic synonyms."
+  ]
+}

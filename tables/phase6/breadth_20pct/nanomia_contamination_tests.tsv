@@ -1,0 +1,2 @@
+target_id	taxonomy	validated_presences	eligible_presences	permutable_presences	excluded_presences	flowcells	observed_concentration	p_value	q_value	status	probable_contaminant	identity_annotation	analysis_subset	grade_column
+BAC00030	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__DT-68;s__	7	1	1	6	1	1.0			below_minimum_eligible_presences	false	false	nanomia	grade_at_20pct

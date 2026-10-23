@@ -1,0 +1,5 @@
+target_id	presences	deviance_gain	permutations	p_value	status	q_value	libraries	grade_column
+BAC00025	27	35.925440630456	9999	7e-04	tested	0.0014	122	grade_at_20pct
+BAC00026	15	22.3295496714925	9999	0.0401	tested	0.0534666666666667	122	grade_at_20pct
+BAC00027	35	41.2917788054246	9999	4e-04	tested	0.0014	122	grade_at_20pct
+BAC00166	15	20.369135402507	9999	0.4716	tested	0.4716	122	grade_at_20pct

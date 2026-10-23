@@ -1,0 +1,50 @@
+species_cluster	Phylum	Class	Order	Family	Scientific_Name	samples	studies	median_relative_abundance	max_relative_abundance	best_identity
+MAGSP0005	Seawater	Seawater	Seawater	Seawater	Seawater	10	1	4.84564943218486e-05	0.00010290553786152	1
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Acroporidae	Acropora sarmentosa	8	1	0.87171297365248	0.968944099378882	0.976
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Acroporidae	Acropora loripes	6	1	0.923975527634064	1	0.976
+MAGSP0005	Cnidaria	Anthozoa	Antipatharia	Antipathidae	Antipathella subpinnata	3	1	0.00369818402605288	0.00730347876225255	0.991
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Merulinidae	Merulina ampliata	3	1	0.000453338514344926	0.0593488738074162	0.976
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Rhizangiidae	Astrangia poculata	3	1	0.000513434879342803	0.00342506730481603	0.991
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Acroporidae	Acropora digitifera	2	1	0.0016372986346333	0.00303136294741751	0.982
+MAGSP0005	Porifera	Demospongiae	Suberitida	Suberitidae	Terpios hoshinota	2	1	0.000261927122275352	0.000498039215686275	1
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Poritidae	Porites lutea	2	2	0.00097155853206873	0.00165163257527633	1
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Acroporidae	Acropora formosa	2	1	0.00305497811353238	0.00488420704070862	0.982
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Acroporidae	Acropora millepora	2	1	0.000378673300697967	0.000588359887976277	0.982
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Acroporidae	Acropora aculeus	1	1	0.00270455446972702	0.00270455446972702	0.982
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Poritidae	Porites lobata	1	1	0.00258606756101503	0.00258606756101503	1
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Oculinidae	Oculina patagonica	1	1	5.50748110793929e-05	7.50666216266937e-05	0.991
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Pocilloporidae	Stylophora pistillata	1	1	0.00468755764828831	0.00560816401581318	1
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Scleractinia incertae sedis	Cladocora caespitosa	1	1	0.000156957989950925	0.00025983305726071	1
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Euphylliidae	Galaxea astreata	1	1	0.000648409399440239	0.000670522169139217	0.982
+MAGSP0005	Porifera	Demospongiae	Haplosclerida	Nipatidae	Amphimedon compressa	1	1	6.17268074380803e-06	6.17268074380803e-06	0.972
+MAGSP0005	Porifera	Demospongiae	Haplosclerida	No_Family	Haplosclerida	1	1	3.91964723174914e-05	3.91964723174914e-05	0.981
+MAGSP0005	Porifera	Demospongiae	Dictyocertida	No_Family	Dictyoceratida	1	1	1.96836832108024e-05	1.96836832108024e-05	0.991
+MAGSP0005	Porifera	Demospongiae	Dictyocertida	Dysideidae	Dysidea avara	1	1	2.73382770050918e-05	2.73382770050918e-05	0.991
+MAGSP0005	Porifera	Demospongiae	Poecilosclerida	Crambeidae	Crambe crambe	1	1	5.17504592853262e-05	5.17504592853262e-05	1
+MAGSP0005	Porifera	Demospongiae	Scopalinida	Scopalinidae	Stylissa massa	1	1	3.25748815088685e-05	3.25748815088685e-05	0.981
+MAGSP0005	Porifera	Demospongiae	Poecilosclerida	Hymedesmiidae	Phorbas fictitius	1	1	0.000186601977980967	0.000186601977980967	0.972
+MAGSP0005	Porifera	Demospongiae	Haplosclerida	Chalinidae	Haliclona indistincta	1	1	3.7626923676473e-05	3.7626923676473e-05	0.981
+MAGSP0005	Porifera	Demospongiae	Haplosclerida	Callyspongiidae	Callyspongia sp.	1	1	0.00143404529762131	0.00143404529762131	0.981
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Caryophylliidae	Desmophyllum pertusum	1	1	0.00461726494952696	0.00461726494952696	0.973
+MAGSP0005	Cnidaria	Anthozoa	Scleractinia	Acroporidae	Montipora hispida	1	1	3.55105229516347e-05	3.55105229516347e-05	0.982
+MAGSP0005	Cnidaria	Anthozoa	Actiniaria	Actiniidae	Anthopleura elegantissima	1	1	2.37353038910075e-05	2.37353038910075e-05	0.991
+MAGSP0005,MAGSP0007,MAGSP0010	Cnidaria	Anthozoa	Scleractinia	Dendrophylliidae	Astroides calycularis	2	1	0.000251998619699633	0.00040945849114546	1
+MAGSP0005,MAGSP0007,MAGSP0010	Porifera	Demospongiae	Verongiida	Aplysinidae	Aplysina aerophoba	1	1	3.9288320143683e-05	3.9288320143683e-05	1
+MAGSP0005,MAGSP0007,MAGSP0010	Cnidaria	Anthozoa	Scleractinia	Faviidae	Colpophyllia natans	1	1	0.000220430517757374	0.000220430517757374	0.973
+MAGSP0005,MAGSP0007,MAGSP0010	Cnidaria	Scyphozoa	Semaeostomeae	Cyaneidae	Cyanea nozakii	1	1	0.000105890138980807	0.000105890138980807	0.982
+MAGSP0005,MAGSP0007,MAGSP0010	Cnidaria	Anthozoa	Antipatharia	Antipathidae	Antipathella subpinnata	1	1	0.0104933810277475	0.0104933810277475	0.973
+MAGSP0005,MAGSP0010	Cnidaria	Anthozoa	Scleractinia	Dendrophylliidae	Astroides calycularis	2	1	0.000232024599802714	0.000361358708744881	1
+MAGSP0005,MAGSP0010	Cnidaria	Scyphozoa	Semaeostomeae	Cyaneidae	Cyanea nozakii	1	1	9.30939783711657e-05	9.30939783711657e-05	0.99
+MAGSP0031	Cnidaria	Scyphozoa	Rhizostomeae	Cassiopeidae	Mastigias papua	7	1	0.000590318772136954	0.00412101231455445	0.976
+MAGSP0031	Cnidaria	Scyphozoa	Rhizostomeae	Cassiopeidae	Mastigias sp.	5	1	0.000810419681620839	0.000970188745810549	0.976
+MAGSP0031	Cnidaria	Scyphozoa	Rhizostomeae	Cassiopeidae	Cassiopea ornata	3	1	0.000682307248202383	0.000826153664581612	0.976
+MAGSP0031	Cnidaria	Anthozoa	Scleractinia	Euphylliidae	Galaxea astreata	3	2	0.000186451211932878	0.000681536555142503	1
+MAGSP0031	Cnidaria	Anthozoa	Scleractinia	Rhizangiidae	Astrangia poculata	3	1	0.000417001757364549	0.00114893005888267	1
+MAGSP0031	Cnidaria	Anthozoa	Scleractinia	Acroporidae	Acropora formosa	3	1	0.00097214590642039	0.00629152093379416	0.982
+MAGSP0031	Cnidaria	Anthozoa	Alcyonacea	Alcyoniidae	Cladiella sp.	2	1	0.000236544397972029	0.000307559820385065	0.991
+MAGSP0031	Seawater	Seawater	Seawater	Seawater	Seawater	2	1	6.74423207603732e-06	6.83739645617742e-06	0.981
+MAGSP0031	Porifera	Demospongiae	Dictyocertida	Dysideidae	Dysidea avara	2	1	2.3819792474116e-05	3.06225565751733e-05	0.981
+MAGSP0031	Porifera	Demospongiae	Chondrilla	Chondrillidae	Chondrilla sp.	1	1	3.97106417901557e-05	3.97106417901557e-05	1
+MAGSP0031	Cnidaria	Anthozoa	Scleractinia	Poritidae	Porites lutea	1	1	0.00107056829333571	0.00107056829333571	1
+MAGSP0031	Cnidaria	Anthozoa	Scleractinia	Acroporidae	Acropora millepora	1	1	0.00017860332202179	0.00017860332202179	0.982
+MAGSP0031	Cnidaria	Anthozoa	Actiniaria	Actiniidae	Anthopleura elegantissima	1	1	0.000708329960333522	0.000708329960333522	0.973

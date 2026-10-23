@@ -1,0 +1,5 @@
+target_id	presences	chisq	df	p_value	status	messages	q_value	libraries	grade_column
+BAC00025	27	34.1980001505444	10	0.000170961885135718	convergence_warning	boundary (singular) fit: see help('isSingular')	0.000341923770271437	122	grade_at_20pct
+BAC00026	15	21.0053962614063	10	0.0210559684988995	convergence_warning	unable to evaluate scaled gradient; Model failed to converge: degenerate  Hessian with 5 negative eigenvalues   See ?lme4::convergence and ?lme4::troubleshooting.	0.0280746246651993	122	grade_at_20pct
+BAC00027	35	35.7078021207042	10	9.44826664001072e-05	convergence_warning	unable to evaluate scaled gradient; Model failed to converge: degenerate  Hessian with 2 negative eigenvalues   See ?lme4::convergence and ?lme4::troubleshooting.	0.000341923770271437	122	grade_at_20pct
+BAC00166	15	19.1886690630243	10	0.0379307131196945	convergence_warning	unable to evaluate scaled gradient;  Hessian is numerically singular: parameters are not uniquely determined	0.0379307131196945	122	grade_at_20pct

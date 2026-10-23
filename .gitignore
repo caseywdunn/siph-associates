@@ -26,3 +26,8 @@ tests/cap_work/
 tests/fixtures/generated/
 workflow/state/
 data/results/
+
+# Reviewed, bounded trematode marker sequences accompanying supporting tables.
+!tables/waki_comparison/top_marker_fragments.fasta
+!tables/waki_comparison/top_marker_contigs.fasta
+!tables/waki_comparison/top_marker_pairwise_alignments.fasta

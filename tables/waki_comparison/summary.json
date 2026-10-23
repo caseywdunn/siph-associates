@@ -1,0 +1,36 @@
+{
+  "assemblies": 8,
+  "reference_sequences": 221,
+  "reference_counts": {
+    "Waki2026:COI": 71,
+    "Waki2026:ITS2": 11,
+    "Waki2026:28S": 26,
+    "context:28S": 43,
+    "context:ITS2": 22,
+    "context:COI": 48
+  },
+  "accepted_helminth_ssu_sequences": 12,
+  "assembly_blast_hsps": 1980,
+  "reference_vs_accepted_ssu_hsps": 24,
+  "ssu_vs_assembly_hsps": 10,
+  "long_homology_candidates": 906,
+  "long_homology_samples": [
+    "Church2025__YPM-IZ-104464",
+    "Church2025__YPM-IZ-110436",
+    "Church2025__YPM-IZ-110557",
+    "Church2025__YPM-IZ-110631",
+    "Church2025__YPM-IZ-110694",
+    "Church2025__YPM-IZ-110846",
+    "Church2025__YPM-IZ-110882",
+    "Church2025__YPM-IZ-110931"
+  ],
+  "long_homology_marker_counts": {
+    "COI": 387,
+    "ITS2": 184,
+    "28S": 335
+  },
+  "physically_linked_ssu_candidates": 0,
+  "same_interval_loci": 76,
+  "interpretation": "Local sequence homology against a selected reference panel. Not species assignments or new presence grades.",
+  "ITS2_limit": "GenBank labels entire 5.8S/ITS2/28S amplicons without internal boundaries; identity cannot be assigned specifically to variable ITS2."
+}

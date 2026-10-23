@@ -1,0 +1,22 @@
+tip	display_label	source	classification	duplicate_assembly	distance_from_subtree_root
+RS_GCF_004335975.1	Mycoplasma_K marinum	GTDB	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__Mycoplasma_K;s__Mycoplasma_K marinum	False	0.325176772
+GB_GCA_013215715.1	Mycoplasma_K sp013215715	GTDB	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__Mycoplasma_K;s__Mycoplasma_K sp013215715	False	0.33671718800000006
+RS_GCF_004335995.1	Mycoplasma_K todarodis	GTDB	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__Mycoplasma_K;s__Mycoplasma_K todarodis	False	0.337177879
+GB_GCA_024244685.1	Mycoplasma_K sp024244685	GTDB	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__Mycoplasma_K;s__Mycoplasma_K sp024244685	False	0.38137257
+MAGSP0012	MAGSP0012  |  Mycoplasma_K	study	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__Mycoplasma_K;s__	False	0.417135023
+MAGSP0005	MAGSP0005  |  clade A	study	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	False	0.389675883
+GB_GCA_029942215.1	Mycoplasma_O sp029942215	GTDB	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__Mycoplasma_O;s__Mycoplasma_O sp029942215	False	0.425870177
+RS_GCF_030550815.1	Mycoplasma_O mahonii	GTDB	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__Mycoplasma_O;s__Mycoplasma_O mahonii	False	0.438084311
+GB_GCA_013215685.1	DT-68 sp013215685	GTDB	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__DT-68;s__DT-68 sp013215685	False	0.428088196
+MAGSP0011	MAGSP0011  |  DT-68	study	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__DT-68;s__	False	0.45230291599999994
+EXT_GCA_060113895.1	Swiftia exserta  |  GCA_060113895.1	external	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__DT-68;s__	False	0.5155133120000001
+EXT_GCA_929200505.1	Leptogorgia sarmentosa  |  GCA_929200505.1	external	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__DT-68;s__DT-68 sp929200685	False	0.5088536760000001
+EXT_GCA_929200285.1	Eunicella gazella  |  GCA_929200285.1	external	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__DT-68;s__DT-68 sp929200685	False	0.510953355
+EXT_GCA_929200685.1	Leptogorgia sarmentosa  |  GCA_929200685.1 [dup.]	external	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__DT-68;s__DT-68 sp929200685	True	0.508955661
+GB_GCA_929200685.1	DT-68 sp929200685 [dup.]	GTDB	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__DT-68;s__DT-68 sp929200685	True	0.508955661
+MAGSP0031	MAGSP0031  |  clade B	study	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	False	0.5728404659999999
+MAGSP0007	MAGSP0007  |  clade B	study	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	False	0.450143028
+MAGSP0010	MAGSP0010  |  clade B	study	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	False	0.448266516
+MAGSP0029	MAGSP0029  |  clade B	study	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	False	0.45521381299999997
+GB_GCA_019661745.1	JAIFTM01 sp019661745	GTDB	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__JAIFTM01;s__JAIFTM01 sp019661745	False	0.598269574
+GB_GCA_004011965.1	RYZV01 sp004011965	GTDB	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__RYZV01;s__RYZV01 sp004011965	False	0.657966169

@@ -1,0 +1,21 @@
+analysis	sample_id	domain	comparison	present_host_depleted	present_full_reads	both	only_host_depleted	only_full_reads	jaccard
+host_handling	Church2025__YPM-IZ-110926	bacterial	host_depleted vs full_reads	1	0	0	1	0	0.0
+host_handling	Church2025__YPM-IZ-110926	viral	host_depleted vs full_reads	3	7	3	0	4	0.4286
+host_handling	Church2025__YPM-IZ-110433	bacterial	host_depleted vs full_reads	13	13	13	0	0	1.0
+host_handling	Church2025__YPM-IZ-110433	viral	host_depleted vs full_reads	2	5	2	0	3	0.4
+host_handling	Church2025__WAM-Z97914	bacterial	host_depleted vs full_reads	2	3	2	0	1	0.6667
+host_handling	Church2025__WAM-Z97914	viral	host_depleted vs full_reads	5	8	5	0	3	0.625
+host_handling	Church2025__YPM-IZ-110877	bacterial	host_depleted vs full_reads	1	2	1	0	1	0.5
+host_handling	Church2025__YPM-IZ-110877	viral	host_depleted vs full_reads	3	6	3	0	3	0.5
+host_handling	Church2025__YPM-IZ-110467	bacterial	host_depleted vs full_reads	2	2	2	0	0	1.0
+host_handling	Church2025__YPM-IZ-110467	viral	host_depleted vs full_reads	2	5	2	0	3	0.4
+host_handling	Ahuja2026__WS7	bacterial	host_depleted vs full_reads	1	1	1	0	0	1.0
+host_handling	Ahuja2026__WS7	viral	host_depleted vs full_reads	3	6	3	0	3	0.5
+host_handling	Ahuja2026__NA36	bacterial	host_depleted vs full_reads	0	0	0	0	0	1.0
+host_handling	Ahuja2026__NA36	viral	host_depleted vs full_reads	0	3	0	0	3	0.0
+host_handling	Ahuja2026__WS10	bacterial	host_depleted vs full_reads	1	1	1	0	0	1.0
+host_handling	Ahuja2026__WS10	viral	host_depleted vs full_reads	1	4	1	0	3	0.25
+host_handling	Ahuja2026__NA34	bacterial	host_depleted vs full_reads	0	1	0	0	1	0.0
+host_handling	Ahuja2026__NA34	viral	host_depleted vs full_reads	0	3	0	0	3	0.0
+host_handling	Ahuja2026__WS6	bacterial	host_depleted vs full_reads	1	1	1	0	0	1.0
+host_handling	Ahuja2026__WS6	viral	host_depleted vs full_reads	3	6	3	0	3	0.5
