@@ -40,27 +40,28 @@ percent removed, and reads remaining for every library with a host reference.
 ## Finding analyses from the paper
 
 The rows follow the current manuscript's Results headings in order. Figure and
-table numbers refer to the manuscript and its separate supplementary materials.
+table identifiers refer to the manuscript and S1 Appendix. Figures A–H and
+Tables A–D are internal items in that appendix.
 Each guide explains the methods and links to their implementation; the data links
 point to small tables retained in this repository.
 
 | Results section in the paper | Figures and tables | Analyses and files |
 | --- | --- | --- |
-| Genome sequencing reveals a broad assemblage of associated organisms | Figure 1; Figures S1–S2; Table 1 | [Workflow overview](docs/workflow/README.md), [sample metadata](figures/cohort/sample_metadata.tsv), [sampling](figures/cohort/host_sampling.tsv), and [evidence summary](figures/overview/domain_summary.tsv) |
-| Bacterial associates include diverse proteobacteria and recurrent Metamycoplasmataceae | Figure 2; Figure S5 | [Genome recovery](docs/workflow/phase3_assembly/README.md), [genome selection](docs/workflow/phase3_catalog/README.md), [detection criteria](docs/workflow/phase6_analysis/README.md), and [host distributions](figures/overview/microbial_host_distribution.tsv) |
+| Genome sequencing reveals a broad assemblage of associated organisms | Fig 1; Figs A–B in S1 Appendix; Table 1 | [Workflow overview](docs/workflow/README.md), [sample metadata](figures/cohort/sample_metadata.tsv), [sampling](figures/cohort/host_sampling.tsv), and [evidence summary](figures/overview/domain_summary.tsv) |
+| Bacterial associates include diverse proteobacteria and recurrent Metamycoplasmataceae | Fig 2; Fig E in S1 Appendix; Table 1 | [Genome recovery](docs/workflow/phase3_assembly/README.md), [genome selection](docs/workflow/phase3_catalog/README.md), [detection criteria](docs/workflow/phase6_analysis/README.md), and [host distributions](figures/overview/microbial_host_distribution.tsv) |
 | *Vibrio* diversity extends across *Physalia* and *Nanomia* | Text results | [Read mapping](docs/workflow/phase5_mapping/README.md), [assembly support](docs/workflow/phase6_analysis/README.md), and [bacterial detections](figures/cohort/bacterial_detections.tsv) |
-| Metamycoplasmataceae have relatives in other marine animals | Figure 3; Figures S3 and S5 | [Genome phylogeny](docs/workflow/mycoplasmatales_phylogeny/README.md), [cnidarian marker comparisons](docs/workflow/cnidarian_16s/README.md), [Cassiopea comparisons](docs/workflow/cassiopea_16s/README.md), [tree data](figures/mycoplasmatales/source_phylogeny_focus.tsv), and [host incidence](figures/cohort/mycoplasmatales_incidence.tsv) |
-| Metamycoplasmataceae differ in predicted ways of obtaining energy | Figure S6; Table S2 | [Gene functions](docs/workflow/mycoplasmatales_gene_content/README.md), [figure source data](figures/mycoplasmatales/source_gene_functions.tsv), and [nutritional annotations](figures/mdb_revision/amino_acid_modules.tsv) |
-| Three bacterial lineages are frequent in southwestern Pacific and Indian Ocean samples | Figures S4 and S7; Table S1 | [Regional tests](docs/workflow/phase6_analysis/README.md), [matched host and regional comparisons](docs/coauthor_metadata_analysis.md), [incidence counts](figures/coauthor_metadata/targeted_incidence.tsv), and [C. acnes omission sensitivity](docs/cutibacterium_sensitivity.md) |
-| Tissue and depth patterns reflect the sampling of colonies | Figures S3–S4 and S8 | [Tissue and depth methods](docs/coauthor_metadata_analysis.md), [tissue incidence](figures/coauthor_metadata/tissue_incidence.tsv), [depth design](figures/coauthor_metadata/host_depth_design.tsv), and [fish detections](figures/fish_12s/sample_summary.tsv) |
+| Siphonophore Metamycoplasmataceae have close relatives in other marine animals | Fig 3; Figs C and E in S1 Appendix | [Genome phylogeny](docs/workflow/mycoplasmatales_phylogeny/README.md), [cnidarian marker comparisons](docs/workflow/cnidarian_16s/README.md), [Cassiopea comparisons](docs/workflow/cassiopea_16s/README.md), [tree data](figures/mycoplasmatales/source_phylogeny_focus.tsv), and [host incidence](figures/cohort/mycoplasmatales_incidence.tsv) |
+| Predicted energy metabolism differs among Metamycoplasmataceae | Fig F; Table B in S1 Appendix | [Gene functions](docs/workflow/mycoplasmatales_gene_content/README.md), [figure source data](figures/mycoplasmatales/source_gene_functions.tsv), and [nutritional annotations](figures/mdb_revision/amino_acid_modules.tsv) |
+| Bacterial communities differ among geographic regions and hosts | Figs D and G; Table A in S1 Appendix | [Regional tests](docs/workflow/phase6_analysis/README.md), [matched host and regional comparisons](docs/coauthor_metadata_analysis.md), [incidence counts](figures/coauthor_metadata/targeted_incidence.tsv), and [C. acnes omission sensitivity](docs/cutibacterium_sensitivity.md) |
+| Uneven sampling limits comparisons among tissues and depths | Figs C–D and H in S1 Appendix | [Tissue and depth methods](docs/coauthor_metadata_analysis.md), [tissue incidence](figures/coauthor_metadata/tissue_incidence.tsv), [depth design](figures/coauthor_metadata/host_depth_design.tsv), and [fish detections](figures/fish_12s/sample_summary.tsv) |
 | Viral diversity includes viruses of associated bacteria | Table 1 | [Viral recovery and selection](docs/workflow/phase3_catalog/README.md), [predicted microbial hosts](docs/workflow/phase4_catalog/README.md), and [viral detections](figures/cohort/viral_detections.tsv) |
-| Eukaryotic associates include prey and parasite lineages | Figure 4; Table 1 | [Ribosomal-marker analysis](docs/workflow/eukaryote_gate/README.md), [eukaryote evidence](figures/cohort/eukaryote_evidence.tsv), [fish 12S results](docs/fish_12s_results.md), [trematode comparison](docs/waki_sequence_comparison.md), and [Perkinsela bin review](docs/mag_domain_audit.md) |
-| Initial comparisons recovered complementary evidence and some spurious assignments | Text and supplementary results | [Screening methods](docs/workflow/screens/README.md) and [screen comparisons](figures/screening/) |
-| Siphonophore reference genomes greatly reduced the reads retained for associate analysis | Text and supplementary results | [Host-reference comparisons](docs/coauthor_metadata_analysis.md#host-reference-context), [current removal statistics](figures/coauthor_metadata/host_depletion_summary.tsv), and [historical fixed-catalog comparison](figures/coauthor_metadata/historical_host_concordance.tsv) |
-| Human DNA and bacteria associated with handling | Text and supplementary results | [Human-read methods](docs/human_read_screen.md), [per-library screen](figures/human_screen/sample_summary.tsv), and [C. acnes comparison](docs/human_cutibacterium.md) |
+| Eukaryotic associates include prey and parasite lineages | Fig 4; Table 1 | [Ribosomal-marker analysis](docs/workflow/eukaryote_gate/README.md), [eukaryote evidence](figures/cohort/eukaryote_evidence.tsv), [fish 12S results](docs/fish_12s_results.md), [trematode comparison](docs/waki_sequence_comparison.md), and [Perkinsela bin review](docs/mag_domain_audit.md) |
+| Assembly recovered bacteria missed by reference-genome screening | Text and supplementary results | [Screening methods](docs/workflow/screens/README.md) and [screen comparisons](figures/screening/) |
+| Host DNA removal changed some detections | Text and supplementary results | [Host-reference comparisons](docs/coauthor_metadata_analysis.md#host-reference-context), [current removal statistics](figures/coauthor_metadata/host_depletion_summary.tsv), and [historical fixed-catalog comparison](figures/coauthor_metadata/historical_host_concordance.tsv) |
+| More reads matched the human genome in specimens with *C. acnes* | Text and supplementary results | [Human-read methods](docs/human_read_screen.md), [per-library screen](figures/human_screen/sample_summary.tsv), and [C. acnes comparison](docs/human_cutibacterium.md) |
 
-[Co-detection summaries](figures/mdb_revision/cooccurrence.tsv) support Table S3
-and the Discussion. Table S4 in the supplement inventories the accompanying data.
+[Co-detection summaries](figures/mdb_revision/cooccurrence.tsv) support Table C in S1 Appendix
+and the Discussion. Table D in S1 Appendix inventories the accompanying data.
 The [supporting-data tables](tables/README.md) provide genome-quality and
 gene-content comparisons, statistical results, and trematode-marker evidence
 with original paths and checksums.
@@ -86,7 +87,7 @@ The other 50 libraries use no host reference.
 | Detect associates across libraries | Map unassembled reads to the catalogs and assess support from the same specimen's assemblies | [Current mapping](docs/cohort_remapping.md), [detection criteria](docs/workflow/phase6_analysis/README.md), [mapping graph](docs/workflow/graphs/cohort_remapping.svg) |
 | Identify other eukaryotes | Compare ribosomal-marker reads and assembled markers with reference sequences | [Eukaryote guide](docs/workflow/eukaryote_gate/README.md), [graph](docs/workflow/graphs/expanded_eukaryotes.svg), [trematode comparison](docs/waki_sequence_comparison.md) |
 | Screen for fish prey | Search fish 12S in all 213 libraries: all retained host-depleted pairs for 151 *Physalia*, ten *N. septata* and two *H. rubrum* libraries; up to 200 million raw pairs before quality filtering for the other 50 | [Fish-screen methods and execution](docs/prey_marker_screen.md), [results](docs/fish_12s_results.md), [per-library read sources and counts](figures/fish_12s/sample_summary.tsv) |
-| Audit human-compatible reads | Screen bounded raw-read prefixes with stringent paired alignments, simulated controls and candidate comparisons against broader references | [Methods and interpretation](docs/human_read_screen.md), [validation](dev_docs/human-screen/2026-10-22-validation.md) |
+| Assess reads matching the human genome | Screen bounded raw-read prefixes with stringent paired alignments, simulated controls and candidate comparisons against broader references | [Methods and interpretation](docs/human_read_screen.md), [validation](dev_docs/human-screen/2026-10-22-validation.md) |
 | Compare bacterial relationships and functions | Infer a genome tree, search earlier marker surveys and compare predicted gene functions | [Phylogeny](docs/workflow/mycoplasmatales_phylogeny/README.md), [tree graph](docs/workflow/graphs/phylogeny.svg), [gene functions](docs/workflow/mycoplasmatales_gene_content/README.md), [function graph](docs/workflow/graphs/gene_content.svg) |
 | Compare distributions and assess sensitivity | Describe tissue and depth patterns, compare regions within hosts and hosts within regions, and assess sequencing-batch effects | [Statistical methods](docs/workflow/phase6_analysis/README.md), [graph](docs/workflow/graphs/expanded_statistics.svg), [collection context](docs/collection_context_analysis.md), [matched comparisons](docs/coauthor_metadata_analysis.md) |
 | Produce figures and supporting tables | Summarize accepted results for the paper | [Current reporting guide](docs/expanded_reporting.md), [graph](docs/workflow/graphs/expanded_publication.svg), [figure and data index](figures/README.md) |
@@ -128,15 +129,20 @@ The default Snakemake target checks input readiness; it does not run the whole p
 This repository retains code, settings, small source files, figures and supporting
 tables. Large sequencing files, reference databases and most sequence-analysis
 outputs are stored separately; accessions and configured locations are described
-in the input instructions. Some libraries lack public run accessions in the
-recorded metadata, and some steps require reviewed intermediate inputs. A clone
-alone is therefore insufficient for a complete rerun. The stage guides identify
+in the input instructions. Public run accessions are recorded for 211 of the 213 libraries; OA-190531-1
+and OA-Bluebottle still lack verified accessions. The repository includes selected
+trematode-marker sequences, but a complete public deposit of reconstructed genomes
+and markers remains pending. Some steps also require reviewed intermediate inputs.
+A clone alone is therefore insufficient for a complete rerun. The stage guides identify
 these requirements and where outputs are written.
 
 ## Citation and development
 
 Releases of this analysis repository are archived on Zenodo at
 [doi:10.5281/zenodo.23441460](https://doi.org/10.5281/zenodo.23441460).
+The archived v0.5.0 release precedes the current 213-library reporting and does
+not contain the reconstructed sequence deposit. Use the files linked above for
+the current paper; the archive is a versioned code snapshot.
 The manuscript citation and public supplementary-material link will be added when
 available. [Workflow documentation checks](dev_docs/workflow-documentation.md)
 and [execution records](RUNLOG.md) are maintained separately from the methods guides.

@@ -31,7 +31,11 @@ available source for additional loci. No read mapping or assembly is rerun.
 Reference files, accession metadata, feature annotations, and retrieval
 provenance are in `data/sources/waki2026/`. Newly deposited study sequences
 and older comparison sequences from Waki's supplement remain separate
-reference sets. The current panel additionally includes two study records
+reference sets. The public [comparison tables and selected sequences](../tables/waki_comparison/)
+retain the original host labels in raw alignment tables: `Physalia sp1` for
+YPM-IZ-110931 corresponds to current *P. mikazuki*. Join specimen identifiers to
+[current metadata](../figures/cohort/sample_metadata.tsv) when interpreting these
+source tables. The current panel additionally includes two study records
 found in GenBank that were omitted from the article's accession inventory:
 LC889189.1 (28S) and LC889237.1 (COI). The final panel contains 108 newly
 deposited study records (26 28S, 11 ITS2-containing, and 71 COI) plus 113

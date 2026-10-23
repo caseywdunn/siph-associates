@@ -34,7 +34,7 @@ The pilot and cohort use identical per-library methods, and shared libraries reu
 their products. The documented command selects both terminal targets so the graph
 covers every rule in this file. For a staged new execution the operational route
 runs the pilot first, checks its resource gate, then requests `screen_cohort`;
-see [WORKFLOW.md](../../../WORKFLOW.md#phase-2-gate).
+see the [original gate record](../../../dev_docs/workflow-operation-2026-10-23-before-submission.md#phase-2-gate).
 
 The [assembly benchmark](../phase3/README.md) consumes the accepted screen stage.
 The [reference-catalog stage](../phase4_catalog/README.md) reads the frozen cohort

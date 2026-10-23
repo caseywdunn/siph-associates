@@ -1,7 +1,8 @@
 # Collection depth, tissue and host context
 
 These descriptive summaries ask which associates occur across sampled depths
-and hosts, how DT-68 occurrence varies among Nanomia collection contexts, and
+and hosts, how the Metamycoplasmataceae bacterial lineage DT-68 varies among
+Nanomia collection contexts, and
 whether Physalia regional patterns remain visible within shared tissue and host
 categories. They retain all **213 libraries**, including zero detections, and use
 current v3 grades and reviewed metadata. No additional significance tests or

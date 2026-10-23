@@ -16,9 +16,16 @@ paths without changing the original sequence inputs.
 [phase5_presence.json](../../../config/phase5_presence.json) specifies unchanged
 presence thresholds; [phase6_analysis.json](../../../config/phase6_analysis.json)
 and [the analysis plan](../../phase6_analysis_plan.md) define inference.
-Products in `data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/`
+Initial v3 products in `data/results/post_expansion/2026-10-21/reporting/phase6_analysis/v3/`
 include `grades/`, `primary/`, `assembly_support/` and `sensitivity/`.
-The version annotation in the presence-policy file does not select output paths.
+The final reporting selection is
+`data/results/coauthor_review/2026-10-22/phase6_analysis/v3/`: the
+[reviewed reporting workflow](../../viral_reporting_review.md) applies viral
+classifications and current host identities to the completed evidence, recomputes
+flowcell-stratified summaries and preserves unchanged Physalia regional tests.
+[reporting_sources.json](../../../config/reporting_sources.json) selects these
+final inputs for publication exports. The version annotation in the
+presence-policy file does not select output paths.
 
 ## Steps and rules
 

@@ -28,6 +28,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+      - name: Make completed analysis inputs available in the checkout
+        env:
+          ANALYSIS_RESULTS: /gpfs/ycga/work/dunn/cwd7/siph_associates/data/results
+        run: |
+          test -d "$ANALYSIS_RESULTS"
+          test ! -e data/results
+          test ! -L data/results
+          ln -s "$ANALYSIS_RESULTS" data/results
       - name: Check generated graphs with the pinned data-access environment
         env:
           SNAKEMAKE: /gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/snakemake

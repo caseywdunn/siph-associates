@@ -32,6 +32,15 @@ installation and read access to the configured McCleary source/result paths.
 The data are too large and partly nonpublic to replace with an invented input set
 on a generic GitHub-hosted runner. The workflow uses the checked-out rule/code
 files while reading the existing scientific inputs at their configured paths.
+Several downstream rules use relative paths under `data/results/`. The job
+therefore links that ignored directory to the completed McCleary results before
+checking graphs. It fails if the source is unavailable or if the checkout already
+has a file, directory or link at that destination. All tracked configuration,
+code, metadata and figure inputs remain those from the checked-out revision.
+
+The submission audit checked this route in a temporary checkout containing only
+tracked files: graph construction failed without the completed results and
+evaluated all 43 scopes after adding this link. No scientific job was executed.
 
 The job runs on pushes, pull requests and manual dispatch, uses read-only GitHub
 permissions, and executes only the graph freshness command. A fork pull request

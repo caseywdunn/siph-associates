@@ -99,14 +99,6 @@ below the 20% breadth sensitivity threshold. The screening summary counts this
 under archaeal references, not archaeal MAGs. No archaeal MAG is recovered;
 the previously misassigned MAGSP0026 remains excluded.
 
-The manuscript's bounded transfer is:
-
-```bash
-cd ../manuscript_siph_associates
-python3 scripts/sync_assets.py --screening-only --dry-run
-python3 scripts/sync_assets.py --screening-only
-```
-
-This copies only the new reporting bundle and writes its own checksum manifest,
-preserving other figure and metadata exports. LaTeX reads the copied values;
-building the manuscript does not access the analysis repository or run analyses.
+The [public screening bundle](../figures/screening/) contains the values and
+source tables used by the paper. The manuscript uses reviewed copies with
+recorded checksums; building it does not rerun these analyses.

@@ -19,9 +19,11 @@ The derived [catalog manifests](../figures/coauthor_review/catalog) contain
 support. The original [mapping catalog](../figures/catalog_qc/catalog_v3)
 remains the record of the references used for alignment.
 
-Host labels come from the publication metadata overlay. NA37 is reported as
-*Nanomia bijuga* following Namrata Ahuja's specimen identification; NA29 remains
-*Nanomia* sp. These labels do not change library IDs or processing routes.
+Host labels come from the publication metadata overlay. The 22 *Nanomia*
+comprise ten *N. bijuga*, ten *N. septata*, one *N. cara* (WS4) and one *Nanomia*
+sp. 1 (NA29). [Voucher-level evidence](sample_metadata.md#nanomia-identifications)
+resolves the earlier pooled labels; Namrata Ahuja separately confirmed NA37 as
+*N. bijuga*. These labels do not change library IDs or processing routes.
 Inconsistent life-stage labels remain in the source metadata and are excluded
 from biological summaries and tests.
 
@@ -39,7 +41,7 @@ This entry point contains only metadata, interpretation, statistical summary and
 figure rules. Missing completed input tables cause a failure; it has no FASTQ,
 assembly or read-mapping producers. Flowcell concentration tests and incidence
 summaries are recomputed at all three bacterial breadth thresholds because
-NA37 changes host strata. Regional tests concern *Physalia* and reuse the
+reviewed *Nanomia* identifications change host strata. Regional tests concern *Physalia* and reuse the
 validated completed outputs after checking that its metadata and bacterial
 evidence are unchanged. Input and reused-output hashes are recorded in
 `data/results/coauthor_review/2026-10-22/prepared.json`.

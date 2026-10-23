@@ -74,10 +74,9 @@ are recorded in [raw_files.tsv](../data/metadata/manko2026/raw_files.tsv).
 
 ## Combined-cohort follow-up
 
-Assembly completion and additional MAG/viral QC are complete, and catalog v3
-is indexed and validated. The user explicitly authorized the
-[213-library remapping round](cohort_remapping.md) on 2026-10-20, superseding the
-earlier hold in [post_expansion_remapping.json](../config/post_expansion_remapping.json).
+Assembly completion, MAG/viral quality review and catalog-v3 indexing are
+complete. All eight libraries enter the validated
+[213-library remapping](cohort_remapping.md) and current paper.
 
 The pooled catalog combines retained original assemblies with the new Bargmannia
 and reviewed Halistemma assemblies, retaining the MAGSP0026 domain exclusion.
@@ -85,8 +84,8 @@ The full remapping of all 213 libraries passed on 2026-10-21.
 [Downstream reporting](expanded_reporting.md) now treats Manko2026 as the fourth study.
 Existing assemblies are reusable; existing mappings cannot establish abundance
 against newly added competing targets. The combined downstream exports are
-complete. The original 205-library manuscript tables await the separate
-manuscript update described in the [handoff](../dev_docs/expanded-manuscript-handoff.md).
+complete and incorporated into the manuscript and S1 Appendix. Current detection
+counts and source selections are in the [reporting guide](expanded_reporting.md).
 
 ## Collection metadata source conflicts
 

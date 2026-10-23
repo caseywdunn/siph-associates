@@ -25,6 +25,15 @@ matches. The trematode files describe reference affinities, not new species
 assignments. Selected FASTA files support those comparisons; they are not a
 complete deposit of the reconstructed genomes or markers.
 
+The phylogeny's `tree_labels.tsv` preserves genome-quality estimates recorded
+when that tree was assembled. Use [genome_stats.tsv](mycoplasmatales/genome_stats.tsv)
+for the quality values used in the manuscript and gene-function figure; join by
+genome identifier rather than treating the tree-label estimates as current.
+The Waki `reference_assembly_hits.tsv` likewise retains original host labels:
+`Physalia sp1` for YPM-IZ-110931 is now *P. mikazuki*. Join specimen identifiers
+to the [current sample metadata](../figures/cohort/sample_metadata.tsv) for current
+host names. These retained source fields do not change the sequence comparisons.
+
 For specimen metadata, detections and other figure source data, see the
 [figure and data index](../figures/README.md).
 

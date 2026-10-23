@@ -16,13 +16,13 @@ bounded entry points:
 | Grades, statistics, SSU evidence and exports | [Reporting](../expanded_reporting.md) | `workflow/expanded_reporting.smk` |
 | Reviewed viral classes and host metadata | [Reporting interpretation](../viral_reporting_review.md) | `workflow/coauthor_reporting.smk` |
 | Tissue, depth and matched host/region comparisons | [Metadata analyses](../coauthor_metadata_analysis.md) | `workflow/coauthor_metadata.smk` |
-| Human-compatible read audit and candidate verification | [Human-read methods](../human_read_screen.md) | `workflow/human_screen.smk`, `workflow/human_confirmation.smk` |
-| Human-compatible reads and C. acnes detections | [Descriptive comparison](../human_cutibacterium.md) | `workflow/human_cutibacterium.smk` |
+| Human-read audit and candidate verification | [Human-read methods](../human_read_screen.md) | `workflow/human_screen.smk`, `workflow/human_confirmation.smk` |
+| Human reads and C. acnes detections | [Descriptive comparison](../human_cutibacterium.md) | `workflow/human_cutibacterium.smk` |
 | Community comparisons with C. acnes omitted | [Omission sensitivity](../cutibacterium_sensitivity.md) | `workflow/cutibacterium_sensitivity.smk` |
 
 Follow DNA from the original sequencing libraries to the paper's figures and
 supporting tables. The [paper-to-analysis index](../../README.md#finding-analyses-from-the-paper)
-connects Results headings to these methods. The guides below cover all 21 rule
+connects Results headings to these methods. The guides below cover all 22 shared rule
 files: each explains the biological purpose, inputs, outputs and interpretation,
 and places a generated rule graph beside its preview and run commands.
 
@@ -56,6 +56,7 @@ show that a run completed or imply that every sample yielded a genome.
 | `publication_figures.smk` | Bounded exports from accepted results | [Figures and source tables](publication_figures/README.md) |
 | `fish_12s_search.smk` | Four fish-marker searches and competitive identification | [Fish 12S workflow](../prey_marker_screen.md) |
 | `host_depletion_report.smk` | Per-library input, removal and retained-read counts | [Host-depletion statistics](../host_depletion_report.md) |
+| `coauthor_metadata.smk` | Tissue, depth, host and geographic comparisons using reviewed specimen identities | [Metadata analyses](../coauthor_metadata_analysis.md) |
 
 A sequencing library is the unit processed by the workflow. A MAG is a
 metagenome-assembled genome recovered by grouping assembled sequences; a vOTU is
@@ -87,11 +88,12 @@ the resource overrides in
 Those settings control scheduling; they add no scientific branches to these
 graphs. SLURM is the cluster job scheduler; consult the
 [YCRC cluster documentation](https://docs.ycrc.yale.edu/) for access and setup.
-The operational details and recovery procedure remain in
+Controller monitoring and recovery are described in
 [`WORKFLOW.md`](../../WORKFLOW.md).
 
 Original FASTQs and large databases are external to Git. Their locations are
-recorded in [`config/samples.tsv`](../../config/samples.tsv),
+recorded in [`config/post_expansion_samples.tsv`](../../config/post_expansion_samples.tsv),
+the original [`config/samples.tsv`](../../config/samples.tsv),
 [`config/config.yaml`](../../config/config.yaml) and the stage JSON files.
 See the [sample and input overview](../../README.md#data-and-interpretation) and
 [`data/metadata/`](../../data/metadata) for input inventory and provenance.
@@ -191,7 +193,7 @@ execution evidence is retained in the [run log](../../RUNLOG.md) and stage recor
 
 ## Regenerate and check the graphs
 
-The shared executable is outside the scientific dependency graph. It reads
+The shared executable checks all 43 configured scopes and is outside the scientific dependency graph. It reads
 [`graphs.json`](graphs.json), which records only targets, configuration and the
 publication rule restriction; graph edges always come from Snakemake.
 

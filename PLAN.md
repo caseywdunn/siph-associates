@@ -1,4 +1,4 @@
-# Analysis plan (PLoS One)
+# Original analysis plan (historical PLOS One target)
 
 **Current state, 2026-10-21:** the expanded cohort has 213 libraries from four
 studies, all selected assemblies are complete, and catalog v3 remapping passed.

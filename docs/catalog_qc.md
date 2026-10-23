@@ -4,8 +4,8 @@ The previous Thermoproteota assignment was a Perkinsela-related eukaryotic bin.
 GTDB placement and CheckM2 estimates alone did not establish prokaryotic identity;
 the [domain audit](mag_domain_audit.md) documents the evidence. Every prospective
 MAG catalog member, including previously retained bins, was reviewed before
-catalog v3 was frozen. The user subsequently authorized the
-[213-library remapping round](cohort_remapping.md) on 2026-10-20. That round completed with PASS on 2026-10-21;
+catalog v3 was frozen. The [213-library remapping](cohort_remapping.md)
+completed with PASS on 2026-10-21;
 [current reporting](expanded_reporting.md) uses the reviewed v3 products.
 
 [Preparation](assembly_completion.md#prepare-the-combined-cohort-for-qc) preserves
@@ -36,14 +36,10 @@ from the prokaryotic catalog and remain available as positive controls.
    host/endogenous-sequence evidence (including the new Halistemma reference),
    and nominated reference-genome identities and provenance.
 
-Preparation labels gene-domain and contig-taxonomy QC as pending. Assembly
-completion and candidate extraction do not complete these reviews. The final
-review must produce per-candidate decisions and an immutable inventory of
-approved mapping targets with sequence checksums and inclusion evidence.
-
-No preparation workflow includes full-cohort mapping rules. Preparation could not clear the mapping hold. The explicit user authorization
-recorded in `config/post_expansion_remapping.json` subsequently released it;
-the authorized mapping round has now passed validation.
+Assembly completion and candidate extraction precede the domain and contig
+reviews. The completed review records per-candidate decisions and an inventory of
+approved mapping targets with sequence checksums and inclusion evidence. The
+preparation workflows do not include full-cohort read mapping.
 
 ## October 20 review checkpoint
 
@@ -77,13 +73,11 @@ Bargmannia screen outputs enter the same nomination parser as the original 205
 libraries; original nominations and reference QC are reused with provenance.
 The negative-control reference pool remains fixed.
 
-At this checkpoint, the remaining steps were to finish nr adjudication, resolve discordant
-contigs, review the viral cellular flanks and hallmark evidence, combine old and
-new reference QC, and curate/dereplicate the accepted sequences. Reference merge
-requires compact bacterial and archaeal GTDB summary tables; the new full GTDB
-output is retained under `phase4_catalog/references/new/gtdb/`. Final catalog
-decisions, target checksums, and index preparation are described in the subsequent
-curation section below. No full-cohort mapping has been started.
+The subsequent nr adjudication, contig and viral-boundary review, reference
+quality review and catalog curation are complete. Compact GTDB summary tables
+support the reference merge; the complete new-reference classification is retained
+under `phase4_catalog/references/new/gtdb/`. Final decisions and target checksums
+are described below.
 
 ## Run and inspect the bounded workflows
 
@@ -191,8 +185,11 @@ archaeal target BAC00006 is retired, the new Tyloplasma MAG enters as BAC00459,
 and the number of public reference representatives increases by 30. Existing
 MAG cluster identifiers are preserved, including for bins with fragments removed.
 
-The viral regions form **407 associate-virus clusters** and **157 endogenous
-candidate clusters**. Six CRISPR host links remain after curation. These are
+The mapping freeze classified the viral regions as **407 associate-virus
+clusters** and **157 endogenous-candidate clusters**. Subsequent
+[biological interpretation](viral_reporting_review.md) reports 404 associate
+and 160 endogenous-candidate clusters, with identical mapping targets and
+sequences. Six CRISPR host links remain after curation. These are
 catalog membership and sequence-linkage results. The subsequent expanded
 read mapping is complete; [current reporting](expanded_reporting.md) derives
 prevalence and coverage summaries from it.

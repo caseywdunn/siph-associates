@@ -46,7 +46,12 @@ embedded TrueType fonts; PNG files are review previews.
   Tip labels, source identities, and plotted distances are exported as
   `source_phylogeny_focus.tsv`.
 
-The complete source tree remains in the analysis results. The displayed subtree
+The [complete source tree](../../tables/mycoplasmatales/mycoplasmatales.bac120.decorated.tree)
+and [tree labels](../../tables/mycoplasmatales/tree_labels.tsv) are public supporting
+files. The tree-label table retains quality estimates from phylogeny preparation;
+[genome_stats.tsv](../../tables/mycoplasmatales/genome_stats.tsv) provides the
+quality values used for the current manuscript and gene-function figure. The
+plotter takes its near-complete flags from that genome-statistics table. The displayed subtree
 does not show the Acholeplasmataceae outgroup or justify relationships outside
 the focal clade. FastTree local support is not bootstrap support; the weak
 clade-B/DT-68 relationship must not be described as resolved. Assembly

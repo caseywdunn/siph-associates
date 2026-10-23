@@ -59,17 +59,18 @@ species, with ties listed together.
 
 **Result.** 98 samples from 23 studies carry a matching ASV.
 
-- **Identical (≥99.5%) matches are always rare.** They occur in 7 hosts for
-  `MAGSP0005` and 4 for `MAGSP0031`, at no more than 0.6% of a sample's reads.
-  `MAGSP0005`-identical ASVs also occur in seawater from 10 samples (≤0.01%).
+- **Close (≥99.5%) matches are rare.** They occur in 7 hosts for
+  `MAGSP0005` and 4 for `MAGSP0031`, at no more than 0.38% of a sample's reads
+  in the [sample-level table](../tables/mycoplasmatales/cnidarian_16s_matching_asv_samples.tsv).
+  ASVs at least 99.5% identical to `MAGSP0005` also occur in seawater from 10 samples (≤0.01%).
 - **Abundant matches are related lineages, not the same species.** ASVs at
   97.6% identity to `MAGSP0005` dominate *Acropora loripes* (median 92% of
   reads) and *A. sarmentosa* (87%). Both come from a single study (Chan et al.
   2019, V4 region). ASVs at 97.6% to `MAGSP0031` occur in rhizostome jellyfish
   (*Mastigias*, *Cassiopea ornata*) at ≤0.4%.
-- **No cnidarian in the database carries a siphonophore species at
-  appreciable abundance.** Short amplicons cannot resolve species, so 97–99%
-  matches are read as related lineages.
+- **The closest matches are uncommon in the sampled communities.** Short
+  amplicons cannot resolve species, so these matches identify reference
+  affinities rather than confirmed occurrences of the same bacterial species.
 
 ## 3. *Cassiopea* 16S (Florida Keys)
 
@@ -87,8 +88,8 @@ identity upward.
 
 **Result.**
 - No variant and no full-length read matches a siphonophore Mycoplasmatales
-  16S gene at ≥90% identity. Florida *Cassiopea* does not carry these
-  lineages.
+  16S gene at ≥90% identity in these datasets. This non-detection does not
+  establish absence from Florida *Cassiopea*.
 - *Cassiopea* has its own Mollicutes. The closest variants to our genes
   (`ZOTU2`, `ZOTU7`, `ZOTU8`; about 86% to `MAGSP0005`, a distant lineage)
   make up a median 18% of gastrovascular-cavity reads (up to 92%; >1% in 27 of
@@ -102,10 +103,10 @@ Metamycoplasmataceae. It also includes octocoral (DT-68) and other
 marine-animal (*Mycoplasma_K*, *Mycoplasma_O*) lineages, but not the
 *Spiroplasma*-like Mollicutes of corals and true jellyfish. The *Physalia*
 clade B is known only from siphonophores. Database and *Cassiopea* surveys
-found related lineages in other cnidarians but no other host with a
-siphonophore species at meaningful abundance. *Cassiopea* shows the same
-pattern with its own lineage: a Mollicutes confined to the gastrovascular
-cavity and absent from the environment.
+found related lineages in other cnidarians, while the closest matches were rare.
+The sampled Florida *Cassiopea* instead had a more distant Mollicutes lineage,
+concentrated in gastrovascular-cavity samples and undetected in the sampled
+water, sediment and controls.
 
 **Limits.** The siphonophore-only status of clade B rests on the genomes and
 amplicon data available. The DT-68 sister relationship to clade B is weakly

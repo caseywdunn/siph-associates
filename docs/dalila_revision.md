@@ -1,40 +1,38 @@
-# Dalila manuscript revision, 2026-10-11
+# Host sampling and descriptive detection summaries
 
-The opening record below describes the October 11 revision. Its exclusion of
-the Halistemma reference was superseded by the subsequently authorized
-[Halistemma analyses](halistemma.md). The same descriptive reporting script
-now consumes the 213-library metadata, v3 detections and selected assemblies
-through `config/reporting_sources.json`; `expanded_supporting_tables` in the
-[current reporting workflow](expanded_reporting.md) rebuilds these exports.
+This reporting step joins reviewed specimen metadata, accepted detections and
+selected assembly membership. It supplies the host denominators and descriptive
+counts used in the paper. Current input paths are selected by
+[reporting_sources.json](../config/reporting_sources.json); no sequence analysis,
+reference change or hypothesis test is run by this script.
 
-Reporting-only changes on source revision 00a629cd917440a97a8a5562b70e6837a5115d83.
-No sequence analysis, reference update, catalog change or hypothesis-test rerun.
-The user explicitly excluded incorporating the new Halistemma reference.
+The cohort contains 151 *Physalia*, 22 *Nanomia* and 40 other siphonophores.
+Among the ten *N. bijuga*, four have accepted bacterial detections. There are
+207 specimens assigned to 37 named taxa, with six other specimens retaining
+broader or provisional identifications. Current identities follow the
+[publication host-name table](../config/publication_host_names.tsv) and
+[specimen metadata](../figures/cohort/sample_metadata.tsv).
 
-`config/publication_host_names.tsv` maps the five frozen Physalia sp1 / B2
-specimens to Physalia mikazuki. Cluster correspondence: Yongstar et al. 2025,
-10.3389/fmars.2025.1653958; available species description: Yongstar et al. 2026,
-10.50974/0002008267. The original manifest and species_as_published are retained.
-The overlay is applied once in figures/build_cohort.py; downstream display
-summaries consume its sample_metadata.tsv. Saved detections and statistical
-outputs are unchanged. The tree legend now identifies bacterial MAGs explicitly.
+The frozen analysis identifiers and names reported by the source studies are
+retained. This includes the five *Physalia mikazuki* formerly labelled sp1/B2
+and the [reviewed Nanomia identities](sample_metadata.md#nanomia-identifications).
+Unresolved host labels are kept separately and excluded from named-taxon counts.
 
-Run from the analysis root with the existing Snakemake Python environment:
+## Rebuild the summaries
 
-```sh
-python figures/build_cohort.py
-python scripts/analyze_collection_context.py
-python figures/plot_collection_context.py
-python figures/plot_associate_overview.py
-python workflow/scripts/plot_mycoplasmatales_figures.py
-python scripts/summarize_mdb_revision.py
-python scripts/summarize_dalila_revision.py
+First produce current cohort and collection-context tables through the
+[reviewed reporting workflow](viral_reporting_review.md). From the analysis
+repository root with Python 3.11 or later (standard library only), the bounded
+summary can also be run independently:
+
+```bash
+python3 scripts/summarize_dalila_revision.py
 ```
 
-The final script joins reviewed sample metadata and collection-context detections,
-producing generated manuscript values, all-host detection denominators, all-Physalia
-regional denominators for clade A, and the recorded life-stage entries. Unresolved
-host labels remain separate and are excluded from named-species denominators.
-Missing life-stage entries are unknown, not adults. These are descriptive joins,
-not new tests or evidence of independent age, depth, host or geographic effects.
-Its provenance records input/output checksums and source code identity.
+Outputs in [figures/dalila_revision](../figures/dalila_revision/) include generated
+manuscript values, all-host detection denominators, regional *Physalia* counts,
+recorded life-stage entries and provenance with input/output and code checksums.
+The `expanded_supporting_tables` and reviewed reporting stages also run this
+producer. A missing life stage remains unknown; it is not interpreted as an
+adult. These summaries do not establish independent age, depth, host or regional
+effects.

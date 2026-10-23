@@ -38,7 +38,8 @@ libraries and non-detections in their denominators.
 Depth and geography are also coupled. All seven California *N. septata*
 specimens were collected at 217–662.29 m, whereas the three Washington specimens
 were collected within 0–20 m. Only three satisfy the single-flowcell policy.
-The DT-68 pattern can be described, but cannot establish an independent depth
+The pattern for DT-68, a Metamycoplasmataceae bacterial lineage, can be described,
+but cannot establish an independent depth
 effect. Most other species have only one or two specimens. The per-host design
 table records the available depth variation and replication.
 

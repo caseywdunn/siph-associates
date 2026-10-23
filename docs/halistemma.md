@@ -91,10 +91,8 @@ input-path, count and output checks.
 
 ## Combined remapping
 
-The additional MAG/viral QC and catalog review are complete. On 2026-10-20 the
-user explicitly authorized the [213-library remapping round](cohort_remapping.md),
-superseding the earlier hold in
-[post_expansion_remapping.json](../config/post_expansion_remapping.json).
+The additional MAG/viral quality review and catalog review are complete,
+as is the [213-library remapping](cohort_remapping.md).
 
 The reviewed catalog pools the eight new Bargmannia libraries with the original
 cohort, using one selected host-depleted assembly per Halistemma library. The
@@ -103,6 +101,6 @@ MAGSP0026 domain exclusion. Halistemma changes processing for two existing
 samples; it does not add samples.
 
 The combined analysis and downstream exports are complete; see
-[current reporting](expanded_reporting.md). The manuscript still uses its
-205-library baseline and awaits a separate update. Neither per-library workflow
-automatically starts remapping.
+[current reporting](expanded_reporting.md). The manuscript and S1 Appendix use
+these expanded-cohort outputs. Neither per-library workflow automatically starts
+remapping.

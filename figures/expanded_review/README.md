@@ -20,9 +20,9 @@ pair (or a library/reporting-group pair for eukaryotes), not an organism count.
 | Archaeal detections | 0 | 1 |
 | Libraries with a microbial detection | 138 | 140 |
 | Microbial detections with assembly support | 302 | 303 |
-| Associate-virus detections | 530 | 631 |
-| Libraries with an associate-virus detection | 122 | 127 |
-| Associate-virus detections with assembly support | 348 | 442 |
+| Associate-virus detections | 530 | 624 |
+| Libraries with an associate-virus detection | 122 | 122 |
+| Associate-virus detections with assembly support | 348 | 439 |
 | Nonredundant eukaryotic detections | 61 | 64 |
 | Libraries with a eukaryotic detection | 39 | 40 |
 | Eukaryotic detections with assembly support and passing reads | 42 | 42 |
@@ -41,8 +41,9 @@ D666-D10 (GCA_013390375.1/BAC00450; 13.1901% breadth, 1,083 retained reads).
 It has no passing assembly support and is below the 20% breadth sensitivity
 cutoff. No archaeal MAG is recovered. The rejected MAGSP0026 remains excluded.
 
-Viral changes comprise 13 lost calls on six removed targets, 15 gained calls in
-original libraries, and 99 calls in the added libraries. Of the latter, 86 occur
+Viral changes comprise 20 lost associate-virus calls: 13 on six removed targets
+and seven reclassified as endogenous candidates. There are 15 gained calls in
+original libraries and 99 calls in the added libraries. Of the latter, 86 occur
 in formalin-preserved Bargmannia elongata T676-SS3. Retain this specimen context
 when interpreting the increase. The new fish screens add 1,430,751,915 filtered
 pairs but no strong fish matches. With the two Halistemma entries selected from
@@ -57,8 +58,8 @@ without establishing that they are false. The paper describes a distinct DNA
 extraction protocol for this formalin-preserved nectophore; the source of the
 background signal is unresolved.
 
-Omitting T676-SS3 gives 567 microbial detections in 139 libraries, 545 viral
-detections in 126 libraries, and 61 eukaryotic detections in 39 libraries.
+Omitting T676-SS3 gives 567 microbial detections in 139 libraries, 538 viral
+detections in 121 libraries, and 61 eukaryotic detections in 39 libraries.
 All 86 viral targets detected in T676-SS3 are absent from other libraries at
 the accepted threshold. Its three added eukaryotic groups are fungi,
 Bacillariophytina and the perkinsid group A31, all read-only calls. Original
@@ -77,11 +78,13 @@ The eight Waki-comparison source assemblies are also unchanged.
 [retained_focal_genomes.tsv](retained_focal_genomes.tsv),
 [ssu_background_flags.tsv](ssu_background_flags.tsv) and
 [background_sensitivity.tsv](background_sensitivity.tsv). The original
-205 libraries' reviewed metadata are unchanged. The preserved baseline is
+205 libraries include 14 changed metadata cells: current host names and their
+identification notes for seven *Nanomia* specimens. These reviewed identifications
+do not change library membership or accepted sequence detections. The preserved baseline is
 `data/results/post_expansion/2026-10-21/reporting/baseline/figures-44ade17.tar.gz`;
 the generated summary records its SHA-256.
 
 The [manuscript handoff](../../dev_docs/expanded-manuscript-handoff.md) identifies
-affected text and asset-source paths. No manuscript files were edited in this
-reporting refresh. Historical v2 read-handling controls keep their original
+the cohort-expansion checkpoint. The current manuscript and S1 Appendix use
+the reviewed outputs linked in the [paper index](../../README.md#finding-analyses-from-the-paper). Historical v2 read-handling controls keep their original
 catalog and subsets; they are not relabelled as v3 tests.

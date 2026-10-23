@@ -4,7 +4,7 @@ These figures and small data tables summarize the organisms detected with
 siphonophores and the relationships and predicted functions of their bacteria.
 The [paper-to-analysis index](../README.md#finding-analyses-from-the-paper)
 connects them to the Results sections. Figure numbers below refer to the current
-manuscript and its separate supplement.
+manuscript and S1 Appendix. Supplementary figures use letters A–H; tables use A–D.
 
 The [sample metadata guide](../docs/sample_metadata.md) defines museum, BioSample,
 collecting-event, tissue-sample, and analysis identifiers. It also links the
@@ -32,14 +32,14 @@ compilation time.
 | Figure 2: bacteria across hosts | [Microbial distributions](overview/microbial_host_distribution.pdf) | [Host counts and denominators](overview/microbial_host_distribution.tsv), [genome assignments](overview/microbial_display_assignments.tsv) |
 | Figure 3: bacterial relationships | [Metamycoplasmataceae tree](mycoplasmatales/phylogeny_focus.pdf) | [Tree data and labels](mycoplasmatales/source_phylogeny_focus.tsv) |
 | Figure 4: eukaryotic associates | [Eukaryote evidence](overview/eukaryote_evidence.pdf) | [Displayed evidence](overview/eukaryote_display.tsv), [full evidence table](cohort/eukaryote_evidence.tsv) |
-| Figure S1: host sampling | [Samples by host](cohort/sampling.pdf) | [Sampling counts](cohort/host_sampling.tsv), [sample metadata](cohort/sample_metadata.tsv) |
-| Figure S2: collection depth | [Depth and host context](collection_context/depth_host_overview.pdf) | [Specimen records](collection_context/library_context.tsv), [depth summaries](collection_context/depth_summary.tsv) |
-| Figure S3: DT-68 occurrence | [Nanomia and Resomia comparison](collection_context/dt68_depth_context.pdf) | [Specimen records](collection_context/dt68_specimens.tsv), [depth summaries](collection_context/dt68_depth_summary.tsv) |
-| Figure S4: tissue and region | [Tissue and regional context](collection_context/tissue_context.pdf) | [Tissue counts](collection_context/tissue_summary.tsv), [regional counts](collection_context/tissue_region_incidence.tsv) |
-| Figure S5: recurrent mycoplasmas | [Mycoplasmatales incidence](cohort/mycoplasmatales_incidence.pdf) | [Positive and total specimens](cohort/mycoplasmatales_incidence.tsv) |
-| Figure S6: predicted functions | [Gene functions](mycoplasmatales/gene_functions.pdf) | [Function assignments](mycoplasmatales/source_gene_functions.tsv) |
-| Figure S7: matched host and region comparisons | [Targeted bacterial incidence](coauthor_metadata/targeted_incidence.pdf) | [Incidence counts](coauthor_metadata/targeted_incidence.tsv), [community tests](coauthor_metadata/community_tests.tsv), [tested specimens](coauthor_metadata/community_membership.tsv) |
-| Figure S8: depth and associate detections | [Depth patterns](coauthor_metadata/depth_patterns.pdf) | [Specimen context](coauthor_metadata/specimen_context.tsv), [depth summaries](coauthor_metadata/depth_incidence.tsv), [depth design](coauthor_metadata/host_depth_design.tsv) |
+| Fig A in S1 Appendix: host sampling | [Samples by host](cohort/sampling.pdf) | [Sampling counts](cohort/host_sampling.tsv), [sample metadata](cohort/sample_metadata.tsv) |
+| Fig B in S1 Appendix: collection depth | [Depth and host context](collection_context/depth_host_overview.pdf) | [Specimen records](collection_context/library_context.tsv), [depth summaries](collection_context/depth_summary.tsv) |
+| Fig C in S1 Appendix: occurrence of the DT-68 bacterial lineage | [Nanomia and Resomia comparison](collection_context/dt68_depth_context.pdf) | [Specimen records](collection_context/dt68_specimens.tsv), [depth summaries](collection_context/dt68_depth_summary.tsv) |
+| Fig D in S1 Appendix: tissue and region | [Tissue and regional context](collection_context/tissue_context.pdf) | [Tissue counts](collection_context/tissue_summary.tsv), [regional counts](collection_context/tissue_region_incidence.tsv) |
+| Fig E in S1 Appendix: recurrent mycoplasmas | [Mycoplasmatales incidence](cohort/mycoplasmatales_incidence.pdf) | [Positive and total specimens](cohort/mycoplasmatales_incidence.tsv) |
+| Fig F in S1 Appendix: predicted functions | [Gene functions](mycoplasmatales/gene_functions.pdf) | [Function assignments](mycoplasmatales/source_gene_functions.tsv) |
+| Fig G in S1 Appendix: matched host and region comparisons | [Targeted bacterial incidence](coauthor_metadata/targeted_incidence.pdf) | [Incidence counts](coauthor_metadata/targeted_incidence.tsv), [community tests](coauthor_metadata/community_tests.tsv), [tested specimens](coauthor_metadata/community_membership.tsv) |
+| Fig H in S1 Appendix: depth and associate detections | [Depth patterns](coauthor_metadata/depth_patterns.pdf) | [Specimen context](coauthor_metadata/specimen_context.tsv), [depth summaries](coauthor_metadata/depth_incidence.tsv), [depth design](coauthor_metadata/host_depth_design.tsv) |
 
 PDFs are vector figures; PNG files alongside them are previews. The
 [cohort tables](cohort/) retain all 213 libraries, including those with no
@@ -55,9 +55,9 @@ recorded versus assigned depths and the overlap of host, tissue and geography.
 
 Table 1 uses the [domain summary](overview/domain_summary.tsv).
 [Selected nutritional and defense annotations](../docs/mdb_revision.md) and
-[co-detection counts](mdb_revision/cooccurrence.tsv) support Tables S2 and S3.
+[co-detection counts](mdb_revision/cooccurrence.tsv) support Tables B and C in S1 Appendix.
 The other supplementary tables summarize detection-threshold sensitivity
-(Table S1) and inventory the accompanying data (Table S4); their manuscript
+(Table A in S1 Appendix) and inventory the accompanying data (Table D); their manuscript
 formatting is maintained with the supplement. See the
 [statistical methods](../docs/workflow/phase6_analysis/README.md) for sensitivity
 outputs and the [trematode comparison](../docs/waki_sequence_comparison.md) for
@@ -82,13 +82,15 @@ denominators and identification limits.
 
 ## Rebuild figures from accepted results
 
-Start with [current cohort and downstream reporting](../docs/expanded_reporting.md)
-for the expanded v3 refresh and validation state. Use the [publication workflow guide](../docs/workflow/publication_figures/README.md)
-for the canonical environment, separate dry-run and launch commands, and embedded
-rule graph. Its four reporting rules produce cohort figures, the bacterial tree
-and function panels, and collection-context tables and plots. It restricts
-execution to those reporting rules and requires completed upstream results.
-It does not run sequence assembly, mapping or statistical inference.
+Use [current cohort and downstream reporting](../docs/expanded_reporting.md)
+for the selected inputs and complete reporting sequence. The
+[reviewed reporting workflow](../docs/viral_reporting_review.md) rebuilds cohort,
+collection-context and overview figures from completed evidence, while the
+[metadata workflow](../docs/coauthor_metadata_analysis.md) produces the matched
+host/region and depth panels. The retained bacterial tree and function panels
+have their own [figure guide](mycoplasmatales/README.md).
+These reporting stages require completed upstream results. They do not run
+sequence assembly or read mapping.
 
 The figure producers are:
 
@@ -100,7 +102,7 @@ The figure producers are:
 - [analyze_collection_context.py](../scripts/analyze_collection_context.py) and
   [plot_collection_context.py](plot_collection_context.py): depth, tissue and
   regional summaries and figures.
-- [Metadata workflow](../workflow/coauthor_metadata.smk): Figures S7–S8,
+- [Metadata workflow](../workflow/coauthor_metadata.smk): Figs G–H in S1 Appendix,
   matched community comparisons and host-reference summaries, using completed
   evidence tables as described in the [metadata guide](../docs/coauthor_metadata_analysis.md).
 
@@ -113,7 +115,7 @@ Figures 2 and 4 are generated by
 [plot_associate_overview.py](plot_associate_overview.py), connected through
 `expanded_overview` in the expanded reporting workflow. The script can also be
 run separately from completed tables. First generate the cohort and collection-context tables with the
-publication workflow above. Then, from the analysis repository root, use the
+reviewed reporting workflow above. Then, from the analysis repository root, use the
 existing Yale plotting environment:
 
 ```bash

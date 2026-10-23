@@ -14,8 +14,10 @@ policy. Earlier preparation reports retain the hold that applied when they were
 created; this authorization supersedes that hold for this mapping round.
 
 All **213 libraries** enter two competitive alignments: one against the 478
-microbial targets plus 20 decoys, and one against the combined 407 associate-virus
-and 157 endogenous-virus candidates. The bounded workflow imports the existing
+microbial targets plus 20 decoys, and one against 564 viral targets. The mapping
+catalog initially classified these as 407 associates and 157 endogenous candidates;
+[reviewed reporting](viral_reporting_review.md) assigns 404 and 160, respectively,
+without changing the competing sequences or mappings. The bounded workflow imports the existing
 Phase-5 mapping and CoverM rules, with the same alignment, duplicate-removal and
 coverage settings in [phase5_mapping.json](../config/phase5_mapping.json).
 It consumes completed v3 indexes and does not import assembly, host-depletion,
@@ -82,6 +84,6 @@ The run root is `data/results/post_expansion/2026-10-20/remapping/`:
   and `library_mapping.tsv`.
 - `stages/phase5_mapping_cohort_v3.done`: final PASS/FAIL accounting.
 
-These results are kept separately from earlier mappings. The existing manuscript
-tables remain the reporting baseline until the expanded cohort results have been
-reviewed and downstream analyses regenerated.
+These results are kept separately from earlier mappings. The completed
+[reporting workflows](expanded_reporting.md) use them for the current manuscript
+and S1 Appendix.
