@@ -165,10 +165,11 @@ def main() -> None:
         raise ValueError("Genome grades must cover each library/catalog pair once")
     nominated = [row for row in grades if row["nominated"] == "true"]
     nominated_targets = {row["target_id"] for row in nominated}
+    nominated = [row for row in nominated if row.get("biological_include", "true") == "true"]
     mag_only = set(representatives) - nominated_targets
     if any(representatives[target]["role"] != "mag" for target in mag_only):
         raise ValueError("Non-nominated catalog targets are not all MAG-derived")
-    accepted = [row for row in grades if row["grade"] in ACCEPTED]
+    accepted = [row for row in grades if row["grade"] in ACCEPTED and row.get("biological_include", "true") == "true"]
     overlap = []
     for row in accepted:
         target = row["target_id"]
@@ -262,8 +263,8 @@ def main() -> None:
             int(retained["max_pairs_in_a_library"]),
         ) != (control_rows[-1]["libraries_with_pairs"], control_rows[-1]["max_pairs"]):
             raise ValueError("Competitive controls disagree with retained calibration")
-    euk = read(settings["eukaryote_root"] + "/eukaryote_grades.tsv")
-    euk_accepted = [row for row in euk if row["count_as_detection"] == "true"]
+    euk = read("figures/cohort/eukaryote_evidence.tsv")
+    euk_accepted = [row for row in euk if row["count_as_detection"] == "true" and row.get("biological_include", "true") == "true"]
     euk_phyloflash = [
         row for row in euk_accepted if "phyloflash" in row["assembled_sources"]
     ]
@@ -303,7 +304,7 @@ def main() -> None:
         "NominatedAccepted": sum(row["grade"] in ACCEPTED for row in nominated),
         "NominatedAssembled": sum(
             row["screen_overlap"] == "same_library_sylph"
-            and int(row["assembly_support_bases"]) >= assembly_bases
+            and row["grade"] == "high_confidence"
             for row in overlap
         ),
         "AssemblySupportBases": assembly_bases,

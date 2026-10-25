@@ -41,10 +41,7 @@ different kind of evidence. Host metadata identify the source of a public genome
 not proof of a restricted host range. See
 [the comparative-context report](../../mycoplasmatales_context_results.md).
 
-[Gene-content analysis](../mycoplasmatales_gene_content/README.md) reuses selected
-genomes and labels; [publication plotting](../publication_figures/README.md) uses
-the completed tree. Gene-content rules do not require tree inference itself, so
-that edge should not be inferred merely from the scientific narrative.
+[Publication plotting](../publication_figures/README.md) uses the completed tree.
 The graph includes recovered-genome construction and the GTDB reference view.
 
 ## Preview, launch and rule graph

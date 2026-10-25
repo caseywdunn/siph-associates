@@ -1,6 +1,6 @@
 {
-  "libraries": 213,
-  "numeric_depths": 213,
+  "libraries": 209,
+  "numeric_depths": 209,
   "tissue_unknown": 2,
   "fish_12s_positive_libraries": 8,
   "fish_12s_matching_pairs": 32,
@@ -10,8 +10,7 @@
     "('Physalia', 'unknown')": 2,
     "('Physalia', 'whole body')": 3,
     "('Physalia', 'zooid')": 3,
-    "('non_Physalia', 'nectophore')": 1,
-    "('non_Physalia', 'siphosome')": 61
+    "('non_Physalia', 'siphosome')": 58
   },
   "depth_design": [
     {
@@ -86,11 +85,11 @@
     },
     {
       "species_current": "Bargmannia elongata",
-      "libraries": 3,
-      "single_flowcell_libraries": 3,
-      "distinct_point_or_derived_depths": 3,
+      "libraries": 2,
+      "single_flowcell_libraries": 2,
+      "distinct_point_or_derived_depths": 2,
       "localities_spanning_depth_groups": 0,
-      "depth_min_m": 645.0,
+      "depth_min_m": 877.0,
       "depth_max_m": 913.0,
       "status": "insufficient_within_host_single_flowcell_replication"
     },
@@ -132,16 +131,6 @@
       "localities_spanning_depth_groups": 0,
       "depth_min_m": 984.811951,
       "depth_max_m": 2270.542725,
-      "status": "insufficient_within_host_single_flowcell_replication"
-    },
-    {
-      "species_current": "Bargmannia stenotes",
-      "libraries": 1,
-      "single_flowcell_libraries": 1,
-      "distinct_point_or_derived_depths": 1,
-      "localities_spanning_depth_groups": 0,
-      "depth_min_m": 3129.889404,
-      "depth_max_m": 3129.889404,
       "status": "insufficient_within_host_single_flowcell_replication"
     },
     {
@@ -266,8 +255,8 @@
     },
     {
       "species_current": "Nanomia bijuga",
-      "libraries": 10,
-      "single_flowcell_libraries": 8,
+      "libraries": 9,
+      "single_flowcell_libraries": 7,
       "distinct_point_or_derived_depths": 1,
       "localities_spanning_depth_groups": 0,
       "depth_min_m": 10.0,
@@ -293,16 +282,6 @@
       "depth_min_m": 10.0,
       "depth_max_m": 662.29,
       "status": "shallow_deep_contrast_confounded_with_locality"
-    },
-    {
-      "species_current": "Nanomia sp. 1",
-      "libraries": 1,
-      "single_flowcell_libraries": 1,
-      "distinct_point_or_derived_depths": 1,
-      "localities_spanning_depth_groups": 0,
-      "depth_min_m": 10.0,
-      "depth_max_m": 10.0,
-      "status": "insufficient_within_host_single_flowcell_replication"
     },
     {
       "species_current": "Physalia megalista",

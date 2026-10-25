@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "run_id": "13934441",
+  "inputs_sha256": {
+    "config/reporting_sources.json": "38f2aa65b3d87814aa20e927c916661a1859ac1f428338346cf434040e0f1584",
+    "config/excluded_libraries.tsv": "be368b2626f9629e6f7a6244debddf7118a3affeca0347d544861f2c558aa7bf",
+    "config/contaminant_taxa.tsv": "5b7a4a86f82ad940394a22b71338beb5ce8a430d043fd7ebdc931deb7ab3c602",
+    "workflow/scripts/contamination_policy.py": "d89256ec752879dc029ad374db9a1428bfa5ce138f19fa0e4f3049636eeb710d",
+    "/gpfs/ycga/work/dunn/cwd7/siph_associates/scripts/summarize_contamination_revision.py": "31ce428bb68c0702cf9a0c89c56f43ec18fa485887535db443dfbae0383d29b3",
+    "figures/human_screen/sample_summary.tsv": "e70cfdecf376ef5792ebae2b213b919cf2ae111ab27ab371fd40d628871ea4e3",
+    "data/results/manuscript_revision/2026-10-24/phase6_analysis/v3/grades/bacterial_grades.tsv": "22fc490ef15ff2fe70ee41e05f4cb8d885a836e3999ceb6a2862ae53f08fd35f",
+    "figures/cohort/eukaryote_evidence.tsv": "35c077e9b50c3d6116b1382b692ba5058188a0d6c19bd52c36b7bf05fdce90bd",
+    "figures/cohort/sample_metadata.tsv": "ac1526a2892389d8a8b6d3949a68a7994e88dabed47e6f838f647f7b3ef4c411",
+    "figures/manuscript_revision/catalog/bacterial_catalog.manifest.tsv": "c226ebbf990d4a0de909b9b36535e94f9bd49a5b92d1ec42736a73faae0e34f3"
+  },
+  "outputs_sha256": {
+    "figures/contamination/bacterial_contaminant_detections.tsv": "a8d92af62cde789449538205acb83a6dd13ac25ccf1ff8fe8e9961c7ff9b4473",
+    "figures/contamination/contaminant_targets.tsv": "78c345054c4ccfa2902ed4c46df311187b3b292945e2860bd5f9e83f006f0cfc",
+    "figures/contamination/eukaryote_contaminant_detections.tsv": "d113810a59e5fd1ce4768bc9abad0b1044b7f7a16c8cd669af603a3605337367",
+    "figures/contamination/human_cutibacterium.pdf": "45d38e8d26611bed3b9e13fc69394566236d323c09f0d6d4d3bd466a7ed2f2e2",
+    "figures/contamination/human_cutibacterium.png": "577b52737773b211a237d8b057a54b5e1acb3884a5b725b589e7d26eaeceb71c",
+    "figures/contamination/sample_screen.tsv": "a49e8221c56f938cae52c667975adaf7f7c296223bbc1e1c93d94091c21f742d",
+    "figures/contamination/summary.json": "1cc1d96da58eed28d2ccaa28eb721744926b95809dfd09cb7aa619b0821cf77c"
+  }
+}

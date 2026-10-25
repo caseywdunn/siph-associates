@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "grade_pairs_checked": 106074,
+  "presence_calls_unchanged_at_all_three_thresholds": true,
+  "assembly_grade_changes": 9,
+  "retained_libraries": 209,
+  "metamycoplasmataceae_libraries": 76,
+  "metamycoplasmataceae_detected_clusters": 6,
+  "focal_regional_statistics_unchanged": 9,
+  "primary_profiles_became_empty": [
+    "Church2025__YPM-IZ-104460",
+    "Church2025__YPM-IZ-110251",
+    "Church2025__YPM-IZ-110254"
+  ],
+  "limitations": "No new read mapping, dispersion analysis, exclusion of moderate-quality Physalia, or FCS-GX execution."
+}

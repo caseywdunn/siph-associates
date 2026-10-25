@@ -182,7 +182,9 @@ def derive_context(
     inputs: dict[str, list[dict[str, str]]],
 ) -> tuple[list[dict], list[dict]]:
     """Join all accepted evidence to every manifest library and retain raw support."""
+    inputs = {key: [row for row in rows if row.get("biological_include", "true") == "true"] if key != "flowcells" else rows for key, rows in inputs.items()}
     meta = index_manifest(inputs["manifest"])
+    inputs["flowcells"] = [row for row in inputs["flowcells"] if row["sample_id"] in meta]
     mapping = lineage_mapping(inputs["lineages"])
     flow_rows = unique_evidence(inputs["flowcells"], "sample_id", meta)
     flow = {row["sample_id"]: row for row in flow_rows}
@@ -421,8 +423,8 @@ def run(root: Path, output: Path) -> dict:
     paths = {key: root / relative for key, relative in INPUTS.items()}
     inputs = {key: read_table(path) for key, path in paths.items()}
     context, evidence = derive_context(inputs)
-    expected = {r["sample_id"] for r in read_table(root / "config/post_expansion_samples.tsv")}
-    if len(context) != len(expected) or {r["analysis_sample_id"] for r in inputs["manifest"]} != expected:
+    expected = {r["analysis_sample_id"] for r in inputs["manifest"] if r.get("biological_include", "true") == "true"}
+    if len(context) != len(expected) or {r["sample_id"] for r in context} != expected:
         raise ValueError(
             "Context metadata must match the expanded reporting cohort"
         )

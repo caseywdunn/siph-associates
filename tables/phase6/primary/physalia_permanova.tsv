@@ -1,5 +1,5 @@
 term	Df	SumOfSqs	R2	F	Pr(>F)	status	libraries	eligible_libraries	excluded_empty_communities	region_identifiable	grade_column
-log10(input_pairs)	1	0.818945586611658	0.0217252907645301	2.20227813791645	0.1309	tested	91	122	31	TRUE	grade
-ocean_region	9	7.12751540974476	0.189081359295245	2.12967227088623	1e-04	tested	91	122	31	TRUE	grade
-Residual	80	29.7490338758555	0.789193349940225			tested	91	122	31	TRUE	grade
-Total	90	37.695494872212	1			tested	91	122	31	TRUE	grade
+log10(input_pairs)	1	0.788317087797995	0.0220341916967249	2.17495023809281	0.14	tested	88	122	34	TRUE	grade
+ocean_region	9	7.07979869623414	0.19788692147064	2.17033505064362	1e-04	tested	88	122	34	TRUE	grade
+Residual	77	27.9088756594602	0.780078886832635			tested	88	122	34	TRUE	grade
+Total	87	35.7769914434923	1			tested	88	122	34	TRUE	grade

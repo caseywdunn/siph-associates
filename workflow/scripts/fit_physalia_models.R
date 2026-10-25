@@ -7,6 +7,7 @@ suppressPackageStartupMessages({
 args <- commandArgs(trailingOnly = TRUE)
 analysis <- fromJSON(args[1])$physalia_models
 all_grades <- fread(args[2]); libraries <- fread(args[3]); metadata <- fread(args[4])
+if ("biological_include" %in% names(all_grades)) all_grades <- all_grades[tolower(as.character(biological_include)) == "true"]
 out_design <- args[5]; out_models <- args[6]; out_permanova <- args[7]; out_permutation <- args[8]
 grade_column <- if (length(args) >= 9) args[9] else "grade"
 cores <- if (length(args) >= 10) as.integer(args[10]) else 1L

@@ -1,0 +1,15 @@
+{
+  "review_date": "2026-10-24",
+  "analysis_base_revision": "2a4c03d",
+  "sources": {
+    "/gpfs/ycga/work/dunn/cwd7/tmp_mag_review/rest/per_mag_actions.tsv": "16bb74320f997c651b99861fbc311e15fa8952e56b7b38bbdaf595fccaa92ee3",
+    "/gpfs/ycga/work/dunn/cwd7/tmp_mag_review/rest/local_copy/cross/foreign_contigs.tsv": "63b42fa2beccb79c2a0364cda6bc86c55247d682b70852233d1dea19a7723af8",
+    "/gpfs/ycga/work/dunn/cwd7/tmp_mag_review/named/unal/foreign_genus_contigs.tsv": "e2fd897e440eb53079155036e36ad702a0263b8ce0499e1bff06ce791a88e69b",
+    "/gpfs/ycga/work/dunn/cwd7/tmp_mag_review/rest/fcsadaptor/fcs_adaptor_report.txt": "c43145681edb5579d522de4f4c92f5a84859dbbadeb59b37b2188e190b36f65c",
+    "/gpfs/ycga/work/dunn/cwd7/tmp_mag_review/myco/local_copy/fix/MAGSP0031_depalindromed.fa": "6de05816ab28d0bf9fc4af7191ba71a1e73ae2ad0d0a8a14a3e620e5eb22211b",
+    "/gpfs/ycga/work/dunn/cwd7/tmp_mag_review/named/ani_table.tsv": "16ff623147d7a8331ae010cba943beaa4b4156957eb9b64776a61d62692da7d1",
+    "/gpfs/ycga/work/dunn/cwd7/tmp_mag_review/named/bin4_viral_contigs.fa": "b7ba8870f598cdc0e5bc5a34595739926b4a4a723a399464d58a9b2b43d40e93"
+  },
+  "coordinate_convention": "adaptor and repair coordinates are 1-based inclusive; contig IDs are original MEGAHIT IDs without sample prefix",
+  "other_palindromes": "YPM-IZ-110972 bin.4 and WAM-Z97902 bin.1 must be checked before deposit; no unreviewed sequence deletion is authorized by these records"
+}

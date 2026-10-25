@@ -1,0 +1,2 @@
+ncbi_taxid	ncbi_name	database_blast_division	asserted_gx_division	basis	source_taxonomy_url	source_placement
+2979199	Metamycoplasmataceae bacterium	bacteria	prok:mycoplasmas	Explicit screening assertion from reviewed Mycoplasmatales placement; installed 2023-01-24 GX metadata has only broad bacteria for this NCBI generic name. This is not an NCBI taxonomy reassignment.	https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2979199	config/mag_organism_names.tsv; docs/mycoplasmatales_context_results.md

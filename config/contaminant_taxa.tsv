@@ -1,0 +1,14 @@
+match_type	name	sample_ids	category	reason	evidence
+genus	Cutibacterium		skin_associated	Author-defined contaminant list; retain evidence and omit from biological summaries	author_decision_2026-10-24;tables/cohort/bacterial_detections.tsv
+genus	Lawsonella		skin_associated	Author-defined contaminant list; retain evidence and omit from biological summaries	author_decision_2026-10-24;tables/cohort/bacterial_detections.tsv
+genus	Bradyrhizobium		reagent_associated	Author-defined contaminant list; retain evidence and omit from biological summaries	author_decision_2026-10-24;tables/cohort/bacterial_detections.tsv
+genus	Mesorhizobium		reagent_associated	Author-defined contaminant list; retain evidence and omit from biological summaries	author_decision_2026-10-24;tables/cohort/bacterial_detections.tsv
+genus	Methylobacterium		reagent_associated	Author-defined contaminant list; retain evidence and omit from biological summaries	author_decision_2026-10-24;tables/cohort/bacterial_detections.tsv
+genus	Pelomonas		reagent_associated	Author-defined contaminant list; retain evidence and omit from biological summaries	author_decision_2026-10-24;tables/cohort/bacterial_detections.tsv
+genus	Pseudomonas		reagent_associated	Author-defined contaminant list; retain evidence and omit from biological summaries	author_decision_2026-10-24;tables/cohort/bacterial_detections.tsv
+genus	Afipia		reagent_associated	Author-defined contaminant list; retain evidence and omit from biological summaries	author_decision_2026-10-24;tables/cohort/bacterial_detections.tsv
+genus	Sphingomonas		reagent_associated	Author-defined contaminant list; retain evidence and omit from biological summaries	author_decision_2026-10-24;tables/cohort/bacterial_detections.tsv
+genus	Acidovorax		reagent_associated	Author-defined contaminant list; retain evidence and omit from biological summaries	author_decision_2026-10-24;tables/cohort/bacterial_detections.tsv
+genus	Acinetobacter		reagent_associated	Author-defined contaminant list; retain evidence and omit from biological summaries	author_decision_2026-10-24;tables/cohort/bacterial_detections.tsv
+genome_cluster	MAGSP0001		laboratory_associated	Near-clonal Serratia marcescens-complex genome across studies and flowcells	author_decision_2026-10-24;tables/cohort/bacterial_detections.tsv
+eukaryote_ssu	Caenorhabditis elegans	Church2025__TMAG-K5632;Church2025__TMAG-K5633	laboratory_associated	Both libraries were scored moderate quality by Church et al. (2025)	tables/cohort/eukaryote_evidence.tsv;https://github.com/shchurch/Physalia_population_genomics/blob/main/manuscript_files/quality_control.qmd

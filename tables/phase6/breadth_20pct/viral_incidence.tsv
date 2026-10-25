@@ -1,6 +1,6 @@
 target_id	present_libraries	high_confidence_libraries	host_species	by_host_species	by_study	catalog_class	partial_libraries
 EVEC00001	1	1	1	Agalma clausi:1	Ahuja2024:1	endogenous_candidate	1
-EVEC00002	11	5	2	Nanomia bijuga:10;Nanomia sp. 1:1	Ahuja2024:1;Ahuja2026:10	endogenous_candidate	1
+EVEC00002	9	5	1	Nanomia bijuga:9	Ahuja2024:1;Ahuja2026:8	endogenous_candidate	1
 EVEC00003	2	2	1	Agalma elegans:2	Ahuja2024:2	endogenous_candidate	2
 EVEC00004	1	1	1	Erenna sirena:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00005	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	endogenous_candidate	3
@@ -10,33 +10,33 @@ EVEC00008	2	2	1	Resomia ornicephala:2	Ahuja2024:2	endogenous_candidate	1
 EVEC00009	1	1	1	Lilyopsis fluoracantha:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00010	1	1	1	Frillagalma vityazi:1	Ahuja2024:1	endogenous_candidate	1
 EVEC00011	1	1	1	Hippopodius hippopus:1	Ahuja2024:1	endogenous_candidate	0
-EVEC00012	7	1	1	Nanomia bijuga:7	Ahuja2024:1;Ahuja2026:6	endogenous_candidate	3
+EVEC00012	6	1	1	Nanomia bijuga:6	Ahuja2024:1;Ahuja2026:5	endogenous_candidate	3
 EVEC00013	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	endogenous_candidate	0
-EVEC00014	1	1	1	Physalia utriculus:1	Church2025:1	endogenous_candidate	92
+EVEC00014	1	1	1	Physalia utriculus:1	Church2025:1	endogenous_candidate	91
 EVEC00016	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	endogenous_candidate	1
 EVEC00017	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	endogenous_candidate	1
-EVEC00018	2	1	1	Resomia ornicephala:2	Ahuja2024:2	endogenous_candidate	10
-EVEC00019	1	1	1	Nanomia sp. 1:1	Ahuja2026:1	endogenous_candidate	10
+EVEC00018	2	1	1	Resomia ornicephala:2	Ahuja2024:2	endogenous_candidate	9
+EVEC00019	0	0	0			endogenous_candidate	9
 EVEC00020	1	1	1	Physalia utriculus:1	Church2025:1	endogenous_candidate	0
 EVEC00021	1	1	1	Cordagalma:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00022	2	1	2	Rhizophysa eysenhardtii:1;Rhizophysa filiformis:1	Ahuja2024:2	endogenous_candidate	5
 EVEC00023	1	1	1	Rosacea flaccida:1	Ahuja2024:1	endogenous_candidate	1
-EVEC00024	1	1	1	Frillagalma vityazi:1	Ahuja2024:1	endogenous_candidate	9
+EVEC00024	1	1	1	Frillagalma vityazi:1	Ahuja2024:1	endogenous_candidate	8
 EVEC00025	1	1	1	Gymnopraia lapislazula:1	Ahuja2024:1	endogenous_candidate	0
-EVEC00026	64	37	1	Physalia utriculus:64	Church2025:64	endogenous_candidate	39
-EVEC00027	3	2	2	Resomia ornicephala:2;Frillagalma vityazi:1	Ahuja2024:3	endogenous_candidate	21
+EVEC00026	64	37	1	Physalia utriculus:64	Church2025:64	endogenous_candidate	37
+EVEC00027	3	2	2	Resomia ornicephala:2;Frillagalma vityazi:1	Ahuja2024:3	endogenous_candidate	20
 EVEC00028	2	1	1	Agalma elegans:2	Ahuja2024:2	endogenous_candidate	0
-EVEC00029	33	13	1	Physalia utriculus:33	Church2025:33	endogenous_candidate	61
+EVEC00029	33	13	1	Physalia utriculus:33	Church2025:33	endogenous_candidate	60
 EVEC00030	1	1	1	Craseoa lathetica:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00031	1	1	1	Stephanomia amphytridis:1	Ahuja2024:1	endogenous_candidate	0
-EVEC00032	11	1	2	Nanomia bijuga:10;Nanomia sp. 1:1	Ahuja2024:1;Ahuja2026:10	endogenous_candidate	0
+EVEC00032	9	0	1	Nanomia bijuga:9	Ahuja2024:1;Ahuja2026:8	endogenous_candidate	0
 EVEC00033	1	1	1	Physalia megalista:1	Church2025:1	endogenous_candidate	105
 EVEC00034	2	1	1	Agalma elegans:2	Ahuja2024:2	endogenous_candidate	0
-EVEC00035	9	5	2	Nanomia bijuga:8;Nanomia cara:1	Ahuja2024:1;Ahuja2026:8	endogenous_candidate	7
+EVEC00035	8	5	2	Nanomia bijuga:7;Nanomia cara:1	Ahuja2024:1;Ahuja2026:7	endogenous_candidate	6
 EVEC00037	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	endogenous_candidate	1
 EVEC00038	4	1	4	Agalma clausi:1;Agalma okenii:1;Forskalia:1;Nanomia cara:1	Ahuja2024:3;Ahuja2026:1	endogenous_candidate	6
-EVEC00039	2	1	2	Bargmannia lata:1;Bargmannia marlena:1	Ahuja2024:1;Manko2026:1	endogenous_candidate	3
-EVEC00041	3	2	1	Bargmannia elongata:3	Ahuja2024:1;Manko2026:2	endogenous_candidate	1
+EVEC00039	2	1	2	Bargmannia lata:1;Bargmannia marlena:1	Ahuja2024:1;Manko2026:1	endogenous_candidate	2
+EVEC00041	2	2	1	Bargmannia elongata:2	Ahuja2024:1;Manko2026:1	endogenous_candidate	1
 EVEC00042	1	1	1	Forskalia:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00043	1	1	1	Hippopodius hippopus:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00044	1	1	1	Gymnopraia lapislazula:1	Ahuja2024:1	endogenous_candidate	0
@@ -52,21 +52,21 @@ EVEC00055	2	1	2	Praya:1;Craseoa lathetica:1	Ahuja2024:2	endogenous_candidate	3
 EVEC00056	1	1	1	Hippopodius hippopus:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00057	1	1	1	Craseoa lathetica:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00058	1	1	1	Frillagalma vityazi:1	Ahuja2024:1	endogenous_candidate	2
-EVEC00059	13	1	4	Nanomia bijuga:10;Agalma clausi:1;Agalma okenii:1;Nanomia sp. 1:1	Ahuja2024:3;Ahuja2026:10	endogenous_candidate	5
+EVEC00059	11	1	3	Nanomia bijuga:9;Agalma clausi:1;Agalma okenii:1	Ahuja2024:3;Ahuja2026:8	endogenous_candidate	5
 EVEC00060	1	1	1	Gymnopraia lapislazula:1	Ahuja2024:1	endogenous_candidate	0
-EVEC00061	89	1	4	Physalia utriculus:64;Physalia minuta:19;Physalia mikazuki:5;Rhizophysa eysenhardtii:1	Ahuja2024:1;Church2025:88	endogenous_candidate	4
-EVEC00062	2	1	1	Agalma elegans:2	Ahuja2024:2	endogenous_candidate	1
-EVEC00063	1	1	1	Agalma clausi:1	Ahuja2024:1	endogenous_candidate	9
-EVEC00064	11	1	2	Nanomia bijuga:10;Nanomia sp. 1:1	Ahuja2024:1;Ahuja2026:10	endogenous_candidate	0
+EVEC00061	89	1	4	Physalia utriculus:64;Physalia minuta:19;Physalia mikazuki:5;Rhizophysa eysenhardtii:1	Ahuja2024:1;Church2025:88	endogenous_candidate	3
+EVEC00062	2	1	1	Agalma elegans:2	Ahuja2024:2	endogenous_candidate	0
+EVEC00063	1	1	1	Agalma clausi:1	Ahuja2024:1	endogenous_candidate	8
+EVEC00064	9	1	1	Nanomia bijuga:9	Ahuja2024:1;Ahuja2026:8	endogenous_candidate	0
 EVEC00066	1	1	1	Cordagalma:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00067	1	1	1	Hippopodius hippopus:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00068	1	1	1	Rosacea flaccida:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00069	3	2	2	Agalma elegans:2;Agalma clausi:1	Ahuja2024:3	endogenous_candidate	0
 EVEC00070	1	1	1	Forskalia:1	Ahuja2024:1	endogenous_candidate	2
-EVEC00072	10	2	1	Nanomia bijuga:10	Ahuja2024:1;Ahuja2026:9	endogenous_candidate	1
+EVEC00072	9	2	1	Nanomia bijuga:9	Ahuja2024:1;Ahuja2026:8	endogenous_candidate	0
 EVEC00073	1	1	1	Chelophyes appendiculata:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00075	1	1	1	Gymnopraia lapislazula:1	Ahuja2024:1	endogenous_candidate	0
-EVEC00076	4	1	4	Agalma clausi:1;Rhizophysa eysenhardtii:1;Agalma okenii:1;Nanomia bijuga:1	Ahuja2024:3;Ahuja2026:1	endogenous_candidate	3
+EVEC00076	3	1	3	Agalma clausi:1;Rhizophysa eysenhardtii:1;Agalma okenii:1	Ahuja2024:3	endogenous_candidate	3
 EVEC00077	2	1	1	Resomia ornicephala:2	Ahuja2024:2	endogenous_candidate	1
 EVEC00078	1	1	1	Physalia utriculus:1	Church2025:1	endogenous_candidate	0
 EVEC00079	1	1	1	Gymnopraia lapislazula:1	Ahuja2024:1	endogenous_candidate	0
@@ -74,108 +74,108 @@ EVEC00080	1	1	1	Physalia mikazuki:1	Church2025:1	endogenous_candidate	0
 EVEC00082	1	1	1	Gymnopraia lapislazula:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00083	1	1	1	Gymnopraia lapislazula:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00084	1	1	1	Chelophyes appendiculata:1	Ahuja2024:1	endogenous_candidate	2
-EVEC00085	4	1	2	Nanomia bijuga:3;Nanomia sp. 1:1	Ahuja2026:4	endogenous_candidate	7
-EVEC00086	6	1	1	Nanomia bijuga:6	Ahuja2024:1;Ahuja2026:5	endogenous_candidate	6
+EVEC00085	3	0	1	Nanomia bijuga:3	Ahuja2026:3	endogenous_candidate	6
+EVEC00086	5	1	1	Nanomia bijuga:5	Ahuja2024:1;Ahuja2026:4	endogenous_candidate	5
 EVEC00088	1	1	1	Stephalia dilata:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00089	2	1	2	Bargmannia lata:1;Bargmannia marlena:1	Ahuja2024:1;Manko2026:1	endogenous_candidate	0
 EVEC00091	1	1	1	Cordagalma:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00092	1	1	1	Craseoa lathetica:1	Ahuja2024:1	endogenous_candidate	5
-EVEC00093	1	1	1	Physalia utriculus:1	Church2025:1	endogenous_candidate	99
+EVEC00093	1	1	1	Physalia utriculus:1	Church2025:1	endogenous_candidate	97
 EVEC00094	2	1	2	Rosacea flaccida:1;Frillagalma vityazi:1	Ahuja2024:2	endogenous_candidate	5
 EVEC00095	1	1	1	Cordagalma:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00096	2	1	2	Praya dubia:1;Praya:1	Ahuja2024:2	endogenous_candidate	2
 EVEC00098	0	0	0			endogenous_candidate	3
-EVEC00099	11	2	2	Nanomia bijuga:10;Nanomia sp. 1:1	Ahuja2024:1;Ahuja2026:10	endogenous_candidate	0
+EVEC00099	9	2	1	Nanomia bijuga:9	Ahuja2024:1;Ahuja2026:8	endogenous_candidate	0
 EVEC00100	2	1	2	Agalma clausi:1;Agalma okenii:1	Ahuja2024:2	endogenous_candidate	2
 EVEC00101	1	1	1	Lilyopsis fluoracantha:1	Ahuja2024:1	endogenous_candidate	0
-EVEC00102	39	1	1	Physalia utriculus:39	Church2025:39	endogenous_candidate	58
+EVEC00102	39	1	1	Physalia utriculus:39	Church2025:39	endogenous_candidate	57
 EVEC00103	2	1	2	Rhizophysa eysenhardtii:1;Rhizophysa filiformis:1	Ahuja2024:2	endogenous_candidate	0
 EVEC00104	5	1	2	Physalia minuta:4;Physalia utriculus:1	Church2025:5	endogenous_candidate	4
 EVEC00105	0	0	0			endogenous_candidate	3
-EVEC00106	11	4	2	Nanomia bijuga:10;Nanomia sp. 1:1	Ahuja2024:1;Ahuja2026:10	endogenous_candidate	0
+EVEC00106	9	4	1	Nanomia bijuga:9	Ahuja2024:1;Ahuja2026:8	endogenous_candidate	0
 EVEC00107	2	1	2	Agalma clausi:1;Agalma okenii:1	Ahuja2024:2	endogenous_candidate	0
 EVEC00108	1	1	1	Diphyes dispar:1	Ahuja2024:1	endogenous_candidate	0
-EVEC00109	11	1	2	Nanomia bijuga:10;Nanomia sp. 1:1	Ahuja2024:1;Ahuja2026:10	endogenous_candidate	0
-EVEC00110	1	1	1	Frillagalma vityazi:1	Ahuja2024:1	endogenous_candidate	12
+EVEC00109	9	0	1	Nanomia bijuga:9	Ahuja2024:1;Ahuja2026:8	endogenous_candidate	0
+EVEC00110	1	1	1	Frillagalma vityazi:1	Ahuja2024:1	endogenous_candidate	11
 EVEC00111	1	1	1	Chelophyes appendiculata:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00112	4	1	3	Agalma elegans:2;Agalma clausi:1;Agalma okenii:1	Ahuja2024:4	endogenous_candidate	6
 EVEC00113	1	1	1	Frillagalma vityazi:1	Ahuja2024:1	endogenous_candidate	4
-EVEC00114	5	1	3	Nanomia bijuga:3;Nanomia sp. 1:1;Nanomia cara:1	Ahuja2024:1;Ahuja2026:4	endogenous_candidate	11
+EVEC00114	4	1	2	Nanomia bijuga:3;Nanomia cara:1	Ahuja2024:1;Ahuja2026:3	endogenous_candidate	10
 EVEC00115	2	1	1	Agalma elegans:2	Ahuja2024:2	endogenous_candidate	0
 EVEC00116	1	1	1	Frillagalma vityazi:1	Ahuja2024:1	endogenous_candidate	1
 EVEC00117	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	endogenous_candidate	2
 EVEC00118	1	1	1	Lilyopsis fluoracantha:1	Ahuja2024:1	endogenous_candidate	1
 EVEC00119	1	0	1	Rhizophysa eysenhardtii:1	Ahuja2024:1	endogenous_candidate	1
-EVEC00120	0	0	0			endogenous_candidate	92
+EVEC00120	0	0	0			endogenous_candidate	91
 EVEC00121	1	1	1	Gymnopraia lapislazula:1	Ahuja2024:1	endogenous_candidate	0
-EVEC00122	5	1	1	Nanomia bijuga:5	Ahuja2024:1;Ahuja2026:4	endogenous_candidate	7
+EVEC00122	5	1	1	Nanomia bijuga:5	Ahuja2024:1;Ahuja2026:4	endogenous_candidate	5
 EVEC00123	1	1	1	Agalma okenii:1	Ahuja2024:1	endogenous_candidate	3
 EVEC00124	1	1	1	Physonectae:1	Ahuja2024:1	endogenous_candidate	1
 EVEC00125	2	1	1	Agalma elegans:2	Ahuja2024:2	endogenous_candidate	1
 EVEC00126	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	endogenous_candidate	5
 EVEC00127	1	1	1	Craseoa lathetica:1	Ahuja2024:1	endogenous_candidate	1
 EVEC00128	2	1	2	Chelophyes appendiculata:1;Diphyes dispar:1	Ahuja2024:2	endogenous_candidate	0
-EVEC00129	3	2	1	Nanomia bijuga:3	Ahuja2024:1;Ahuja2026:2	endogenous_candidate	13
+EVEC00129	3	2	1	Nanomia bijuga:3	Ahuja2024:1;Ahuja2026:2	endogenous_candidate	11
 EVEC00130	1	1	1	Gymnopraia lapislazula:1	Ahuja2024:1	endogenous_candidate	0
-EVEC00131	10	1	1	Nanomia bijuga:10	Ahuja2024:1;Ahuja2026:9	endogenous_candidate	2
+EVEC00131	9	1	1	Nanomia bijuga:9	Ahuja2024:1;Ahuja2026:8	endogenous_candidate	1
 EVEC00132	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	endogenous_candidate	4
 EVEC00133	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	endogenous_candidate	1
 EVEC00135	1	1	1	Gymnopraia lapislazula:1	Ahuja2024:1	endogenous_candidate	0
-EVEC00137	63	1	1	Physalia utriculus:63	Church2025:63	endogenous_candidate	29
+EVEC00137	63	1	1	Physalia utriculus:63	Church2025:63	endogenous_candidate	28
 EVEC00139	1	1	1	Frillagalma vityazi:1	Ahuja2024:1	endogenous_candidate	6
 EVEC00140	1	1	1	Rosacea flaccida:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00141	1	1	1	Chelophyes appendiculata:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00142	1	1	1	Craseoa lathetica:1	Ahuja2024:1	endogenous_candidate	1
-EVEC00143	3	2	1	Nanomia bijuga:3	Ahuja2026:3	endogenous_candidate	7
+EVEC00143	2	1	1	Nanomia bijuga:2	Ahuja2026:2	endogenous_candidate	7
 EVEC00144	1	1	1	Rosacea flaccida:1	Ahuja2024:1	endogenous_candidate	0
-EVEC00145	89	1	4	Physalia utriculus:64;Physalia minuta:19;Physalia mikazuki:5;Rhizophysa eysenhardtii:1	Ahuja2024:1;Church2025:88	endogenous_candidate	19
+EVEC00145	89	1	4	Physalia utriculus:64;Physalia minuta:19;Physalia mikazuki:5;Rhizophysa eysenhardtii:1	Ahuja2024:1;Church2025:88	endogenous_candidate	17
 EVEC00146	1	1	1	Gymnopraia lapislazula:1	Ahuja2024:1	endogenous_candidate	0
 EVEC00147	1	1	1	Chelophyes appendiculata:1	Ahuja2024:1	endogenous_candidate	1
-EVEC00148	0	0	0			endogenous_candidate	101
+EVEC00148	0	0	0			endogenous_candidate	98
 EVEC00149	1	1	1	Agalma clausi:1	Ahuja2024:1	endogenous_candidate	1
-EVEC00150	1	1	1	Nanomia sp. 1:1	Ahuja2026:1	endogenous_candidate	0
+EVEC00150	0	0	0			endogenous_candidate	0
 EVEC00151	2	1	1	Agalma elegans:2	Ahuja2024:2	endogenous_candidate	0
 EVEC00152	1	1	1	Agalma okenii:1	Ahuja2024:1	endogenous_candidate	1
-EVEC00153	3	1	2	Bargmannia elongata:2;Bargmannia stenotes:1	Ahuja2024:1;Manko2026:2	endogenous_candidate	7
-EVEC00154	1	1	1	Bargmannia elongata:1	Manko2026:1	endogenous_candidate	0
+EVEC00153	2	1	1	Bargmannia elongata:2	Ahuja2024:1;Manko2026:1	endogenous_candidate	6
+EVEC00154	0	0	0			endogenous_candidate	0
 EVEC00155	1	1	1	Bargmannia amoena:1	Manko2026:1	endogenous_candidate	1
-EVEC00156	4	1	4	Bargmannia lata:1;Bargmannia stenotes:1;Bargmannia marlena:1;Bargmannia profunda:1	Ahuja2024:1;Manko2026:3	endogenous_candidate	2
-EVEC00157	2	1	2	Bargmannia stenotes:1;Bargmannia profunda:1	Manko2026:2	endogenous_candidate	3
-EVEC00158	2	1	2	Bargmannia stenotes:1;Bargmannia profunda:1	Manko2026:2	endogenous_candidate	4
-EVEC00159	2	1	1	Bargmannia pyrosa:2	Manko2026:2	endogenous_candidate	7
-EVEC00160	2	1	2	Bargmannia stenotes:1;Bargmannia profunda:1	Manko2026:2	endogenous_candidate	3
-EVEC00161	3	1	3	Bargmannia stenotes:1;Bargmannia marlena:1;Bargmannia profunda:1	Manko2026:3	endogenous_candidate	4
-EVEC00162	2	1	1	Bargmannia pyrosa:2	Manko2026:2	endogenous_candidate	5
-EVEC00163	2	1	2	Bargmannia lata:1;Bargmannia marlena:1	Ahuja2024:1;Manko2026:1	endogenous_candidate	4
+EVEC00156	3	1	3	Bargmannia lata:1;Bargmannia marlena:1;Bargmannia profunda:1	Ahuja2024:1;Manko2026:2	endogenous_candidate	2
+EVEC00157	1	1	1	Bargmannia profunda:1	Manko2026:1	endogenous_candidate	3
+EVEC00158	1	0	1	Bargmannia profunda:1	Manko2026:1	endogenous_candidate	4
+EVEC00159	2	1	1	Bargmannia pyrosa:2	Manko2026:2	endogenous_candidate	6
+EVEC00160	1	0	1	Bargmannia profunda:1	Manko2026:1	endogenous_candidate	3
+EVEC00161	2	1	2	Bargmannia marlena:1;Bargmannia profunda:1	Manko2026:2	endogenous_candidate	4
+EVEC00162	2	1	1	Bargmannia pyrosa:2	Manko2026:2	endogenous_candidate	4
+EVEC00163	2	1	2	Bargmannia lata:1;Bargmannia marlena:1	Ahuja2024:1;Manko2026:1	endogenous_candidate	3
 EVEC00164	1	1	1	Bargmannia amoena:1	Manko2026:1	endogenous_candidate	5
-EVEC00165	2	1	2	Bargmannia lata:1;Bargmannia marlena:1	Ahuja2024:1;Manko2026:1	endogenous_candidate	4
-EVEC00166	2	2	2	Bargmannia stenotes:1;Bargmannia profunda:1	Manko2026:2	endogenous_candidate	2
-EVEC00167	2	1	2	Bargmannia stenotes:1;Bargmannia profunda:1	Manko2026:2	endogenous_candidate	5
-EVEC00168	2	1	1	Bargmannia elongata:2	Ahuja2024:1;Manko2026:1	endogenous_candidate	6
-EVEC00169	2	1	1	Bargmannia pyrosa:2	Manko2026:2	endogenous_candidate	9
-EVEC00170	6	1	5	Bargmannia pyrosa:2;Bargmannia lata:1;Bargmannia stenotes:1;Bargmannia marlena:1;Bargmannia profunda:1	Ahuja2024:1;Manko2026:5	endogenous_candidate	4
-EVEC00171	2	1	2	Bargmannia stenotes:1;Bargmannia profunda:1	Manko2026:2	endogenous_candidate	3
-EVEC00172	3	1	2	Bargmannia elongata:2;Bargmannia amoena:1	Ahuja2024:1;Manko2026:2	endogenous_candidate	7
+EVEC00165	2	1	2	Bargmannia lata:1;Bargmannia marlena:1	Ahuja2024:1;Manko2026:1	endogenous_candidate	3
+EVEC00166	1	1	1	Bargmannia profunda:1	Manko2026:1	endogenous_candidate	2
+EVEC00167	1	1	1	Bargmannia profunda:1	Manko2026:1	endogenous_candidate	5
+EVEC00168	2	1	1	Bargmannia elongata:2	Ahuja2024:1;Manko2026:1	endogenous_candidate	4
+EVEC00169	2	1	1	Bargmannia pyrosa:2	Manko2026:2	endogenous_candidate	7
+EVEC00170	5	0	4	Bargmannia pyrosa:2;Bargmannia lata:1;Bargmannia marlena:1;Bargmannia profunda:1	Ahuja2024:1;Manko2026:4	endogenous_candidate	3
+EVEC00171	1	1	1	Bargmannia profunda:1	Manko2026:1	endogenous_candidate	3
+EVEC00172	3	1	2	Bargmannia elongata:2;Bargmannia amoena:1	Ahuja2024:1;Manko2026:2	endogenous_candidate	5
 VOTU00001	1	1	1	Physalia physalis:1	Church2025:1	associate	0
 VOTU00002	1	1	1	Physalia physalis:1	Church2025:1	associate	1
 VOTU00003	1	1	1	Physalia physalis:1	Church2025:1	associate	0
 VOTU00004	2	1	2	Physalia utriculus:1;Physalia mikazuki:1	Church2025:2	associate	2
 VOTU00005	3	1	1	Physalia megalista:3	Church2025:3	associate	5
 VOTU00006	1	1	1	Physalia physalis:1	Church2025:1	associate	0
-VOTU00007	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00007	0	0	0			associate	0
 VOTU00008	1	1	1	Physalia utriculus:1	Church2025:1	associate	1
 VOTU00009	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
 VOTU00010	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
 VOTU00011	1	1	1	Physalia minuta:1	Church2025:1	associate	0
-VOTU00012	22	18	4	Physalia utriculus:15;Physalia minuta:5;Nanomia bijuga:1;Physalia mikazuki:1	Ahuja2026:1;Church2025:21	associate	5
+VOTU00012	21	18	3	Physalia utriculus:15;Physalia minuta:5;Physalia mikazuki:1	Church2025:21	associate	5
 VOTU00013	1	1	1	Physalia minuta:1	Church2025:1	associate	2
 VOTU00014	2	2	1	Physalia megalista:2	Church2025:2	associate	2
 VOTU00015	1	1	1	Physalia utriculus:1	Church2025:1	associate	11
-VOTU00016	1	1	1	Physalia physalis:1	Church2025:1	associate	1
+VOTU00016	1	1	1	Physalia physalis:1	Church2025:1	associate	0
 VOTU00017	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
 VOTU00018	1	1	1	Physalia physalis:1	Church2025:1	associate	1
 VOTU00019	2	2	1	Physalia minuta:2	Church2025:2	associate	5
-VOTU00020	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	1
+VOTU00020	0	0	0			associate	1
 VOTU00021	1	1	1	Physalia physalis:1	Church2025:1	associate	0
 VOTU00022	2	2	1	Nanomia septata:2	Ahuja2026:2	associate	1
 VOTU00023	1	1	1	Physalia mikazuki:1	Church2025:1	associate	0
@@ -185,12 +185,12 @@ VOTU00026	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
 VOTU00027	4	2	2	Physalia utriculus:3;Physalia mikazuki:1	Church2025:4	associate	2
 VOTU00028	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
 VOTU00029	3	1	1	Physalia minuta:3	Church2025:3	associate	3
-VOTU00030	2	1	2	Physalia megalista:1;Physalia minuta:1	Church2025:2	associate	4
+VOTU00030	2	1	2	Physalia megalista:1;Physalia minuta:1	Church2025:2	associate	3
 VOTU00031	7	7	2	Physalia minuta:6;Physalia megalista:1	Church2025:7	associate	5
-VOTU00032	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00032	0	0	0			associate	0
 VOTU00033	2	1	2	Physalia utriculus:1;Physalia mikazuki:1	Church2025:2	associate	4
 VOTU00034	5	3	2	Physalia utriculus:4;Physalia mikazuki:1	Church2025:5	associate	1
-VOTU00035	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00035	0	0	0			associate	0
 VOTU00036	2	1	2	Physalia utriculus:1;Physalia mikazuki:1	Church2025:2	associate	4
 VOTU00037	3	2	2	Physalia utriculus:2;Physalia mikazuki:1	Church2025:3	associate	3
 VOTU00038	1	1	1	Physalia utriculus:1	Church2025:1	associate	1
@@ -199,7 +199,7 @@ VOTU00040	3	3	2	Physalia utriculus:2;Physalia mikazuki:1	Church2025:3	associate	
 VOTU00041	1	1	1	Physalia utriculus:1	Church2025:1	associate	5
 VOTU00042	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
 VOTU00043	4	3	2	Physalia utriculus:3;Physalia mikazuki:1	Church2025:4	associate	2
-VOTU00044	3	1	1	Physalia minuta:3	Church2025:3	associate	9
+VOTU00044	3	1	1	Physalia minuta:3	Church2025:3	associate	8
 VOTU00045	2	2	1	Physalia utriculus:2	Church2025:2	associate	0
 VOTU00046	4	2	2	Physalia utriculus:3;Physalia mikazuki:1	Church2025:4	associate	2
 VOTU00047	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
@@ -211,58 +211,58 @@ VOTU00052	5	1	1	Physalia minuta:5	Church2025:5	associate	5
 VOTU00053	0	0	0			associate	3
 VOTU00054	1	1	1	Physalia utriculus:1	Church2025:1	associate	1
 VOTU00055	2	1	2	Physalia utriculus:1;Physalia mikazuki:1	Church2025:2	associate	4
-VOTU00056	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
-VOTU00057	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	1
+VOTU00056	0	0	0			associate	0
+VOTU00057	0	0	0			associate	1
 VOTU00058	1	1	1	Physalia utriculus:1	Church2025:1	associate	1
 VOTU00059	2	1	2	Physalia megalista:1;Physalia minuta:1	Church2025:2	associate	4
 VOTU00060	1	1	1	Physalia utriculus:1	Church2025:1	associate	11
 VOTU00061	3	1	1	Physalia megalista:3	Church2025:3	associate	5
 VOTU00062	1	1	1	Physalia minuta:1	Church2025:1	associate	0
-VOTU00063	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00063	0	0	0			associate	0
 VOTU00064	0	0	0			associate	8
 VOTU00065	2	1	1	Physalia utriculus:2	Church2025:2	associate	0
 VOTU00066	4	4	2	Physalia minuta:3;Physalia megalista:1	Church2025:4	associate	1
 VOTU00067	1	1	1	Physalia megalista:1	Church2025:1	associate	0
-VOTU00068	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00068	0	0	0			associate	0
 VOTU00070	0	0	0			associate	0
 VOTU00071	4	2	2	Physalia utriculus:3;Physalia mikazuki:1	Church2025:4	associate	2
 VOTU00072	1	1	1	Physalia megalista:1	Church2025:1	associate	0
-VOTU00073	28	1	1	Physalia utriculus:28	Church2025:28	associate	64
+VOTU00073	28	1	1	Physalia utriculus:28	Church2025:28	associate	63
 VOTU00074	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
 VOTU00075	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	associate	0
 VOTU00076	0	0	0			associate	4
 VOTU00077	3	1	2	Physalia minuta:2;Physalia megalista:1	Church2025:3	associate	8
-VOTU00078	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00078	0	0	0			associate	0
 VOTU00079	1	1	1	Physalia physalis:1	Church2025:1	associate	0
 VOTU00080	3	1	1	Physalia minuta:3	Church2025:3	associate	3
-VOTU00081	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	2
+VOTU00081	0	0	0			associate	2
 VOTU00082	2	1	1	Physalia minuta:2	Church2025:2	associate	2
-VOTU00083	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00083	0	0	0			associate	0
 VOTU00084	1	1	1	Physalia megalista:1	Church2025:1	associate	5
 VOTU00085	1	1	1	Agalma elegans:1	Ahuja2024:1	associate	0
 VOTU00086	1	1	1	Physalia minuta:1	Church2025:1	associate	2
 VOTU00087	2	1	1	Physalia utriculus:2	Church2025:2	associate	0
 VOTU00088	0	0	0			associate	2
-VOTU00089	2	1	1	Physalia minuta:2	Church2025:2	associate	3
+VOTU00089	2	1	1	Physalia minuta:2	Church2025:2	associate	2
 VOTU00090	1	1	1	Physalia megalista:1	Church2025:1	associate	1
-VOTU00091	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	1
+VOTU00091	0	0	0			associate	1
 VOTU00092	0	0	0			associate	2
 VOTU00093	2	1	1	Physalia minuta:2	Church2025:2	associate	5
 VOTU00094	2	1	1	Physalia minuta:2	Church2025:2	associate	4
 VOTU00095	7	3	1	Physalia minuta:7	Church2025:7	associate	5
 VOTU00096	1	1	1	Physalia minuta:1	Church2025:1	associate	3
 VOTU00097	1	1	1	Physalia utriculus:1	Church2025:1	associate	1
-VOTU00098	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
-VOTU00099	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00098	0	0	0			associate	0
+VOTU00099	0	0	0			associate	0
 VOTU00100	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
-VOTU00101	1	1	1	Physalia utriculus:1	Church2025:1	associate	1
-VOTU00102	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00101	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
+VOTU00102	0	0	0			associate	0
 VOTU00103	2	1	1	Nanomia septata:2	Ahuja2026:2	associate	1
-VOTU00104	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	2
+VOTU00104	0	0	0			associate	2
 VOTU00105	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
 VOTU00106	1	1	1	Physalia physalis:1	Church2025:1	associate	0
-VOTU00107	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
-VOTU00108	3	1	1	Nanomia bijuga:3	Ahuja2026:3	associate	7
+VOTU00107	0	0	0			associate	0
+VOTU00108	2	1	1	Nanomia bijuga:2	Ahuja2026:2	endogenous_candidate	7
 VOTU00109	1	1	1	Agalma elegans:1	Ahuja2024:1	associate	0
 VOTU00110	2	1	2	Physalia megalista:1;Physalia minuta:1	Church2025:2	associate	6
 VOTU00111	2	1	1	Physalia minuta:2	Church2025:2	associate	3
@@ -275,7 +275,7 @@ VOTU00117	1	1	1	Physalia minuta:1	Church2025:1	associate	3
 VOTU00118	2	1	1	Physalia minuta:2	Church2025:2	associate	2
 VOTU00119	2	1	1	Physalia minuta:2	Church2025:2	associate	6
 VOTU00120	2	2	1	Physalia minuta:2	Church2025:2	associate	2
-VOTU00121	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00121	0	0	0			associate	0
 VOTU00122	3	1	1	Physalia minuta:3	Church2025:3	associate	2
 VOTU00123	1	1	1	Physalia megalista:1	Church2025:1	associate	1
 VOTU00124	0	0	0			associate	1
@@ -283,10 +283,10 @@ VOTU00125	1	1	1	Physalia minuta:1	Church2025:1	associate	4
 VOTU00126	1	1	1	Craseoa lathetica:1	Ahuja2024:1	associate	0
 VOTU00127	2	1	2	Physalia megalista:1;Physalia minuta:1	Church2025:2	associate	4
 VOTU00128	2	1	2	Physalia megalista:1;Physalia minuta:1	Church2025:2	associate	7
-VOTU00129	4	1	1	Nanomia bijuga:4	Ahuja2026:4	associate	6
+VOTU00129	4	1	1	Nanomia bijuga:4	Ahuja2026:4	associate	5
 VOTU00130	1	1	1	Physalia utriculus:1	Church2025:1	associate	1
-VOTU00131	2	1	2	Nanomia bijuga:1;Physalia utriculus:1	Ahuja2026:1;Church2025:1	associate	0
-VOTU00132	2	1	1	Nanomia bijuga:2	Ahuja2026:2	associate	0
+VOTU00131	1	0	1	Physalia utriculus:1	Church2025:1	associate	0
+VOTU00132	1	0	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
 VOTU00133	3	2	2	Physalia utriculus:2;Physalia mikazuki:1	Church2025:3	associate	3
 VOTU00134	2	1	1	Physalia utriculus:2	Church2025:2	associate	4
 VOTU00135	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
@@ -296,13 +296,13 @@ VOTU00138	2	1	1	Physalia minuta:2	Church2025:2	associate	3
 VOTU00139	1	1	1	Physalia mikazuki:1	Church2025:1	associate	0
 VOTU00140	2	1	1	Physalia minuta:2	Church2025:2	associate	13
 VOTU00141	1	1	1	Physalia megalista:1	Church2025:1	associate	1
-VOTU00142	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00142	0	0	0			associate	0
 VOTU00143	1	1	1	Physalia minuta:1	Church2025:1	associate	0
-VOTU00144	0	0	0			endogenous_candidate	10
+VOTU00144	0	0	0			endogenous_candidate	9
 VOTU00145	1	1	1	Physalia minuta:1	Church2025:1	associate	2
 VOTU00146	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
-VOTU00147	2	1	1	Nanomia bijuga:2	Ahuja2026:2	associate	0
-VOTU00148	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00147	1	0	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00148	0	0	0			associate	0
 VOTU00149	2	1	1	Physalia utriculus:2	Church2025:2	associate	0
 VOTU00150	2	1	1	Physalia utriculus:2	Church2025:2	associate	0
 VOTU00151	3	1	1	Physalia utriculus:3	Church2025:3	associate	17
@@ -313,22 +313,22 @@ VOTU00155	8	1	3	Physalia utriculus:5;Physalia physalis:2;Physalia mikazuki:1	Chu
 VOTU00156	1	1	1	Physalia minuta:1	Church2025:1	associate	6
 VOTU00157	1	1	1	Physalia minuta:1	Church2025:1	associate	1
 VOTU00158	2	1	2	Physalia megalista:1;Physalia minuta:1	Church2025:2	associate	6
-VOTU00159	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00159	0	0	0			associate	0
 VOTU00160	1	1	1	Physalia utriculus:1	Church2025:1	associate	1
-VOTU00161	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00161	0	0	0			associate	0
 VOTU00162	1	1	1	Physalia utriculus:1	Church2025:1	associate	2
 VOTU00163	1	1	1	Physalia utriculus:1	Church2025:1	associate	1
 VOTU00164	2	1	1	Physalia utriculus:2	Church2025:2	associate	0
-VOTU00165	0	0	0			endogenous_candidate	11
+VOTU00165	0	0	0			endogenous_candidate	9
 VOTU00166	1	1	1	Physalia utriculus:1	Church2025:1	associate	1
 VOTU00167	4	2	1	Physalia minuta:4	Church2025:4	associate	15
 VOTU00168	1	1	1	Physalia mikazuki:1	Church2025:1	associate	10
 VOTU00169	3	1	2	Physalia utriculus:2;Physalia mikazuki:1	Church2025:3	associate	3
-VOTU00170	2	1	1	Physalia minuta:2	Church2025:2	associate	2
+VOTU00170	2	1	1	Physalia minuta:2	Church2025:2	associate	1
 VOTU00171	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
 VOTU00172	2	1	1	Physalia minuta:2	Church2025:2	associate	10
 VOTU00173	1	1	1	Physalia utriculus:1	Church2025:1	associate	4
-VOTU00174	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00174	0	0	0			associate	0
 VOTU00175	1	1	1	Physalia mikazuki:1	Church2025:1	associate	8
 VOTU00176	2	1	1	Physalia utriculus:2	Church2025:2	associate	0
 VOTU00177	1	1	1	Physalia megalista:1	Church2025:1	associate	2
@@ -337,87 +337,87 @@ VOTU00179	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
 VOTU00180	1	1	1	Physalia minuta:1	Church2025:1	associate	2
 VOTU00181	1	1	1	Physalia physalis:1	Church2025:1	associate	1
 VOTU00182	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
-VOTU00183	4	1	1	Physalia minuta:4	Church2025:4	associate	7
+VOTU00183	4	1	1	Physalia minuta:4	Church2025:4	associate	6
 VOTU00184	1	1	1	Physalia physalis:1	Church2025:1	associate	1
-VOTU00185	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00185	0	0	0			associate	0
 VOTU00186	0	0	0			associate	7
 VOTU00187	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
 VOTU00188	3	1	1	Physalia minuta:3	Church2025:3	associate	12
-VOTU00189	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
-VOTU00190	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	1
-VOTU00191	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00189	0	0	0			associate	0
+VOTU00190	0	0	0			associate	1
+VOTU00191	0	0	0			associate	0
 VOTU00192	1	1	1	Physalia megalista:1	Church2025:1	associate	0
 VOTU00193	1	1	1	Physalia physalis:1	Church2025:1	associate	0
-VOTU00194	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00194	0	0	0			associate	0
 VOTU00195	1	1	1	Physalia minuta:1	Church2025:1	associate	5
-VOTU00196	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00196	0	0	0			associate	0
 VOTU00197	2	1	2	Physalia megalista:1;Physalia minuta:1	Church2025:2	associate	4
 VOTU00198	1	1	1	Physalia megalista:1	Church2025:1	associate	1
 VOTU00199	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
-VOTU00200	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
-VOTU00201	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00200	0	0	0			associate	0
+VOTU00201	0	0	0			associate	0
 VOTU00202	0	0	0			associate	6
 VOTU00203	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
-VOTU00204	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	1
+VOTU00204	0	0	0			associate	1
 VOTU00205	1	1	1	Physalia utriculus:1	Church2025:1	associate	1
 VOTU00206	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
-VOTU00207	5	1	1	Nanomia bijuga:5	Ahuja2024:1;Ahuja2026:4	associate	2
+VOTU00207	5	1	1	Nanomia bijuga:5	Ahuja2024:1;Ahuja2026:4	associate	1
 VOTU00208	1	1	1	Physalia minuta:1	Church2025:1	associate	2
 VOTU00209	1	1	1	Physalia utriculus:1	Church2025:1	associate	2
-VOTU00210	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	1
-VOTU00211	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00210	0	0	0			associate	1
+VOTU00211	0	0	0			associate	0
 VOTU00212	4	1	1	Physalia minuta:4	Church2025:4	associate	10
 VOTU00213	1	1	1	Physalia utriculus:1	Church2025:1	associate	8
-VOTU00214	1	1	1	Physalia physalis:1	Church2025:1	associate	2
+VOTU00214	1	1	1	Physalia physalis:1	Church2025:1	associate	1
 VOTU00215	2	1	1	Physalia utriculus:2	Church2025:2	associate	0
 VOTU00216	0	0	0			associate	6
 VOTU00217	3	1	2	Physalia physalis:2;Physalia mikazuki:1	Church2025:3	associate	4
-VOTU00219	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	1
+VOTU00219	0	0	0			associate	1
 VOTU00220	0	0	0			associate	0
 VOTU00221	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
 VOTU00222	2	1	2	Physalia megalista:1;Physalia minuta:1	Church2025:2	associate	5
-VOTU00223	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00223	0	0	0			associate	0
 VOTU00224	3	1	2	Physalia utriculus:2;Physalia mikazuki:1	Church2025:3	associate	3
-VOTU00225	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00225	0	0	0			associate	0
 VOTU00226	1	1	1	Craseoa lathetica:1	Ahuja2024:1	associate	1
 VOTU00227	1	1	1	Physalia minuta:1	Church2025:1	associate	2
-VOTU00228	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00228	0	0	0			associate	0
 VOTU00229	2	1	1	Physalia minuta:2	Church2025:2	associate	3
 VOTU00230	1	1	1	Physalia utriculus:1	Church2025:1	associate	1
 VOTU00231	2	1	1	Physalia utriculus:2	Church2025:2	associate	3
-VOTU00232	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
-VOTU00233	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00232	0	0	0			associate	0
+VOTU00233	0	0	0			associate	0
 VOTU00234	2	1	2	Physalia utriculus:1;Physalia mikazuki:1	Church2025:2	associate	6
-VOTU00235	2	1	1	Nanomia bijuga:2	Ahuja2026:2	associate	0
-VOTU00236	7	2	3	Nanomia bijuga:3;Physalia utriculus:3;Physalia minuta:1	Ahuja2026:3;Church2025:4	associate	41
-VOTU00237	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
-VOTU00238	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
-VOTU00239	3	1	1	Nanomia bijuga:3	Ahuja2026:3	associate	8
+VOTU00235	1	0	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00236	6	2	3	Physalia utriculus:3;Nanomia bijuga:2;Physalia minuta:1	Ahuja2026:2;Church2025:4	associate	40
+VOTU00237	0	0	0			associate	0
+VOTU00238	0	0	0			associate	0
+VOTU00239	3	1	1	Nanomia bijuga:3	Ahuja2026:3	associate	6
 VOTU00240	3	1	1	Physalia utriculus:3	Church2025:3	associate	0
-VOTU00241	8	1	1	Nanomia bijuga:8	Ahuja2024:1;Ahuja2026:7	associate	5
+VOTU00241	8	1	1	Nanomia bijuga:8	Ahuja2024:1;Ahuja2026:7	associate	3
 VOTU00242	7	3	1	Nanomia septata:7	Ahuja2026:7	endogenous_candidate	3
-VOTU00243	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	1
+VOTU00243	0	0	0			associate	1
 VOTU00244	4	1	2	Physalia utriculus:3;Physalia mikazuki:1	Church2025:4	associate	2
-VOTU00245	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00245	0	0	0			associate	0
 VOTU00246	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
-VOTU00247	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00247	0	0	0			associate	0
 VOTU00248	2	1	1	Physalia minuta:2	Church2025:2	associate	2
-VOTU00250	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00250	0	0	0			associate	0
 VOTU00251	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	associate	0
 VOTU00253	1	1	1	Physalia minuta:1	Church2025:1	associate	0
-VOTU00254	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00254	0	0	0			associate	0
 VOTU00255	4	1	2	Physalia utriculus:3;Physalia mikazuki:1	Church2025:4	associate	2
 VOTU00257	2	1	1	Physalia utriculus:2	Church2025:2	associate	0
 VOTU00258	1	1	1	Physalia utriculus:1	Church2025:1	associate	0
-VOTU00259	1	1	1	Nanomia bijuga:1	Ahuja2026:1	associate	0
+VOTU00259	0	0	0			associate	0
 VOTU00260	1	1	1	Physalia minuta:1	Church2025:1	associate	3
 VOTU00261	1	1	1	Praya:1	Ahuja2024:1	associate	2
 VOTU00262	1	1	1	Craseoa lathetica:1	Ahuja2024:1	associate	1
-VOTU00263	1	1	1	Stephanomia amphytridis:1	Ahuja2024:1	associate	4
+VOTU00263	1	1	1	Stephanomia amphytridis:1	Ahuja2024:1	associate	3
 VOTU00264	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	associate	4
 VOTU00265	1	1	1	Craseoa lathetica:1	Ahuja2024:1	associate	2
-VOTU00266	2	1	1	Agalma elegans:2	Ahuja2024:2	associate	2
-VOTU00267	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	associate	5
+VOTU00266	2	1	1	Agalma elegans:2	Ahuja2024:2	associate	1
+VOTU00267	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	associate	4
 VOTU00268	1	1	1	Lilyopsis fluoracantha:1	Ahuja2024:1	associate	0
 VOTU00269	1	1	1	Cordagalma:1	Ahuja2024:1	associate	0
 VOTU00271	1	1	1	Praya dubia:1	Ahuja2024:1	associate	1
@@ -430,7 +430,7 @@ VOTU00277	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	associate	3
 VOTU00278	1	1	1	Chelophyes appendiculata:1	Ahuja2024:1	associate	1
 VOTU00279	1	1	1	Forskalia:1	Ahuja2024:1	associate	0
 VOTU00280	1	1	1	Craseoa lathetica:1	Ahuja2024:1	associate	1
-VOTU00281	1	1	1	Rhizophysa eysenhardtii:1	Ahuja2024:1	associate	22
+VOTU00281	1	1	1	Rhizophysa eysenhardtii:1	Ahuja2024:1	associate	21
 VOTU00282	1	1	1	Apolemia sp. 3 CWD-2005:1	Ahuja2024:1	associate	0
 VOTU00283	1	1	1	Hippopodius hippopus:1	Ahuja2024:1	associate	0
 VOTU00284	1	1	1	Rosacea flaccida:1	Ahuja2024:1	associate	3
@@ -449,7 +449,7 @@ VOTU00296	1	1	1	Craseoa lathetica:1	Ahuja2024:1	associate	2
 VOTU00297	1	1	1	Lilyopsis fluoracantha:1	Ahuja2024:1	associate	0
 VOTU00298	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	associate	5
 VOTU00299	1	1	1	Hippopodius hippopus:1	Ahuja2024:1	associate	2
-VOTU00300	1	1	1	Craseoa lathetica:1	Ahuja2024:1	associate	16
+VOTU00300	1	1	1	Craseoa lathetica:1	Ahuja2024:1	associate	15
 VOTU00301	1	1	1	Stephanomia amphytridis:1	Ahuja2024:1	associate	0
 VOTU00302	1	1	1	Gymnopraia lapislazula:1	Ahuja2024:1	associate	3
 VOTU00303	1	1	1	Cordagalma:1	Ahuja2024:1	associate	0
@@ -459,107 +459,107 @@ VOTU00306	1	1	1	Hippopodius hippopus:1	Ahuja2024:1	associate	5
 VOTU00308	1	1	1	Chuniphyes multidentata:1	Ahuja2024:1	associate	4
 VOTU00309	1	1	1	Frillagalma vityazi:1	Ahuja2024:1	associate	0
 VOTU00310	1	1	1	Hippopodius hippopus:1	Ahuja2024:1	associate	0
-VOTU00311	1	1	1	Craseoa lathetica:1	Ahuja2024:1	associate	17
+VOTU00311	1	1	1	Craseoa lathetica:1	Ahuja2024:1	associate	15
 VOTU00312	1	1	1	Forskalia:1	Ahuja2024:1	associate	2
 VOTU00313	2	1	1	Agalma elegans:2	Ahuja2024:2	associate	2
 VOTU00314	1	1	1	Hippopodius hippopus:1	Ahuja2024:1	associate	0
 VOTU00315	1	1	1	Hippopodius hippopus:1	Ahuja2024:1	associate	0
 VOTU00316	1	1	1	Hippopodius hippopus:1	Ahuja2024:1	associate	0
 VOTU00317	1	1	1	Physonectae:1	Ahuja2024:1	associate	6
-VOTU00318	1	1	1	Frillagalma vityazi:1	Ahuja2024:1	associate	13
+VOTU00318	1	1	1	Frillagalma vityazi:1	Ahuja2024:1	associate	12
 VOTU00319	2	1	1	Resomia ornicephala:2	Ahuja2024:2	associate	1
-VOTU00320	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00321	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00322	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00323	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00324	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00325	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00326	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00327	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00328	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00329	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00330	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00331	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00332	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00333	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00334	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00335	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00336	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00337	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00338	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00339	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00340	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00341	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00342	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00343	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00344	1	1	1	Bargmannia marlena:1	Manko2026:1	associate	8
-VOTU00345	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00346	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00347	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00348	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00349	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00350	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00351	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00352	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00353	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00354	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00355	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00356	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00357	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00358	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00359	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00360	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00361	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00362	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00363	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00364	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00365	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00366	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00367	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00368	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00369	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00370	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00371	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00372	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00373	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00374	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00375	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00376	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00377	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00378	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00379	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00380	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00381	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00382	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00383	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00384	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00385	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00386	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00387	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00388	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00389	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00390	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00391	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00392	2	1	2	Bargmannia stenotes:1;Bargmannia profunda:1	Manko2026:2	associate	6
-VOTU00393	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00394	2	1	2	Bargmannia stenotes:1;Bargmannia profunda:1	Manko2026:2	associate	6
+VOTU00320	0	0	0			associate	0
+VOTU00321	0	0	0			associate	0
+VOTU00322	0	0	0			associate	0
+VOTU00323	0	0	0			associate	0
+VOTU00324	0	0	0			associate	0
+VOTU00325	0	0	0			associate	0
+VOTU00326	0	0	0			associate	0
+VOTU00327	0	0	0			associate	0
+VOTU00328	0	0	0			associate	0
+VOTU00329	0	0	0			associate	0
+VOTU00330	0	0	0			associate	0
+VOTU00331	0	0	0			associate	0
+VOTU00332	0	0	0			associate	0
+VOTU00333	0	0	0			associate	0
+VOTU00334	0	0	0			associate	0
+VOTU00335	0	0	0			associate	0
+VOTU00336	0	0	0			associate	0
+VOTU00337	0	0	0			associate	0
+VOTU00338	0	0	0			associate	0
+VOTU00339	0	0	0			associate	0
+VOTU00340	0	0	0			associate	0
+VOTU00341	0	0	0			associate	0
+VOTU00342	0	0	0			associate	0
+VOTU00343	0	0	0			associate	0
+VOTU00344	1	1	1	Bargmannia marlena:1	Manko2026:1	associate	7
+VOTU00345	0	0	0			endogenous_candidate	0
+VOTU00346	0	0	0			associate	0
+VOTU00347	0	0	0			associate	0
+VOTU00348	0	0	0			associate	0
+VOTU00349	0	0	0			associate	0
+VOTU00350	0	0	0			associate	0
+VOTU00351	0	0	0			associate	0
+VOTU00352	0	0	0			associate	0
+VOTU00353	0	0	0			associate	0
+VOTU00354	0	0	0			associate	0
+VOTU00355	0	0	0			associate	0
+VOTU00356	0	0	0			associate	0
+VOTU00357	0	0	0			associate	0
+VOTU00358	0	0	0			associate	0
+VOTU00359	0	0	0			associate	0
+VOTU00360	0	0	0			associate	0
+VOTU00361	0	0	0			associate	0
+VOTU00362	0	0	0			associate	0
+VOTU00363	0	0	0			associate	0
+VOTU00364	0	0	0			associate	0
+VOTU00365	0	0	0			associate	0
+VOTU00366	0	0	0			associate	0
+VOTU00367	0	0	0			associate	0
+VOTU00368	0	0	0			associate	0
+VOTU00369	0	0	0			associate	0
+VOTU00370	0	0	0			associate	0
+VOTU00371	0	0	0			associate	0
+VOTU00372	0	0	0			associate	0
+VOTU00373	0	0	0			associate	0
+VOTU00374	0	0	0			associate	0
+VOTU00375	0	0	0			associate	0
+VOTU00376	0	0	0			associate	0
+VOTU00377	0	0	0			associate	0
+VOTU00378	0	0	0			associate	0
+VOTU00379	0	0	0			associate	0
+VOTU00380	0	0	0			associate	0
+VOTU00381	0	0	0			associate	0
+VOTU00382	0	0	0			associate	0
+VOTU00383	0	0	0			associate	0
+VOTU00384	0	0	0			associate	0
+VOTU00385	0	0	0			associate	0
+VOTU00386	0	0	0			endogenous_candidate	0
+VOTU00387	0	0	0			associate	0
+VOTU00388	0	0	0			associate	0
+VOTU00389	0	0	0			associate	0
+VOTU00390	0	0	0			associate	0
+VOTU00391	0	0	0			associate	0
+VOTU00392	1	0	1	Bargmannia profunda:1	Manko2026:1	associate	5
+VOTU00393	0	0	0			associate	0
+VOTU00394	1	0	1	Bargmannia profunda:1	Manko2026:1	associate	6
 VOTU00395	1	1	1	Bargmannia profunda:1	Manko2026:1	associate	0
-VOTU00396	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00397	2	1	2	Bargmannia lata:1;Bargmannia marlena:1	Ahuja2024:1;Manko2026:1	associate	16
-VOTU00398	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00399	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00400	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00401	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00402	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00403	2	1	2	Bargmannia lata:1;Bargmannia marlena:1	Ahuja2024:1;Manko2026:1	associate	2
-VOTU00404	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00405	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00406	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00407	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00408	2	1	2	Bargmannia stenotes:1;Bargmannia profunda:1	Manko2026:2	associate	0
-VOTU00409	2	1	2	Bargmannia lata:1;Bargmannia marlena:1	Ahuja2024:1;Manko2026:1	associate	5
-VOTU00410	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00411	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00412	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
-VOTU00413	2	1	1	Bargmannia pyrosa:2	Manko2026:2	associate	3
-VOTU00414	1	1	1	Bargmannia elongata:1	Manko2026:1	associate	0
+VOTU00396	0	0	0			associate	0
+VOTU00397	2	1	2	Bargmannia lata:1;Bargmannia marlena:1	Ahuja2024:1;Manko2026:1	associate	15
+VOTU00398	0	0	0			associate	0
+VOTU00399	0	0	0			associate	0
+VOTU00400	0	0	0			associate	0
+VOTU00401	0	0	0			associate	0
+VOTU00402	0	0	0			associate	0
+VOTU00403	2	1	2	Bargmannia lata:1;Bargmannia marlena:1	Ahuja2024:1;Manko2026:1	associate	1
+VOTU00404	0	0	0			associate	0
+VOTU00405	0	0	0			associate	0
+VOTU00406	0	0	0			associate	0
+VOTU00407	0	0	0			associate	0
+VOTU00408	1	0	1	Bargmannia profunda:1	Manko2026:1	associate	0
+VOTU00409	2	1	2	Bargmannia lata:1;Bargmannia marlena:1	Ahuja2024:1;Manko2026:1	associate	4
+VOTU00410	0	0	0			associate	0
+VOTU00411	0	0	0			associate	0
+VOTU00412	0	0	0			associate	0
+VOTU00413	2	1	1	Bargmannia pyrosa:2	Manko2026:2	associate	2
+VOTU00414	0	0	0			associate	0

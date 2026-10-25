@@ -1,0 +1,16 @@
+{
+  "catalog_counts": {
+    "associate": 401,
+    "endogenous_candidate": 163
+  },
+  "reclassified_targets": [
+    "VOTU00108",
+    "VOTU00144",
+    "VOTU00165",
+    "VOTU00242",
+    "VOTU00345",
+    "VOTU00386"
+  ],
+  "sequence_ids_and_checksums_unchanged": true,
+  "classification_interpretation": "Possible endogenous candidates; integration is not demonstrated."
+}

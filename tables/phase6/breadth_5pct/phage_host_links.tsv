@@ -1,7 +1,0 @@
-votu_id	host_catalog_id	spacers	host_taxonomy	votu_present_libraries	host_present_libraries	co_present_libraries
-VOTU00032	BAC00377	2	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__DT-91;g__CAKMZU01;s__	1	2	1
-VOTU00056	BAC00376	1	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__DT-91;g__CAKMZU01;s__	1	2	1
-VOTU00075	BAC00360	1	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__GCF-002020875;f__GCF-002020875;g__;s__	1	1	1
-VOTU00079	BAC00302	1	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Photobacterium;s__Photobacterium angustum	1	1	0
-VOTU00120	BAC00302	1	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Photobacterium;s__Photobacterium angustum	2	1	0
-VOTU00145	BAC00302	1	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Vibrionaceae;g__Photobacterium;s__Photobacterium angustum	1	1	0

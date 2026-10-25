@@ -258,7 +258,6 @@ _target_paths = {
     "phase6_analysis": f"{WORK}/stages/phase6_analysis_{PHASE5['catalog_version']}.done",
     "eukaryote_evidence": f"{WORK}/eukaryote_gate/read_lineages.tsv",
     "mycoplasmatales_phylogeny": f"{WORK}/mycoplasmatales_phylogeny/mycoplasmatales.bac120.decorated.tree",
-    "mycoplasmatales_gene_content": f"{WORK}/mycoplasmatales_gene_content/summary/lineage_modules.tsv",
     "cassiopea_16s": f"{WORK}/cassiopea_16s/summary/sample_type_summary.tsv",
     "cnidarian_16s": f"{WORK}/cnidarian_16s/matching_asv_hosts.tsv",
 }

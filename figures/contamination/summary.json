@@ -1,0 +1,17 @@
+{
+  "screened_libraries": 213,
+  "excluded_libraries": 4,
+  "retained_libraries": 209,
+  "excluded_ids": [
+    "Ahuja2026__NA29",
+    "Ahuja2026__NA31",
+    "Manko2026__D666-D10",
+    "Manko2026__T676-SS3"
+  ],
+  "bacterial_contaminant_detections": 41,
+  "bacterial_contaminant_positive_libraries": 26,
+  "eukaryote_contaminant_detections": 2,
+  "eukaryote_contaminant_quality": "Both libraries were scored moderate quality by Church et al. (2025)",
+  "decision_basis": "Author thresholds chosen after inspection at a gap in the distributions; no extraction blanks.",
+  "grade_codes": "The stable internal high_confidence code is displayed as assembly-supported (bacteria/viruses) or reads + assembly (eukaryotes)."
+}

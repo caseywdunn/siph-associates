@@ -31,3 +31,8 @@ data/results/
 !tables/waki_comparison/top_marker_fragments.fasta
 !tables/waki_comparison/top_marker_contigs.fasta
 !tables/waki_comparison/top_marker_pairwise_alignments.fasta
+
+# Downloaded tools, temporary literature, and scheduler output stay local.
+data/software/
+tmp/
+slurm-*.log

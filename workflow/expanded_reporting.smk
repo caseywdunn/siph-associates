@@ -179,12 +179,10 @@ rule expanded_overview:
 
 rule expanded_supporting_tables:
     input:
-        scripts=['scripts/export_domain_review_statistics.py', 'scripts/summarize_dalila_revision.py', 'scripts/summarize_mdb_revision.py'],
+        scripts=['scripts/export_domain_review_statistics.py', 'scripts/summarize_dalila_revision.py'],
         settings='config/reporting_sources.json',
         primary=rules.validate_phase6.output,
         statistics=rules.validate_phase6.input,
-        genes=expand(PUBLICATION['gene_content_root'] + '/summary/{table}.tsv',
-                     table=['genome_stats', 'focal_functions', 'module_completeness', 'module_completeness_strict']),
         assemblies=PUBLICATION['assembly_summary'],
         mags=PUBLICATION['mag_catalog'],
         sources=config['samples'],
@@ -197,10 +195,6 @@ rule expanded_supporting_tables:
         expand('figures/dalila_revision/{name}', name=['assembly_routes.tsv',
             'clade_a_regions.tsv', 'host_species_summary.tsv',
             'summary.json', 'values.tex', 'provenance.json']),
-        expand('figures/mdb_revision/{name}', name=['amino_acid_modules.tsv',
-            'cooccurrence.tsv', 'cooccurrence_results.tex', 'cooccurrence_strata.tsv',
-            'cooccurrence_table.tex', 'defense_chitin_genes.tsv', 'genome_quality.tsv',
-            'nutrition_defense_table.tex', 'phage_summary.tex', 'specimens.tsv', 'provenance.json']),
     resources: mem_mb=4000, runtime=20, partition='ycga'
     log: f'{WORK}/logs/supporting_tables.log'
     shell: 'for script in {input.scripts:q}; do {PY:q} "$script"; done > {log:q} 2>&1'

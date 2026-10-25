@@ -29,6 +29,7 @@ rule publication_cohort_figures:
     input:
         script="figures/build_cohort.py",
         metadata_script="scripts/export_sample_metadata.py",
+        decisions=["workflow/scripts/contamination_policy.py", "config/excluded_libraries.tsv", "config/contaminant_taxa.tsv"],
         settings="config/reporting_sources.json",
         extra_metadata=["manko2026_manifest.csv", "data/metadata/manko2026/sample_metadata.tsv", "config/post_expansion_samples.tsv"],
         manifest="manifest.csv",
@@ -72,12 +73,10 @@ rule publication_cohort_figures:
 rule publication_mycoplasmatales_figures:
     input:
         script="workflow/scripts/plot_mycoplasmatales_figures.py",
-        focal=PUBLICATION["gene_content_root"] + "/summary/focal_functions.tsv",
-        genomes=PUBLICATION["gene_content_root"] + "/summary/genome_stats.tsv",
+        taxonomy="config/mycoplasmatales_reference_taxonomy.tsv",
         tree=PUBLICATION["phylogeny_root"] + "/mycoplasmatales.bac120.decorated.tree",
         labels=PUBLICATION["phylogeny_root"] + "/tree_labels.tsv",
     output:
-        functions="figures/mycoplasmatales/gene_functions.pdf",
         tree="figures/mycoplasmatales/phylogeny_focus.pdf",
         provenance="figures/mycoplasmatales/manifest.json",
     threads: 1
@@ -152,4 +151,4 @@ rule publication_collection_context_figures:
     log:
         "logs/figures/collection_context_plots.log",
     shell:
-        "MPLCONFIGDIR=/tmp/siph-associates-matplotlib /gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python {input.script:q} > {log:q} 2>&1"
+        "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python {input.script:q} > {log:q} 2>&1"

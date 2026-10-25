@@ -1,12 +1,12 @@
 {
   "status": "complete",
-  "created_utc": "2026-10-23T12:19:13.288302+00:00",
+  "created_utc": "2026-10-25T14:06:08.397236+00:00",
   "command": "python3 scripts/summarize_screening_results.py",
-  "source_base_git_revision": "24e5581143f82cbab56a5be87db625cf391d0c31",
-  "script_sha256": "c6c500ef39cae105b8dd5c877a9a36835d1ade69e358f80f3d762b9633894577",
+  "source_base_git_revision": "2a4c03da69e8e432cecabca4e637f740261a9bcd",
+  "script_sha256": "5761f733a2ceee05fcd7b28552dac94e9ee90276d741f48fcce28427978c0e91",
   "source_snapshot": "figures/screening/provenance/summarize_screening_results.py",
   "inputs_sha256": {
-    "config/reporting_sources.json": "b84520f73a9eed259553abb194b52cd29c283a3f20aa6c72ccafc33c6ea03291",
+    "config/reporting_sources.json": "38f2aa65b3d87814aa20e927c916661a1859ac1f428338346cf434040e0f1584",
     "data/results/post_expansion/2026-10-21/reporting/screens/library_qc.tsv": "cdae5a003cc4593d00b6e1fabfa7b0d93a4715de3f2b42f892168b8a5d23f528",
     "config/eukaryote_gate.json": "f242af1d8a07bc983d87d80e57bc18f754e8dece6b6fd43dd861b5e8038ea515",
     "config/phase6_analysis.json": "ba3e366e9acaab94e8bc591ae86a3cc2e7c4f3d5f5b9def403cbec5b7ed74da4",
@@ -14,26 +14,26 @@
     "data/results/post_expansion/2026-10-21/reporting/screens/nomination_evidence/sylph_nominations.tsv": "8c89c5c6d846df473fc214187c52c5603df960487c93e0d977d678597c673346",
     "data/results/post_expansion/2026-10-21/reporting/screens/nomination_evidence/gtdb_corroboration.tsv": "923e069789560fc78717dfb100dc850e366ac662e2939e9973725149981235e4",
     "data/results/post_expansion/2026-10-21/reporting/screens/nomination_evidence/gtdb_uncorroborated.tsv": "3da659d01f7f32b0896a97796894b84e0cf0389f4806ee72fe9e7948ce995aeb",
-    "figures/coauthor_review/catalog/bacterial_catalog.manifest.tsv": "c226ebbf990d4a0de909b9b36535e94f9bd49a5b92d1ec42736a73faae0e34f3",
-    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/grades/bacterial_grades.tsv": "a30a016ddb520d21ae54b5429ec995dc468bae2ea0909c161f575e8d6652f36a",
-    "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/sensitivity/leave_one_study_out.tsv": "e63e002dcdc3352ba78983d007c0ddbafa5c1150e087eafb0f92838ed596bac6",
+    "figures/manuscript_revision/catalog/bacterial_catalog.manifest.tsv": "c226ebbf990d4a0de909b9b36535e94f9bd49a5b92d1ec42736a73faae0e34f3",
+    "data/results/manuscript_revision/2026-10-24/phase6_analysis/v3/grades/bacterial_grades.tsv": "22fc490ef15ff2fe70ee41e05f4cb8d885a836e3999ceb6a2862ae53f08fd35f",
+    "data/results/manuscript_revision/2026-10-24/phase6_analysis/v3/sensitivity/leave_one_study_out.tsv": "210633d58f49a3370d9b88309f4d3bcf498972034517abee3a32d98d5ae51f7d",
     "data/results/post_expansion/2026-10-21/reporting/eukaryote_gate/read_evidence.tsv": "f1f4199972c1504763947d5d1fbdd9b57979dcc8f12ed6b0bc332242dc8f3878",
     "data/results/post_expansion/2026-10-21/reporting/eukaryote_gate/read_lineages.tsv": "9448f079aa051cd0a5e90753905e9571de807889cdba0b97578980e5540acab4",
     "data/results/post_expansion/2026-10-21/reporting/eukaryote_gate/calibration/negative_controls.tsv": "cd432d7683f66b0e0fae121e101083091f293e1253dca46c9b21f7114d5d897f",
-    "data/results/post_expansion/2026-10-21/reporting/eukaryote_gate/eukaryote_grades.tsv": "e65331fb27b11581f49ad8c0cda298c753aee0e15e38416c301107bcb9d734fa"
+    "figures/cohort/eukaryote_evidence.tsv": "35c077e9b50c3d6116b1382b692ba5058188a0d6c19bd52c36b7bf05fdce90bd"
   },
   "outputs_sha256": {
     "figures/screening/ssu_control_comparison.tsv": "c79329822b82a18641983802e948124e7dd8d42c89b55cc5bc44228555cdb9c6",
-    "figures/screening/values.tex": "447611fa13e58c0d22998f1684dec87e9958ae04683589c9f804e29900516f56",
-    "figures/screening/eukaryote_detection_overlap.tsv": "1597c82f70566c0d0d9d560f6185936b9d1534603dea7c8d928fb9968fbd52eb",
-    "figures/screening/sylph_nomination_grades.tsv": "fb0ffa6a36138b819b1b29dd9e77a187246f40a82d95da7311477fb56a4647ad",
+    "figures/screening/values.tex": "1ed5c636aacb3ebab17f70fb345fabd3c7bf0387684740a6b9ed943dfa52002b",
+    "figures/screening/eukaryote_detection_overlap.tsv": "50b5d973173bcb8c6e91ea65ad4dbc66024138c87cd56e8dd8705612cd8b5728",
+    "figures/screening/sylph_nomination_grades.tsv": "f2fbb1cf5f31784b0b632493cb56d6c8a59214d46fe0275932df2285e820b95c",
     "figures/screening/sylph_sources.tsv": "8c89c5c6d846df473fc214187c52c5603df960487c93e0d977d678597c673346",
-    "figures/screening/bacterial_detection_overlap.tsv": "6290b1d42b371ea2a16528339b3f9aba96892ed37a7bde328bf40bcdd20edc54",
+    "figures/screening/bacterial_detection_overlap.tsv": "8e9a18c1ef3bb17baa10b339dbd2ea1e76c2eacf9d992d312070db022609f6a1",
     "figures/screening/method_summary.tsv": "886bd157bfabfb0e6f2260d26211cce6729646c9ee5c169357b0441c970b9144",
     "figures/screening/genus_corroboration.tsv": "923e069789560fc78717dfb100dc850e366ac662e2939e9973725149981235e4",
-    "figures/screening/summary.json": "4874a518f3f58239396608c2dff06d034e1a9866514039dd10929a027e31caf4",
-    "figures/screening/mycoplasmatales_screen_support.tsv": "914c266a95435ed0b80e540af5b700ef281059105ea6cf90703871afacbfc30a",
-    "figures/screening/provenance/summarize_screening_results.py": "c6c500ef39cae105b8dd5c877a9a36835d1ade69e358f80f3d762b9633894577"
+    "figures/screening/summary.json": "bf3c02c1d43bdcc3fa6f802687f6ee6019801134117f01a44464249388d4c89b",
+    "figures/screening/mycoplasmatales_screen_support.tsv": "e0df3667fc86215e770dc20af7afe30308af4b2dc16f0a4a40617ed7fad0b533",
+    "figures/screening/provenance/summarize_screening_results.py": "5761f733a2ceee05fcd7b28552dac94e9ee90276d741f48fcce28427978c0e91"
   },
   "interpretation": "Taxonomic nominations are not validated presences. Coverage failures are not a measured classifier false-positive rate. SSU controls compare retained initial and host-aware assignments; no sequence analysis was rerun."
 }

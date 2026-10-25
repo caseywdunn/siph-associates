@@ -1,0 +1,22 @@
+tip	display_y	source	source_host	source_host_basis	source_host_record
+RS_GCF_004335975.1	20	GTDB	Not recorded	host absent from retained reference metadata	GCF_004335975.1
+GB_GCA_013215715.1	19	GTDB	Not recorded	host absent from retained reference metadata	GCA_013215715.1
+RS_GCF_004335995.1	18	GTDB	Not recorded	host absent from retained reference metadata	GCF_004335995.1
+GB_GCA_024244685.1	17	GTDB	Not recorded	host absent from retained reference metadata	GCA_024244685.1
+MAGSP0012	16	study	Nanomia bijuga	source specimen metadata	Ahuja2026__NA31
+MAGSP0005	15	study	Physalia utriculus	source specimen metadata	Church2025__WAM-Z97917
+GB_GCA_029942215.1	14	GTDB	Not recorded	host absent from retained reference metadata	GCA_029942215.1
+RS_GCF_030550815.1	13	GTDB	Not recorded	host absent from retained reference metadata	GCF_030550815.1
+GB_GCA_013215685.1	12	GTDB	Not recorded	host absent from retained reference metadata	GCA_013215685.1
+MAGSP0011	11	study	Nanomia septata	source specimen metadata	Ahuja2026__WS6
+EXT_GCA_060113895.1	10	external	Swiftia exserta	external genome metadata	Swiftia exserta; Swiftia exserta colony SH10538; mesophotic coral community
+EXT_GCA_929200505.1	9	external	Leptogorgia sarmentosa	external genome metadata	Leptogorgia sarmentosa (octocoral), healthy; MAG LS07H_Bin1 (Keller-Costa et al. 2022 Table S1)
+EXT_GCA_929200285.1	8	external	Eunicella gazella	external genome metadata	Eunicella gazella (octocoral), healthy; MAG EG16H_Bin4 (Keller-Costa et al. 2022 Table S1)
+EXT_GCA_929200685.1	7	external	Leptogorgia sarmentosa	external genome metadata	Leptogorgia sarmentosa (octocoral), healthy; MAG LS06H_Bin3 (Keller-Costa et al. 2022 Table S1)
+GB_GCA_929200685.1	6	GTDB	Leptogorgia sarmentosa	same assembly accession as external genome	Leptogorgia sarmentosa (octocoral), healthy; MAG LS06H_Bin3 (Keller-Costa et al. 2022 Table S1)
+MAGSP0031	5	study	Physalia utriculus	source specimen metadata	Church2025__WAM-Z97910
+MAGSP0007	4	study	Physalia megalista	source specimen metadata	Church2025__YPM-IZ-111159
+MAGSP0010	3	study	Physalia minuta	source specimen metadata	Church2025__NIWA-173304
+MAGSP0029	2	study	Physalia utriculus	source specimen metadata	Church2025__YPM-IZ-106923
+GB_GCA_019661745.1	1	GTDB	Not recorded	host absent from retained reference metadata	GCA_019661745.1
+GB_GCA_004011965.1	0	GTDB	Not recorded	host absent from retained reference metadata	GCA_004011965.1

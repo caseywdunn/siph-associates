@@ -23,6 +23,8 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from export_sample_metadata import INPUTS as METADATA_INPUTS, export_metadata  # noqa: E402
+sys.path.insert(0, str(ROOT / "workflow/scripts"))
+from contamination_policy import ContaminationPolicy, POLICY_PATHS, retained
 
 OUT = ROOT / "figures/cohort"
 OUT.mkdir(parents=True, exist_ok=True)
@@ -70,11 +72,24 @@ mags = read(settings["mag_catalog"])
 catalog = read(settings["catalog_manifest"])
 assembly = read(settings["assembly_membership"])
 flow = read(settings["analysis_root"] + "/primary/library_flowcells.tsv")
-bp = [r for r in bac if r["grade"] in VALID and r["role"] != "decoy"]
-vp = [r for r in vir if r["grade"] in VALID and r["catalog_class"] == "associate"]
-ep = [r for r in euk if r["count_as_detection"] == "true"]
+policy = ContaminationPolicy(catalog=catalog)
+SOURCES.extend(ROOT / path for path in [*POLICY_PATHS, "workflow/scripts/contamination_policy.py"])
+manifest = [policy.annotate(row) for row in manifest]
+write("sample_metadata.tsv", manifest)
+metadata_record = json.loads((OUT / "sample_metadata_export.json").read_text())
+metadata_record["outputs_sha256"]["sample_metadata.tsv"] = hashlib.sha256((OUT / "sample_metadata.tsv").read_bytes()).hexdigest()
+metadata_record["inputs_sha256"].update({path: hashlib.sha256((ROOT / path).read_bytes()).hexdigest() for path in [*POLICY_PATHS, "workflow/scripts/contamination_policy.py"]})
+metadata_record["revision_annotations"] = "Two-tier author decisions; original metadata fields retained"
+(OUT / "sample_metadata_export.json").write_text(json.dumps(metadata_record, indent=2) + "\n")
+bac, vir, euk = ([policy.annotate(row) for row in records] for records in [bac, vir, euk])
+all_bp = [r for r in bac if r["grade"] in VALID and r["role"] != "decoy"]
+all_vp = [r for r in vir if r["grade"] in VALID]
+bp = [r for r in all_bp if retained(r)]
+vp = [r for r in all_vp if r["catalog_class"] == "associate" and retained(r)]
+ep = [r for r in euk if r["count_as_detection"] == "true" and retained(r)]
 assert all(r["grade"] in VALID for r in ep)
 host_counts = Counter(r["species_current"] for r in manifest)
+sampling_host_counts = host_counts.copy()
 studies = ["Church2025", "Ahuja2024", "Ahuja2026", "Manko2026"]
 colors = {"Church2025": "#0072B2", "Ahuja2024": "#E69F00", "Ahuja2026": "#009E73", "Manko2026": "#CC79A7"}
 hosts = sorted(host_counts, key=lambda h: (-host_counts[h], h))
@@ -83,8 +98,8 @@ host_rows = [{"host": h, "libraries": host_counts[h],
                  for s in studies}} for h in hosts]
 write("host_sampling.tsv", host_rows)
 write("library_flowcells.tsv", flow)
-write("bacterial_detections.tsv", bp)
-write("viral_detections.tsv", vp, list(vir[0]))
+write("bacterial_detections.tsv", all_bp)
+write("viral_detections.tsv", all_vp, list(vir[0]))
 write("eukaryote_evidence.tsv", euk)
 
 # Sampling counts use every library, never the restricted statistical subset.
@@ -104,19 +119,24 @@ ax.legend(frameon=False, loc="lower right")
 fig.tight_layout()
 save(fig, "sampling")
 
-# Full-cohort incidence of the seven focal MAG species. Denominators are host
+host_counts = Counter(r["species_current"] for r in manifest if retained(r))
+hosts = sorted(host_counts, key=lambda h: (-host_counts[h], h))
+
+# Retained-cohort incidence of the seven focal MAG species. Denominators are host
 # library counts. A species is counted once per library despite multiple evidence rows.
 myco = [r for r in catalog if r["genome_id"] in
         {"MAGSP0005", "MAGSP0007", "MAGSP0010", "MAGSP0029", "MAGSP0031", "MAGSP0011", "MAGSP0012"}]
 assert len(myco) == 7
 lineages = {"MAGSP0005": "Clade A", "MAGSP0007": "Clade B", "MAGSP0010": "Clade B",
-            "MAGSP0029": "Clade B", "MAGSP0031": "Clade B", "MAGSP0011": "DT-68",
+            "MAGSP0029": "Clade B", "MAGSP0031": "Sister to clade B", "MAGSP0011": "DT-68",
             "MAGSP0012": "Mycoplasma_K"}
 myco_ids = {r["catalog_id"] for r in myco}
 myco_bp = [r for r in bp if r["target_id"] in myco_ids]
 present = defaultdict(set)
 for r in myco_bp:
     present[(r["target_id"], meta[r["sample_id"]]["species_current"])].add(r["sample_id"])
+myco_catalog = myco
+myco = [g for g in myco if g["genome_id"] != "MAGSP0012"]
 focal_hosts = [h for h in hosts if h.startswith(("Physalia ", "Nanomia ", "Resomia "))]
 counts = np.array([[len(present[(g["catalog_id"], h)]) for g in myco] for h in focal_hosts])
 denoms = np.array([host_counts[h] for h in focal_hosts])
@@ -130,14 +150,14 @@ for i, h in enumerate(focal_hosts):
 ax.set_yticks(range(len(focal_hosts)), focal_hosts, fontstyle="italic")
 ax.set_xticks(range(len(myco)), [f"{g['genome_id']}\n{lineages[g['genome_id']]}" for g in myco],
               rotation=45, ha="right", rotation_mode="anchor")
-fig.colorbar(im, ax=ax, label="Fraction of libraries with validated presence", shrink=.7)
+fig.colorbar(im, ax=ax, label="Fraction of retained libraries with accepted presence", shrink=.7)
 fig.tight_layout()
 save(fig, "mycoplasmatales_incidence")
 write("mycoplasmatales_incidence.tsv", [
     {"host": h, "catalog_id": g["catalog_id"], "species_cluster": g["genome_id"],
      "lineage": lineages[g["genome_id"]], "present_libraries": len(present[(g["catalog_id"], h)]),
      "total_libraries": host_counts[h]}
-    for h in hosts for g in myco])
+    for h in hosts for g in myco_catalog])
 
 # Eukaryote units retain heterogeneous taxonomic ranks. Display detections,
 # never claim species richness or add overlapping parent and child units.
@@ -156,7 +176,7 @@ cmap = ListedColormap(["#f3f3f3", "#56B4E9", "#0072B2"])
 ax.imshow(matrix, cmap=cmap, norm=BoundaryNorm([-.5,.5,1.5,2.5], 3), aspect="auto")
 ax.set_yticks(range(len(units)), unit_labels, fontsize=14)
 ax.set_xticks(range(len(euk_samples)), [s.replace("Church2025__", "").replace("Ahuja2024__", "").replace("Ahuja2026__", "").replace("Manko2026__", "") for s in euk_samples], rotation=90, fontsize=13)
-ax.set_xlabel("Libraries with validated non-host eukaryotic evidence", fontsize=14)
+ax.set_xlabel("Libraries with accepted non-host eukaryotic evidence", fontsize=14)
 for j, s in enumerate(euk_samples):
     ax.plot(j, -.9, marker="s", color=colors[meta[s]["study"]], markersize=5.5, clip_on=False)
 bar.barh(range(len(units)), (matrix == 1).sum(axis=1), color="#56B4E9")
@@ -171,17 +191,23 @@ ax.legend(handles=[Patch(color="#56B4E9", label="Read or assembly support"),
 fig.tight_layout()
 save(fig, "eukaryote_evidence")
 
-retained = [r for r in mags if r["catalog_status"] == "retained"]
+retained_mags = [r for r in mags if r["catalog_status"] == "retained"]
 summary = {
-    "libraries": len(manifest), "host_labels": len(host_counts),
-    "singleton_host_labels": sum(n == 1 for n in host_counts.values()),
+    "libraries": len(manifest), "retained_libraries": sum(retained(r) for r in manifest),
+    "excluded_libraries": sum(not retained(r) for r in manifest),
+    "host_labels": len({r["species_current"] for r in manifest}),
+    "retained_host_labels": len(host_counts),
+    "singleton_host_labels": sum(n == 1 for n in sampling_host_counts.values()),
+    "retained_singleton_host_labels": sum(n == 1 for n in host_counts.values()),
     "libraries_by_study": dict(Counter(r["study"] for r in manifest)),
     "assembly_eligible": sum(r["assembly_eligible"] == "true" for r in assembly),
-    "retained_mags": len(retained), "mag_species": len({r["species_cluster"] for r in retained}),
-    "near_complete_mags": sum(r["near_complete"] == "true" for r in retained),
-    "associate_viral_detection_rows": len(vp), "associate_viral_targets": len({r["target_id"] for r in vp}),
+    "retained_mags": len(retained_mags), "mag_species": len({r["species_cluster"] for r in retained_mags}),
+    "near_complete_mags": sum(r["near_complete"] == "true" for r in retained_mags),
+    "associate_viral_detection_rows": len(vp),
+    "associate_viral_assembly_supported_rows": sum(r["grade"] == "high_confidence" for r in vp), "associate_viral_targets": len({r["target_id"] for r in vp}),
     "associate_viral_positive_libraries": len({r["sample_id"] for r in vp}),
-    "eukaryote_validated_evidence_rows": sum(r["grade"] in VALID for r in euk),
+    "eukaryote_validated_evidence_rows": sum(r["grade"] in VALID and retained(r) for r in euk),
+    "eukaryote_assembly_supported_rows": sum(int(r["assembled_sequences"]) > 0 for r in ep),
     "eukaryote_nonredundant_detection_rows": len(ep),
     "eukaryote_positive_libraries": len(euk_samples), "eukaryote_reporting_units": len(units),
     "eukaryote_high_confidence_rows": sum(r["grade"] == "high_confidence" for r in ep),

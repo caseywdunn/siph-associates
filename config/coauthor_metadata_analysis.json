@@ -1,16 +1,20 @@
 {
   "schema_version": 1,
-  "expected_libraries": 213,
+  "expected_libraries": 209,
   "output_dir": "figures/coauthor_metadata",
   "mapping_summary": "data/results/post_expansion/2026-10-20/remapping/phase5_mapping/v3/cohort/library_mapping.tsv",
-  "bacterial_grades": "data/results/coauthor_review/2026-10-22/phase6_analysis/v3/grades/bacterial_grades.tsv",
+  "bacterial_grades": "data/results/manuscript_revision/2026-10-24/phase6_analysis/v3/grades/bacterial_grades.tsv",
   "fish_summary": "figures/fish_12s/sample_summary.tsv",
   "host_depletion_stats": "figures/host_depletion/mapping_stats.tsv",
   "host_depletion_provenance": "figures/host_depletion/provenance.json",
   "historical_host_concordance": "data/results/phase6_analysis/v2/sensitivity/host_handling_concordance.tsv",
   "permutations": 9999,
   "seed": 20261022,
-  "grade_columns": ["grade", "grade_at_5pct", "grade_at_20pct"],
+  "grade_columns": [
+    "grade",
+    "grade_at_5pct",
+    "grade_at_20pct"
+  ],
   "inference_policy": "single_physical_flowcell",
   "community_model": "binary Jaccard ~ log10(mapping input pairs) + physical flowcell + contrast group; marginal group test with within-flowcell permutations",
   "contrasts": [
@@ -18,26 +22,75 @@
       "id": "utriculus_pacific_regions",
       "purpose": "Regional bacterial composition within one host species and tissue",
       "group": "ocean_region",
-      "filters": {"species_current": ["Physalia utriculus"], "tissue_group": ["tentacle"], "ocean_region": ["Central Pacific", "NW Pacific", "SW Pacific"]}
+      "filters": {
+        "species_current": [
+          "Physalia utriculus"
+        ],
+        "tissue_group": [
+          "tentacle"
+        ],
+        "ocean_region": [
+          "Central Pacific",
+          "NW Pacific",
+          "SW Pacific"
+        ]
+      }
     },
     {
       "id": "utriculus_regions_with_indian",
       "purpose": "Assess whether the western Indian Ocean comparison is identifiable apart from flowcell",
       "group": "ocean_region",
-      "filters": {"species_current": ["Physalia utriculus"], "tissue_group": ["tentacle"], "ocean_region": ["Central Pacific", "NW Pacific", "SW Pacific", "W Indian"]}
+      "filters": {
+        "species_current": [
+          "Physalia utriculus"
+        ],
+        "tissue_group": [
+          "tentacle"
+        ],
+        "ocean_region": [
+          "Central Pacific",
+          "NW Pacific",
+          "SW Pacific",
+          "W Indian"
+        ]
+      }
     },
     {
       "id": "sw_pacific_host_species",
       "purpose": "Host-associated bacterial composition within one region and tissue",
       "group": "species_current",
-      "filters": {"species_current": ["Physalia megalista", "Physalia minuta", "Physalia utriculus"], "tissue_group": ["tentacle"], "ocean_region": ["SW Pacific"]}
+      "filters": {
+        "species_current": [
+          "Physalia megalista",
+          "Physalia minuta",
+          "Physalia utriculus"
+        ],
+        "tissue_group": [
+          "tentacle"
+        ],
+        "ocean_region": [
+          "SW Pacific"
+        ]
+      }
     },
     {
       "id": "utriculus_central_tissue",
       "purpose": "Assess support for a tissue comparison within one host species and region",
       "group": "tissue_group",
-      "filters": {"species_current": ["Physalia utriculus"], "tissue_group": ["tentacle", "whole body"], "ocean_region": ["Central Pacific"]}
+      "filters": {
+        "species_current": [
+          "Physalia utriculus"
+        ],
+        "tissue_group": [
+          "tentacle",
+          "whole body"
+        ],
+        "ocean_region": [
+          "Central Pacific"
+        ]
+      }
     }
   ],
-  "interpretation": "Post hoc coauthor-requested analyses. No life-stage analysis. Non-detection does not establish absence; genome-target profiles are not estimates of complete microbiome composition. Tissue/depth summaries are descriptive where host, locality, study, preservation or batch are confounded."
+  "interpretation": "Post hoc coauthor-requested analyses. No life-stage analysis. Non-detection does not establish absence; genome-target profiles are not estimates of complete microbiome composition. Tissue/depth summaries are descriptive where host, locality, study, preservation or batch are confounded.",
+  "dispersion_analysis": "not_rerun_out_of_scope"
 }

@@ -6,6 +6,7 @@ import json
 import os
 from collections import Counter, defaultdict
 from pathlib import Path
+from contamination_policy import retained
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--presence", required=True)
@@ -65,7 +66,7 @@ def called(kind, breadth, reads):
 
 
 grades = rows(args.grades)
-real = [r for r in grades if r["role"] != "decoy"]
+real = [r for r in grades if r["role"] != "decoy" and retained(r)]
 meta = {}
 with open(args.manifest, newline="") as handle:
     for r in csv.DictReader(handle):
@@ -133,7 +134,7 @@ for r in rows(args.nominated):
     if target:
         nominating[target] |= {meta[s]["study"] for s in r["library_list"].split(",") if s in meta}
 present = [r for r in real if r["grade"] in PRESENT]
-mag_only = {r["target_id"] for r in real} - set(nominating)
+mag_only = {r["target_id"] for r in grades if r["role"] != "decoy"} - set(nominating)
 loso = []
 for study in sorted({m["study"] for m in meta.values()}):
     single = {t for t, studies in nominating.items() if studies == {study}}

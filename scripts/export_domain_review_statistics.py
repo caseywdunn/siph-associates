@@ -22,7 +22,7 @@ def main():
     inputs["config/reporting_sources.json"] = hashlib.sha256(Path("config/reporting_sources.json").read_bytes()).hexdigest()
     root = Path(settings["analysis_root"])
     grades = read(root / "grades/bacterial_grades.tsv")
-    real = [r for r in grades if r["role"] != "decoy"]
+    real = [r for r in grades if r["role"] != "decoy" and r.get("biological_include", "true") == "true"]
     present = [r for r in real if r["grade"] in {"validated", "high_confidence"}]
     samples = {r["sample_id"]: r for r in read(settings["samples"])}
     values = {
@@ -73,14 +73,17 @@ def main():
                 label + "Targets": n_genomes,
                 label + "Libraries": n_samples,
                 label + "CommunityN": region["libraries"],
+                label + "EligibleN": region["eligible_libraries"],
                 label + "RegionPercent": f"{100 * float(region['R2']):.1f}",
                 label + "RegionP": f"{float(region['Pr(>F)']):.4f}",
                 label + "TaxaTested": len(permutation),
                 label + "TaxaSignificant": significant,
             }
         )
+        p_value = float(region["Pr(>F)"])
+        displayed_p = r"$\leq 0.0002$" if p_value <= 0.0002 else f"{p_value:.4f}"
         threshold_rows.append(
-            f"{threshold} & {len(calls)} & {n_genomes} & {n_samples} & {region['libraries']} & {float(region['R2']):.3f} & {float(region['Pr(>F)']):.4f} & {significant}/{len(permutation)} \\\\"
+            f"{threshold} & {len(calls)} & {n_genomes} & {n_samples} & {region['libraries']} & {float(region['R2']):.3f} & {displayed_p} & {significant}/{len(permutation)} \\\\"
         )
     (out / "statistics.tex").write_text(
         "".join(

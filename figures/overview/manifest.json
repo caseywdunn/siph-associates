@@ -1,44 +1,44 @@
 {
   "status": "complete",
-  "generated_utc": "2026-10-23T12:18:58.645570+00:00",
-  "source_revision": "24e5581143f82cbab56a5be87db625cf391d0c31",
+  "generated_utc": "2026-10-25T20:40:11.573918+00:00",
+  "source_revision": "2a4c03da69e8e432cecabca4e637f740261a9bcd",
   "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python figures/plot_associate_overview.py",
   "working_directory": "/gpfs/ycga/work/dunn/cwd7/siph_associates",
   "source_snapshot": "figures/overview/provenance/plot_associate_overview.py",
-  "script_sha256": "8aa7ea01322df8af4934a616ac66303f7a4bcc7fe9278a10446758114d1a5925",
+  "script_sha256": "a9005dcad74c1346e75ea222c34610ed666db355b9043ba34b23a8ca4d705389",
   "inputs_sha256": {
-    "figures/cohort/sample_metadata.tsv": "887d88ac15f13bf065d9b749a67c573e11257330eed8d18c1ba0e48c1329242f",
-    "figures/cohort/bacterial_detections.tsv": "ae0b6cf16f24c5e6766ac49dec6117c514d86b5e72261386c8d2d8505c9da720",
-    "figures/cohort/viral_detections.tsv": "de6b0a5bb733c9115472f9950727287f91bc46b8dc590462c3d347cae875a1a8",
-    "figures/cohort/eukaryote_evidence.tsv": "e65331fb27b11581f49ad8c0cda298c753aee0e15e38416c301107bcb9d734fa",
-    "figures/collection_context/host_detection_summary.tsv": "2b3becacd10414678bbee7108b388f58a0cd958cd0b41c3ed50819308a059e2d"
+    "figures/cohort/sample_metadata.tsv": "ac1526a2892389d8a8b6d3949a68a7994e88dabed47e6f838f647f7b3ef4c411",
+    "figures/cohort/bacterial_detections.tsv": "8597c52a0d6c4832612c8a064326787fe22af669ef55c5cee48712b51fc6f6e2",
+    "figures/cohort/viral_detections.tsv": "63d2bfdb2969dd1312ba58aa4cfcee5ccd7e86834f8695c13f2698b33bd4d3c1",
+    "figures/cohort/eukaryote_evidence.tsv": "35c077e9b50c3d6116b1382b692ba5058188a0d6c19bd52c36b7bf05fdce90bd",
+    "figures/collection_context/host_detection_summary.tsv": "4c623e33ef0708fb9fe9b3812f44da86131e8dbb3c147fbddfcb5f06f93553c9"
   },
   "outputs_sha256": {
-    "figures/overview/study_overview.pdf": "9a8900f275c1bda228a2504d19bb75e86fdd3e4f39b169d9730fa84c370333bd",
-    "figures/overview/study_overview.png": "40084c84ba40dba12500b4bec466715a6ee72ec72b709ecef072f376363f98cb",
+    "figures/overview/study_overview.pdf": "e24a15e3096d73957ebb864fab20911a459c065be9520b086d9c517a3d66af87",
+    "figures/overview/study_overview.png": "179ac6dfe756388c2c0170d9bfc0a2170e036f88b10c644b6072883afe7c9cfc",
     "figures/overview/study_sampling.tsv": "b53a5bedad3816858bfee4360c81b97c65ab784ac0009570d025359def86e98c",
-    "figures/overview/microbial_host_distribution.pdf": "65c4a36a6c4b8b5aab3a0b5143682d7adfb23f87e07e7de005b5db6ad8c58b5d",
-    "figures/overview/microbial_host_distribution.png": "da414e43db0cb5ecb556b1e08d947e9aaa113a599705a2c0fd6839e7e783bfa9",
-    "figures/overview/microbial_host_distribution.tsv": "667adbb9cd69076e4b95f883976cc00af9c050e488023b830fbff604fe6c3b9f",
-    "figures/overview/microbial_display_assignments.tsv": "76328d73f97b7a1b6e3dd129b14f8b38fc20de8a9706bd96dec72d60e35d9b5f",
-    "figures/overview/eukaryote_evidence.pdf": "5a0b7dfcafb5aff0b196b27add8ebc3eb39b9291c36c3adc733334ca3639a774",
-    "figures/overview/eukaryote_evidence.png": "83b346500bf3d7e1d0828b9c562c5081c04cc65aadc3631f7240c70bb0eebd5e",
-    "figures/overview/eukaryote_display.tsv": "8f78fffa3344b1773b2f1a5d380cf2ebe9b9171689ebb23dc2ffc21bc1b38e1f",
-    "figures/overview/domain_summary.tsv": "e6b405df5e2fd21fcb9ec72576095e4c818d29c8f336ec6967b624e650fc2cc1"
+    "figures/overview/microbial_host_distribution.pdf": "361393d74b17435101c63c51199b91d60af04ed2d2307dcb44b83d963c42ff79",
+    "figures/overview/microbial_host_distribution.png": "93f350412638cfa380aaa128aea1150b63cf51f4b2fc23e27c4cf1bb2feee5fe",
+    "figures/overview/microbial_host_distribution.tsv": "7c13de7187a7252bdbd133d79a32dfa22677915baeb62133d5751d30997ef5d0",
+    "figures/overview/microbial_display_assignments.tsv": "2408f8fdaa7827d4b9495ce059a69cc7652d602b53234d2a2157809b724450cc",
+    "figures/overview/eukaryote_evidence.pdf": "bf534c5feac5ccb9d623b6ed78732a38bdce41a531617869f30bd239e722dd45",
+    "figures/overview/eukaryote_evidence.png": "ef114f989c39928a8e9737689085f6eb8be34128690ad253e274186d1b175925",
+    "figures/overview/eukaryote_display.tsv": "2e12f043891ff6a2a8c068056bc34a223998fa929b230e56a433550bc97b93b5",
+    "figures/overview/domain_summary.tsv": "0c0e9459bbf7bfc417445408f0b3c8f83e8fc421691d8c742c066338e3ce1e95"
   },
   "environment": {
     "python": "3.11.0",
     "matplotlib": "3.7.1",
     "numpy": "1.24.2"
   },
-  "scope": "All accepted libraries retained descriptively; no flowcell-based inference or sequence reanalysis.",
+  "scope": "Biological summaries omit the four excluded libraries and flagged contaminant taxa; no sequence reanalysis.",
   "checks": {
-    "metadata_libraries": 213,
-    "eukaryotic_detections": 64,
-    "eukaryote_positive_libraries": 40,
-    "eukaryote_read_and_assembly_cells": 42,
+    "metadata_libraries": 209,
+    "eukaryotic_detections": 57,
+    "eukaryote_positive_libraries": 38,
+    "eukaryote_read_and_assembly_cells": 40,
     "domain_counts_match_accepted_host_summary": true
   },
-  "microbial_display": "Mutually exclusive target assignments: Metamycoplasmataceae, seven frequent named bacterial groups, remaining bacteria, and archaea; presence deduplicated within each specimen.",
+  "microbial_display": "Mutually exclusive target assignments among retained bacteria; presence deduplicated within each specimen.",
   "photographs": "Explicit empty placeholders; no photographs or specimen images supplied."
 }

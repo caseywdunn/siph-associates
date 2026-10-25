@@ -1,0 +1,6 @@
+name: siph-associates-iqtree
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - biopython=1.81
+  - iqtree=3.0.1

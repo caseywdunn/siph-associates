@@ -37,7 +37,6 @@ ORANGE = "#D55E00"
 PALE = "#F1F5F7"
 DOMAIN_FIELDS = (
     ("bacterial", "Bacteria"),
-    ("archaeal", "Archaea"),
     ("viral", "Viruses"),
     ("eukaryote", "Eukaryotes"),
 )
@@ -213,7 +212,7 @@ def plot_depth_overview(
     )
     unknown_ax.tick_params(left=False, labelleft=False)
     unknown_ax.spines[:].set_visible(False)
-    values_ax.set_xlim(-0.5, 3.5)
+    values_ax.set_xlim(-0.5, len(DOMAIN_FIELDS) - 0.5)
     values_ax.set_xticks([])
     values_ax.tick_params(left=False, labelleft=False)
     values_ax.spines[:].set_visible(False)
@@ -326,7 +325,7 @@ def plot_dt68(rows: list[dict[str, str]], out: Path) -> list[Path]:
                 color=ORANGE,
                 marker="s",
                 linestyle="none",
-                label="DT-68: high-confidence detection",
+                label="DT-68: assembly-supported detection",
             ),
             Line2D(
                 [],
@@ -334,7 +333,7 @@ def plot_dt68(rows: list[dict[str, str]], out: Path) -> list[Path]:
                 color=ORANGE,
                 marker="o",
                 linestyle="none",
-                label="DT-68: validated detection",
+                label="DT-68: read-supported detection",
             ),
             Line2D(
                 [],
@@ -419,8 +418,8 @@ def plot_tissue_context(
     bar_ax.set_xlabel("Specimens", fontsize=10)
     bar_ax.tick_params(axis="y", length=0)
     bar_ax.spines["left"].set_visible(False)
-    values_ax.set_xlim(-0.5, 3.5)
-    values_ax.set_xticks(range(4), [label for _, label in DOMAIN_FIELDS], fontsize=10)
+    values_ax.set_xlim(-0.5, len(DOMAIN_FIELDS) - 0.5)
+    values_ax.set_xticks(range(len(DOMAIN_FIELDS)), [label for _, label in DOMAIN_FIELDS], fontsize=10)
     values_ax.xaxis.tick_top()
     values_ax.tick_params(axis="x", length=0, pad=8)
     values_ax.tick_params(axis="y", left=False, labelleft=False)
@@ -543,7 +542,8 @@ def main() -> None:
         )
     }
     tables = {name: read_tsv(path) for name, path in source_paths.items()}
-    expected = json.loads((ROOT / "config/reporting_sources.json").read_text())["expected_samples"]
+    source_paths["cohort_summary"] = ROOT / "figures/cohort/summary.json"
+    expected = json.loads(source_paths["cohort_summary"].read_text())["retained_libraries"]
     if len(tables["library_context.tsv"]) != expected:
         raise ValueError("Collection-context table differs from configured reporting scope")
     outputs = plot_depth_overview(

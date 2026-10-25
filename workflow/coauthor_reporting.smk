@@ -118,7 +118,7 @@ rule reviewed_reporting_validation:
 rule reviewed_publication_tables:
     input:
         validated=rules.reviewed_reporting_validation.output,
-        scripts=["figures/build_cohort.py", "scripts/analyze_collection_context.py", "figures/plot_collection_context.py", "figures/plot_associate_overview.py", "scripts/export_domain_review_statistics.py", "scripts/summarize_dalila_revision.py", "scripts/summarize_mdb_revision.py", "scripts/compare_expanded_reporting.py", "scripts/summarize_screening_results.py", "scripts/fish_12s/finalize_report.py"],
+        scripts=["figures/build_cohort.py", "scripts/analyze_collection_context.py", "figures/plot_collection_context.py", "figures/plot_associate_overview.py", "scripts/export_domain_review_statistics.py", "scripts/summarize_dalila_revision.py", "scripts/compare_expanded_reporting.py", "scripts/summarize_screening_results.py", "scripts/fish_12s/finalize_report.py"],
         settings="config/reporting_sources.json",
     output:
         done="figures/coauthor_review/publication.done",

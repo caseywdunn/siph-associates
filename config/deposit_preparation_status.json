@@ -1,0 +1,82 @@
+{
+  "revision_plan_date": "2026-10-24",
+  "prepared_date": "2026-10-25",
+  "analysis_base_revision": "2a4c03d",
+  "execution_status": "R5_R6_and_initial_R7_preparation_complete_FCS_GX_pending",
+  "prepared_mag_decisions": 104,
+  "contig_removal_decisions": 127,
+  "adaptor_trim_decisions": 3,
+  "palindrome_repairs": 1,
+  "crosswalk_rows": 104,
+  "verified_organism_names": 102,
+  "pending_organism_names": 2,
+  "verified_screening_taxids": 104,
+  "unresolved_screening_taxids": [],
+  "checks_completed": [
+    "Python AST parsing",
+    "bash -n for launchers",
+    "input/source-schema inspection",
+    "CheckM2 CLI source inspection",
+    "FCS paths and local database build-date inspection",
+    "selected primary NCBI Taxonomy records",
+    "R6 curated sequence and CheckM2 rerun with exported hash-checked summary",
+    "5 deposit unit tests passed (job 13931610)",
+    "Deposit Snakemake dry-run resolved 138 remaining steps (job 13931610)",
+    "104 screening taxids verified and present in installed GX division metadata",
+    "R5 one-query deletion, retained sequence identity, 98 samples and 23 publications before/after",
+    "All 104 MAGs curated; 28 edited MAG CheckM2 reports complete including independent R6",
+    "All five FCS-adaptor reports completed with no findings"
+  ],
+  "checks_not_run": [
+    "FCS-GX (explicit opt-in authorized, pending preparation)",
+    "table2asn",
+    "PGAP taxcheck",
+    "ribovore"
+  ],
+  "caution": "Sequence and metadata drafts exist, but no submission-ready files are claimed. FCS-GX and downstream validation remain pending. Four unresolved sequence bins are held separately for provenance; no additional palindrome edit has been made.",
+  "R6": {
+    "job_id": "13931459",
+    "status": "complete",
+    "corrected_genome_size": 693250,
+    "removed_duplicate_bases": 80980,
+    "completeness": 87.49,
+    "contamination": 0.0,
+    "checkm2_version": "1.0.1",
+    "translation_table": 4,
+    "public_summary": "tables/deposit/magsp0031_revision.tsv",
+    "earlier_failed_jobs": [
+      "13930714",
+      "13930750"
+    ]
+  },
+  "names_requiring_creation": [
+    "Xenococcus sp. (MAGSP0028)",
+    "Hepatoplasmataceae bacterium (MAGSP0033)"
+  ],
+  "R7_job_id": "13931689",
+  "R5": {
+    "job_id": "13931735",
+    "status": "complete",
+    "queries_before": 38,
+    "queries_after": 37,
+    "samples_before_and_after": 98,
+    "publications_before_and_after": 23,
+    "changed_attribution_rows": 11,
+    "validation_report": "data/results/deposit/executions/16s-13931735/before_after.json"
+  },
+  "R7_initial_preparation": {
+    "job_id": "13931689",
+    "exit_code": 0,
+    "MAGs": 104,
+    "MAGs_passing_numeric_thresholds": 58,
+    "initial_candidate_MAGs": 56,
+    "all_five_adaptor_reports": "no_findings",
+    "sequence_sets": {
+      "viral_associates": 401,
+      "viral_endogenous": 163,
+      "nonhost_ssu": 65,
+      "markers": 12
+    },
+    "held_route_clarification": "awaiting_package_refresh_to_separate_4_provenance_holds_from_44_archive_MAGs"
+  }
+}

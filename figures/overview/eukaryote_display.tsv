@@ -1,21 +1,17 @@
 sample_id	host	display_row	reporting_unit	grade
-Ahuja2024__NA4	Praya	40	Arthropoda	high_confidence
-Ahuja2026__NA31	Nanomia bijuga	36	Amorphea;Obazoa;Opisthokonta;Nucletmycea;Fungi	validated
-Ahuja2026__NA31	Nanomia bijuga	36	SAR;Alveolata;Dinoflagellata;Dinophyceae;Peridiniphycidae	validated
-Ahuja2026__NA37	Nanomia bijuga	37	Amorphea;Amoebozoa;Discosea;Flabellinia;Dactylopodida	validated
-Ahuja2026__NA37	Nanomia bijuga	37	Amorphea;Obazoa;Opisthokonta;Nucletmycea;Fungi	validated
-Ahuja2026__NA37	Nanomia bijuga	37	Archaeplastida;Chloroplastida;Chlorophyta;Trebouxiophyceae	validated
-Ahuja2026__NA37	Nanomia bijuga	37	Arthropoda	high_confidence
-Ahuja2026__NA37	Nanomia bijuga	37	Discoba;Discicristata;Euglenozoa;Kinetoplastea;Prokinetoplastina	validated
-Ahuja2026__WS6	Nanomia septata	38	SAR;Alveolata;Ciliophora;Intramacronucleata;Conthreep	validated
-Ahuja2026__WS6	Nanomia septata	38	SAR;Alveolata;Protalveolata;Syndiniales;Syndiniales Group II	validated
+Ahuja2024__NA4	Praya	38	Arthropoda	high_confidence
+Ahuja2026__NA37	Nanomia bijuga	36	Amorphea;Amoebozoa;Discosea;Flabellinia;Dactylopodida	validated
+Ahuja2026__NA37	Nanomia bijuga	36	Amorphea;Obazoa;Opisthokonta;Nucletmycea;Fungi	validated
+Ahuja2026__NA37	Nanomia bijuga	36	Archaeplastida;Chloroplastida;Chlorophyta;Trebouxiophyceae	validated
+Ahuja2026__NA37	Nanomia bijuga	36	Arthropoda	high_confidence
+Ahuja2026__NA37	Nanomia bijuga	36	Discoba;Discicristata;Euglenozoa;Kinetoplastea;Prokinetoplastina	validated
+Ahuja2026__WS6	Nanomia septata	37	SAR;Alveolata;Ciliophora;Intramacronucleata;Conthreep	validated
+Ahuja2026__WS6	Nanomia septata	37	SAR;Alveolata;Protalveolata;Syndiniales;Syndiniales Group II	validated
 Church2025__NIWA-173305	Physalia minuta	9	Amorphea;Amoebozoa;Discosea;Flabellinia;Dactylopodida	high_confidence
 Church2025__NIWA-173305	Physalia minuta	9	Discoba;Discicristata;Euglenozoa;Kinetoplastea;Prokinetoplastina	high_confidence
 Church2025__TMAG-K5632	Physalia megalista	1	Amorphea;Amoebozoa;Discosea;Flabellinia;Dactylopodida	high_confidence
 Church2025__TMAG-K5632	Physalia megalista	1	Discoba;Discicristata;Euglenozoa;Kinetoplastea;Prokinetoplastina	high_confidence
-Church2025__TMAG-K5632	Physalia megalista	1	Nematozoa	high_confidence
 Church2025__TMAG-K5633	Physalia minuta	10	Discoba;Discicristata;Euglenozoa;Kinetoplastea;Prokinetoplastina	validated
-Church2025__TMAG-K5633	Physalia minuta	10	Nematozoa	high_confidence
 Church2025__WAM-Z97901	Physalia megalista	2	Amorphea;Amoebozoa;Discosea;Flabellinia;Dactylopodida	high_confidence
 Church2025__WAM-Z97901	Physalia megalista	2	Discoba;Discicristata;Euglenozoa;Kinetoplastea;Prokinetoplastina	high_confidence
 Church2025__WAM-Z97902	Physalia utriculus	23	Entoprocta	validated
@@ -60,6 +56,3 @@ Church2025__YPM-IZ-111210	Physalia minuta	17	Amorphea;Amoebozoa;Discosea;Flabell
 Church2025__YPM-IZ-111210	Physalia minuta	17	Discoba;Discicristata;Euglenozoa;Kinetoplastea;Prokinetoplastina	high_confidence
 Church2025__YPM-IZ-111243	Physalia minuta	18	Platyhelminthes	high_confidence
 Church2025__YPM-IZ-111518	Physalia megalista	7	SAR;Stramenopiles;Ochrophyta;Diatomea;Bacillariophytina	validated
-Manko2026__T676-SS3	Bargmannia elongata	39	Amorphea;Obazoa;Opisthokonta;Nucletmycea;Fungi	validated
-Manko2026__T676-SS3	Bargmannia elongata	39	SAR;Alveolata;Protalveolata;Perkinsidae;A31	validated
-Manko2026__T676-SS3	Bargmannia elongata	39	SAR;Stramenopiles;Ochrophyta;Diatomea;Bacillariophytina	validated

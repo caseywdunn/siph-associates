@@ -1,0 +1,1119 @@
+kind	previous_id	current_id	shared_members	status
+mag	MAGSP0001	MAGSP0001	2	retained_id
+mag	MAGSP0002	MAGSP0002	3	retained_id
+mag	MAGSP0003	MAGSP0003	1	retained_id
+mag	MAGSP0004	MAGSP0004	1	retained_id
+mag	MAGSP0005	MAGSP0005	20	retained_id
+mag	MAGSP0006	MAGSP0006	9	retained_id
+mag	MAGSP0007	MAGSP0007	9	retained_id
+mag	MAGSP0008	MAGSP0008	4	retained_id
+mag	MAGSP0009	MAGSP0009	1	retained_id
+mag	MAGSP0010	MAGSP0010	27	retained_id
+mag	MAGSP0011	MAGSP0011	3	retained_id
+mag	MAGSP0012	MAGSP0012	1	retained_id
+mag	MAGSP0013	MAGSP0013	1	retained_id
+mag	MAGSP0014	MAGSP0014	1	retained_id
+mag	MAGSP0015	MAGSP0015	1	retained_id
+mag	MAGSP0016	MAGSP0016	1	retained_id
+mag	MAGSP0017	MAGSP0017	4	retained_id
+mag	MAGSP0018	MAGSP0018	1	retained_id
+mag	MAGSP0019	MAGSP0019	1	retained_id
+mag	MAGSP0020	MAGSP0020	1	retained_id
+mag	MAGSP0021	MAGSP0021	1	retained_id
+mag	MAGSP0022	MAGSP0022	1	retained_id
+mag	MAGSP0023	MAGSP0023	1	retained_id
+mag	MAGSP0024	MAGSP0024	1	retained_id
+mag	MAGSP0025	MAGSP0025	1	retained_id
+mag	MAGSP0026		0	not_retained
+mag	MAGSP0027	MAGSP0027	1	retained_id
+mag	MAGSP0028	MAGSP0028	1	retained_id
+mag	MAGSP0029	MAGSP0029	1	retained_id
+mag	MAGSP0030	MAGSP0030	1	retained_id
+mag	MAGSP0031	MAGSP0031	1	retained_id
+mag	MAGSP0032	MAGSP0032	1	retained_id
+mag		MAGSP0033	0	new
+bacterial	BAC00001	BAC00001	1	retained_id
+bacterial	BAC00002	BAC00002	1	retained_id
+bacterial	BAC00003	BAC00003	1	retained_id
+bacterial	BAC00004	BAC00004	1	retained_id
+bacterial	BAC00005	BAC00005	1	retained_id
+bacterial	BAC00006		0	not_retained
+bacterial	BAC00007	BAC00007	1	retained_id
+bacterial	BAC00008	BAC00008	1	retained_id
+bacterial	BAC00009	BAC00009	1	retained_id
+bacterial	BAC00010	BAC00010	1	retained_id
+bacterial	BAC00011	BAC00011	1	retained_id
+bacterial	BAC00012	BAC00012	1	retained_id
+bacterial	BAC00013	BAC00013	1	retained_id
+bacterial	BAC00014	BAC00014	1	retained_id
+bacterial	BAC00015	BAC00015	1	retained_id
+bacterial	BAC00016	BAC00016	1	retained_id
+bacterial	BAC00017	BAC00017	1	retained_id
+bacterial	BAC00018	BAC00018	1	retained_id
+bacterial	BAC00019	BAC00019	2	retained_id
+bacterial	BAC00020	BAC00020	1	retained_id
+bacterial	BAC00021	BAC00021	1	retained_id
+bacterial	BAC00022	BAC00022	1	retained_id
+bacterial	BAC00023	BAC00023	1	retained_id
+bacterial	BAC00024	BAC00024	1	retained_id
+bacterial	BAC00025	BAC00025	1	retained_id
+bacterial	BAC00026	BAC00026	1	retained_id
+bacterial	BAC00027	BAC00027	1	retained_id
+bacterial	BAC00028	BAC00028	1	retained_id
+bacterial	BAC00029	BAC00029	1	retained_id
+bacterial	BAC00030	BAC00030	1	retained_id
+bacterial	BAC00031	BAC00031	1	retained_id
+bacterial	BAC00032	BAC00032	1	retained_id
+bacterial	BAC00033	BAC00033	1	retained_id
+bacterial	BAC00034	BAC00034	1	retained_id
+bacterial	BAC00035	BAC00035	1	retained_id
+bacterial	BAC00036	BAC00036	1	retained_id
+bacterial	BAC00037	BAC00037	1	retained_id
+bacterial	BAC00038	BAC00038	1	retained_id
+bacterial	BAC00039	BAC00039	1	retained_id
+bacterial	BAC00040	BAC00040	1	retained_id
+bacterial	BAC00041	BAC00041	1	retained_id
+bacterial	BAC00042	BAC00042	1	retained_id
+bacterial	BAC00043	BAC00043	1	retained_id
+bacterial	BAC00044	BAC00044	1	retained_id
+bacterial	BAC00045	BAC00045	1	retained_id
+bacterial	BAC00046	BAC00046	1	retained_id
+bacterial	BAC00047	BAC00047	1	retained_id
+bacterial	BAC00048	BAC00048	1	retained_id
+bacterial	BAC00049	BAC00049	1	retained_id
+bacterial	BAC00050	BAC00050	1	retained_id
+bacterial	BAC00051	BAC00051	1	retained_id
+bacterial	BAC00052	BAC00052	1	retained_id
+bacterial	BAC00053	BAC00053	1	retained_id
+bacterial	BAC00054	BAC00054	1	retained_id
+bacterial	BAC00055	BAC00055	1	retained_id
+bacterial	BAC00056	BAC00056	1	retained_id
+bacterial	BAC00057	BAC00057	1	retained_id
+bacterial	BAC00058	BAC00058	1	retained_id
+bacterial	BAC00059	BAC00059	1	retained_id
+bacterial	BAC00060	BAC00060	1	retained_id
+bacterial	BAC00061	BAC00061	1	retained_id
+bacterial	BAC00062	BAC00062	1	retained_id
+bacterial	BAC00063	BAC00063	1	retained_id
+bacterial	BAC00064	BAC00064	1	retained_id
+bacterial	BAC00065	BAC00065	1	retained_id
+bacterial	BAC00066	BAC00066	1	retained_id
+bacterial	BAC00067	BAC00067	1	retained_id
+bacterial	BAC00068	BAC00068	1	retained_id
+bacterial	BAC00069	BAC00069	1	retained_id
+bacterial	BAC00070	BAC00070	1	retained_id
+bacterial	BAC00071	BAC00071	1	retained_id
+bacterial	BAC00072	BAC00072	1	retained_id
+bacterial	BAC00073	BAC00073	1	retained_id
+bacterial	BAC00074	BAC00074	1	retained_id
+bacterial	BAC00075	BAC00075	1	retained_id
+bacterial	BAC00076	BAC00076	1	retained_id
+bacterial	BAC00077	BAC00077	1	retained_id
+bacterial	BAC00078	BAC00078	1	retained_id
+bacterial	BAC00079	BAC00079	1	retained_id
+bacterial	BAC00080	BAC00080	1	retained_id
+bacterial	BAC00081	BAC00081	1	retained_id
+bacterial	BAC00082	BAC00082	1	retained_id
+bacterial	BAC00083	BAC00083	1	retained_id
+bacterial	BAC00084	BAC00084	1	retained_id
+bacterial	BAC00085	BAC00085	1	retained_id
+bacterial	BAC00086	BAC00086	1	retained_id
+bacterial	BAC00087	BAC00087	1	retained_id
+bacterial	BAC00088	BAC00088	1	retained_id
+bacterial	BAC00089	BAC00089	1	retained_id
+bacterial	BAC00090	BAC00090	1	retained_id
+bacterial	BAC00091	BAC00091	1	retained_id
+bacterial	BAC00092	BAC00092	1	retained_id
+bacterial	BAC00093	BAC00093	1	retained_id
+bacterial	BAC00094	BAC00094	1	retained_id
+bacterial	BAC00095	BAC00095	1	retained_id
+bacterial	BAC00096	BAC00096	1	retained_id
+bacterial	BAC00097	BAC00097	1	retained_id
+bacterial	BAC00098	BAC00098	1	retained_id
+bacterial	BAC00099	BAC00099	1	retained_id
+bacterial	BAC00100	BAC00100	2	retained_id
+bacterial	BAC00101	BAC00101	1	retained_id
+bacterial	BAC00102	BAC00102	1	retained_id
+bacterial	BAC00103	BAC00103	1	retained_id
+bacterial	BAC00104	BAC00104	1	retained_id
+bacterial	BAC00105	BAC00105	1	retained_id
+bacterial	BAC00106	BAC00106	1	retained_id
+bacterial	BAC00107	BAC00107	1	retained_id
+bacterial	BAC00108	BAC00108	1	retained_id
+bacterial	BAC00109	BAC00109	1	retained_id
+bacterial	BAC00110	BAC00110	1	retained_id
+bacterial	BAC00111	BAC00111	1	retained_id
+bacterial	BAC00112	BAC00112	1	retained_id
+bacterial	BAC00113	BAC00113	1	retained_id
+bacterial	BAC00114	BAC00114	1	retained_id
+bacterial	BAC00115	BAC00115	1	retained_id
+bacterial	BAC00116	BAC00116	1	retained_id
+bacterial	BAC00117	BAC00117	1	retained_id
+bacterial	BAC00118	BAC00118	1	retained_id
+bacterial	BAC00119	BAC00119	2	retained_id
+bacterial	BAC00120	BAC00120	1	retained_id
+bacterial	BAC00121	BAC00121	1	retained_id
+bacterial	BAC00122	BAC00122	1	retained_id
+bacterial	BAC00123	BAC00123	1	retained_id
+bacterial	BAC00124	BAC00124	1	retained_id
+bacterial	BAC00125	BAC00125	2	retained_id
+bacterial	BAC00126	BAC00126	1	retained_id
+bacterial	BAC00127	BAC00127	1	retained_id
+bacterial	BAC00128	BAC00128	1	retained_id
+bacterial	BAC00129	BAC00129	2	retained_id
+bacterial	BAC00130	BAC00130	2	retained_id
+bacterial	BAC00131	BAC00131	1	retained_id
+bacterial	BAC00132	BAC00132	1	retained_id
+bacterial	BAC00133	BAC00133	1	retained_id
+bacterial	BAC00134	BAC00134	1	retained_id
+bacterial	BAC00135	BAC00135	1	retained_id
+bacterial	BAC00136	BAC00136	1	retained_id
+bacterial	BAC00137	BAC00137	1	retained_id
+bacterial	BAC00138	BAC00138	1	retained_id
+bacterial	BAC00139	BAC00139	1	retained_id
+bacterial	BAC00140	BAC00140	1	retained_id
+bacterial	BAC00141	BAC00141	1	retained_id
+bacterial	BAC00142	BAC00142	1	retained_id
+bacterial	BAC00143	BAC00143	1	retained_id
+bacterial	BAC00144	BAC00144	1	retained_id
+bacterial	BAC00145	BAC00145	1	retained_id
+bacterial	BAC00146	BAC00146	1	retained_id
+bacterial	BAC00147	BAC00147	1	retained_id
+bacterial	BAC00148	BAC00148	2	retained_id
+bacterial	BAC00149	BAC00149	1	retained_id
+bacterial	BAC00150	BAC00150	1	retained_id
+bacterial	BAC00151	BAC00151	1	retained_id
+bacterial	BAC00152	BAC00152	1	retained_id
+bacterial	BAC00153	BAC00153	1	retained_id
+bacterial	BAC00154	BAC00154	1	retained_id
+bacterial	BAC00155	BAC00155	1	retained_id
+bacterial	BAC00156	BAC00156	1	retained_id
+bacterial	BAC00157	BAC00157	1	retained_id
+bacterial	BAC00158	BAC00158	2	retained_id
+bacterial	BAC00159	BAC00159	1	retained_id
+bacterial	BAC00160	BAC00160	1	retained_id
+bacterial	BAC00161	BAC00161	1	retained_id
+bacterial	BAC00162	BAC00162	1	retained_id
+bacterial	BAC00163	BAC00163	1	retained_id
+bacterial	BAC00164	BAC00164	1	retained_id
+bacterial	BAC00165	BAC00165	1	retained_id
+bacterial	BAC00166	BAC00166	1	retained_id
+bacterial	BAC00167	BAC00167	1	retained_id
+bacterial	BAC00168	BAC00168	1	retained_id
+bacterial	BAC00169	BAC00169	1	retained_id
+bacterial	BAC00170	BAC00170	1	retained_id
+bacterial	BAC00171	BAC00171	1	retained_id
+bacterial	BAC00172	BAC00172	1	retained_id
+bacterial	BAC00173	BAC00173	1	retained_id
+bacterial	BAC00174	BAC00174	1	retained_id
+bacterial	BAC00175	BAC00175	1	retained_id
+bacterial	BAC00176	BAC00176	1	retained_id
+bacterial	BAC00177	BAC00177	1	retained_id
+bacterial	BAC00178	BAC00178	1	retained_id
+bacterial	BAC00179	BAC00179	1	retained_id
+bacterial	BAC00180	BAC00180	1	retained_id
+bacterial	BAC00181	BAC00181	2	retained_id
+bacterial	BAC00182	BAC00182	1	retained_id
+bacterial	BAC00183	BAC00183	1	retained_id
+bacterial	BAC00184	BAC00184	1	retained_id
+bacterial	BAC00185	BAC00185	1	retained_id
+bacterial	BAC00186	BAC00186	1	retained_id
+bacterial	BAC00187	BAC00187	1	retained_id
+bacterial	BAC00188	BAC00188	1	retained_id
+bacterial	BAC00189	BAC00189	1	retained_id
+bacterial	BAC00190	BAC00190	1	retained_id
+bacterial	BAC00191	BAC00191	1	retained_id
+bacterial	BAC00192	BAC00192	2	retained_id
+bacterial	BAC00193	BAC00193	1	retained_id
+bacterial	BAC00194	BAC00194	1	retained_id
+bacterial	BAC00195	BAC00195	1	retained_id
+bacterial	BAC00196	BAC00196	1	retained_id
+bacterial	BAC00197	BAC00197	1	retained_id
+bacterial	BAC00198	BAC00198	1	retained_id
+bacterial	BAC00199	BAC00199	1	retained_id
+bacterial	BAC00200	BAC00200	1	retained_id
+bacterial	BAC00201	BAC00201	1	retained_id
+bacterial	BAC00202	BAC00202	1	retained_id
+bacterial	BAC00203	BAC00203	1	retained_id
+bacterial	BAC00204	BAC00204	1	retained_id
+bacterial	BAC00205	BAC00205	1	retained_id
+bacterial	BAC00206	BAC00206	1	retained_id
+bacterial	BAC00207	BAC00207	1	retained_id
+bacterial	BAC00208	BAC00208	1	retained_id
+bacterial	BAC00209	BAC00209	1	retained_id
+bacterial	BAC00210	BAC00210	1	retained_id
+bacterial	BAC00211	BAC00211	1	retained_id
+bacterial	BAC00212	BAC00212	1	retained_id
+bacterial	BAC00213	BAC00213	1	retained_id
+bacterial	BAC00214	BAC00214	1	retained_id
+bacterial	BAC00215	BAC00215	1	retained_id
+bacterial	BAC00216	BAC00216	1	retained_id
+bacterial	BAC00217	BAC00217	1	retained_id
+bacterial	BAC00218	BAC00218	1	retained_id
+bacterial	BAC00219	BAC00219	1	retained_id
+bacterial	BAC00220	BAC00220	1	retained_id
+bacterial	BAC00221	BAC00221	1	retained_id
+bacterial	BAC00222	BAC00222	1	retained_id
+bacterial	BAC00223	BAC00223	1	retained_id
+bacterial	BAC00224	BAC00224	1	retained_id
+bacterial	BAC00225	BAC00225	2	retained_id
+bacterial	BAC00226	BAC00226	1	retained_id
+bacterial	BAC00227	BAC00227	3	retained_id
+bacterial	BAC00228	BAC00228	1	retained_id
+bacterial	BAC00229	BAC00229	1	retained_id
+bacterial	BAC00230	BAC00230	1	retained_id
+bacterial	BAC00231	BAC00231	1	retained_id
+bacterial	BAC00232	BAC00232	1	retained_id
+bacterial	BAC00233	BAC00233	1	retained_id
+bacterial	BAC00234	BAC00234	1	retained_id
+bacterial	BAC00235	BAC00235	2	retained_id
+bacterial	BAC00236	BAC00236	1	retained_id
+bacterial	BAC00237	BAC00237	1	retained_id
+bacterial	BAC00238	BAC00238	1	retained_id
+bacterial	BAC00239	BAC00239	1	retained_id
+bacterial	BAC00240	BAC00240	1	retained_id
+bacterial	BAC00241	BAC00241	1	retained_id
+bacterial	BAC00242	BAC00242	1	retained_id
+bacterial	BAC00243	BAC00243	1	retained_id
+bacterial	BAC00244	BAC00244	1	retained_id
+bacterial	BAC00245	BAC00245	1	retained_id
+bacterial	BAC00246	BAC00246	2	retained_id
+bacterial	BAC00247	BAC00247	1	retained_id
+bacterial	BAC00248	BAC00248	2	retained_id
+bacterial	BAC00249	BAC00249	3	retained_id
+bacterial	BAC00250	BAC00250	2	retained_id
+bacterial	BAC00251	BAC00251	1	retained_id
+bacterial	BAC00252	BAC00252	1	retained_id
+bacterial	BAC00253	BAC00253	2	retained_id
+bacterial	BAC00254	BAC00254	2	retained_id
+bacterial	BAC00255	BAC00255	2	retained_id
+bacterial	BAC00256	BAC00256	1	retained_id
+bacterial	BAC00257	BAC00257	1	retained_id
+bacterial	BAC00258	BAC00258	1	retained_id
+bacterial	BAC00259	BAC00259	1	retained_id
+bacterial	BAC00260	BAC00260	1	retained_id
+bacterial	BAC00261	BAC00261	1	retained_id
+bacterial	BAC00262	BAC00262	1	retained_id
+bacterial	BAC00263	BAC00263	1	retained_id
+bacterial	BAC00264	BAC00264	1	retained_id
+bacterial	BAC00265	BAC00265	1	retained_id
+bacterial	BAC00266	BAC00266	2	retained_id
+bacterial	BAC00267	BAC00267	1	retained_id
+bacterial	BAC00268	BAC00268	3	retained_id
+bacterial	BAC00269	BAC00269	2	retained_id
+bacterial	BAC00270	BAC00270	1	retained_id
+bacterial	BAC00271	BAC00271	1	retained_id
+bacterial	BAC00272	BAC00272	2	retained_id
+bacterial	BAC00273	BAC00273	1	retained_id
+bacterial	BAC00274	BAC00274	1	retained_id
+bacterial	BAC00275	BAC00275	1	retained_id
+bacterial	BAC00276	BAC00276	1	retained_id
+bacterial	BAC00277	BAC00277	1	retained_id
+bacterial	BAC00278	BAC00278	2	retained_id
+bacterial	BAC00279	BAC00279	1	retained_id
+bacterial	BAC00280	BAC00280	1	retained_id
+bacterial	BAC00281	BAC00281	1	retained_id
+bacterial	BAC00282	BAC00282	1	retained_id
+bacterial	BAC00283	BAC00283	1	retained_id
+bacterial	BAC00284	BAC00284	1	retained_id
+bacterial	BAC00285	BAC00285	1	retained_id
+bacterial	BAC00286	BAC00286	1	retained_id
+bacterial	BAC00287	BAC00287	1	retained_id
+bacterial	BAC00288	BAC00288	1	retained_id
+bacterial	BAC00289	BAC00289	2	retained_id
+bacterial	BAC00290	BAC00290	1	retained_id
+bacterial	BAC00291	BAC00291	1	retained_id
+bacterial	BAC00292	BAC00292	1	retained_id
+bacterial	BAC00293	BAC00293	1	retained_id
+bacterial	BAC00294	BAC00294	1	retained_id
+bacterial	BAC00295	BAC00295	2	retained_id
+bacterial	BAC00296	BAC00296	1	retained_id
+bacterial	BAC00297	BAC00297	1	retained_id
+bacterial	BAC00298	BAC00298	1	retained_id
+bacterial	BAC00299	BAC00299	1	retained_id
+bacterial	BAC00300	BAC00300	1	retained_id
+bacterial	BAC00301	BAC00301	1	retained_id
+bacterial	BAC00302	BAC00302	3	retained_id
+bacterial	BAC00303	BAC00303	1	retained_id
+bacterial	BAC00304	BAC00304	1	retained_id
+bacterial	BAC00305	BAC00305	1	retained_id
+bacterial	BAC00306	BAC00306	1	retained_id
+bacterial	BAC00307	BAC00307	1	retained_id
+bacterial	BAC00308	BAC00308	3	retained_id
+bacterial	BAC00309	BAC00309	2	retained_id
+bacterial	BAC00310	BAC00310	1	retained_id
+bacterial	BAC00311	BAC00311	1	retained_id
+bacterial	BAC00312	BAC00312	1	retained_id
+bacterial	BAC00313	BAC00313	1	retained_id
+bacterial	BAC00314	BAC00314	2	retained_id
+bacterial	BAC00315	BAC00315	1	retained_id
+bacterial	BAC00316	BAC00316	1	retained_id
+bacterial	BAC00317	BAC00317	2	retained_id
+bacterial	BAC00318	BAC00318	1	retained_id
+bacterial	BAC00319	BAC00319	1	retained_id
+bacterial	BAC00320	BAC00320	1	retained_id
+bacterial	BAC00321	BAC00321	1	retained_id
+bacterial	BAC00322	BAC00322	1	retained_id
+bacterial	BAC00323	BAC00323	2	retained_id
+bacterial	BAC00324	BAC00324	1	retained_id
+bacterial	BAC00325	BAC00325	1	retained_id
+bacterial	BAC00326	BAC00326	1	retained_id
+bacterial	BAC00327	BAC00327	1	retained_id
+bacterial	BAC00328	BAC00328	2	retained_id
+bacterial	BAC00329	BAC00329	1	retained_id
+bacterial	BAC00330	BAC00330	1	retained_id
+bacterial	BAC00331	BAC00331	1	retained_id
+bacterial	BAC00332	BAC00332	1	retained_id
+bacterial	BAC00333	BAC00333	1	retained_id
+bacterial	BAC00334	BAC00334	1	retained_id
+bacterial	BAC00335	BAC00335	1	retained_id
+bacterial	BAC00336	BAC00336	1	retained_id
+bacterial	BAC00337	BAC00337	2	retained_id
+bacterial	BAC00338	BAC00338	1	retained_id
+bacterial	BAC00339	BAC00339	1	retained_id
+bacterial	BAC00340	BAC00340	1	retained_id
+bacterial	BAC00341	BAC00341	1	retained_id
+bacterial	BAC00342	BAC00342	1	retained_id
+bacterial	BAC00343	BAC00343	1	retained_id
+bacterial	BAC00344	BAC00344	1	retained_id
+bacterial	BAC00345	BAC00345	1	retained_id
+bacterial	BAC00346	BAC00346	1	retained_id
+bacterial	BAC00347	BAC00347	1	retained_id
+bacterial	BAC00348	BAC00348	1	retained_id
+bacterial	BAC00349	BAC00349	1	retained_id
+bacterial	BAC00350	BAC00350	1	retained_id
+bacterial	BAC00351	BAC00351	1	retained_id
+bacterial	BAC00352	BAC00352	1	retained_id
+bacterial	BAC00353	BAC00353	1	retained_id
+bacterial	BAC00354	BAC00354	1	retained_id
+bacterial	BAC00355	BAC00355	1	retained_id
+bacterial	BAC00356	BAC00356	2	retained_id
+bacterial	BAC00357	BAC00357	1	retained_id
+bacterial	BAC00358	BAC00358	1	retained_id
+bacterial	BAC00359	BAC00359	1	retained_id
+bacterial	BAC00360	BAC00360	1	retained_id
+bacterial	BAC00361	BAC00361	1	retained_id
+bacterial	BAC00362	BAC00362	1	retained_id
+bacterial	BAC00363	BAC00363	1	retained_id
+bacterial	BAC00364	BAC00364	1	retained_id
+bacterial	BAC00365	BAC00365	1	retained_id
+bacterial	BAC00366	BAC00366	1	retained_id
+bacterial	BAC00367	BAC00367	1	retained_id
+bacterial	BAC00368	BAC00368	1	retained_id
+bacterial	BAC00369	BAC00369	1	retained_id
+bacterial	BAC00370	BAC00370	1	retained_id
+bacterial	BAC00371	BAC00371	1	retained_id
+bacterial	BAC00372	BAC00372	2	retained_id
+bacterial	BAC00373	BAC00373	1	retained_id
+bacterial	BAC00374	BAC00374	1	retained_id
+bacterial	BAC00375	BAC00375	1	retained_id
+bacterial	BAC00376	BAC00376	1	retained_id
+bacterial	BAC00377	BAC00377	1	retained_id
+bacterial	BAC00378	BAC00378	1	retained_id
+bacterial	BAC00379	BAC00379	1	retained_id
+bacterial	BAC00380	BAC00380	1	retained_id
+bacterial	BAC00381	BAC00381	1	retained_id
+bacterial	BAC00382	BAC00382	1	retained_id
+bacterial	BAC00383	BAC00383	1	retained_id
+bacterial	BAC00384	BAC00384	4	retained_id
+bacterial	BAC00385	BAC00385	1	retained_id
+bacterial	BAC00386	BAC00386	1	retained_id
+bacterial	BAC00387	BAC00387	1	retained_id
+bacterial	BAC00388	BAC00388	1	retained_id
+bacterial	BAC00389	BAC00389	1	retained_id
+bacterial	BAC00390	BAC00390	1	retained_id
+bacterial	BAC00391	BAC00391	1	retained_id
+bacterial	BAC00392	BAC00392	1	retained_id
+bacterial	BAC00393	BAC00393	1	retained_id
+bacterial	BAC00394	BAC00394	2	retained_id
+bacterial	BAC00395	BAC00395	1	retained_id
+bacterial	BAC00396	BAC00396	1	retained_id
+bacterial	BAC00397	BAC00397	1	retained_id
+bacterial	BAC00398	BAC00398	1	retained_id
+bacterial	BAC00399	BAC00399	2	retained_id
+bacterial	BAC00400	BAC00400	2	retained_id
+bacterial	BAC00401	BAC00401	1	retained_id
+bacterial	BAC00402	BAC00402	1	retained_id
+bacterial	BAC00403	BAC00403	2	retained_id
+bacterial	BAC00404	BAC00404	1	retained_id
+bacterial	BAC00405	BAC00405	1	retained_id
+bacterial	BAC00406	BAC00406	1	retained_id
+bacterial	BAC00407	BAC00407	1	retained_id
+bacterial	BAC00408	BAC00408	2	retained_id
+bacterial	BAC00409	BAC00409	2	retained_id
+bacterial	BAC00410	BAC00410	1	retained_id
+bacterial	BAC00411	BAC00411	1	retained_id
+bacterial	BAC00412	BAC00412	1	retained_id
+bacterial	BAC00413	BAC00413	1	retained_id
+bacterial	BAC00414	BAC00414	1	retained_id
+bacterial	BAC00415	BAC00415	1	retained_id
+bacterial	BAC00416	BAC00416	1	retained_id
+bacterial	BAC00417	BAC00417	1	retained_id
+bacterial	BAC00418	BAC00418	1	retained_id
+bacterial	BAC00419	BAC00419	1	retained_id
+bacterial	BAC00420	BAC00420	1	retained_id
+bacterial	BAC00421	BAC00421	1	retained_id
+bacterial	BAC00422	BAC00422	1	retained_id
+bacterial	BAC00423	BAC00423	1	retained_id
+bacterial	BAC00424	BAC00424	1	retained_id
+bacterial	BAC00425	BAC00425	1	retained_id
+bacterial	BAC00426	BAC00426	1	retained_id
+bacterial	BAC00427	BAC00427	1	retained_id
+bacterial	BAC00428	BAC00428	1	retained_id
+bacterial	BAC00429	BAC00429	1	retained_id
+bacterial	BAC00430	BAC00430	1	retained_id
+bacterial	BAC00431	BAC00431	1	retained_id
+bacterial	BAC00432	BAC00432	1	retained_id
+bacterial	BAC00433	BAC00433	1	retained_id
+bacterial	BAC00434	BAC00434	1	retained_id
+bacterial	BAC00435	BAC00435	1	retained_id
+bacterial	BAC00436	BAC00436	1	retained_id
+bacterial	BAC00437	BAC00437	1	retained_id
+bacterial	BAC00438	BAC00438	1	retained_id
+bacterial	BAC00439	BAC00439	1	retained_id
+bacterial	BAC00440	BAC00440	1	retained_id
+bacterial	BAC00441	BAC00441	1	retained_id
+bacterial	BAC00442	BAC00442	1	retained_id
+bacterial	BAC00443	BAC00443	1	retained_id
+bacterial	BAC00444	BAC00444	1	retained_id
+bacterial	BAC00445	BAC00445	1	retained_id
+bacterial	BAC00446	BAC00446	2	retained_id
+bacterial	BAC00447	BAC00447	2	retained_id
+bacterial	BAC00448	BAC00448	1	retained_id
+bacterial	DEC001	DEC001	1	retained_id
+bacterial	DEC002	DEC002	1	retained_id
+bacterial	DEC003	DEC003	1	retained_id
+bacterial	DEC004	DEC004	1	retained_id
+bacterial	DEC005	DEC005	1	retained_id
+bacterial	DEC006	DEC006	1	retained_id
+bacterial	DEC007	DEC007	1	retained_id
+bacterial	DEC008	DEC008	1	retained_id
+bacterial	DEC009	DEC009	1	retained_id
+bacterial	DEC010	DEC010	1	retained_id
+bacterial	DEC011	DEC011	1	retained_id
+bacterial	DEC012	DEC012	1	retained_id
+bacterial	DEC013	DEC013	1	retained_id
+bacterial	DEC014	DEC014	1	retained_id
+bacterial	DEC015	DEC015	1	retained_id
+bacterial	DEC016	DEC016	1	retained_id
+bacterial	DEC017	DEC017	1	retained_id
+bacterial	DEC018	DEC018	1	retained_id
+bacterial	DEC019	DEC019	1	retained_id
+bacterial	DEC020	DEC020	1	retained_id
+bacterial		BAC00449	0	new
+bacterial		BAC00450	0	new
+bacterial		BAC00451	0	new
+bacterial		BAC00452	0	new
+bacterial		BAC00453	0	new
+bacterial		BAC00454	0	new
+bacterial		BAC00455	0	new
+bacterial		BAC00456	0	new
+bacterial		BAC00457	0	new
+bacterial		BAC00458	0	new
+bacterial		BAC00459	0	new
+bacterial		BAC00460	0	new
+bacterial		BAC00461	0	new
+bacterial		BAC00462	0	new
+bacterial		BAC00463	0	new
+bacterial		BAC00464	0	new
+bacterial		BAC00465	0	new
+bacterial		BAC00466	0	new
+bacterial		BAC00467	0	new
+bacterial		BAC00468	0	new
+bacterial		BAC00469	0	new
+bacterial		BAC00470	0	new
+bacterial		BAC00471	0	new
+bacterial		BAC00472	0	new
+bacterial		BAC00473	0	new
+bacterial		BAC00474	0	new
+bacterial		BAC00475	0	new
+bacterial		BAC00476	0	new
+bacterial		BAC00477	0	new
+bacterial		BAC00478	0	new
+bacterial		BAC00479	0	new
+viral	VOTU00001	VOTU00001	1	retained_id
+viral	VOTU00002	VOTU00002	1	retained_id
+viral	VOTU00003	VOTU00003	1	retained_id
+viral	VOTU00004	VOTU00004	1	retained_id
+viral	VOTU00005	VOTU00005	1	retained_id
+viral	VOTU00006	VOTU00006	1	retained_id
+viral	VOTU00007	VOTU00007	1	retained_id
+viral	VOTU00008	VOTU00008	1	retained_id
+viral	VOTU00009	VOTU00009	1	retained_id
+viral	VOTU00010	VOTU00010	1	retained_id
+viral	VOTU00011	VOTU00011	1	retained_id
+viral	VOTU00012	VOTU00012	23	retained_id
+viral	VOTU00013	VOTU00013	1	retained_id
+viral	VOTU00014	VOTU00014	2	retained_id
+viral	VOTU00015	VOTU00015	1	retained_id
+viral	VOTU00016	VOTU00016	1	retained_id
+viral	VOTU00017	VOTU00017	1	retained_id
+viral	VOTU00018	VOTU00018	1	retained_id
+viral	VOTU00019	VOTU00019	3	retained_id
+viral	VOTU00020	VOTU00020	1	retained_id
+viral	VOTU00021	VOTU00021	1	retained_id
+viral	VOTU00022	VOTU00022	2	retained_id
+viral	VOTU00023	VOTU00023	1	retained_id
+viral	VOTU00024	VOTU00024	1	retained_id
+viral	VOTU00025	VOTU00025	6	retained_id
+viral	VOTU00026	VOTU00026	1	retained_id
+viral	VOTU00027	VOTU00027	2	retained_id
+viral	VOTU00028	VOTU00028	1	retained_id
+viral	VOTU00029	VOTU00029	1	retained_id
+viral	VOTU00030	VOTU00030	1	retained_id
+viral	VOTU00031	VOTU00031	7	retained_id
+viral	VOTU00032	VOTU00032	1	retained_id
+viral	VOTU00033	VOTU00033	1	retained_id
+viral	VOTU00034	VOTU00034	4	retained_id
+viral	VOTU00035	VOTU00035	1	retained_id
+viral	VOTU00036	VOTU00036	3	retained_id
+viral	VOTU00037	VOTU00037	3	retained_id
+viral	VOTU00038	VOTU00038	1	retained_id
+viral	VOTU00039	VOTU00039	1	retained_id
+viral	VOTU00040	VOTU00040	4	retained_id
+viral	VOTU00041	VOTU00041	4	retained_id
+viral	VOTU00042	VOTU00042	1	retained_id
+viral	VOTU00043	VOTU00043	4	retained_id
+viral	VOTU00044	VOTU00044	1	retained_id
+viral	VOTU00045	VOTU00045	2	retained_id
+viral	VOTU00046	VOTU00046	3	retained_id
+viral	VOTU00047	VOTU00047	1	retained_id
+viral	VOTU00048	VOTU00048	3	retained_id
+viral	VOTU00049	VOTU00049	1	retained_id
+viral	VOTU00050	VOTU00050	2	retained_id
+viral	VOTU00051	VOTU00051	4	retained_id
+viral	VOTU00052	VOTU00052	1	retained_id
+viral	VOTU00053	VOTU00053	1	retained_id
+viral	VOTU00054	VOTU00054	1	retained_id
+viral	VOTU00055	VOTU00055	2	retained_id
+viral	VOTU00056	VOTU00056	1	retained_id
+viral	VOTU00057	VOTU00057	1	retained_id
+viral	VOTU00058	VOTU00058	1	retained_id
+viral	VOTU00059	VOTU00059	1	retained_id
+viral	VOTU00060	VOTU00060	1	retained_id
+viral	VOTU00061	VOTU00061	1	retained_id
+viral	VOTU00062	VOTU00062	1	retained_id
+viral	VOTU00063	VOTU00063	1	retained_id
+viral	VOTU00064	VOTU00064	1	retained_id
+viral	VOTU00065	VOTU00065	1	retained_id
+viral	VOTU00066	VOTU00066	4	retained_id
+viral	VOTU00067	VOTU00067	1	retained_id
+viral	VOTU00068	VOTU00068	1	retained_id
+viral	VOTU00069	VOTU00027	1	changed_cluster
+viral	VOTU00070	VOTU00070	1	retained_id
+viral	VOTU00071	VOTU00071	2	retained_id
+viral	VOTU00072	VOTU00072	1	retained_id
+viral	VOTU00073	VOTU00073	1	retained_id
+viral	VOTU00074	VOTU00074	1	retained_id
+viral	VOTU00075	VOTU00075	1	retained_id
+viral	VOTU00076	VOTU00076	1	retained_id
+viral	VOTU00077	VOTU00077	1	retained_id
+viral	VOTU00078	VOTU00078	1	retained_id
+viral	VOTU00079	VOTU00079	1	retained_id
+viral	VOTU00080	VOTU00080	1	retained_id
+viral	VOTU00081	VOTU00081	1	retained_id
+viral	VOTU00082	VOTU00082	1	retained_id
+viral	VOTU00083	VOTU00083	1	retained_id
+viral	VOTU00084	VOTU00084	1	retained_id
+viral	VOTU00085	VOTU00085	1	retained_id
+viral	VOTU00086	VOTU00086	1	retained_id
+viral	VOTU00087	VOTU00087	1	retained_id
+viral	VOTU00088	VOTU00088	1	retained_id
+viral	VOTU00089	VOTU00089	1	retained_id
+viral	VOTU00090	VOTU00090	1	retained_id
+viral	VOTU00091	VOTU00091	1	retained_id
+viral	VOTU00092	VOTU00092	1	retained_id
+viral	VOTU00093	VOTU00093	1	retained_id
+viral	VOTU00094	VOTU00094	1	retained_id
+viral	VOTU00095	VOTU00095	5	retained_id
+viral	VOTU00096	VOTU00096	1	retained_id
+viral	VOTU00097	VOTU00097	1	retained_id
+viral	VOTU00098	VOTU00098	1	retained_id
+viral	VOTU00099	VOTU00099	1	retained_id
+viral	VOTU00100	VOTU00100	1	retained_id
+viral	VOTU00101	VOTU00101	1	retained_id
+viral	VOTU00102	VOTU00102	1	retained_id
+viral	VOTU00103	VOTU00103	1	retained_id
+viral	VOTU00104	VOTU00104	1	retained_id
+viral	VOTU00105	VOTU00105	1	retained_id
+viral	VOTU00106	VOTU00106	1	retained_id
+viral	VOTU00107	VOTU00107	1	retained_id
+viral	VOTU00108	VOTU00108	1	retained_id
+viral	VOTU00109	VOTU00109	1	retained_id
+viral	VOTU00110	VOTU00110	1	retained_id
+viral	VOTU00111	VOTU00111	1	retained_id
+viral	VOTU00112	VOTU00112	1	retained_id
+viral	VOTU00113	VOTU00113	1	retained_id
+viral	VOTU00114	VOTU00114	1	retained_id
+viral	VOTU00115	VOTU00115	1	retained_id
+viral	VOTU00116	VOTU00116	1	retained_id
+viral	VOTU00117	VOTU00117	1	retained_id
+viral	VOTU00118	VOTU00118	1	retained_id
+viral	VOTU00119	VOTU00119	1	retained_id
+viral	VOTU00120	VOTU00120	2	retained_id
+viral	VOTU00121	VOTU00121	1	retained_id
+viral	VOTU00122	VOTU00122	1	retained_id
+viral	VOTU00123	VOTU00123	1	retained_id
+viral	VOTU00124	VOTU00124	1	retained_id
+viral	VOTU00125	VOTU00125	1	retained_id
+viral	VOTU00126	VOTU00126	1	retained_id
+viral	VOTU00127	VOTU00127	1	retained_id
+viral	VOTU00128	VOTU00128	1	retained_id
+viral	VOTU00129	VOTU00129	2	retained_id
+viral	VOTU00130	VOTU00130	1	retained_id
+viral	VOTU00131	VOTU00131	1	retained_id
+viral	VOTU00132	VOTU00132	1	retained_id
+viral	VOTU00133	VOTU00133	2	retained_id
+viral	VOTU00134	VOTU00134	1	retained_id
+viral	VOTU00135	VOTU00135	1	retained_id
+viral	VOTU00136	VOTU00136	1	retained_id
+viral	VOTU00137	VOTU00137	1	retained_id
+viral	VOTU00138	VOTU00138	1	retained_id
+viral	VOTU00139	VOTU00139	1	retained_id
+viral	VOTU00140	VOTU00140	1	retained_id
+viral	VOTU00141	VOTU00141	1	retained_id
+viral	VOTU00142	VOTU00142	1	retained_id
+viral	VOTU00143	VOTU00143	1	retained_id
+viral	VOTU00144	VOTU00144	2	retained_id
+viral	VOTU00145	VOTU00145	1	retained_id
+viral	VOTU00146	VOTU00146	1	retained_id
+viral	VOTU00147	VOTU00147	1	retained_id
+viral	VOTU00148	VOTU00148	1	retained_id
+viral	VOTU00149	VOTU00149	1	retained_id
+viral	VOTU00150	VOTU00150	1	retained_id
+viral	VOTU00151	VOTU00151	1	retained_id
+viral	VOTU00152	VOTU00152	1	retained_id
+viral	VOTU00153	VOTU00153	1	retained_id
+viral	VOTU00154	VOTU00154	1	retained_id
+viral	VOTU00155	VOTU00155	1	retained_id
+viral	VOTU00156	VOTU00156	2	retained_id
+viral	VOTU00157	VOTU00157	1	retained_id
+viral	VOTU00158	VOTU00158	1	retained_id
+viral	VOTU00159	VOTU00159	1	retained_id
+viral	VOTU00160	VOTU00160	1	retained_id
+viral	VOTU00161	VOTU00161	1	retained_id
+viral	VOTU00162	VOTU00162	1	retained_id
+viral	VOTU00163	VOTU00163	1	retained_id
+viral	VOTU00164	VOTU00164	1	retained_id
+viral	VOTU00165	VOTU00165	1	retained_id
+viral	VOTU00166	VOTU00166	1	retained_id
+viral	VOTU00167	VOTU00167	2	retained_id
+viral	VOTU00168	VOTU00168	1	retained_id
+viral	VOTU00169	VOTU00169	1	retained_id
+viral	VOTU00170	VOTU00170	1	retained_id
+viral	VOTU00171	VOTU00171	1	retained_id
+viral	VOTU00172	VOTU00172	1	retained_id
+viral	VOTU00173	VOTU00173	1	retained_id
+viral	VOTU00174	VOTU00174	1	retained_id
+viral	VOTU00175	VOTU00175	1	retained_id
+viral	VOTU00176	VOTU00176	1	retained_id
+viral	VOTU00177	VOTU00177	1	retained_id
+viral	VOTU00178	VOTU00178	1	retained_id
+viral	VOTU00179	VOTU00179	1	retained_id
+viral	VOTU00180	VOTU00180	1	retained_id
+viral	VOTU00181	VOTU00181	1	retained_id
+viral	VOTU00182	VOTU00182	1	retained_id
+viral	VOTU00183	VOTU00183	1	retained_id
+viral	VOTU00184	VOTU00184	1	retained_id
+viral	VOTU00185	VOTU00185	1	retained_id
+viral	VOTU00186	VOTU00186	1	retained_id
+viral	VOTU00187	VOTU00187	1	retained_id
+viral	VOTU00188	VOTU00188	1	retained_id
+viral	VOTU00189	VOTU00189	1	retained_id
+viral	VOTU00190	VOTU00190	1	retained_id
+viral	VOTU00191	VOTU00191	1	retained_id
+viral	VOTU00192	VOTU00192	1	retained_id
+viral	VOTU00193	VOTU00193	1	retained_id
+viral	VOTU00194	VOTU00194	1	retained_id
+viral	VOTU00195	VOTU00195	1	retained_id
+viral	VOTU00196	VOTU00196	1	retained_id
+viral	VOTU00197	VOTU00197	1	retained_id
+viral	VOTU00198	VOTU00198	1	retained_id
+viral	VOTU00199	VOTU00199	1	retained_id
+viral	VOTU00200	VOTU00200	1	retained_id
+viral	VOTU00201	VOTU00201	1	retained_id
+viral	VOTU00202	VOTU00202	1	retained_id
+viral	VOTU00203	VOTU00203	1	retained_id
+viral	VOTU00204	VOTU00204	1	retained_id
+viral	VOTU00205	VOTU00205	1	retained_id
+viral	VOTU00206	VOTU00206	1	retained_id
+viral	VOTU00207	VOTU00207	1	retained_id
+viral	VOTU00208	VOTU00208	1	retained_id
+viral	VOTU00209	VOTU00209	1	retained_id
+viral	VOTU00210	VOTU00210	1	retained_id
+viral	VOTU00211	VOTU00211	1	retained_id
+viral	VOTU00212	VOTU00212	1	retained_id
+viral	VOTU00213	VOTU00213	1	retained_id
+viral	VOTU00214	VOTU00214	1	retained_id
+viral	VOTU00215	VOTU00215	1	retained_id
+viral	VOTU00216	VOTU00216	1	retained_id
+viral	VOTU00217	VOTU00217	1	retained_id
+viral	VOTU00218		0	not_retained
+viral	VOTU00219	VOTU00219	1	retained_id
+viral	VOTU00220	VOTU00220	1	retained_id
+viral	VOTU00221	VOTU00221	1	retained_id
+viral	VOTU00222	VOTU00222	1	retained_id
+viral	VOTU00223	VOTU00223	1	retained_id
+viral	VOTU00224	VOTU00224	1	retained_id
+viral	VOTU00225	VOTU00225	1	retained_id
+viral	VOTU00226	VOTU00226	1	retained_id
+viral	VOTU00227	VOTU00227	1	retained_id
+viral	VOTU00228	VOTU00228	1	retained_id
+viral	VOTU00229	VOTU00229	1	retained_id
+viral	VOTU00230	VOTU00230	1	retained_id
+viral	VOTU00231	VOTU00231	1	retained_id
+viral	VOTU00232	VOTU00232	1	retained_id
+viral	VOTU00233	VOTU00233	1	retained_id
+viral	VOTU00234	VOTU00234	1	retained_id
+viral	VOTU00235	VOTU00235	1	retained_id
+viral	VOTU00236	VOTU00236	2	retained_id
+viral	VOTU00237	VOTU00237	1	retained_id
+viral	VOTU00238	VOTU00238	1	retained_id
+viral	VOTU00239	VOTU00239	1	retained_id
+viral	VOTU00240	VOTU00240	1	retained_id
+viral	VOTU00241	VOTU00241	1	retained_id
+viral	VOTU00242	VOTU00242	3	retained_id
+viral	VOTU00243	VOTU00243	1	retained_id
+viral	VOTU00244	VOTU00244	1	retained_id
+viral	VOTU00245	VOTU00245	1	retained_id
+viral	VOTU00246	VOTU00246	1	retained_id
+viral	VOTU00247	VOTU00247	1	retained_id
+viral	VOTU00248	VOTU00248	1	retained_id
+viral	VOTU00249		0	not_retained
+viral	VOTU00250	VOTU00250	1	retained_id
+viral	VOTU00251	VOTU00251	1	retained_id
+viral	VOTU00252		0	not_retained
+viral	VOTU00253	VOTU00253	1	retained_id
+viral	VOTU00254	VOTU00254	1	retained_id
+viral	VOTU00255	VOTU00255	1	retained_id
+viral	VOTU00256		0	not_retained
+viral	VOTU00257	VOTU00257	1	retained_id
+viral	VOTU00258	VOTU00258	1	retained_id
+viral	VOTU00259	VOTU00259	1	retained_id
+viral	VOTU00260	VOTU00260	1	retained_id
+viral	VOTU00261	VOTU00261	1	retained_id
+viral	VOTU00262	VOTU00262	1	retained_id
+viral	VOTU00263	VOTU00263	1	retained_id
+viral	VOTU00264	VOTU00264	1	retained_id
+viral	VOTU00265	VOTU00265	1	retained_id
+viral	VOTU00266	VOTU00266	1	retained_id
+viral	VOTU00267	VOTU00267	1	retained_id
+viral	VOTU00268	VOTU00268	1	retained_id
+viral	VOTU00269	VOTU00269	1	retained_id
+viral	VOTU00270		0	not_retained
+viral	VOTU00271	VOTU00271	1	retained_id
+viral	VOTU00272	VOTU00272	1	retained_id
+viral	VOTU00273	VOTU00273	1	retained_id
+viral	VOTU00274	VOTU00274	1	retained_id
+viral	VOTU00275	VOTU00275	1	retained_id
+viral	VOTU00276	VOTU00276	1	retained_id
+viral	VOTU00277	VOTU00277	1	retained_id
+viral	VOTU00278	VOTU00278	1	retained_id
+viral	VOTU00279	VOTU00279	1	retained_id
+viral	VOTU00280	VOTU00280	1	retained_id
+viral	VOTU00281	VOTU00281	1	retained_id
+viral	VOTU00282	VOTU00282	1	retained_id
+viral	VOTU00283	VOTU00283	1	retained_id
+viral	VOTU00284	VOTU00284	1	retained_id
+viral	VOTU00285	VOTU00285	1	retained_id
+viral	VOTU00286	VOTU00286	1	retained_id
+viral	VOTU00287	VOTU00287	1	retained_id
+viral	VOTU00288	VOTU00288	1	retained_id
+viral	VOTU00289	VOTU00289	1	retained_id
+viral	VOTU00290	VOTU00290	1	retained_id
+viral	VOTU00291	VOTU00291	1	retained_id
+viral	VOTU00292	VOTU00292	1	retained_id
+viral	VOTU00293	VOTU00293	1	retained_id
+viral	VOTU00294	VOTU00294	1	retained_id
+viral	VOTU00295	VOTU00295	1	retained_id
+viral	VOTU00296	VOTU00296	1	retained_id
+viral	VOTU00297	VOTU00297	1	retained_id
+viral	VOTU00298	VOTU00298	1	retained_id
+viral	VOTU00299	VOTU00299	1	retained_id
+viral	VOTU00300	VOTU00300	1	retained_id
+viral	VOTU00301	VOTU00301	1	retained_id
+viral	VOTU00302	VOTU00302	1	retained_id
+viral	VOTU00303	VOTU00303	1	retained_id
+viral	VOTU00304	VOTU00304	1	retained_id
+viral	VOTU00305	VOTU00305	1	retained_id
+viral	VOTU00306	VOTU00306	1	retained_id
+viral	VOTU00307		0	not_retained
+viral	VOTU00308	VOTU00308	1	retained_id
+viral	VOTU00309	VOTU00309	1	retained_id
+viral	VOTU00310	VOTU00310	1	retained_id
+viral	VOTU00311	VOTU00311	1	retained_id
+viral	VOTU00312	VOTU00312	1	retained_id
+viral	VOTU00313	VOTU00313	1	retained_id
+viral	VOTU00314	VOTU00314	1	retained_id
+viral	VOTU00315	VOTU00315	1	retained_id
+viral	VOTU00316	VOTU00316	1	retained_id
+viral	VOTU00317	VOTU00317	1	retained_id
+viral	VOTU00318	VOTU00318	1	retained_id
+viral	VOTU00319	VOTU00319	1	retained_id
+viral		VOTU00320	0	new
+viral		VOTU00321	0	new
+viral		VOTU00322	0	new
+viral		VOTU00323	0	new
+viral		VOTU00324	0	new
+viral		VOTU00325	0	new
+viral		VOTU00326	0	new
+viral		VOTU00327	0	new
+viral		VOTU00328	0	new
+viral		VOTU00329	0	new
+viral		VOTU00330	0	new
+viral		VOTU00331	0	new
+viral		VOTU00332	0	new
+viral		VOTU00333	0	new
+viral		VOTU00334	0	new
+viral		VOTU00335	0	new
+viral		VOTU00336	0	new
+viral		VOTU00337	0	new
+viral		VOTU00338	0	new
+viral		VOTU00339	0	new
+viral		VOTU00340	0	new
+viral		VOTU00341	0	new
+viral		VOTU00342	0	new
+viral		VOTU00343	0	new
+viral		VOTU00344	0	new
+viral		VOTU00345	0	new
+viral		VOTU00346	0	new
+viral		VOTU00347	0	new
+viral		VOTU00348	0	new
+viral		VOTU00349	0	new
+viral		VOTU00350	0	new
+viral		VOTU00351	0	new
+viral		VOTU00352	0	new
+viral		VOTU00353	0	new
+viral		VOTU00354	0	new
+viral		VOTU00355	0	new
+viral		VOTU00356	0	new
+viral		VOTU00357	0	new
+viral		VOTU00358	0	new
+viral		VOTU00359	0	new
+viral		VOTU00360	0	new
+viral		VOTU00361	0	new
+viral		VOTU00362	0	new
+viral		VOTU00363	0	new
+viral		VOTU00364	0	new
+viral		VOTU00365	0	new
+viral		VOTU00366	0	new
+viral		VOTU00367	0	new
+viral		VOTU00368	0	new
+viral		VOTU00369	0	new
+viral		VOTU00370	0	new
+viral		VOTU00371	0	new
+viral		VOTU00372	0	new
+viral		VOTU00373	0	new
+viral		VOTU00374	0	new
+viral		VOTU00375	0	new
+viral		VOTU00376	0	new
+viral		VOTU00377	0	new
+viral		VOTU00378	0	new
+viral		VOTU00379	0	new
+viral		VOTU00380	0	new
+viral		VOTU00381	0	new
+viral		VOTU00382	0	new
+viral		VOTU00383	0	new
+viral		VOTU00384	0	new
+viral		VOTU00385	0	new
+viral		VOTU00386	0	new
+viral		VOTU00387	0	new
+viral		VOTU00388	0	new
+viral		VOTU00389	0	new
+viral		VOTU00390	0	new
+viral		VOTU00391	0	new
+viral		VOTU00392	0	new
+viral		VOTU00393	0	new
+viral		VOTU00394	0	new
+viral		VOTU00395	0	new
+viral		VOTU00396	0	new
+viral		VOTU00397	0	new
+viral		VOTU00398	0	new
+viral		VOTU00399	0	new
+viral		VOTU00400	0	new
+viral		VOTU00401	0	new
+viral		VOTU00402	0	new
+viral		VOTU00403	0	new
+viral		VOTU00404	0	new
+viral		VOTU00405	0	new
+viral		VOTU00406	0	new
+viral		VOTU00407	0	new
+viral		VOTU00408	0	new
+viral		VOTU00409	0	new
+viral		VOTU00410	0	new
+viral		VOTU00411	0	new
+viral		VOTU00412	0	new
+viral		VOTU00413	0	new
+viral		VOTU00414	0	new
+viral	EVEC00001	EVEC00001	1	retained_id
+viral	EVEC00002	EVEC00002	5	retained_id
+viral	EVEC00003	EVEC00003	2	retained_id
+viral	EVEC00004	EVEC00004	1	retained_id
+viral	EVEC00005	EVEC00005	1	retained_id
+viral	EVEC00006	EVEC00006	1	retained_id
+viral	EVEC00007	EVEC00007	1	retained_id
+viral	EVEC00008	EVEC00008	2	retained_id
+viral	EVEC00009	EVEC00009	1	retained_id
+viral	EVEC00010	EVEC00010	1	retained_id
+viral	EVEC00011	EVEC00011	1	retained_id
+viral	EVEC00012	EVEC00012	1	retained_id
+viral	EVEC00013	EVEC00013	1	retained_id
+viral	EVEC00014	EVEC00014	20	retained_id
+viral	EVEC00015		0	not_retained
+viral	EVEC00016	EVEC00016	1	retained_id
+viral	EVEC00017	EVEC00017	1	retained_id
+viral	EVEC00018	EVEC00018	1	retained_id
+viral	EVEC00019	EVEC00019	1	retained_id
+viral	EVEC00020	EVEC00020	1	retained_id
+viral	EVEC00021	EVEC00021	1	retained_id
+viral	EVEC00022	EVEC00022	1	retained_id
+viral	EVEC00023	EVEC00023	1	retained_id
+viral	EVEC00024	EVEC00024	1	retained_id
+viral	EVEC00025	EVEC00025	1	retained_id
+viral	EVEC00026	EVEC00026	37	retained_id
+viral	EVEC00027	EVEC00027	2	retained_id
+viral	EVEC00028	EVEC00028	1	retained_id
+viral	EVEC00029	EVEC00029	21	retained_id
+viral	EVEC00030	EVEC00030	1	retained_id
+viral	EVEC00031	EVEC00031	1	retained_id
+viral	EVEC00032	EVEC00032	1	retained_id
+viral	EVEC00033	EVEC00033	4	retained_id
+viral	EVEC00034	EVEC00034	1	retained_id
+viral	EVEC00035	EVEC00035	8	retained_id
+viral	EVEC00036		0	not_retained
+viral	EVEC00037	EVEC00037	1	retained_id
+viral	EVEC00038	EVEC00038	1	retained_id
+viral	EVEC00039	EVEC00039	1	retained_id
+viral	EVEC00040		0	not_retained
+viral	EVEC00041	EVEC00041	1	retained_id
+viral	EVEC00042	EVEC00042	1	retained_id
+viral	EVEC00043	EVEC00043	1	retained_id
+viral	EVEC00044	EVEC00044	1	retained_id
+viral	EVEC00045	EVEC00045	1	retained_id
+viral	EVEC00046	EVEC00046	1	retained_id
+viral	EVEC00047	EVEC00047	1	retained_id
+viral	EVEC00048	EVEC00048	1	retained_id
+viral	EVEC00049	EVEC00049	1	retained_id
+viral	EVEC00050	EVEC00050	1	retained_id
+viral	EVEC00051	EVEC00051	1	retained_id
+viral	EVEC00052		0	not_retained
+viral	EVEC00053	EVEC00053	1	retained_id
+viral	EVEC00054		0	not_retained
+viral	EVEC00055	EVEC00055	1	retained_id
+viral	EVEC00056	EVEC00056	1	retained_id
+viral	EVEC00057	EVEC00057	1	retained_id
+viral	EVEC00058	EVEC00058	1	retained_id
+viral	EVEC00059	EVEC00059	1	retained_id
+viral	EVEC00060	EVEC00060	1	retained_id
+viral	EVEC00061	EVEC00061	1	retained_id
+viral	EVEC00062	EVEC00062	1	retained_id
+viral	EVEC00063	EVEC00063	1	retained_id
+viral	EVEC00064	EVEC00064	1	retained_id
+viral	EVEC00065		0	not_retained
+viral	EVEC00066	EVEC00066	1	retained_id
+viral	EVEC00067	EVEC00067	1	retained_id
+viral	EVEC00068	EVEC00068	1	retained_id
+viral	EVEC00069	EVEC00069	2	retained_id
+viral	EVEC00070	EVEC00070	1	retained_id
+viral	EVEC00071		0	not_retained
+viral	EVEC00072	EVEC00072	2	retained_id
+viral	EVEC00073	EVEC00073	1	retained_id
+viral	EVEC00074		0	not_retained
+viral	EVEC00075	EVEC00075	1	retained_id
+viral	EVEC00076	EVEC00076	1	retained_id
+viral	EVEC00077	EVEC00077	1	retained_id
+viral	EVEC00078	EVEC00078	1	retained_id
+viral	EVEC00079	EVEC00079	1	retained_id
+viral	EVEC00080	EVEC00080	1	retained_id
+viral	EVEC00081		0	not_retained
+viral	EVEC00082	EVEC00082	1	retained_id
+viral	EVEC00083	EVEC00083	1	retained_id
+viral	EVEC00084	EVEC00084	1	retained_id
+viral	EVEC00085	EVEC00085	1	retained_id
+viral	EVEC00086	EVEC00086	1	retained_id
+viral	EVEC00087		0	not_retained
+viral	EVEC00088	EVEC00088	1	retained_id
+viral	EVEC00089	EVEC00089	1	retained_id
+viral	EVEC00090		0	not_retained
+viral	EVEC00091	EVEC00091	1	retained_id
+viral	EVEC00092	EVEC00092	1	retained_id
+viral	EVEC00093	EVEC00093	2	retained_id
+viral	EVEC00094	EVEC00094	1	retained_id
+viral	EVEC00095	EVEC00095	1	retained_id
+viral	EVEC00096	EVEC00096	1	retained_id
+viral	EVEC00097		0	not_retained
+viral	EVEC00098	EVEC00098	1	retained_id
+viral	EVEC00099	EVEC00099	2	retained_id
+viral	EVEC00100	EVEC00100	1	retained_id
+viral	EVEC00101	EVEC00101	1	retained_id
+viral	EVEC00102	EVEC00102	1	retained_id
+viral	EVEC00103	EVEC00103	1	retained_id
+viral	EVEC00104	EVEC00104	1	retained_id
+viral	EVEC00105	EVEC00105	1	retained_id
+viral	EVEC00106	EVEC00106	4	retained_id
+viral	EVEC00107	EVEC00107	1	retained_id
+viral	EVEC00108	EVEC00108	1	retained_id
+viral	EVEC00109	EVEC00109	1	retained_id
+viral	EVEC00110	EVEC00110	1	retained_id
+viral	EVEC00111	EVEC00111	1	retained_id
+viral	EVEC00112	EVEC00112	1	retained_id
+viral	EVEC00113	EVEC00113	1	retained_id
+viral	EVEC00114	EVEC00114	1	retained_id
+viral	EVEC00115	EVEC00115	1	retained_id
+viral	EVEC00116	EVEC00116	1	retained_id
+viral	EVEC00117	EVEC00117	1	retained_id
+viral	EVEC00118	EVEC00118	1	retained_id
+viral	EVEC00119	EVEC00119	1	retained_id
+viral	EVEC00120	EVEC00120	1	retained_id
+viral	EVEC00121	EVEC00121	1	retained_id
+viral	EVEC00122	EVEC00122	1	retained_id
+viral	EVEC00123	EVEC00123	1	retained_id
+viral	EVEC00124	EVEC00124	1	retained_id
+viral	EVEC00125	EVEC00125	1	retained_id
+viral	EVEC00126	EVEC00126	1	retained_id
+viral	EVEC00127	EVEC00127	1	retained_id
+viral	EVEC00128	EVEC00128	1	retained_id
+viral	EVEC00129	EVEC00129	2	retained_id
+viral	EVEC00130	EVEC00130	1	retained_id
+viral	EVEC00131	EVEC00131	1	retained_id
+viral	EVEC00132	EVEC00132	1	retained_id
+viral	EVEC00133	EVEC00133	1	retained_id
+viral	EVEC00134		0	not_retained
+viral	EVEC00135	EVEC00135	1	retained_id
+viral	EVEC00136		0	not_retained
+viral	EVEC00137	EVEC00137	1	retained_id
+viral	EVEC00138		0	not_retained
+viral	EVEC00139	EVEC00139	1	retained_id
+viral	EVEC00140	EVEC00140	1	retained_id
+viral	EVEC00141	EVEC00141	1	retained_id
+viral	EVEC00142	EVEC00142	1	retained_id
+viral	EVEC00143	EVEC00143	2	retained_id
+viral	EVEC00144	EVEC00144	1	retained_id
+viral	EVEC00145	EVEC00145	1	retained_id
+viral	EVEC00146	EVEC00146	1	retained_id
+viral	EVEC00147	EVEC00147	1	retained_id
+viral	EVEC00148	EVEC00148	1	retained_id
+viral	EVEC00149	EVEC00149	1	retained_id
+viral	EVEC00150	EVEC00150	1	retained_id
+viral	EVEC00151	EVEC00151	1	retained_id
+viral	EVEC00152	EVEC00152	1	retained_id
+viral	EVEC00153	EVEC00153	1	retained_id
+viral		EVEC00154	0	new
+viral		EVEC00155	0	new
+viral		EVEC00156	0	new
+viral		EVEC00157	0	new
+viral		EVEC00158	0	new
+viral		EVEC00159	0	new
+viral		EVEC00160	0	new
+viral		EVEC00161	0	new
+viral		EVEC00162	0	new
+viral		EVEC00163	0	new
+viral		EVEC00164	0	new
+viral		EVEC00165	0	new
+viral		EVEC00166	0	new
+viral		EVEC00167	0	new
+viral		EVEC00168	0	new
+viral		EVEC00169	0	new
+viral		EVEC00170	0	new
+viral		EVEC00171	0	new
+viral		EVEC00172	0	new

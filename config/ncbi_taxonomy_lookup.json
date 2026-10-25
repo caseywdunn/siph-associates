@@ -1,0 +1,392 @@
+{
+  "Serratia nevei": {
+    "name": "Serratia nevei",
+    "ncbi_taxid": "2703794",
+    "ncbi_scientific_name": "Serratia nevei",
+    "rank": "species",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2703794",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Vibrio caribbeanicus": {
+    "name": "Vibrio caribbeanicus",
+    "ncbi_taxid": "701175",
+    "ncbi_scientific_name": "Vibrio caribbeanicus",
+    "rank": "species",
+    "query_url": "https://ncbi.nlm.nih.gov/taxonomy/701175",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Vibrio alginolyticus": {
+    "name": "Vibrio alginolyticus",
+    "ncbi_taxid": "663",
+    "ncbi_scientific_name": "Vibrio alginolyticus",
+    "rank": "species",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=663",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Photobacterium angustum": {
+    "name": "Photobacterium angustum",
+    "ncbi_taxid": "661",
+    "ncbi_scientific_name": "Photobacterium angustum",
+    "rank": "species",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=661",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Cobetia amphilecti": {
+    "name": "Cobetia amphilecti",
+    "ncbi_taxid": "1055104",
+    "ncbi_scientific_name": "Cobetia amphilecti",
+    "rank": "species",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1055102",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Pseudoalteromonas espejiana": {
+    "name": "Pseudoalteromonas espejiana",
+    "ncbi_taxid": "28107",
+    "ncbi_scientific_name": "Pseudoalteromonas espejiana",
+    "rank": "species",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28107&mode=Info",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Pseudoalteromonas carrageenovora": {
+    "name": "Pseudoalteromonas carrageenovora",
+    "ncbi_taxid": "227",
+    "ncbi_scientific_name": "Pseudoalteromonas carrageenovora",
+    "rank": "species",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=227&mode=Info",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Pseudoalteromonas distincta": {
+    "name": "Pseudoalteromonas distincta",
+    "ncbi_taxid": "77608",
+    "ncbi_scientific_name": "Pseudoalteromonas distincta",
+    "rank": "species",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=81037&mode=Info",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Pseudomonadales bacterium": {
+    "name": "Pseudomonadales bacterium",
+    "ncbi_taxid": "1891229",
+    "ncbi_scientific_name": "Pseudomonadales bacterium",
+    "rank": "species",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1891229",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Gammaproteobacteria bacterium": {
+    "name": "Gammaproteobacteria bacterium",
+    "ncbi_taxid": "1913989",
+    "ncbi_scientific_name": "Gammaproteobacteria bacterium",
+    "rank": "species",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1913989&log_op=modifier_toggle&lvl=3&mod=1&mode=Info",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Flavobacteriaceae bacterium": {
+    "name": "Flavobacteriaceae bacterium",
+    "ncbi_taxid": "1871037",
+    "ncbi_scientific_name": "Flavobacteriaceae bacterium",
+    "rank": "species",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1871037&mode=Info",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Mycoplasma sp.": {
+    "name": "Mycoplasma sp.",
+    "ncbi_taxid": "2108",
+    "ncbi_scientific_name": "Mycoplasma sp.",
+    "rank": "species",
+    "query_url": "https://pubchem.ncbi.nlm.nih.gov/taxonomy/Mycoplasma-sp.",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Planktomarina": {
+    "name": "Planktomarina",
+    "ncbi_taxid": "1284657",
+    "ncbi_scientific_name": "Planktomarina",
+    "rank": "genus",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1284657&mode=Info",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Alphaproteobacteria": {
+    "name": "Alphaproteobacteria",
+    "ncbi_taxid": "28211",
+    "ncbi_scientific_name": "Alphaproteobacteria",
+    "rank": "class",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28211&mode=Info",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Gammaproteobacteria": {
+    "name": "Gammaproteobacteria",
+    "ncbi_taxid": "1236",
+    "ncbi_scientific_name": "Gammaproteobacteria",
+    "rank": "class",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1236&keep=1&log_op=modifier_toggle&lvl=3&mod=1&mode=Info&srchmode=1&unlock=",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Metamycoplasmataceae": {
+    "name": "Metamycoplasmataceae",
+    "ncbi_taxid": "2895623",
+    "ncbi_scientific_name": "Metamycoplasmataceae",
+    "rank": "family",
+    "query_url": "https://www.ncbi.nlm.nih.gov/datasets/taxonomy/2895623/",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Cellvibrionaceae": {
+    "name": "Cellvibrionaceae",
+    "ncbi_taxid": "1706371",
+    "ncbi_scientific_name": "Cellvibrionaceae",
+    "rank": "family",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1706371&mode=Info",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Crocinitomix": {
+    "name": "Crocinitomix",
+    "ncbi_taxid": "246873",
+    "ncbi_scientific_name": "Crocinitomix",
+    "rank": "genus",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=246873&mode=Info",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected"
+  },
+  "Mycoplasmatales": {
+    "name": "Mycoplasmatales",
+    "ncbi_taxid": "2085",
+    "ncbi_scientific_name": "Mycoplasmatales",
+    "rank": "order",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2092&mode=Info",
+    "verified_utc": "2026-10-25",
+    "status": "verified",
+    "method": "NCBI Taxonomy Browser or NCBI Datasets/PubChem; record and lineage link inspected",
+    "note": "NCBI Mycoplasmataceae record lineage links Mycoplasmatales to taxid2085; direct order page unavailable."
+  },
+  "Serratia": {
+    "name": "Serratia",
+    "ncbi_taxid": "",
+    "ncbi_scientific_name": "",
+    "rank": "",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Serratia",
+    "verified_utc": "",
+    "status": "pending_ncbi_verification",
+    "note": "Exact-name verification pending; unavailable endpoints do not establish absence from NCBI."
+  },
+  "Pseudomonadales": {
+    "name": "Pseudomonadales",
+    "ncbi_taxid": "",
+    "ncbi_scientific_name": "",
+    "rank": "",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Pseudomonadales",
+    "verified_utc": "",
+    "status": "pending_ncbi_verification",
+    "note": "Exact-name verification pending; unavailable endpoints do not establish absence from NCBI."
+  },
+  "Planktomarina sp.": {
+    "name": "Planktomarina sp.",
+    "ncbi_taxid": "2024851",
+    "ncbi_scientific_name": "Planktomarina sp.",
+    "rank": "species",
+    "query_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=taxonomy&term=Planktomarina+sp.%5BScientific+Name%5D+AND+txid2%5BSubtree%5D&retmode=json&retmax=10",
+    "verified_utc": "2026-10-25T14:20:25.228887+00:00",
+    "status": "verified"
+  },
+  "Alphaproteobacteria bacterium": {
+    "name": "Alphaproteobacteria bacterium",
+    "ncbi_taxid": "1913988",
+    "ncbi_scientific_name": "Alphaproteobacteria bacterium",
+    "rank": "species",
+    "query_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=taxonomy&term=Alphaproteobacteria+bacterium%5BScientific+Name%5D+AND+txid2%5BSubtree%5D&retmode=json&retmax=10",
+    "verified_utc": "2026-10-25T14:20:26.298200+00:00",
+    "status": "verified"
+  },
+  "Metamycoplasmataceae bacterium": {
+    "name": "Metamycoplasmataceae bacterium",
+    "ncbi_taxid": "2979199",
+    "ncbi_scientific_name": "Metamycoplasmataceae bacterium",
+    "rank": "species",
+    "query_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=taxonomy&term=Metamycoplasmataceae+bacterium%5BScientific+Name%5D+AND+txid2%5BSubtree%5D&retmode=json&retmax=10",
+    "verified_utc": "2026-10-25T14:20:27.614015+00:00",
+    "status": "verified"
+  },
+  "Flavobacteriaceae": {
+    "name": "Flavobacteriaceae",
+    "ncbi_taxid": "",
+    "ncbi_scientific_name": "",
+    "rank": "",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Flavobacteriaceae",
+    "verified_utc": "",
+    "status": "pending_ncbi_verification",
+    "note": "Exact-name verification pending; unavailable endpoints do not establish absence from NCBI."
+  },
+  "Mycoplasma": {
+    "name": "Mycoplasma",
+    "ncbi_taxid": "",
+    "ncbi_scientific_name": "",
+    "rank": "",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Mycoplasma",
+    "verified_utc": "",
+    "status": "pending_ncbi_verification",
+    "note": "Exact-name verification pending; unavailable endpoints do not establish absence from NCBI."
+  },
+  "Vibrio": {
+    "name": "Vibrio",
+    "ncbi_taxid": "",
+    "ncbi_scientific_name": "",
+    "rank": "",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Vibrio",
+    "verified_utc": "",
+    "status": "pending_ncbi_verification",
+    "note": "Exact-name verification pending; unavailable endpoints do not establish absence from NCBI."
+  },
+  "Cellvibrionaceae bacterium": {
+    "name": "Cellvibrionaceae bacterium",
+    "ncbi_taxid": "2026723",
+    "ncbi_scientific_name": "Cellvibrionaceae bacterium",
+    "rank": "species",
+    "query_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=taxonomy&term=Cellvibrionaceae+bacterium%5BScientific+Name%5D+AND+txid2%5BSubtree%5D&retmode=json&retmax=10",
+    "verified_utc": "2026-10-25T14:20:28.976275+00:00",
+    "status": "verified"
+  },
+  "Crocinitomix sp.": {
+    "name": "Crocinitomix sp.",
+    "ncbi_taxid": "2039232",
+    "ncbi_scientific_name": "Crocinitomix sp.",
+    "rank": "species",
+    "query_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=taxonomy&term=Crocinitomix+sp.%5BScientific+Name%5D+AND+txid2%5BSubtree%5D&retmode=json&retmax=10",
+    "verified_utc": "2026-10-25T14:20:30.002913+00:00",
+    "status": "verified"
+  },
+  "Cognatishimia sp.": {
+    "name": "Cognatishimia sp.",
+    "ncbi_taxid": "2211648",
+    "ncbi_scientific_name": "Cognatishimia sp.",
+    "rank": "species",
+    "query_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=taxonomy&term=Cognatishimia+sp.%5BScientific+Name%5D+AND+txid2%5BSubtree%5D&retmode=json&retmax=10",
+    "verified_utc": "2026-10-25T14:20:31.027697+00:00",
+    "status": "verified"
+  },
+  "Cognatishimia": {
+    "name": "Cognatishimia",
+    "ncbi_taxid": "",
+    "ncbi_scientific_name": "",
+    "rank": "",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Cognatishimia",
+    "verified_utc": "",
+    "status": "pending_ncbi_verification",
+    "note": "Exact-name verification pending; unavailable endpoints do not establish absence from NCBI."
+  },
+  "Cobetia": {
+    "name": "Cobetia",
+    "ncbi_taxid": "",
+    "ncbi_scientific_name": "",
+    "rank": "",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Cobetia",
+    "verified_utc": "",
+    "status": "pending_ncbi_verification",
+    "note": "Exact-name verification pending; unavailable endpoints do not establish absence from NCBI."
+  },
+  "Pseudoalteromonas": {
+    "name": "Pseudoalteromonas",
+    "ncbi_taxid": "",
+    "ncbi_scientific_name": "",
+    "rank": "",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Pseudoalteromonas",
+    "verified_utc": "",
+    "status": "pending_ncbi_verification",
+    "note": "Exact-name verification pending; unavailable endpoints do not establish absence from NCBI."
+  },
+  "Photobacterium": {
+    "name": "Photobacterium",
+    "ncbi_taxid": "",
+    "ncbi_scientific_name": "",
+    "rank": "",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Photobacterium",
+    "verified_utc": "",
+    "status": "pending_ncbi_verification",
+    "note": "Exact-name verification pending; unavailable endpoints do not establish absence from NCBI."
+  },
+  "Salinisphaeraceae bacterium": {
+    "name": "Salinisphaeraceae bacterium",
+    "ncbi_taxid": "2026789",
+    "ncbi_scientific_name": "Salinisphaeraceae bacterium",
+    "rank": "species",
+    "query_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=taxonomy&term=Salinisphaeraceae+bacterium%5BScientific+Name%5D+AND+txid2%5BSubtree%5D&retmode=json&retmax=10",
+    "verified_utc": "2026-10-25T14:20:32.622959+00:00",
+    "status": "verified"
+  },
+  "Salinisphaeraceae": {
+    "name": "Salinisphaeraceae",
+    "ncbi_taxid": "",
+    "ncbi_scientific_name": "",
+    "rank": "",
+    "query_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Salinisphaeraceae",
+    "verified_utc": "",
+    "status": "pending_ncbi_verification",
+    "note": "Exact-name verification pending; unavailable endpoints do not establish absence from NCBI."
+  },
+  "Xenococcus sp.": {
+    "name": "Xenococcus sp.",
+    "ncbi_taxid": "",
+    "ncbi_scientific_name": "",
+    "rank": "",
+    "query_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=taxonomy&term=Xenococcus+sp.%5BScientific+Name%5D+AND+txid2%5BSubtree%5D&retmode=json&retmax=10",
+    "verified_utc": "2026-10-25T14:20:33.107566+00:00",
+    "status": "not_found_exact_name"
+  },
+  "Xenococcus": {
+    "name": "Xenococcus",
+    "ncbi_taxid": "52607",
+    "ncbi_scientific_name": "Xenococcus",
+    "rank": "genus",
+    "query_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=taxonomy&term=Xenococcus%5BScientific+Name%5D+AND+txid2%5BSubtree%5D&retmode=json&retmax=10",
+    "verified_utc": "2026-10-25T14:20:34.552655+00:00",
+    "status": "verified"
+  },
+  "Hepatoplasmataceae bacterium": {
+    "name": "Hepatoplasmataceae bacterium",
+    "ncbi_taxid": "",
+    "ncbi_scientific_name": "",
+    "rank": "",
+    "query_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=taxonomy&term=Hepatoplasmataceae+bacterium%5BScientific+Name%5D+AND+txid2%5BSubtree%5D&retmode=json&retmax=10",
+    "verified_utc": "2026-10-25T14:20:35.042070+00:00",
+    "status": "not_found_exact_name"
+  },
+  "Hepatoplasmataceae": {
+    "name": "Hepatoplasmataceae",
+    "ncbi_taxid": "",
+    "ncbi_scientific_name": "",
+    "rank": "",
+    "query_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=taxonomy&term=Hepatoplasmataceae%5BScientific+Name%5D+AND+txid2%5BSubtree%5D&retmode=json&retmax=10",
+    "verified_utc": "2026-10-25T14:20:35.529696+00:00",
+    "status": "not_found_exact_name"
+  }
+}

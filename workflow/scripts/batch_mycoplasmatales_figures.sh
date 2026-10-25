@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=mycoplasmatales-figures
-#SBATCH --partition=day
+#SBATCH --partition=ycga
 #SBATCH --time=00:10:00
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
@@ -8,7 +8,7 @@
 
 set -euo pipefail
 module reset
-export MPLCONFIGDIR="${TMPDIR:-/tmp}/siph-mycoplasmatales-mpl-${SLURM_JOB_ID}"
+export MPLCONFIGDIR="${SLURM_SUBMIT_DIR}/data/results/manuscript_revision/2026-10-24/tmp/mycoplasmatales-mpl-${SLURM_JOB_ID}"
 export OPENBLAS_NUM_THREADS=1
 export OMP_NUM_THREADS=1
 mkdir -p "$MPLCONFIGDIR"

@@ -42,11 +42,11 @@ include: "workflow/rules/phase5_mapping.smk"
 include: "workflow/rules/phase6_analysis.smk"
 include: "workflow/rules/eukaryote_gate.smk"
 include: "workflow/rules/mycoplasmatales_phylogeny.smk"
-include: "workflow/rules/mycoplasmatales_gene_content.smk"
 include: "workflow/rules/cnidarian_16s.smk"
 include: "workflow/rules/cassiopea_16s.smk"
 include: "workflow/rules/publication_figures.smk"
 
+include: "workflow/rules/deposit_preparation.smk"
 
 rule all:
     input:

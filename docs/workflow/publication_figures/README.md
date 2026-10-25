@@ -11,7 +11,7 @@ processing, mapping or statistical inference.
 Inputs are accepted v3 bacterial/viral grades for 213 libraries, eukaryote grades, flowcell metadata,
 the frozen manifest, workflow sample handles, reviewed publication metadata and
 host-name updates, reviewed v3 catalog tables, and the completed
-Mycoplasmatales tree/gene summaries.
+Mycoplasmatales tree and taxonomy labels.
 The [figure guide](../../../figures/README.md) records export formats, source tables
 and provenance. Outputs are in `figures/cohort/`, `figures/mycoplasmatales/` and
 `figures/collection_context/`.
@@ -24,7 +24,7 @@ defines the identifiers, depth midpoint convention, curation file, and remaining
 | Rule | Purpose | Principal outputs |
 | --- | --- | --- |
 | `publication_cohort_figures` | Export sampling, evidence and detection tables from accepted grades | Cohort PDFs, detection TSVs, `summary.json`, source checksums |
-| `publication_mycoplasmatales_figures` | Draw the focused tree and predicted functions | `phylogeny_focus.pdf`, `gene_functions.pdf`, `manifest.json` |
+| `publication_mycoplasmatales_figures` | Draw the focused tree | `phylogeny_focus.pdf`, `manifest.json` |
 | `collection_context_tables` | Join collection metadata to detections; summarize depth, tissue and geography | `library_context.tsv`, tables for the DT-68 bacterial lineage, regional/tissue summaries and provenance |
 | `publication_collection_context_figures` | Plot the collection-context summaries | Depth/host, DT-68 and tissue PDFs/PNGs with a plotting manifest |
 

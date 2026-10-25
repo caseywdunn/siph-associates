@@ -68,6 +68,7 @@ rule extract_mycoplasmatales_16s:
     input:
         script="workflow/scripts/extract_mag_16s.py",
         mag_catalog=f"{WORK}/phase3_catalog/mags/mag_catalog.tsv",
+        removals="config/mag_contig_removals.tsv",
     output:
         f"{C16}/mycoplasmatales_mag_16s.fasta",
     params:
@@ -83,7 +84,7 @@ rule extract_mycoplasmatales_16s:
     shell:
         """
         python {input.script:q} --mag-catalog {input.mag_catalog:q} --results {params.results:q} \
-          --order Mycoplasmatales --min-length {params.min_length} --output {output:q} > {log:q} 2>&1
+          --order Mycoplasmatales --min-length {params.min_length} --contig-removals {input.removals:q} --output {output:q} > {log:q} 2>&1
         """
 
 

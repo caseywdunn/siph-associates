@@ -8,12 +8,15 @@ suppressPackageStartupMessages({
 })
 
 args <- commandArgs(trailingOnly = TRUE)
+plots_only <- "--plots-only" %in% args[-1]
 Sys.setenv(TZ = "UTC")
 settings <- fromJSON(args[1], simplifyVector = FALSE)
 out <- settings$output_dir
 metadata <- fread(file.path(out, "specimen_context.tsv"))
+if (!plots_only) {
 membership <- fread(file.path(out, "contrast_membership.tsv"))
 grades <- fread(settings$bacterial_grades)
+if ("biological_include" %in% names(grades)) grades <- grades[tolower(as.character(biological_include)) == "true"]
 stopifnot(!anyDuplicated(metadata$sample_id))
 stopifnot(!anyDuplicated(grades[, .(sample_id, target_id)]))
 stopifnot(all(grades$sample_id %in% metadata$sample_id))
@@ -93,15 +96,8 @@ community_result <- function(spec, grade_column) {
     r_squared = fit["group", "R2"], pseudo_f = fit["group", "F"],
     permutations = settings$permutations, p_value = fit["group", "Pr(>F)"], status = "tested"
   )]
-  # A difference in dispersion can accompany a location/composition difference.
-  # Square-root Jaccard has Euclidean geometry, avoiding negative squared
-  # distances in the dispersion diagnostic. PERMANOVA retains raw Jaccard.
-  set.seed(settings$seed)
-  dispersion_fit <- permutest(betadisper(distances, d$group, type = "median", sqrt.dist = TRUE),
-    permutations = permutation_design
-  )
-  dispersion[, `:=`(f_statistic = dispersion_fit$tab[1, "F"],
-                   p_value = dispersion_fit$tab[1, "Pr(>F)"], status = "tested")]
+  # Dispersion is outside the authorized revision; retain an explicit unrun status.
+  dispersion[, status := "not_rerun_out_of_scope"]
   finish()
 }
 
@@ -126,6 +122,8 @@ write_json(list(tests = tests, dispersion = dispersion,
                 model = settings$community_model),
   file.path(out, "community_values.json"), pretty = TRUE, auto_unbox = TRUE, na = "null"
 )
+
+}
 
 theme_set(theme_classic(base_size = 10) + theme(
   strip.background = element_blank(), strip.text = element_text(face = "bold"),
@@ -159,7 +157,7 @@ depth_plot <- ggplot(depth_long, aes(x = depth_m, y = detections, colour = plot_
   scale_colour_manual(values = c("Bargmannia" = "#D55E00", "Nanomia" = "#0072B2", "Other siphonophores" = "#666666")) +
   scale_shape_manual(values = c("Flagged formalin specimen" = 17, "Other specimens" = 16)) +
   labs(x = "Collection depth (m)", y = "Accepted detections", colour = NULL, shape = NULL)
-ggsave(file.path(out, "depth_patterns.pdf"), depth_plot, width = 7, height = 7.5)
+ggsave(file.path(out, "depth_patterns.pdf"), depth_plot, width = 7, height = 7.5, device = grDevices::cairo_pdf)
 ggsave(file.path(out, "depth_patterns.png"), depth_plot, width = 7, height = 7.5, dpi = 180)
 
 incidence <- fread(file.path(out, "targeted_incidence.tsv"))[
@@ -182,7 +180,7 @@ incidence_plot <- ggplot(incidence, aes(associate, label, fill = positive / tota
   facet_grid(panel ~ ., scales = "free_y", space = "free_y") +
   scale_fill_gradient(low = "white", high = "#80B1D3", limits = c(0, 1), name = "Fraction detected") +
   labs(x = NULL, y = NULL) + theme(axis.line = element_blank(), axis.ticks = element_blank())
-ggsave(file.path(out, "targeted_incidence.pdf"), incidence_plot, width = 6, height = 6)
+ggsave(file.path(out, "targeted_incidence.pdf"), incidence_plot, width = 6, height = 6, device = grDevices::cairo_pdf)
 ggsave(file.path(out, "targeted_incidence.png"), incidence_plot, width = 6, height = 6, dpi = 180)
 writeLines(capture.output(sessionInfo()), file.path(out, "session_info.txt"))
-print(tests)
+if (!plots_only) print(tests)

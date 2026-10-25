@@ -39,6 +39,9 @@ def contamination_results(
     grade_column: str = "grade", subset: str = "all",
 ) -> list[dict]:
     """Return separate descriptive and inferential counts for each tested genome."""
+    excluded_samples = {row["sample_id"] for row in grades if row.get("excluded_library") == "true"}
+    grades = [row for row in grades if row.get("biological_include", "true") == "true"]
+    metadata = [row for row in metadata if row["sample_id"] not in excluded_samples]
     meta = {
         row["sample_id"]: row for row in metadata
         if subset == "all" or row["host_species"].startswith("Nanomia")

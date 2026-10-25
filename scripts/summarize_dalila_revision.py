@@ -51,10 +51,13 @@ def main() -> None:
     metadata = read("figures/cohort/sample_metadata.tsv")
     context = read("figures/collection_context/library_context.tsv")
     read("config/publication_host_names.tsv")
+    biological_metadata = [row for row in metadata if row.get("biological_include", "true") == "true"]
+    biological_ids = {row["library_id"] for row in biological_metadata}
+    biological_counts = Counter(row["species_current"] for row in biological_metadata)
     meta = {r["library_id"]: r for r in metadata}
-    if len(meta) != len(metadata) or {r["library_id"] for r in context} != set(meta):
+    if len(meta) != len(metadata) or {r["library_id"] for r in context} != biological_ids:
         raise ValueError("Metadata and detection identifiers must match uniquely")
-    if len(context) != len(metadata) or any(
+    if len(context) != len(biological_metadata) or any(
         r["species_current"] != meta[r["library_id"]]["species_current"]
         for r in context
     ):
@@ -148,12 +151,12 @@ def main() -> None:
             {
                 "host": host,
                 "named_species": host in named,
-                "specimens": counts[host],
+                "specimens": biological_counts[host],
                 "mycoplasmataceae_positive": sum(
                     r["species_current"] == host for r in myco
                 ),
             }
-            for host in sorted(counts)
+            for host in sorted(biological_counts)
         ],
     )
     physalia = [r for r in context if r["species_current"].startswith("Physalia ")]

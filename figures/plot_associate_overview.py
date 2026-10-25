@@ -21,7 +21,7 @@ from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-os.environ.setdefault("MPLCONFIGDIR", "/tmp/siph-associates-matplotlib")
+os.environ.setdefault("MPLCONFIGDIR", str(Path("data/results/manuscript_revision/2026-10-24/matplotlib").resolve()))
 
 import matplotlib
 
@@ -47,7 +47,6 @@ MICROBIAL_GROUPS = [
     "Vibrio",
     "CAKMZU01",
     "Pseudoalteromonas",
-    "Cutibacterium",
     "Photobacterium",
     "Alteromonas",
     "Remaining bacteria",
@@ -124,7 +123,7 @@ def microbial_group(row: dict[str, str]) -> str:
 
 
 def draw_overview(
-    metadata: list[dict[str, str]], domain_sets: dict[str, set[str]]
+    metadata: list[dict[str, str]], domain_sets: dict[str, set[str]], biological_n: int
 ) -> list[Path]:
     fig = plt.figure(figsize=(7.8, 8.2))
     grid = fig.add_gridspec(
@@ -287,16 +286,16 @@ def draw_overview(
             )
 
     detection = fig.add_subplot(grid[2, 0])
-    panel_title(detection, "D", "Recovered across the cohort")
+    panel_title(detection, "D", "Detections in retained specimens")
     domain_colors = [BLUE, "#9B6BAC", TEAL, ORANGE]
     for index, (domain, samples) in enumerate(domain_sets.items()):
-        detection.barh(index, len(metadata), color=GRAY, height=0.55)
+        detection.barh(index, biological_n, color=GRAY, height=0.55)
         detection.barh(index, len(samples), color=domain_colors[index], height=0.55)
-        detection.text(len(metadata) + 6, index, f"{len(samples)}/{len(metadata)}", va="center", fontsize=10)
-    detection.set_yticks(range(4), list(domain_sets), fontsize=10)
+        detection.text(biological_n + 6, index, f"{len(samples)}/{biological_n}", va="center", fontsize=10)
+    detection.set_yticks(range(len(domain_sets)), list(domain_sets), fontsize=10)
     detection.invert_yaxis()
     detection.set_xlim(0, 270)
-    detection.set_xticks([0, 100, len(metadata)])
+    detection.set_xticks([0, 100, biological_n])
     detection.set_xlabel("Specimens with supported detections", fontsize=9)
     detection.tick_params(axis="y", length=0)
     detection.spines[["left", "right", "top"]].set_visible(False)
@@ -312,7 +311,7 @@ def draw_overview(
         (
             0.88,
             "Microbial associates",
-            "Which bacteria, archaea and viruses\naccompany siphonophores?",
+            "Which bacteria and viruses\naccompany siphonophores?",
         ),
         (
             0.48,
@@ -508,7 +507,7 @@ def draw_eukaryotes(
     ax.imshow(
         matrix,
         aspect="auto",
-        cmap=ListedColormap(["#F2F3F4", "#56B4E9", BLUE]),
+        cmap=ListedColormap(["#F2F3F4", "#808080", "#000000"]),
         norm=BoundaryNorm([-0.5, 0.5, 1.5, 2.5], 3),
     )
     ax.set_yticks(
@@ -560,13 +559,13 @@ def draw_eukaryotes(
     ax.set_xlim(-0.5, len(units) - 0.5)
     ax.set_ylim(len(samples) - 0.5, -0.5)
     total.barh(
-        range(len(samples)), (matrix == 1).sum(axis=1), color="#56B4E9", height=0.70
+        range(len(samples)), (matrix == 1).sum(axis=1), color="#808080", height=0.70
     )
     total.barh(
         range(len(samples)),
         (matrix == 2).sum(axis=1),
         left=(matrix == 1).sum(axis=1),
-        color=BLUE,
+        color="#000000",
         height=0.70,
     )
     total.set_xlim(0, 5.4)
@@ -586,8 +585,8 @@ def draw_eukaryotes(
     )
     fig.legend(
         handles=[
-            Patch(color="#56B4E9", label="Read or assembly support"),
-            Patch(color=BLUE, label="Read and assembly support"),
+            Patch(color="#808080", label="Read or assembly support"),
+            Patch(color="#000000", label="Read and assembly support"),
         ],
         loc="upper left",
         bbox_to_anchor=(0.028, 0.905),
@@ -625,17 +624,20 @@ def main() -> None:
         }
     )
     tables = {Path(name).name: read_tsv(ROOT / name) for name in INPUT_NAMES}
-    metadata = tables["sample_metadata.tsv"]
+    all_metadata = tables["sample_metadata.tsv"]
+    metadata = all_metadata
     meta = {specimen_id(row): row for row in metadata}
     expected = json.loads((ROOT / "config/reporting_sources.json").read_text())["expected_samples"]
     if len(metadata) != expected or len(meta) != expected:
         raise ValueError("Expected one metadata row per configured library")
-    bacteria = tables["bacterial_detections.tsv"]
-    viruses = tables["viral_detections.tsv"]
+    metadata = [row for row in metadata if row.get("biological_include", "true") == "true"]
+    meta = {specimen_id(row): row for row in metadata}
+    bacteria = [row for row in tables["bacterial_detections.tsv"] if row.get("biological_include", "true") == "true"]
+    viruses = [row for row in tables["viral_detections.tsv"] if row.get("biological_include", "true") == "true" and row["catalog_class"] == "associate"]
     eukaryotes = [
         row
         for row in tables["eukaryote_evidence.tsv"]
-        if row["count_as_detection"] == "true"
+        if row["count_as_detection"] == "true" and row.get("biological_include", "true") == "true"
     ]
     for rows in [bacteria, viruses, eukaryotes]:
         for row in rows:
@@ -671,7 +673,7 @@ def main() -> None:
             raise ValueError(
                 f"Domain summary disagrees with accepted host table: {name}"
             )
-    outputs = draw_overview(metadata, domain_sets)
+    outputs = draw_overview(all_metadata, {key: value for key, value in domain_sets.items() if key != "Archaea"}, len(metadata))
     outputs += draw_microbes(metadata, bacteria)
     outputs += draw_eukaryotes(metadata, eukaryotes)
     outputs.append(
@@ -710,7 +712,7 @@ def main() -> None:
             "matplotlib": matplotlib.__version__,
             "numpy": np.__version__,
         },
-        "scope": "All accepted libraries retained descriptively; no flowcell-based inference or sequence reanalysis.",
+        "scope": "Biological summaries omit the four excluded libraries and flagged contaminant taxa; no sequence reanalysis.",
         "checks": {
             "metadata_libraries": len(metadata),
             "eukaryotic_detections": len(eukaryotes),
@@ -718,7 +720,7 @@ def main() -> None:
             "eukaryote_read_and_assembly_cells": sum(r["grade"] == "high_confidence" for r in eukaryotes),
             "domain_counts_match_accepted_host_summary": True,
         },
-        "microbial_display": "Mutually exclusive target assignments: Metamycoplasmataceae, seven frequent named bacterial groups, remaining bacteria, and archaea; presence deduplicated within each specimen.",
+        "microbial_display": "Mutually exclusive target assignments among retained bacteria; presence deduplicated within each specimen.",
         "photographs": "Explicit empty placeholders; no photographs or specimen images supplied.",
     }
     (OUT / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")

@@ -14,7 +14,7 @@ EXT_GCA_929200505.1	Leptogorgia sarmentosa  |  GCA_929200505.1	external	d__Bacte
 EXT_GCA_929200285.1	Eunicella gazella  |  GCA_929200285.1	external	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__DT-68;s__DT-68 sp929200685	False	0.510953355
 EXT_GCA_929200685.1	Leptogorgia sarmentosa  |  GCA_929200685.1 [dup.]	external	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__DT-68;s__DT-68 sp929200685	True	0.508955661
 GB_GCA_929200685.1	DT-68 sp929200685 [dup.]	GTDB	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__DT-68;s__DT-68 sp929200685	True	0.508955661
-MAGSP0031	MAGSP0031  |  clade B	study	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	False	0.5728404659999999
+MAGSP0031	MAGSP0031  |  sister to clade B	study	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	False	0.5728404659999999
 MAGSP0007	MAGSP0007  |  clade B	study	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	False	0.450143028
 MAGSP0010	MAGSP0010  |  clade B	study	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	False	0.448266516
 MAGSP0029	MAGSP0029  |  clade B	study	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Mycoplasmatales;f__Metamycoplasmataceae;g__;s__	False	0.45521381299999997

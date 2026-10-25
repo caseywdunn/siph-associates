@@ -1,0 +1,5 @@
+sample_id	host	reason	decision_date	evidence	metadata_note
+Ahuja2026__NA29	Nanomia sp. 1	Cutibacterium acnes breadth >=0.50	2026-10-24	tables/human_screen/sample_summary.tsv;tables/cohort/bacterial_detections.tsv;figures/expanded_review/ssu_background_flags.tsv	
+Ahuja2026__NA31	Nanomia bijuga	Cutibacterium acnes breadth >=0.50;human-compatible pairs >=0.05%	2026-10-24	tables/human_screen/sample_summary.tsv;tables/cohort/bacterial_detections.tsv;figures/expanded_review/ssu_background_flags.tsv	
+Manko2026__D666-D10	Bargmannia stenotes	Cutibacterium acnes breadth >=0.50;human-compatible pairs >=0.05%	2026-10-24	tables/human_screen/sample_summary.tsv;tables/cohort/bacterial_detections.tsv;figures/expanded_review/ssu_background_flags.tsv	NCBI collection event conflicts with local specimen record (D611-D6)
+Manko2026__T676-SS3	Bargmannia elongata	human-compatible pairs >=0.05%;SSU background controls above calibration	2026-10-24	tables/human_screen/sample_summary.tsv;tables/cohort/bacterial_detections.tsv;figures/expanded_review/ssu_background_flags.tsv	Formalin preserved; voucher unresolved between YPM-IZ-111936 and YPM-IZ-11936

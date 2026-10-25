@@ -7,6 +7,7 @@ import math
 import os
 from collections import defaultdict
 from pathlib import Path
+from contamination_policy import ContaminationPolicy
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--presence", required=True)
@@ -126,6 +127,8 @@ for row in rows(args.bacterial):
         **{f"grade_at_{int(t * 100)}pct": bacterial_grade(breadth, reads, supported, t)
            for t in bac["sensitivity_breadths"]},
     })
+policy = ContaminationPolicy(catalog=manifest)
+records = [policy.annotate(row) for row in records]
 fields = list(records[0])
 write(args.out_bacterial, fields, records)
 
@@ -144,5 +147,10 @@ for row in rows(args.viral):
     viral.append({"sample_id": row["sample_id"], "target_id": row["target_id"],
                   "catalog_class": row["catalog_class"], "breadth": round(breadth, 6),
                   "reads": row["read_count"], "grade": grade})
+overrides = {r["target_id"]: r for r in rows("config/viral_catalog_classifications.tsv")}
+for row in viral:
+    if row["target_id"] in overrides:
+        row["catalog_class"] = overrides[row["target_id"]]["reporting_class"]
+viral = [policy.annotate(row) for row in viral]
 write(args.out_viral, list(viral[0]), viral)
 print(f"bacterial pairs={len(records)} viral pairs={len(viral)}")

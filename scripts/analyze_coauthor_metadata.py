@@ -23,6 +23,8 @@ from analyze_collection_context import (
 
 def join_mapping(rows: list[dict], mapping: list[dict]) -> list[dict]:
     """Require exactly one actual mapping-input denominator for each specimen."""
+    retained_ids = {row["sample_id"] for row in rows}
+    mapping = [row for row in mapping if row["sample_id"] in retained_ids]
     by_sample = {row["sample_id"]: row for row in mapping}
     if len(by_sample) != len(mapping) or set(by_sample) != {
         row["sample_id"] for row in rows
@@ -54,6 +56,8 @@ def select(rows: list[dict], filters: dict[str, list[str]]) -> list[dict]:
 
 def join_fish(rows: list[dict], fish: list[dict]) -> list[dict]:
     """Retain the separate marker screen's counts and sequencing denominator."""
+    retained_ids = {row["sample_id"] for row in rows}
+    fish = [row for row in fish if row["analysis_sample_id"] in retained_ids]
     indexed = {row["analysis_sample_id"]: row for row in fish}
     if len(indexed) != len(fish) or set(indexed) != {row["sample_id"] for row in rows}:
         raise ValueError("Fish screen and specimen metadata must match one-to-one")
@@ -165,6 +169,7 @@ def summarize_host_references(
     expected = {
         sample for sample, row in metadata.items() if row["host_route"] != "none"
     }
+    stats = [row for row in stats if row["sample"] in expected]
     if len(stats) != len(expected) or {row["sample"] for row in stats} != expected:
         raise ValueError(
             "Host-depletion summary must cover all and only reference-mapped libraries"

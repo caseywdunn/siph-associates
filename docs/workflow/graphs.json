@@ -96,12 +96,6 @@
       "mycoplasmatales_phylogeny"
     ]
   },
-  "gene_content": {
-    "config": "config/config.yaml",
-    "targets": [
-      "mycoplasmatales_gene_content"
-    ]
-  },
   "cnidarian": {
     "config": "config/config.yaml",
     "targets": [
@@ -295,6 +289,13 @@
     "config": "config/cutibacterium_sensitivity.json",
     "targets": [
       "all"
+    ]
+  },
+  "manuscript_revision": {
+    "snakefile": "workflow/manuscript_revision.smk",
+    "config": "config/manuscript_revision.json",
+    "targets": [
+      "revision_publication"
     ]
   }
 }

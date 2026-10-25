@@ -4,7 +4,6 @@ Physalia megalista	Cognatishimia	0	26	0.0
 Physalia megalista	Vibrio	4	26	0.15384615384615385
 Physalia megalista	CAKMZU01	8	26	0.3076923076923077
 Physalia megalista	Pseudoalteromonas	2	26	0.07692307692307693
-Physalia megalista	Cutibacterium	0	26	0.0
 Physalia megalista	Photobacterium	0	26	0.0
 Physalia megalista	Alteromonas	0	26	0.0
 Physalia megalista	Remaining bacteria	10	26	0.38461538461538464
@@ -13,7 +12,6 @@ Physalia mikazuki	Cognatishimia	3	5	0.6
 Physalia mikazuki	Vibrio	2	5	0.4
 Physalia mikazuki	CAKMZU01	0	5	0.0
 Physalia mikazuki	Pseudoalteromonas	1	5	0.2
-Physalia mikazuki	Cutibacterium	0	5	0.0
 Physalia mikazuki	Photobacterium	2	5	0.4
 Physalia mikazuki	Alteromonas	1	5	0.2
 Physalia mikazuki	Remaining bacteria	2	5	0.4
@@ -22,7 +20,6 @@ Physalia minuta	Cognatishimia	0	19	0.0
 Physalia minuta	Vibrio	1	19	0.05263157894736842
 Physalia minuta	CAKMZU01	0	19	0.0
 Physalia minuta	Pseudoalteromonas	1	19	0.05263157894736842
-Physalia minuta	Cutibacterium	2	19	0.10526315789473684
 Physalia minuta	Photobacterium	0	19	0.0
 Physalia minuta	Alteromonas	0	19	0.0
 Physalia minuta	Remaining bacteria	14	19	0.7368421052631579
@@ -31,7 +28,6 @@ Physalia physalis	Cognatishimia	7	37	0.1891891891891892
 Physalia physalis	Vibrio	8	37	0.21621621621621623
 Physalia physalis	CAKMZU01	0	37	0.0
 Physalia physalis	Pseudoalteromonas	3	37	0.08108108108108109
-Physalia physalis	Cutibacterium	2	37	0.05405405405405406
 Physalia physalis	Photobacterium	5	37	0.13513513513513514
 Physalia physalis	Alteromonas	2	37	0.05405405405405406
 Physalia physalis	Remaining bacteria	4	37	0.10810810810810811
@@ -40,25 +36,22 @@ Physalia utriculus	Cognatishimia	22	64	0.34375
 Physalia utriculus	Vibrio	8	64	0.125
 Physalia utriculus	CAKMZU01	3	64	0.046875
 Physalia utriculus	Pseudoalteromonas	5	64	0.078125
-Physalia utriculus	Cutibacterium	4	64	0.0625
 Physalia utriculus	Photobacterium	3	64	0.046875
 Physalia utriculus	Alteromonas	2	64	0.03125
-Physalia utriculus	Remaining bacteria	28	64	0.4375
-Nanomia bijuga	Metamycoplasmataceae	1	10	0.1
-Nanomia bijuga	Cognatishimia	2	10	0.2
-Nanomia bijuga	Vibrio	2	10	0.2
-Nanomia bijuga	CAKMZU01	3	10	0.3
-Nanomia bijuga	Pseudoalteromonas	2	10	0.2
-Nanomia bijuga	Cutibacterium	3	10	0.3
-Nanomia bijuga	Photobacterium	0	10	0.0
-Nanomia bijuga	Alteromonas	4	10	0.4
-Nanomia bijuga	Remaining bacteria	4	10	0.4
+Physalia utriculus	Remaining bacteria	26	64	0.40625
+Nanomia bijuga	Metamycoplasmataceae	0	9	0.0
+Nanomia bijuga	Cognatishimia	1	9	0.1111111111111111
+Nanomia bijuga	Vibrio	2	9	0.2222222222222222
+Nanomia bijuga	CAKMZU01	2	9	0.2222222222222222
+Nanomia bijuga	Pseudoalteromonas	2	9	0.2222222222222222
+Nanomia bijuga	Photobacterium	0	9	0.0
+Nanomia bijuga	Alteromonas	3	9	0.3333333333333333
+Nanomia bijuga	Remaining bacteria	3	9	0.3333333333333333
 Nanomia cara	Metamycoplasmataceae	0	1	0.0
 Nanomia cara	Cognatishimia	0	1	0.0
 Nanomia cara	Vibrio	0	1	0.0
 Nanomia cara	CAKMZU01	0	1	0.0
 Nanomia cara	Pseudoalteromonas	0	1	0.0
-Nanomia cara	Cutibacterium	0	1	0.0
 Nanomia cara	Photobacterium	0	1	0.0
 Nanomia cara	Alteromonas	0	1	0.0
 Nanomia cara	Remaining bacteria	0	1	0.0
@@ -67,25 +60,14 @@ Nanomia septata	Cognatishimia	0	10	0.0
 Nanomia septata	Vibrio	0	10	0.0
 Nanomia septata	CAKMZU01	0	10	0.0
 Nanomia septata	Pseudoalteromonas	1	10	0.1
-Nanomia septata	Cutibacterium	0	10	0.0
 Nanomia septata	Photobacterium	0	10	0.0
 Nanomia septata	Alteromonas	0	10	0.0
 Nanomia septata	Remaining bacteria	2	10	0.2
-Nanomia sp. 1	Metamycoplasmataceae	0	1	0.0
-Nanomia sp. 1	Cognatishimia	0	1	0.0
-Nanomia sp. 1	Vibrio	0	1	0.0
-Nanomia sp. 1	CAKMZU01	0	1	0.0
-Nanomia sp. 1	Pseudoalteromonas	0	1	0.0
-Nanomia sp. 1	Cutibacterium	1	1	1.0
-Nanomia sp. 1	Photobacterium	0	1	0.0
-Nanomia sp. 1	Alteromonas	0	1	0.0
-Nanomia sp. 1	Remaining bacteria	1	1	1.0
 Abylopsis tetragona	Metamycoplasmataceae	0	1	0.0
 Abylopsis tetragona	Cognatishimia	0	1	0.0
 Abylopsis tetragona	Vibrio	0	1	0.0
 Abylopsis tetragona	CAKMZU01	0	1	0.0
 Abylopsis tetragona	Pseudoalteromonas	0	1	0.0
-Abylopsis tetragona	Cutibacterium	0	1	0.0
 Abylopsis tetragona	Photobacterium	0	1	0.0
 Abylopsis tetragona	Alteromonas	0	1	0.0
 Abylopsis tetragona	Remaining bacteria	0	1	0.0
@@ -94,7 +76,6 @@ Agalma clausi	Cognatishimia	0	1	0.0
 Agalma clausi	Vibrio	0	1	0.0
 Agalma clausi	CAKMZU01	0	1	0.0
 Agalma clausi	Pseudoalteromonas	0	1	0.0
-Agalma clausi	Cutibacterium	0	1	0.0
 Agalma clausi	Photobacterium	0	1	0.0
 Agalma clausi	Alteromonas	0	1	0.0
 Agalma clausi	Remaining bacteria	0	1	0.0
@@ -103,7 +84,6 @@ Agalma elegans	Cognatishimia	0	2	0.0
 Agalma elegans	Vibrio	0	2	0.0
 Agalma elegans	CAKMZU01	0	2	0.0
 Agalma elegans	Pseudoalteromonas	0	2	0.0
-Agalma elegans	Cutibacterium	0	2	0.0
 Agalma elegans	Photobacterium	0	2	0.0
 Agalma elegans	Alteromonas	0	2	0.0
 Agalma elegans	Remaining bacteria	1	2	0.5
@@ -112,7 +92,6 @@ Agalma okenii	Cognatishimia	0	1	0.0
 Agalma okenii	Vibrio	0	1	0.0
 Agalma okenii	CAKMZU01	0	1	0.0
 Agalma okenii	Pseudoalteromonas	0	1	0.0
-Agalma okenii	Cutibacterium	0	1	0.0
 Agalma okenii	Photobacterium	0	1	0.0
 Agalma okenii	Alteromonas	0	1	0.0
 Agalma okenii	Remaining bacteria	0	1	0.0
@@ -121,7 +100,6 @@ Apolemia rubriversa	Cognatishimia	0	1	0.0
 Apolemia rubriversa	Vibrio	0	1	0.0
 Apolemia rubriversa	CAKMZU01	0	1	0.0
 Apolemia rubriversa	Pseudoalteromonas	0	1	0.0
-Apolemia rubriversa	Cutibacterium	0	1	0.0
 Apolemia rubriversa	Photobacterium	0	1	0.0
 Apolemia rubriversa	Alteromonas	0	1	0.0
 Apolemia rubriversa	Remaining bacteria	0	1	0.0
@@ -130,7 +108,6 @@ Apolemia sp. 3 CWD-2005	Cognatishimia	0	1	0.0
 Apolemia sp. 3 CWD-2005	Vibrio	0	1	0.0
 Apolemia sp. 3 CWD-2005	CAKMZU01	0	1	0.0
 Apolemia sp. 3 CWD-2005	Pseudoalteromonas	0	1	0.0
-Apolemia sp. 3 CWD-2005	Cutibacterium	0	1	0.0
 Apolemia sp. 3 CWD-2005	Photobacterium	0	1	0.0
 Apolemia sp. 3 CWD-2005	Alteromonas	0	1	0.0
 Apolemia sp. 3 CWD-2005	Remaining bacteria	1	1	1.0
@@ -139,25 +116,22 @@ Bargmannia amoena	Cognatishimia	0	1	0.0
 Bargmannia amoena	Vibrio	0	1	0.0
 Bargmannia amoena	CAKMZU01	0	1	0.0
 Bargmannia amoena	Pseudoalteromonas	0	1	0.0
-Bargmannia amoena	Cutibacterium	0	1	0.0
 Bargmannia amoena	Photobacterium	0	1	0.0
 Bargmannia amoena	Alteromonas	0	1	0.0
 Bargmannia amoena	Remaining bacteria	0	1	0.0
-Bargmannia elongata	Metamycoplasmataceae	0	3	0.0
-Bargmannia elongata	Cognatishimia	0	3	0.0
-Bargmannia elongata	Vibrio	0	3	0.0
-Bargmannia elongata	CAKMZU01	0	3	0.0
-Bargmannia elongata	Pseudoalteromonas	0	3	0.0
-Bargmannia elongata	Cutibacterium	1	3	0.3333333333333333
-Bargmannia elongata	Photobacterium	0	3	0.0
-Bargmannia elongata	Alteromonas	0	3	0.0
-Bargmannia elongata	Remaining bacteria	0	3	0.0
+Bargmannia elongata	Metamycoplasmataceae	0	2	0.0
+Bargmannia elongata	Cognatishimia	0	2	0.0
+Bargmannia elongata	Vibrio	0	2	0.0
+Bargmannia elongata	CAKMZU01	0	2	0.0
+Bargmannia elongata	Pseudoalteromonas	0	2	0.0
+Bargmannia elongata	Photobacterium	0	2	0.0
+Bargmannia elongata	Alteromonas	0	2	0.0
+Bargmannia elongata	Remaining bacteria	0	2	0.0
 Bargmannia lata	Metamycoplasmataceae	0	1	0.0
 Bargmannia lata	Cognatishimia	0	1	0.0
 Bargmannia lata	Vibrio	0	1	0.0
 Bargmannia lata	CAKMZU01	0	1	0.0
 Bargmannia lata	Pseudoalteromonas	0	1	0.0
-Bargmannia lata	Cutibacterium	0	1	0.0
 Bargmannia lata	Photobacterium	0	1	0.0
 Bargmannia lata	Alteromonas	0	1	0.0
 Bargmannia lata	Remaining bacteria	0	1	0.0
@@ -166,7 +140,6 @@ Bargmannia marlena	Cognatishimia	0	1	0.0
 Bargmannia marlena	Vibrio	0	1	0.0
 Bargmannia marlena	CAKMZU01	0	1	0.0
 Bargmannia marlena	Pseudoalteromonas	0	1	0.0
-Bargmannia marlena	Cutibacterium	0	1	0.0
 Bargmannia marlena	Photobacterium	0	1	0.0
 Bargmannia marlena	Alteromonas	0	1	0.0
 Bargmannia marlena	Remaining bacteria	0	1	0.0
@@ -175,7 +148,6 @@ Bargmannia profunda	Cognatishimia	0	1	0.0
 Bargmannia profunda	Vibrio	0	1	0.0
 Bargmannia profunda	CAKMZU01	0	1	0.0
 Bargmannia profunda	Pseudoalteromonas	0	1	0.0
-Bargmannia profunda	Cutibacterium	0	1	0.0
 Bargmannia profunda	Photobacterium	0	1	0.0
 Bargmannia profunda	Alteromonas	0	1	0.0
 Bargmannia profunda	Remaining bacteria	0	1	0.0
@@ -184,25 +156,14 @@ Bargmannia pyrosa	Cognatishimia	0	2	0.0
 Bargmannia pyrosa	Vibrio	0	2	0.0
 Bargmannia pyrosa	CAKMZU01	0	2	0.0
 Bargmannia pyrosa	Pseudoalteromonas	0	2	0.0
-Bargmannia pyrosa	Cutibacterium	0	2	0.0
 Bargmannia pyrosa	Photobacterium	0	2	0.0
 Bargmannia pyrosa	Alteromonas	0	2	0.0
 Bargmannia pyrosa	Remaining bacteria	0	2	0.0
-Bargmannia stenotes	Metamycoplasmataceae	0	1	0.0
-Bargmannia stenotes	Cognatishimia	0	1	0.0
-Bargmannia stenotes	Vibrio	0	1	0.0
-Bargmannia stenotes	CAKMZU01	1	1	1.0
-Bargmannia stenotes	Pseudoalteromonas	0	1	0.0
-Bargmannia stenotes	Cutibacterium	1	1	1.0
-Bargmannia stenotes	Photobacterium	0	1	0.0
-Bargmannia stenotes	Alteromonas	0	1	0.0
-Bargmannia stenotes	Remaining bacteria	1	1	1.0
 Chelophyes appendiculata	Metamycoplasmataceae	0	1	0.0
 Chelophyes appendiculata	Cognatishimia	0	1	0.0
 Chelophyes appendiculata	Vibrio	0	1	0.0
 Chelophyes appendiculata	CAKMZU01	0	1	0.0
 Chelophyes appendiculata	Pseudoalteromonas	0	1	0.0
-Chelophyes appendiculata	Cutibacterium	0	1	0.0
 Chelophyes appendiculata	Photobacterium	0	1	0.0
 Chelophyes appendiculata	Alteromonas	0	1	0.0
 Chelophyes appendiculata	Remaining bacteria	0	1	0.0
@@ -211,7 +172,6 @@ Chuniphyes multidentata	Cognatishimia	0	1	0.0
 Chuniphyes multidentata	Vibrio	0	1	0.0
 Chuniphyes multidentata	CAKMZU01	0	1	0.0
 Chuniphyes multidentata	Pseudoalteromonas	0	1	0.0
-Chuniphyes multidentata	Cutibacterium	0	1	0.0
 Chuniphyes multidentata	Photobacterium	0	1	0.0
 Chuniphyes multidentata	Alteromonas	0	1	0.0
 Chuniphyes multidentata	Remaining bacteria	1	1	1.0
@@ -220,7 +180,6 @@ Cordagalma	Cognatishimia	0	1	0.0
 Cordagalma	Vibrio	0	1	0.0
 Cordagalma	CAKMZU01	0	1	0.0
 Cordagalma	Pseudoalteromonas	0	1	0.0
-Cordagalma	Cutibacterium	0	1	0.0
 Cordagalma	Photobacterium	0	1	0.0
 Cordagalma	Alteromonas	0	1	0.0
 Cordagalma	Remaining bacteria	0	1	0.0
@@ -229,16 +188,14 @@ Craseoa lathetica	Cognatishimia	0	1	0.0
 Craseoa lathetica	Vibrio	0	1	0.0
 Craseoa lathetica	CAKMZU01	0	1	0.0
 Craseoa lathetica	Pseudoalteromonas	0	1	0.0
-Craseoa lathetica	Cutibacterium	0	1	0.0
 Craseoa lathetica	Photobacterium	0	1	0.0
 Craseoa lathetica	Alteromonas	0	1	0.0
-Craseoa lathetica	Remaining bacteria	1	1	1.0
+Craseoa lathetica	Remaining bacteria	0	1	0.0
 Diphyes dispar	Metamycoplasmataceae	0	1	0.0
 Diphyes dispar	Cognatishimia	0	1	0.0
 Diphyes dispar	Vibrio	0	1	0.0
 Diphyes dispar	CAKMZU01	0	1	0.0
 Diphyes dispar	Pseudoalteromonas	0	1	0.0
-Diphyes dispar	Cutibacterium	0	1	0.0
 Diphyes dispar	Photobacterium	0	1	0.0
 Diphyes dispar	Alteromonas	0	1	0.0
 Diphyes dispar	Remaining bacteria	0	1	0.0
@@ -247,7 +204,6 @@ Erenna sirena	Cognatishimia	0	1	0.0
 Erenna sirena	Vibrio	0	1	0.0
 Erenna sirena	CAKMZU01	0	1	0.0
 Erenna sirena	Pseudoalteromonas	0	1	0.0
-Erenna sirena	Cutibacterium	0	1	0.0
 Erenna sirena	Photobacterium	0	1	0.0
 Erenna sirena	Alteromonas	0	1	0.0
 Erenna sirena	Remaining bacteria	0	1	0.0
@@ -256,7 +212,6 @@ Forskalia	Cognatishimia	0	1	0.0
 Forskalia	Vibrio	0	1	0.0
 Forskalia	CAKMZU01	0	1	0.0
 Forskalia	Pseudoalteromonas	0	1	0.0
-Forskalia	Cutibacterium	0	1	0.0
 Forskalia	Photobacterium	0	1	0.0
 Forskalia	Alteromonas	0	1	0.0
 Forskalia	Remaining bacteria	0	1	0.0
@@ -265,7 +220,6 @@ Frillagalma vityazi	Cognatishimia	0	1	0.0
 Frillagalma vityazi	Vibrio	0	1	0.0
 Frillagalma vityazi	CAKMZU01	0	1	0.0
 Frillagalma vityazi	Pseudoalteromonas	0	1	0.0
-Frillagalma vityazi	Cutibacterium	0	1	0.0
 Frillagalma vityazi	Photobacterium	0	1	0.0
 Frillagalma vityazi	Alteromonas	0	1	0.0
 Frillagalma vityazi	Remaining bacteria	0	1	0.0
@@ -274,7 +228,6 @@ Gymnopraia lapislazula	Cognatishimia	0	1	0.0
 Gymnopraia lapislazula	Vibrio	0	1	0.0
 Gymnopraia lapislazula	CAKMZU01	0	1	0.0
 Gymnopraia lapislazula	Pseudoalteromonas	0	1	0.0
-Gymnopraia lapislazula	Cutibacterium	0	1	0.0
 Gymnopraia lapislazula	Photobacterium	0	1	0.0
 Gymnopraia lapislazula	Alteromonas	0	1	0.0
 Gymnopraia lapislazula	Remaining bacteria	0	1	0.0
@@ -283,7 +236,6 @@ Halistemma rubrum	Cognatishimia	0	2	0.0
 Halistemma rubrum	Vibrio	0	2	0.0
 Halistemma rubrum	CAKMZU01	0	2	0.0
 Halistemma rubrum	Pseudoalteromonas	0	2	0.0
-Halistemma rubrum	Cutibacterium	0	2	0.0
 Halistemma rubrum	Photobacterium	0	2	0.0
 Halistemma rubrum	Alteromonas	0	2	0.0
 Halistemma rubrum	Remaining bacteria	0	2	0.0
@@ -292,7 +244,6 @@ Hippopodius hippopus	Cognatishimia	0	1	0.0
 Hippopodius hippopus	Vibrio	0	1	0.0
 Hippopodius hippopus	CAKMZU01	0	1	0.0
 Hippopodius hippopus	Pseudoalteromonas	0	1	0.0
-Hippopodius hippopus	Cutibacterium	0	1	0.0
 Hippopodius hippopus	Photobacterium	0	1	0.0
 Hippopodius hippopus	Alteromonas	0	1	0.0
 Hippopodius hippopus	Remaining bacteria	0	1	0.0
@@ -301,16 +252,14 @@ Lilyopsis fluoracantha	Cognatishimia	0	1	0.0
 Lilyopsis fluoracantha	Vibrio	0	1	0.0
 Lilyopsis fluoracantha	CAKMZU01	0	1	0.0
 Lilyopsis fluoracantha	Pseudoalteromonas	0	1	0.0
-Lilyopsis fluoracantha	Cutibacterium	1	1	1.0
 Lilyopsis fluoracantha	Photobacterium	0	1	0.0
 Lilyopsis fluoracantha	Alteromonas	0	1	0.0
-Lilyopsis fluoracantha	Remaining bacteria	1	1	1.0
+Lilyopsis fluoracantha	Remaining bacteria	0	1	0.0
 Physonectae	Metamycoplasmataceae	0	1	0.0
 Physonectae	Cognatishimia	0	1	0.0
 Physonectae	Vibrio	0	1	0.0
 Physonectae	CAKMZU01	0	1	0.0
 Physonectae	Pseudoalteromonas	0	1	0.0
-Physonectae	Cutibacterium	0	1	0.0
 Physonectae	Photobacterium	0	1	0.0
 Physonectae	Alteromonas	0	1	0.0
 Physonectae	Remaining bacteria	0	1	0.0
@@ -319,7 +268,6 @@ Praya	Cognatishimia	0	1	0.0
 Praya	Vibrio	0	1	0.0
 Praya	CAKMZU01	0	1	0.0
 Praya	Pseudoalteromonas	0	1	0.0
-Praya	Cutibacterium	0	1	0.0
 Praya	Photobacterium	0	1	0.0
 Praya	Alteromonas	0	1	0.0
 Praya	Remaining bacteria	0	1	0.0
@@ -328,7 +276,6 @@ Praya dubia	Cognatishimia	0	1	0.0
 Praya dubia	Vibrio	0	1	0.0
 Praya dubia	CAKMZU01	0	1	0.0
 Praya dubia	Pseudoalteromonas	0	1	0.0
-Praya dubia	Cutibacterium	0	1	0.0
 Praya dubia	Photobacterium	0	1	0.0
 Praya dubia	Alteromonas	0	1	0.0
 Praya dubia	Remaining bacteria	0	1	0.0
@@ -337,7 +284,6 @@ Resomia ornicephala	Cognatishimia	0	2	0.0
 Resomia ornicephala	Vibrio	0	2	0.0
 Resomia ornicephala	CAKMZU01	1	2	0.5
 Resomia ornicephala	Pseudoalteromonas	0	2	0.0
-Resomia ornicephala	Cutibacterium	1	2	0.5
 Resomia ornicephala	Photobacterium	0	2	0.0
 Resomia ornicephala	Alteromonas	0	2	0.0
 Resomia ornicephala	Remaining bacteria	1	2	0.5
@@ -346,7 +292,6 @@ Rhizophysa eysenhardtii	Cognatishimia	0	1	0.0
 Rhizophysa eysenhardtii	Vibrio	0	1	0.0
 Rhizophysa eysenhardtii	CAKMZU01	0	1	0.0
 Rhizophysa eysenhardtii	Pseudoalteromonas	0	1	0.0
-Rhizophysa eysenhardtii	Cutibacterium	0	1	0.0
 Rhizophysa eysenhardtii	Photobacterium	0	1	0.0
 Rhizophysa eysenhardtii	Alteromonas	0	1	0.0
 Rhizophysa eysenhardtii	Remaining bacteria	0	1	0.0
@@ -355,7 +300,6 @@ Rhizophysa filiformis	Cognatishimia	0	1	0.0
 Rhizophysa filiformis	Vibrio	0	1	0.0
 Rhizophysa filiformis	CAKMZU01	0	1	0.0
 Rhizophysa filiformis	Pseudoalteromonas	0	1	0.0
-Rhizophysa filiformis	Cutibacterium	0	1	0.0
 Rhizophysa filiformis	Photobacterium	0	1	0.0
 Rhizophysa filiformis	Alteromonas	0	1	0.0
 Rhizophysa filiformis	Remaining bacteria	0	1	0.0
@@ -364,7 +308,6 @@ Rosacea flaccida	Cognatishimia	0	1	0.0
 Rosacea flaccida	Vibrio	0	1	0.0
 Rosacea flaccida	CAKMZU01	0	1	0.0
 Rosacea flaccida	Pseudoalteromonas	0	1	0.0
-Rosacea flaccida	Cutibacterium	0	1	0.0
 Rosacea flaccida	Photobacterium	0	1	0.0
 Rosacea flaccida	Alteromonas	0	1	0.0
 Rosacea flaccida	Remaining bacteria	0	1	0.0
@@ -373,7 +316,6 @@ Stephalia dilata	Cognatishimia	0	1	0.0
 Stephalia dilata	Vibrio	0	1	0.0
 Stephalia dilata	CAKMZU01	0	1	0.0
 Stephalia dilata	Pseudoalteromonas	0	1	0.0
-Stephalia dilata	Cutibacterium	0	1	0.0
 Stephalia dilata	Photobacterium	0	1	0.0
 Stephalia dilata	Alteromonas	0	1	0.0
 Stephalia dilata	Remaining bacteria	0	1	0.0
@@ -382,7 +324,6 @@ Stephanomia amphytridis	Cognatishimia	0	1	0.0
 Stephanomia amphytridis	Vibrio	0	1	0.0
 Stephanomia amphytridis	CAKMZU01	0	1	0.0
 Stephanomia amphytridis	Pseudoalteromonas	0	1	0.0
-Stephanomia amphytridis	Cutibacterium	0	1	0.0
 Stephanomia amphytridis	Photobacterium	0	1	0.0
 Stephanomia amphytridis	Alteromonas	0	1	0.0
 Stephanomia amphytridis	Remaining bacteria	0	1	0.0

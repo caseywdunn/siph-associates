@@ -3,7 +3,7 @@ Grade presences and run the pre-specified Phase-6 analyses
 (docs/phase6_analysis_plan.md, config/phase6_analysis.json) on the frozen
 Phase-5 coverage tables. Every reported table regenerates from these rules.
 
-1. Assembly support for high-confidence grades: index_catalog_minimap2,
+1. Assembly support for evidence grades: index_catalog_minimap2,
    align_assembly_catalog_minimap2.
 2. Sensitivity read sets and mappings: trim_reads_uncapped,
    map_reads_sensitivity_bwa, summarize_sensitivity_coverage_coverm.
@@ -74,7 +74,7 @@ rule align_assembly_catalog_minimap2:
     shell:
         """
         export PATH={params.tools:q}:$PATH
-        minimap2 -c --secondary=no -t {threads} {input.index:q} {input.contigs:q} > {output:q}.tmp 2> {log:q}
+        minimap2 -x asm5 -c --secondary=no -t {threads} {input.index:q} {input.contigs:q} > {output:q}.tmp 2> {log:q}
         mv {output:q}.tmp {output:q}
         """
 
@@ -184,6 +184,7 @@ rule summarize_sensitivity_coverage_coverm:
 rule grade_presences:
     input:
         script="workflow/scripts/grade_presences.py",
+        decisions=["config/excluded_libraries.tsv", "config/contaminant_taxa.tsv", "config/viral_catalog_classifications.tsv", "workflow/scripts/contamination_policy.py"],
         exclusions="config/catalog_domain_exclusions.tsv",
         presence=str(ROOT / "config" / "phase5_presence.json"),
         analysis=str(PHASE6_CONFIG_PATH),

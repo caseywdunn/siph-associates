@@ -1,0 +1,19 @@
+{
+  "inputs_sha256": {
+    "config/viral_catalog_classifications.tsv": "4bcd41f6353657a4fb9234b252330a94dd4597122725d5bd47dcfc2038814c9a",
+    "/gpfs/ycga/work/dunn/cwd7/siph_associates/scripts/prepare_revision_catalog.py": "4aa8cb7482421640fd65b2a57a4bca3322d2de7c638cdeb03a9a11c7a8ee4680",
+    "figures/coauthor_review/catalog/bacterial_catalog.manifest.tsv": "c226ebbf990d4a0de909b9b36535e94f9bd49a5b92d1ec42736a73faae0e34f3",
+    "figures/coauthor_review/catalog/mag_catalog.tsv": "fc6f98ba428b2b25e83034f9ffc7c2529cdc7383cd2c2b7ae723afae2d3199e7",
+    "figures/coauthor_review/catalog/catalog_id_crosswalk.tsv": "a76df910ae29fbd7bcb9738e148ee81d8e62a30c5c9631b23ff1b05481a682a0",
+    "figures/catalog_qc/catalog_v3/viral_associate.manifest.tsv": "d5efde3d4a1a4c3b337acfce30308ea9f0d9c8c07f7beca4ed86295a4c205502",
+    "figures/catalog_qc/catalog_v3/viral_endogenous_candidate.manifest.tsv": "15162819c8c47ff2a4cb6d9b853957f25588a679a18b600c8bb6c922b5c2e317"
+  },
+  "outputs_sha256": {
+    "figures/manuscript_revision/catalog/bacterial_catalog.manifest.tsv": "c226ebbf990d4a0de909b9b36535e94f9bd49a5b92d1ec42736a73faae0e34f3",
+    "figures/manuscript_revision/catalog/catalog_id_crosswalk.tsv": "a76df910ae29fbd7bcb9738e148ee81d8e62a30c5c9631b23ff1b05481a682a0",
+    "figures/manuscript_revision/catalog/mag_catalog.tsv": "fc6f98ba428b2b25e83034f9ffc7c2529cdc7383cd2c2b7ae723afae2d3199e7",
+    "figures/manuscript_revision/catalog/viral_associate.manifest.tsv": "efeecd69a25e707c1237de59752080172510ed029b0bc180ed0d7f7c7c927351",
+    "figures/manuscript_revision/catalog/viral_endogenous_candidate.manifest.tsv": "6ad2f7a6aff244cea1033c194cfdc92b4bf4074307153e144045964ae6adf06d",
+    "figures/manuscript_revision/catalog/summary.json": "43441eb6abc5ff9869d025b98fab5b6afdf1561b2e55f1647dc2bded4fd86191"
+  }
+}

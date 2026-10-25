@@ -1,0 +1,4 @@
+mag_id	species_cluster	contig_id	start_1based	end_1based	original_length	reason	evidence_path	evidence_sha256
+Church2025__YPM-IZ-110569__bin.3	MAGSP0028	k141_25745	1	37	3082	terminal_ThruPLEX_adaptor	/gpfs/ycga/work/dunn/cwd7/tmp_mag_review/rest/fcsadaptor/fcs_adaptor_report.txt	c43145681edb5579d522de4f4c92f5a84859dbbadeb59b37b2188e190b36f65c
+Church2025__YPM-IZ-111207__bin.6	MAGSP0010	k141_20764	4132	4150	4150	terminal_ThruPLEX_adaptor	/gpfs/ycga/work/dunn/cwd7/tmp_mag_review/rest/fcsadaptor/fcs_adaptor_report.txt	c43145681edb5579d522de4f4c92f5a84859dbbadeb59b37b2188e190b36f65c
+Church2025__YPM-IZ-111210__bin.6	MAGSP0016	k141_18431	1	27	4743	terminal_ThruPLEX_adaptor	/gpfs/ycga/work/dunn/cwd7/tmp_mag_review/rest/fcsadaptor/fcs_adaptor_report.txt	c43145681edb5579d522de4f4c92f5a84859dbbadeb59b37b2188e190b36f65c

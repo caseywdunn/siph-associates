@@ -1,13 +1,13 @@
 contrast	grade_column	included_libraries	f_statistic	p_value	status
-utriculus_pacific_regions	grade	32	1.39496390360722	0.0673	tested
-utriculus_regions_with_indian	grade	36			not_tested
-sw_pacific_host_species	grade	30	0.00217626147425781	0.9995	tested
+utriculus_pacific_regions	grade	31			not_rerun_out_of_scope
+utriculus_regions_with_indian	grade	35			not_tested
+sw_pacific_host_species	grade	30			not_rerun_out_of_scope
 utriculus_central_tissue	grade	12			not_tested
-utriculus_pacific_regions	grade_at_5pct	35	0.606639362989539	0.7252	tested
+utriculus_pacific_regions	grade_at_5pct	35			not_rerun_out_of_scope
 utriculus_regions_with_indian	grade_at_5pct	39			not_tested
-sw_pacific_host_species	grade_at_5pct	31	0.35517033008662	0.7515	tested
+sw_pacific_host_species	grade_at_5pct	31			not_rerun_out_of_scope
 utriculus_central_tissue	grade_at_5pct	15			not_tested
-utriculus_pacific_regions	grade_at_20pct	27	2.42625632842914	0.0157	tested
-utriculus_regions_with_indian	grade_at_20pct	31			not_tested
-sw_pacific_host_species	grade_at_20pct	28	0.172357545913393	0.9768	tested
+utriculus_pacific_regions	grade_at_20pct	26			not_rerun_out_of_scope
+utriculus_regions_with_indian	grade_at_20pct	30			not_tested
+sw_pacific_host_species	grade_at_20pct	28			not_rerun_out_of_scope
 utriculus_central_tissue	grade_at_20pct	9			not_tested

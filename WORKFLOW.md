@@ -1,6 +1,7 @@
 # Workflow operation
 
-The paper analyses **213 sequencing libraries from four studies**. Start with
+The paper screens **213 sequencing libraries from four studies** and uses
+**209 retained specimens** for biological summaries. Start with
 the [paper-to-analysis index](README.md#finding-analyses-from-the-paper) to find
 results, or the [workflow index](docs/workflow/README.md) for methods, inputs,
 launch commands and generated dependency graphs.
@@ -8,9 +9,9 @@ launch commands and generated dependency graphs.
 ## Select the analysis
 
 The [current cohort guide](docs/expanded_reporting.md) describes read processing,
-the completed catalog-v3 mapping and downstream evidence. The selected manuscript
-outputs also include the [reviewed reporting labels](docs/viral_reporting_review.md)
-and [matched tissue, host and geographic analyses](docs/coauthor_metadata_analysis.md).
+the completed catalog-v3 mapping and downstream evidence. The current
+[`workflow/manuscript_revision.smk`](workflow/manuscript_revision.smk) applies the
+exclusion decisions and includes the [matched tissue, host and geographic analyses](docs/coauthor_metadata_analysis.md).
 [reporting_sources.json](config/reporting_sources.json) selects the evidence
 used by publication exports.
 
@@ -30,9 +31,9 @@ reporting target consumes completed inputs and fails if they are missing.
 ## Preview and launch
 
 Follow the separate preview and launch commands in the selected guide. In
-particular, [expanded reporting](docs/expanded_reporting.md#reconstruct-upstream-reporting-products)
-and [reviewed reporting](docs/viral_reporting_review.md#rebuild-from-completed-evidence)
-are distinct entry points. A dry run describes scheduled work; it does not
+particular, the [current reporting commands](docs/expanded_reporting.md#preview-and-launch)
+use `workflow/manuscript_revision.smk` and the `revision_publication` target.
+A dry run describes scheduled work; it does not
 establish that the scientific outputs are complete or current.
 
 For documentation-only checks, run:

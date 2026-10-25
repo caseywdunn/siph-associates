@@ -5,6 +5,7 @@ import csv
 import os
 from collections import Counter
 from pathlib import Path
+from contamination_policy import retained
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--bacterial", required=True)
@@ -72,7 +73,7 @@ for threshold, directory, column in (
     (5, primary_dir.parent / "sensitivity" / "breadth_5pct", "grade_at_5pct"),
     (20, primary_dir.parent / "sensitivity" / "breadth_20pct", "grade_at_20pct"),
 ):
-    calls = [row for row in bacterial if row["role"] != "decoy"
+    calls = [row for row in bacterial if row["role"] != "decoy" and retained(row)
              and row[column] in {"validated", "high_confidence"}]
     expected = Counter(row["target_id"] for row in calls)
     incidence = rows(directory / "bacterial_incidence.tsv")

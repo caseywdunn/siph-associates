@@ -29,7 +29,6 @@ snakemake phase6_analysis publication_cohort_figures publication_collection_cont
 python figures/plot_associate_overview.py
 python scripts/summarize_dalila_revision.py
 python scripts/summarize_screening_results.py
-python scripts/summarize_mdb_revision.py
 python scripts/export_domain_review_statistics.py
 sha256sum figures/cohort/summary.json figures/catalog_review/summary.json \
   figures/screening/summary.json figures/collection_context/summary.json \

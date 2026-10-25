@@ -1,6 +1,6 @@
 # Analysis methods and rule graphs
 
-For the current 213-library execution, start with
+For current reporting on 209 retained specimens from 213 screened libraries, start with
 [current cohort and downstream reporting](../expanded_reporting.md).
 The original stage guides below explain the shared algorithms and historical
 205-library gates. The current workflows use those rules through these
@@ -13,16 +13,14 @@ bounded entry points:
 | Assemble every retained input | [Assembly completion](../assembly_completion.md) | `workflow/assembly_completion.smk` |
 | Genome/viral QC and catalog freeze | [Catalog QC](../catalog_qc.md) | QC, curation and freeze entry points linked in that guide |
 | Completed all-library mapping | [Remapping](../cohort_remapping.md) | `workflow/cohort_remapping.smk` |
-| Grades, statistics, SSU evidence and exports | [Reporting](../expanded_reporting.md) | `workflow/expanded_reporting.smk` |
-| Reviewed viral classes and host metadata | [Reporting interpretation](../viral_reporting_review.md) | `workflow/coauthor_reporting.smk` |
-| Tissue, depth and matched host/region comparisons | [Metadata analyses](../coauthor_metadata_analysis.md) | `workflow/coauthor_metadata.smk` |
+| Assembly support, exclusion policy, statistics and exports | [Current reporting](../expanded_reporting.md) | `workflow/manuscript_revision.smk` |
+| Tissue, depth and matched host/region comparisons | [Metadata analyses](../coauthor_metadata_analysis.md) | `workflow/rules/coauthor_metadata.smk`, included by current reporting |
 | Human-read audit and candidate verification | [Human-read methods](../human_read_screen.md) | `workflow/human_screen.smk`, `workflow/human_confirmation.smk` |
-| Human reads and C. acnes detections | [Descriptive comparison](../human_cutibacterium.md) | `workflow/human_cutibacterium.smk` |
-| Community comparisons with C. acnes omitted | [Omission sensitivity](../cutibacterium_sensitivity.md) | `workflow/cutibacterium_sensitivity.smk` |
+| Contamination decisions and human/C. acnes distributions | [Current reporting](../expanded_reporting.md) | `workflow/manuscript_revision.smk` |
 
 Follow DNA from the original sequencing libraries to the paper's figures and
 supporting tables. The [paper-to-analysis index](../../README.md#finding-analyses-from-the-paper)
-connects Results headings to these methods. The guides below cover all 22 shared rule
+connects Results headings to these methods. The guides below cover the shared rule
 files: each explains the biological purpose, inputs, outputs and interpretation,
 and places a generated rule graph beside its preview and run commands.
 
@@ -45,12 +43,11 @@ show that a run completed or imply that every sample yielded a genome.
 | `phase3_cohort.smk` | Accepted input strategy and assembly eligibility | [Cohort inputs](phase3_cohort/README.md) |
 | `phase3_assembly.smk` | Contigs, ribosomal markers, viral sequences and genome bins | [Assembly and recovery](phase3_assembly/README.md) |
 | `phase3_catalog.smk` | Genome quality, species clustering and viral clustering | [Recovered catalogs](phase3_catalog/README.md) |
-| `phase4_catalog.smk` | Public references, decoys, shared catalogs and CRISPR links | [Mapping catalogs](phase4_catalog/README.md) |
+| `phase4_catalog.smk` | Public references, decoys and shared catalogs | [Mapping catalogs](phase4_catalog/README.md) |
 | `phase5_mapping.smk` | All-library competitive mapping and continuous coverage | [Cohort mapping](phase5_mapping/README.md) |
 | `phase6_analysis.smk` | Presence grades, geographic/batch inference and controls | [Grades and statistics](phase6_analysis/README.md) |
 | `eukaryote_gate.smk` | Conservative non-host SSU evidence and reporting | [Eukaryotic associates](eukaryote_gate/README.md) |
 | `mycoplasmatales_phylogeny.smk` | Relationships inferred from conserved bacterial proteins | [Genome phylogeny](mycoplasmatales_phylogeny/README.md) |
-| `mycoplasmatales_gene_content.smk` | Predicted functions and limits of absence claims | [Gene content](mycoplasmatales_gene_content/README.md) |
 | `cnidarian_16s.smk` | Similar markers in other sampled cnidarians | [Cnidarian context](cnidarian_16s/README.md) |
 | `cassiopea_16s.smk` | Independent jellyfish tissue/environment comparison | [Cassiopea context](cassiopea_16s/README.md) |
 | `publication_figures.smk` | Bounded exports from accepted results | [Figures and source tables](publication_figures/README.md) |
@@ -161,8 +158,8 @@ inside scripts. They do not display input datasets as nodes. In particular:
   into configuration, not automatically inferred by downstream rules.
 - Several selection, extraction and plotting scripts read additional files through
   directory parameters or fixed paths. Each affected guide identifies that limit.
-- Genome selection is shared by phylogeny and gene-content analyses; the final
-  inferred tree is not an input to gene prediction.
+- Genome relationships are inferred from conserved bacterial markers; the tree
+  export uses the phylogeny and reviewed tip classifications.
 
 The dependency graphs retain these properties of the existing workflow. An absent
 edge does not mean the underlying scientific evidence was independent. Consult
@@ -174,15 +171,15 @@ The bounded [expanded-catalog QC workflows](../catalog_qc.md) have separate
 entry points and generated graphs. They review all prospective genomes, new
 reference nominations and viral boundaries before the now-completed full-cohort remapping.
 
-The guides cover all current `workflow/rules/*.smk` files. They do not imply that
+The guides describe the shared `workflow/rules/*.smk` files. They do not imply that
 every reported output is built by Snakemake:
 
 - Manifest construction, metadata enrichment, surface-depth scoring and the
   assembly-membership freeze use separate scripts and reviewed source tables.
 - The direct Waki marker comparison has its own
   [methods and reproduction guide](../waki_sequence_comparison.md).
-- The broad host-distribution and eukaryote figures are now produced by
-  `expanded_overview` in the [reporting entry point](../expanded_reporting.md).
+- The broad host-distribution and eukaryote figures are produced by
+  `revision_descriptive_reporting` in the [reporting entry point](../expanded_reporting.md).
 - Selected assets are copied to the separate manuscript repository. Compilation
   and the explanatory methods drawing (Figure 1) are maintained there; they
   are not outputs of these rule files.
@@ -193,7 +190,7 @@ execution evidence is retained in the [run log](../../RUNLOG.md) and stage recor
 
 ## Regenerate and check the graphs
 
-The shared executable checks all 43 configured scopes and is outside the scientific dependency graph. It reads
+The shared executable checks all configured scopes and is outside the scientific dependency graph. It reads
 [`graphs.json`](graphs.json), which records only targets, configuration and the
 publication rule restriction; graph edges always come from Snakemake.
 

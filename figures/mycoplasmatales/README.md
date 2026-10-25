@@ -1,90 +1,58 @@
-# Mycoplasmatales publication figures
+# Metamycoplasmataceae phylogeny figure
 
-These figures render existing analysis outputs; they do not rerun annotations
-or infer a tree. The seven focal Metamycoplasmataceae genomes have unchanged
-source and FASTA hashes in v3, so these figures remain valid after cohort
-expansion. The newly retained Tyloplasma-related `MAGSP0033` is outside their
-scope; see [expanded reporting](../../docs/expanded_reporting.md).
-Build from the analysis repository root on a compute node:
+`phylogeny_focus.pdf` renders the 21-tip subtree containing all seven
+siphonophore Metamycoplasmataceae representatives from the retained
+483-tip phylogeny. It does not infer a new tree. MAGSP0012 remains in this
+phylogenetic comparison despite exclusion of its source specimen from
+biological incidence. MAGSP0031 is a divergent sister lineage of clade B.
+The GTDB genus *Tyloplasma* is outside this figure's scope.
+
+Build from the analysis repository root through SLURM:
 
 ```bash
-sbatch workflow/scripts/batch_mycoplasmatales_figures.sh
+sbatch -p ycga workflow/scripts/batch_mycoplasmatales_figures.sh
 ```
 
-The batch command is:
+The batch launcher runs:
 
 ```bash
 /gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python \
   workflow/scripts/plot_mycoplasmatales_figures.py
 ```
 
-The existing Snakemake conda environment supplies Python, Biopython, NumPy and
-Matplotlib. Exact runtime versions, SLURM job ID, source revision, executed
-script snapshot, and input/output SHA-256 checksums are recorded in
-`manifest.json` when rendering succeeds. The source snapshot identifies
-uncommitted plotting code as well as the repository revision. PDF output uses
-embedded TrueType fonts; PNG files are review previews.
+The existing Snakemake environment supplies Python, Biopython, NumPy and
+Matplotlib. `manifest.json` records runtime versions, job ID, source revision,
+the executed script and input/output SHA-256 checksums. Its source snapshot
+identifies uncommitted plotting code. PDFs use embedded TrueType fonts;
+PNG files are review previews.
 
-## Retained outputs and source evidence
+## Sources and interpretation
 
-- `gene_functions.pdf`: seven species-representative MAGs across selected
-  conserved orthologs. Teal denotes a strict-threshold assignment, orange an
-  assignment only under the primary relaxed rule, and grey no detected
-  assignment. Counts greater than one are printed. The two low-quality MAGs
-  are marked as presence-only observations. Family bars separately show
-  strict and relaxed assignment frequencies among 130 near-complete GTDB
-  representatives. Sources:
-  `data/results/mycoplasmatales_gene_content/summary/focal_functions.tsv` and
-  `genome_stats.tsv` in the same directory. The plotted values are exported
-  as `source_gene_functions.tsv`.
-- `phylogeny_focus.pdf`: the unchanged 21-tip MRCA subtree containing all
-  seven siphonophore MAGs from the retained 483-tip tree. Taxonomy and
-  external host labels come from the retained tables, not inferred host
-  associations. Sources:
-  `data/results/mycoplasmatales_phylogeny/mycoplasmatales.bac120.decorated.tree`,
-  `tree_labels.tsv` in that directory, and gene-content `genome_stats.tsv`.
-  Tip labels, source identities, and plotted distances are exported as
-  `source_phylogeny_focus.tsv`.
+The figure reads:
 
-The [complete source tree](../../tables/mycoplasmatales/mycoplasmatales.bac120.decorated.tree)
-and [tree labels](../../tables/mycoplasmatales/tree_labels.tsv) are public supporting
-files. The tree-label table retains quality estimates from phylogeny preparation;
-[genome_stats.tsv](../../tables/mycoplasmatales/genome_stats.tsv) provides the
-quality values used for the current manuscript and gene-function figure. The
-plotter takes its near-complete flags from that genome-statistics table. The displayed subtree
-does not show the Acholeplasmataceae outgroup or justify relationships outside
-the focal clade. FastTree local support is not bootstrap support; the weak
-clade-B/DT-68 relationship must not be described as resolved. Assembly
-GCA_929200685.1 appears twice in the source tree, as an external genome and as a
-GTDB reference; both are retained and explicitly marked `[dup.]`. These tips
-are not independent genomes.
+- `data/results/mycoplasmatales_phylogeny/mycoplasmatales.bac120.decorated.tree`;
+- `data/results/mycoplasmatales_phylogeny/tree_labels.tsv` for study and external labels;
+- `config/mycoplasmatales_reference_taxonomy.tsv` for GTDB reference classifications.
 
-## Interpretation and validation
+The reference classifications retain the source identity recorded in the
+[revision record](../../dev_docs/revision-2026-10-24-gene-story.md).
+`source_phylogeny_focus.tsv` exports the displayed labels, source identities
+and distances. The [complete source tree](../../tables/mycoplasmatales/mycoplasmatales.bac120.decorated.tree)
+and [tree labels](../../tables/mycoplasmatales/tree_labels.tsv) are public
+supporting files. Quality estimates in the original tree labels describe
+phylogeny preparation; the plot does not display genome-quality values.
 
-The relaxed tier is the documented primary annotation rule, not a validation
-of every predicted function. Its calibration and limits are in
-`docs/mycoplasmatales_gene_content_plan.md`. Gene detection does not establish
-enzyme activity or host phenotype. No detected assignment does not establish
-biological absence, especially for MAGSP0029 and MAGSP0031. The E1 paralogs
-are labelled 2-oxoacid dehydrogenase, preserving substrate uncertainty.
+Node labels are FastTree SH-like local supports. The weak clade-B/DT-68
+relationship remains unresolved. The displayed subtree omits the
+Acholeplasmataceae outgroup and does not establish relationships outside
+the focal clade. Assembly GCA_929200685.1 appears as both an external
+genome and a GTDB reference, explicitly marked `[dup.]`; these tips
+represent the same genome.
 
-The script checks selected genome counts, unique KO/tier records, nesting of
-strict within relaxed assignments, unique tree tips, and retention of all
-seven study MAGs. Before manuscript export, inspect both PNG previews and
-check the PDFs with `pdffonts`. Record those checks here after the SLURM run.
+## Export checks
 
-Copy selected PDFs plus their manifest and source-table provenance into the
-manuscript repository. The manuscript must not depend on sibling paths at
-LaTeX build time.
-
-### Export verification, 2026-10-03
-
-Both plots were rendered in compute allocation 11793267 using the bounded
-publication workflow. Visual review found a clipped second footnote line in
-the first gene-function export; tight output bounds corrected it and both
-exports were rerendered. Final previews show complete footnotes, readable
-labels, the explicit duplicate assembly and the weak internal support.
-`pdffonts` verified embedded subset TrueType fonts. Plotted values, source
-hashes and exact producing code are recorded in `manifest.json` and
-`provenance/`. Selected PDFs and source tables were copied into the manuscript
-repository and inspected again in the compiled manuscript.
+Inspect the PNG preview and confirm embedded fonts with `pdffonts` before
+copying the PDF and its source-table provenance into the manuscript.
+The manuscript builds from its selected copies without sibling paths.
+Earlier export checks are retained in the
+[historical verification record](../../dev_docs/revision-2026-10-24-figure-history.md).

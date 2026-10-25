@@ -7,8 +7,8 @@ records their original paths, sizes and SHA-256 checksums.
 
 | Directory | Contents | Methods |
 | --- | --- | --- |
-| [mycoplasmatales](mycoplasmatales/) | Genome quality, tree labels, predicted functions, strict and relaxed ortholog/module assignments, and comparisons with earlier 16S surveys | [Phylogeny](../docs/workflow/mycoplasmatales_phylogeny/README.md), [gene content](../docs/workflow/mycoplasmatales_gene_content/README.md) |
-| [phase6](phase6/) | Primary and sensitivity results, sequencing-flowcell eligibility, contamination tests, regional models, permutations, and phage-host links | [Statistical analyses](../docs/workflow/phase6_analysis/README.md) |
+| [mycoplasmatales](mycoplasmatales/) | Tree labels and comparisons with earlier 16S surveys | [Phylogeny](../docs/workflow/mycoplasmatales_phylogeny/README.md), [16S comparisons](../docs/workflow/cnidarian_16s/README.md) |
+| [phase6](phase6/) | Primary and sensitivity results, sequencing-flowcell eligibility, contamination tests, regional models and permutations | [Statistical analyses](../docs/workflow/phase6_analysis/README.md) |
 | [waki_comparison](waki_comparison/) | Trematode-marker alignments, competing reference matches, selected contigs and marker sequences, reference metadata, and search provenance | [Trematode comparisons](../docs/waki_sequence_comparison.md) |
 
 In `phase6/`, `primary/` contains the primary analysis and `breadth_5pct/` and
@@ -17,25 +17,35 @@ In `phase6/`, `primary/` contains the primary analysis and `breadth_5pct/` and
 alongside the historical fixed-catalog host-handling and read-capping controls.
 Missing estimates and failed or untestable fits remain explicit.
 
-In `mycoplasmatales/`, strict and relaxed assignments retain their original
-thresholds. Incomplete genomes do not support claims of gene absence.
-The `cnidarian_16s_` and `cassiopea_16s_` prefixes identify comparisons with
+In `mycoplasmatales/`, the `cnidarian_16s_` and `cassiopea_16s_` prefixes identify comparisons with
 different surveys. Header-only match tables preserve an absence of qualifying
 matches. The trematode files describe reference affinities, not new species
 assignments. Selected FASTA files support those comparisons; they are not a
 complete deposit of the reconstructed genomes or markers.
 
 The phylogeny's `tree_labels.tsv` preserves genome-quality estimates recorded
-when that tree was assembled. Use [genome_stats.tsv](mycoplasmatales/genome_stats.tsv)
-for the quality values used in the manuscript and gene-function figure; join by
+when that tree was assembled. Use the [reviewed MAG catalog](../figures/manuscript_revision/catalog/mag_catalog.tsv)
+for the quality values associated with the mapping catalog; join by
 genome identifier rather than treating the tree-label estimates as current.
-The Waki `reference_assembly_hits.tsv` likewise retains original host labels:
-`Physalia sp1` for YPM-IZ-110931 is now *P. mikazuki*. Join specimen identifiers
+The Waki source alignments can retain original host labels; the specimen
+summary uses the current name *P. mikazuki* for YPM-IZ-110931. Join specimen identifiers
 to the [current sample metadata](../figures/cohort/sample_metadata.tsv) for current
 host names. These retained source fields do not change the sequence comparisons.
 
 For specimen metadata, detections and other figure source data, see the
 [figure and data index](../figures/README.md).
+
+Biological detection summaries use the 209 retained specimens and omit
+contaminant taxa. Full evidence tables retain flagged observations from
+all 213 screened libraries. [Exclusion decisions](../config/excluded_libraries.tsv)
+and the [contaminant list](../config/contaminant_taxa.tsv) record this scope.
+For eukaryotes, assembly support includes reads + assembly and assembly-only
+detections; the two counts are distinct.
+
+The organism-name crosswalk remains pending. It will record proposed NCBI
+names separately from the GTDB classifications used in the paper.
+Genome deposit preparation retains edited-sequence quality estimates
+separately from the original mapping catalog.
 
 ## Verify or refresh the export
 

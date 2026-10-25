@@ -15,7 +15,13 @@ parser.add_argument("--results", required=True, type=Path, help="phase3_cohort d
 parser.add_argument("--order", required=True)
 parser.add_argument("--min-length", type=int, default=1200)
 parser.add_argument("--output", required=True, type=Path)
+parser.add_argument("--contig-removals", type=Path, help="Reviewed misbinned contigs excluded from 16S queries")
 args = parser.parse_args()
+
+removed = set()
+if args.contig_removals:
+    with args.contig_removals.open(newline="") as handle:
+        removed = {(r["mag_id"], r["contig_id"]) for r in csv.DictReader(handle, delimiter="\t")}
 
 complement = str.maketrans("ACGTNacgtn", "TGCANtgcan")
 with open(args.mag_catalog, newline="") as handle:
@@ -37,6 +43,8 @@ with temporary.open("w") as out:
         for line in open(args.results / "markers" / f"{mag['sample_id']}.gff"):
             f = line.rstrip("\n").split("\t")
             if len(f) < 9 or f[0] not in contigs or "Name=16S_rRNA" not in f[8] or "kingdom=bac" not in f[8]:
+                continue
+            if (mag["mag_id"], f[0].split("__")[-1]) in removed:
                 continue
             start, end = int(f[3]), int(f[4])
             if end - start + 1 < args.min_length:

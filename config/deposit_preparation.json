@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "output_root": "data/results/deposit",
+  "decisions": "config/mag_deposit_decisions.tsv",
+  "removals": "config/mag_contig_removals.tsv",
+  "trims": "config/mag_adaptor_trims.tsv",
+  "repairs": "config/mag_sequence_repairs.tsv",
+  "organism_names": "config/mag_organism_names.tsv",
+  "mag_catalog": "data/results/post_expansion/2026-10-20/curated/phase3_catalog/mags/mag_catalog.tsv",
+  "sample_manifest": "manifest.csv",
+  "tools": {
+    "python": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python",
+    "checkm2": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/checkm2_env/bin",
+    "fcs_adaptor": "/gpfs/ycga/work/dunn/cwd7/databases/fcsadaptor/run_fcsadaptor.sh",
+    "fcs_adaptor_image": "/gpfs/ycga/work/dunn/cwd7/databases/fcsadaptor/fcs-adaptor.sif",
+    "fcs_gx": "/gpfs/ycga/work/dunn/cwd7/databases/fcs/fcs.py",
+    "fcs_gx_image": "/gpfs/ycga/work/dunn/cwd7/databases/fcs/fcs-gx.sif"
+  },
+  "databases": {
+    "checkm2": "/gpfs/ycga/work/dunn/cwd7/databases/checkm2_db/CheckM2_database/uniref100.KO.1.dmnd",
+    "fcs_gx": "/gpfs/ycga/work/dunn/cwd7/databases/fcs/all/gxdb"
+  },
+  "other_sequences": {
+    "viruses": {
+      "fasta": "data/results/post_expansion/2026-10-20/curated/phase4_catalog/v3/viral_catalog.fna",
+      "source_table": "figures/manuscript_revision/catalog/viral_associate.manifest.tsv"
+    },
+    "ssu": {
+      "fasta": "data/results/post_expansion/2026-10-21/reporting/eukaryote_gate/assembled_nonhost.fasta",
+      "source_table": "data/results/post_expansion/2026-10-21/reporting/eukaryote_gate/assembled_nonhost.tsv"
+    },
+    "markers": {
+      "fasta": "tables/waki_comparison/top_marker_contigs.fasta",
+      "source_table": "tables/waki_comparison/reference_assembly_hits.tsv"
+    }
+  },
+  "post_fcs_gx_checks": [
+    "table2asn -V vb -Z",
+    "PGAP --taxcheck",
+    "ribovore ribotyper"
+  ],
+  "viral_classifications": "config/viral_catalog_classifications.tsv",
+  "viral_endogenous_manifest": "figures/manuscript_revision/catalog/viral_endogenous_candidate.manifest.tsv",
+  "fcs_gx_launch": "explicit_opt_in_after_adaptor_review",
+  "fcs_gx_division_overrides": "config/fcs_gx_division_overrides.tsv"
+}

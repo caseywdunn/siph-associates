@@ -1,0 +1,70 @@
+digraph snakemake_dag {
+    graph[bgcolor=white, margin=0];
+    node[shape=box, style=rounded, fontname=sans,                 fontsize=10, penwidth=2];
+    edge[penwidth=2, color=grey];
+	0[label = "revision_publication", color = "0.13 0.6 0.85", style="rounded"];
+	1[label = "revision_validation", color = "0.43 0.6 0.85", style="rounded"];
+	2[label = "revision_descriptive_reporting", color = "0.65 0.6 0.85", style="rounded"];
+	3[label = "publication_cohort_figures", color = "0.56 0.6 0.85", style="rounded"];
+	4[label = "grade_presences", color = "0.34 0.6 0.85", style="rounded"];
+	5[label = "align_assembly_catalog_minimap2", color = "0.32 0.6 0.85", style="rounded"];
+	6[label = "index_catalog_minimap2", color = "0.06 0.6 0.85", style="rounded"];
+	7[label = "normalize_phase6_metadata", color = "0.19 0.6 0.85", style="rounded"];
+	8[label = "revision_catalog", color = "0.15 0.6 0.85", style="rounded"];
+	9[label = "publication_collection_context_figures", color = "0.41 0.6 0.85", style="rounded"];
+	10[label = "collection_context_tables", color = "0.60 0.6 0.85", style="rounded"];
+	11[label = "validate_phase6", color = "0.17 0.6 0.85", style="rounded"];
+	12[label = "test_contamination_flowcell", color = "0.54 0.6 0.85", style="rounded"];
+	13[label = "test_nanomia_contamination_flowcell", color = "0.30 0.6 0.85", style="rounded"];
+	14[label = "analyze_presence_threshold", color = "0.02 0.6 0.85", style="rounded"];
+	15[label = "summarize_incidence", color = "0.45 0.6 0.85", style="rounded"];
+	16[label = "fit_physalia_models_lme4", color = "0.24 0.6 0.85", style="rounded"];
+	17[label = "compare_sensitivity_analyses", color = "0.00 0.6 0.85", style="rounded"];
+	18[label = "record_coauthor_metadata", color = "0.47 0.6 0.85", style="rounded"];
+	19[label = "revision_fish_summary", color = "0.62 0.6 0.85", style="rounded"];
+	20[label = "prepare_coauthor_metadata", color = "0.49 0.6 0.85", style="rounded"];
+	21[label = "analyze_coauthor_communities", color = "0.22 0.6 0.85", style="rounded"];
+	1 -> 0
+	2 -> 1
+	18 -> 1
+	9 -> 2
+	3 -> 2
+	11 -> 2
+	4 -> 3
+	8 -> 3
+	7 -> 3
+	5 -> 4
+	6 -> 5
+	10 -> 9
+	3 -> 10
+	12 -> 11
+	4 -> 11
+	7 -> 11
+	17 -> 11
+	14 -> 11
+	15 -> 11
+	16 -> 11
+	13 -> 11
+	4 -> 12
+	7 -> 12
+	4 -> 13
+	7 -> 13
+	4 -> 14
+	7 -> 14
+	12 -> 15
+	4 -> 15
+	4 -> 16
+	7 -> 16
+	4 -> 17
+	4 -> 18
+	21 -> 18
+	3 -> 18
+	20 -> 18
+	19 -> 18
+	3 -> 19
+	4 -> 20
+	3 -> 20
+	19 -> 20
+	4 -> 21
+	20 -> 21
+}            

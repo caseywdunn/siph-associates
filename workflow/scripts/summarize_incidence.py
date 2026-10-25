@@ -5,6 +5,7 @@ import csv
 import os
 from collections import Counter, defaultdict
 from pathlib import Path
+from contamination_policy import retained
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--bacterial", required=True)
@@ -78,7 +79,7 @@ def incidence(table, kind):
     return out
 
 
-bacterial = rows(args.bacterial)
+bacterial = [row for row in rows(args.bacterial) if retained(row)]
 # Use the selected threshold consistently for counts, confidence, and linkage.
 for row in bacterial:
     row["grade"] = row[args.grade_column]
@@ -86,7 +87,7 @@ for row in bacterial:
         row["divergent_strain"] = str(
             row["grade"] in PRESENT and float(row["breadth_ratio"]) < 0.5
         ).lower()
-viral = rows(args.viral)
+viral = [row for row in rows(args.viral) if retained(row)]
 b = incidence(bacterial, "bacterial")
 v = incidence(viral, "viral")
 write(args.out_bacterial, list(b[0]), b)
