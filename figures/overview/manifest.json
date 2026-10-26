@@ -1,11 +1,11 @@
 {
   "status": "complete",
-  "generated_utc": "2026-10-25T20:40:11.573918+00:00",
-  "source_revision": "2a4c03da69e8e432cecabca4e637f740261a9bcd",
+  "generated_utc": "2026-10-26T01:12:30.079592+00:00",
+  "source_revision": "878a3a7f178fef176f3849701b6f4877e05acad3",
   "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python figures/plot_associate_overview.py",
   "working_directory": "/gpfs/ycga/work/dunn/cwd7/siph_associates",
   "source_snapshot": "figures/overview/provenance/plot_associate_overview.py",
-  "script_sha256": "a9005dcad74c1346e75ea222c34610ed666db355b9043ba34b23a8ca4d705389",
+  "script_sha256": "833209447ac20b7015695da3ffed5e5d912c92e803c9b06d47d5054148892440",
   "inputs_sha256": {
     "figures/cohort/sample_metadata.tsv": "ac1526a2892389d8a8b6d3949a68a7994e88dabed47e6f838f647f7b3ef4c411",
     "figures/cohort/bacterial_detections.tsv": "8597c52a0d6c4832612c8a064326787fe22af669ef55c5cee48712b51fc6f6e2",
@@ -21,8 +21,8 @@
     "figures/overview/microbial_host_distribution.png": "93f350412638cfa380aaa128aea1150b63cf51f4b2fc23e27c4cf1bb2feee5fe",
     "figures/overview/microbial_host_distribution.tsv": "7c13de7187a7252bdbd133d79a32dfa22677915baeb62133d5751d30997ef5d0",
     "figures/overview/microbial_display_assignments.tsv": "2408f8fdaa7827d4b9495ce059a69cc7652d602b53234d2a2157809b724450cc",
-    "figures/overview/eukaryote_evidence.pdf": "bf534c5feac5ccb9d623b6ed78732a38bdce41a531617869f30bd239e722dd45",
-    "figures/overview/eukaryote_evidence.png": "ef114f989c39928a8e9737689085f6eb8be34128690ad253e274186d1b175925",
+    "figures/overview/eukaryote_evidence.pdf": "0c385740f4911e5245fc52ba17e182446a880b12abff7f26681c87d7993a7d75",
+    "figures/overview/eukaryote_evidence.png": "f3db4408d7c7f65b66d6b8b0b59ba4cff3c67893a2ea11d559b77c5ca567c2c8",
     "figures/overview/eukaryote_display.tsv": "2e12f043891ff6a2a8c068056bc34a223998fa929b230e56a433550bc97b93b5",
     "figures/overview/domain_summary.tsv": "0c0e9459bbf7bfc417445408f0b3c8f83e8fc421691d8c742c066338e3ce1e95"
   },

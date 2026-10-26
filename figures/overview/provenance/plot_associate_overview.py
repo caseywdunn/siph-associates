@@ -545,7 +545,7 @@ def draw_eukaryotes(
     for host, indices in host_groups.items():
         ax.text(
             0.035,
-            (indices[0] + indices[-1]) / 2,
+            indices[0],
             formatted_host(host),
             ha="left",
             va="center",
