@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "source_base_git_revision": "2a4c03da69e8e432cecabca4e637f740261a9bcd",
+  "source_base_git_revision": "1d7476d21222c90364682196940af25d9288337b",
   "source_worktree_dirty": true,
-  "exported_utc": "2026-10-25T15:43:48.970311+00:00",
+  "exported_utc": "2026-10-25T23:27:45.621982+00:00",
   "command": "python3 scripts/export_supporting_tables.py",
   "selection": "config/supporting_tables.tsv",
-  "selection_sha256": "c9f1b21b695df31e010ac5540a000695ae6b5468810ab1552ddfb10ce34debf6",
+  "selection_sha256": "fef3654c4cd9b4c9c1fed6659dbd164d59b04e3700a71b0066e07d8818a8b699",
   "script_sha256": "26286d906e500b58555446e1a94e766f0ee5962b9f757212a873d4a706dd6cc7",
   "artifacts": [
     {
@@ -61,8 +61,8 @@
       "source": "figures/mycoplasmatales/source_phylogeny_focus.tsv",
       "destination": "tables/mycoplasmatales/source_phylogeny_focus.tsv",
       "purpose": "figure source data",
-      "bytes": 3854,
-      "sha256": "4b3de38bcfcf986366d0fb251c36a5a1011d46442875e28257053271be9d1719"
+      "bytes": 13781,
+      "sha256": "659c639c4a0050f8c8038ee0f024f513ce4671a694314fbac5274a9c0150f2e5"
     },
     {
       "source": "data/results/mycoplasmatales_phylogeny/tree_labels.tsv",

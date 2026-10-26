@@ -36,3 +36,6 @@ data/results/
 data/software/
 tmp/
 slurm-*.log
+
+# Downloaded host-source literature and raw lookup records; curated annotations are in config/.
+data/sources/mycoplasmatales_hosts/

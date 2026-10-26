@@ -1,10 +1,10 @@
 {
   "status": "complete",
-  "run_utc": "2026-10-25T20:40:13.487684+00:00",
-  "slurm_job_id": "13947775",
-  "source_revision": "2a4c03da69e8e432cecabca4e637f740261a9bcd",
+  "run_utc": "2026-10-25T23:25:23.641163+00:00",
+  "slurm_job_id": "13952113",
+  "source_revision": "1d7476d21222c90364682196940af25d9288337b",
   "source_snapshot": "figures/mycoplasmatales/provenance/plot_mycoplasmatales_figures.py",
-  "script_sha256": "7f33aac02d4e00a44d86983616873ca50f7c4ac51ffa7b6b65b86a6d5361e255",
+  "script_sha256": "7fe7a4091e04a88eb82f665397e4002e3c733f527944aac1062f4502c24632f3",
   "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python workflow/scripts/plot_mycoplasmatales_figures.py",
   "environment": {
     "python": "3.11.0",
@@ -16,25 +16,27 @@
     "config/mycoplasmatales_reference_taxonomy.tsv": "a0437b25df4dd65212f0770a68bc6cade0776bfaeab91b456670d64a701b9ab0",
     "data/results/mycoplasmatales_phylogeny/mycoplasmatales.bac120.decorated.tree": "4a8cb9021eb75aa934e8c07768f70f256f14b44ea30d95579673d75ab10a3c2d",
     "data/results/mycoplasmatales_phylogeny/tree_labels.tsv": "16674cab12f998ab3dc3c3ba8633ebe7089a585a67a6009e63ab233ec292e344",
-    "figures/cohort/sample_metadata.tsv": "ac1526a2892389d8a8b6d3949a68a7994e88dabed47e6f838f647f7b3ef4c411"
+    "figures/cohort/sample_metadata.tsv": "ac1526a2892389d8a8b6d3949a68a7994e88dabed47e6f838f647f7b3ef4c411",
+    "config/mycoplasmatales_source_hosts.tsv": "d575dce7ee473eac2c537e887a7230f3ae1d21a493c9a75b2ec2d10d6aef29e8"
   },
   "outputs_sha256": {
-    "figures/mycoplasmatales/phylogeny_focus.pdf": "e4590b85bf5162d30587a0e07b940ead38b1178d9fb0c68270645a61a7ca2b18",
-    "figures/mycoplasmatales/phylogeny_focus.png": "f4b2ba1c5e491daa0758d84f27cacaf4a347a278f0c023af17822cf1491192ad",
-    "figures/mycoplasmatales/source_phylogeny_focus.tsv": "88571e09cf8097d36a2ac2398ec3eff735e3ad4dcb49272fdc6ab1e30dd429de",
-    "figures/mycoplasmatales/source_phylogeny_hosts.tsv": "8df2a23427a576b793f1588694d37bd928300bb728e32a108a54f14868f6c76d"
+    "figures/mycoplasmatales/phylogeny_focus.pdf": "f8cc58b34608589acb08d16734832aa0f29b1118906f2e5ff952aefd457465f1",
+    "figures/mycoplasmatales/phylogeny_focus.png": "eea5b7c2ec810391ee851cae9cd4aa025dfc88793e0d08537444d6ed1949bc99",
+    "figures/mycoplasmatales/source_phylogeny_focus.tsv": "659c639c4a0050f8c8038ee0f024f513ce4671a694314fbac5274a9c0150f2e5",
+    "figures/mycoplasmatales/source_phylogeny_hosts.tsv": "a73fb9c80e65ca23a48fd9085e4fddba2a23a417a5626d378f09e920ca978e5d"
   },
   "checks": [
     "483 unique tree tips; 21 in focal MRCA",
     "All seven siphonophore MAGs retained",
     "Input hashes unchanged during rendering",
-    "Source-host rows share exact tree-tip y coordinates",
-    "Source hosts joined by source-library ID or identical assembly accession"
+    "Source-host and clade rows share exact tree-tip y coordinates",
+    "Source hosts joined by source-library ID or identical assembly accession",
+    "Every reference accession has a reviewed host or environmental source record"
   ],
   "limits": [
     "Existing tree and GTDB r220 classifications reused, not recomputed",
     "The source tree contains duplicate assembly GCA_929200685.1",
-    "Hosts absent from retained reference metadata are labelled Not recorded",
+    "Environmental samples do not establish an organismal host; host clade shown as a dash",
     "Visual and font inspection recorded separately after rendering"
   ]
 }

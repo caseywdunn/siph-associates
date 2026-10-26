@@ -79,9 +79,10 @@ def node_support(clade) -> float | None:
 
 
 def source_host(
-    tip: str, external: dict[str, dict], samples: dict[str, dict]
+    tip: str, external: dict[str, dict], samples: dict[str, dict],
+    reviewed_hosts: dict[str, dict],
 ) -> dict[str, str]:
-    """Use recorded source hosts, carrying the same assembly across its two tips."""
+    """Join specimen or reviewed accession records, including environmental sources."""
     if tip.startswith("MAGSP"):
         source_record = external[tip]["host_or_source"]
         if not source_record.startswith("source library "):
@@ -91,30 +92,26 @@ def source_host(
             raise ValueError(f"Missing source-specimen host for {tip}: {library}")
         return {
             "source_host": samples[library]["species_current"],
+            "host_clade": "Siphonophora",
+            "source_type": "host",
             "source_host_basis": "source specimen metadata",
             "source_host_record": library,
+            "source_host_url": "figures/cohort/sample_metadata.tsv",
+            "host_clade_basis": "siphonophore source specimen identification",
         }
     accession = tip.removeprefix("EXT_").removeprefix("RS_").removeprefix("GB_")
-    matching_external = external.get(f"EXT_{accession}")
-    if matching_external and matching_external.get("host_or_source"):
-        return {
-            "source_host": matching_external["host_or_source"].split(";")[0].split(" (")[0],
-            "source_host_basis": (
-                "external genome metadata" if tip.startswith("EXT_")
-                else "same assembly accession as external genome"
-            ),
-            "source_host_record": matching_external["host_or_source"],
-        }
+    if accession not in reviewed_hosts:
+        raise ValueError(f"Missing reviewed host/source record for {accession}")
     return {
-        "source_host": "Not recorded",
-        "source_host_basis": "host absent from retained reference metadata",
-        "source_host_record": accession,
+        key: reviewed_hosts[accession][key]
+        for key in ("source_host", "host_clade", "source_type", "source_host_basis",
+                    "source_host_record", "source_host_url", "host_clade_basis")
     }
 
 
 def focus_tree(
     tree_path: Path, genomes: list[dict], labels: list[dict],
-    sample_metadata: list[dict], output: Path
+    sample_metadata: list[dict], host_records: list[dict], output: Path
 ) -> None:
     """Display the existing MRCA subtree without removing duplicate source tips."""
     tree = Phylo.read(tree_path, "newick")
@@ -133,6 +130,16 @@ def focus_tree(
     samples = {row["analysis_sample_id"]: row for row in sample_metadata}
     if len(samples) != len(sample_metadata):
         raise ValueError("Source specimen metadata contain duplicate analysis sample IDs")
+    reviewed_hosts = {row["accession"]: row for row in host_records}
+    if len(reviewed_hosts) != len(host_records):
+        raise ValueError("Reviewed source metadata contain duplicate assembly accessions")
+    for accession, row in reviewed_hosts.items():
+        if not all(row[key] for key in ("source_host", "host_clade", "source_type",
+                                        "source_host_basis", "source_host_record",
+                                        "source_host_url", "host_clade_basis")):
+            raise ValueError(f"Incomplete reviewed source record: {accession}")
+        if row["source_type"] not in {"host", "environmental", "unresolved"}:
+            raise ValueError(f"Unrecognized source type for {accession}")
     depth, height = {}, {}
 
     def layout(clade, distance=0.0):
@@ -147,9 +154,9 @@ def focus_tree(
 
     layout(root)
     max_depth = max(depth.values())
-    fig, (ax, label_ax, host_ax) = plt.subplots(
-        ncols=3, sharey=True, figsize=(10.0, 8.2),
-        gridspec_kw={"width_ratios": [3.0, 3.5, 2.8], "wspace": 0.015},
+    fig, (ax, label_ax, host_ax, clade_ax) = plt.subplots(
+        ncols=4, sharey=True, figsize=(11.5, 8.2),
+        gridspec_kw={"width_ratios": [2.7, 3.6, 3.2, 1.7], "wspace": 0.015},
     )
     fig.subplots_adjust(left=0.045, right=0.985, bottom=0.14, top=0.92)
     rows = []
@@ -211,7 +218,7 @@ def focus_tree(
             label = classification.split(";")[-1].removeprefix("s__") or accession
         if duplicate:
             label += " [dup.]"
-        host = source_host(tip, external, samples)
+        host = source_host(tip, external, samples, reviewed_hosts)
         color = source_colors[source]
         # Shared y coordinates keep each host entry on its corresponding tip row.
         ax.plot(
@@ -237,7 +244,11 @@ def focus_tree(
         host_ax.text(
             0.045, height[clade], host["source_host"], va="center",
             color="#37464A", fontsize=11,
-            style="normal" if host["source_host"] == "Not recorded" else "italic",
+            style="italic" if host["source_type"] == "host" else "normal",
+        )
+        clade_ax.text(
+            0.045, height[clade], host["host_clade"], va="center",
+            color="#37464A", fontsize=11,
         )
         rows.append(
             {
@@ -252,9 +263,10 @@ def focus_tree(
             }
         )
     ax.set(xlim=(-max_depth * 0.085, max_depth * 1.05), ylim=(-1.4, len(tips) + 0.8))
-    for table_ax, heading in ((label_ax, "Genome"), (host_ax, "Source host")):
+    for table_ax, heading in ((label_ax, "Genome"), (host_ax, "Source host / habitat"),
+                              (clade_ax, "Host clade")):
         table_ax.set_xlim(0, 1)
-        table_ax.text(0.045 if table_ax is host_ax else 0.02, len(tips) + 0.05,
+        table_ax.text(0.02 if table_ax is label_ax else 0.045, len(tips) + 0.05,
                       heading, fontsize=11, weight="bold", color="#37464A",
                       va="center")
         table_ax.axhline(len(tips) - 0.55, color="#65767B", linewidth=0.7)
@@ -263,7 +275,7 @@ def focus_tree(
             if row["display_y"] % 2 == 0:
                 table_ax.axhspan(row["display_y"] - 0.5, row["display_y"] + 0.5,
                                 color="#F5F7F7", zorder=0)
-    for panel in (ax, label_ax, host_ax):
+    for panel in (ax, label_ax, host_ax, clade_ax):
         panel.axis("off")
     scale = 0.1
     ax.plot([0, scale], [-0.9, -0.9], color="#37464A", lw=1.5)
@@ -290,7 +302,8 @@ def focus_tree(
     write_rows(output / "source_phylogeny_focus.tsv", rows)
     write_rows(output / "source_phylogeny_hosts.tsv", [
         {key: row[key] for key in ("tip", "display_y", "source", "source_host",
-                                  "source_host_basis", "source_host_record")}
+                                  "host_clade", "source_type", "source_host_basis",
+                                  "source_host_record", "source_host_url", "host_clade_basis")}
         for row in rows
     ])
 
@@ -310,11 +323,12 @@ def main() -> None:
         "tree": root / "data/results/mycoplasmatales_phylogeny/mycoplasmatales.bac120.decorated.tree",
         "labels": root / "data/results/mycoplasmatales_phylogeny/tree_labels.tsv",
         "sample_metadata": root / "figures/cohort/sample_metadata.tsv",
+        "host_records": root / "config/mycoplasmatales_source_hosts.tsv",
     }
     before = {str(path.relative_to(root)): checksum(path) for path in inputs.values()}
     genomes = read_rows(inputs["genomes"])
     focus_tree(inputs["tree"], genomes, read_rows(inputs["labels"]),
-               read_rows(inputs["sample_metadata"]), output)
+               read_rows(inputs["sample_metadata"]), read_rows(inputs["host_records"]), output)
     if before != {str(path.relative_to(root)): checksum(path) for path in inputs.values()}:
         raise RuntimeError("Source inputs changed during rendering")
     provenance = output / "provenance"
@@ -336,11 +350,12 @@ def main() -> None:
         "outputs_sha256": {str(path.relative_to(root)): checksum(path) for path in artifacts},
         "checks": ["483 unique tree tips; 21 in focal MRCA",
                    "All seven siphonophore MAGs retained", "Input hashes unchanged during rendering",
-                   "Source-host rows share exact tree-tip y coordinates",
-                   "Source hosts joined by source-library ID or identical assembly accession"],
+                   "Source-host and clade rows share exact tree-tip y coordinates",
+                   "Source hosts joined by source-library ID or identical assembly accession",
+                   "Every reference accession has a reviewed host or environmental source record"],
         "limits": ["Existing tree and GTDB r220 classifications reused, not recomputed",
                    "The source tree contains duplicate assembly GCA_929200685.1",
-                   "Hosts absent from retained reference metadata are labelled Not recorded",
+                   "Environmental samples do not establish an organismal host; host clade shown as a dash",
                    "Visual and font inspection recorded separately after rendering"],
     }
     (output / "manifest.json").write_text(json.dumps(record, indent=2) + "\n")

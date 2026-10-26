@@ -27,7 +27,25 @@ The tree has 483 tips. Support values are FastTree SH-like local supports.
 **Siphonophore lineages.** The seven representatives fall within one 21-tip clade (support
 0.999). It holds the seven siphonophore genomes, the four octocoral DT-68
 genomes, and the GTDB genera *Mycoplasma_K* (4), *Mycoplasma_O* (2), DT-68 (2;
-one is also an octocoral genome added here), RYZV01 and JAIFTM01:
+one is also an octocoral genome added here), RYZV01 and JAIFTM01.
+
+The figure's host and habitat annotations come from
+[`config/mycoplasmatales_source_hosts.tsv`](../config/mycoplasmatales_source_hosts.tsv)
+and the study specimen metadata. Reference sources were checked against
+BioSample records and source publications. They include octocorals,
+cephalopods, a basket star, a pteropod, a scorpion and a foraminifer, as well
+as sinking marine particles and a hydrothermal microbial mat. Environmental
+recovery does not identify an organismal host or establish free-living biology;
+these rows have a dash in the Host clade column. The pteropod name
+*Limacina rangii* follows the source publication, while its BioSample records
+*L. antarctica*; the difference is retained explicitly in the evidence table.
+The generated
+[`source_phylogeny_hosts.tsv`](../figures/mycoplasmatales/source_phylogeny_hosts.tsv)
+links each displayed row to its evidence. Render the retained tree with
+`python workflow/scripts/plot_mycoplasmatales_figures.py` on a compute node;
+the figure manifest records the source table and tree checksums.
+
+Within this clade:
 
 - **Clade A** (`MAGSP0005`, *Physalia*) is sister to *Mycoplasma_O* (*M.
   mahonii* and one uncultured species; support 1.0).
