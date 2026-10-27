@@ -7,7 +7,7 @@ records their original paths, sizes and SHA-256 checksums.
 
 | Directory | Contents | Methods |
 | --- | --- | --- |
-| [mycoplasmatales](mycoplasmatales/) | Tree labels and comparisons with earlier 16S surveys | [Phylogeny](../docs/workflow/mycoplasmatales_phylogeny/README.md), [16S comparisons](../docs/workflow/cnidarian_16s/README.md) |
+| [mycoplasmatales](mycoplasmatales/) | Accepted IQ-TREE tree and support report, tree labels, and comparisons with earlier 16S surveys | [Phylogeny](../docs/workflow/mycoplasmatales_phylogeny/README.md), [16S comparisons](../docs/workflow/cnidarian_16s/README.md) |
 | [phase6](phase6/) | Primary and sensitivity results, sequencing-flowcell eligibility, contamination tests, regional models and permutations | [Statistical analyses](../docs/workflow/phase6_analysis/README.md) |
 | [waki_comparison](waki_comparison/) | Trematode-marker alignments, competing reference matches, selected contigs and marker sequences, reference metadata, and search provenance | [Trematode comparisons](../docs/waki_sequence_comparison.md) |
 
@@ -16,6 +16,12 @@ In `phase6/`, `primary/` contains the primary analysis and `breadth_5pct/` and
 `sensitivity/` directory retains nomination-dependence and threshold summaries
 alongside the historical fixed-catalog host-handling and read-capping controls.
 Missing estimates and failed or untestable fits remain explicit.
+
+In `mycoplasmatales/iqtree/`, `bac120.treefile` is the accepted full IQ-TREE
+phylogeny and `bac120.iqtree` records its model and SH-aLRT/ultrafast bootstrap
+support. The five run trees, outgroup IDs, input manifest and inference-completion
+record accompany it. The older `mycoplasmatales.bac120.decorated.tree` is
+preserved as a historical FastTree result, not the source of Figure 3.
 
 In `mycoplasmatales/`, the `cnidarian_16s_` and `cassiopea_16s_` prefixes identify comparisons with
 different surveys. Header-only match tables preserve an absence of qualifying

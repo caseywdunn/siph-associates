@@ -12,6 +12,7 @@ import argparse
 import csv
 import hashlib
 import json
+import math
 import os
 import platform
 import shlex
@@ -34,6 +35,12 @@ MAG_ORDER = [
     "MAGSP0005", "MAGSP0007", "MAGSP0010", "MAGSP0029",
     "MAGSP0031", "MAGSP0011", "MAGSP0012",
 ]
+IQTREE_MODEL = "LG+F+I+R10"
+WEAK_RELATIONSHIP_TIPS = frozenset({
+    "MAGSP0007", "MAGSP0010", "MAGSP0029", "MAGSP0031", "MAGSP0011",
+    "GB_GCA_013215685.1", "GB_GCA_929200685.1", "EXT_GCA_060113895.1",
+    "EXT_GCA_929200505.1", "EXT_GCA_929200285.1", "EXT_GCA_929200685.1",
+})
 
 
 def read_rows(path: Path) -> list[dict[str, str]]:
@@ -66,16 +73,76 @@ def save_figure(fig: plt.Figure, output: Path, name: str) -> None:
     plt.close(fig)
 
 
-def node_support(clade) -> float | None:
-    """Read FastTree support, including GTDB's support:taxonomy node labels."""
-    if clade.confidence is not None:
-        return float(clade.confidence)
-    if clade.name:
-        try:
-            return float(clade.name.split(":", 1)[0])
-        except ValueError:
-            return None
-    return None
+def node_support(clade) -> tuple[float, float] | None:
+    """Read IQ-TREE's SH-aLRT/UFBoot percentages without conflating the measures."""
+    if clade.is_terminal():
+        return None
+    if clade.name is None and clade.confidence is None:
+        return None
+    fields = (clade.name or str(clade.confidence)).split("/")
+    if len(fields) != 2:
+        raise ValueError(f"Expected SH-aLRT/UFBoot support: {clade.name}")
+    values = tuple(float(value) for value in fields)
+    if any(not math.isfinite(value) or not 0 <= value <= 100 for value in values):
+        raise ValueError(f"Invalid support percentages: {clade.name}")
+    return values
+
+
+def split_key(tips: frozenset[str], universe: frozenset[str]) -> tuple[str, ...]:
+    """Identify an edge independently of the root and the chosen descendant side."""
+    sides = (tuple(sorted(tips)), tuple(sorted(universe - tips)))
+    return min(sides, key=lambda side: (len(side), side))
+
+
+def root_on_outgroup(tree, outgroup: frozenset[str]) -> None:
+    """Root at the outgroup edge, preserving support and lengths on the same splits."""
+    tips = [tip.name for tip in tree.get_terminals()]
+    universe = frozenset(tips)
+    if len(tips) != len(universe) or not outgroup or not outgroup < universe:
+        raise ValueError("Tree tips must be unique and contain the complete outgroup")
+    edge_support, edge_lengths = {}, {}
+    target = None
+    for clade in tree.find_clades():
+        if clade is tree.root:
+            continue
+        descendants = frozenset(tip.name for tip in clade.get_terminals())
+        key = split_key(descendants, universe)
+        edge_lengths[key] = edge_lengths.get(key, 0.0) + (clade.branch_length or 0.0)
+        support = node_support(clade)
+        if support is not None:
+            if key in edge_support and edge_support[key] != support:
+                raise ValueError(f"Conflicting support on an equivalent edge: {key}")
+            edge_support[key] = support
+        if descendants in (outgroup, universe - outgroup):
+            target = clade
+    if target is None:
+        raise ValueError("The complete outgroup does not define a split in this tree")
+
+    # IQ-TREE can display the unrooted tree at one outgroup tip. Rerooting changes
+    # parent/child directions, so retain support by edge identity, not node object.
+    tree.root_with_outgroup(target, outgroup_branch_length=0.0)
+    tree.root.name = None
+    tree.root.confidence = None
+    after_lengths = {}
+    for clade in tree.find_clades():
+        if clade is tree.root:
+            continue
+        descendants = frozenset(tip.name for tip in clade.get_terminals())
+        key = split_key(descendants, universe)
+        after_lengths[key] = after_lengths.get(key, 0.0) + (clade.branch_length or 0.0)
+        if not clade.is_terminal():
+            support = edge_support.get(key)
+            clade.name = "/".join(f"{value:g}" for value in support) if support else None
+            clade.confidence = None
+    if edge_lengths.keys() != after_lengths.keys() or any(
+        not math.isclose(length, after_lengths[key], rel_tol=1e-10, abs_tol=1e-12)
+        for key, length in edge_lengths.items()
+    ):
+        raise ValueError("Rerooting changed an unrooted edge or its length")
+    root_sides = {frozenset(tip.name for tip in child.get_terminals())
+                  for child in tree.root.clades}
+    if root_sides != {outgroup, universe - outgroup}:
+        raise ValueError("Rerooting did not separate the entire outgroup")
 
 
 def source_host(
@@ -110,16 +177,21 @@ def source_host(
 
 
 def focus_tree(
-    tree_path: Path, genomes: list[dict], labels: list[dict],
+    tree_path: Path, outgroup_path: Path, genomes: list[dict], labels: list[dict],
     sample_metadata: list[dict], host_records: list[dict], output: Path
 ) -> None:
     """Display the existing MRCA subtree without removing duplicate source tips."""
     tree = Phylo.read(tree_path, "newick")
+    outgroup = frozenset(outgroup_path.read_text().strip().split(","))
+    if len(outgroup) != 94:
+        raise ValueError("Expected the preserved 94-genome Acholeplasmataceae outgroup")
+    root_on_outgroup(tree, outgroup)
     terminals = tree.get_terminals()
     names = [tip.name for tip in terminals]
     if len(names) != len(set(names)) or not set(MAG_ORDER).issubset(names):
         raise ValueError("Tree tips are duplicated or missing selected study MAGs")
     root = tree.common_ancestor(MAG_ORDER)
+    root.ladderize()
     tips = root.get_terminals()
     if len(terminals) != 483 or len(tips) != 21:
         raise ValueError(
@@ -159,7 +231,7 @@ def focus_tree(
         gridspec_kw={"width_ratios": [2.7, 3.6, 3.2, 1.7], "wspace": 0.015},
     )
     fig.subplots_adjust(left=0.045, right=0.985, bottom=0.14, top=0.92)
-    rows = []
+    rows, support_rows = [], []
     source_colors = {"study": "#197F8C", "external": "#B75B24", "GTDB": "#48565C"}
     mag_lineages = {
         "MAGSP0005": "clade A",
@@ -175,28 +247,41 @@ def focus_tree(
             ax.plot(
                 [depth[clade]] * 2,
                 [height[clade.clades[0]], height[clade.clades[-1]]],
-                color="#65767B",
+                color="black",
                 linewidth=0.8,
             )
             for child in clade.clades:
                 ax.plot(
                     [depth[clade], depth[child]],
                     [height[child]] * 2,
-                    color="#65767B",
+                    color="black",
                     linewidth=0.8,
                 )
             support = node_support(clade)
             if support is not None:
-                ax.text(
-                    depth[clade] - 0.008 * max_depth,
-                    height[clade] + 0.16,
-                    f"{support:.3g}",
-                    fontsize=10,
-                    ha="right",
-                    va="bottom",
-                    color="#A65120" if support < 0.9 else "#37464A",
-                    bbox={"facecolor": "white", "edgecolor": "none", "pad": 0.35},
-                )
+                support_rows.append({
+                    "node_id": f"node{len(support_rows) + 1:02d}",
+                    "descendant_tips": ";".join(sorted(tip.name for tip in clade.get_terminals())),
+                    "tip_count": len(clade.get_terminals()),
+                    "sh_alrt_percent": support[0],
+                    "ultrafast_bootstrap_percent": support[1],
+                    "branch_length": clade.branch_length,
+                    "distance_from_subtree_root": depth[clade],
+                    "display_y": height[clade],
+                })
+                if support == (100.0, 100.0):
+                    ax.scatter(depth[clade], height[clade], s=12, color="black", zorder=5)
+                else:
+                    ax.text(
+                        depth[clade] - 0.008 * max_depth,
+                        height[clade] + 0.16,
+                        f"{support[0]:g}/{support[1]:g}",
+                        fontsize=10,
+                        ha="right",
+                        va="bottom",
+                        color="#37464A",
+                        bbox={"facecolor": "white", "edgecolor": "none", "pad": 0.35},
+                    )
             continue
         tip = clade.name
         duplicate = "GCA_929200685.1" in tip
@@ -257,12 +342,14 @@ def focus_tree(
                 "source": source,
                 "classification": classification,
                 "duplicate_assembly": duplicate,
+                "inference_method": "IQ-TREE 3.0.1",
+                "substitution_model": IQTREE_MODEL,
                 "distance_from_subtree_root": depth[clade],
                 "display_y": height[clade],
                 **host,
             }
         )
-    ax.set(xlim=(-max_depth * 0.085, max_depth * 1.05), ylim=(-1.4, len(tips) + 0.8))
+    ax.set(xlim=(-max_depth * 0.24, max_depth * 1.05), ylim=(-1.4, len(tips) + 0.8))
     for table_ax, heading in ((label_ax, "Genome"), (host_ax, "Source host / habitat"),
                               (clade_ax, "Host clade")):
         table_ax.set_xlim(0, 1)
@@ -300,12 +387,29 @@ def focus_tree(
     )
     save_figure(fig, output, "phylogeny_focus")
     write_rows(output / "source_phylogeny_focus.tsv", rows)
+    write_rows(output / "source_phylogeny_support.tsv", support_rows)
     write_rows(output / "source_phylogeny_hosts.tsv", [
         {key: row[key] for key in ("tip", "display_y", "source", "source_host",
                                   "host_clade", "source_type", "source_host_basis",
                                   "source_host_record", "source_host_url", "host_clade_basis")}
         for row in rows
     ])
+    weak_clade = tree.common_ancestor(sorted(WEAK_RELATIONSHIP_TIPS))
+    if frozenset(tip.name for tip in weak_clade.get_terminals()) != WEAK_RELATIONSHIP_TIPS:
+        raise ValueError("The clade-B/MAGSP0031/DT-68 relationship changed")
+    focal_support, weak_support = node_support(root), node_support(weak_clade)
+    if focal_support is None or weak_support is None:
+        raise ValueError("Support is missing for a relationship reported in the manuscript")
+    values = {
+        "phylogenyFocalSHaLRT": focal_support[0],
+        "phylogenyFocalBootstrap": focal_support[1],
+        "phylogenyWeakSHaLRT": weak_support[0],
+        "phylogenyWeakBootstrap": weak_support[1],
+    }
+    (output / "values.tex").write_text(
+        "% Generated from the accepted IQ-TREE tree by plot_mycoplasmatales_figures.py.\n"
+        + "".join(f"\\newcommand{{\\{key}}}{{{value:g}}}\n" for key, value in values.items())
+    )
 
 
 def main() -> None:
@@ -320,14 +424,22 @@ def main() -> None:
                                 "font.family": "DejaVu Sans", "font.size": 9})
     inputs = {
         "genomes": root / "config/mycoplasmatales_reference_taxonomy.tsv",
-        "tree": root / "data/results/mycoplasmatales_phylogeny/mycoplasmatales.bac120.decorated.tree",
+        "tree": root / "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/bac120.treefile",
+        "outgroup": root / "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/input/outgroup.txt",
+        "inference_report": root / "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/bac120.iqtree",
+        "inference_complete": root / "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/inference_complete.json",
         "labels": root / "data/results/mycoplasmatales_phylogeny/tree_labels.tsv",
         "sample_metadata": root / "figures/cohort/sample_metadata.tsv",
         "host_records": root / "config/mycoplasmatales_source_hosts.tsv",
     }
     before = {str(path.relative_to(root)): checksum(path) for path in inputs.values()}
+    completion = json.loads(inputs["inference_complete"].read_text())
+    if completion["tips"] != 483 or completion["independent_searches"] != 5:
+        raise ValueError("The accepted inference must contain 483 tips and five searches")
+    if f"Model of substitution: {IQTREE_MODEL}" not in inputs["inference_report"].read_text():
+        raise ValueError("The inferred substitution model differs from the reviewed model")
     genomes = read_rows(inputs["genomes"])
-    focus_tree(inputs["tree"], genomes, read_rows(inputs["labels"]),
+    focus_tree(inputs["tree"], inputs["outgroup"], genomes, read_rows(inputs["labels"]),
                read_rows(inputs["sample_metadata"]), read_rows(inputs["host_records"]), output)
     if before != {str(path.relative_to(root)): checksum(path) for path in inputs.values()}:
         raise RuntimeError("Source inputs changed during rendering")
@@ -336,7 +448,8 @@ def main() -> None:
     snapshot = provenance / Path(__file__).name
     shutil.copyfile(__file__, snapshot)
     artifacts = [output / name for name in ("phylogeny_focus.pdf",
-                 "phylogeny_focus.png", "source_phylogeny_focus.tsv", "source_phylogeny_hosts.tsv")]
+                 "phylogeny_focus.png", "source_phylogeny_focus.tsv", "source_phylogeny_hosts.tsv",
+                 "source_phylogeny_support.tsv", "values.tex")]
     record = {
         "status": "complete", "run_utc": datetime.now(timezone.utc).isoformat(),
         "slurm_job_id": os.environ.get("SLURM_JOB_ID"),
@@ -347,13 +460,19 @@ def main() -> None:
         "environment": {"python": platform.python_version(), "biopython": Bio.__version__,
                         "matplotlib": matplotlib.__version__, "numpy": np.__version__},
         "inputs_sha256": before,
+        "phylogeny": {"software": "IQ-TREE 3.0.1", "model": IQTREE_MODEL,
+                      "support": ["SH-aLRT percent", "ultrafast bootstrap percent"],
+                      "outgroup": "94 Acholeplasmataceae genomes", "independent_searches": 5,
+                      "support_replicates_per_search": 1000,
+                      "retained_result": "Highest-likelihood search; supports are not pooled"},
         "outputs_sha256": {str(path.relative_to(root)): checksum(path) for path in artifacts},
         "checks": ["483 unique tree tips; 21 in focal MRCA",
+                   "94-tip outgroup split verified; edge lengths and support preserved on rerooting",
                    "All seven siphonophore MAGs retained", "Input hashes unchanged during rendering",
                    "Source-host and clade rows share exact tree-tip y coordinates",
                    "Source hosts joined by source-library ID or identical assembly accession",
                    "Every reference accession has a reviewed host or environmental source record"],
-        "limits": ["Existing tree and GTDB r220 classifications reused, not recomputed",
+        "limits": ["Completed IQ-TREE inference and GTDB r220 classifications reused, not recomputed",
                    "The source tree contains duplicate assembly GCA_929200685.1",
                    "Environmental samples do not establish an organismal host; host clade shown as a dash",
                    "Visual and font inspection recorded separately after rendering"],

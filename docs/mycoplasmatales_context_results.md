@@ -9,23 +9,28 @@ versions and their quality estimates are described in
 
 | Analysis | Stage | Config | Outputs |
 |---|---|---|---|
-| Phylogeny | `mycoplasmatales_phylogeny` | `config/mycoplasmatales_phylogeny.json`, `config/mycoplasmatales_external.tsv` | `data/results/mycoplasmatales_phylogeny/` |
+| Phylogeny | `mycoplasmatales_phylogeny` inputs, then `scripts/revision_iqtree.sbatch` | `config/mycoplasmatales_phylogeny.json`, `config/mycoplasmatales_external.tsv`, `envs/iqtree.yaml` | `data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/` |
 | Cnidarian 16S database | `cnidarian_16s` | `config/cnidarian_16s.json` | `data/results/cnidarian_16s/` |
 | *Cassiopea* 16S | `cassiopea_16s` | `config/cassiopea_16s.json`, `config/cassiopea_16s_runs.tsv` | `data/results/cassiopea_16s/` |
 
 ## 1. Phylogenetic placement
 
-**Method.** GTDB-Tk 2.4.1 `de_novo_wf` on bac120 markers (FastTree,
-WAG+GAMMA), with GTDB r220 Mycoplasmatales and Acholeplasmataceae as the
-outgroup. Candidate genomes: the seven siphonophore species and 32 external
+**Method.** IQ-TREE 3.0.1 on the GTDB-Tk 2.4.1 bac120 alignment, with
+GTDB r220 Mycoplasmatales and Acholeplasmataceae as the outgroup.
+ModelFinder selected LG+F+I+R10 by BIC. Five independent searches each used
+1,000 SH-aLRT replicates and 1,000 ultrafast bootstrap replicates with NNI
+refinement; the best-scoring run supplies the reported tree and support.
+See the [IQ-TREE execution guide](mycoplasmatales_iqtree.md).
+Candidate genomes: the seven siphonophore species and 32 external
 Mollicutes genomes from cnidarian, crustacean and isopod hosts (NCBI BioSample
 host search, 2026-09-30, and Keller-Costa et al. 2022). External genomes
 needed ≥50% completeness and placement in the order; 29 of 32 were included,
 giving 36 added genomes in total.
-The tree has 483 tips. Support values are FastTree SH-like local supports.
+The tree has 483 tips. Support values below are SH-aLRT / ultrafast bootstrap
+percentages.
 
-**Siphonophore lineages.** The seven representatives fall within one 21-tip clade (support
-0.999). It holds the seven siphonophore genomes, the four octocoral DT-68
+**Siphonophore lineages.** The seven representatives fall within one 21-tip clade
+(support 99.9/100). It holds the seven siphonophore genomes, the four octocoral DT-68
 genomes, and the GTDB genera *Mycoplasma_K* (4), *Mycoplasma_O* (2), DT-68 (2;
 one is also an octocoral genome added here), RYZV01 and JAIFTM01.
 
@@ -48,18 +53,18 @@ the figure manifest records the source table and tree checksums.
 Within this clade:
 
 - **Clade A** (`MAGSP0005`, *Physalia*) is sister to *Mycoplasma_O* (*M.
-  mahonii* and one uncultured species; support 1.0).
+  mahonii* and one uncultured species; support 100/100).
 - **Clade B** comprises `MAGSP0007`, `MAGSP0010` and `MAGSP0029`.
   `MAGSP0031` is a divergent sister lineage, with 91.5% 16S identity and
   about 56% amino-acid identity to the other clade-B genomes. The branch joining
-  these genomes has support 1.0; its relationship to DT-68 is weakly supported
-  (0.22). Related 16S variants occur in other marine hosts.
+  these genomes has support 100/100; its relationship to DT-68 is weakly supported
+  (64.2/71). Related 16S variants occur in other marine hosts.
 - **DT-68** (`MAGSP0011`, *Nanomia* and *Resomia*) groups with four octocoral
-  symbionts, *Leptogorgia sarmentosa* (two), *Eunicella gazella* and *Swiftia
-  exserta*, and one further GTDB DT-68 genome. Support 1.0.
+  associates, *Leptogorgia sarmentosa* (two), *Eunicella gazella* and *Swiftia
+  exserta*, and one further GTDB DT-68 genome. Support 100/100.
 - ***Mycoplasma_K*** (`MAGSP0012`, *Nanomia*) falls among the four GTDB
   *Mycoplasma_K* genomes (*M. todarodis*, *M. marinum* and two uncultured
-  species; support 1.0). It was reconstructed from the single specimen NA31,
+  species; support 100/100). It was reconstructed from the single specimen NA31,
   which is excluded from sample-based biological analyses; prey carry-over is
   a possible explanation. The genome is retained for phylogenetic context.
 
@@ -124,8 +129,8 @@ identity upward.
 
 ## Interpretation
 
-The siphonophore Mycoplasmatales belong to a marine host-associated part of
-Metamycoplasmataceae. It also includes octocoral (DT-68) and other
+The siphonophore Mycoplasmatales belong to a part of Metamycoplasmataceae
+recovered from diverse hosts and marine environments. It includes octocoral (DT-68) and other
 marine-animal (*Mycoplasma_K*, *Mycoplasma_O*) lineages, but not the
 *Spiroplasma*-like Mollicutes of corals and true jellyfish. Database and *Cassiopea* surveys
 found related lineages in other cnidarians, while the closest matches were rare.

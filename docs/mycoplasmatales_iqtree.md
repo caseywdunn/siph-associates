@@ -1,17 +1,23 @@
-# Checking the bacterial phylogeny with IQ-TREE
+# Inferring the bacterial phylogeny with IQ-TREE
 
-This analysis tests whether the bacterial relationships reported from FastTree
-persist under IQ-TREE. It reuses the existing 483-genome, 5,035-amino-acid bac120
-alignment and its Acholeplasmataceae outgroup. It does not regenerate assemblies,
-markers, read mappings, genome clusters, or geographical tests.
+The reported bacterial phylogeny uses IQ-TREE 3.0.1 on the existing 483-genome,
+5,035-amino-acid bac120 alignment, with Acholeplasmataceae as the outgroup.
+This inference reuses the prepared markers without regenerating assemblies,
+read mappings, genome clusters or geographical tests.
 
-The original alignment and FastTree remain in
-`data/results/mycoplasmatales_phylogeny/`. New results are written separately to
-`data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/`.
+The alignment is in `data/results/mycoplasmatales_phylogeny/`; the original
+FastTree output remains there as a historical result. The accepted IQ-TREE
+outputs are in `data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/`.
+Job 13941115 completed successfully on 2026-10-26. The selected
+`bac120.treefile` uses **LG+F+I+R10**; `bac120.iqtree` records model selection,
+search likelihoods and support calculations, and `inference_complete.json`
+records output integrity checks. Selected public outputs are in
+[`tables/mycoplasmatales/iqtree/`](../tables/mycoplasmatales/iqtree/).
 
 ## Run
 
-From the analysis repository root, submit:
+For a required reproduction, submit from the analysis repository root. The
+accepted run is complete; viewing or rendering it does not require another run.
 
 ```bash
 sbatch scripts/revision_iqtree.sbatch
@@ -20,10 +26,12 @@ sbatch scripts/revision_iqtree.sbatch
 The launcher uses the installed IQ-TREE 3.0.1 and Biopython environment; its
 dependencies are specified in `envs/iqtree.yaml`. It requests 16 CPUs, 64 GB RAM,
 and 24 hours on `ycga`, with all working files on GPFS. ModelFinder selects a
-protein model by BIC. Five independent maximum-likelihood searches accompany
-1,000 ultrafast bootstrap replicates and 1,000 SH-aLRT replicates. Bootstrap
-trees receive additional NNI optimization (`--bnni`). The random seed is
-20261025. The full executed command and software identity are recorded.
+protein model by BIC. Each of five independent maximum-likelihood searches
+includes 1,000 ultrafast bootstrap replicates and 1,000 SH-aLRT replicates.
+Bootstrap trees receive additional NNI optimization (`--bnni`). The best-scoring
+run supplies the reported tree and support values; replicates are not pooled
+across runs. The random seed is 20261025. The full executed command and
+software identity are recorded.
 
 Input checks reconcile alignment and tree identifiers, measure missing data,
 and record identical sequences and repeated source assemblies. All input taxa
@@ -35,20 +43,24 @@ Submitting the same unchanged launcher resumes IQ-TREE checkpoints after an
 interruption. Hash checks reject changed inputs, implementation, or executable.
 Execution records are retained separately for every SLURM job.
 
-## Interpretation
+## Interpretation and plotting
 
-Successful inference does not automatically replace the manuscript tree. Inspect
-the selected model, sequence-composition diagnostics, search likelihoods,
-bootstrap convergence, topology, and both support measures first. If only one
-search reaches the best likelihood, additional searches may be needed.
+Node labels report **SH-aLRT / ultrafast bootstrap support**, both as percentages.
+The group containing the seven focal representatives has support 99.9/100.
+Clades A and B, MAGSP0031's sister relationship to clade B, DT-68 and the
+octocoral genomes, and Mycoplasma_K retain their reported relationships.
+The clade-B/MAGSP0031-to-DT-68 relationship remains weak (64.2/71).
 
-Compare the group containing the seven focal genomes, clades A and B,
-MAGSP0031's placement, DT-68 and the octocoral genomes, Mycoplasma_K, and the
-weakly supported clade-B/DT-68 relationship. FastTree local supports and IQ-TREE
-bootstrap or SH-aLRT values are different measures. High concatenated-marker
-support alone does not establish model adequacy or agreement among markers.
+The five searches agree on the focal topology. Only one reached the best
+full-tree likelihood, and 348/483 taxa failed the composition test. These
+diagnostics limit interpretation of deeper relationships; high support from
+concatenated markers does not establish model adequacy or agreement among
+markers. Weakly supported branches remain unresolved biological relationships.
 
-Review whether composition diagnostics or changes in the important branches
-warrant a more complex protein model. Update the figure, methods, citations,
-and biological interpretation only after this comparison; report disagreements
-and weakly supported relationships explicitly.
+Figure 3 displays the 21-tip focal group with branch lengths and support from
+the accepted full tree. It represents 20 assemblies because one source
+assembly also occurs among the GTDB references. The plotting step uses the
+verified 94-tip outgroup split when orienting the tree; IQ-TREE's displayed
+first outgroup tip alone is not the biological root. See the
+[comparative-context results](mycoplasmatales_context_results.md) and
+[phylogeny workflow guide](workflow/mycoplasmatales_phylogeny/README.md).

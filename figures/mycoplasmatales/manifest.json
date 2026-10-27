@@ -1,10 +1,10 @@
 {
   "status": "complete",
-  "run_utc": "2026-10-25T23:25:23.641163+00:00",
-  "slurm_job_id": "13952113",
-  "source_revision": "1d7476d21222c90364682196940af25d9288337b",
+  "run_utc": "2026-10-27T00:54:05.265608+00:00",
+  "slurm_job_id": "14079536",
+  "source_revision": "86165ec737c8c1cae0d722ced585d0dbcab2d8cb",
   "source_snapshot": "figures/mycoplasmatales/provenance/plot_mycoplasmatales_figures.py",
-  "script_sha256": "7fe7a4091e04a88eb82f665397e4002e3c733f527944aac1062f4502c24632f3",
+  "script_sha256": "e9408e407d3ab94626f623c2bc2e1f55d7606d989e4575effe2f843104b67095",
   "command": "/gpfs/gibbs/project/dunn/cwd7/conda_envs/snakemake/bin/python workflow/scripts/plot_mycoplasmatales_figures.py",
   "environment": {
     "python": "3.11.0",
@@ -14,19 +14,37 @@
   },
   "inputs_sha256": {
     "config/mycoplasmatales_reference_taxonomy.tsv": "a0437b25df4dd65212f0770a68bc6cade0776bfaeab91b456670d64a701b9ab0",
-    "data/results/mycoplasmatales_phylogeny/mycoplasmatales.bac120.decorated.tree": "4a8cb9021eb75aa934e8c07768f70f256f14b44ea30d95579673d75ab10a3c2d",
+    "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/bac120.treefile": "81882d021b827e9641964c5dc2d8c7eccff890fdabdac729a0d686b5ad9b79a5",
+    "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/input/outgroup.txt": "92deccb3e003d6bda9ca94fd2121cae9c48865ea997128129c59904bed01846b",
+    "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/bac120.iqtree": "9757ac89f5ef18349f9d20bf7c0a8a4377a7834221103e7d566dcf418faa554b",
+    "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/inference_complete.json": "a64da11d8a98998bebfe03ac777e8bb8327aeed67742e8000b62bf3f36bc0e2c",
     "data/results/mycoplasmatales_phylogeny/tree_labels.tsv": "16674cab12f998ab3dc3c3ba8633ebe7089a585a67a6009e63ab233ec292e344",
     "figures/cohort/sample_metadata.tsv": "ac1526a2892389d8a8b6d3949a68a7994e88dabed47e6f838f647f7b3ef4c411",
     "config/mycoplasmatales_source_hosts.tsv": "d575dce7ee473eac2c537e887a7230f3ae1d21a493c9a75b2ec2d10d6aef29e8"
   },
+  "phylogeny": {
+    "software": "IQ-TREE 3.0.1",
+    "model": "LG+F+I+R10",
+    "support": [
+      "SH-aLRT percent",
+      "ultrafast bootstrap percent"
+    ],
+    "outgroup": "94 Acholeplasmataceae genomes",
+    "independent_searches": 5,
+    "support_replicates_per_search": 1000,
+    "retained_result": "Highest-likelihood search; supports are not pooled"
+  },
   "outputs_sha256": {
-    "figures/mycoplasmatales/phylogeny_focus.pdf": "f8cc58b34608589acb08d16734832aa0f29b1118906f2e5ff952aefd457465f1",
-    "figures/mycoplasmatales/phylogeny_focus.png": "eea5b7c2ec810391ee851cae9cd4aa025dfc88793e0d08537444d6ed1949bc99",
-    "figures/mycoplasmatales/source_phylogeny_focus.tsv": "659c639c4a0050f8c8038ee0f024f513ce4671a694314fbac5274a9c0150f2e5",
-    "figures/mycoplasmatales/source_phylogeny_hosts.tsv": "a73fb9c80e65ca23a48fd9085e4fddba2a23a417a5626d378f09e920ca978e5d"
+    "figures/mycoplasmatales/phylogeny_focus.pdf": "35be0b9c88d6a483442cd8d831f2dab5c076867de814697efc094102d63ba571",
+    "figures/mycoplasmatales/phylogeny_focus.png": "7ec659f5d7c3a199e74ed062798a91aa1db4822053b077bfcc48b30e15346107",
+    "figures/mycoplasmatales/source_phylogeny_focus.tsv": "456b8217d0f1e83b55a6b9a42bebaac77a73424f00c7c9fc38a9e9fec148a008",
+    "figures/mycoplasmatales/source_phylogeny_hosts.tsv": "581e8739875c2270ac64338054acda4ae90ba03053987aaee8ac1ab389eb2737",
+    "figures/mycoplasmatales/source_phylogeny_support.tsv": "50436d0e938525d34b72d1ace2cd7093ef739d0ddb638986f82d0cfbf96addf1",
+    "figures/mycoplasmatales/values.tex": "19e76e4e58ef8f6b4c94ca49e143e4133176f9c3a730d78dc99980f662729243"
   },
   "checks": [
     "483 unique tree tips; 21 in focal MRCA",
+    "94-tip outgroup split verified; edge lengths and support preserved on rerooting",
     "All seven siphonophore MAGs retained",
     "Input hashes unchanged during rendering",
     "Source-host and clade rows share exact tree-tip y coordinates",
@@ -34,7 +52,7 @@
     "Every reference accession has a reviewed host or environmental source record"
   ],
   "limits": [
-    "Existing tree and GTDB r220 classifications reused, not recomputed",
+    "Completed IQ-TREE inference and GTDB r220 classifications reused, not recomputed",
     "The source tree contains duplicate assembly GCA_929200685.1",
     "Environmental samples do not establish an organismal host; host clade shown as a dash",
     "Visual and font inspection recorded separately after rendering"

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "source_base_git_revision": "1d7476d21222c90364682196940af25d9288337b",
+  "source_base_git_revision": "86165ec737c8c1cae0d722ced585d0dbcab2d8cb",
   "source_worktree_dirty": true,
-  "exported_utc": "2026-10-25T23:27:45.621982+00:00",
+  "exported_utc": "2026-10-27T01:06:23.985967+00:00",
   "command": "python3 scripts/export_supporting_tables.py",
   "selection": "config/supporting_tables.tsv",
-  "selection_sha256": "fef3654c4cd9b4c9c1fed6659dbd164d59b04e3700a71b0066e07d8818a8b699",
+  "selection_sha256": "88bdc88990ceec36dc3b435f185f3b043093022742e339db1a3cf1c3d752ba32",
   "script_sha256": "26286d906e500b58555446e1a94e766f0ee5962b9f757212a873d4a706dd6cc7",
   "artifacts": [
     {
@@ -53,7 +53,7 @@
     {
       "source": "data/results/mycoplasmatales_phylogeny/mycoplasmatales.bac120.decorated.tree",
       "destination": "tables/mycoplasmatales/mycoplasmatales.bac120.decorated.tree",
-      "purpose": "phylogeny supporting data",
+      "purpose": "historical FastTree input; reported phylogeny uses the IQ-TREE export",
       "bytes": 24294,
       "sha256": "4a8cb9021eb75aa934e8c07768f70f256f14b44ea30d95579673d75ab10a3c2d"
     },
@@ -61,8 +61,8 @@
       "source": "figures/mycoplasmatales/source_phylogeny_focus.tsv",
       "destination": "tables/mycoplasmatales/source_phylogeny_focus.tsv",
       "purpose": "figure source data",
-      "bytes": 13781,
-      "sha256": "659c639c4a0050f8c8038ee0f024f513ce4671a694314fbac5274a9c0150f2e5"
+      "bytes": 14386,
+      "sha256": "456b8217d0f1e83b55a6b9a42bebaac77a73424f00c7c9fc38a9e9fec148a008"
     },
     {
       "source": "data/results/mycoplasmatales_phylogeny/tree_labels.tsv",
@@ -399,6 +399,62 @@
       "purpose": "direct trematode comparison",
       "bytes": 19151,
       "sha256": "261d1576dcaa73e3c4a1de11575134e6b054bb431f4c5dbb7181ad27e9b007e3"
+    },
+    {
+      "source": "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/bac120.treefile",
+      "destination": "tables/mycoplasmatales/iqtree/bac120.treefile",
+      "purpose": "accepted IQ-TREE inference and provenance",
+      "bytes": 25960,
+      "sha256": "81882d021b827e9641964c5dc2d8c7eccff890fdabdac729a0d686b5ad9b79a5"
+    },
+    {
+      "source": "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/bac120.iqtree",
+      "destination": "tables/mycoplasmatales/iqtree/bac120.iqtree",
+      "purpose": "accepted IQ-TREE inference and provenance",
+      "bytes": 200603,
+      "sha256": "9757ac89f5ef18349f9d20bf7c0a8a4377a7834221103e7d566dcf418faa554b"
+    },
+    {
+      "source": "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/bac120.runtrees",
+      "destination": "tables/mycoplasmatales/iqtree/bac120.runtrees",
+      "purpose": "accepted IQ-TREE inference and provenance",
+      "bytes": 129870,
+      "sha256": "69d89bcef0d9c17c08a722cac8fbb237d8cb0d4def130b0bb71c9474af97e304"
+    },
+    {
+      "source": "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/input/outgroup.txt",
+      "destination": "tables/mycoplasmatales/iqtree/outgroup.txt",
+      "purpose": "accepted IQ-TREE inference and provenance",
+      "bytes": 1786,
+      "sha256": "92deccb3e003d6bda9ca94fd2121cae9c48865ea997128129c59904bed01846b"
+    },
+    {
+      "source": "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/input/inputs.json",
+      "destination": "tables/mycoplasmatales/iqtree/inputs.json",
+      "purpose": "accepted IQ-TREE inference and provenance",
+      "bytes": 4171,
+      "sha256": "f2c3f715df663052d1f16a9db02cbead4edc3aa62ea7f1b9911f3345d782413f"
+    },
+    {
+      "source": "data/results/mycoplasmatales_phylogeny/iqtree3/2026-10-25/inference_complete.json",
+      "destination": "tables/mycoplasmatales/iqtree/inference_complete.json",
+      "purpose": "accepted IQ-TREE inference and provenance",
+      "bytes": 91,
+      "sha256": "a64da11d8a98998bebfe03ac777e8bb8327aeed67742e8000b62bf3f36bc0e2c"
+    },
+    {
+      "source": "figures/mycoplasmatales/source_phylogeny_support.tsv",
+      "destination": "tables/mycoplasmatales/source_phylogeny_support.tsv",
+      "purpose": "accepted IQ-TREE support and manuscript values",
+      "bytes": 3103,
+      "sha256": "50436d0e938525d34b72d1ace2cd7093ef739d0ddb638986f82d0cfbf96addf1"
+    },
+    {
+      "source": "figures/mycoplasmatales/values.tex",
+      "destination": "tables/mycoplasmatales/values.tex",
+      "purpose": "accepted IQ-TREE support and manuscript values",
+      "bytes": 244,
+      "sha256": "19e76e4e58ef8f6b4c94ca49e143e4133176f9c3a730d78dc99980f662729243"
     }
   ]
 }
