@@ -2,6 +2,9 @@
 
 The validation launchers keep software, temporary files and results on GPFS.
 They neither submit sequences nor supply author contact information.
+For completed checks, remaining blockers and the subsequent NCBI steps, see
+the [submission guide](ncbi_submission.md). The commands below are for tool
+setup and local checks; completed steps need repeating when their inputs change.
 
 Install table2asn and the ribotyper component of Ribovore from their official
 sources with `sbatch -p ycga scripts/install_deposit_validation_tools.sbatch`.

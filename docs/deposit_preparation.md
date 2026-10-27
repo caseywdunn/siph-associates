@@ -1,5 +1,9 @@
 # Preparing sequences for public deposition
 
+For the current progress checklist and the steps from these files to accession
+registration and release, see [Submitting the recovered sequences to NCBI](ncbi_submission.md).
+That guide also identifies unresolved submission routes for reused reads.
+
 The deposit workflow makes curated copies of the MAGs and packages the viral,
 non-host SSU and trematode-marker sequences. Viral associates and sequences
 reclassified as endogenous candidates are packaged separately using
@@ -50,7 +54,7 @@ Inspect `data/results/deposit/bundle/`:
 | `mags/` and `sets/` | Curated MAG FASTAs and combined sequence sets for screening |
 | `source_evidence/` | Existing source/feature evidence for viral, SSU and marker sequences |
 | `validation_inputs/` | Draft MAG `.fsa`/`.src` inputs and explicit tool, template and feature-review gaps |
-| `status.json` | Current preparation scope and the outstanding author/validation steps |
+| `status.json` | Preparation-time scope and blockers; later progress is recorded in execution reports and the submission guide's dated checklist |
 
 The MAG selection uses completeness ≥90%, total length ≥100 kb and contigs
 ≥200 bp, with explicit exclusions for the unrefined mixed-strain MAGSP0028 and
@@ -105,6 +109,9 @@ A real author submission template (`.sbt`) is required for table2asn. The workfl
 does not invent contact details or a submission citation. MAG source tables use
 the recorded metadata; viral, SSU and marker source and feature tables still need
 sequence-specific review. Draft input files do not establish successful validation.
+The alternative unannotated FASTA submission route supplies author information
+in the portal and can request NCBI PGAP annotation; see the
+[submission guide](ncbi_submission.md#4-choose-genome-annotation-and-validate-the-final-payload).
 
 The NCBI name `Metamycoplasmataceae bacterium` (taxid 2979199) is verified. The
 installed GX database, built 2023-01-24, assigns its BLAST division only as

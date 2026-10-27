@@ -142,12 +142,17 @@ and markers remains pending. Some steps also require reviewed intermediate input
 A clone alone is therefore insufficient for a complete rerun. The stage guides identify
 these requirements and where outputs are written.
 
-The provisional [organism-name crosswalk](config/mag_organism_names.tsv) records
-proposed NCBI names for genome deposit and marks unresolved entries.
-Sequence files and screening reports are prepared separately from the mapping
-catalogs; catalog read mapping is not repeated during deposit preparation.
-FCS-GX screens the cleaned sequence files before final deposit validation.
-Submission and publication of the sequence archive remain author follow-up.
+The [NCBI submission guide](docs/ncbi_submission.md) provides a progress
+checklist and instructions for BioProject/BioSample registration, bacterial
+genomes, viral and marker sequences, validation, accession tracking and release.
+It identifies the remaining metadata and submission-route decisions for these
+reused sequencing data. The [sequence preparation guide](docs/deposit_preparation.md)
+and [local validation guide](docs/deposit_validation.md) describe the existing
+cluster commands and draft outputs. The provisional
+[organism-name crosswalk](config/mag_organism_names.tsv) records proposed NCBI
+names and unresolved entries. Deposit preparation preserves the mapping
+catalogs; catalog read mapping is not repeated. Submission and publication of
+the sequence archive remain pending.
 
 ## Citation and development
 
