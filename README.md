@@ -1,12 +1,14 @@
 # Organisms associated with siphonophores
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23441461.svg)](https://doi.org/10.5281/zenodo.23441461)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23441460.svg)](https://doi.org/10.5281/zenodo.23441460)
 
 This repository contains the analyses accompanying:
 
 **Organisms associated with siphonophores revealed by short-read whole-genome sequencing**
 
-*Manuscript citation and public link to be added.*
+Dunn CW, Ahuja N, Destanović D, Mańko MK, Dal Bello M, Church SH (2026).
+[bioRxiv preprint v1](https://doi.org/10.64898/2026.10.29.762746),
+posted 2026-10-31.
 
 We examine DNA from bacteria, viruses, prey and parasites captured
 alongside siphonophore DNA during genome sequencing. The study screens 213 specimens:
@@ -156,11 +158,12 @@ the sequence archive remain pending.
 
 ## Citation and development
 
-The v0.5.0 code release is archived on Zenodo at
-[doi:10.5281/zenodo.23441461](https://doi.org/10.5281/zenodo.23441461).
-That archived release precedes the current 213-library reporting and does
-not contain the reconstructed sequence deposit. Use the files linked above for
-the current paper; the archive is a versioned code snapshot.
-The manuscript citation and public supplementary-material link will be added when
-available. [Workflow documentation checks](dev_docs/workflow-documentation.md)
+The versioned code releases are archived under the
+[Zenodo concept DOI](https://doi.org/10.5281/zenodo.23441460). The v0.6.0
+release accompanies preprint v1 and includes the current 213-library reporting.
+The earlier [v0.5.0 archive](https://doi.org/10.5281/zenodo.23441461)
+precedes that reporting. The archives do not contain the reconstructed sequence
+deposit; use the files linked above for the current paper. The public
+supplementary-material link will be added when available.
+[Workflow documentation checks](dev_docs/workflow-documentation.md)
 and [execution records](RUNLOG.md) are maintained separately from the methods guides.
